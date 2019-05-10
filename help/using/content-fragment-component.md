@@ -10,7 +10,7 @@ topic-tags: 创作
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93 a50 e6870
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
 
 ## 技术详细信息 {#technical-details}
 
-有关内容片段组件 [的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)上找到。
+有关内容片段组件 [的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment)上找到。
 
 有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
 
