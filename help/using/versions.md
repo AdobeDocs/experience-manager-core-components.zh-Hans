@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938dfc
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -65,21 +65,21 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
 
 | Release | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入了内容片段列表组件 | 6.3.3.0 | 6.4.2.0 | 6.5.0.0 | 1.8 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本侧重于对组件库进行细化，但还包含对分隔符组件的一些功能增强功能 | 6.3.3.0 | 6.4.2.0 | 6.5.0.0 | 1.8 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本侧重于组件库以及引入新的分隔符组件，但还包含对图像组件的一些功能增强功能 | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此版本主要侧重于缺陷修复，但还包含针对传送组件的一些功能增强功能 | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 引入的制表符和传送组件，对图像、页面和标题组件以及增强跟踪的改进 | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 引入的Teaser组件、图像组件改进和大量错误修复 | 6.3.3.0 | 6.4.2.0 | 1.8 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Bugfix版本 | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 附加的改进、缺陷修复以及小改进，包括支持图像翻转。 | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 大多数改进、缺陷修复以及对图像、页面和内容片段组件的一些细微改进 | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 引入了导航、语言导航和快速搜索组件。为所有组件实现样式系统。 | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 在所有组件上实施JSON导出，引入内容片段组件 | 6.3.1.0 | 6.4.0.0 | 1.8 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 图像组件的几个修复 | 6.3.0.0 | 6.4.0.0 | - | 1.8 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 页面组件的修复、图像组件、各种全局修复和改进 | 6.3.0.0 | 6.4.0.0 | - | 1.8 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 针对图像组件中的动画GIF图像修复 | 6.3.0.0 | 6.4.0.0 | - | 1.7 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心组件的初始发行版 | 6.3.0.0 | 6.4.0.0 | - | 1.7 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入了内容片段列表组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本侧重于对组件库进行细化，但还包含对分隔符组件的一些功能增强功能 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本侧重于组件库以及引入新的分隔符组件，但还包含对图像组件的一些功能增强功能 | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此版本主要侧重于缺陷修复，但还包含针对传送组件的一些功能增强功能 | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 引入的制表符和传送组件，对图像、页面和标题组件以及增强跟踪的改进 | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 引入的Teaser组件、图像组件改进和大量错误修复 | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Bugfix版本 | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 附加的改进、缺陷修复以及小改进，包括支持图像翻转。 | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 大多数改进、缺陷修复以及对图像、页面和内容片段组件的一些细微改进 | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 引入了导航、语言导航和快速搜索组件。为所有组件实现样式系统。 | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 在所有组件上实施JSON导出，引入内容片段组件 | 6.3.1.0 | 6.4.0.0+ | - | 8 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 图像组件的几个修复 | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 页面组件的修复、图像组件、各种全局修复和改进 | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 针对图像组件中的动画GIF图像修复 | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心组件的初始发行版 | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
 
 >[!NOTE]
 >
