@@ -4,7 +4,7 @@ product: adobe experience manager核心组件
 archtype: 管理员
 user-guide-title: AEM核心组件
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -55,6 +55,6 @@ source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
          + [表单选项 (v1)](form-options-v1.md)
 + 开发 {#developing}
    + [开发核心组件](developing.md)
-   + [WKD开发人员教程](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html)
+   + [WKD开发人员教程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [自定义核心组件](customizing.md)
    + [组件指南](guidelines.md)
