@@ -9,7 +9,7 @@ content-type: 引用
 topic-tags: 核心组件
 discoiquuid: e597c18e-3643-41be -9788-a7872 f1 ab90
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 

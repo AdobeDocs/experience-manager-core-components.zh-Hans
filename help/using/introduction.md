@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658 fe29 aa2
 translation-type: tm+mt
-source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
+source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
 
 ---
 
