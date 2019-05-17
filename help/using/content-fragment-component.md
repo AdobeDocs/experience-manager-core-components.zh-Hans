@@ -10,7 +10,7 @@ topic-tags: 创作
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93 a50 e6870
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
 
 ---
 
@@ -40,6 +40,18 @@ source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
 | 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
 | v1 | 兼容 | 兼容 | 兼容 |
+
+>[!NOTE]
+>
+>在发布2.4.0之前，内容片段组件位于扩展文件夹中。
+>
+> `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
+> 
+>从2.4.0开始，它已移至以下位置。
+>
+>`apps/core/wcm/components/contentfragment/v1/contentfragment`
+>
+>尽管两者都是v1，但从扩展文件夹使用的任何内容片段组件都需要迁移其相关代理组件，以便在升级到核心组件的发行版2.4.0或更高版本时使用新的资源类型。
 
 有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
 
