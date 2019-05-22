@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -132,13 +132,13 @@ Load the Core Client Libraries sounds way better
 
 ## 允许组件 {#allow-the-components}
 
-以下步骤通常在 [模板编辑器中完成](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)，但对于现有设置，此操作可能在设计模式下完成：
+以下步骤在 [模板编辑器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)中执行。
 
-1. 在模板编辑器(或设计模式)中，选择布局容器(或parsys)，然后打开其策略(或设计配置)。
+1. 在模板编辑器中，选择布局容器，然后打开其策略。
 1. 在允许组件列表中，选择之前创建的代理组件，该组件应显示在分配给它们的组件组下方。完成后，应用更改。
 1. 或者，对于具有设计对话框的组件，可以预配置这些组件。
 
-也就是说，在通过编辑的模板创建的页面中，您现在应该能够使用新创建的组件。
+就是这样！在已编辑的模板中创建的页面中，您现在应当能够使用新创建的组件。
 
 **阅读下一步：**
 
