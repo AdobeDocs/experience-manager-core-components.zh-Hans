@@ -8,7 +8,7 @@ content-type: 引用
 topic-tags: 创作
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -19,25 +19,25 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 核心组件提供灵活、功能丰富的创作功能。[We. Retail引用站点](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 介绍了核心组件的使用方式。
 
+要体验核心组件并查看其配置选项的示例以及HTML和JSON输出，请访问 [组件库](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)。
+
 >[!NOTE]
 >
->核心组件不可立即供作者使用， [开发团队必须首先将其集成到您的环境](using.md)中。集成后，可以通过 [模板编辑器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 或 [在设计模式](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)下使用和预配置它们。
+>核心组件不可立即供作者使用， [开发团队必须首先将其集成到您的环境](using.md)中。集成后，可以通过 [模板编辑器提供和预配置](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)它们。
 
 >[!CAUTION]
 >
->核心组件 [需要AEM6.3或更高版本](versions.md) ，并且不能与经典UI一起使用。
+>核心组件 [需要AEM6.3或更高版本](versions.md) ，并且需要使用 [可编辑的模板](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。它们不适用于经典UI和静态模板。
 
 ## 通过核心组件创作 {#authoring-with-core-components}
-
-要了解核心组件，请查看 [组件库，该库](http://opensource.adobe.com/aem-core-wcm-components/library.html)显示核心组件并提供其用法示例。
 
 作为作者，您将注意核心组件的几个优势，包括：
 
 * 简单易用并与 [页面编辑器紧密集成](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
-* 功能丰富，可满足We. Retail [中所说明的许多用例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)
-* [可预先配置](#pre-configuring-core-components) ，以定义哪些功能可供页面作者使用
-   * 通过可编辑模板的 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)[模板编辑器](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html)
-   * 通过 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)[静态模板的设计模式](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)
+
+* 功能丰富，可容纳We. Retail以及 [](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)[组件库中所说明的许多用例](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+
+* [可预配置](#pre-configuring-core-components) ，可定义通过 [模板编辑器可供页面作者使用的功能](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * 围绕 [辅助功能指导原则构建](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
@@ -55,7 +55,7 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 ## 预配置核心组件 {#pre-configuring-core-components}
 
-配置基础组件是开发人员的工作。但是，利用核心组件，模板作者现在可以通过模板编辑器或设计模式配置许多功能。
+配置基础组件是开发人员的工作。但是，利用核心组件，模板作者现在可以通过模板编辑器配置许多功能。
 
 例如，如果图像组件不应允许从文件系统上传图像，或者文本组件只应允许某些段落格式，则只需单击一下，即可启用或禁用这些功能。
 
