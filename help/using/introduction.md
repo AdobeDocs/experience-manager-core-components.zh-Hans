@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658 fe29 aa2
 translation-type: tm+mt
-source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -94,7 +94,7 @@ source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
 
 ## WKD开发人员教程 {#wknd-developer-tutorial}
 
-[通过分步教程，开始使用核心组件开发AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+通过 [分步教程，开始使用核心组件开发AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## 核心组件支持 {#core-components-support}
 
@@ -115,4 +115,4 @@ source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
 
 由于基础组件已经作为许多版本的如此多的项目开发基础，它们将继续支持可预见的未来。
 
-但是，Adobe的开发重点已转移到核心组件中，新功能将添加到这些组件中，而将对基础组件进行错误修复。
+但是，Adobe的开发重点已转向核心组件和新功能，而 [几乎所有的Foundation组件都已在AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) 中弃用，并且将对未来的基础组件进行错误修复。
