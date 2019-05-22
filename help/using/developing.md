@@ -10,7 +10,7 @@ topic-tags: developing
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013 eeb218
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -45,9 +45,9 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 >[!CAUTION]
 >
->核心组件需要AEM6.3或更高版本以及Java8。
+>核心组件需要AEM6.3或更高版本以及Java8，并且需要使用 [可编辑的模板](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
->核心组件不能与经典UI一起使用。
+>核心组件不适用于经典UI和静态模板。
 
 ## Gems会话概述 {#gems-session-overview}
 
@@ -57,7 +57,7 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 ## WKD开发人员教程 {#wknd-developer-tutorial}
 
-[通过分步教程，开始使用核心组件开发AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+通过 [此分步教程开始使用核心组件开发AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## 通过GitHub交付 {#delivered-over-github}
 
@@ -168,7 +168,22 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 * **现有自定义组件**如果您的组件按预期工作，则保留它们不变。\
    如果没有，请参阅上面的“新建自定义组件”。
 
-### 核心组件支持 {#core-component-support}
+## 迁移到核心组件
+
+任何新项目都应通过核心组件进行实施。但是，现有项目通常会大量实施基础组件。
+
+对现有项目(例如品牌或整体重构)的更大努力通常会提供迁移到核心组件的机会。为了促进迁移，Adobe提供了许多迁移工具，以鼓励采用核心组件和最新AEM技术。
+
+[AEM现代化工具套件](https://github.com/adobe/aem-modernize-tools) 允许您轻松转换：
+
+* 可编辑模板的静态模板
+* 设计配置到策略
+* 核心组件的基础组件
+* 与触屏优化UI的经典UI
+
+有关使用这些工具的更多信息，请 [参阅他们的文档](https://www.adobe.com/go/aem_modernize_tools_en)。
+
+## 核心组件支持 {#core-component-support}
 
 核心组件是AEM不可分割的一部分，按相同的条款和条件提供支持，如同它们是作为快速入门的一部分提供的一样。
 
@@ -178,11 +193,11 @@ source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
 
 有关组件自定义支持的详细信息，请参阅 [自定义核心组件](customizing.md) 页面。
 
-### 基础组件支持 {#foundation-component-support}
+## 基础组件支持 {#foundation-component-support}
 
-由于基础组件已经作为许多版本的如此多的项目开发基础，因此它们将继续支持可预见的未来。
+由于基础组件已经作为许多AEM版本上如此多的项目开发基础，它们将继续支持可预见的未来。
 
-但是，Adobe的开发重点已转移到核心组件中，新功能将添加到这些组件中，而将对基础组件进行错误修复
+但是，Adobe的开发重点已转向核心组件和新功能，而 [几乎所有的Foundation组件都已在AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) 中弃用，并且将对未来的基础组件进行错误修复。
 
 **阅读下一步：**
 
