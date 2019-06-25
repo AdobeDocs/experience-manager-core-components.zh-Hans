@@ -11,12 +11,12 @@ products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: ed237df-08b8-4deb-9881-66a1f0d65ef3
 modalsize: 426 x 240
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: c58826c133eb112b305fa4facbe2a81e577eb896
 
 ---
 
 
-# 痕迹导航组件{#breadcrumb-component}
+# Breadcrumb Component{#breadcrumb-component}
 
 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层次结构中的位置构建了链接痕迹导航。
 
@@ -24,9 +24,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 痕迹导航组件显示站点层次结构中当前页面的位置，允许页面访问者从其当前位置导航页面层次结构。这通常集成到页眉或页脚中。
 
-可在 [设计对话框中由模板作者定义可用选项，如默认导航级别以及显示当前页面或隐藏页面的能力](#design-dialog)。内容编辑器随后可以选择是否应显示隐藏页面以及 [编辑对话框中组件的实际导航级别](#edit-dialog)。
+Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](#design-dialog). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](#edit-dialog).
 
-## 版本和兼容性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 Breadcrumb Component的当前版本是v2，它是在2018年月核心组件发行版中引入的，它在本文档中进行了介绍。
 
@@ -37,94 +37,23 @@ Breadcrumb Component的当前版本是v2，它是在2018年月核心组件发行
 | v2 | 兼容 | 兼容 | 兼容 |
 | [v1](breadcrumb-v1.md) | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## 示例组件输出 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下示例取自 [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
-
-### 屏幕快照 {#screenshot}
-
-![](assets/chlimage_1.png)
-
-### HTML {#html}
-
-```
-<nav class="cmp-breadcrumb">
-    <ol class="cmp-breadcrumb__list">
-        <li class="cmp-breadcrumb__item">
-            <a href="/content/we-retail/us.html" class="cmp-breadcrumb__item-link">
-                United States
-            </a>
-        </li>
-    
-        <li class="cmp-breadcrumb__item">
-            <a href="/content/we-retail/us/en.html" class="cmp-breadcrumb__item-link">
-                English
-            </a>
-        </li>
-    
-        <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active">
-            
-                Experience
-            
-        </li>
-    </ol>
-</nav>
-```
-
-### JSON {#json}
-
-```
-"breadcrumb":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "items":[  
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us",
-                              "pageTitle":null,
-                              "name":"us",
-                              "description":null,
-                              "title":"United States"
-                           },
-                           "active":false
-                        },
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us/en",
-                              "pageTitle":null,
-                              "name":"en",
-                              "description":null,
-                              "title":"English"
-                           },
-                           "active":false
-                        },
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us/en/experience",
-                              "pageTitle":null,
-                              "name":"experience",
-                              "description":null,
-                              "title":"Experience"
-                           },
-                           "active":true
-                        }
-                     ],
-                     ":type":"weretail/components/content/breadcrumb"
-                  }
-```
+To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb.html).
 
 >[!NOTE]
 >
->从核心组件版本2.1.0开始，痕迹导航组件支持 [schema.org微数据](https://schema.org/BreadcrumbList)。
+>As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
 
-### 技术详细信息 {#technical-details}
+## Technical Details {#technical-details}
 
-有关痕迹导航组件 [的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)上找到。
+The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
 
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-## 编辑对话框 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 编辑对话框允许内容作者禁止痕迹导航中的隐藏和活动页面以及纵向应显示的层次结构中的深度。
 
@@ -132,19 +61,19 @@ Breadcrumb Component的当前版本是v2，它是在2018年月核心组件发行
 
 * **导航开始级别** -在层次结构中，痕迹导航组件应开始向下导航到当前页面。例如We. Retail：
 
-   * 开始时开始 `/content`
+   * 0 starts at `/content`
 
-   * 开始1 `/content/we-retail`
-   * 开始时开始 `/content/we-retail/<country>`
+   * 1 starts at `/content/we-retail`
+   * 2 starts at `/content/we-retail/<country>`
 
 * **显示隐藏的导航项目** -在痕迹导航中显示标记为隐藏的页面(默认情况下不显示它们)
 * **隐藏当前页面**-禁止痕迹导航中的当前页面(默认情况下将显示它)
 
-## 设计对话框 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 设计对话框允许模板作者定义默认值，这些值用于禁止痕迹导航中隐藏和活动页面的隐藏以及其应显示的层次结构中的深度。
 
-### 主选项卡 {#main-tab}
+### Main Tab {#main-tab}
 
 ![](assets/screen_shot_2018-01-12at124437.png)
 
@@ -157,6 +86,6 @@ Breadcrumb Component的当前版本是v2，它是在2018年月核心组件发行
 
    * 它不为作者启用或禁用选项。它只设置默认值。
 
-### 样式选项卡 {#styles-tab}
+### Styles Tab {#styles-tab}
 
-痕迹导航组件支持AEM [Style System](authoring.md#component-styling)。
+The Breadcrumb Component supports the AEM [Style System](authoring.md#component-styling).
