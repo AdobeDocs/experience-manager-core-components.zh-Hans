@@ -10,7 +10,7 @@ topic-tags: 创作
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -23,9 +23,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 图像组件可轻松放置图像资源并提供就地编辑功能。它包含延迟加载以及内容作者裁剪的自适应图像选择。
 
-设计对话框中的模板作者可以定义图像宽度以及裁剪和其他 [设置](#design-dialog)。内容编辑器可以在 [配置对话框](#configure-dialog) 中上传或选择资产，并在 [编辑对话框中裁剪图像](#edit-dialog)。为了方便起见，还提供了简单的就地修改图像。
+The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog](#configure-dialog) and crop the image in the [edit dialog](#edit-dialog). 为了方便起见，还提供了简单的就地修改图像。
 
-## 版本和兼容性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 图像组件的当前版本是v2，它是在2018年月版的核心组件中引入的，它在文档中进行了介绍。
 
@@ -36,9 +36,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 | v2 | 兼容 | 兼容 | 兼容 |
 | [v1](image-v1.md) | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## SVG支持 {#svg-support}
+## SVG Support {#svg-support}
 
 可缩放矢量图形(SVG)由图像组件支持。
 
@@ -48,65 +48,57 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 安全 {#security}
 
-由于安全原因，图像编辑器从不直接调用原始SVG。调用它 `<img src=“path-to-component”>`。因此，浏览器可防止嵌入到SVG文件中的脚本执行。
+由于安全原因，图像编辑器从不直接调用原始SVG。It is called through `<img src=“path-to-component”>`. 因此，浏览器可防止嵌入到SVG文件中的脚本执行。
 
 >[!CAUTION]
 >
->SVG支持需要核心组件的2.1.0版本以及AEM6.4或适用于AEM6.3或更高版本的Service Pack的更高版本( [](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 用于AEM6.3或更高 [版本)](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) ，以支持 [AEM中的新图像编辑器功能](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) 。
+>SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
-## 示例组件输出 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下示例取自 [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+To experience the Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
 
-### 屏幕快照 {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/chlimage_1-7.png)
+The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
 
-### 组件库
-
-要体验图像组件以及查看其配置选项的示例以及HTML和JSON输出，请访问 [组件库](http://opensource.adobe.com/aem-core-wcm-components/library/image.html)。
-
-### 技术详细信息 {#technical-details}
-
-有关图像组件 [的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)上找到。
-
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 >[!NOTE]
 >
->从核心组件版本2.1.0开始，图像组件支持 [schema.org微数据](https://schema.org)。
+>As of Core Components release 2.1.0, the Image Component supports [schema.org microdata](https://schema.org).
 
-## 配置对话框 {#configure-dialog}
+## Configure Dialog {#configure-dialog}
 
-除了标准 [编辑对话框](#edit-dialog) 和 [设计对话框](#design-dialog)外，图像组件还提供了一个配置对话框，其中定义了图像本身及其描述和基本属性。
+In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#design-dialog), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
 
-### 资产选项卡 {#asset-tab}
+### Asset Tab {#asset-tab}
 
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **图像资产**
-   * 从 [资产浏览器中拖放资产](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) 或点击 **浏览** 选项以从本地文件系统上传。
-   * 点按或单击 **清除** 可取消选择当前选定的图像。
-   * 点按或单击 **编辑** 可 [在资产编辑器](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) 中合并资产的演绎版。
+   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Tap or click **Clear** to de-select the currently selected image.
+   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
 
-### 元数据选项卡 {#metadata-tab}
+### Metadata Tab {#metadata-tab}
 
 ![](assets/screen_shot_2018-01-08at114527.png)
 
-* **图像为装饰性**检查是否应通过辅助技术忽略图像，因此不需要替代文本。这仅适用于装饰图像。
-* **为视觉障碍的读者提供的替代文本**的替代文本或功能的替代文本。
-   * 从DAM中获取替代文本-选中图像的替代文本后，将填充DAM中 `dc:description` 元数据的值。
+* **图像为装饰性** 检查是否应通过辅助技术忽略图像，因此不需要替代文本。这仅适用于装饰图像。
+* **为视觉障碍的读者提供的替代文本** 的替代文本或功能的替代文本。
+   * Get alternative text from DAM - When checked the image&#39;s alternative text will be populated with the value of the `dc:description` metadata in DAM.
 
-* **题注**有关图像的其他信息，默认情况下显示在图像下方。
-   * **从DAM**中获取题注时，图像的题注文本将填充DAM `dc:title` 中元数据的值。
-   * **显示题注作为弹出**窗口在选中时，题注不会显示在图像下方，但作为鼠标悬停在图像上方时显示的弹出窗口。
+* **题注** 有关图像的其他信息，默认情况下显示在图像下方。
+   * **从DAM** 中获取题注时，图像的题注文本将填充DAM `dc:title` 中元数据的值。
+   * **显示题注作为弹出** 窗口在选中时，题注不会显示在图像下方，但作为鼠标悬停在图像上方时显示的弹出窗口。
 
 * **链接**
    * 将图像链接到其他资源。
    * 使用选择对话框链接到其他AEM资源。
    * 如果不链接到AEM资源，请输入绝对URL。非解决的URL将解释为相对于AEM的URL。
 
-## 编辑对话框 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 编辑对话框允许内容作者裁切、修改启动图和缩放图像。
 
@@ -118,8 +110,8 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
    选择此选项将打开预定义裁剪比例的下拉列表。
 
-   * 选择“ **Free Hand** ”选项可定义您自己的裁剪。
-   * 选择 **“删除裁剪** ”选项可显示原始资产。
+   * Choose the option **Free Hand** to define your own crop.
+   * Choose the option **Remove Crop** to display the original asset.
    选择裁剪选项后，使用蓝色手柄在图像上调整裁剪大小。
 
    ![](assets/chlimage_1-10.png)
@@ -146,7 +138,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
    >[!CAUTION]
    >
-   >Launch Map功能需要核心组件的发行版2.1.0以及AEM6.3或用于AEM6.3或更高版本的Service Pack的更高版本( [](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 用于AEM6.3或更高 [版本)](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) ，以支持 [AEM中的新图像编辑器功能](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) 。
+   >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
    ![](assets/chlimage_1-12.png)
 
@@ -165,7 +157,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
    * **路径**
       * 使用路径选取器选项在AEM中选择路径
       * 如果路径不在AEM中，请使用绝对URL。将根据AEM解释非绝对路径。
-   * **替代文本**路径目标的替换说明
+   * **替代文本** 路径目标的替换说明
    * **目标**
       * **相同选项卡**
       * **新选项卡**
@@ -197,11 +189,11 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 >
 >GIF图像不支持图像编辑操作(裁剪、翻转、旋转)。在编辑模式下进行的任何此类更改都不会被保留。
 
-## 设计对话框 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 设计对话框允许模板作者定义使用此组件时内容作者的裁剪、上传和旋转以及上传选项。
 
-### 主选项卡 {#main-tab}
+### Main Tab {#main-tab}
 
 **在主** 选项卡上，您可以为图像定义宽度列表以自动从列表中加载最合适的宽度。
 
@@ -209,19 +201,19 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ![](assets/screenshot_2018-10-19at102756.png)
 
-* **启用延迟加载**定义在将图像组件添加到页面时是否自动启用延迟加载选项。
-* **图像为装饰**定义在将图像组件添加到页面时，是否自动启用装饰图像选项。
-* **从DAM**定义替换文本，在将图像组件添加到页面时，是否会自动启用从DAM中检索替代文本的选项。
-* **从DAM**定义题注，定义在将图像组件添加到页面时是否自动启用从DAM检索题注的选项。
-* **显示题注作为弹出**式定义是否在将图像组件添加到页面时自动启用图像题注作为弹出窗口的选项。
-* **禁用UUID跟踪**检查以停用图像资产的UUID跟踪。
+* **启用延迟加载** 定义在将图像组件添加到页面时是否自动启用延迟加载选项。
+* **图像为装饰** 定义在将图像组件添加到页面时，是否自动启用装饰图像选项。
+* **从DAM** 定义替换文本，在将图像组件添加到页面时，是否会自动启用从DAM中检索替代文本的选项。
+* **从DAM** 定义题注，定义在将图像组件添加到页面时是否自动启用从DAM检索题注的选项。
+* **显示题注作为弹出** 式定义是否在将图像组件添加到页面时自动启用图像题注作为弹出窗口的选项。
+* **禁用UUID跟踪** 检查以停用图像资产的UUID跟踪。
 
-* **宽度**为图像定义宽度列表以使图像从列表自动加载最合适的宽度。
-   * 点按或单击 **添加** 按钮以添加其他大小。
+* **宽度** 为图像定义宽度列表以使图像从列表自动加载最合适的宽度。
+   * Tap or click the **Add** button to add another size.
       * 使用抓取手柄重新排列大小的顺序。
-      * 使用 **删除** 图标删除宽度。
+      * Use the **Delete** icon to remove a width.
    * 默认情况下，加载图像时会延迟加载图像。
-      * 选择“ **停用延迟加载** ”可在载入页面时加载图像。
+      * Select the option **Disable lazy loading** to load the images upon page load.
 * **JPEG质量**转换的(例如，缩放或裁剪)
 JPEG图像的质量因子(以百分比和100表示)。
 
@@ -231,29 +223,29 @@ JPEG图像的质量因子(以百分比和100表示)。
 
 >[!NOTE]
 >
->从核心组件的2.2.0版本开始，图像组件将唯一的UUID属性 `data-asset-id` 添加到图像资产，以允许跟踪和分析单个资产接收的查看次数。
+>As of release 2.2.0 of the Core Components, the Image Component adds the unique UUID attribute `data-asset-id` to the image asset to allow tracking and analysis of the number of views that individual assets receive.
 
-### 功能选项卡 {#features-tab}
+### Features Tab {#features-tab}
 
-在 **“功能** ”选项卡上，您可以定义内容作者在使用组件时可使用的选项，包括上传选项、方向和裁剪选项。
+On the **Features** tab you can define which options are available to the content authors when using the component including upload options, orientation, and cropping options.
 
 * 源
 
    ![](assets/chlimage_1-19.png)
 
-   选择 **“允许从文件系统上传资产”以** 允许内容作者从其本地计算机上传图像。要强制内容作者只从AEM中选择资产，请取消选中此选项。
+   Select the option **Allow asset upload from file system** to allow content authors to upload images from his or her local computer. 要强制内容作者只从AEM中选择资产，请取消选中此选项。
 
 * 方向
 
    ![](assets/chlimage_1-20.png)
 
-* **旋转**使用此选项允许内容作者使用 **“Roogle
+* **旋转** 使用此选项允许内容作者使用 **“Roogle
 Right** ”选项。
-* **翻转**使用此选项可允许内容作者使用“水平 **翻转”** 和“垂直 **翻转** ”选项。
+* **翻转** 使用此选项可允许内容作者使用“水平 **翻转”** 和“垂直 **翻转** ”选项。
 
    >[!CAUTION]
    >
-   >**默认** 情况下禁用“翻转”选项。启用该选项将在图像组件的编辑对话框中显示“垂直 **** 翻转”和 **** “水平翻转”按钮，但是，AEM当前不支持该功能，而使用这些选项所做的任何更改将不会被保留。
+   >**默认** 情况下禁用“翻转”选项。Enabling it will display the **Flip Vertically** and **Flip Horizontally** buttons in the edit dialog of the image component, however the feature is not currently supported by AEM and any changes made using these options will not be persisted.
 
 <!-- 
 Comment Type: remark
@@ -267,16 +259,16 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
    ![](assets/chlimage_1-21.png)
 
-   选择 **“允许裁剪** ”选项，以允许内容作者在编辑对话框中的组件中裁剪图像。
-   * 单击 **添加** 以添加预定义的裁剪长宽比。
-   * 输入一个描述性名称，该名称将显示在 **“开始裁剪”** 下拉菜单中。
+   Select the option **Allow crop** to allow the content author to crop the image in the component in the edit dialog.
+   * Click **Add** to add a pre-defined crop aspect ratio.
+   * Enter a descriptive name, which will be shown in the **Start Crop** dropdown.
    * 输入长宽比的数值。
    * 使用拖动手柄重新排列长宽比的顺序
    * 使用垃圾桶图标可删除长宽比。
    >[!CAUTION]
    >
-   >请注意，在AEM中，裁剪长宽比定义为 **高度/宽度**。这与传统的宽度/高度定义不同，并且出于传统兼容性原因而完成。只要您提供了一个清晰的比率名称，内容作者就不会注意到任何区别，因为该名称的名称是在UI中显示，而不是由比例本身显示。
+   >Note that in AEM, crop aspect ratios are defined as **height/width**. 这与传统的宽度/高度定义不同，并且出于传统兼容性原因而完成。只要您提供了一个清晰的比率名称，内容作者就不会注意到任何区别，因为该名称的名称是在UI中显示，而不是由比例本身显示。
 
-### 样式选项卡 {#styles-tab-1}
+### Styles Tab {#styles-tab-1}
 
-图像组件支持AEM [Style System](authoring.md#component-styling)。
+The Image Component supports the AEM [Style System](authoring.md#component-styling).
