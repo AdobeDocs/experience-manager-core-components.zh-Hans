@@ -7,7 +7,7 @@ contentOwner: Bohnert
 content-type: 引用
 topic-tags: 核心组件
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 分隔符组件允许内容作者在内容之间轻松创建水平规则，以更好地组织页面上的信息。
 
-## 版本和兼容性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 分隔符组件的当前版本是v1，它是在2019年月版的核心组件中引入的，它在文档中进行了介绍。
 
@@ -30,32 +30,24 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 |---|---|---|---|
 | v1 | 兼容 | 兼容 | 兼容 |
 
-## 示例组件输出 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下是取自 [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)的示例。
+To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
 
-### 屏幕快照 {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/screen_shot_2019-02-07at09.38.58.png)
+The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
 
-### 组件库
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-要体验分隔符组件以及查看其配置选项的示例以及HTML和JSON输出，请访问 [组件库](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html)。
-
-### 技术详细信息 {#technical-details}
-
-有关分隔符组件 [的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)。
-
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
-
-## 配置对话框 {#configure-dialog}
+## Configure Dialog {#configure-dialog}
 
 分隔符组件没有配置对话框。
 
-## 设计对话框 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 设计对话框允许模板作者定义应用于分隔符组件的样式。
 
-### 样式选项卡 {#styles-tab}
+### Styles Tab {#styles-tab}
 
-分隔符组件支持AEM [Style System](authoring.md#component-styling)。
+The Separator Component supports the AEM [Style System](authoring.md#component-styling).
