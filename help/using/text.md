@@ -9,7 +9,7 @@ content-type: 引用
 topic-tags: 核心组件
 discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -22,9 +22,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 文本组件提供了强大的富文本编辑器，它允许以简化的线内编辑器以及全屏格式轻松编辑文本。
 
-[编辑对话框](#edit-dialog) 具有有限的选项，可在全屏编辑对话框中提供具有完整功能的有限选项。使用 [设计对话框](#design-dialog)，可以为内容作者的模板配置标题、特殊字符和段落样式等文本格式选项。
+[编辑对话框](#edit-dialog) 具有有限的选项，可在全屏编辑对话框中提供具有完整功能的有限选项。Using the [design dialog](#design-dialog), text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
 
-## 版本和兼容性 {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 文本组件的当前版本是v2，它是在2018年月核心组件发行版中引入的，它在本文档中进行了介绍。
 
@@ -35,37 +35,29 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 | v2 | 兼容 | 兼容 | 兼容 |
 | [v1](text-v1.md) | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## 示例组件输出 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下是取自 [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)的示例。
+To experience the Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/text.html).
 
-### 屏幕快照 {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/chlimage_1-27.png)
+The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
 
-### 组件库
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-要体验文本组件以及查看其配置选项的示例以及HTML和JSON输出，请访问 [组件库](http://opensource.adobe.com/aem-core-wcm-components/library/text.html)。
+## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-### 技术详细信息 {#technical-details}
-
-有关文本组件 [的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)上找到。
-
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
-
-## 文本组件和富文本编辑器 {#the-text-component-and-the-rich-text-editor}
-
-核心组件文本组件利用AEM富文本编辑器(RTE)。RTE为内容作者提供了各种功能，用于编辑其文本内容。RTE在其配置中非常灵活，并提供许多选项。有关如何配置RTE的更多详细信息，请参阅 [文章配置富文本编辑器](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) 和 [配置富文本编辑器插件](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)。
+核心组件文本组件利用AEM富文本编辑器(RTE)。RTE为内容作者提供了各种功能，用于编辑其文本内容。RTE在其配置中非常灵活，并提供许多选项。Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 本文的其余部分演示了核心组件文本组件与现成RTE配置的标准配置。
 
 >[!NOTE]
 >
->文本组件 [中只提供RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) 配置支持的选项。
+>Only options enabled by [UI configurations of the RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) are available by in the Text Component.
 
-## 编辑对话框 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 编辑对话框提供用户期望撰写文本的标准富文本格式设置工具。
 
@@ -159,9 +151,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ![](assets/screen_shot_2018-01-11at130107.png)
 
-输入要搜索的文本，然后点按或单击 **查找** 以开始搜索。点按或单击x以取消。
-如果要根据具体情况进行精确匹配，请在开始搜索之前选择 **“匹配大小写** ”选项。
-如果找到匹配项，则突出显示，搜索对话框将灰显。在灰显对话框中再次点按或单击 **“查找”** 按钮以搜索下一个匹配项。
+Enter the text for which you want to search and tap or click **Find** to begin the search. 点按或单击x以取消。
+If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
+如果找到匹配项，则突出显示，搜索对话框将灰显。Tap or click the **Find** button again in the dimmed dialog to search for the next occurrence.
 
 ![](assets/screen_shot_2018-01-11at130145.png)
 
@@ -179,13 +171,13 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 输入要搜索的文本以及应替换的文本。
 
-点按或单击 **查找** 以开始搜索。单击或点按x以取消。
+Tap or click **Find** to begin the search. 单击或点按x以取消。
 
-如果要根据具体情况进行精确匹配，请在开始搜索之前选择 **“匹配大小写** ”选项。
+If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
 
-如果找到匹配项，则突出显示，搜索对话框将灰显。再次单击灰显对话框中的 **“查找”** 按钮可搜索下一个匹配项，或选择 **替换** 按钮以替换突出显示的、匹配的文本。请注意 **，只有在完成匹配后，“替换** ”按钮才处于活动状态。
+如果找到匹配项，则突出显示，搜索对话框将灰显。Click the **Find** button again in the dimmed dialog to search for the next occurrence or select the **Replace** button to replace the highlighted, matched text. Note that the **Replace** button is only active once a match is made.
 
-选择 **全部替换** 以一次性替换文本的所有实例。
+Select **Replace all** to replace all occurrences of the text at once.
 
 ### 左对齐文本
 
@@ -211,7 +203,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 用于将选定文本格式化为项目符号列表，或开始在光标之后插入项目符号列表。
 
-要结束项目符号列表，请再次点按或单击 **“项目符号** ”按钮，或输入两个回车符。
+To end a bulleted list, tap or click the **Bullet** button again or enter two carriage returns.
 
 ### 编号
 
@@ -219,7 +211,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 用于将选定文本格式化为编号列表，或开始在光标之后插入编号列表。
 
-要结束编号列表，请再次点按或单击 **“已编号** ”按钮或输入两个回车符。
+To end a numbered list, tap or click the **Numbered** button again or enter two carriage returns.
 
 ### 突出
 
@@ -243,19 +235,19 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ![](assets/screen_shot_2018-01-11at142405.png)
 
-* **列**表的列数(必需)
-* **行**表的行数(必需)
-* **宽度**表的宽度
-* **高度**表的高度
-* **单元格填充**单元格内容周围的空间
-* **单元格间距**单元格之间的间距
-* **边框**表边框的粗细
+* **列** 表的列数(必需)
+* **行** 表的行数(必需)
+* **宽度** 表的宽度
+* **高度** 表的高度
+* **单元格填充** 单元格内容周围的空间
+* **单元格间距** 单元格之间的间距
+* **边框** 表边框的粗细
 * 如果表标题为：
    * 应使用第一行
    * 应使用第一列
    * 应使用第一行和第一列
    * 或者不应使用标题。
-* **题注**的题注
+* **题注** 的题注
 
 ### 拼写检查
 
@@ -263,7 +255,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 用于检查文本内容的拼写。可能的拼写错误带有断开的红色线条。
 
-有关拼写检查和自定义拼写检查词典的更多详细信息，请 [参阅配置富文本编辑器插件](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)。
+Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 ### 特殊字符 {#special-characters}
 
@@ -281,17 +273,17 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 用于查看和修改文本的HTML源。
 
-点按或单击 **“源编辑** ”图标以更改格式视图中的文本内容以查看原始HTML。在此模式中，将禁用所有其他格式选项。再次点按或单击 **“源编辑** ”图标以返回到带格式的视图。
+Tap or click the **Source Edit** icon to change the content of the text from the formatted view to view the raw HTML. 在此模式中，将禁用所有其他格式选项。Tap or click the **Source Edit** icon again to return to the formatted view.
 
 >[!CAUTION]
 >
->与原始HTML的访问情况一样，在使用 **源编辑** 选项时，必须谨慎小心！
+>As always the case with access to raw HTML, care must be exercised when using the **Source Edit** option!
 >
->会扫描通过 **“源编辑** ”输入的HTML，并且会删除插入的任何脚本，而不会显示在生成页面上的任何脚本。但是 **，在“源编辑** ”中输入的格式不正确的HTML可能会破坏页面的模板，从而导致意外格式设置或呈现生成页面不可用。
+>HTML entered via **Source Edit** is scanned for XSS risks and any scripts that are inserted are removed and will not appear on the resulting page. However malformed HTML entered in **Source Edit** can break the template for the page resulting in unexpected formatting or rendering the resulting page unusable.
 
 >[!NOTE]
 >
->由于通过“源编辑 **** ”输入的HTML会扫描为XSS风险和任何脚本并自动删除那些脚本，因此实际内容会因 **“源编辑**”中输入的内容而有所不同。因此，为了保存使用 **源编辑**所做的更改，您必须先退出 **“源编辑”，** 才能在保存之前查看常规编辑器中的文本。
+>Because HTML entered via **Source Edit** is scanned for XSS risks and any scripts and automatically removes those found, the actual content persisted may vary from what was entered in **Source Edit**. For this reason, in order to save changes made using **Source Edit**, you must first exit **Source Edit** to view the text in the normal editor before saving.
 
 ### 段落格式
 
@@ -305,11 +297,11 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ![](assets/screen_shot_2018-01-11at142921.png)
 
-## 设计对话框 {#design-dialog}
+## Design Dialog {#design-dialog}
 
 设计对话框允许模板作者定义内容作者可用的文本格式选项。
 
-### 插件选项卡 {#plugins-tab}
+### Plugins Tab {#plugins-tab}
 
 插件选项卡用于启用和禁用内容作者可用的各种文本格式选项。
 
@@ -344,22 +336,22 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 可以为组件激活或取消激活段落样式。激活后，可以定义允许的格式。
 
-* 点按或单击 **“添加** ”按钮以插入新样式。
+* Tap or click the **Add** button to insert a new style.
 * 输入样式的代码和将在编辑对话框中显示的描述。
-* 要删除样式，请点击或单击 **删除** 按钮。
+* To remove a style tap or click the **Delete** button.
 * 要重新排列格式的顺序，请点按或单击并拖动手柄。
 
-### 配置特殊字符 {#configuring-special-characters}
+### Configuring Special Characters {#configuring-special-characters}
 
 ![](assets/chlimage_1-31.png)
 
 可以为组件激活或取消激活插入特殊字符的选项。激活后，可定义允许的字符。
 
-* 点按或单击 **添加** 按钮以插入新字符。
+* Tap or click the **Add** button to insert a new character.
 * 输入字符的HTML代码和将在编辑对话框中显示的描述。
-* 要删除字符，请点击或单击 **删除** 按钮。
+* To remove a character tap or click the **Delete** button.
 * 要重新排列字符的顺序，请点按或单击并拖动手柄。
 
-## 样式选项卡 {#styles-tab}
+## Styles Tab {#styles-tab}
 
-文本组件支持AEM [样式系统](authoring.md#component-styling)。
+The Text Component supports the AEM [style system](authoring.md#component-styling).
