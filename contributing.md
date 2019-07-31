@@ -1,5 +1,5 @@
 ---
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 396d7c04712f575fd5ce67892448dedaab5dbd45
 translation-type: tm+mt
 
 ---
@@ -11,39 +11,47 @@ translation-type: tm+mt
 
 ## Adobe Open Source Code of Conduct
 
-此项目已采用 [Adobe Open Source Code of Conduct](code-of-conduct.md)。通过贡献AEM文档，您同意遵守此行为准则。
+This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md). 通过贡献AEM文档，您同意遵守此行为准则。Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## AEM文档贡献指南
 
-我们欢迎任何贡献来改进AEM文档，但我们会要求您的贡献遵守某些准则和标准。有关更多信息 [，请查阅有关AEM文档](guidelines.md) 贡献准则的指南。
+我们欢迎任何贡献来改进AEM文档，但我们会要求您的贡献遵守某些准则和标准。Please review the [Guidelines for Contributing to AEM Documentation](guidelines.md) for more information.
 
 ## 如何Contribute
 
 您的贡献取决于您是谁以及要贡献的更改的种类：
 
+### 创建期刊
+
+您是否有建议、观察当前文档或问题的描述？文件问题。如果您有某些内容要连接，但不舒服编辑文档或亲自提出请求，问题也会很好。
+
 ### 微小更改
 
-要提交小更新，请单击文章中 **的“编辑** ”链接，该链接在GitHub中打开源文章。使用GithHub UI进行更新。有关更多信息，请参阅 [Adobe Docs投稿人指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) 。
+To submit minor updates, click the **Edit** link in an article, which opens the source article in GitHub. 使用GithHub UI进行更新。See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 在此存储库中提交的用于文档和代码示例的小更正或说明受Adobe使用条款的约束。
 
 ### 社区成员的主要更改或新文章
 
-如果您是Adobe社区的一部分并且希望创建文章或提交重大更改，请单击GitHub存储库中 **的“期刊”** 选项卡以提交期刊。此提交开始与文档团队进行对话。您需要与作者(或其他Adobe员工)一起发布新内容。
+If you're part of the Adobe community and want to create an article or submit major changes, click the **Issues** tab in the GitHub repository to submit an issue. 此提交开始与文档团队进行对话。您需要与作者(或其他Adobe员工)一起发布新内容。
 
 如果您通过对文档和代码示例进行重大更改提交拉请求，您将在拉请求中看到一条消息，要求您提交在线贡献许可协议(CLA)。必须先填写在线表单，然后才能查看推送请求。
 
 ### Adobe员工的主要变更
 
-如果您是Adobe Experience Cloud解决方案产品团队的技术文档编写者、计划经理或开发人员，并且您的工作是为或创作技术文章而工作，则应使用私有存储库 `https://git.corp.adobe.com/AdobeDocs`。
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution, and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`.
 
 Adobe世界其他部分的Adobe员工应使用公开存储库进行小更新。
+
+## 参与者许可协议
+
+对此项目的所有第三方贡献都必须附带一份签字的参与者许可协议。这将允许 Adobe 在项目中再次分发您的贡献。[签署我们的CLA。](https://opensource.adobe.com/cla.html) 您只需要提交一次Adobe CLA，因此如果您以前提交过一个Adobe CLA，您就很好了！
 
 ## 工具和设置
 
 社区参与者可以使用GithHub UI进行基本编辑或撤销，以做出主要贡献。
 
-有关如何使用GitHub创作平台的概述，请参阅 [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) 。
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for an overview of how to use the GitHub authoring platform.
 
 ## 如何使用标记格式化主题
 
