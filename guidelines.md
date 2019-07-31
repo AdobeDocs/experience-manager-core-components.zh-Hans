@@ -1,5 +1,5 @@
 ---
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
 translation-type: tm+mt
 
 ---
@@ -31,15 +31,15 @@ AEM文档涵盖标准用例。超出标准安装和使用产品的标准不是AE
 
 ### 文档稿件不能回答技术问题。
 
-欢迎您通过改进AEM文档的任何想法作为贡献。但是，不能使用贡献回答您如何使用AEM或解决技术问题的问题。
+欢迎您通过改进AEM文档的任何想法作为贡献。However comments, issues, and pull requests are intended for *contributions* only. 它们并非用于回答您如何使用AEM或解决技术问题的问题。
 
-您可能必须通过普通支持流程报告对AEM或技术错误的使用的任何问题，或者在AEM用户论坛中讨论。
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
-***AEM文档稿件不能取代Adobe支持*** ，任何此类贡献都将被拒绝。
+***AEM文档稿件不能取代Adobe支持*** ，任何寻求支持相关问题答案的稿件将被拒绝。
 
 ### 贡献必须清楚地引用受影响的文档页面。
 
-如果您创建了一个用于建议文档改进的期刊，则必须包含指向受影响页面的链接。如果您通过使用文档页面 **上的编辑此页面** 链接创建期刊，则会自动使用指向该页面的链接创建期刊。
+如果您创建了一个用于建议文档改进的期刊，则必须包含指向受影响页面的链接。If you create an issue by using the **Edit this page** link on a documentation page, the issue will be created with a link to the page automatically.
 
 这并不适用于从提取请求中提取请求，因为按定义包括受影响的页面。
 
@@ -83,6 +83,6 @@ AEM文档涵盖标准用例。超出标准安装和使用产品的标准不是AE
 
 ### 使用Day、AEM、CQ、CRX
 
-产品应始终由文章的全名 **Adobe Experience Manager** 引用，之后可被称为 **AEM**。
+The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **AEM**.
 
 不应使用Day、Day Software、CQ和CRX，除非可不可避免地在类名称中(如类名称中)或引用AEM的历史记录。
