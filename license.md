@@ -1,11 +1,11 @@
 ---
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 3113ed985136880c33302d2ab3504be16c5ed963
 translation-type: tm+mt
 
 ---
 # MIT许可证
 
-©版权所有2018Adobe。All rights reserved.
+© Copyright2019Adobe。All rights reserved.
 
 特此授予任何获取本软件及相关文档文件(“软件”)副本的人员均可免费使用本软件及相关文档文件(“软件”)的权限，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或出售本软件的副本，并允许本软件的用户遵守下列条件：
 
