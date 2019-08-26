@@ -10,20 +10,20 @@ topic-tags: introduction
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938dfc
 translation-type: tm+mt
-source-git-commit: 144494c03ffed068b403d80f62fdfddc73a53748
+source-git-commit: d1708bef323e2cdb071ebea5b15a1ebc6f683e9d
 
 ---
 
 
-# Core Components Versions{#core-components-versions}
+# 核心组件版本{#core-components-versions}
 
 核心组件的当前发行版为2.4.0，与AEM6.5兼容。它于2019年月发布，作为第2.0.0版的次要更新。版本2.0.0引入了新组件以及v更新现有组件。
 
-See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
+有关更多信息，请参阅本文档的 [“发行历史记录和兼容性](#versions-and-releases) ”。
 
-You can also check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
+您也可以查看 [组件库，该库](http://opensource.adobe.com/aem-core-wcm-components/library.html)展示了核心组件的当前版本并提供了其用法示例。
 
-## Versions and Releases {#versions-and-releases}
+## 版本和版本 {#versions-and-releases}
 
 核心组件通过GitHub分发。这允许Adobe更快地向组件添加功能，并允许在AEM发行周期之外进行社区输入。
 
@@ -31,15 +31,15 @@ You can also check out the [Component Library](http://opensource.adobe.com/aem-c
 
 ### 版本 {#versions}
 
-The major iteration of the Core Components are the **versions**. 每个组件都有一个版本。Versions are denoted with **v** appended with a nonzero, positive integer such as v1 and v2. 版本只会增加不兼容的更改，这通常是引入新特性和功能的情况。
+核心组件的主要迭代版本是 **版本**。每个组件都有一个版本。版本表示 **v** 附加了一个非零的正整数，如v和v2。版本只会增加不兼容的更改，这通常是引入新特性和功能的情况。
 
-开发人员和管理员可以通过资源类型路径中的数字以及实现完全限定的Java类名称识别核心组件的版本。This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
+开发人员和管理员可以通过资源类型路径中的数字以及实现完全限定的Java类名称识别核心组件的版本。此版本号表示 [由语义版本控制准则定义的主要版本](https://semver.org/)。
 
-For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md).
+有关核心组件版本的更多详细信息，请参阅核心组件 [的开发人员文档](guidelines.md)。
 
-### Releases {#releases}
+### 发行版 {#releases}
 
-The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). 发行版以X.Y.Z格式表示，并将所有核心组件作为可交付包一起收集。
+核心组件可通过 **发行版** 获得， [并代表GitHub上可用的实际发布的伪像](https://github.com/adobe/aem-core-wcm-components/releases)。发行版以X.Y.Z格式表示，并将所有核心组件作为可交付包一起收集。
 
 * **发行版** 可引入新版本的现有组件以及全新组件以及标准缺陷修复。这由发行编号的X组件中的增量表示。
 
@@ -53,18 +53,19 @@ The core components are made available through **releases** and [represent the a
 >
 >同一组件版本可显示在多个版本中。
 
-## Release History and Compatibility {#release-history-and-compatibility}
+## 发行历史和兼容性 {#release-history-and-compatibility}
 
 核心组件最初与AEM6.3一起发布，旨在灵活、兼容所有支持的AEM版本。因此，组件的发行可能包含同一组件的多个版本。
 
 下表说明了核心组件版本与版本中包含的组件版本的兼容性。
 
-### Release History &amp; Supported AEM Versions {#release-history-supported-aem-versions}
+### 发行历史记录和支持的AEM版本 {#release-history-supported-aem-versions}
 
-The following table, the contents of which are [available on GitHub with full release details](https://github.com/adobe/aem-core-wcm-components/releases), gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.
+下表列出了在GitHub上 [提供完整版本详细信息](https://github.com/adobe/aem-core-wcm-components/releases)的内容，包括核心组件版本及其与AEM版本和Java版本的兼容性。
 
 | Release | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引入了新的Accordion、Button、Container和Download组件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入了内容片段列表组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本侧重于对组件库进行细化，但还包含对分隔符组件的一些功能增强功能 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本侧重于组件库以及引入新的分隔符组件，但还包含对图像组件的一些功能增强功能 | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
@@ -83,9 +84,9 @@ The following table, the contents of which are [available on GitHub with full re
 
 >[!NOTE]
 >
->As with AEM, Adobe recommends that developers use the [latest release and versions of the Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) available that is compatible with the version of AEM that they are running in order to benefit from the most up-to-date fixes and features.
+>与AEM一样，Adobe建议开发人员使用核心组件的 [最新版本和版本，这些组件](https://github.com/adobe/aem-core-wcm-components/releases/latest) 与AEM版本兼容，可从最新的修复和功能中受益。
 
-### Component Versions &amp; Releases {#component-versions-and-releases}
+### 组件版本和发行版 {#component-versions-and-releases}
 
 下表详细说明了核心组件版本包含的组件版本。
 
