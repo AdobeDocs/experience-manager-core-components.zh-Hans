@@ -17,12 +17,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
 
 
-# Carousel Component{#carousel-component}
+# 传送组件{#carousel-component}
 
 核心组件传送组件允许内容作者在可导航传送中演示内容。
 
@@ -30,9 +30,9 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 使用传送组件，内容作者可在旋转的幻灯片旋转中组织内容。
 
-[编辑对话框](#edit-dialog) 允许内容作者创建、命名和排序多张幻灯片，并可延迟启用自动过渡。Using the [design dialog](#design-dialog), the template author can define which components can be added to the carousel, enable or disable automatic transitions, and customize the styles.
+[编辑对话框](#edit-dialog) 允许内容作者创建、命名和排序多张幻灯片，并可延迟启用自动过渡。使用 [设计对话框](#design-dialog)，模板作者可以定义可向传送添加哪些组件、启用或禁用自动过渡以及自定义样式。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 传送组件的当前版本是v1，它是在2018年10月核心组件中推出的v1，它在本文档中进行了介绍。
 
@@ -42,38 +42,38 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 |--- |--- |--- |--- |
 | v1 | 兼容 | 兼容 | 兼容 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
 
-## Sample Component Output {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-To experience the Carousel Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html).
+要体验传送组件以及查看其配置选项的示例以及HTML和JSON输出，请访问 [组件库](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html)。
 
-### Technical Details {#technical-details}
+### 技术详细信息 {#technical-details}
 
-The latest technical documentation about the Carousel Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+有关传送组件 [的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel)。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
 
 ## Edit Dialog {#edit-dialog}
 
 编辑对话框允许内容作者添加、重命名幻灯片和重新排列幻灯片以及定义自动过渡设置。
 
-### Items Tab {#items-tab}
+### 项目选项卡 {#items-tab}
 
-![](assets/screenshot_2018-10-12at102451.png)
+![](assets/screen-shot-2019-08-29-12.01.39.png)
 
-Use the **Add** button to open the component selector to choose which component to add as a tab. 添加后，条目会添加到列表中，其中包含以下列：
+使用 **“添加** ”按钮打开组件选择器，以选择要添加为选项卡的组件。添加后，条目会添加到列表中，其中包含以下列：
 
 * **图标** -选项卡的组件类型的图标，用于在列表中轻松标识。将鼠标悬停在鼠标上可查看整个组件名称作为工具提示。
 * **描述** -用作选项卡文本的说明，默认为选项卡所选的组件名称。
 * **删除** -点按或单击可从选项卡组件中删除选项卡。
 * **重新排序** -点按或单击并拖动可对选项卡进行排序。
 
-### Properties Tab {#properties-tab}
+### 属性选项卡 {#properties-tab}
 
-![](assets/screenshot_2018-11-28at141054.png)
+![](assets/screen-shot-2019-08-29-12.01.57.png)
 
-On the **Properties** tab, the content author can set the slides to automatically transition.
+在 **“属性** ”选项卡上，内容作者可以将幻灯片设置为自动过渡。
 
 * **自动过渡幻灯片** -活动时，组件会自动前进到下一张幻灯片，之后指定的延迟会出现。
 * **过渡延迟** -选中自动过渡幻灯片时，此值用于定义过渡之间的延迟(以毫秒为单位)。
@@ -81,17 +81,25 @@ On the **Properties** tab, the content author can set the slides to automaticall
 
 >[!NOTE]
 >
->**在编辑** 模式下，幻灯片前进控件未启用。Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the carousel as a reader of the published content would.
+>**在编辑** 模式下，幻灯片前进控件未启用。使用 [**预览** 模式](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) 或 **[“查看已发布”](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** 选项可与已发布内容的读者进行交互操作。
 >
->**在编辑** 模式下，不启用自动前进功能。Use **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to see the auto-advance feature as a reader of the published content would.
+>**在编辑** 模式下，不启用自动前进功能。使用 **[“查看已发布](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** ”选项可查看已发布内容的读者将自动前进的功能。
+
+### 辅助功能选项卡 {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.02.22.png)
+
+在 **辅助功能** 选项卡上，可以为组件设置 [AIR辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/) 标签的值。
+
+* **标签** -组件的ARRIA标签属性的值
 
 ## Select Panel {#select-panel}
 
-The content author can use the **Select Panel** option on the component toolbar to change to a different slide for editing as well as to easily rearrange the order of the slides.
+内容作者可以使用组件工具栏上的 **“选择面板** ”选项更改为其他幻灯片进行编辑，以及轻松重新排列幻灯片的顺序。
 
 ![](assets/screenshot_2018-10-11at165417.png)
 
-Once selecting the **Select Panel** option in the component toolbar, the configured slides are displayed as a drop-down.
+在组件工具栏中选择 **“选择面板** ”选项后，配置的幻灯片将显示为下拉列表。
 
 * 列表由幻灯片分配的排列排序，并反映在编号中。
 * 幻灯片的组件类型首先显示，后跟浅体字体的描述。
@@ -101,11 +109,11 @@ Once selecting the **Select Panel** option in the component toolbar, the configu
 * 点击或单击下拉菜单中的条目，将编辑器中的视图切换到该幻灯片。
 * 可以使用拖动手柄在就地重新排序幻灯片。
 
-## Design Dialog {#design-dialog}
+## 设计对话框 {#design-dialog}
 
 设计对话框允许模板作者定义可将哪些组件添加为传送组件，以及定义自动转换默认值以及内容作者可用的自定义样式。
 
-### Properties Tab {#properties-tab-1}
+### 属性选项卡 {#properties-tab-1}
 
 **属性** 选项卡用于定义内容作者将传送组件添加到页面时幻灯片过渡的默认设置。
 
@@ -115,12 +123,12 @@ Once selecting the **Select Panel** option in the component toolbar, the configu
 * **过渡延迟** -定义内容作者将传送组件添加到页面时幻灯片之间的过渡延迟的默认值(以毫秒为单位)。
 * **停用悬停时自动暂停** -定义默认情况下，内容作者选择 **自动过渡幻灯片** 时禁用自动幻灯片暂停选项的选项。
 
-### Allowed Components Tab {#allowed-components-tab}
+### 允许的组件选项卡 {#allowed-components-tab}
 
 **允许的组件** 选项卡用于定义内容作者可将哪些组件添加为传送组件。
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+在模板编辑器中 [定义布局容器的策略和属性时，允许的组件选项卡功能与同名选项卡相同。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-### Styles Tab {#styles-tab}
+### 样式选项卡 {#styles-tab}
 
-The Carousel Component supports the AEM [Style System](authoring.md#component-styling).
+传送组件支持AEM [Style System](authoring.md#component-styling)。
