@@ -10,12 +10,12 @@ topic-tags: developing
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013 eeb218
 translation-type: tm+mt
-source-git-commit: f30a6a9f4d41c672472beb60767f3766479d9c16
+source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 ---
 
 
-# Developing Core Components{#developing-core-components}
+# 开发核心组件{#developing-core-components}
 
 ## 概述 {#overview}
 
@@ -26,40 +26,40 @@ source-git-commit: f30a6a9f4d41c672472beb60767f3766479d9c16
    * [可预先配置的功能](authoring.md#pre-configuring-core-components) ，可定义页面作者可使用的功能
 * 持续交付
    * 频繁递增功能改进
-   * Availability of the [source code on GitHub](https://github.com/adobe/aem-core-wcm-components) to allow the developer community to give feedback and contribute
-   * Installation through a [separately released content package](https://github.com/adobe/aem-core-wcm-components/releases) for component upgrades to be done independently from AEM upgrades
+   * 在GitHub上提供 [源代码，](https://github.com/adobe/aem-core-wcm-components) 使开发人员社区能够提供反馈和贡献
+   * 通过 [单独发布的内容包进行安装](https://github.com/adobe/aem-core-wcm-components/releases) ，以便从AEM升级独立完成组件升级
 * [组件版本控制](guidelines.md#component-versioning)
    * [确保版本中的兼容性](#upgrade-of-core-components)，但允许组件进行改进
    * 允许一个组件的多个版本共存在同一个环境上
 * 现代化实施
    * [HTML模板语言](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)中定义的标记
-   * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
+   * 使用 [Sling模型实现的内容模型逻辑](https://sling.apache.org/documentation/bundles/models.html)
 * 精简标记
-   * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
-      * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
+   * 从Release2.0.0中遵循 [块元素修饰符](https://getbem.com/) (BEM)记号
+      * 上一版本遵循 [Bootstrap](https://getbootstrap.com/css/) 命名惯例
    * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
    * 可用于响应式和移动站点
 * 将内容模型串行化为无外设CMS用例的功能
 * 可访问
-   * Compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * 符合 [WCAG2.0AA标准](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
->Core Components require AEM 6.3 or later and Java 8 and and require the use of [editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+>核心组件需要AEM6.3或更高版本以及Java8，并且需要使用 [可编辑的模板](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
 >核心组件不适用于经典UI和静态模板。
 
-## Gems Session Overview {#gems-session-overview}
+## Gems会话概述 {#gems-session-overview}
 
-For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+有关核心组件的介绍、它们提供的功能以及如何在AEM中利用它们，请参阅AEM Gems会话 [AEM核心组件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
 [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) 的Gems是由Adobe专家提供的一系列技术深层产品。本系列对产品文档和所有其他技术渠道进行了补充，允许开发人员接触并深入了解特定主题。
 
-## WKND Developer Tutorial {#wknd-developer-tutorial}
+## WKD开发人员教程 {#wknd-developer-tutorial}
 
-Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+通过 [此分步教程开始使用核心组件开发AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-## Delivered over GitHub {#delivered-over-github}
+## 通过GitHub交付 {#delivered-over-github}
 
 核心组件是通过GitHub开发和交付的。
 
@@ -68,40 +68,40 @@ Get started developing AEM Sites with Core Components by following [this step-by
 您可以在GitHub上找到此页面的代码
 
 * [在GitHub上打开aem-core-wcm-components项目](https://github.com/adobe/aem-core-wcm-components)
-* Download the project as [a ZIP file](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
+* 将项目下载为 [ZIP文件](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
 
-See the [Using Core Components](using.md) documentation page to learn how to get started using them in your project.
+请参阅 [使用核心组件](using.md) 文档页面，了解如何开始在项目中使用它们。
 
 通过GitHub上的核心组件可以频繁更新，并倾听AEM开发人员社区的反馈。此外，这应帮助客户和合作伙伴在构建自定义组件时遵循类似模式。
 
 >[!NOTE]
 >
->To keep up-to-date on the latest changes to the core components, you can watch the [Core Components repository](https://github.com/adobe/aem-core-wcm-components) on GitHub.
+>要始终更新核心组件的最新更改，您可以观看GitHub上 [的核心组件存储库](https://github.com/adobe/aem-core-wcm-components) 。
 
 ## 组件库
 
-Check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
+查看 [组件库，该库](http://opensource.adobe.com/aem-core-wcm-components/library.html)展示了核心组件的当前版本并提供了其用法示例。
 
-### Sample Content Run-Mode {#sample-content-run-mode}
+### 示例内容运行模式 {#sample-content-run-mode}
 
-The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won&#39;t be present anymore and must be installed on the AEM instances by the development and/or operations team.
+当示例内容存在时，核心组件在快速启动中可见，因为 [We. Retail引用站点](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 使用它们。但是，在生产中运行时(在 `nosamplecontent` 运行模式中，未启用示例内容)，核心组件不再存在，并且必须由开发和/或操作团队在AEM实例上安装。
 
 >[!NOTE]
 >
->In production environments, always run the Quickstart in `nosamplecontent` runmode. To use the Core Components in `nosamplecontent` runmode, follow the instructions of the [Using Core Components](using.md) documentation page.
+>在生产环境中，始终在 `nosamplecontent` 运行模式下运行快速启动。要在运行模式中 `nosamplecontent` 使用核心组件，请按照 [“使用核心组件](using.md) ”文档页面的说明操作。
 
-## Technical Capabilities {#technical-capabilities}
+## 技术能力 {#technical-capabilities}
 
 下表概述了核心组件与基础组件之间的差异。
 
-For details about their authoring capabilities and options to pre-configurable them, [refer to the authoring page about them](authoring.md).
+有关其创作功能和选项可预配置的详细信息， [请参阅有关它们](authoring.md)的创作页面。
 
 | **功能** | **核心组件** | **基础组件** |
 |-----|---|---|
-| 逻辑实施 | Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations | JSP代码 |
+| 逻辑实施 | 带 [Sling Model](https://sling.apache.org/documentation/bundles/models.html) 注释的Java Pojos | JSP代码 |
 | 标记定义 | [HTML模板语言](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL)语法 | JSP代码 |
 | XSS清理 | HTL自动化 | 大多数手动手册 |
-| CSS类命名 | Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) | 自定义方案 |
+| CSS类命名 | 基于 [块元素修饰符](https://getbem.com/) (BEM)记号的标准化命名约定(从第2.0.0版起) | 自定义方案 |
 | 对话框定义 | [Coral3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral+经典UI |
 | JSON输出 | [Sling Model Exporter with Jackson序列化](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | 默认Sling servlet |
 | 版本控制 | [针对模型和HTL](guidelines.md) | 无 |
@@ -109,9 +109,9 @@ For details about their authoring capabilities and options to pre-configurable t
 | 交付 | [通过公共GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过快速入门 |
 | License | [Apache许可证](https://www.apache.org/licenses/LICENSE-2.0) | Adobe专有 |
 | 贡献 | 通过拉取请求 | 不可能 |
-| 辅助功能 | Fully compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
+| 辅助功能 | 完全符合 [WCAG2.0AA标准](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | 仅部分兼容WCAG [2.0AA标准](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
 
-## Component List {#component-list}
+## 组件列表 {#component-list}
 
 下表列出了可用的核心组件，链接到其API，并指示它们替换的基础组件。
 
@@ -142,31 +142,32 @@ For details about their authoring capabilities and options to pre-configurable t
 | [容器](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | 组织容器内的组件 | `-` |
 | [按钮](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | 在页面上创建按钮 | `-` |
 | [下载](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | 向页面添加可下载的资产 | `-` |
+| [体验片段](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | 将体验片段添加到页面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 
-### Upcoming Components {#upcoming-components}
+### 即将推出的组件 {#upcoming-components}
 
-For an overview of the upcoming Core Componente roadmap see the [project wiki on GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+有关即将推出的核心组件路线图的概述，请参阅GitHub上 [的项目wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
 
-## Upgrade of Core Components {#upgrade-of-core-components}
+## 核心组件升级 {#upgrade-of-core-components}
 
 版本组件的一个优点是它允许将迁移到新的AEM版本，从迁移到新的组件版本。此外，如果新组件版本可用，则允许将每个组件的各个组件迁移到新版本。
 
-迁移到新AEM版本不会影响核心组件的工作方式，前提是其版本还支持正在迁移到的新AEM版本。Customizations made to the Core Components should not be affected either, as long as they don&#39;t use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+迁移到新AEM版本不会影响核心组件的工作方式，前提是其版本还支持正在迁移到的新AEM版本。对核心组件所做的自定义不应受影响，只要它们不使用 [已弃用或删除](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html)的API。
 
-向核心组件的新版本迁移不会影响组件的工作方式，但可能会向页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防不需要默认行为。Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#upgrade-compatibility-of-customizations) page.
+向核心组件的新版本迁移不会影响组件的工作方式，但可能会向页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防不需要默认行为。但是，可能需要调整自定义，以了解更多详细信息，请参阅 [自定义核心组件](customizing.md#upgrade-compatibility-of-customizations) 页面。
 
-## When to Use the Core Components? {#when-to-use-the-core-components}
+## 何时使用核心组件？ {#when-to-use-the-core-components}
 
 由于核心组件是全新的并且提供多个优势，因此建议新AEM项目使用它们。对于现有项目，迁移应属于较大项目的一部分，例如品牌或整体重构。
 
 因此，Adobe提供以下建议：
 
-* **新项目** 新项目应始终尝试使用核心组件。If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](developing.md).
-* **除非计划了站点或组件重构，否则现有项目** 推荐始终使用 [基础组件](developing.md)。\
-   As they are very widely used by most existing projects, the foundation components [will continue to be supported.](developing.md)
-* **新自定义组件** 评估是否可以自定义 [现有核心组件](customizing.md)。\
-   If not, recommendation is to build a new custom component following the [Component Guidelines](guidelines.md).
-* **现有自定义组件** 如果您的组件按预期工作，则保留它们不变。\
+* **新项目**&#x200B;新项目应始终尝试使用核心组件。如果核心组件不能直接使用或 [扩展](customizing.md) 以满足项目要求，请根据核心组件中所述的组件架构创建自定义组件。除非否则可能，否则避免使用 [基础组件](developing.md)。
+* **除非计划了站点或组件重构，否则现有项目**&#x200B;推荐始终使用 [基础组件](developing.md)。\
+   由于它们被大多数现有项目广泛使用，因此将继续支持基础组件 [。](developing.md)
+* **新自定义组件**&#x200B;评估是否可以自定义 [现有核心组件](customizing.md)。\
+   如果没有，则建议根据 [组件准则构建新的自定义组件](guidelines.md)。
+* **现有自定义组件**&#x200B;如果您的组件按预期工作，则保留它们不变。\
    如果没有，请参阅上面的“新建自定义组件”。
 
 ## 迁移到核心组件
@@ -182,13 +183,13 @@ For an overview of the upcoming Core Componente roadmap see the [project wiki on
 * 核心组件的基础组件
 * 与触屏优化UI的经典UI
 
-For further information about the usage of these tools, [see their documentation](http://opensource.adobe.com/aem-modernize-tools/).
+有关使用这些工具的更多信息，请 [参阅他们的文档](http://opensource.adobe.com/aem-modernize-tools/)。
 
 >[!NOTE]
 >
 >AEM现代化工具是社区工作，Adobe不支持或替代这些工具。
 
-## Core Component Support {#core-component-support}
+## 核心组件支持 {#core-component-support}
 
 核心组件是AEM不可分割的一部分，按相同的条款和条件提供支持，如同它们是作为快速入门的一部分提供的一样。
 
@@ -196,13 +197,13 @@ For further information about the usage of these tools, [see their documentation
 
 每个组件的版本清楚地陈述了其支持的AEM版本。当支持某个版本的AEM时，也支持该版本AEM的核心组件。
 
-For details about the support of component customizations, see the [Customizing Core Components](customizing.md) page.
+有关组件自定义支持的详细信息，请参阅 [自定义核心组件](customizing.md) 页面。
 
-## Foundation Component Support {#foundation-component-support}
+## 基础组件支持 {#foundation-component-support}
 
 由于基础组件已经作为许多AEM版本上如此多的项目开发基础，它们将继续支持可预见的未来。
 
-However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+但是，Adobe的开发重点已转向核心组件和新功能，而 [几乎所有的Foundation组件都已在AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) 中弃用，并且将对未来的基础组件进行错误修复。
 
 **阅读下一步：**
 
