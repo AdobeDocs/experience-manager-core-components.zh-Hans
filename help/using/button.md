@@ -10,12 +10,12 @@ topic-tags: 创作
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93 a50 e6870
 translation-type: tm+mt
-source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
+source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
 
 
-# Button Component{#button-component}
+# 按钮组件{#button-component}
 
 核心组件按钮组件允许在页面上配置和显示按钮项目。
 
@@ -23,10 +23,10 @@ source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
 
 核心组件按钮组件允许在页面上包含按钮。
 
-* The button&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Styles for the Button Component can be defined in the [design dialog](#design-dialog).
+* 可以在 [配置对话框](#configure-dialog)中选择按钮的属性。
+* 可以在 [设计对话框中定义按钮组件的样式](#design-dialog)。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 Button组件的当前版本是v1，它是在2019年月发行的核心组件中引入的，该版本在文档中进行了介绍。
 
@@ -36,31 +36,41 @@ Button组件的当前版本是v1，它是在2019年月发行的核心组件中�
 |--- |--- |--- |---|
 | v1 | 兼容 | 兼容 | 兼容 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
 
-## Sample Component Output {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-To experience the Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
+要体验按钮组件以及查看其配置选项的示例以及HTML和JSON输出，请访问 [组件库](http://opensource.adobe.com/aem-core-wcm-components/library/button.html)。
 
-## Technical Details {#technical-details}
+## 技术详细信息 {#technical-details}
 
-The latest technical documentation about the Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+有关按钮组件 [的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义按钮及其行为，并为访客显示页面。
 
-![](assets/screen-shot-2019-06-17-11.26.13.png)
+### 属性选项卡 {#properties-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.32.png)
 
 * **文本** -要在按钮上显示的文本
 * **链接** -链接到AEM中的内容页面、外部资源或锚点
-   * Use the **Selection Dialog** to choose a path within AEM.
+   * 使用 **选择对话框** 在AEM中选择路径。
 * **图标** -用于在按钮中显示图标的标识符
 
-## Design Dialog {#design-dialog}
+### 辅助功能选项卡 {#accessibility-tab}
 
-### Styles Tab {#styles-tab}
+![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+在 **辅助功能** 选项卡上，可以为组件设置 [AIR辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/) 标签的值。
+
+* **标签** -组件的ARRIA标签属性的值
+
+## 设计对话框 {#design-dialog}
+
+### 样式选项卡 {#styles-tab}
+
+图像组件支持AEM [Style System](authoring.md#component-styling)。
