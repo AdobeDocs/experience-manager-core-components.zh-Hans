@@ -10,12 +10,12 @@ topic-tags: introduction
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658 fe29 aa2
 translation-type: tm+mt
-source-git-commit: 7130f4ae8add8c8dc3cdfcc4addd0621722b89f7
+source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 ---
 
 
-# Core Components Introduction{#core-components-introduction}
+# 核心组件简介{#core-components-introduction}
 
 在 Adobe Experience Manager 中，组件是结构化的元素，用于构成所创作的页面内容。组件始终是AEM体验的基本元素，这使得页面创建变得简单而强大，并且对创作和组件开发的开发可为开发者提供灵活性和可扩展性。
 
@@ -23,11 +23,11 @@ source-git-commit: 7130f4ae8add8c8dc3cdfcc4addd0621722b89f7
 
 ## 试用核心组件
 
-If you want to get started straight away trying out the Core Components, head over to the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html). 组件库是核心组件的当前版本的在线展示，允许您与各种组件交互以及查看示例HTML和JSON输出。
+如果要直接开始试用核心组件，请转到 [组件库](http://opensource.adobe.com/aem-core-wcm-components/library.html)。组件库是核心组件的当前版本的在线展示，允许您与各种组件交互以及查看示例HTML和JSON输出。
 
 [We. Retail参考站点](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) 还说明了核心组件的使用方式。
 
-## Core Components - Core Features {#core-components-core-features}
+## 核心组件-核心功能 {#core-components-core-features}
 
 核心组件有：
 
@@ -45,7 +45,7 @@ If you want to get started straight away trying out the Core Components, head ov
 | 开放源代码 | 如果内容不应满足要求，在GitHub(Apache许可证)上做出改进。 |
 | Versioned | 改进可能影响您的内容时，核心组件不会中断您的网站。 |
 
-## Available Components {#available-components}
+## 可用组件 {#available-components}
 
 核心组件的当前版本包含以下组件。
 
@@ -57,6 +57,7 @@ If you want to get started straight away trying out the Core Components, head ov
 * [内容片段](content-fragment-component.md)
 * [内容片段列表](content-fragment-list.md)
 * [下载](download.md)
+* [体验片段](experience-fragment.md)
 * [表单按钮](form-button.md)
 * [表单容器](form-container.md)
 * [隐藏的表单](form-hidden.md)
@@ -82,25 +83,25 @@ If you want to get started straight away trying out the Core Components, head ov
 >
 >某些版本的单独核心组件只能与特定版本的AEM兼容。
 >
->See the individual help page (linked to in the previous list) for the specific component for compatibility information or reference the [Core Components Versions](versions.md) document for more information.
+>有关兼容性信息，请参阅特定组件的各个帮助页面(链接到上一列表)，或参考 [核心组件版本](versions.md) 文档以了解更多信息。
 
-## When to Use Core Components {#when-to-use-core-components}
+## 何时使用核心组件 {#when-to-use-core-components}
 
 由于核心组件是全新的并且提供多个优势，因此建议新AEM项目使用它们。对于现有项目，迁移应属于较大项目的一部分，例如品牌或整体重构。
 
-For specific use recommendations, see [When to Use the Core Components?](developing.md) 开发 [核心组件](developing.md) 文档中。
+有关特定的使用建议，请参阅 [何时使用核心组件？](developing.md) 开发 [核心组件](developing.md) 文档中。
 
-## Gems Session Overview {#gems-session-overview}
+## Gems会话概述 {#gems-session-overview}
 
-For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+有关核心组件的介绍、它们提供的功能以及如何在AEM中利用它们，请参阅AEM Gems会话 [AEM核心组件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
 [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) 的Gems是由Adobe专家提供的一系列技术深层产品。本系列对产品文档和所有其他技术渠道进行了补充，允许开发人员接触并深入了解特定主题。
 
-## WKND Developer Tutorial {#wknd-developer-tutorial}
+## WKD开发人员教程 {#wknd-developer-tutorial}
 
-Get started developing AEM Sites with Core Components by following [this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+通过 [分步教程，开始使用核心组件开发AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-## Core Components Support {#core-components-support}
+## 核心组件支持 {#core-components-support}
 
 核心组件是AEM不可分割的一部分，按相同的条款和条件提供支持，如同它们是作为快速入门的一部分提供的一样。
 
@@ -113,10 +114,10 @@ Get started developing AEM Sites with Core Components by following [this step by
 
 每个组件的版本清楚地陈述了其支持的AEM版本。当支持某个版本的AEM时，也支持该版本AEM的核心组件。
 
-For details about the support of component customizations, see the [Customizing Core Components](customizing.md) page of the relevant Core Components Version.
+有关支持组件自定义的详细信息，请参阅相关核心组件版本 [的自定义核心组件](customizing.md) 页面。
 
-## Foundation Component Support {#foundation-component-support}
+## 基础组件支持 {#foundation-component-support}
 
 由于基础组件已经作为许多版本的如此多的项目开发基础，它们将继续支持可预见的未来。
 
-However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+但是，Adobe的开发重点已转向核心组件和新功能，而 [几乎所有的Foundation组件都已在AEM6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) 中弃用，并且将对未来的基础组件进行错误修复。
