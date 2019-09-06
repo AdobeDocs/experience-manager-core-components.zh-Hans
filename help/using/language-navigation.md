@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8a34ecc432e489b8dc025aeda29d8eba9c788861
+source-git-commit: ee6976f39894b4e67b42503503a51589224583f5
 
 ---
 
@@ -85,10 +85,10 @@ source-git-commit: 8a34ecc432e489b8dc025aeda29d8eba9c788861
    +-- us
       +-- en
       \-- es
-   +-- ch
+   \-- ch
       +-- de
       +-- fr
-      +-- it
+      \-- it
 +-- wknd-events
 \-- wknd-shop
 ```
