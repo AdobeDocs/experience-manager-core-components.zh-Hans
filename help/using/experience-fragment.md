@@ -5,12 +5,11 @@ description: 体验片段组件允许内容作者将体验片段变量添加到�
 seo-description: 体验片段组件允许内容作者将体验片段变量添加到页面。
 content-type: 引用
 topic-tags: 核心组件
-index: y
-internal: n
 translation-type: tm+mt
-source-git-commit: c0827595a594779f48ba5e8770b804e574346647
+source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
 
 ---
+
 
 # 体验片段组件{#experience-fragment-component}
 
