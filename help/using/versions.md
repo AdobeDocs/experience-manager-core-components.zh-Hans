@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938dfc
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 | Release | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入了新的体验片段组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年月 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入了新的体验片段组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年月日 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引入了新的Accordion、Button、Container和Download组件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年月25日 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入了内容片段列表组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年月日 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本侧重于对组件库进行细化，但还包含对分隔符组件的一些功能增强功能 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 2019年月14日 |
