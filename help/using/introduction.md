@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658 fe29 aa2
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
@@ -44,6 +44,7 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 | 可扩展 | 为了满足自定义需求，但无需从头开始，一切都可以扩展。 |
 | 开放源代码 | 如果内容不应满足要求，在GitHub(Apache许可证)上做出改进。 |
 | Versioned | 改进可能影响您的内容时，核心组件不会中断您的网站。 |
+| [本地化](localization.md) | 智能参考解决方案允许特定组件自动查找和呈现相应的本地化内容 |
 
 ## 可用组件 {#available-components}
 
