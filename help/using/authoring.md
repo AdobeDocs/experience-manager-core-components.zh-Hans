@@ -8,22 +8,24 @@ content-type: 引用
 topic-tags: 创作
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
 
 # 使用核心组件创作
 
-在 Adobe Experience Manager 中，组件是结构化的元素，用于构成所创作的页面内容。本节介绍核心组件，该组件提供了创建页面的基本内容类型。
+在 Adobe Experience Manager 中，组件是结构化的元素，用于构成所创作的页面内容。
 
 核心组件提供灵活、功能丰富的创作功能。[We. Retail引用站点](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 介绍了核心组件的使用方式。
 
 要体验核心组件并查看其配置选项的示例以及HTML和JSON输出，请访问 [组件库](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)。
 
+有关在AEM项目上实施核心组件的更深入、面向开发人员的介绍，请参阅 [WKD教程。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
 >[!NOTE]
 >
->核心组件不可立即供作者使用， [开发团队必须首先将其集成到您的环境](using.md)中。集成后，可以通过 [模板编辑器提供和预配置](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)它们。
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
 >[!CAUTION]
 >
@@ -33,17 +35,19 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 作为作者，您将注意核心组件的几个优势，包括：
 
-* 简单易用并与 [页面编辑器紧密集成](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
 
 * 功能丰富，可容纳We. Retail以及 [](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)[组件库中所说明的许多用例](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
 
 * [可预配置](#pre-configuring-core-components) ，可定义通过 [模板编辑器可供页面作者使用的功能](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-* 围绕 [辅助功能指导原则构建](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
-* 支持 [响应式布局](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
-编辑页面时，页面编辑器侧面板 **的组件** 选项卡 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)上会显示组件。
+* 构建为支持 [轻松定位](localization.md)
+
+Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
 组件根据称为组件组的类别进行分组，以轻松组织和筛选组件。组件组名称与 [组件浏览器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) 中的组件一起显示，也可以按组筛选，以轻松找到正确的组件。
 
@@ -89,12 +93,17 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 核心组件的当前版本包含以下组件。
 
+* [折叠](accordion.md)
 * [痕迹导航](breadcrumb.md)
-* [表单按钮](form-button.md)
+* [按钮](button.md)
+* [容器](container.md)
 * [传送](carousel.md)
-* [表单容器](form-container.md)
 * [内容片段](content-fragment-component.md)
 * [内容片段列表](content-fragment-list.md)
+* [下载](download.md)
+* [体验片段](experience-fragment.md)
+* [表单按钮](form-button.md)
+* [表单容器](form-container.md)
 * [隐藏的表单](form-hidden.md)
 * [表单选项](form-options.md)
 * [表单文本](form-text.md)
@@ -106,7 +115,7 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 * [快速搜索](quick-search.md)
 * [分隔符](separator.md)
 * [社交媒体共享](sharing.md)
-* [Teaser](teaser.md)
+* [选项卡](tabs.md)
 * [文本](text.md)
 * [标题](title.md)
 
