@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -38,6 +38,9 @@ source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 ## 本地化站点结构支持 {#localized-site-structure}
 
 网站通常以多种语言提供给不同地区。通常，每个本地化页面都将包含一个包含在页面模板中的导航元素。导航组件允许您在站点的所有页面上放置一次模板，然后根据全球化站点结构自动针对各个本地化页面进行调整。
+
+* 有关导航组件的本地化功能如何工作的示例，请参见下面 [](#example-localiatzion)的部分。
+* 有关核心组件的本地化功能如何协同工作的示例，请参阅核心组件页面 [的本地化功能](localization.md)。
 
 ### 示例 {#example-localization}
 
