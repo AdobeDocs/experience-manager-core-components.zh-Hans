@@ -6,7 +6,7 @@ seo-description: 体验片段组件允许内容作者将体验片段变量添加
 content-type: 引用
 topic-tags: 核心组件
 translation-type: tm+mt
-source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -33,6 +33,9 @@ source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
 在这种情况下，与当前页面相同的片段(语言、Blueprint或Live Copy)将作为模板的一部分呈现。
 
 此行为仅限于添加到模板的体验片段组件。体验片段组件添加到单个内容页面的组件将呈现在组件内配置的准确体验片段演绎版。
+
+* 有关体验片段组件的本地化功能的示例，请参见下面 [](#example)的部分。
+* 有关核心组件的本地化功能如何协同工作的示例，请参阅核心组件页面 [的本地化功能](localization.md)。
 
 ### 示例 {#example}
 
