@@ -8,7 +8,7 @@ topic-tags: 核心组件
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 同样，通常必须在所有页面中显示导航组件。但是，它还需要反映本地化页面的内容。
 
-使用 [导航核心组件](navigation.md) 和 [体验片段核心组件](experience-fragment.md) 的本地化功能以及AEM的 [可编辑模板，这成为一](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)项助学金任务。
+使用 [导航核心组件](navigation.md) 和 [体验片段核心组件](experience-fragment.md) 的本地化功能以及AEM的 [可编辑模板，这成为一](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)项助学金任务。该示例还可能进一步扩展以使用 [语言导航组件](language-navigation.md) 。
 
 ## 内容结构 {#content-structure}
 
