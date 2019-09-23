@@ -1,14 +1,14 @@
 ---
 title: 表单选项组件
 seo-title: 表单选项组件
-description: 核心组件表单选项组件允许从预定义的各种格式的预定义选项中进行选择。
-seo-description: 核心组件表单选项组件允许从预定义的各种格式的预定义选项中进行选择。
-uuid: 7e8714df-75d1-4bb0-b1 ee-b7 c7450 d806 a
+description: 核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
+seo-description: 核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
+uuid: 7e8714df-75d1-4bb0-b1ee-b7c7450d806a
 contentOwner: 用户
 content-type: 引用
 topic-tags: 创作
-products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
-discoiquuid: 42289c2b-1671-463a-ac1 d-457aa9 aefa2 a
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+discoiquuid: 42289c2b-1671-463a-ac1d-457aa9aefa2a
 translation-type: tm+mt
 source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
@@ -17,30 +17,30 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 # 表单选项组件{#form-options-component}
 
-核心组件表单选项组件允许从预定义的各种格式的预定义选项中进行选择。
+核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
 
 ## 使用情况 {#usage}
 
-核心组件表单选项组件允许提交各种不同类型的选项，这些选项以不同的方式呈现，旨在与 [表单容器组件一起使用](form-container.md)。
+核心组件表单选项组件允许以多种不同方式显示不同类型的选项的提交，并且该组件旨在与表单容器组件一 [起使用](form-container.md)。
 
-选项、标签和单个选项的演示文稿可由 [配置对话框中的内容编辑器定义](#configure-dialog)。
+选项、标签和单个选项的演示可由内容编辑器在配置对话框中定 [义](#configure-dialog)。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-表单选项组件的当前版本是v2，它是在2018年月核心组件的发行版2.0.0中引入的，文档中对此进行了介绍。
+表单选项组件的当前版本为v2，该版本在2018年1月随核心组件的2.0.0版一起推出，本文档对此进行了说明。
 
-下表详细说明了组件的所有支持版本、组件版本的AEM版本以及以前版本的文档链接。
+下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
 | 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v2 | 兼容 | 兼容 | 兼容 |
 | [v1](form-options-v1.md) | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
+有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-以下示例取自 [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下是从 [We.Retail获取的示例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
 
 ### 屏幕快照 {#screenshot}
 
@@ -139,39 +139,39 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 技术详细信息 {#technical-details}
 
-有关表单选项组件 [的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options)上找到。
+有关“表单选项”组件的最 [新技术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options)。
 
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
+有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
 ## 配置对话框 {#configure-dialog}
 
-配置对话框允许内容作者定义应显示的选项类型、标签和可用选项。
+配置对话框允许内容作者定义应显示的选项类型、标签以及可用的选项。
 
 ![](assets/screen_shot_2018-01-12at113153.png)
 
-* **类型** -将如何呈现选项
+* **类型** -选项的显示方式
    * **复选框**
    * **单选按钮**
    * **下拉面板**
    * **多选下拉面板**
-* **标题**将作为选项的标签显示的标题
-* **名称**用表单数据提交的字段名称
-* **源**位置定义选项的位置
-   * **在组件内定义本地**定义
-      * 点按或单击 **添加** 按钮以添加值， **删除可** 删除值
-      * **值**提交表单时选择该选项时保存的值
-      * **文本**表单上显示的选项的标签
-      * **活动**在表单加载时，选项被标记为选定
-      * **禁用**选项不可选择，但仍显示
-      * **列表** AEM中定义的静态列表用于选项
-         * **列出** AEM中静态列表的路径
+* **标**&#x200B;题将显示为选项标签的标题
+* **名称**&#x200B;随表单数据提交的字段的名称
+* **源**&#x200B;定义选项的位置
+   * **本地**&#x200B;在组件中定义
+      * 点按或单击 **添加** 按钮以添加值， **删除** 以删除值
+      * **值**&#x200B;提交表单时选择该选项时保存的值
+      * **文本**&#x200B;表单上显示的选项的标签
+      * **活动**&#x200B;加载表单时，该选项被标记为已选中
+      * **禁用**&#x200B;此选项不可选，但仍显示
+      * **列表** AEM中其他位置定义的静态列表用于选项
+         * **列表** AEM中静态列表的路径
             * 使用“浏览”按钮查找列表资源
-      * **数据源**用于选项的数据源
-         * **数据源的数据源**资源类型
-* **帮助消息**为用户提供在字段中输入内容的提示
+      * **数据源**&#x200B;数据源用于选项
+         * **数据源**&#x200B;数据源的资源类型
+* **帮助消**&#x200B;息提示用户可在字段中输入的内容
 
 ## 设计对话框 {#design-dialog}
 
 ### 样式选项卡 {#styles-tab}
 
-表单选项组件支持AEM [Style System](authoring.md#component-styling)。
+表单选项组件支持AEM样 [式系统](authoring.md#component-styling)。
