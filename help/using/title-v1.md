@@ -1,12 +1,12 @@
 ---
 title: 标题组件(v1)
 seo-title: 标题组件(v1)
-description: 核心组件标题组件是具有就地编辑功能的章节标题组件。
-seo-description: 核心组件标题组件是具有就地编辑功能的章节标题组件。
-uuid: 5c4d276c-f0 be-4122-a15 e-3f7443 d8 b209
+description: The Core Component Title Component is a section heading component that features in-place editing.
+seo-description: 核心组件标题组件是一个可进行就地编辑的章节标题组件。
+uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
 content-type: 引用
-products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
-discoiquuid: a028edbef-2957-410c-9bab-a7040 c350 f2 f
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
 index: n
 translation-type: tm+mt
 source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
@@ -16,19 +16,19 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 # 标题组件(v1){#title-component-v}
 
-核心组件标题组件是具有就地编辑功能的章节标题组件。
+核心组件标题组件是一个可进行就地编辑的章节标题组件。
 
 ## 使用情况 {#usage}
 
-标题组件旨在用作内容部分的标题或标题。
+标题组件用作内容部分的标题或标题。
 
-可用的标题级别可由设计对话框中的模板作者 [定义](title-v1.md#main-pars_title_1995166862)。内容编辑器可以从 [编辑对话框](title-v1.md#main-pars_title)中的可用标题级别中进行选择。为了方便起见，还提供了简单的位置文本就地编辑功能。
+可用的标题级别可由模板作者在设计对话框中 [定义](title-v1.md#main-pars_title_1995166862)。 内容编辑器可以从编辑对话框的可用标题级别 [中进行选择](title-v1.md#main-pars_title)。 For added convenience, simple in-place editing of the heading text is also available.
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档描述了标题组件的v1，该组件最初随AEM6.3的核心组件版本1.0.0一起引入。
+本文档描述了最初随AEM 6.3的核心组件版本1.0.0引入的标题组件的v1。
 
-下表列出了标题组件的v1的兼容性。
+The following table lists the compatibility of v1 of the Title Component.
 
 | AEM 版本 | 标题组件v1 |
 |--- |--- |
@@ -37,13 +37,13 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!CAUTION]
 >
->本文档描述标题组件的版本1。
+>This document describes version 1 of the Title Component.
 >
->有关标题组件当前版本的详细信息，请参阅 [标题组件](title.md) 文档。
+>For details of the current version of the Title Component, see the Title Component document.[](title.md)
 
-## 示例组件输出 {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-以下示例取自 [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下是从 [We.Retail获取的示例](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### 屏幕快照 {#screenshot}
 
@@ -70,11 +70,11 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->核心组件中的JSON导出需要核心组件版本1.1.0。有关更多信息，请参见核心组件v [](versions.md#main-pars_title_236368006) 的兼容性信息。
+>从核心组件导出JSON时，需要发行1.1.0版的核心组件。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
 
-## 编辑对话框 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
-编辑对话框允许内容作者定义标题文本以及选择标题级别。
+The edit dialog allows the content author to define the title text as well as select the heading level.
 
 >[!NOTE]
 >
@@ -88,14 +88,14 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## 设计对话框 {#design-dialog}
 
-设计对话框允许模板作者定义内容作者创建时标题组件将具有的默认标题级别。
+设计对话框允许模板作者定义标题组件在由内容作者创建时将具有的默认标题级别。
 
 ![](assets/chlimage_1-92.png)
 
 ## 技术详细信息 {#technical-details}
 
-有关标题组件 [的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title)上找到。
+有关标题组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title)。
 
-可以从GitHub下载整个核心组件项目。
+整个核心组件项目可从GitHub下载。
 
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
+有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
