@@ -3,11 +3,11 @@ title: 导航组件
 seo-title: 导航组件
 description: 'null'
 seo-description: 导航组件允许用户轻松导航全球化的站点结构。
-uuid: 616c03fb-39b3-402a-b990-f56 c87 bc6 df4
+uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
 content-type: 引用
 topic-tags: 创作
-products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
-discoiquuid: da8d67d7-b65 e-4041-bc0 e-e998 f24 a68 f9
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
 disttype: dist5
 gnavtheme: 浅色
 groupsectionnavitems: 否
@@ -29,22 +29,22 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ## 使用情况 {#usage}
 
-导航组件列表列出了页面树，以便站点的用户可以轻松导航站点结构。
+导航组件会列出一个页面树，以便站点的用户能够轻松地导航站点结构。
 
-导航组件可自动检测站点的全球化站点结构并 [自动调整到本地化页面。](#localized-site-strucutre) 此外，它还可以使用 [阴影重定向页面](#shadow-structure) 来代表除主内容结构之外的其他结构，从而支持任意站点结构。
+导航组件可以自动检测网站的全球化站点结构并 [自动适应本地化页面。](#localized-site-strucutre) 此外，它还可以通过使用阴影重定向页面来表示 [除主内容结构以外的其他结构](#shadow-structure) ，从而支持任何任意站点结构。
 
-[编辑对话框](#edit-dialog) 允许内容作者定义导航根页面以及导航深度。[设计对话框](#design-dialog) 允许模板作者为导航根和深度定义默认值。
+在编 [辑对话框中](#edit-dialog) ，内容作者可以定义导航根页面以及导航深度。 设计 [](#design-dialog) 对话框允许模板作者为导航根和深度定义默认值。
 
-## 本地化站点结构支持 {#localized-site-structure}
+## 本地化的站点结构支持 {#localized-site-structure}
 
-网站通常以多种语言提供给不同地区。通常，每个本地化页面都将包含一个包含在页面模板中的导航元素。导航组件允许您在站点的所有页面上放置一次模板，然后根据全球化站点结构自动针对各个本地化页面进行调整。
+网站通常针对不同区域以多种语言提供。 通常，每个本地化的页面都将包含作为页面模板的一部分包含的导航元素。 导航组件允许您将其放置在站点所有页面的模板上一次，然后它会根据您的全球化站点结构自动适应各个本地化页面。
 
-* 有关导航组件的本地化功能如何工作的示例，请参见下面 [](#example-localiatzion)的部分。
-* 有关核心组件的本地化功能如何协同工作的示例，请参阅核心组件页面 [的本地化功能](localization.md)。
+* 有关导航组件的本地化功能如何工作的示例，请参 [阅以下部分](#example-localiatzion)。
+* 有关核心组件的本地化功能如何协同工作的示例，请参阅核 [心组件的本地化功能页面](localization.md)。
 
 ### 示例 {#example-localization}
 
-比如说，您的内容如下所示：
+假设您的内容类似于：
 
 ```
 /content
@@ -74,58 +74,58 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 \-- wknd-shop
 ```
 
-对于站点We. Retail，您很可能希望将导航组件放置在页面模板中作为标题的一部分。在模板的一部分中，您可以设置组件 **的导航根** ， `/content/we-retail/language-masters/en` 因为该站点是站点的主内容开始的位置。您可能还希望将 **导航结构深度** 设置为， `2` 因为您可能不希望组件显示整个内容树，而是显示前两个级别，因此它用作概述。
+对于站点We.Retail，您可能希望将导航组件作为标题的一部分放置在页面模板上。 模板一旦加入，您就可以将组件的 **导航根** (Navigation Root `/content/we-retail/language-masters/en` )设置为，因为这是站点的主内容开始的位置。 您可能还希望将“导航结构深度 **”设置为**`2` ，因为您可能不希望组件显示整个内容树，而是希望前两个级别显示，以便它作为概述。
 
-导航组件通过导航 **根** 值知道导航开始后 `/content/we-retail/language-masters/en` ，它可以生成导航选项，方法是将站点结构的两级向下重复(由 **导航结构深度** 值定义)。
+使用“导 **航根**`/content/we-retail/language-masters/en`**** ”值，导航组件知道在导航开始后，它可以通过向下递归站点的结构（由“导航结构深度”值定义）来生成导航选项。
 
-无论用户查看哪个本地化页面，导航组件都可以通过了解当前页面的位置找到相应的本地化页面，从而向后工作到相应的页面，然后转发到相应页面。
+无论用户查看的是哪个本地化页面，导航组件都可以通过了解当前页面的位置找到相应的本地化页面，然后返回到根页面，然后转发到相应的页面。
 
-因此，如果访客正在查看 `/content/ch/de/experience/arctic-surfing-in-lofoten`，则该组件会根据需要生成导航结构 `/content/we-retail/language-masters/de`。同样，如果访客正在查看 `/content/us/en/experience/arctic-surfing-in-lofoten`，则该组件会根据需要生成导航结构 `/content/we-retail/language-masters/en`。
+因此，如果访客正在查 `/content/ch/de/experience/arctic-surfing-in-lofoten`看，则组件会基于生成导航结构 `/content/we-retail/language-masters/de`。 同样，如果访客正在查 `/content/us/en/experience/arctic-surfing-in-lofoten`看，则组件知道根据生成导航结构 `/content/we-retail/language-masters/en`。
 
 ## 阴影站点结构支持 {#shadow-structure}
 
-有时，必须为访客创建一个不同于实际站点结构的导航菜单。也许促销活动应通过重新排列内容列表来突出显示菜单中的特定内容。使用阴影页面直接重定向到其他内容页面，导航组件可以生成任意需要的导航结构。
+有时，需要为访客创建一个与实际站点结构不同的导航菜单。 或许促销应通过重新排列内容列表来突出显示菜单中的特定内容。 使用阴影页面（只重定向到其他内容页面），导航组件可以生成任何必要的任意导航结构。
 
 为此，您需要：
 
-1. 将阴影页面创建为表示所需站点结构的特定页面。这通常称为阴影站点结构。
-1. 在这些页面的页面路径中设置 **重定向** 值，以指向实际的内容页面。
-1. 在阴影页面的页面属性中设置 **“隐藏in Navigation** ”选项。
-1. 将导航组件的 **导航根** 值设置为指向新阴影站点结构的根。
+1. 将阴影页面创建为表示所需站点结构的填充页面。 这通常称为阴影站点结构。
+1. 在这些页 **面的页面属性中** ，设置“重定向”值以指向实际内容页面。
+1. 在阴影 **页面的页面属性中** ，设置“在导航中隐藏”选项。
+1. 设置导 **航组件的“导航根** ”值以指向新阴影站点结构的根。
 
-导航组件随后将根据阴影站点结构渲染菜单。由组件渲染的链接指向阴影页面重定向到的实际内容页面，而不是阴影页面本身。此外，组件会显示实际页面的名称并正确突出显示活动页面，即使导航基于阴影页面也是如此。导航组件有效地使阴影页面对访客完全透明。
-
->[!NOTE]
->阴影页面使您的导航选项变得更灵活，但请记住，此结构的作用是完全手动操作。如果重新排列实际的站点内容或添加/删除内容，则需要根据需要手动更新阴影结构。
+导航组件随后将根据阴影站点结构呈现菜单。 组件呈现的链接指向阴影页面本身重定向到的实际内容页面，而不是指向阴影页面本身。 此外，组件还会显示实际页面的名称，并正确高亮显示活动页面，即使导航基于阴影页面。 导航组件有效地使阴影页面对访客完全透明。
 
 >[!NOTE]
->渲染阴影站点结构时，导航逻辑只会重复显示阴影页面。逻辑并不重复重定向目标的结构。
+>阴影页面使导航选项更灵活，但请记住，此结构的维护是完全手动的。 如果重新排列实际的站点内容或添加／删除内容，则需要根据需要手动更新阴影结构。
+
+>[!NOTE]
+>渲染阴影站点结构时，导航逻辑只会递归阴影页面。 该逻辑不再返回重定向目标的结构。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-导航组件的当前版本是v1，它是在2018年月版的核心组件中引入的，它在文档中进行了介绍。
+导航组件的当前版本为v1,v1是2018年1月随核心组件版本2.0.0引入的，本文档对此进行了说明。
 
-下表详细说明了组件的所有支持版本、组件版本的AEM版本以及以前版本的文档链接。
+下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
 | 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v1 | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
+有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验导航组件以及查看其配置选项的示例以及HTML和JSON输出，请访问 [组件库](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html)。
+要体验导航组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html)。
 
 ## 技术详细信息 {#technical-details}
 
-有关导航组件 [的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)。
+有关导航组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)。
 
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
+有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
 >[!NOTE]
 >
->从核心组件版本2.1.0开始，导航组件支持 [schema.org微型数据](https://schema.org)。
+>自核心组件版本2.1.0起，导航组件支持 [schema.org microdata](https://schema.org)。
 
 ## Edit Dialog {#edit-dialog}
 
@@ -135,32 +135,32 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ![](assets/screen-shot-2019-08-29-12.23.45.png)
 
-* **导航根**&#x200B;根页面，用于生成导航树。
-* **排除导航根目录**&#x200B;排除生成树中的导航根，仅包括其后代。
-* **收集所有子页面**&#x200B;收集导航根后代的所有页面。
-* **导航结构深度**&#x200B;定义组件应相对于导航根显示的导航树级别的级别(仅当未选择所有子页面 **** 时才可用)。
+* **导航根**&#x200B;将用于生成导航树的根页面。
+* **排除导航根**&#x200B;排除生成树中的导航根，仅包括其子体。
+* **收集所有子页面**&#x200B;收集所有作为导航根目录子项的页面。
+* **导航结构深**&#x200B;度定义组件在导航树中相对于导航根目录显示的级别数(仅在未选择“收集所有子页面 **** ”时可用)。
 
 ### 辅助功能选项卡 {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.23.53.png)
 
-在 **辅助功能** 选项卡上，可以为组件设置 [AIR辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/) 标签的值。
+在“辅 **助功能** ”选项卡上 [，可为组件的](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA辅助功能标签设置值。
 
-* **标签** -组件的ARRIA标签属性的值
+* **标签** -组件的ARIA标签属性的值
 
 ## 设计对话框 {#design-dialog}
 
-设计对话框允许模板作者为内容作者设置导航根页面和导航深度的默认值。
+设计对话框允许模板作者设置向内容作者显示的导航根页面和导航深度的默认值。
 
 ### 属性选项卡 {#properties-tab-design}
 
 ![](assets/screen_shot_2018-04-03at112357.png)
 
-* **导航根**&#x200B;导航结构根页面的默认值，用于生成导航树并在内容作者将组件添加到页面时默认使用该值。
-* **不包括导航根**&#x200B;选项用于排除生成树中导航根的选项的默认值。
-* **收集所有子页面**&#x200B;此选项的默认值用于收集导航根的所有后代的所有页面。
-* **导航结构深度**&#x200B;导航结构深度的默认值。
+* **导航根**&#x200B;导航结构的根页面的默认值，将用于生成导航树，并在内容作者将组件添加到页面时默认值。
+* **排除导航根**&#x200B;用于在生成树中排除导航根的选项的默认值。
+* **收集所有子页**&#x200B;面此选项的默认值用于收集作为导航根目录的后代的所有页面。
+* **导航结构深**&#x200B;度导航结构深度的默认值。
 
 ### 样式选项卡 {#styles-tab}
 
-导航组件支持AEM [Style System](authoring.md#component-styling)。
+导航组件支持AEM样 [式系统](authoring.md#component-styling)。
