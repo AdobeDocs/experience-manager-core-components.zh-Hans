@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: adobe experience manager核心组件
+sub-product: Adobe Experience manager核心组件
 archetype: 管理员
 user-guide-title: AEM核心组件
 translation-type: tm+mt
@@ -47,14 +47,14 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
       + [隐藏的表单](form-hidden.md)
       + [表单选项](form-options.md)
       + [表单文本](form-text.md)
-   + v组件 {#v1-components}
+   + v1组件 {#v1-components}
       + [痕迹导航 (v1)](breadcrumb-v1.md)
       + [图像 (v1)](image-v1.md)
       + [列表 (v1)](list-v1.md)
       + [页面 (v1)](page-v1.md)
       + [文本 (v1)](text-v1.md)
       + [标题 (v1)](title-v1.md)
-      + v表单组件 {#v1-forms}
+      + v1表单组件 {#v1-forms}
          + [表单按钮 (v1)](form-button-v1.md)
          + [表单容器 (v1)](form-container-v1.md)
          + [隐藏的表单 (v1)](form-hidden-v1.md)
@@ -62,6 +62,6 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
          + [表单文本 (v1)](form-text-v1.md)
 + 开发 {#developing}
    + [开发核心组件](developing.md)
-   + [WKD开发人员教程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND开发人员教程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [自定义核心组件](customizing.md)
-   + [组件指南](guidelines.md)
+   + [组件准则](guidelines.md)
