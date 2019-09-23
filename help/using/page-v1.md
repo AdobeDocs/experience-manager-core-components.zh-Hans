@@ -1,12 +1,12 @@
 ---
 title: 页面组件(v1)
 seo-title: 页面组件(v1)
-description: 页面组件是可扩展的页面组件，设计用于与模板编辑器配合使用，并允许使用模板编辑器组合页面标题/页脚和结构组件。
-seo-description: 页面组件是可扩展的页面组件，设计用于与模板编辑器配合使用，并允许使用模板编辑器组合页面标题/页脚和结构组件。
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0 de2 c32
+description: 页面组件是可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器组合页眉／页脚和结构组件。
+seo-description: 页面组件是可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器组合页眉／页脚和结构组件。
+uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
 content-type: 引用
 topic-tags: 核心组件
-discoiquuid: b3f1775d-743d-4f72-a1 e5-198303007a8 e
+discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
 source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
@@ -16,19 +16,19 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 # 页面组件(v1){#page-component-v}
 
-页面组件是可扩展的页面组件，设计用于与 [模板编辑器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) 配合使用，并允许使用模板编辑器组合页面标题/页脚和结构组件。
+页面组件是可扩展的页面组件，旨在与模板编辑器一起使 [用](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) ，并允许使用模板编辑器组合页眉／页脚和结构组件。
 
 ## 使用情况 {#usage}
 
-页面组件构成了使用核心组件以及可编辑模板设计的所有页面的基础。使用页面组件、页眉、页脚和页面结构可以定义为使用其他核心组件的模板。
+页面组件构成了使用核心组件以及可编辑模板设计的所有页面的基础。 通过使用页面组件，页眉、页脚和页面结构可以使用其他核心组件定义为模板。
 
-使用 [设计对话框](page-v1.md#main-pars_title_1995166862)，可以为页面定义自定义客户端库。与其他具有可直接从组件访问的编辑对话框的组件不同，因为组件本身是页面本身，因此页面组件的 [编辑对话框](page-v1.md#main-pars_title) 是页面属性窗口。
+使用设 [计对话框](page-v1.md#main-pars_title_1995166862)，可以为页面定义自定义客户端库。 与具有可直接从组件访问的编辑对话框的其他组件不同，因为组件是页面本身，所以页面组件的编辑 [对话框](page-v1.md#main-pars_title) 是页面属性窗口。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档描述了页面组件的v1，该组件最初随AEM6.3的核心组件版本1.0.0一起引入。
+本文档描述了最初随AEM 6.3的核心组件版本1.0.0引入的页面组件版本1。
 
-下表列出了页面组件的v1的兼容性。
+下表列出了页面组件v1的兼容性。
 
 | AEM 版本 | 页面组件v1 |
 |--- |--- |
@@ -39,15 +39,15 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 >
 >本文档描述了页面组件的v1。
 >
->有关页面组件当前版本的详细信息，请参阅 [页面组件](page.md) 文档。
+>有关页面组件当前版本的详细信息，请参阅页面 [组件文档](page.md) 。
 
 >[!NOTE]
 >
->页面组件的v不支持页面重定向。请使用页面组件 [](page.md) 的当前版本进行页面重定向支持。
+>页面组件的v1不支持页面重定向。 请使用页 [面组件的当前版本](page.md) ，以获得页面重定向支持。
 
 ## 示例组件输出 {#sample-component-output}
 
-以下示例取自 [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下是从 [We.Retail获取的示例](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
 ### 屏幕快照 {#screenshot}
 
@@ -681,21 +681,21 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->核心组件中的JSON导出需要核心组件版本1.1.0。有关更多信息，请参见核心组件v [](versions.md#main-pars_title_236368006) 的兼容性信息。
+>从核心组件导出JSON时，需要发行1.1.0版的核心组件。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
 
-## 编辑对话框 {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
-由于组件代表整个页面，因此通常在编辑对话框中显示的设置位于 [页面属性](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) 窗口中。
+由于组件表示整个页面，因此通常在编辑对话框中的设置会显示在页面属 [性窗口中](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) 。
 
 ## 设计对话框 {#design-dialog}
 
-由于组件代表整个页面，因此通过 **页面信息-&gt;页面设计访问设计对话框**。
+由于组件表示整个页面，因此可通过“页面信息”-&gt;“页 **面设计”访问设计对话框**。
 
 ![](assets/chlimage_1-94.png)
 
-使用页面设计窗口，您可以定义应随页面加载的客户端库。
+使用“页面设计”窗口，您可以定义应随页面一起加载的客户端库。
 
-* 要添加新字段，请单击或点按字段下方的 **添加** 按钮。
+* 要添加新字段，请单击或点按字 **段下方** 的添加按钮。
 * 要删除字段，请单击或点按要删除的字段旁边的垃圾桶图标。
 * 要重新排列加载顺序，请单击或点按并拖动要移动的字段旁边的手柄。
 
@@ -705,8 +705,8 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## 技术详细信息 {#technical-details}
 
-有关页面组件 [的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)上找到。
+有关页面组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)。
 
-可以从GitHub下载整个核心组件项目。
+整个核心组件项目可从GitHub下载。
 
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
+有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
