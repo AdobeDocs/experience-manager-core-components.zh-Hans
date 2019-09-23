@@ -3,12 +3,12 @@ title: 表单按钮组件
 seo-title: 表单按钮组件
 description: 'null'
 seo-description: 核心组件表单隐藏组件允许在表单中包含隐藏字段。
-uuid: 22c53cd0-d0 bc-4e5 d-89f3-3ac4 f61 a9100
+uuid: 22c53cd0-d0bc-4e5d-89f3-5ac4f61a9100
 contentOwner: 用户
 content-type: 引用
 topic-tags: 创作
-products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
-discoiquuid: a6e2974a-243f-40ab-903c-c7 d3 e8615 bcc
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+discoiquuid: a6e2974a-243f-40ab-903c-c7d3e8615bcc
 disttype: dist5
 gnavtheme: 浅色
 groupsectionnavitems: 否
@@ -26,30 +26,30 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 # 表单按钮组件{#form-button-component}
 
-核心组件表单按钮组件允许包含按钮在页面上触发操作。
+核心组件表单按钮组件允许包含按钮以触发页面上的操作。
 
 ## 使用情况 {#usage}
 
-核心组件表单按钮组件允许创建按钮字段，通常用于触发表单提交并应与 [表单容器组件一起使用](form-container.md)。
+核心组件表单按钮组件允许创建按钮字段，通常用于触发表单的提交，并准备与表单容器组件一 [起使用](form-container.md)。
 
-按钮属性可由 [配置对话框中的内容编辑器定义](form-button.md)。
+按钮属性可由内容编辑器在配置对话框中 [定义](form-button.md)。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-表单按钮组件的当前版本是v2，它是在2018年月核心组件的发行版2.0.0中引入的，文档中对此进行了介绍。
+表单按钮组件的当前版本为v2,v2是2018年1月随核心组件版本2.0.0一起引入的，本文档对此进行了说明。
 
-下表详细说明了组件的所有支持版本、组件版本的AEM版本以及以前版本的文档链接。
+下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
 | 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v2 | 兼容 | 兼容 | 兼容 |
 | [v1](form-button-v1.md) | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
+有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-以下示例取自 [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下是从 [We.Retail获取的示例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
 
 ### 屏幕快照 {#screenshot}
 
@@ -85,9 +85,9 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 技术详细信息 {#technical-details}
 
-有关表单按钮组件 [的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button)。
+有关“表单按钮组件”的最 [新技术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button)。
 
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
+有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
 ## 配置对话框 {#configure-dialog}
 
@@ -104,13 +104,13 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 * **标题** -按钮上显示的文本
 
-   * 如果没有默认值，则默认为按钮类型
+   * 如果未提供，则默认为按钮类型
 
-* **名称** -按钮的名称，该按钮使用表单数据提交
-* **值** -用表单数据提交的按钮的值
+* **名称** -随表单数据一起提交的按钮的名称
+* **值** -随表单数据一起提交的按钮的值
 
 ## 设计对话框 {#design-dialog}
 
 ### 样式选项卡 {#styles-tab}
 
-表单按钮组件支持AEM [Style System](authoring.md#component-styling)。
+表单按钮组件支持AEM样 [式系统](authoring.md#component-styling)。
