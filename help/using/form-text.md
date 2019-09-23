@@ -2,13 +2,13 @@
 title: 表单文本组件
 seo-title: 表单文本组件
 description: 'null'
-seo-description: 核心组件表单文本组件允许提交表单文本。
-uuid: f2418d55-3b59-4c7c-a541-d12 dda4 db4 cf
+seo-description: 核心组件表单文本组件允许输入表单文本以供提交。
+uuid: f2418d55-0b59-4c7c-a541-d12dda4db4cf
 contentOwner: 用户
 content-type: 引用
 topic-tags: 创作
-products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
-discoiquuid: a970c4b-806b-4a0a-b6 b8-b3 dca4 e9 f136
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 3a970c4b-806b-4a0a-b6b8-b3dca4e9f136
 disttype: dist5
 gnavtheme: 浅色
 groupsectionnavitems: 否
@@ -26,28 +26,28 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 # 表单文本组件{#form-text-component}
 
-核心组件表单文本组件允许提交表单文本。
+核心组件表单文本组件允许输入表单文本以供提交。
 
 ## 使用情况 {#usage}
 
-表单文本组件允许提交不同类型的文本，并旨在与 [表单容器组件一起使用](form-container.md)。文本验证、标签和帮助消息类型可由 [配置对话框中的内容编辑器定义](#configure-dialog)。
+表单文本组件允许提交不同类型的文本，并准备与表单容器组件一 [起使用](form-container.md)。 文本验证、标签和帮助消息的类型可由内容编辑器在配置对话框中 [定义](#configure-dialog)。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-表单文本组件的当前版本是v2，它是在2018年月核心组件的发行版2.0.0中引入的，文档中对此进行了介绍。
+表单文本组件的当前版本为v2，该版本在2018年1月随核心组件的2.0.0版一起推出，本文档对此进行了说明。
 
-下表详细说明了组件的所有支持版本、组件版本的AEM版本以及以前版本的文档链接。
+下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
 | 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v2 | 兼容 | 兼容 | 兼容 |
 | [v1](form-text-v1.md) | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档 [核心组件版本](versions.md)。
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## 示例组件输出 {#sample-component-output}
 
-以下示例取自 [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下是从 [We.Retail获取的示例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
 
 ### 屏幕快照 {#screenshot}
 
@@ -86,21 +86,22 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
                   }
 ```
 
-### 技术详细信息 {#technical-details}
+### Technical Details {#technical-details}
 
-有关表单文本组件 [的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text)上找到。
+有关表单文本组件的最新技 [术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text)。
 
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档](developing.md)。
+Further details about developing Core Components can be found in the Core Components developer documentation.[](developing.md)
 
-## 配置对话框 {#configure-dialog}
+## Configure Dialog {#configure-dialog}
 
-配置对话框允许内容作者定义要输入的文本类型以及默认值和标签。
+The configure dialog allows the content author to define the type of text to be input as well as default values and labels.
 
-### 主选项卡 {#main-tab}
+### Main Tab {#main-tab}
 
 ![](assets/chlimage_1-23.png)
 
-* **约束**要输入的文本类型并针对其进行验证
+* **Constraint
+The type of text to be input and will be validated against**
    * **文本**
    * **文本区域**
    * **电子邮件**
@@ -108,18 +109,20 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
    * **日期**
    * **数字**
    * **密码**
-* **文本线**要在文本区域中显示的行数(仅 **当“约束”** 设置为 **文本区域时显示**)
-* **标签**将为字段显示的标签
-* **如果仅出于辅助功能**目的而需要标签，且不会影响与字段有关的任何其他可视化信息，则隐藏该标签。
-* **元素名称**随表单数据提交的字段名称
-* **在字段中预填充的值**默认值
+* **Text lines
+Number of lines to be displayed in the text area (only displayed when Constraint is set to Text Area)**********
+* **标签**&#x200B;将为字段显示的标签
+* **如果标签仅用于辅助功能**，并且不会传递有关该字段的任何其他可视信息，则隐藏标签，使其不显示
+* **元素名**&#x200B;称随表单数据一起提交的字段的名称
+* **值**&#x200B;字段中预填充的默认值
 
-### 关于选项卡 {#about-tab}
+### About Tab {#about-tab}
 
 ![](assets/chlimage_1-24.png)
 
-* **帮助消息**提示用户在字段中输入内容的提示
-* **将帮助信息显示为占位符**在表单为空且未聚焦时显示表单输入中的帮助消息
+* **帮助消**&#x200B;息提示用户可在字段中输入的内容
+* **Display help message as placeholder**
+To display the help message inside the form input when it is empty and not focused
 
 ### 约束选项卡 {#constraints-tab}
 
@@ -127,9 +130,10 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 * **约束消息**
    * 如果该值对于所选的类型无效，则在提交表单时，将以工具提示形式显示消息
-   * 不显示 **文本** 和 **文本区域** 限制类型
-* **必需**如果选择此选项，用户必须在提交表单前填写一个值
-* **使只读成为只读**的情况下，用户无法修改字段的值
+   * 不显示文本和 **文本****区域约束类型**
+* **Required**
+If selected the user must fill in a value before submitting the form
+* **设为只读**&#x200B;如果选中此选项，则用户无法修改字段的值
 
 ## 设计对话框 {#design-dialog}
 
