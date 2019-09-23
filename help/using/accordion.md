@@ -2,109 +2,109 @@
 title: Accordion组件
 seo-title: Accordion组件
 description: 'null'
-seo-description: 核心组件折叠组件允许创建一组在页面上折叠的面板中排列的面板。
-uuid: ec807de9-f76 c-4850-9e-c3 e439 a1 d626
+seo-description: 核心组件折叠面板组件允许创建在页面上折叠面板中排列的面板集合。
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: 用户
 content-type: 引用
 topic-tags: 创作
-products: SG_ EXPERIENCE MANAGER/CORECOMMPANES-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93 a50 e6870
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
 source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
 
 ---
 
 
-# Accordion Component{#accordion-component}
+# Accordion组件{#accordion-component}
 
-核心组件折叠组件允许创建一组在页面上折叠的面板中排列的面板。
+核心组件折叠面板组件允许创建在页面上折叠面板中排列的面板集合。
 
 ## 使用情况 {#usage}
 
-The Core Component Accordion component allows for the creation of a collection of components, composed as panels, and arranged in an accordion on a page, similar to the [Tabs Component](tabs.md), but allows for expanding and collapsing of the panels.
+核心组件折叠面板组件允许创建组件集合（由面板组成），并排列在页面上的折叠面板中(与 [Tabs组件类似](tabs.md))，但允许展开和折叠面板。
 
-* The accordion&#39;s properties can be defined in the [configure dialog](#configure-dialog).
-* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-planel.md).
-* Defaults for the Accordion Component when adding it to a page can be defined in the [design dialog](#design-dialog).
+* 可在配置对话框中定义accordion的 [属性](#configure-dialog)。
+* 可在配置对话框和选择面板弹出窗口中定义折叠面板 [的顺序](#select-planel.md)。
+* 将Accordion组件添加到页面时的默认值可以在设计对话框中 [定义](#design-dialog)。
 
-## Version and Compatibility {#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
-Accordion Component的最新版本为v1，它是在2019年月版的核心组件中引入的，它在本文档中进行了介绍。
+Accordion组件的当前版本为v1,v1是2019年6月随核心组件版本2.5.0引入的，本文档对此进行了说明。
 
-下表详细说明了组件的所有支持版本、组件版本的AEM版本以及以前版本的文档链接。
+下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
 | 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
 | v1 | 兼容 | 兼容 | 兼容 |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
-## Sample Component Output {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html).
+要体验Accordion组件，并查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html)。
 
-## Technical Details {#technical-details}
+## 技术详细信息 {#technical-details}
 
-The latest technical documentation about the Accordion Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
+有关Accordion组件的最新技术文档 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)。
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
-配置对话框允许内容作者定义折叠项目、其面板及其行为，并为访客显示页面。
+配置对话框允许内容作者定义折叠式项目及其面板，以及该项目的行为方式和页面访客的显示方式。
 
-### Items Tab {#items-tab}
+### 项目选项卡 {#items-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.38.png)
 
-Use the **Add** button to open the component selector to choose which component to add as a panel. 添加后，条目会添加到列表中，其中包含以下列：
+使用添 **加按钮** ，打开组件选择器以选择要添加为面板的组件。 添加后，一个条目将添加到列表，其中包含以下列：
 
-* **图标** -面板的组件类型的图标，用于在列表中轻松标识。将鼠标悬停在鼠标上可查看整个组件名称作为工具提示。
-* **描述** -用作面板文本的说明，默认为面板所选组件的名称。
-* **删除** -点按或单击可从折叠组件中删除面板。
-* **重新排列** -点按或单击并拖动可重新排列面板的顺序。
+* **图标** -面板组件类型的图标，可在列表中轻松识别。 将鼠标悬停在上方，可将完整组件名称作为工具提示查看。
+* **说明** -用作面板文本的说明，默认使用为面板选择的组件的名称。
+* **删除** -点按或单击，从折叠式组件中删除面板。
+* **重新排列** -点按或单击并拖动以重新排列面板的顺序。
 
-### Properties Tab {#properties-tab}
+### 属性选项卡 {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
 
-* **单个项目扩展** -选中此选项后，此选项会强制一次展开一个折叠项目。展开一个项目后，将折叠所有其他项目。
-* **扩展的项目** -此选项定义加载页面时默认展开的项目。
-   * When **Single item expansion** is selected, one panel must be selected. 默认情况下，第一个面板处于选中状态。
-   * When **Single item expansion** is not selected, this option is a multi-select and is optional.
+* **单个项目扩展** -选择此选项后，将强制一次展开单个折叠项目。 展开一个项目后，将折叠所有其他项目。
+* **扩展项目** -此选项定义加载页面时默认展开的项目。
+   * 选 **择“单个项目扩展** ”后，必须选择一个面板。 默认情况下，第一个面板处于选中状态。
+   * 如果未 **选择“单个项目扩展** ”，则此选项为多选选项，且是可选的。
 
-## Select Panel Popover {#seelct-panel-popover}
+## 选择面板弹出窗口 {#seelct-panel-popover}
 
-The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the panels within the accordion.
+内容作者可以使用组件工具栏上的 **“选择面板** ”选项更改为其他面板进行编辑，并轻松重新排列折叠面板中面板的顺序。
 
 ![](assets/screen-shot-2019-06-21-08.49.36.png)
 
-Once selecting the **Select Panel** option in the component toolbar, the configured accordion panels are displayed as a drop-down.
+在组件工 **具栏中选择** “选择面板”选项后，配置的折叠面板将显示为下拉框。
 
 ![](assets/screen-shot-2019-06-21-08.52.14.png)
 
-* 列表由分配的面板排列排序，并反映在编号中。
-* 将首先显示该面板的组件类型，后跟浅体字体的说明。
-* 点击或单击下拉菜单中的条目，将编辑器中的视图切换到该面板。
+* 列表按面板的分配排列进行排序，并反映在编号中。
+* 首先显示面板的组件类型，然后显示字体较轻的面板说明。
+* 点按或单击下拉菜单中的条目，将编辑器中的视图切换到该面板。
 * 使用拖动手柄可以就地重新排列面板。
 
-## Design Dialog {#design-dialog}
+## 设计对话框 {#design-dialog}
 
-设计对话框允许模板作者定义使用Accordion组件的内容作者和放置Accordion组件时设置的默认选项。
+设计对话框允许模板作者定义可供内容作者使用折叠组件的选项以及放置折叠组件时设置的默认值。
 
-### Properties Tab {#properties-tab-design}
+### 属性选项卡 {#properties-tab-design}
 
 ![](assets/screen-shot-2019-06-21-08.58.11.png)
 
-* **允许的标题元素** -此多选下拉菜单定义允许作者选择的可折叠项目标题HTML元素。
-* **默认标题元素** -此下拉菜单定义默认折叠项目标题HTML元素。
+* **允许的标题元素** -此多选下拉框定义作者允许选择的折叠项目标题HTML元素。
+* **默认标题元素** -此下拉框定义默认的折叠项目标题HTML元素。
 
-### Allowed Components Tab {#allowed-components-tab}
+### 允许的组件选项卡 {#allowed-components-tab}
 
-**允许的组件** 选项卡用于定义可将哪些组件作为项目添加到内容作者的Accordion组件中的面板。
+“允 **许的组件** ”选项卡用于定义内容作者可以将哪些组件作为项目添加到Accordion组件中的面板。
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+在模板编辑器中定义布局容器的策略和属性时，“允许的组件”选项卡 [的功能与同名选项卡的功能相同。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-### Styles Tab {#styles-tab}
+### 样式选项卡 {#styles-tab}
 
-The Accordion Component supports the AEM [Style System](authoring.md#component-styling).
+Accordion组件支持AEM样 [式系统](authoring.md#component-styling)。
