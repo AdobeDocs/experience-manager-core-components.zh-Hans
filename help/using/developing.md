@@ -10,7 +10,7 @@ topic-tags: 开发
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -143,6 +143,7 @@ GITHUB上的代码
 | [按钮](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | 在页面上创建按钮 | `-` |
 | [下载](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | 向页面添加可下载的资源 | `-` |
 | [体验片段](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | 将体验片段添加到页面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [嵌入](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | 在页面中嵌入外部资源 | - |
 
 ### 即将推出的组件 {#upcoming-components}
 
