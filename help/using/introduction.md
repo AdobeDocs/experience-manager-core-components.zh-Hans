@@ -10,7 +10,7 @@ topic-tags: 简介
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -58,6 +58,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 * [内容片段](content-fragment-component.md)
 * [内容片段列表](content-fragment-list.md)
 * [下载](download.md)
+* [嵌入](embed.md)
 * [体验片段](experience-fragment.md)
 * [表单按钮](form-button.md)
 * [表单容器](form-container.md)
