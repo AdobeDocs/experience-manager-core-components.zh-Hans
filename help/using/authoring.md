@@ -8,7 +8,7 @@ content-type: 引用
 topic-tags: 创作
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -101,6 +101,7 @@ Components are available on the **Components** tab of the side panel of the page
 * [内容片段](content-fragment-component.md)
 * [内容片段列表](content-fragment-list.md)
 * [下载](download.md)
+* [嵌入](embed.md)
 * [体验片段](experience-fragment.md)
 * [表单按钮](form-button.md)
 * [表单容器](form-container.md)
