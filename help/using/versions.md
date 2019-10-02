@@ -1,6 +1,6 @@
 ---
 title: 核心组件版本
-seo-title: 核心组件版本
+seo-title: Core Components Versions
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍了哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 seo-description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍了哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 uuid: a916a923-8c5e-456a-84b5-b52228e21434
@@ -10,7 +10,7 @@ topic-tags: 简介
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 ---
 
@@ -39,9 +39,9 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ### 版本 {#releases}
 
-核心组件通过发行版提供 **** , [并代表GitHub上可用的实际已发布对象](https://github.com/adobe/aem-core-wcm-components/releases)。 版本以X.Y.Z格式的十进制数表示，并将所有核心组件作为可交付的包一起收集。
+核心组件通过发行版提供 **** , [并代表GitHub上可用的实际已发布对象](https://github.com/adobe/aem-core-wcm-components/releases)。 Releases are denoted with a decimal number of the format X.Y.Z and collect all core components together as a deliverable package.
 
-* **主要版本** ，可以引入现有组件的新版本，以及全新的组件和标准错误修复。 This is represented by an increment in the X component of the release number.
+* **主要版本** ，可以引入现有组件的新版本，以及全新的组件和标准错误修复。 这由发行号的X组件中的增量表示。
 * **Important releases can introduce new functionality to existing versions of components along with bug fixes.** This is represented by an increment in the Y component of the release number.
 * **Minor releases** contain only bug fixes. This is represented by an increment in the Z component of the release number.
 
@@ -53,20 +53,20 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
-The Core Components were first released with AEM 6.3 and are designed to be flexible and compatible with all supported AEM versions. Because of this a release of the components can contain multiple versions of the same component.
+The Core Components were first released with AEM 6.3 and are designed to be flexible and compatible with all supported AEM versions. 因此，一个版本的组件可以包含同一组件的多个版本。
 
-The following tables illustrate the compatibility of the releases of the Core Components along with which component versions are contained in which releases.
+下表说明了核心组件版本的兼容性以及包含哪些版本的组件版本。
 
-### Release History &amp; Supported AEM Versions {#release-history-supported-aem-versions}
+### 发布历史记录和支持的AEM版本 {#release-history-supported-aem-versions}
 
 The following table, the contents of which are available on GitHub with full release details, gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.[](https://github.com/adobe/aem-core-wcm-components/releases)
 
-| 版本 | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Release Date |
+| Release | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Release Date |
 |---|---|---|---|---|---|---|
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此版本引入了新的嵌入组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年9月25日 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入了新的体验片段组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年9月6日 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此版本引入了新的嵌入组件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 25 September 2019 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入了新的体验片段组件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019年9月6日 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引入了新的Accordion、Button、Container和Download组件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年6月25日 |
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入了内容片段列表组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年5月7日 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入了内容片段列表组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 7 May 2019 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本侧重于对组件库的细化，但同时包含对分隔符组件的一些功能增强 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 2019年3月14日 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本侧重于组件库以及新的分隔符组件，但同时包含图像组件的一些功能增强 | 6.3.3.0+ | 6.4.2.0+ | - | 8 | 2019年2月11日 |
 | [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此版本主要侧重于错误修复，但还包含传送组件的一些功能增强 | 6.3.3.0+ | 6.4.2.0+ | - | 8 | 2018年11月27日 |
@@ -90,19 +90,19 @@ The following table, the contents of which are available on GitHub with full rel
 
 The following table details which versions of which components are contained in which releases of the Core Components.
 
-|  | Release 1.0.0 - 1.0.6 | Release 1.1.0 | Release 2.0.0 - 2.0.8 | 版本2.1.0 | 版本2.2.0-2.2.0 | Release 2.3.0-2.3.2 | 版本2.4.0 | 版本2.5.0 | 版本2.6.0 | 版本2.7.0+ |
+|  | Release 1.0.0 - 1.0.6 | 版本1.1.0 | 版本2.0.0 - 2.0.8 | 版本2.1.0 | Release 2.2.0-2.2.0 | 版本2.3.0-2.3.2 | Release 2.4.0 | 版本2.5.0 | 版本2.6.0 | 版本2.7.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **[页面](page.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
 | **[标题](title.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
 | **[图像](image.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1, v2 |
-| **[列表](list.md)** | v1 | v1 | v1, v2 | v1,v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[痕迹导航](breadcrumb.md)** | v1 | v1 | v1,v2 | v1, v2 | v1,v2 | v1, v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[列表](list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[痕迹导航](breadcrumb.md)** | v1 | v1 | v1, v2 | v1,v2 | v1,v2 | v1,v2 | v1, v2 | v1, v2 | v1, v2 | v1,v2 |
 | **[社交媒体共享](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[表单容器](form-container.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
 | **[表单文本](form-text.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
-| **[表单选项](form-options.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1, v2 |
-| **[隐藏的表单](form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1,v2 | v1,v2 |
-| **[表单按钮](form-button.md)** | v1 | v1 | v1, v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[表单选项](form-options.md)** | v1 | v1 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 | v1,v2 |
+| **[隐藏的表单](form-hidden.md)** | v1 | v1 | v1,v2 | v1, v2 | v1,v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[表单按钮](form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1,v2 | v1,v2 | v1, v2 |
 | **[内容片段](content-fragment-component.md)** |  | 沙盒 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[导航](navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[语言导航](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
@@ -110,18 +110,18 @@ The following table details which versions of which components are contained in 
 | **[Teaser](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[选项卡](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[传送](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Separator](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[分隔符](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
 | **[内容片段列表](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
 | **[Accordion](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Button](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[Container](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[按钮](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[容器](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[下载](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[体验片段](separator.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[嵌入](separator.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
 ## 文档 {#documentation}
 
-[使用核心组件进行创作](authoring.md) ，描述核心组件的使用情况以及向内容作者和模板作者公开的功能。 每个组件都有详细的说明。
+[使用核心组件进行创作](authoring.md) ，描述核心组件的使用情况以及向内容作者和模板作者公开的功能。 Each component is documented in detail.
 
 [组件库是](http://opensource.adobe.com/aem-core-wcm-components/library.html) 大多数核心组件的当前版本的展示，说明了它们的使用方式。
 
