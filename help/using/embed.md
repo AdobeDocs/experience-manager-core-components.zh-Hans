@@ -6,7 +6,7 @@ seo-description: 嵌入组件支持在AEM内容页面中嵌入外部内容。
 content-type: 引用
 topic-tags: 核心组件
 translation-type: tm+mt
-source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
+source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 ---
 
@@ -95,12 +95,14 @@ source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
 
 作者可以输入的HTML标记会出于安全目的进行筛选，以避免跨站点脚本攻击，例如允许作者获得管理权限。
 
-通常，所有脚本和元 `style` 素以及所有和属 `on*` 性 `style` 都将从输出中删除。
+*通常，所有* script和元素 `style` ，以及所有 `on*``style` 和属性都将从输出中删除。
 
-但是，这些规则比这些规则更复杂，因为嵌入组件遵循AEM的全局HTML AntiSami过滤规则集，可在上找到该规则集 `/libs/cq/xssprotection/config.xml`。 如果需要，开发人员可以覆盖该配置以进行特定于项目的配置。
+但是，这些规则更复杂，因为嵌入组件遵循AEM的全局HTML AntiSamy卫生框架过滤规则集（可在上找到） `/libs/cq/xssprotection/config.xml`。 如果需要，开发人员可以覆盖该配置以进行特定于项目的配置。
+
+AEM开发人员文档中提供了其他安 [全信息。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
 
 >[!NOTE]
->尽管可以通过覆盖配置AntiSamy规则， `/libs/cq/xssprotection/config.xml`但这些更改会影响所有HTL和JSP行为，而不仅仅影响嵌入核心组件。
+>尽管可以通过覆盖来配置AntiSamy卫生框架规则，但这些更改会影响所有HTL和JSP行为，而不仅仅影响嵌入核心组件 `/libs/cq/xssprotection/config.xml`。
 
 ## 设计对话框 {#design-dialog}
 
