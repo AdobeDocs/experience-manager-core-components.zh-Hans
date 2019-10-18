@@ -10,7 +10,7 @@ topic-tags: 简介
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -105,7 +105,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 使用核心组件开发 AEM 站点的入门指导，是一种[分步式教程。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-别忘了启动您自己的AEM项目，利用 [AEM项目原型](archetype.md) ，内置最新的核心组件！
+别忘了启动您自己的AEM项目，利用 [AEM项目原型](overview.md) ，内置最新的核心组件！
 
 ## 核心组件支持 {#core-components-support}
 
