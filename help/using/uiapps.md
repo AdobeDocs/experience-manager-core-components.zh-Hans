@@ -7,7 +7,7 @@ contentOwner: 博纳特
 content-type: 参考文件
 topic-tags: 核心组件
 translation-type: tm+mt
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -20,7 +20,7 @@ Apache Jackrabbit fileVault包插件用于将ui.apps模块的内容编译为可�
 
 ## 父POM {#parent-pom}
 
-[父POM](archetype.md#parent-pom) (`<src>/<project>/pom.xml`)包括 `<plugin>` 为项目中使用的插件定义各种配置的部分。 这包括Jackrabbit fileVault包插 `filterSource` 件的配置。 这 `filterSource` 些参数指向用于定 `filter.xml` 义包中包含的jcr路径的文件的位置。
+[父POM](overview.md#parent-pom) (`<src>/<project>/pom.xml`)包括 `<plugin>` 为项目中使用的插件定义各种配置的部分。 这包括Jackrabbit fileVault包插 `filterSource` 件的配置。 这 `filterSource` 些参数指向用于定 `filter.xml` 义包中包含的jcr路径的文件的位置。
 
 除了Jackrabbit fileVault包插件外，还定义了内容包插件，用于将包推送到AEM中。 请注意， `aem.host`、 `aem.port`、 `vault.user`和的变量 `vault.password` 被使用，它们对应于在同一个父POM中定义的全局属性。
 
@@ -30,7 +30,7 @@ ui.apps pom(`<src>/<project>/ui.apps/pom.xml`)为 `embedded` 提供标记 `filev
 
 请注意，core.wcm.components.all和core.wcm.components.examples包都作为子包包含在内。 这将每次部署核心组件包和WKND代码。
 
-core.wcm.components.all和core.wcm.components.examples作为依赖关系包含在依赖关系列表中。 但是，作为最佳实践，此处忽略依赖项的版本，并在父pom文件中 [进行管理](archetype.md#core-components)。
+core.wcm.components.all和core.wcm.components.examples作为依赖关系包含在依赖关系列表中。 但是，作为最佳实践，此处忽略依赖项的版本，并在父pom文件中 [进行管理](overview.md#core-components)。
 
 ## filter.xml {#filter}
 
