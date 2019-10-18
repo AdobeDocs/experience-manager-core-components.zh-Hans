@@ -5,12 +5,12 @@ description: 核心组件遵循与基础组件截然不同的现代实施模式�
 seo-description: 核心组件遵循与基础组件截然不同的现代实施模式。
 uuid: b1dea89-da3c-454f-8ab5-d75a19412954
 contentOwner: 用户
-content-type: 引用
+content-type: 参考
 topic-tags: 开发
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -110,7 +110,11 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 
 ![模板和策略概述](assets/screen_shot_2018-12-07at093102.png)
 
-**阅读下一页：**
+## AEM Project Archetype {#aem-project-archetype}
+
+[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和正确实施包含推荐代理模式的核心组件。](archetype.md)
+
+**阅读下一篇文章：**
 
 * [使用核心组件](using.md) -在您自己的项目中开始使用核心组件。
 * [自定义核心组件](customizing.md) -了解如何设计核心组件的样式和自定义核心组件。
