@@ -5,12 +5,12 @@ description: 核心组件实现了多种模式，从简单的样式设计到高�
 seo-description: AEM核心组件实现了多种模式，从简单的样式设计到高级功能重用，这些模式都允许轻松自定义。
 uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
 contentOwner: 用户
-content-type: 引用
+content-type: 参考
 topic-tags: 开发
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -34,6 +34,10 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 所有核心组件都实现 [样式系统](customizing.md)。
 
+## AEM Project Archetype {#aem-project-archetype}
+
+[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和正确实施包含推荐代理模式的核心组件。](archetype.md)
+
 ## 自定义模式 {#customization-patterns}
 
 ### 自定义对话框 {#customizing-dialogs}
@@ -45,25 +49,6 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 为了与对对话框当前版本所做的任何更改完全兼容，务必不要改动选项卡项目级别下的结构（隐藏、添加到、替换、重新排序等）。 相反，父项中的选项卡项应通过属性(请参阅 `sling:hideResource`[Sling Resource Mergare Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html))隐藏，并添加了新的包含定制配置字段的选项卡项。 `sling:orderBefore` 可用于根据需要对选项卡项重新排序。
 
 下面的对话框演示了建议的对话框结构以及如何隐藏和替换继承的选项卡，如上所述：
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -128,30 +113,11 @@ public class PageHeadline implements Title {
 
 再以核心痕迹导航组件的示例为例，要自定义其标记输出，必须将文件复制到站点特定的组件中，该组件具有指向核心痕迹导航 `breadcrumb.html``sling:resourceSuperTypes` 组件的组件。
 
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
-
 ### 设置组件样式 {#styling-the-components}
 
 第一种自定义形式是应用CSS样式。
 
-为了简化这一过程，核心组件渲染语义标记并遵循由 [Bootstrap启发的标准化命名惯例](https://getbootstrap.com/)。 此外，为了轻松定位和命名各个组件的样式，每个核心组件都包装在具有“”和“ `cmp`”类的DIV元 `cmp-<name>`素中。
+为了简化这一过程，核心组件渲染语义标记并遵循由 [Bootstrap启发的标准化命名惯例](https://getbootstrap.com/)。 此外，为了轻松定位和命名各个组件的样式，每个核心组件都包装在一个DIV元素中，并带有“ `cmp`”和“ `cmp-<name>`”类。
 
 例如，查看v1核心痕迹导航组件的HTL文件：Breadcrumb.html [，我们会看到元素输出的层次结构](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)`ol.breadcrumb > li.breadcrumb-item > a`。 因此，要确保CSS规则仅影响该组件的痕迹导航类，所有规则的命名应如下所示：
 
@@ -195,7 +161,7 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 另请参阅核 [心组件支持](developing.md#core-component-support) 。
 
-**阅读下一页：**
+**阅读下一篇文章：**
 
 * [使用核心组件](using.md) -在您自己的项目中开始使用核心组件。
 * [组件准则](guidelines.md) -了解核心组件的实施模式。
