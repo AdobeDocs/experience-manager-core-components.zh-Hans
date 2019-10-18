@@ -10,7 +10,7 @@ topic-tags: 开发
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和正确实施包含推荐代理模式的核心组件。](archetype.md)
+[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和正确实施包含推荐代理模式的核心组件。](overview.md)
 
 ## 自定义模式 {#customization-patterns}
 
