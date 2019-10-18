@@ -7,7 +7,7 @@ contentOwner: 博纳特
 content-type: 参考文件
 topic-tags: 核心组件
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
 
 ---
 
@@ -53,7 +53,7 @@ AEM Archetype由模块组成：
 * **[ui.content](uicontent.md)**:包含使用ui.apps模块中的组件的示例内容。
 * **ui.tests**:是一个Java包，包含执行服务器端的JUnit测试。 此捆绑包不会部署到生产上。
 * **ui.launcher**:包含将ui.tests包（和从属包）部署到服务器并触发远程JUnit执行的粘胶代码。
-* **[ui.frontend](front-end-build.md)**:可 [选] ，包含使用基于Webpack的前端构建模块所需的工件。
+* **[ui.frontend](front-end-build.md)**:(可 **选)** ，包含使用基于Webpack的前端构建模块所需的工件。
 
 ![](assets/project-pom.png)
 
