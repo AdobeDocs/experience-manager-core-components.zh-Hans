@@ -5,12 +5,12 @@ description: 核心组件提供强大且可扩展的基本组件，这些组件�
 seo-description: 核心组件提供强大且可扩展的基本组件，这些组件提供丰富的功能、连续交付、组件版本控制、现代化实施、精益标记和内容的JSON导出。
 uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
 contentOwner: 用户
-content-type: 引用
+content-type: 参考
 topic-tags: 开发
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
 
 ---
 
@@ -49,15 +49,19 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 >
 >核心组件不适用于经典UI，也不适用于静态模板。
 
-## Gems会话概述 {#gems-session-overview}
+## Gems 教程概述 {#gems-session-overview}
 
-有关核心组件、它们提供的功能以及它们在AEM中的利用方式的介绍，请参阅AEM Gems会话 [AEM核心组件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+关于核心组件、组件提供的功能以及它们在 AEM 中的使用方式，请参阅 AEM Gems 教程 [AEM 核心组件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Adobe Experience Manager上的Gems](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ，是Adobe专家提供的一系列技术深入介绍。 此系列是对产品文档和所有其他技术渠道的补充，使开发人员能接触并深入讨论特定主题。
+[Adobe Experience Manager上的Gems](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ，是Adobe专家提供的一系列技术深入介绍。 此系列是对产品文档和所有其他技术渠道的补充，使开发人员能够相互交流并深入讨论特定主题。
 
-## WKND开发人员教程 {#wknd-developer-tutorial}
+## WKND 开发人员教程 {#wknd-developer-tutorial}
 
-按照此分步教程，开始使用核 [心组件开发AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
+## AEM Project Archetype {#aem-project-archetype}
+
+[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和正确实施包含推荐代理模式的核心组件。](archetype.md)
 
 ## 通过GitHub交付 {#delivered-over-github}
 
@@ -134,7 +138,7 @@ GITHUB上的代码
 | [快速搜索](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search) | 在下拉菜单中将结果显示为就地建议的搜索组件 | `/libs/foundation/components/search` |
 | [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | 允许内容作者使用图像、标题或富文本轻松创建Teaser以进一步内容，并链接到其他内容或其他操作 | `-` |
 | [选项卡](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | 允许内容作者在多个选项卡中组织页面内容 | `-` |
-| [传送](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | 允许内容作者在旋转的幻灯片轮盘中组织内容 | `/libs/foundation/components/carousel` |
+| [轮播](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | 允许内容作者在旋转的幻灯片轮盘中组织内容 | `/libs/foundation/components/carousel` |
 | [内容碎片](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | 允许显示内容片段 | `-` |
 | [内容片段列表](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | 允许显示内容片段列表 | `-` |
 | [分隔符](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | 分隔页面上的内容 | `-` |
@@ -157,9 +161,9 @@ GITHUB上的代码
 
 迁移到新版本的核心组件也不会影响组件的工作方式，但可能会为页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防不需要默认行为。 但是，可能需要调整自定义，有关详细信息，请参阅自 [定义核心组件](customizing.md#upgrade-compatibility-of-customizations) 。
 
-## 何时使用核心组件？ {#when-to-use-the-core-components}
+## When to Use the Core Components? {#when-to-use-the-core-components}
 
-由于核心组件是全新的，并且提供多种优势，因此建议新AEM项目使用这些组件。 对于现有项目，迁移应该是更大项目工作的一部分，例如重新品牌化或整体重构。
+由于核心组件是全新的，并且具备多种优势，因此建议新的 AEM 项目使用这些组件。对于现有项目，可以考虑在进行更大型项目工作期间进行迁移，例如在重新品牌化或整体重构工作期间。
 
 因此，Adobe提供以下建议：
 
@@ -192,11 +196,11 @@ GITHUB上的代码
 
 ## 核心组件支持 {#core-component-support}
 
-核心组件是AEM的一个组成部分，并按照与作为快速入门的一部分提供的条款和条件原样提供支持。
+核心组件是 AEM 的一个组成部分，依原样提供支持，并作为“快速入门”的一部分提供，须遵循相同的条款和条件。
 
 与其他AEM产品功能一样，一般规则为：首先宣布弃用组件，并且以下AEM版本最早已删除组件。 这样，客户在放弃支持之前，至少可以在一个发布周期内迁移到组件的新版本。
 
-每个组件的版本都清楚地声明了它支持的AEM版本。 当AEM版本不再支持时，该版本AEM的核心组件也不再支持。
+每个组件的版本都清楚地声明了其支持的 AEM 版本。当某个 AEM 版本不再受到支持时，该版本 AEM 的核心组件也不再受到支持。
 
 有关支持组件自定义的详细信息，请参阅自定 [义核心组件](customizing.md) 。
 
@@ -204,9 +208,9 @@ GITHUB上的代码
 
 由于基础组件在许多AEM版本中用作了大量项目开发的基础，因此在可预见的将来，它们将继续受支持。
 
-但是，Adobe的开发重点已转移到核心组件上，并将为其添加新功能，而几乎所有基础组件在AEM 6.5中都已弃用 [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) ，今后只会对基础组件进行错误修复。
+However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
 
-**阅读下一页：**
+**阅读下一篇文章：**
 
 * [使用核心组件](using.md) -在您自己的项目中开始使用核心组件。
 * [组件准则](guidelines.md) -了解核心组件的实施模式。
