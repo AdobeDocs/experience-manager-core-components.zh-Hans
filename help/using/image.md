@@ -5,12 +5,12 @@ description: 核心组件图像组件是自适应图像组件功能的就地编�
 seo-description: 核心组件图像组件是自适应图像组件功能的就地编辑。
 uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
 contentOwner: 用户
-content-type: 引用
+content-type: 参考
 topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2f5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
+source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
 
@@ -276,3 +276,13 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### 样式选项卡 {#styles-tab-1}
 
 图像组件支持AEM样 [式系统](authoring.md#component-styling)。
+
+## 自适应图像Servlet {#adaptive-image-servlet}
+
+图像组件使用核心组件的自适应图像Servlet。 [自适应图像Servlet负责图像处理和流化](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) ，开发人员可以利用它们对核心组件 [的自定义设置](customizing.md)。
+
+>[!NOTE]
+>
+>自适应图像Servlet `Last-Modified` 支持通过头的条件请求，但需要在调度程序中启 `Last-Modified` 用 [头的缓存](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
+>
+>[AEM Project Archetype的示例Dispatcher配置已包含此配置](overview.md)。
