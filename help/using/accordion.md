@@ -5,12 +5,12 @@ description: 'null'
 seo-description: 核心组件折叠面板组件允许创建在页面上折叠面板中排列的面板集合。
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: 用户
-content-type: 引用
+content-type: 参考
 topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -72,6 +72,10 @@ Accordion组件的当前版本为v1,v1是2019年6月随核心组件版本2.5.0�
 * **扩展项目** -此选项定义加载页面时默认展开的项目。
    * 选 **择“单个项目扩展** ”后，必须选择一个面板。 默认情况下，第一个面板处于选中状态。
    * 如果未 **选择“单个项目扩展** ”，则此选项为多选选项，且是可选的。
+
+>[!TIP]
+>
+>如果缩小了页面的视区，使编辑对话框变为全屏，则“添 **加** ”按钮将隐藏。 通过从组件浏览器中拖放到页面编辑 [器中的Accordion组件，仍可以将组件添加到Accordion组件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ## 选择面板弹出窗口 {#seelct-panel-popover}
 
