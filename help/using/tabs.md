@@ -4,11 +4,11 @@ seo-title: 选项卡组件
 description: 选项卡组件允许创建多个选项卡来排列页面上的内容。
 seo-description: 选项卡组件允许创建多个选项卡来排列页面上的内容。
 uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
-content-type: 引用
+content-type: 参考文件
 topic-tags: 核心组件
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -65,6 +65,10 @@ GitHub上提供有关选项卡组件 [的最新技术文档](https://github.com/
 * **说明** -用作选项卡文本的说明，默认使用为选项卡选择的组件的名称。
 * **删除** -点按或单击，以从选项卡组件中删除选项卡。
 * **重新排列** -点按或单击并拖动以重新排列选项卡的顺序。
+
+>[!TIP]
+>
+>如果缩小了页面的视区，使编辑对话框变为全屏，则“添 **加** ”按钮将隐藏。 通过从组件浏览器中拖放到页面编辑 [器中的选项卡组件，组件仍可以添加到选项卡组件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ### 属性选项卡 {#properties-tab}
 
