@@ -4,7 +4,7 @@ seo-title: 传送组件
 description: 'null'
 seo-description: 传送组件允许内容作者在旋转传送中显示内容。
 uuid: 34934491-bd85-4f1e-ae22-bb48ed4dbd5c
-content-type: 引用
+content-type: 参考文件
 topic-tags: 核心组件
 discoiquuid: 3510812b-9d3e-40fe-b986-0f15d40b42ad
 disttype: dist5
@@ -17,7 +17,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -68,6 +68,10 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 * **说明** -用作选项卡文本的说明，默认使用为选项卡选择的组件的名称。
 * **删除** -点按或单击，以从选项卡组件中删除选项卡。
 * **重新排序** -点按或单击并拖动以对选项卡进行排序。
+
+>[!TIP]
+>
+>如果缩小了页面的视区，使编辑对话框变为全屏，则“添 **加** ”按钮将隐藏。 通过从组件浏览器中拖动组件并放 [在页面编辑器中的传送组件上，组件仍可添加到传送组件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
 
 ### 属性选项卡 {#properties-tab}
 
