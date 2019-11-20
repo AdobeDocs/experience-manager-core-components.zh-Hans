@@ -3,11 +3,11 @@ title: AEM Project Archetype
 seo-title: AEM Project Archetype
 description: 基于AEM的应用程序的项目模板
 seo-description: 基于AEM的应用程序的项目模板
-contentOwner: 博纳特
-content-type: 参考文件
-topic-tags: 核心组件
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
+source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
 
 ---
 
@@ -22,7 +22,7 @@ AEM Project Archetype可创建基于最小、最佳实践的Adobe Experience man
 
 >[!NOTE]
 >
->有关 [](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) 指导您逐步使用架构类型来实施简单项目的实用示例，请参阅AEM文档中的AEM Sites - WKND教程入门。
+>有关 [指导您使用原型实施简单项目的实用示例，请参阅AEM文档中的AEM Sites入门- WKND教程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) 。
 
 ## 功能 {#features}
 
@@ -53,11 +53,11 @@ AEM Archetype由模块组成：
 * **[ui.content](uicontent.md)**:包含使用ui.apps模块中的组件的示例内容。
 * **ui.tests**:是一个Java包，包含执行服务器端的JUnit测试。 此捆绑包不会部署到生产上。
 * **ui.launcher**:包含将ui.tests包（和从属包）部署到服务器并触发远程JUnit执行的粘胶代码。
-* **[ui.frontend](front-end-build.md)**:(可 **选)** ，包含使用基于Webpack的前端构建模块所需的工件。
+* **[ui.frontend](uifrontend.md)**:(可 **选)** ，包含使用基于Webpack的前端构建模块所需的工件。
 
 ![](assets/project-pom.png)
 
-在Maven中表示的AEM Archetpye的模块作为表示应用程序、内容和必需OSGi包的内容页面部署到AEM。
+在Maven中表示的AEM Archetype模块作为表示应用程序、内容和必需OSGi包的内容包部署到AEM。
 
 ## 要求 {#requirements}
 
@@ -117,7 +117,7 @@ mvn archetype:generate \
 | `optionAemVersion` | 6.5.0 | 目标AEM版本 |
 | `optionIncludeExamples` | y | 包括组 [件库示例](http://opensource.adobe.com/aem-core-wcm-components/library.html) 站点 |
 | `optionIncludeErrorHandler` | n | 包含自定义404响应页 |
-| `optionIncludeFrontendModule` | n | [包括专用前端模块](front-end-build.md) |
+| `optionIncludeFrontendModule` | n | [包括专用前端模块](uifrontend.md) |
 
 >[!NOTE]
 > 如果首次在交互模式中执行原型，则无法更改具有默认值的属性(有关详细信息，请参阅 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) )。 当结束时的属性确认被拒绝并且调查表被重复时，或者通过在命令行中传递参数(例如， `-DoptionIncludeExamples=n`)。
@@ -207,7 +207,7 @@ AEM项目原型当然会利用核心组件。
 
 >[!NOTE]
 >
->每个版本的核心组件通常随后都会发布AEM Project Archtype，以便最新的架构使用最新版本的核心组件。
+>每个版本的核心组件通常随后都会发布AEM Project Archetype，以便最新的架构使用最新版本的核心组件。
 >
 >但是，新版本的原型可能不会直接遵循新版本的核心组件，因此您可能希望将对核心组件的依赖性更新到最新版本。
 
@@ -233,7 +233,7 @@ AEM项目原型当然会利用核心组件。
 
 因此，您已构建并安装了AEM Project Archetype。 现在怎么办？ 原型很小，但包含许多根据推荐的最佳实践配置的强大AEM功能示例。 使用这些指示指示您可以如何在项目中利用这些功能。 对于任何可能需要执行的项目：
 
-* [自定义组件以扩展现有的核心组件](customizing.md)
+* [通过扩展现有核心组件来自定义组件](customizing.md)
 * [添加其他模板](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [调整本地化结构](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
-* [了解前端构建模块](front-end-build.md)
+* [了解前端构建模块](uifrontend.md)
