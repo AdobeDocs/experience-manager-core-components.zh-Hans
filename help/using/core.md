@@ -3,11 +3,11 @@ title: AEM Project Archetype的核心模块
 seo-title: AEM Project Archetype的核心模块
 description: AEM Project Archetype的核心模块
 seo-description: AEM Project Archetype的核心模块
-contentOwner: 博纳特
-content-type: 参考文件
-topic-tags: 核心组件
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
 
 ---
 
@@ -24,4 +24,4 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 mvn -PautoInstallBundle clean install
 ```
 
-成功执行后，您应可以在上查看Bundels控制台 `http://<host>:<port>/system/console/bundles`。
+成功执行后，您应可以在上查看Bundles Console `http://<host>:<port>/system/console/bundles`。
