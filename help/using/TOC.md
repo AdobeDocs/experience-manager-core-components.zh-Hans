@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: adobe experience manager 核心组件
-archetype: 管理员
-user-guide-title: AEM 核心组件
+sub-product: adobe experience manager core components
+archetype: Administrator
+user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
+source-git-commit: f1db87b0a1fce494041c229f9cd3a125a174150e
 
 ---
 
@@ -71,4 +71,4 @@ source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
       + [核心模块](core.md)
       + [ui.apps模块](uiapps.md)
       + [ui.content模块](uicontent.md)
-      + [前端构建过程](front-end-build.md)
+      + [ui.frontend](uifrontend.md)
