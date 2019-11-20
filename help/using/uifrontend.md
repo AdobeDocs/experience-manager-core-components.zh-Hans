@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 5f905b0231b5f07924a55dd3d79d347e019f76f4
+source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 
 ---
 
@@ -88,6 +88,10 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制，该�
    * 供应商（依赖项js/css）
 * 完全支持Sass/Scss（Sass通过Webpack编译为CSS）
 * 带有内置代理的静态WebPack开发服务器，它指向AEM的本地实例
+
+>[!NOTE]
+>
+>有关ui.frontend模块的更多技术信息，请参阅GitHub [上的文档](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md)。
 
 ## 安装 {#installation}
 
