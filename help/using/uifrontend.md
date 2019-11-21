@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
+source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
 
 ---
 
@@ -25,13 +25,13 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制。 因
 
 由于这两个开发过程都集中在项目的不同部分，因此后端和前端开发可以并行进行。
 
-![](assets/front-end-flow.png)
+![前端工作流程图](assets/front-end-flow.png)
 
 但是，任何由此产生的项目都需要使用这些开发工作（即后端和前端）的输出。
 
 运 `npm run dev` 行会启动前端构建过程，该过程收集存储在ui.frontend模块中的JavaScript和CSS文件，并生成两个缩小的客户端库或客户端库 `clientlib-site` , `clientlib-dependencies` 并将它们放入ui.apps模块中。 clientlibs可部署到AEM，并允许您将客户端代码存储在存储库中。
 
-当使用所有项目对象（包括clientlib）运 `mvn clean install -pautoinstallPackage` 行整个AEM项目原型时，系统会将其推送到AEM实例。
+当使用所有项目对象（包括clientlib）运 `mvn clean install -PautoInstallPackage` 行整个AEM项目原型时，系统会将其推送到AEM实例。
 
 >[!TIP]
 >在 [AEM开发文档中进一步了解clientlib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) , [以及ui.frontend模块如何使用它们](#clientlib-generation)。
