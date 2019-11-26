@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
+source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
 
 ---
 
@@ -55,7 +55,7 @@ AEM Archetype由模块组成：
 * **ui.launcher**:包含将ui.tests包（和从属包）部署到服务器并触发远程JUnit执行的粘胶代码。
 * **[ui.frontend](uifrontend.md)**:(可 **选)** ，包含使用基于Webpack的前端构建模块所需的工件。
 
-![](assets/project-pom.png)
+![](assets/archetype-structure.png)
 
 在Maven中表示的AEM Archetype模块作为表示应用程序、内容和必需OSGi包的内容包部署到AEM。
 
