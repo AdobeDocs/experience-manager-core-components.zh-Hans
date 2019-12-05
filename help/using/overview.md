@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -207,7 +207,7 @@ AEM项目原型当然会利用核心组件。
 
 >[!NOTE]
 >
->每个版本的核心组件通常随后都会发布AEM Project Archetype，以便最新的架构使用最新版本的核心组件。
+>每个版本的核心组件通常随后都会发布AEM Project Archetype，这样最新的原型就会使用核心组件的最新版本。
 >
 >但是，新版本的原型可能不会直接遵循新版本的核心组件，因此您可能希望将对核心组件的依赖性更新到最新版本。
 
