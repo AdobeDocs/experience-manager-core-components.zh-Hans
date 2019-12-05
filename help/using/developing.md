@@ -4,13 +4,13 @@ seo-title: 开发核心组件
 description: 核心组件提供强大且可扩展的基本组件，这些组件提供丰富的功能、连续交付、组件版本控制、现代化实施、精益标记和内容的JSON导出。
 seo-description: 核心组件提供强大且可扩展的基本组件，这些组件提供丰富的功能、连续交付、组件版本控制、现代化实施、精益标记和内容的JSON导出。
 uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
-contentOwner: 用户
-content-type: 参考
-topic-tags: 开发
+contentOwner: User
+content-type: reference
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -61,7 +61,7 @@ Get started developing AEM Sites with Core Components by following [this step-by
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和正确实施包含推荐代理模式的核心组件。](overview.md)
+[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和使用建议的代理模式正确实施核心组件。](overview.md)
 
 ## 通过GitHub交付 {#delivered-over-github}
 
@@ -139,7 +139,7 @@ GITHUB上的代码
 | [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | 允许内容作者使用图像、标题或富文本轻松创建Teaser以进一步内容，并链接到其他内容或其他操作 | `-` |
 | [选项卡](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | 允许内容作者在多个选项卡中组织页面内容 | `-` |
 | [轮播](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | 允许内容作者在旋转的幻灯片轮盘中组织内容 | `/libs/foundation/components/carousel` |
-| [内容碎片](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | 允许显示内容片段 | `-` |
+| [内容片段](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | 允许显示内容片段 | `-` |
 | [内容片段列表](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | 允许显示内容片段列表 | `-` |
 | [分隔符](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | 分隔页面上的内容 | `-` |
 | [折叠](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | 在可折叠的面板中组织内容面板 | `-` |
@@ -151,7 +151,7 @@ GITHUB上的代码
 
 ### 即将推出的组件 {#upcoming-components}
 
-有关即将推出的核心组件路线图的概述，请参 [阅GitHub上的专题wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
+有关即将推出的核心组件路线图的概述，请参阅GitHub [上的专题wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
 
 ## 升级核心组件 {#upgrade-of-core-components}
 
