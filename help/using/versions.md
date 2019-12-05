@@ -4,20 +4,20 @@ seo-title: 核心组件版本
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍了哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 seo-description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍了哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 uuid: a916a923-8c5e-456a-84b5-b52228e21434
-contentOwner: 博纳特
-content-type: 引用
-topic-tags: 简介
+contentOwner: bohnert
+content-type: reference
+topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
+source-git-commit: b1b69e9e1ba18dd0f9d8059a79537ad2bf7db066
 
 ---
 
 
-# 核心组件版本{#core-components-versions}
+# 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.7.0，且与AEM 6.5兼容。它于2019年9月发布，作为版本2.0.0的重要更新。版本2.0.0引入了新组件以及现有组件的v2更新。
+核心组件的当前版本为2.8.0，且与AEM 6.5兼容。它于2019年12月发布，作为版本2.0.0的重要更新。版本2.0.0引入了新组件以及现有组件的v2更新。
 
 有关详细信 [息，请参阅本文档的发行历史](#versions-and-releases) 和兼容性一节。
 
@@ -27,7 +27,7 @@ source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
 
 核心组件通过GitHub分发。 这使Adobe能够更快地向组件添加功能，并允许在AEM发布周期之外进行社区输入。
 
-核心组件在定义的AEM版本中可用，这些版本与之兼容。 这意味着一个AEM版本可能支持核心组件的多个版本或版本。 这比以前与特定版本的AEM绑定的基础组件更具灵活性。
+核心组件在定义的AEM版本中可用，这些版本与之兼容。 这意味着一个AEM版本可能支持核心组件的多个版本或版本。 这比以前与特定版本的AEM绑定的基础组件具有更大的灵活性。
 
 ### 版本 {#versions}
 
@@ -63,6 +63,7 @@ source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
 
 | 版本 | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本侧重于修复，对导航组件进行了小幅增强 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019年12月5日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此版本引入了新的嵌入组件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019年9月25日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入了新的体验片段组件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 2019年9月6日 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引入了新的Accordion、Button、Container和Download组件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 2019年6月25日 |
@@ -109,10 +110,10 @@ source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
 | **[快速搜索](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[Teaser](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[选项卡](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[传送](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[轮播](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[分隔符](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
 | **[内容片段列表](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[Accordion](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[折叠](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[按钮](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[容器](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[下载](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
