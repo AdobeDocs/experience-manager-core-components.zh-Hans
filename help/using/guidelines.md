@@ -3,14 +3,14 @@ title: 组件准则
 seo-title: 组件准则
 description: 核心组件遵循与基础组件截然不同的现代实施模式。
 seo-description: 核心组件遵循与基础组件截然不同的现代实施模式。
-uuid: b1dea89-da3c-454f-8ab5-d75a19412954
-contentOwner: 用户
-content-type: 参考
-topic-tags: 开发
+uuid: b1daea89-da3c-454f-8ab5-d75a19412954
+contentOwner: User
+content-type: reference
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -50,16 +50,6 @@ HTL设计为一种安全、简单的模板语言，专为AEM量身定制。 它�
 除了页面作者使用的编辑对话框外，组件还可以有一个设计对话框，供模板作者预配置它们。 模 [板编辑器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 允许设置所有这些预配置，这些预配置称为“策略”。
 
 为使组件尽可能地可重用，应为它们提供有意义的预配置选项。 这将允许或禁用组件的功能以匹配不同站点的特定需求。
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:49:04.584-0400
-
-Unclear how I can add my own capability toggle (for example, if i extend a component and want to toggle that extended functionality ... )
-
- -->
 
 ### 代理组件模式 {#proxy-component-pattern}
 
@@ -104,15 +94,15 @@ Unclear how I can add my own capability toggle (for example, if i extend a compo
 
 该属 `cq:allowedTemplates` 性告诉哪些模板可用于站点，以及每个页 `cq:template` 面的相关模板信息。 每个模板由以下三部分组成：
 
-* **结**&#x200B;构包含资源，这些资源将强制显示在每个页面上，并且页面作者无法删除，例如页眉和页脚组件。
-* **initial**&#x200B;包含创建页面时将复制到该页面的初始内容。
-* **策略**&#x200B;包含每个组件的策略映射（即组件的预配置）。 此映射允许策略在模板之间重复使用，因此可以集中管理。
+* **structure** —— 包含将强制显示每个页面的资源，以及页面作者无法删除的资源，例如页眉和页脚组件。
+* **initial** —— 包含创建页面时将复制到该页面的初始内容。
+* **策略** -包含每个组件的策略映射，该策略是组件的预配置。 此映射允许策略在模板之间重复使用，因此可以集中管理。
 
 ![模板和策略概述](assets/screen_shot_2018-12-07at093102.png)
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和正确实施包含推荐代理模式的核心组件。](overview.md)
+[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和使用建议的代理模式正确实施核心组件。](overview.md)
 
 **阅读下一篇文章：**
 
