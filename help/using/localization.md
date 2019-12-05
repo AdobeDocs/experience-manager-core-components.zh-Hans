@@ -3,19 +3,19 @@ title: 核心组件的本地化功能
 seo-title: 核心组件的本地化功能
 description: 核心组件的本地化功能
 seo-description: 核心组件的本地化功能
-content-type: 引用
-topic-tags: 核心组件
+content-type: reference
+topic-tags: core-components
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
 
 # 核心组件的本地化功能 {#localization-features-of-the-core-components}
 
-许多网站需要以本地化格式跨多种语言和地域提供内容。 选定的核心组件提供智能参考资源，可轻松为所有本地化内容创建统一的模板，这些模板会根据您的本地化站点结构自动调整。
+许多网站需要以本地化格式跨多种语言和地域提供内容。 选定的核心组件采用智能参考分辨率，可轻松为所有本地化内容创建统一的模板，这些模板会根据本地化的站点结构自动调整。
 
 ## 示例——带有导航和表尾的本地化页面 {#example}
 
@@ -23,7 +23,7 @@ source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 
 同样，导航组件通常必须显示在所有页面上。 但是，它还需要反映本地化页面的内容。
 
-使用导航核心组件和 [体验片段核心组件的本地化功能](navigation.md) ，以及AEM的可 [](experience-fragment.md)[](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)编辑模板，这将变成一个简单的任务。 该示例还可以进一步扩展以使用 [语言导航组件](language-navigation.md) 。
+使用导航核心组件和 [体验片段核心组件的本地化功能](navigation.md) ，以及AEM [的可编辑模板](experience-fragment.md)[](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)，这将变成一项简单的任务。 该示例还可以进一步扩展以使用 [语言导航组件](language-navigation.md) 。
 
 ## 内容结构 {#content-structure}
 
