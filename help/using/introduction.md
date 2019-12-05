@@ -4,13 +4,13 @@ seo-title: 核心组件简介
 description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
 seo-description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: 用户
-content-type: 参考
-topic-tags: 简介
+contentOwner: User
+content-type: reference
+topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -44,7 +44,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 | 可扩展 | 可满足自定义需求并且不需要从零开始，任何东西都可以扩展。 |
 | 开源 | 如果某些组件的效果不如预期，还可在 GitHub（Apache 许可）上提出相关改进。 |
 | 版本控制 | 我们对核心组件进行改进时，即使改进的组件可能对您有所影响，也不会破坏您的站点。 |
-| [本地化](localization.md) | 智能引用解析可允许特定组件自动查找和渲染对应的本地化内容。 |
+| [本地化](localization.md) | 智能参考分辨率允许某些组件自动查找和呈现相应的本地化内容 |
 
 ## 可用组件 {#available-components}
 
