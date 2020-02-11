@@ -1,16 +1,8 @@
 ---
 title: 容器组件
-seo-title: 容器组件
-description: 'null'
-seo-description: 核心组件容器组件允许为页面上的多个其他组件创建容器。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 用户
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 核心组件容器组件允许为页面上的多个其他组件创建容器。
 translation-type: tm+mt
-source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |---|---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验容器组件及其配置选项的示例以及HTML和JSON输出，请访问组件 [库](http://opensource.adobe.com/aem-core-wcm-components/library/container.html)。
+要体验容器组件及其配置选项的示例以及HTML和JSON输出，请访问组件 [库](https://adobe.com/go/aem_cmp_library_container)。
 
 ## 技术详细信息 {#technical-details}
 
-有关“容器组件”的最新技 [术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)。
+有关“容器组件”的最新技 [术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_container_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
@@ -56,7 +48,7 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 * **布局** -此选项定义容器组件的行为或布局行为。
    * **简单** -将容器定义为组件的简单集合
-   * **响应式网格** -将容器定义为 [AEM响应式网格](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+   * **响应式网格** -将容器定义为 [AEM响应式布局](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **ID** —— 使用此选项可定义要应用到组件的HTML ID属性。
 * **背景颜色** -可定义为自由形式的RGB值，或者使用拾色器(具体取决于 [配置)](#background-tab)
 * **背景图像** -根据配置定义容器的 [背景颜色](#background-tab)
@@ -69,11 +61,11 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 允 **许的组件** (Allowed Components)选项卡用于定义哪些组件可以作为内容作者添加到容器组件的项目。
 
-在模板编辑器中定义布局容器的策略和属性时，“允许的组件”选项卡 [的功能与同名选项卡的功能相同。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+在模板编辑器中定义布局容器的策略和属性时，“允许的组件”选项卡 [的功能与同名选项卡的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 默认组件选项卡 {#default-components-tab}
 
-默认组件选项卡用于定义在容器上丢弃特定资产类型时添加到组件的组件，与在页面模板上定义默认组件的 [方式类似](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors)。
+默认组件选项卡用于定义在容器上丢弃特定资产类型时添加到组件的组件，与在页面模板上定义默认组件的 [方式类似](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 ### 响应式设置选项卡 {#responsive-settings-tab}
 
@@ -90,7 +82,7 @@ source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 * **背景颜色**
    * **启用背景颜色** -选择此选项可使内容作者能够为容器定义背景颜色。
    * **仅限色板** -选择此选项可仅允许内容作者从预定义的容器背景颜色色板中进行选择。
-      * 仅当选择“启用 **背景颜色** ”时可用
+      * 仅当选择“启 **用背景颜色** ”时可用
 * **允许的色板** -定义预定义的颜色，内容作者可以从中选择容器背景颜色
    * 使用“ **添加** ”按钮可添加预定义的色板。 添加后，一个条目将添加到列表，其中包含以下列：
    * **值** -通过RGB值手动定义颜色
