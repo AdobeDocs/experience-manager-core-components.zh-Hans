@@ -1,13 +1,8 @@
 ---
 title: AEM Project Archetype前端构建
-seo-title: AEM Project Archetype前端构建
 description: 基于AEM的应用程序的项目模板
-seo-description: 基于AEM的应用程序的项目模板
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
+source-git-commit: 0e1f26e1032812a36ea6a30532ce40dafa903536
 
 ---
 
@@ -29,12 +24,12 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制。 因
 
 但是，任何由此产生的项目都需要使用这些开发工作（即后端和前端）的输出。
 
-运 `npm run dev` 行会启动前端构建过程，该过程收集存储在ui.frontend模块中的JavaScript和CSS文件，并生成两个缩小的客户端库或客户端库 `clientlib-site` , `clientlib-dependencies` 并将它们放入ui.apps模块中。 clientlibs可部署到AEM，并允许您将客户端代码存储在存储库中。
+运 `npm run dev` 行会启动前端构建过程，该过程收集存储在ui.frontend模块中的JavaScript和CSS文件，并生成两个名为 `clientlib-site``clientlib-dependencies` ，并将它们放入ui.apps模块中的简化客户端库或客户端库。 clientlibs可部署到AEM，并允许您将客户端代码存储在存储库中。
 
 当使用所有项目对象（包括clientlib）运 `mvn clean install -PautoInstallPackage` 行整个AEM项目原型时，系统会将其推送到AEM实例。
 
 >[!TIP]
->在 [AEM开发文档中进一步了解clientlib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) , [以及ui.frontend模块如何使用它们](#clientlib-generation)。
+>在 [AEM开发文档中进一步了解clientlib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) , [以及ui.frontend模块如何使用它们](#clientlib-generation)。
 
 ## 可能的前端开发工作流程 {#possible-workflows}
 
@@ -53,7 +48,7 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制。 因
 
 >[!TIP]
 >
->您还可以利用组 [件库](https://opensource.adobe.com/aem-core-wcm-components/library.html) ，捕获每个组件的标记输出样本，以便在组件级别而不是页面级别工作。
+>您还可以利用组 [件库](https://adobe.com/go/aem_cmp_library) ，捕获每个组件的标记输出样本，以便在组件级别而不是页面级别工作。
 
 ### 使用故事书 {#using-storybook}
 
@@ -65,7 +60,7 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制。 因
 
 ### 确定标记 {#determining-markup}
 
-无论您决定为您的项目实施哪个前端开发工作流程，后端开发人员和前端开发人员都必须首先同意该标记。 通常，AEM定义由核心组件提供的标记。 [但是，如有必要，可以自定义该属性](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup)。
+无论您决定为您的项目实施哪个前端开发工作流程，后端开发人员和前端开发人员都必须首先同意该标记。 通常，AEM定义由核心组件提供的标记。 [但是，如有必要，可以自定义该属性](customizing.md#customizing-the-markup)。
 
 ## ui.frontend模块 {#ui-frontend-module}
 
@@ -91,7 +86,7 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制，该�
 
 >[!NOTE]
 >
->有关ui.frontend模块的更多技术信息，请参阅GitHub [上的文档](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md)。
+>有关ui.frontend模块的更多技术信息，请参阅GitHub [上的文档](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md)。
 
 ## 安装 {#installation}
 
@@ -107,7 +102,7 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制，该�
 以下npm脚本驱动前端工作流：
 
 * `npm run dev` -禁用了JS优化（树摇动等）和源映射并禁用了CSS优化的完整构建。
-* `npm run prod` -在启用JS优化（树摇动等）、禁用源映射和启用CSS优化的情况下完整构建。
+* `npm run prod` -启用JS优化（树摇动等）、禁用源映射和启用CSS优化的完整构建。
 * `npm run start` -启动静态WebPack开发服务器进行本地开发，并且对AEM的依赖性最小。
 
 ## 输出 {#output}
@@ -149,7 +144,7 @@ ui.fronted模块构建过程利用 [aem-clientlib-generator](https://www.npmjs.c
 
 ### 在页面上包括客户端库 {#clientlib-inclusion}
 
-`clientlib-site` 并且， `clientlib-dependencies` 通过页面策略配置将类 [别包含在页面上](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateDefinitions) ，作为默认模板的一部分。 要查看策略，请编辑“内容页 **面模板”&gt;“页面信息”&gt;“页面策略”**。
+`clientlib-site` 并且， `clientlib-dependencies` 通过页面策略配置将类 [别包含在页面上](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) ，作为默认模板的一部分。 要查看策略，请编辑“内容页 **面模板”>“页面信息”>“页面策略”**。
 
 站点页面上最终包含的客户端库如下：
 
