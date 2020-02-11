@@ -1,13 +1,8 @@
 ---
 title: ui.apps模块(AEM Project Archetype)
-seo-title: ui.apps模块(AEM Project Archetype)
 description: ui.apps模块(AEM Project Archetype)
-seo-description: ui.apps模块(AEM Project Archetype)
-contentOwner: 博纳特
-content-type: 参考文件
-topic-tags: 核心组件
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
