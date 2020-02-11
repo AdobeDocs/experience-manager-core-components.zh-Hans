@@ -1,19 +1,8 @@
 ---
 title: 标题组件
-seo-title: 标题组件
-description: 'null'
-seo-description: 核心组件标题组件是一个可进行就地编辑的章节标题组件。
-uuid: cf190861-e5cd-42b8-9193-842b8df8c5c6
-contentOwner: 用户
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: 243efc75-fcf9-427d-9303-9642b0602991
-index: y
-internal: n
-snippet: y
+description: 核心组件标题组件是一个可进行就地编辑的章节标题组件。
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,20 +21,20 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v2 | 兼容 | 兼容 | 兼容 |
-| [v1](title-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|---|---|---|---|---|
+| v2 | 兼容 | 兼容 | 兼容 | 兼容 |
+| [v1](title-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验标题组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组件 [库](http://opensource.adobe.com/aem-core-wcm-components/library/title.html)。
+要体验标题组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组件 [库](https://adobe.com/go/aem_cmp_library_title)。
 
 ### 技术详细信息 {#technical-details}
 
-有关标题组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)。
+有关标题组件的最新技术文 [档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_title_v2)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
