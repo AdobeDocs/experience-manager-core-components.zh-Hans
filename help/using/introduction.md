@@ -1,16 +1,8 @@
 ---
 title: 核心组件简介
-seo-title: 核心组件简介
 description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
-seo-description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
-uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -23,9 +15,9 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ## 试用核心组件
 
-如果要立即开始尝试核心组件，请转到[组件库](http://opensource.adobe.com/aem-core-wcm-components/library.html)。组件库是大多数最新版核心组件的在线展示，可以让您与各种组件进行交互，并查看示例 HTML 和 JSON 输出。
+如果要立即开始尝试核心组件，请转到[组件库](https://adobe.com/go/aem_cmp_library)。组件库是大多数最新版核心组件的在线展示，可以让您与各种组件进行交互，并查看示例 HTML 和 JSON 输出。
 
-The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
+WKND教 [程还说明了](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html) 如何使用核心组件。
 
 ## 核心组件 - 核心特性{#core-components-core-features}
 
@@ -79,7 +71,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 >[!NOTE]
 >
->核心组件不可直接供作者使用，[开发团队必须先将它们集成到您的环境中](using.md)。Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>核心组件不可直接供作者使用，[开发团队必须先将它们集成到您的环境中](using.md)。Once integrated, they may be made available and pre-configured via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!CAUTION]
 >
@@ -103,7 +95,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 核心组件提供强大且可扩展的基本组件，这些组件实现了多种可轻松自定义的模式，从简单的样式设计到高级功能重用。 有关详细信息， [请参阅核心组件开发文档](developing.md) 。
 
-使用核心组件开发 AEM 站点的入门指导，是一种[分步式教程。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+按照WKND教程开始使用核心组件开 [发AEM Sites。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 别忘了启动您自己的AEM项目，利用 [AEM项目原型](overview.md) ，内置最新的核心组件！
 
@@ -126,4 +118,4 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/si
 
 由于基础组件在许多版本中都是众多项目开发的基础，因此在可预见的将来，仍将继续支持这些组件。
 
-However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
