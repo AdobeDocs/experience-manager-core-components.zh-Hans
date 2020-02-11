@@ -1,15 +1,9 @@
 ---
 title: 图像组件(v1)
-seo-title: 图像组件(v1)
 description: 核心组件图像组件是自适应图像组件功能的就地编辑。
-seo-description: 核心组件图像组件是自适应图像组件功能的就地编辑。
-uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -76,7 +70,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要发行1.1.0版的核心组件。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
+>从核心组件导出JSON时，需要发行核心组件的1.1.0版。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
 
 ## 配置对话框 {#configure-dialog}
 
