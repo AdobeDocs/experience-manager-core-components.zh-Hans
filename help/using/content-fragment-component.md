@@ -1,23 +1,15 @@
 ---
 title: 内容片段组件
-seo-title: 内容片段组件
-description: 'null'
-seo-description: 核心组件内容片段组件允许显示内容片段。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 用户
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 核心组件内容片段组件允许显示内容片段。
 translation-type: tm+mt
-source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # 内容片段组件{#content-fragment-component}
 
-核心组件内容片段组件允许显示内容 [片段](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)。
+核心组件内容片段组件允许显示内容 [片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
@@ -25,11 +17,11 @@ source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 ## 使用情况 {#usage}
 
-核心组件内容片段组件允许在页面中包 [含内容片段](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) 。
+核心组件内容片段组件允许在页面中包 [含内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 。
 
 * 可以在配置对话框中选择片段及其 [属性](#configure-dialog)。
 * 处理特定图像和网格的资源类型可以在设计对话框中 [定义](#design-dialog)。
-* 编辑选项将在内容片段编辑器中打 [开所选片段](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)。
+* 编辑选项将在内容片段编辑器中打 [开所选片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -37,9 +29,9 @@ source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |---|---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 >[!NOTE]
 >
@@ -57,11 +49,11 @@ source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验内容片段组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组件 [库](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)。
+要体验内容片段组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组件 [库](https://adobe.com/go/aem_cmp_library_cf)。
 
 ## 技术详细信息 {#technical-details}
 
-有关内容片段组件的最新技 [术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment)。
+有关内容片段组件的最新技 [术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_cf_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
@@ -102,3 +94,4 @@ source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 * **内部响应式网格**
 
    * 用于内部响应式网格的Sling资源类型
+
