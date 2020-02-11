@@ -1,25 +1,8 @@
 ---
 title: 表单文本组件
-seo-title: 表单文本组件
-description: 'null'
-seo-description: 核心组件表单文本组件允许输入表单文本以供提交。
-uuid: f2418d55-0b59-4c7c-a541-d12dda4db4cf
-contentOwner: 用户
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3a970c4b-806b-4a0a-b6b8-b3dca4e9f136
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
-index: y
-internal: n
-snippet: y
+description: 核心组件表单文本组件允许输入表单文本以供提交。
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -38,16 +21,16 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 兼容 | 兼容 | 兼容 |
-| [v1](form-text-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 | 兼容 |
+| [v1](form-text-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-以下是从 [We.Retail获取的示例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下是从 [We.Retail获取的示例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
 
 ### 屏幕快照 {#screenshot}
 
@@ -86,22 +69,21 @@ For more information about Core Component versions and releases, see the documen
                   }
 ```
 
-### Technical Details {#technical-details}
+### 技术详细信息 {#technical-details}
 
-有关表单文本组件的最新技 [术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text)。
+有关表单文本组件的最新技 [术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_form_text_v2)。
 
-Further details about developing Core Components can be found in the Core Components developer documentation.[](developing.md)
+有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
-## Configure Dialog {#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
-The configure dialog allows the content author to define the type of text to be input as well as default values and labels.
+配置对话框允许内容作者定义要输入的文本类型以及默认值和标签。
 
-### Main Tab {#main-tab}
+### 主选项卡 {#main-tab}
 
 ![](assets/chlimage_1-23.png)
 
-* **Constraint
-The type of text to be input and will be validated against**
+* **约**&#x200B;束要输入并将验证的文本类型
    * **文本**
    * **文本区域**
    * **电子邮件**
@@ -109,20 +91,18 @@ The type of text to be input and will be validated against**
    * **日期**
    * **数字**
    * **密码**
-* **Text lines
-Number of lines to be displayed in the text area (only displayed when Constraint is set to Text Area)**********
+* **文本行**&#x200B;要在文本区域中显示的行数(仅当“约束”设置为“文本区 **域** ”时 **显示**)
 * **标签**&#x200B;将为字段显示的标签
 * **如果标签仅用于辅助功能**，并且不会传递有关该字段的任何其他可视信息，则隐藏标签，使其不显示
 * **元素名**&#x200B;称随表单数据一起提交的字段的名称
 * **值**&#x200B;字段中预填充的默认值
 
-### About Tab {#about-tab}
+### 关于选项卡 {#about-tab}
 
 ![](assets/chlimage_1-24.png)
 
 * **帮助消**&#x200B;息提示用户可在字段中输入的内容
-* **Display help message as placeholder**
-To display the help message inside the form input when it is empty and not focused
+* **将帮助消息显示为占**&#x200B;位符在表单输入为空且未聚焦时在表单输入内显示帮助消息
 
 ### 约束选项卡 {#constraints-tab}
 
@@ -131,8 +111,7 @@ To display the help message inside the form input when it is empty and not focus
 * **约束消息**
    * 如果该值对于所选的类型无效，则在提交表单时，将以工具提示形式显示消息
    * 不显示文本和 **文本****区域约束类型**
-* **Required**
-If selected the user must fill in a value before submitting the form
+* **必需**：如果选择此项，则用户必须在提交表单之前填写值
 * **设为只读**&#x200B;如果选中此选项，则用户无法修改字段的值
 
 ## 设计对话框 {#design-dialog}
