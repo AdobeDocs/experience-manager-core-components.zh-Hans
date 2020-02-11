@@ -1,24 +1,8 @@
 ---
 title: 导航组件
-seo-title: 导航组件
-description: 'null'
-seo-description: 导航组件允许用户轻松导航全球化的站点结构。
-uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: false
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: 导航组件允许用户轻松导航全球化的站点结构。
 translation-type: tm+mt
-source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -107,19 +91,19 @@ source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验导航组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html)。
+要体验导航组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](https://adobe.com/go/aem_cmp_library_navigation)。
 
 ## 技术详细信息 {#technical-details}
 
-有关导航组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)。
+有关导航组件的最新技术文 [档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_navigation_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
