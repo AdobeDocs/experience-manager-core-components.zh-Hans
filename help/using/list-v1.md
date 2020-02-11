@@ -1,24 +1,9 @@
 ---
 title: 列表组件(v1)
-seo-title: 列表组件(v1)
-description: 'null'
-seo-description: 核心组件列表组件允许轻松创建动态和静态列表。
-uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
-noindex: 'true'
+description: 核心组件列表组件允许轻松创建动态和静态列表。
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
