@@ -1,23 +1,15 @@
 ---
 title: 页面组件
-seo-title: 页面组件
 description: 页面组件是可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器组合页眉／页脚和结构组件。
-seo-description: 页面组件是可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器组合页眉／页脚和结构组件。
-uuid: 7052a5b1-e7f1-4944-a55c-faf739b6e89c
-contentOwner: 用户
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
 
 # 页面组件{#page-component}
 
-页面组件是一个可扩展的页面组件，设计用于与模板编辑 [器一起使用](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) ，并允许使用模板编辑器组合页眉／页脚和结构组件。
+页面组件是一个可扩展的页面组件，设计用于与模板编辑 [器一起使用](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) ，并允许使用模板编辑器组合页眉／页脚和结构组件。
 
 ## 使用情况 {#usage}
 
@@ -31,20 +23,20 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| [v2](page-v1.md) | 兼容 | 兼容 | 兼容 |
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|---|---|---|---|---|
+| [v2](page-v1.md) | 兼容 | 兼容 | 兼容 | 兼容 |
+| v1 | 兼容 | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 >[!NOTE]
 >
->要在页面组 `cq:Page` 件和AEM 6.3版本2的级别启用重定向， [需要Service Pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) 或更高版本。 此类重定向在以前的版本中不可用。
+>要在页面组 `cq:Page` 件版本2和AEM 6.3的级别启用重定向， [需要Service Pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) 或更高版本。 此类重定向在以前的版本中不可用。
 
 ## 示例组件输出 {#sample-component-output}
 
-以下是从 [We.Retail获取的示例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下是从 [We.Retail获取的示例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
 
 ### 屏幕快照 {#screenshot}
 
@@ -52,17 +44,17 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 技术详细信息 {#technical-details}
 
-有关页面组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page)。
+有关页面组件的最新技术文 [档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_page_v2)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
 ## Edit Dialog {#edit-dialog}
 
-由于组件表示整个页面，因此通常在编辑对话框中的设置会显示在页面属 [性窗口中](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html) 。
+由于组件表示整个页面，因此通常在编辑对话框中的设置会显示在页面属 [性窗口中](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) 。
 
 ## 设计对话框 {#design-dialog}
 
-由于组件表示整个页面，因此在编辑页面模板时，可通过“页 **面信息”-&gt;“页面策略** ”访问设计对话框。
+由于组件表示整个页面，因此在编辑页面模板时，可通过“页 **面信息”->“页面策略** ”访问设计对话框。
 
 ![](assets/screen_shot_2018-04-03at113410.png)
 
