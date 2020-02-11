@@ -1,14 +1,8 @@
 ---
 title: 选项卡组件
-seo-title: 选项卡组件
 description: 选项卡组件允许创建多个选项卡来排列页面上的内容。
-seo-description: 选项卡组件允许创建多个选项卡来排列页面上的内容。
-uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
-content-type: 参考文件
-topic-tags: 核心组件
-discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -27,7 +21,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 >
 >支持嵌套的选项卡组件（选项卡内的选项卡）。
 >
->使用内容树可以定位／选择简单（非嵌套）的选 [项卡组件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html)，但嵌套的选项卡不能。
+>使用内容树可以定位／选择简单（非嵌套）的选 [项卡组件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)，但嵌套的选项卡不能。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -35,19 +29,19 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验选项卡组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组件 [库](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html)。
+要体验选项卡组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组件 [库](https://adobe.com/go/aem_cmp_library_tabs)。
 
 ### 技术详细信息 {#technical-details}
 
-GitHub上提供有关选项卡组件 [的最新技术文档](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)。
+GitHub上提供有关选项卡组件 [的最新技术文档](https://adobe.com/go/aem_cmp_tech_tabs_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
@@ -68,7 +62,7 @@ GitHub上提供有关选项卡组件 [的最新技术文档](https://github.com/
 
 >[!TIP]
 >
->如果缩小了页面的视区，使编辑对话框变为全屏，则“添 **加** ”按钮将隐藏。 通过从组件浏览器中拖放到页面编辑 [器中的选项卡组件，组件仍可以添加到选项卡组件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
+>如果缩小了页面的视区，使编辑对话框变为全屏，则“添 **加** ”按钮将隐藏。 通过从组件浏览器中拖放到页面编辑 [器中的选项卡组件，组件仍可以添加到选项卡组件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)。
 
 ### 属性选项卡 {#properties-tab}
 
@@ -102,7 +96,7 @@ GitHub上提供有关选项卡组件 [的最新技术文档](https://github.com/
 
 >[!NOTE]
 >
->在编辑模式下，创作者不能选择 **选项卡** 。 使用 [**预览** 模式或查](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) 看为已发布内容选项与选项卡进行交互 **[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** ，就像已发布内容的读者一样。
+>在编辑模式下，创作者不能选择 **选项卡** 。 使用 **[预览模式](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**，或使**[&#x200B;用查看已发布内容选项与选项卡进行交互](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** ，就像已发布内容的读者一样。
 
 ## 设计对话框 {#design-dialog}
 
@@ -112,7 +106,7 @@ GitHub上提供有关选项卡组件 [的最新技术文档](https://github.com/
 
 “允 **许的组件** ”选项卡用于定义哪些组件可以作为项目由内容作者添加到选项卡组件。
 
-在模板编辑器中定义布局容器的策略和属性时，“允许的组件”选项卡 [的功能与同名选项卡的功能相同。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+在模板编辑器中定义布局容器的策略和属性时，“允许的组件”选项卡 [的功能与同名选项卡的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 样式选项卡 {#styles-tab}
 
