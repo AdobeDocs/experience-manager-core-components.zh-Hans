@@ -1,17 +1,8 @@
 ---
 title: 痕迹导航组件
-seo-title: 痕迹导航组件
-description: 'null'
-seo-description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层次结构中的位置构建链接的痕迹导航。
-uuid: 13e858d5-24ad-4144-adc4-0fa1ffd257c1
-contentOwner: 用户
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: ecd237df-08b8-4deb-9881-66a1f0d65ef3
-modalsize: 426 x 240
+description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层次结构中的位置构建链接的痕迹导航。
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,16 +23,16 @@ Breadcrumb组件的当前版本为v2，该版本在2018年1月随核心组件的
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 兼容 | 兼容 | 兼容 |
-| [v1](breadcrumb-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 | 兼容 |
+| [v1](breadcrumb-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验Breadcrumb组件，并查看其配置选项以及HTML和JSON输出的示例，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html)。
+要体验Breadcrumb组件，并查看其配置选项以及HTML和JSON输出的示例，请访问组 [件库](https://adobe.com/go/aem_cmp_library_breadcrumb)。
 
 >[!NOTE]
 >
@@ -49,7 +40,7 @@ Breadcrumb组件的当前版本为v2，该版本在2018年1月随核心组件的
 
 ## 技术详细信息 {#technical-details}
 
-有关痕迹导航组件的最新技 [术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)。
+有关痕迹导航组件的最新技 [术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
