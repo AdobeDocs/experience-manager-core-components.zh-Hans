@@ -1,16 +1,8 @@
 ---
 title: 按钮组件
-seo-title: 按钮组件
-description: 'null'
-seo-description: 核心组件按钮组件允许创建和显示按钮。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 用户
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 核心组件按钮组件允许创建和显示按钮。
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |---|---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验“按钮”组件，并查看其配置选项的示例以及HTML和JSON输出，请访问“组件 [库”](http://opensource.adobe.com/aem-core-wcm-components/library/button.html)。
+要体验“按钮”组件，并查看其配置选项的示例以及HTML和JSON输出，请访问“组件 [库”](https://adobe.com/go/aem_cmp_library_button)。
 
 ## 技术详细信息 {#technical-details}
 
-有关“按钮组件”的最新技 [术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)。
+有关“按钮组件”的最新技 [术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_button_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
