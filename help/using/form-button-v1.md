@@ -1,21 +1,9 @@
 ---
 title: 表单按钮组件(v1)
-seo-title: 表单按钮组件(v1)
-description: 'null'
-seo-description: 核心组件表单隐藏组件允许在表单中包含隐藏字段。
-uuid: 0525e70f-294f-4d35-bf96-fc0e4ec225e9
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: ea06acc0-38e2-4252-ac29-07332835b7c4
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
+description: 核心组件表单隐藏组件允许在表单中包含隐藏字段。
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
