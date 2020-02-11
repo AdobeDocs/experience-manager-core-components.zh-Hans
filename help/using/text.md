@@ -1,15 +1,8 @@
 ---
 title: 文本组件
-seo-title: 文本组件
 description: 文本组件是一个富文本编辑和合成组件，可进行就地编辑。
-seo-description: 文本组件是一个富文本编辑和合成组件，可进行就地编辑。
-uuid: 5f8ee8f-7317-4712-a77f-e34e8a024187
-contentOwner: 用户
-content-type: 引用
-topic-tags: 核心组件
-discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -30,32 +23,32 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v2 | 兼容 | 兼容 | 兼容 |
-| [v1](text-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|---|---|---|---|---|
+| v2 | 兼容 | 兼容 | 兼容 | 兼容 |
+| [v1](text-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验文本组件以及其配置选项以及HTML和JSON输出的示例，请访问组件 [库](http://opensource.adobe.com/aem-core-wcm-components/library/text.html)。
+要体验文本组件以及其配置选项以及HTML和JSON输出的示例，请访问组件 [库](https://adobe.com/go/aem_cmp_library_text)。
 
 ### 技术详细信息 {#technical-details}
 
-有关文本组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)。
+有关文本组件的最新技术文 [档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_text_v2)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
 ## 文本组件和富文本编辑器 {#the-text-component-and-the-rich-text-editor}
 
-核心组件文本组件利用AEM富文本编辑器(RTE)。 RTE为内容作者提供了各种用于编辑其文本内容的功能。 RTE的配置非常灵活，并提供了许多选项。 有关如何配置RTE的更多详细信息，请参阅配置富文 [本编辑器](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html)[和配置富文本编辑器插件](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)。
+核心组件文本组件利用AEM富文本编辑器(RTE)。 RTE为内容作者提供了各种用于编辑其文本内容的功能。 RTE的配置非常灵活，并提供了许多选项。 有关如何配置RTE的更多详细信息，请参阅配置富文 [本编辑器](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html)[和配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
 
 本文的其余部分演示了核心组件文本组件的标准配置以及现成的RTE配置。
 
 >[!NOTE]
 >
->文本组件中 [仅提供由RTE的UI配置启用的选项](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) 。
+>文本组件中 [仅提供由RTE的UI配置启用的选项](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) 。
 
 ## Edit Dialog {#edit-dialog}
 
@@ -255,7 +248,7 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 用于检查文本内容的拼写。 可能的拼写错误下划线带有红色的断线。
 
-有关拼写检查和自定义拼写检查字典的更多详细信息，请参阅 [配置富文本编辑器插件](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)。
+有关拼写检查和自定义拼写检查字典的更多详细信息，请参阅 [配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
 
 ### 特殊字符 {#special-characters}
 
