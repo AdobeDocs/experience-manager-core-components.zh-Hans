@@ -1,15 +1,8 @@
 ---
 title: Teaser组件
-seo-title: Teaser组件
 description: Teaser组件可显示图像、标题、富文本以及可选地链接到其他内容。
-seo-description: Teaser组件可显示图像、标题、富文本以及可选地链接到其他内容。
-uuid: 46989314-df37-448b-8562-c707043f2160
-contentOwner: 博纳特
-content-type: 引用
-topic-tags: 核心组件
-discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -30,17 +23,17 @@ Teaser组件的当前版本为v1,v1是2018年7月随核心组件版本2.1.0引�
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|---|---|---|---|---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验Teaser组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html)。
+要体验Teaser组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](https://adobe.com/go/aem_cmp_library_teaser)。
 
 ### 技术详细信息 {#technical-details}
 
-有关Teaser组件的最新技术文档 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser)。
+有关Teaser组件的最新技术文档 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_teaser_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
@@ -53,9 +46,9 @@ Teaser组件的当前版本为v1,v1是2018年7月随核心组件版本2.1.0引�
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **图像资产**
-   * 从资产浏览器中 [拖放资产](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ，或点 **按浏览选项** ，以从本地文件系统上传。
+   * 从资产浏览器中 [拖放资产](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ，或点 **按浏览选项** ，以从本地文件系统上传。
    * 点按或单 **击清除** ，以取消选择当前选定的图像。
-   * 点按或单 **击编辑** , [以在资产编辑器中管理资产的演绎版](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) 。
+   * 点按或单 **击编辑** , [以在资产编辑器中管理资产的演绎版](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 。
 
 ### 文本 {#text}
 
