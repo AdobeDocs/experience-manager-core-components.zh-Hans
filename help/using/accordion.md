@@ -1,16 +1,8 @@
 ---
 title: Accordion组件
-seo-title: Accordion组件
-description: 'null'
-seo-description: 核心组件折叠面板组件允许创建在页面上折叠面板中排列的面板集合。
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: 用户
-content-type: 参考
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: 核心组件折叠面板组件允许创建在页面上折叠面板中排列的面板集合。
 translation-type: tm+mt
-source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -24,7 +16,7 @@ source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 核心组件折叠面板组件允许创建组件集合（由面板组成），并排列在页面上的折叠面板中(与 [Tabs组件类似](tabs.md))，但允许展开和折叠面板。
 
 * 可在配置对话框中定义accordion的 [属性](#configure-dialog)。
-* 可在配置对话框和选择面板弹出窗口中定义折叠面板 [的顺序](#select-planel.md)。
+* 可在配置对话框和选择面板弹出窗口中定义折叠面板 [的顺序](#select-panel.md)。
 * 将Accordion组件添加到页面时的默认值可以在设计对话框中 [定义](#design-dialog)。
 
 ## 版本和兼容性 {#version-and-compatibility}
@@ -33,19 +25,19 @@ Accordion组件的当前版本为v1,v1是2019年6月随核心组件版本2.5.0�
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |---|---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验Accordion组件，并查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html)。
+要体验Accordion组件，并查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](https://adobe.com/go/aem_cmp_library_accordion)。
 
 ## 技术详细信息 {#technical-details}
 
-有关Accordion组件的最新技术文档 [可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)。
+有关Accordion组件的最新技术文档 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_accordion_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
