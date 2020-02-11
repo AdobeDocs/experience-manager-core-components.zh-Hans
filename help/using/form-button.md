@@ -1,25 +1,8 @@
 ---
 title: 表单按钮组件
-seo-title: 表单按钮组件
-description: 'null'
-seo-description: 核心组件表单隐藏组件允许在表单中包含隐藏字段。
-uuid: 22c53cd0-d0bc-4e5d-89f3-5ac4f61a9100
-contentOwner: 用户
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: a6e2974a-243f-40ab-903c-c7d3e8615bcc
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
-index: y
-internal: n
-snippet: y
+description: 核心组件表单隐藏组件允许在表单中包含隐藏字段。
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -40,10 +23,10 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 兼容 | 兼容 | 兼容 |
-| [v1](form-button-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 | 兼容 |
+| [v1](form-button-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
@@ -85,7 +68,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ### 技术详细信息 {#technical-details}
 
-有关“表单按钮组件”的最 [新技术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button)。
+有关“表单按钮组件”的最 [新技术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_form_button_v2)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
