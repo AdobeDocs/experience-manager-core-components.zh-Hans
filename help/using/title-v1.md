@@ -1,15 +1,9 @@
 ---
 title: 标题组件(v1)
-seo-title: 标题组件(v1)
-description: The Core Component Title Component is a section heading component that features in-place editing.
-seo-description: 核心组件标题组件是一个可进行就地编辑的章节标题组件。
-uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
+description: 核心组件标题组件是一个可进行就地编辑的章节标题组件。
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -22,13 +16,13 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 标题组件用作内容部分的标题或标题。
 
-可用的标题级别可由模板作者在设计对话框中 [定义](title-v1.md#main-pars_title_1995166862)。 内容编辑器可以从编辑对话框的可用标题级别 [中进行选择](title-v1.md#main-pars_title)。 For added convenience, simple in-place editing of the heading text is also available.
+可用的标题级别可由模板作者在设计对话框中 [定义](title-v1.md#main-pars_title_1995166862)。 内容编辑器可以从编辑对话框的可用标题级别 [中进行选择](title-v1.md#main-pars_title)。 为了更方便起见，还可以对标题文本进行简单的就地编辑。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
 本文档描述了最初随AEM 6.3的核心组件版本1.0.0引入的标题组件的v1。
 
-The following table lists the compatibility of v1 of the Title Component.
+下表列出了标题组件v1的兼容性。
 
 | AEM 版本 | 标题组件v1 |
 |--- |--- |
@@ -37,11 +31,11 @@ The following table lists the compatibility of v1 of the Title Component.
 
 >[!CAUTION]
 >
->This document describes version 1 of the Title Component.
+>本文档描述了标题组件的版本1。
 >
->For details of the current version of the Title Component, see the Title Component document.[](title.md)
+>有关标题组件当前版本的详细信息，请参阅标 [题组件文档](title.md) 。
 
-## Sample Component Output {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
 以下是从 [We.Retail获取的示例](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
 
@@ -74,7 +68,7 @@ The following table lists the compatibility of v1 of the Title Component.
 
 ## Edit Dialog {#edit-dialog}
 
-The edit dialog allows the content author to define the title text as well as select the heading level.
+编辑对话框允许内容作者定义标题文本并选择标题级别。
 
 >[!NOTE]
 >
