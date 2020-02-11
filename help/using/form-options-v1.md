@@ -1,24 +1,9 @@
 ---
 title: 表单选项组件(v1)
-seo-title: 表单选项组件(v1)
-description: 'null'
-seo-description: 核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
-uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
-noindex: 'true'
+description: 核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -122,7 +107,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要发行1.1.0版的核心组件。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
+>从核心组件导出JSON时，需要发行核心组件的1.1.0版。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
 
 ## 配置对话框 {#configure-dialog}
 
