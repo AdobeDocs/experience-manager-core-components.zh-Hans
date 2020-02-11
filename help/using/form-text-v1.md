@@ -1,15 +1,9 @@
 ---
 title: 表单文本组件(v1)
-seo-title: 表单文本组件(v1)
-description: 'null'
-seo-description: 核心组件表单文本组件允许输入表单文本以供提交。
-uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
+description: 核心组件表单文本组件允许输入表单文本以供提交。
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -91,7 +85,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要发行1.1.0版的核心组件。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
+>从核心组件导出JSON时，需要发行核心组件的1.1.0版。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
 
 ## 配置对话框 {#configure-dialog}
 
