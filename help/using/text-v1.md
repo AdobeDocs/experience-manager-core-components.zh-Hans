@@ -1,24 +1,9 @@
 ---
 title: 文本组件(v1)
-seo-title: 文本组件(v1)
-description: 'null'
-seo-description: 文本组件是一个富文本编辑和合成组件，可进行就地编辑。
-uuid: b787ebac-fa85-416a-b96b-9d2ee85428ec
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: d5e37dc7-dfd4-4a44-89b6-c15651472c43
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
-noindex: 'true'
+description: 文本组件是一个富文本编辑和合成组件，可进行就地编辑。
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -80,7 +65,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要发行1.1.0版的核心组件。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
+>从核心组件导出JSON时，需要发行核心组件的1.1.0版。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#main-pars_title_236368006) 。
 
 ## Edit Dialog {#edit-dialog}
 
@@ -325,7 +310,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## 设计对话框 {#design-dialog}
 
-设计对话框允许模板作者定义可供内容作者使用的文本格式选项。
+设计对话框允许模板作者定义内容作者可以使用的文本格式选项。
 
 ### 功能 {#features}
 
