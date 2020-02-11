@@ -1,21 +1,8 @@
 ---
 title: 使用核心组件
-seo-title: 使用核心组件
-description: 'null'
-seo-description: “要在您自己的项目中开始使用核心组件，需要执行三个步骤：下载和安装、创建代理组件、加载核心样式并允许模板上的组件。”
-uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
-contentOwner: 用户
-content-type: 引用
-topic-tags: 开发
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
-disttype: dist5
-gnavtheme: 浅色
-index: y
-internal: n
-snippet: y
+description: “要在您自己的项目中开始使用核心组件，需要执行三个步骤：下载和安装、创建代理组件、加载核心样式并允许模板上的组件。”
 translation-type: tm+mt
-source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -40,7 +27,7 @@ source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
 
 因此，在生产模式下启动时，核心组件不是快速启动的一部分（没有示例内容）。 因此，您的第一步是从GitHub [下载最新发布的内容包](https://github.com/adobe/aem-core-wcm-components/releases/latest) ，并将其安装在AEM环境中。
 
-可以通过多种方式实现自动化，但在实例上快速安装内容包的最简单方法是使用包管理器；请参 [阅安装包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。 此外，一旦您的发布实例也在运行，您需要将该包复制到发布者；请参阅 [复制包](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)。
+可以通过多种方式实现自动化，但在实例上快速安装内容包的最简单方法是使用包管理器；请参 [阅安装包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您的发布实例也在运行，您需要将该包复制到发布者；请参阅 [复制包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
 
 <!-- 
 
@@ -113,7 +100,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. 如果尚未完成，请创建一 [个客户端库](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) ，其中包含站点所需的所有CSS和JS文件。
+1. 如果尚未完成，请创建一 [个客户端库](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) ，其中包含站点所需的所有CSS和JS文件。
 1. 在站点的客户端库上，将依赖项添加到可能需要的核心组件。 这是通过添加属性来完 `embed` 成的。
 
    例如，要包含所有v1核心组件的客户端库，要添加的属性应为：
@@ -132,7 +119,7 @@ Load the Core Client Libraries sounds way better
 
 ## 允许组件 {#allow-the-components}
 
-在模板编辑器中执行以 [下步骤](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。
+在模板编辑器中执行以 [下步骤](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 1. 在模板编辑器中，选择布局容器，然后打开其策略。
 1. 在允许的组件列表中，选择以前创建的代理组件，代理组件应显示在分配给它们的组件组下。 完成后，应用更改。
@@ -140,7 +127,7 @@ Load the Core Client Libraries sounds way better
 
 够了！ 在从已编辑的模板创建的页面中，您现在应能使用新创建的组件。
 
-**阅读下一页：**
+**阅读下一篇文章：**
 
 * [自定义核心组件](customizing.md) -了解如何设计核心组件的样式和自定义核心组件。
 * [组件准则](guidelines.md) -了解核心组件的实施模式。
