@@ -1,16 +1,8 @@
 ---
 title: 图像组件
-seo-title: 图像组件
 description: 核心组件图像组件是自适应图像组件功能的就地编辑。
-seo-description: 核心组件图像组件是自适应图像组件功能的就地编辑。
-uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
-contentOwner: 用户
-content-type: 参考
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d4684f33-2f5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -37,10 +29,10 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 兼容 | 兼容 | 兼容 |
-| [v1](image-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 | 兼容 |
+| [v1](image-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
@@ -58,15 +50,15 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 >[!CAUTION]
 >
->SVG支持要求核心组件版本2.1.0或更高版本以及 [AEM 6.4的](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) service pack 2 [，或AEM 6.3的](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) service pack 3 [，以支持AEM中的新](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) 图像编辑器功能。
+>SVG支持要求核心组件版本2.1.0或更高版本以及 [AEM 6.4的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，或AEM 6.3的](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) service pack 3 [，以支持AEM中的新](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) 图像编辑器功能。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验图像组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/image.html)。
+要体验图像组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](https://adobe.com/go/aem_cmp_library_image)。
 
 ### 技术详细信息 {#technical-details}
 
-有关图像组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)。
+有关图像组件的最新技术文 [档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_image_v2)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
@@ -83,9 +75,9 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **图像资产**
-   * 从资产浏览器中 [拖放资产](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) ，或点 **按浏览选项** ，以从本地文件系统上传。
+   * 从资产浏览器中 [拖放资产](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) ，或点 **按浏览选项** ，以从本地文件系统上传。
    * 点按或单 **击清除** ，以取消选择当前选定的图像。
-   * 点按或单 **击编辑** , [以在资产编辑器中管理资产的演绎版](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) 。
+   * 点按或单 **击编辑** , [以在资产编辑器中管理资产的演绎版](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) 。
 
 ### 元数据选项卡 {#metadata-tab}
 
@@ -144,7 +136,7 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
    >[!CAUTION]
    >
-   >启动映射功能要求核心组件版本2.1.0或更高版本以及 [AEM 6.4的](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) service pack 2 [，或AEM 6.3的](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) service pack 3 [，以支持AEM中的新](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) 图像编辑器功能。
+   >启动映射功能要求核心组件版本2.1.0或更高版本以及 [AEM 6.4的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，或AEM 6.3的](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) service pack 3 [，以支持AEM中的新](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) 图像编辑器功能。
 
    ![](assets/chlimage_1-12.png)
 
@@ -250,14 +242,6 @@ source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
    >[!CAUTION]
    >
    >默认情 **况下** ,“翻转”选项处于禁用状态。 启用此功能后，将在图像组件的编辑对话框中显示“垂直翻转 ******** ”和“水平翻转”按钮，但AEM当前不支持该功能，并且使用这些选项所做的任何更改都不会被保留。
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
- -->
 
 * 裁剪
 
