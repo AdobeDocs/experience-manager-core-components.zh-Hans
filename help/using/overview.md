@@ -1,18 +1,13 @@
 ---
-title: AEM Project Archetype
-seo-title: AEM Project Archetype
+title: AEM 项目原型
 description: 基于AEM的应用程序的项目模板
-seo-description: 基于AEM的应用程序的项目模板
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
 
-# AEM Project Archetype {#aem-project-archetype}
+# AEM 项目原型 {#aem-project-archetype}
 
 AEM Project Archetype可创建基于最小、最佳实践的Adobe Experience manager项目，作为您自己的AEM项目的起点。 使用此原型时必须提供的属性允许您指定此项目所有部分的名称，并控制某些可选特征。
 
@@ -49,11 +44,11 @@ AEM Project Archetype可创建基于最小、最佳实践的Adobe Experience man
 AEM Archetype由模块组成：
 
 * **[核心](core.md)**:是一个Java捆绑包，它包含所有核心功能（如OSGi服务、监听器和调度程序），以及与组件相关的Java代码（如servlet和请求过滤器）。
-* **[ui.apps](uiapps.md)**:包含 `/apps` 项目 `/etc` 的和部分，即JS和CSS客户端库、组件、模板、特定于运行模式的配置以及Hobbes测试。
+* **[ui.apps](uiapps.md)**:包含`/apps`项目`/etc`的和部分，即JS和CSS客户端库、组件、模板、特定于运行模式的配置以及Hobbes测试。
 * **[ui.content](uicontent.md)**:包含使用ui.apps模块中的组件的示例内容。
 * **ui.tests**:是一个Java包，包含执行服务器端的JUnit测试。 此捆绑包不会部署到生产上。
 * **ui.launcher**:包含将ui.tests包（和从属包）部署到服务器并触发远程JUnit执行的粘胶代码。
-* **[ui.frontend](uifrontend.md)**:(可 **选)** ，包含使用基于Webpack的前端构建模块所需的工件。
+* **[ui.frontend](uifrontend.md)**:(可&#x200B;**选)**，包含使用基于Webpack的前端构建模块所需的工件。
 
 ![](assets/archetype-structure.png)
 
@@ -77,7 +72,7 @@ AEM Archetype由模块组成：
 
 ### 创建项目 {#create-project}
 
-要开始使用，您大多只需使用 [AEM Eclipse扩展](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) ，然后按照“新建项目”向导操作并选择“ **AEM示例多模块项目”** ，即可使用已发布版本的原型。
+要开始使用，您大多只需使用 [AEM Eclipse扩展](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) ，然后按照“新建项目”向导操作并选择“ **AEM示例多模块项目”** ，即可使用已发布版本的原型。
 
 当然，您也可以直接调用Maven。
 
@@ -191,7 +186,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-其中一个关键依赖项是 [AEM uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies)。 这将包括所有AEM API，只包含AEM版本的一个依赖项。
+其中一个关键依赖项是 [AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies)。 这将包括所有AEM API，只包含AEM版本的一个依赖项。
 
 >[!NOTE]
 >
@@ -201,7 +196,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 AEM项目原型当然会利用核心组件。
 
-核心组件自动安装在AEM中的默认运行模式下，并由示例We.Retail站点使用。 在生产 [运行模式](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html) (`nosamplecontent`)中，核心组件不可用。
+核心组件自动安装在AEM中的默认运行模式下，并由示例We.Retail站点使用。 在生产 [运行模式](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`)中，核心组件不可用。
 
 因此，为了在所有部署中利用核心组件，最好将其包含在Maven项目中。
 
@@ -225,7 +220,7 @@ AEM项目原型当然会利用核心组件。
    * `mvn clean verify -PintegrationTests`
 * 客户端Hobbes.js测试：这些是基于JavaScript的浏览器端测试，用于验证浏览器端行为。 测试：
    1. 在浏览器中加载AEM，就像创作页面一样。
-   1. Open the page in [Developer mode](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/developer-mode.html)
+   1. Open the page in [Developer mode](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)
    1. 打开左侧面板并切换到“ **Tests** （测试）”选项卡。
    1. 查找生成的 **MyName测试** ，并运行它们。
 
@@ -234,6 +229,6 @@ AEM项目原型当然会利用核心组件。
 因此，您已构建并安装了AEM Project Archetype。 现在怎么办？ 原型很小，但包含许多根据推荐的最佳实践配置的强大AEM功能示例。 使用这些指示指示您可以如何在项目中利用这些功能。 对于任何可能需要执行的项目：
 
 * [通过扩展现有核心组件来自定义组件](customizing.md)
-* [添加其他模板](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
-* [调整本地化结构](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
+* [添加其他模板](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [调整本地化结构](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
 * [了解前端构建模块](uifrontend.md)
