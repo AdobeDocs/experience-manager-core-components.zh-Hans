@@ -1,15 +1,9 @@
 ---
 title: 表单容器组件(v1)
-seo-title: 表单容器组件(v1)
 description: 核心组件表单容器组件允许创建简单的提交表单。
-seo-description: 核心组件表单容器组件允许创建简单的提交表单。
-uuid: 075d83ed-de40-414e-a18f-46b3a857acba
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: 800c064e-2ad5-41f3-9cef-b025a55efd9
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
