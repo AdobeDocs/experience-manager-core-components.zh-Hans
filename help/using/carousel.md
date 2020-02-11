@@ -1,23 +1,8 @@
 ---
 title: 传送组件
-seo-title: 传送组件
-description: 'null'
-seo-description: 传送组件允许内容作者在旋转传送中显示内容。
-uuid: 34934491-bd85-4f1e-ae22-bb48ed4dbd5c
-content-type: 参考文件
-topic-tags: 核心组件
-discoiquuid: 3510812b-9d3e-40fe-b986-0f15d40b42ad
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
-index: y
-internal: n
-snippet: y
+description: 传送组件允许内容作者在旋转传送中显示内容。
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -38,19 +23,19 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验传送组件以及查看其配置选项以及HTML和JSON输出的示例，请访问组件 [库](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html)。
+要体验传送组件以及查看其配置选项以及HTML和JSON输出的示例，请访问组件 [库](https://adobe.com/go/aem_cmp_library_carousel)。
 
 ### 技术详细信息 {#technical-details}
 
-有关传送组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel)。
+有关传送组件的最新技术文 [档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_carousel_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
@@ -71,7 +56,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 >[!TIP]
 >
->如果缩小了页面的视区，使编辑对话框变为全屏，则“添 **加** ”按钮将隐藏。 通过从组件浏览器中拖动组件并放 [在页面编辑器中的传送组件上，组件仍可添加到传送组件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)。
+>如果缩小了页面的视区，使编辑对话框变为全屏，则“添 **加** ”按钮将隐藏。 通过从组件浏览器中拖动组件并放 [在页面编辑器中的传送组件上，组件仍可添加到传送组件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)。
 
 ### 属性选项卡 {#properties-tab}
 
@@ -85,9 +70,9 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 >[!NOTE]
 >
->在“编辑”模式下，幻灯片前进控 **件未启** 用。 使用 [**“预览** ”模式或](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) “查看为已发布”选项 **[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** ，以已发布内容的读者身份与传送进行交互。
+>在“编辑”模式下，幻灯片前进控 **件未启** 用。 使用 [**“预览&#x200B;**”模式或](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)“查看为已发布”选项&#x200B;**[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**，以已发布内容的读者身份与传送进行交互。
 >
->在“编辑”模式下，自动前进功能不 **启用** 。 使 **[用“查看为已发布](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** ”选项，以已发布内容的读者身份查看自动前进功能。
+>在“编辑”模式下，自动前进功能不 **启用** 。 使 **[用“查看为已发布](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**”选项，以已发布内容的读者身份查看自动前进功能。
 
 ### 辅助功能选项卡 {#accessibility-tab}
 
@@ -131,7 +116,7 @@ source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 “允 **许的组件** ”选项卡用于定义内容作者可以将哪些组件作为幻灯片添加到传送组件。
 
-在模板编辑器中定义布局容器的策略和属性时，“允许的组件”选项卡 [的功能与同名选项卡的功能相同。](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+在模板编辑器中定义布局容器的策略和属性时，“允许的组件”选项卡 [的功能与同名选项卡的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 样式选项卡 {#styles-tab}
 
