@@ -1,29 +1,13 @@
 ---
 title: 快速搜索组件
-seo-title: 快速搜索组件
-description: 'null'
-seo-description: “快速搜索”组件为网站提供搜索功能并显示搜索结果，以便访客可以搜索网站并筛选结果。
-uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
-index: y
-internal: n
-snippet: y
+description: “快速搜索”组件为网站提供搜索功能并显示搜索结果，以便访客可以搜索网站并筛选结果。
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
-# 快速搜索组件{#quick-search-component}
+# 快速搜索组件 {#quick-search-component}
 
 “快速搜索”组件为网站提供搜索功能并显示搜索结果，以便访客可以轻松找到匹配的内容并查看结果。
 
@@ -39,15 +23,15 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-以下是从 [We.Retail获取的示例](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)。
+以下是从 [We.Retail获取的示例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
 
 ### 屏幕快照 {#screenshot}
 
@@ -95,7 +79,7 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 >
 >保护搜索组件或任何基于AEM的应用程序免受DOS攻击应在更高级别实施，例如，在调度程序上 `mod_security` 使用。
 
-有关“快速搜索组件”的最 [新技术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search)。
+有关“快速搜索组件”的最 [新技术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_search_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
