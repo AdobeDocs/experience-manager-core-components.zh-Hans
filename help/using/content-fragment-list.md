@@ -1,25 +1,19 @@
 ---
 title: 内容片段列表组件
-seo-title: 内容片段列表组件
-description: 'null'
-seo-description: 核心组件内容片段列表组件允许显示内容片段列表。
-contentOwner: 博纳特
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
+description: 核心组件内容片段列表组件允许显示内容片段列表。
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # 内容片段列表组件{#content-fragment-list-component}
 
-核心组件内容片段列表组件允许显示内容片段 [列表](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)。
+核心组件内容片段列表组件允许显示内容片段 [列表](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 ## 使用情况 {#usage}
 
-核心组件内容片段列表组件允许基于内容片段模型在页 [面中包含内容片段](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) 列表。 这对于创建其他应用程序可 [以轻松使用](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) 、无头内容尤为有用。
+核心组件内容片段列表组件允许基于内容片段模型在页 [面中包含内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) 列表。 这对于创建其他应用程序可 [以轻松使用](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) 、无头内容尤为有用。
 
 * 可以在配置对话框中选择列表及其 [属性](#configure-dialog)。
 * 样式可应用于设计对话框中的 [组件](#design-dialog)。
@@ -30,19 +24,19 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |---|---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验内容片段列表组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment-list.html)。
+要体验内容片段列表组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](https://adobe.com/go/aem_cmp_library_cflist)。
 
 ## 技术详细信息 {#technical-details}
 
-有关内容片段列表组件的最 [新技术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist)。
+有关内容片段列表组件的最 [新技术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_cflist_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
