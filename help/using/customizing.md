@@ -1,16 +1,8 @@
 ---
 title: 自定义核心组件
-seo-title: 自定义核心组件
 description: 核心组件实现了多种模式，从简单的样式设计到高级功能重用，这些模式可轻松实现自定义。
-seo-description: AEM核心组件实现了多种模式，从简单的样式设计到高级功能重用，这些模式都允许轻松自定义。
-uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
-contentOwner: 用户
-content-type: 参考
-topic-tags: 开发
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -34,9 +26,9 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 所有核心组件都实现 [样式系统](customizing.md)。
 
-## AEM Project Archetype {#aem-project-archetype}
+## AEM 项目原型 {#aem-project-archetype}
 
-[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和正确实施包含推荐代理模式的核心组件。](overview.md)
+[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件示例，用于逻辑和使用建议的代理模式正确实施核心组件。](overview.md)
 
 ## 自定义模式 {#customization-patterns}
 
@@ -117,7 +109,7 @@ public class PageHeadline implements Title {
 
 第一种自定义形式是应用CSS样式。
 
-为了简化这一过程，核心组件渲染语义标记并遵循由 [Bootstrap启发的标准化命名惯例](https://getbootstrap.com/)。 此外，为了轻松定位和命名各个组件的样式，每个核心组件都包装在一个DIV元素中，并带有“ `cmp`”和“ `cmp-<name>`”类。
+为了简化这一过程，核心组件渲染语义标记并遵循由 [Bootstrap启发的标准化命名惯例](https://getbootstrap.com/)。 此外，为了轻松定位和命名各个组件的样式，每个核心组件都包装在具有“”和“ `cmp`”类的DIV元 `cmp-<name>`素中。
 
 例如，查看v1核心痕迹导航组件的HTL文件：Breadcrumb.html [，我们会看到元素输出的层次结构](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)`ol.breadcrumb > li.breadcrumb-item > a`。 因此，要确保CSS规则仅影响该组件的痕迹导航类，所有规则的命名应如下所示：
 
@@ -127,7 +119,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每个核心组件还利用AEM [Style System功能](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) ，该功能允许模板作者定义其他CSS类名称，这些名称可由页面作者应用于组件。 这允许为每个模板定义一个允许的组件样式列表，以及其中一个样式是否应默认应用于该类型的所有组件。
+此外，每个核心组件还利用AEM [Style System功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) ，该功能允许模板作者定义其他CSS类名称，这些名称可由页面作者应用于组件。 这允许为每个模板定义一个允许的组件样式列表，以及其中一个样式是否应默认应用于该类型的所有组件。
 
 ## 自定义的升级兼容性 {#upgrade-compatibility-of-customizations}
 
@@ -137,7 +129,7 @@ public class PageHeadline implements Title {
 * 将核心组件升级到新的次要版本
 * 将核心组件升级到主要版本
 
-通常，将AEM升级到新版本不会影响核心组件或完成的自定义，前提是组件的版本还支持要迁移到的新AEM版本，且自定义不使用已弃用或删除 [的API](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html)。
+通常，将AEM升级到新版本不会影响核心组件或完成的自定义，前提是组件的版本还支持要迁移到的新AEM版本，且自定义不使用已弃用或删除 [的API](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
 只要使用本页所述的自定义模式，在不切换到较新的主要版本的情况下升级核心组件不会影响自定义。
 
@@ -157,7 +149,7 @@ public class PageHeadline implements Title {
 
 1. **观看已弃用和已删除的功能。**
 
-   在将每个新AEM版本升级到的情况下，通过关注已弃用和已删除的功能页面，确保所有使用的API仍 [然是热门的](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) 。
+   在将每个新AEM版本升级到的情况下，通过关注已弃用和已删除的功能页面，确保所有使用的API仍 [然是热门的](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) 。
 
 另请参阅核 [心组件支持](developing.md#core-component-support) 。
 
