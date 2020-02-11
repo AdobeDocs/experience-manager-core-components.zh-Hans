@@ -1,25 +1,8 @@
 ---
 title: 表单容器组件
-seo-title: 表单容器组件
-description: 'null'
-seo-description: 核心组件表单容器组件允许创建简单的提交表单。
-uuid: 9d556daf-3fe7-4b2a-b5ae-6926acb267a9
-contentOwner: 用户
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: 3d33fe60-a0ac-4ff2-a865-d600b5448aeb
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
-index: y
-internal: n
-snippet: y
+description: 核心组件表单容器组件允许创建简单的提交表单。
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,11 +15,11 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 表单容器组件支持简单的WCM表单，并使用嵌套结构允许其他表单组件，从而支持构建简单的信息提交表单和功能。
 
-通过使用配 [置对话框](#configure-dialog) ，内容编辑器可以定义由表单提交触发的操作、提交的内容应存储在何处以及是否应触发工作流。 模板作者可以使用设 [计对话框](#design-dialog) ，定义允许的组件及其映射，这与模板编辑器中标准布局容器 [的设计对话框类似](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。
+通过使用配 [置对话框](#configure-dialog) ，内容编辑器可以定义由表单提交触发的操作、提交的内容应存储在何处以及是否应触发工作流。 模板作者可以使用设 [计对话框](#design-dialog) ，定义允许的组件及其映射，这与模板编辑器中标准布局容器 [的设计对话框类似](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 >[!NOTE]
 >
->表单容器组件的核心组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。 不支 [持在核心组件](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) （或反之）内使用基础组件表单组件。
+>表单容器组件的核心组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。 不支 [持在核心组件](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) （或反之）内使用基础组件表单组件。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -44,16 +27,16 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | 兼容 | 兼容 | 兼容 |
-| [v1](form-container-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 | 兼容 |
+| [v1](form-container-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 技术详细信息 {#technical-details}
 
-有关表单容器组件的最新技 [术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container)。
+有关表单容器组件的最新技 [术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_form_container_v2)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
@@ -124,4 +107,4 @@ source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ## 设计对话框 {#design-dialog}
 
-设计对话框允许模板作者为容器定义允许的组件及其映射，这与模板编辑器中标准布局容器的设 [计对话框类似](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。
+设计对话框允许模板作者为容器定义允许的组件及其映射，这与模板编辑器中标准布局容器的设 [计对话框类似](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
