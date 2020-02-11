@@ -1,15 +1,9 @@
 ---
 title: 页面组件(v1)
-seo-title: 页面组件(v1)
 description: 页面组件是可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器组合页眉／页脚和结构组件。
-seo-description: 页面组件是可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器组合页眉／页脚和结构组件。
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
-content-type: 引用
-topic-tags: 核心组件
-discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -689,7 +683,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ## 设计对话框 {#design-dialog}
 
-由于组件表示整个页面，因此可通过“页面信息”-&gt;“页 **面设计”访问设计对话框**。
+由于组件表示整个页面，因此可通过“页面信息”->“页 **面设计”访问设计对话框**。
 
 ![](assets/chlimage_1-94.png)
 
