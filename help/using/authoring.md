@@ -1,55 +1,49 @@
 ---
 title: 通过核心组件创作
-seo-title: 通过核心组件创作
 description: 在AEM中，组件是构成创作页面内容的结构元素——核心组件提供灵活且功能丰富的创作功能。
-seo-description: 在AEM中，组件是构成创作页面内容的结构元素——核心组件提供灵活且功能丰富的创作功能。
-uuid: 4a54cd4c-3d89-4683-8301-bf1e634736e3
-content-type: 引用
-topic-tags: 创作
-discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
 
 # 使用核心组件创作
 
-在 Adobe Experience Manager 中，组件是结构化的元素，用于构成所创作的页面内容。
+在 Adobe Experience Manager 中，组件是结构化元素，用于构成所创作的页面内容。
 
-核心组件提供灵活且功能丰富的创作功能。 The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) illustrates how the core components can be used.
+核心组件提供灵活且功能丰富的创作功能。 WKND参 [考站点及其说明](https://wknd.site) ，如何使用核心组件来实现丰富的网站体验。
 
-要体验核心组件并查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)。
+要体验核心组件并查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](https://adobe.com/go/aem_cmp_library)。
 
-有关在AEM项目上实施核心组件的更深入、面向开发人员的介绍，请参阅 [WKND教程。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+有关在AEM项目上使用 [AEM Project Archetype实施核心组件的更深入、面向开发人员的介绍](overview.md) ，请查 [看WKND教程。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+>核心组件不可直接供作者使用，[开发团队必须先将它们集成到您的环境中](using.md)。Once integrated, they may be made available and pre-configured via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!CAUTION]
 >
->核心组 [件需要AEM 6.3或更高版本](versions.md) ，并且需要使用可编 [辑的模板](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)。 它们不使用经典UI，也不使用静态模板。
+>核心组 [件需要AEM 6.3或更高版本](versions.md) ，并且需要使用可编 [辑的模板](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它们不使用经典UI，也不使用静态模板。
 
 ## 通过核心组件创作 {#authoring-with-core-components}
 
 作为作者，您将注意到核心组件的几个优点，包括：
 
-* Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* Simple to use and well-integrated with the [page editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
 
-* 功能丰富，可容纳We.Retail和 [组件库中所示的](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 许多 [用例](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* 功能丰富，可适应 [WKND参考站点和组件库中说明的许多](https://wknd.site)[用例](https://adobe.com/go/aem_cmp_library)
 
-* [可预配置](#pre-configuring-core-components) ，以通过模板编辑器定义哪些功能可供页面作 [者使用](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [可预配置](#pre-configuring-core-components) ，以通过模板编辑器定义哪些功能可供页面作 [者使用](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-* Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* Built around [accessibility guidelines](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
 
-* Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* Built to support [responsive layout](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 
 * 专为支持轻松本地 [化而构建](localization.md)
 
-Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
+Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
 
-组件按称为组件组的类别进行分组，以便轻松组织和筛选组件。 组件组名称随组件浏览器中的组件一 [起显示](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) ，还可以按组进行筛选以轻松找到正确的组件。
+组件按称为组件组的类别进行分组，以便轻松组织和筛选组件。 组件组名称随组件浏览器中的组件一 [起显示](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) ，还可以按组进行筛选以轻松找到正确的组件。
 
 >[!NOTE]
 >
@@ -63,7 +57,7 @@ Components are available on the **Components** tab of the side panel of the page
 
 例如，如果图像组件不应允许从文件系统上传图像，或者文本组件应仅允许某些段落格式，则只需单击一下即可启用或禁用这些功能。
 
-有关详 [细信息，请参阅创建页面模板](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 。
+有关详 [细信息，请参阅创建页面模板](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 。
 
 ### 编辑和设计对话框 {#edit-and-design-dialogs}
 
@@ -81,7 +75,7 @@ Components are available on the **Components** tab of the side panel of the page
 * 模板作者可以在该组件的“设计”对话框中定义哪些样式可用于特定组件。
 * 然后，内容作者可以选择在添加组件和创建内容时应用的样式。
 
-有关更多详细信息，请参 [阅样式系统文](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) 档。
+有关更多详细信息，请参 [阅样式系统文](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) 档。
 
 >[!NOTE]
 >
@@ -91,13 +85,13 @@ Components are available on the **Components** tab of the side panel of the page
 
 以下是链接到页面的可用核心组件列表，详细描述了这些组件的编辑和设计对话框功能。
 
-核心组件的当前版本具有以下组件。
+当前版本的核心组件具有以下组件。
 
 * [折叠](accordion.md)
 * [痕迹导航](breadcrumb.md)
 * [按钮](button.md)
 * [容器](container.md)
-* [传送](carousel.md)
+* [轮播](carousel.md)
 * [内容片段](content-fragment-component.md)
 * [内容片段列表](content-fragment-list.md)
 * [下载](download.md)
@@ -122,9 +116,9 @@ Components are available on the **Components** tab of the side panel of the page
 
 >[!CAUTION]
 >
->某些版本的单个核心组件可能仅与某些版本的AEM兼容。
+>个别核心组件的某些版本可能仅与特定版本的 AEM 兼容。
 >
->有关兼容性信息，请参阅特定组件的单个帮助页面（在上一列表中链接到），或参考核心组件版本文档以了解更多信息。 [](versions.md)
+>有关兼容性信息，请参阅特定组件对应的帮助页面（可在上文中的列表中点击相应链接），或参考[核心组件版本](versions.md)文档以了解更多信息。
 
 >[!NOTE]
 >
