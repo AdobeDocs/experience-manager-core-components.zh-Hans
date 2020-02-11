@@ -1,12 +1,8 @@
 ---
 title: 嵌入组件
-seo-title: 嵌入组件
 description: 嵌入组件支持在AEM内容页面中嵌入外部内容。
-seo-description: 嵌入组件支持在AEM内容页面中嵌入外部内容。
-content-type: 引用
-topic-tags: 核心组件
 translation-type: tm+mt
-source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -28,19 +24,19 @@ source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |---|---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验嵌入组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](http://opensource.adobe.com/aem-core-wcm-components/library/embed.html)。
+要体验嵌入组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](https://adobe.com/go/aem_cmp_library_embed)。
 
 ## 技术详细信息 {#technical-details}
 
-有关嵌入组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)。
+有关嵌入组件的最新技术文 [档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_embed_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
@@ -99,7 +95,7 @@ source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 但是，这些规则更复杂，因为嵌入组件遵循AEM的全局HTML AntiSamy卫生框架过滤规则集（可在上找到） `/libs/cq/xssprotection/config.xml`。 如果需要，开发人员可以覆盖该配置以进行特定于项目的配置。
 
-AEM开发人员文档中提供了其他安 [全信息。](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
+有关内部部署安装以及 [AEM（作为云服务安装）](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) ，可在 [AEM开发人员文档中找到其他安全信息。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >尽管可以通过覆盖来配置AntiSamy卫生框架规则，但这些更改会影响所有HTL和JSP行为，而不仅仅影响嵌入核心组件 `/libs/cq/xssprotection/config.xml`。
@@ -112,5 +108,5 @@ AEM开发人员文档中提供了其他安 [全信息。](https://helpx.adobe.co
 
 * **禁用URL** —— 在选择内 **容作者时** ，禁用URL选项
 * **禁用可嵌入** -在选择内容作 **者时，禁用“可嵌入** ”选项，而不管允许哪个可嵌入处理器。
-* **禁用HTML** —— 在选中 **时禁用内容作者的HTML** 选项。
+* **禁用HTML** —— 在选中时 **为内容作者禁用** HTML选项。
 * **允许的可嵌入** -定义内容作者可以使用哪些可嵌入处理器的多选项，前提是“可 **嵌入** ”选项处于活动状态。
