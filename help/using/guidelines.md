@@ -1,16 +1,8 @@
 ---
 title: 组件准则
-seo-title: 组件准则
 description: 核心组件遵循与基础组件截然不同的现代实施模式。
-seo-description: 核心组件遵循与基础组件截然不同的现代实施模式。
-uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: User
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -35,7 +27,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ### 关注事项分离 {#separation-of-concerns}
 
-通常，将组件的逻辑（或模型）与标记模板（或视图）分开是一个好做法。 要实现此目的，有多种方法，但建议使用 [Sling Models](https://sling.apache.org/documentation/bundles/models.html) （逻辑模型）和 [](https://helpx.adobe.com/experience-manager/htl/using/overview.html) HTML模板语言(HTL)（核心组件也是如此）。
+通常，将组件的逻辑（或模型）与标记模板（或视图）分开是一个好做法。 要实现此目的，有多种方法，但建议使用 [Sling Models](https://sling.apache.org/documentation/bundles/models.html) （逻辑模型）和 [](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) HTML模板语言(HTL)（核心组件也是如此）。
 
 Sling Models是一组Java注释，可以从POJO中轻松访问所需的变量，因此为组件实现Java逻辑提供了一种简单、强大而高效的方法。
 
@@ -47,7 +39,7 @@ HTL设计为一种安全、简单的模板语言，专为AEM量身定制。 它�
 
 ### 预配置功能 {#pre-configurable-capabilities}
 
-除了页面作者使用的编辑对话框外，组件还可以有一个设计对话框，供模板作者预配置它们。 模 [板编辑器](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) 允许设置所有这些预配置，这些预配置称为“策略”。
+除了页面作者使用的编辑对话框外，组件还可以有一个设计对话框，供模板作者预配置它们。 模 [板编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 允许设置所有这些预配置，这些预配置称为“策略”。
 
 为使组件尽可能地可重用，应为它们提供有意义的预配置选项。 这将允许或禁用组件的功能以匹配不同站点的特定需求。
 
@@ -71,7 +63,7 @@ HTL设计为一种安全、简单的模板语言，专为AEM量身定制。 它�
 
 有关更多详细信息，请参 [阅GitHub中的“版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) ”文档。
 
-组件版本控制创建了一种对升级很重要的合同形式，因为它阐明了何时可能需要重新分析某些内容。 另请参阅自定义 [的升级兼容性部分](customizing.md#upgrade-compatibility-of-customizations)，其中介绍了不同形式的自定义升级需要考虑哪些事项。
+组件版本控制创建了一种对升级很重要的合同形式，因为它阐明了何时可能需要重新分析某些内容。 另请参阅自定义 [的升级兼容性部分](customizing.md#upgrade-compatibility-of-customizations)，其中解释了不同形式的自定义升级需要考虑哪些事项。
 
 为避免痛苦的内容迁移，永远不要直接指向内容资源中的版本化组件非常重要。 根据经验，某个内 `sling:resourceType` 容永远不得包含版本号，或升级组件也需要重新构造内容。 避免这种情况的最佳方法是遵循上述 [代理组件模式](#proxy-component-pattern) 。
 
@@ -86,11 +78,11 @@ HTL设计为一种安全、简单的模板语言，专为AEM量身定制。 它�
 
 ## 整合 {#putting-it-all-together}
 
-以下是整个资源类型绑定结构的概述，以标题核心组件为例。 它说明了站点特定的代理组件如何允许解析组件版本控制，以避免内容资源包含任何版本号。 然后，它显示组件的 `title.html` HTL文件如何用于模型接口，而实现则通过 [Sling Model](https://helpx.adobe.com/experience-manager/htl/using/overview.html)[](https://sling.apache.org/documentation/bundles/models.html) annotations绑定到组件的特定版本。
+以下是整个资源类型绑定结构的概述，以标题核心组件为例。 它说明了站点特定的代理组件如何允许解析组件版本控制，以避免内容资源包含任何版本号。 然后，它显示组件的 `title.html` HTL文件如何用于模型接口，而实现则通过 [Sling Model](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)[](https://sling.apache.org/documentation/bundles/models.html) annotations绑定到组件的特定版本。
 
 ![资源绑定概述](assets/chlimage_1-32.png)
 
-下面是另一个概述，它不显示实施POJO的详细信息，但显示关联的模板和策 [略的引用](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) 。
+下面是另一个概述，它不显示实施POJO的详细信息，但显示关联的模板和策 [略的引用](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html) 。
 
 该属 `cq:allowedTemplates` 性告诉哪些模板可用于站点，以及每个页 `cq:template` 面的相关模板信息。 每个模板由以下三部分组成：
 
@@ -100,9 +92,9 @@ HTL设计为一种安全、简单的模板语言，专为AEM量身定制。 它�
 
 ![模板和策略概述](assets/screen_shot_2018-12-07at093102.png)
 
-## AEM Project Archetype {#aem-project-archetype}
+## AEM 项目原型 {#aem-project-archetype}
 
-[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的简单示例，用于逻辑和使用建议的代理模式正确实施核心组件。](overview.md)
+[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件示例，用于逻辑和使用建议的代理模式正确实施核心组件。](overview.md)
 
 **阅读下一篇文章：**
 
