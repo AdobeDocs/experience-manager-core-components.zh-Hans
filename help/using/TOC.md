@@ -1,11 +1,8 @@
 ---
-cloud: experience-cloud
-product: adobe experience manager
-sub-product: adobe experience manager core components
-archetype: Administrator
+sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -13,7 +10,7 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 # AEM 核心组件帮助 {#using}
 
 + [核心组件简介](introduction.md)
-+ [组件库](http://opensource.adobe.com/aem-core-wcm-components/library.html)
++ [组件库](https://adobe.com/go/aem_cmp_library)
 + [核心组件版本](versions.md)
 + 开始使用 {#get-started}
    + [通过核心组件创作](authoring.md)
@@ -63,10 +60,10 @@ source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
          + [表单文本 (v1)](form-text-v1.md)
 + 开发 {#developing}
    + [开发核心组件](developing.md)
-   + [WKND 开发人员教程](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND 开发人员教程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自定义核心组件](customizing.md)
    + [组件准则](guidelines.md)
-   + AEM Project Archetype {#archetype}
+   + AEM 项目原型 {#archetype}
       + [Archetype概述](overview.md)
       + [核心模块](core.md)
       + [ui.apps模块](uiapps.md)
