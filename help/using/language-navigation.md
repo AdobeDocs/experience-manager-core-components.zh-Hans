@@ -1,24 +1,8 @@
 ---
 title: 语言导航组件
-seo-title: 语言导航组件
-description: 'null'
-seo-description: 语言导航组件为站点提供语言／国家／地区导航，以便访客可以在不同区域设置中导航到同一页面。
-uuid: ce736458-9cdf-4bc2-b90f-9c5a62fe1ca0
-content-type: 引用
-topic-tags: 创作
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: 8f232eb0-65d5-4075-8668-75f1366882c8
-disttype: dist5
-gnavtheme: 浅色
-groupsectionnavitems: 否
-hidemerchandisingbar: 继承
-hidepromocomponent: 继承
-modalsize: 426 x 240
-index: y
-internal: n
-snippet: y
+description: 语言导航组件为站点提供语言／国家／地区导航，以便访客可以在不同区域设置中导航到同一页面。
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -29,7 +13,7 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ## 使用情况 {#usage}
 
-网站通常针对不同区域以多种语言提供。 语言导航组件允许访客查看不同语言／区域设置的同一页面。 因此，如果您是瑞士德语版网站的读者，您可以轻松切换到同一页面的美国英语版。 “语言导航”组件负责理解站点语言结构并自动查找相应的页面。
+网站通常针对不同区域以多种语言提供。 语言导航组件允许访客查看不同语言／区域设置的同一页面。 因此，如果您是瑞士德语版网站的读者，您可以轻松切换到同一页面的美国英语版。 语言导航组件可处理对站点语言结构的了解并自动查找相应的页面。
 
 * 有关语言导航组件的本地化功能如何工作的示例，请参 [阅以下部分](#example)。
 * 有关其他核心组件的本地化功能如何协同工作的示例，请参阅核 [心组件的本地化功能页面](localization.md)。
@@ -42,19 +26,19 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+|--- |--- |--- |--- |---|
+| v1 | 兼容 | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验语言导航组件以及其配置选项以及HTML和JSON输出的示例，请访问组件 [库](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html)。
+要体验语言导航组件以及其配置选项以及HTML和JSON输出的示例，请访问组件 [库](https://adobe.com/go/aem_cmp_library_langnav)。
 
 ## 技术详细信息 {#technical-details}
 
-有关语言导航组件的最新技 [术文档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation)。
+有关语言导航组件的最新技 [术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_langnav_v1)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](developing.md)。
 
@@ -74,7 +58,7 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 * **语言结构深度**
    * 这是导航根目录下的内容树的 **级别** ，表示站点的语言结构。 示例:
       * `1` 通常意味着您只有语言选择权。
-      * `2` 通常意味着你有语言和国家的选择。
+      * `2` 通常意味着您可以选择语言和国家。
       * `3` 通常意味着您可以选择语言、国家／地区。
 
 #### 示例 {#example}
