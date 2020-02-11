@@ -1,15 +1,9 @@
 ---
 title: 表单隐藏组件(v1)
-seo-title: 表单隐藏组件(v1)
 description: 核心组件表单隐藏组件允许显示隐藏字段。
-seo-description: 核心组件表单隐藏组件允许显示隐藏字段。
-uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
-content-type: 引用
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-新
-discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -83,7 +77,7 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要发行1.1.0版的核心组件。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#release-history-and-compatibility) 。
+>从核心组件导出JSON时，需要发行核心组件的1.1.0版。 有关详细信息， [请参阅核心组件v1的兼容性信息](versions.md#release-history-and-compatibility) 。
 
 ## 配置对话框 {#configure-dialog}
 
