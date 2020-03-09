@@ -2,7 +2,7 @@
 title: 图像组件
 description: 核心组件图像组件是自适应图像组件功能的就地编辑。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
 |--- |--- |--- |--- |---|
 | v2 | 兼容 | 兼容 | 兼容 | 兼容 |
 | [v1](v1/image-v1.md) | 兼容 | 兼容 | 兼容 | - |
@@ -41,7 +41,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 图像组件支持可缩放矢量图形(SVG)。
 
 * 支持从DAM拖放SVG资源以及从本地文件系统上传SVG文件。
-* 自适应图像服务器将流化原始SVG文件（跳过变换）。
+* 自适应图像Servlet流式传输原始SVG文件（跳过变换）。
 * 对于SVG图像，“智能图像”和“智能大小”在图像模型中设置为空数组。
 
 ### 安全 {#security}
@@ -261,12 +261,12 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 图像组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
 
-## 自适应图像服务器 {#adaptive-image-servelet}
+## 自适应图像Servlet {#adaptive-image-servlet}
 
-图像组件使用核心组件的自适应图像服务器。 [自适应图像Servlet负责图像处理和流化](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) ，开发人员可以利用它们对核心组件 [的自定义设置](/help/developing/customizing.md)。
+图像组件使用核心组件的自适应图像Servlet。 [自适应图像Servlet负责图像处理和流化](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) ，开发人员可以利用它们对核心组件 [的自定义设置](/help/developing/customizing.md)。
 
 >[!NOTE]
 >
->自适应图像服 `Last-Modified` 务器支持通过头的条件请求，但需要在调度程序中 `Last-Modified` 启 [用头的缓存](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
+>自适应图像Servlet `Last-Modified` 支持通过头的条件请求，但需要在调度程序中启 `Last-Modified` 用 [头的缓存](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)。
 >
 >[AEM Project Archetype的示例Dispatcher配置已包含此配置](/help/developing/archetype/overview.md)。
