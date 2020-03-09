@@ -2,14 +2,14 @@
 title: AEM 项目原型
 description: 基于AEM的应用程序的项目模板
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
 
 # AEM 项目原型 {#aem-project-archetype}
 
-AEM Project Archetype可创建基于最小、最佳实践的Adobe Experience manager项目，作为您自己的AEM项目的起点。 使用此原型时必须提供的属性允许您指定此项目所有部分的名称，并控制某些可选特征。
+AEM Project Archetype可创建基于最小、最佳实践的Adobe Experience Manager项目，作为您自己的AEM项目的起点。 使用此原型时必须提供的属性允许您指定此项目所有部分的名称，并控制某些可选特征。
 
 >[!TIP]
 >
@@ -26,7 +26,7 @@ AEM Project Archetype可创建基于最小、最佳实践的Adobe Experience man
 * 表单组 [件示例](/help/components/forms/form-container.md)
 * 设备模拟器、拖放设置和国际化的配置
 * 遵循BEM命名约定以及组件特定样式的客户端库
-* 示例包，包括示例模型、服务器、过滤器和调度程序
+* 示例包包括示例模型、服务器、过滤器和调度程序
 * 单元、集成和客户端测试
 * React或Angular中的SPA实施示例（可选）
 
@@ -117,10 +117,10 @@ mvn archetype:generate \
 | `includeErrorHandler` | n | 包含自定义404响应页 |
 | `frontendModule` | 无 | 包括专用前端模块( `none`、、 [`general`](uifrontend.md)、 [`angular`](uifrontend-angular.md)、 [`react`](uifrontend-react.md)之一) |
 | `singleCountry` | y | 在示例内容中创建语言主结构 |
-| `includeDispatcherConfig` | n | 定义在为 <br> AEM创建项目(作为Cloud Service [`cloud`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.cloud) Set)时，为项目集生成的调度程序配置是 [否在为Adobe Managed services创建项目时](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)<br>[`ams`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 为项目集生成 |
+| `includeDispatcherConfig` | n | 定义在为 <br> AEM创建项目(作为Cloud Service [`cloud`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.cloud) Set)时，为项目集生成的调度程序配置是 [否在为Adobe Managed Services创建项目时](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)<br>[`ams`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 为项目集生成 |
 
 >[!NOTE]
-> 如果首次在交互模式中执行原型，则无法更改具有默认值的属性(有关详细信息，请参阅 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) )。 当结束时的属性确认被拒绝并且调查表被重复时，或者通过在命令行中传递参数(例如， `-DoptionIncludeExamples=n`)。
+> 如果首次在交互模式下执行原型，则无法更改具有默认值的属性(有关更多详细信息，请参阅 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) )。 当结束时的属性确认被拒绝并且调查表被重复时，或者通过在命令行中传递参数(例如， `-DoptionIncludeExamples=n`)。
 
 >[!NOTE]
 >在Windows上运行并生成调度程序配置时，您应在提升的命令提示符下运行，或在Linux的Windows子系统中运行(请参 [阅问题329](https://github.com/adobe/aem-project-archetype/issues/329))。
