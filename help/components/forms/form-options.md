@@ -2,7 +2,7 @@
 title: 表单选项组件
 description: 核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -19,11 +19,11 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-表单选项组件的当前版本为v2，该版本在2018年1月随核心组件的2.0.0版一起推出，本文档对此进行了说明。
+表单选项组件的当前版本为v2，该版本于2018年1月随核心组件的2.0.0版一起推出，本文档对此进行了说明。
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
 |--- |--- |--- |--- |---|
 | v2 | 兼容 | 兼容 | 兼容 | 兼容 |
 | [v1](/help/components/v1/form-options-v1.md) | 兼容 | 兼容 | 兼容 | - |
@@ -32,102 +32,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 示例组件输出 {#sample-component-output}
 
-以下是从 [We.Retail获取的示例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
-
-### 屏幕快照 {#screenshot}
-
-![](/help/assets/screen_shot_2018-01-12at113648.png)
-
-### HTML {#html}
-
-```
-<form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12">
-    <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-    
-    <div class="hidden aem-GridColumn aem-GridColumn--default--12">
-<input type="hidden" id="form-hidden-66464844" name="hidden">
-
-</div>
-<div class="hidden aem-GridColumn aem-GridColumn--default--12">
-<input type="hidden" id="form-hidden-858231075" name="hidden">
-
-</div>
-<div class="hidden aem-GridColumn aem-GridColumn--default--12">
-<input type="hidden" id="form-hidden-862566768" name="hidden">
-
-</div>
-<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-
-    <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container/container">
-    
-    <div class="options aem-GridColumn aem-GridColumn--default--12">
-
-    <fieldset class="cmp-form-options">
-        
-            <legend class="cmp-form-options__legend">What is your favorite type of toast?</legend>
-            <label class="cmp-form-options__field-label">
-                <input class="cmp-form-options__field cmp-form-options__field--radio" type="radio" name="favToast" value="dryToast">
-                Plain dry toast
-            </label>
-<label class="cmp-form-options__field-label">
-                <input class="cmp-form-options__field cmp-form-options__field--radio" type="radio" name="favToast" value="frenchToast">
-                French Toast
-            </label>
-<label class="cmp-form-options__field-label">
-                <input class="cmp-form-options__field cmp-form-options__field--radio" type="radio" name="favToast" value="texasToast">
-                Texas Toast
-            </label>
-
-    </fieldset>
-
-</div>
-
-</div></form>
-```
-
-### JSON {#json}
-
-```
-"container":{  
-                           "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                           "columnCount":12,
-                           "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
-                           ":items":{  
-                              "options_816658469":{  
-                                 "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                                 "id":"form-options-269951232",
-                                 "title":"What is your favorite type of toast?",
-                                 "name":"favToast",
-                                 "type":"RADIO",
-                                 "items":[  
-                                    {  
-                                       "value":"dryToast",
-                                       "text":"Plain dry toast",
-                                       "selected":false,
-                                       "disabled":false
-                                    },
-                                    {  
-                                       "value":"frenchToast",
-                                       "text":"French Toast",
-                                       "selected":false,
-                                       "disabled":false
-                                    },
-                                    {  
-                                       "value":"texasToast",
-                                       "text":"Texas Toast",
-                                       "selected":false,
-                                       "disabled":false
-                                    }
-                                 ],
-                                 ":type":"core/wcm/sandbox/components/form/options/v2/options"
-                              }
-                           },
-                           ":itemsOrder":[  
-                              "options_816658469"
-                           ],
-                           ":type":"core/wcm/sandbox/components/form/container/v2/container"
-                        }
-```
+要体验表单选项组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](https://adobe.com/go/aem_cmp_library_form_options)。
 
 ### 技术详细信息 {#technical-details}
 
