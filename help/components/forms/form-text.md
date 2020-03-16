@@ -2,7 +2,7 @@
 title: 表单文本组件
 description: 核心组件表单文本组件允许输入表单文本以供提交。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
 |--- |--- |--- |--- |---|
 | v2 | 兼容 | 兼容 | 兼容 | 兼容 |
 | [v1](/help/components/v1/form-text-v1.md) | 兼容 | 兼容 | 兼容 | - |
@@ -30,44 +30,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ## 示例组件输出 {#sample-component-output}
 
-以下是从 [We.Retail获取的示例](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html)。
-
-### 屏幕快照 {#screenshot}
-
-![](/help/assets/chlimage_1-22.png)
-
-### HTML {#html}
-
-```
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-   <div class="cmp-form-text">
-      <label for="form-text-2146967">How many pieces of toast would you like?
-      </label>
-   <input class="cmp-form-text__text" type="number" id="form-text-2146967" name="pieces">
-   </div>
-</div>
-```
-
-### JSON {#json}
-
-```
-"text":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "id":"form-text-2146967",
-                     "title":"How many pieces of toast would you like?",
-                     "name":"pieces",
-                     "value":"",
-                     "helpMessage":"",
-                     "type":"number",
-                     "readOnly":false,
-                     "required":false,
-                     "requiredMessage":"",
-                     "constraintMessage":"",
-                     "rows":2,
-                     "defaultValue":"",
-                     ":type":"core/wcm/components/form/text/v2/text"
-                  }
-```
+要体验表单文本组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组 [件库](https://adobe.com/go/aem_cmp_library_form_text)。
 
 ### 技术详细信息 {#technical-details}
 
