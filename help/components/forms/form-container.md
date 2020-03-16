@@ -2,7 +2,7 @@
 title: 表单容器组件
 description: 核心组件表单容器组件允许创建简单的提交表单。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -27,12 +27,16 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
 |--- |--- |--- |--- |---|
 | v2 | 兼容 | 兼容 | 兼容 | 兼容 |
 | [v1](/help/components/v1/form-container-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](/help/versions.md)。
+
+## 示例组件输出 {#sample-component-output}
+
+要体验表单容器组件以及查看其配置选项以及HTML和JSON输出的示例，请访问组件 [库](https://adobe.com/go/aem_cmp_library_form_container)。
 
 ## 技术详细信息 {#technical-details}
 
