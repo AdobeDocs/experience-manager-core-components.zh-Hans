@@ -1,68 +1,59 @@
 ---
-source-git-commit: 3113ed985136880c33302d2ab3504be16c5ed963
+source-git-commit: 926ecdff624327b0937ec643ce9d8fab957699ef
 translation-type: tm+mt
 
 ---
-# 贡献给Adobe Experience Manager文档
+# 为Adobe Experience Manager文档贡献内容
 
-感谢您选择加入Adobe Experience Manager文档！我们欢迎来自社区和Adobe员工以外的社区和Adobe员工的内容捐献。
+感谢您选择为Adobe Experience Manager文档作贡献！ 我们欢迎来自整个读者社区以及Adobe同事的内容贡献。
 
-此文件描述了您可以如何投稿以及如何在作出贡献时遵循指导方针。
+本文件描述了您如何做贡献，并指出了您做出贡献时应遵循的准则。
 
-## Adobe Open Source Code of Conduct
+## Adobe开放源代码行为准则
 
-此项目已采用 [Adobe Open Source Code of Conduct](code-of-conduct.md)。通过贡献AEM文档，您同意遵守此行为准则。Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+此项目已采用 [Adobe开放源代码行为准则](code-of-conduct.md)。 通过提供AEM文档，您同意遵守本行为准则。 Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## AEM文档贡献指南
+## 贡献指南
 
-我们欢迎任何贡献来改进AEM文档，但我们会要求您的贡献遵守某些准则和标准。有关更多信息 [，请查阅有关AEM文档](guidelines.md) 贡献准则的指南。
+尽管我们欢迎为改进AEM文档而做出的任何贡献，但我们确实要求尽可能遵守某些准则和标准。 请查阅AEM文 [档贡献指南](guidelines.md) ，以了解更多信息。
 
-## 如何Contribute
+## 如何使用Contribute
 
-您的贡献取决于您是谁以及要贡献的更改的种类：
+我们希望尽可能轻松地提交您的贡献。 您可以通过两种方式进行贡献：
 
-### 创建期刊
+* [创建期刊](#create-an-issue)
+* [创建拉取请求](#create-a-pull-request)
 
-您是否有建议、观察当前文档或问题的描述？文件问题。如果您有某些内容要连接，但不舒服编辑文档或亲自提出请求，问题也会很好。
+您选择的方法取决于您自己在GitHub中编辑文档的舒适程度。
 
-### 微小更改
+>[!NOTE]
+>
+>您提交的稿件受 [Adobe使用条款的约束。](https://www.adobe.com/legal/terms.html)
 
-要提交小更新，请单击文章中 **的“编辑** ”链接，该链接在GitHub中打开源文章。使用GithHub UI进行更新。有关更多信息，请参阅 [Adobe Docs投稿人指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) 。
+### 创建期刊 {#create-an-issue}
 
-在此存储库中提交的用于文档和代码示例的小更正或说明受Adobe使用条款的约束。
+您是否有建议、对当前文档的观察或对某些内容的描述提出疑问？ 然后请创建期刊。 如果您有需要贡献的内容，但您对编辑文档或自行提出拉取请求感到不自在，问题也很出色。
 
-### 社区成员的主要更改或新文章
+问题允许您轻松描述对文档进行改进的想法，AEM Docs团队成员可以对其进行审阅。 只需单击任 **何页面右侧导航面板顶部的** “记录问题”链接即可创建问题。
 
-如果您是Adobe社区的一部分并且希望创建文章或提交重大更改，请单击GitHub存储库中 **的“期刊”** 选项卡以提交期刊。此提交开始与文档团队进行对话。您需要与作者(或其他Adobe员工)一起发布新内容。
+### 创建拉取请求 {#create-a-pull-request}
 
-如果您通过对文档和代码示例进行重大更改提交拉请求，您将在拉请求中看到一条消息，要求您提交在线贡献许可协议(CLA)。必须先填写在线表单，然后才能查看推送请求。
+如果您发现问题并且确切了解如何解决它，请考虑创建拉取请求。 拉取请求允许您对文档进行自己的编辑，文档随后将由AEM Docs团队成员进行审阅以包含在内。 只需单击任 **何页面右侧导航面板顶部的** “编辑此页面”链接，即可进行建议的更改并创建拉取请求。
 
-### Adobe员工的主要变更
+所有拉取请求都必须随附已签名的 [参与者许可协议或CLA。](https://opensource.adobe.com/cla.html)这将允许 Adobe 在项目中再次分发您的贡献。您只需提交一次Adobe CLA，因此，如果您之前已提交过一个CLA，您就可以了！
 
-如果您是Adobe Experience Cloud解决方案产品团队的技术文档编写者、计划经理或开发人员，并且您的工作是为或创作技术文章而工作，则应使用私有存储库 `https://git.corp.adobe.com/AdobeDocs`。
+### 快速视频简介
 
-Adobe世界其他部分的Adobe员工应使用公开存储库进行小更新。
+观看以下视频，快速了解如何创建问题和提取请求。
 
-## 参与者许可协议
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
 
-对此项目的所有第三方贡献都必须附带一份签字的参与者许可协议。这将允许 Adobe 在项目中再次分发您的贡献。[签署我们的CLA。](https://opensource.adobe.com/cla.html) 您只需要提交一次Adobe CLA，因此如果您以前提交过一个Adobe CLA，您就很好了！
+### Adobe员工的贡献
 
-## 工具和设置
+如果您是Adobe员工并且希望提出拉取请求，请使用上的专用存储库 `https://git.corp.adobe.com/AdobeDocs`。
 
-社区参与者可以使用GithHub UI进行基本编辑或撤销，以做出主要贡献。
+有关问题，请随时使用公共存储库。
 
-有关如何使用GitHub创作平台的概述，请参阅 [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) 。
+## 更多信息
 
-## 如何使用标记格式化主题
-
-此存储库中的所有文章都使用GitHub风味标记。如果您不熟悉标记，请参阅：
-
-* [标记基础知识](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [可打印标记表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-
-## 标签
-
-在公用存储库中，分配自动化标签以帮助我们管理拉请求工作流，并帮助您了解拉动请求的进展情况：
-
-* **更改发送给作者**：已向作者通知待处理的拖拉请求。
-* **随时合并**：随时准备由我们的拉动请求审阅小组审查。
+有关如何 [使用GitHub创作平台的更多详细信息，请参阅Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) 。
