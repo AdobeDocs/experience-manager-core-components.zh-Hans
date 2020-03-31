@@ -1,67 +1,69 @@
 ---
-source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
+source-git-commit: 926ecdff624327b0937ec643ce9d8fab957699ef
 translation-type: tm+mt
 
 ---
-# AEM文档贡献指南
+# AEM文档贡献准则
 
-## AEM文档哲学
+## AEM文档理念
 
-我们知道Adobe Experience Manager用户在竞争激烈的环境中工作，创造出可与竞争对手分开的数字体验。因此，当Adobe在AEM中提供高级新工具时，这些工具会得到准确且清晰的文档，以允许客户立即利用AEM投资并最大化ROI。
+我们知道Adobe Experience Manager用户在竞争激烈的环境中工作，努力创建让他们与竞争对手分开的数字体验。 因此，当Adobe在AEM中提供高级新工具时，必须借助准确而清晰的文档来补充这些工具，以便让客户立即利用其AEM投资并最大化ROI。
 
-AEM文档的目标是尽快将文档放入AEM用户手中。因此，我们优先处理准确、可用的文档，并努力不断更新和改进文档。
+AEM文档的目标是尽快将文档交给AEM用户。 因此，我们优先考虑准确、可用的文档，并努力不断更新和改进它。
 
 ## AEM文档贡献
 
-为了不断改进AEM文档，欢迎整个AEM用户社区对文档进行贡献。通过提取请求或问题，文档改进可以是更正、说明、扩展和其他示例。
+为了不断改进AEM文档，欢迎整个AEM用户社区为文档做出贡献。 无论是通过拉取请求还是问题，对文档的改进都可以是更正、说明、扩展和其他示例。
 
 ## 文档标准
 
-我们欢迎您对我们的文档作出贡献，对AEM文档的任何贡献(以拉请求或期刊形式)都必须符合我们的贡献和文档标准。
+虽然我们欢迎对我们的文档做出贡献，但对AEM文档的任何贡献（以拉取请求或问题的形式）应符合我们的贡献和文档标准。
 
-不符合这些标准的稿件可能被拒绝。
+不符合这些标准的捐款可以被拒绝。
 
-### 我们的文档标准使用案例。
+### 我们文档标准用例。
 
-AEM文档涵盖标准用例。超出标准安装和使用产品的标准不是AEM文档的一部分。
+AEM文档涵盖标准用例。 超出标准安装和产品使用范围的使用案例不属于AEM文档。
 
-### 我们不会记录错误或他们的解决办法。
+### 我们一般不会文档缺陷或其解决办法。
 
-由于AEM文档涵盖标准用例、缺陷、缺陷造成的效果以及错误解决办法，因此没有记录错误。
+AEM文档涵盖标准用例。 因此，通常不会记录bug、bug引起的效果以及bug的解决办法。
 
-### 文档稿件不能回答技术问题。
+此规则的例外情况适用于发行说明，在发行说明中，已知问题可以与经AEM产品管理批准的可能解决方案一起列出。
 
-欢迎您通过改进AEM文档的任何想法作为贡献。However comments, issues, and pull requests are intended for *contributions* only. 它们并非用于回答您如何使用AEM或解决技术问题的问题。
+### 文档贡献不用于回答技术问题。
 
-Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
+您可能必须改进AEM文档的任何想法均欢迎作为贡献。 但是，评论、问题和拉取请求仅用于 *稿件* 。 它们不用于回答您有关如何使用AEM、实施AEM项目或解决技术问题的问题。
 
-***AEM文档稿件不能取代Adobe支持*** ，任何寻求支持相关问题答案的稿件将被拒绝。
+如果您对AEM使用或技术错误有任何疑问，应通过 [Experience Manager支持门户通过常规支持流程报告](https://daycare.day.com/home.html) ，或在 [Experience Manager社区中讨论](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html)。
 
-### 贡献必须清楚地引用受影响的文档页面。
+***AEM 文档稿件不是 Adobe 支持的替代品***，此类寻求支持相关问题答案的任何稿件都将被拒绝。
 
-如果您创建了一个用于建议文档改进的期刊，则必须包含指向受影响页面的链接。If you create an issue by using the **Edit this page** link on a documentation page, the issue will be created with a link to the page automatically.
+### 稿件必须明确引用受影响的文档页面。
 
-这并不适用于从提取请求中提取请求，因为按定义包括受影响的页面。
+如果创建问题以建议对文档进行改进，则必须包含指向受影响页面的链接。 如果使用文档页面上的“编 **辑此页面** ”链接创建期刊，则会自动创建该期刊并包含指向该页面的链接。
 
-## 文档指导方针
+这不适用于拉取请求，因为按其性质引用受影响页面的拉取请求。
 
-我们要求对我们的文档做任何贡献都遵循某些风格准则。
+## 文档准则
 
-遵循这些准则可简化您的贡献审阅，因此更快地纳入我们的文档。但是，不遵守或不完全遵守这些准则并不意味着贡献将被拒绝。
+我们要求对我们的文档所做的任何贡献都遵循某些风格准则。
+
+遵循这些准则可以更轻松地审阅您的贡献，因此可以更快地集成到我们的文档中。
 
 ### 语言和样式
 
 #### 语言
 
 * AEM文档以美国英语创作和维护。
-* 尽可能简单地保留句子。
-* 保持语言清晰简洁。
+* 尽可能简单地使句子。
+* 保持语言清晰、简洁。
 
-记住，AEM文档的读者遍布全球，不能预期为母语或流利的英语演讲者。避免哄骗主义，并尽可能简单、简单地使用该语言。
+请记住，AEM文档的读者遍布全球，不能以母语或流利的英语说。 避免口语，尽量使语言清晰简单。
 
-#### 遵循Microsoft Standard的“样式手册”
+#### 遵循Microsoft Manual of Style
 
-[“Microsoft Standard of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) ”是一个免费提供的文档样式指南，它侧重于软件文档和AEM文档，可以在任何地方使用该指南。
+[Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) (Microsoft Manual of Style)是免费提供的文档风格指南，重点介绍软件文档和AEM文档，并尽可能遵循本指南。
 
 ### 格式化
 
@@ -73,16 +75,16 @@ Any questions about the usage of AEM or technical errors you may have should be 
 
 ### 屏幕截图
 
-屏幕截图应谨慎使用，并且仅当文本描述不足时才可用。
+屏幕快照应谨慎使用，并且仅当文本描述不足时才可使用。
 
-不应使用屏幕截图中的标记或其他注释(如红色框架、箭头或文本)。这样屏幕截图可以更轻松地在文档的本地化版本中重复使用或复制。
+屏幕截图中的标记或其他注释（如红色框架、箭头或文本）不应使用。 这样，屏幕截图便于在文档的本地化版本中重复使用或复制。
 
-### 特定于版本的引用
+### 版本特定的参考
 
-尽量避免任何文档内容中的特定版本直接引用。这使文档更灵活，而且可用于将来的版本。
+尽可能避免在整个文档内容中直接引用特定版本。 这使文档在未来版本中更加灵活和可扩展。
 
 ### 使用Day、AEM、CQ、CRX
 
-The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **AEM**.
+在文章中，产品应首次以全名 **Adobe Experience Manager** 引用，此后可以称为 **AEM**。
 
-不应使用Day、Day Software、CQ和CRX，除非可不可避免地在类名称中(如类名称中)或引用AEM的历史记录。
+Day、Day Software、CQ和CRX不应被使用，除非类名或引用AEM历史记录等无法避免的情况除外。
