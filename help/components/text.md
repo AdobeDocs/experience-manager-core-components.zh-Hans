@@ -2,7 +2,7 @@
 title: 文本组件
 description: 文本组件是一个富文本编辑和合成组件，可进行就地编辑。
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
 
@@ -11,24 +11,24 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 核心组件文本组件是一个富文本编辑和合成组件，可进行就地编辑。
 
-## 使用情况 {#usage}
+## 使用 {#usage}
 
-文本组件提供了一个强大的富文本编辑器，它允许在简化的内嵌编辑器中轻松编辑文本以及全屏格式。
+文本组件优惠了一个强大的富文本编辑器，它允许在简化的内联编辑器中轻松编辑文本以及全屏格式。
 
 编 [辑对话框](#edit-dialog) ，具有有限选项的联机编辑功能，全屏编辑对话框中提供了完整功能。 使用设 [计对话框](#design-dialog)，可以为内容作者的模板配置文本格式选项，如标题、特殊字符和段落样式。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-文本组件的当前版本为v2，该版本在2018年1月随核心组件的2.0.0版一起引入，本文档对此进行了说明。
+文本组件的当前版本为v2，该版本在2018年1月随核心组件的2.0.0版一起引入，并在本文档中进行了说明。
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 |
+| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
 |---|---|---|---|---|
 | v2 | 兼容 | 兼容 | 兼容 | 兼容 |
 | [v1](v1/text-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
-有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](/help/versions.md)。
+有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -42,7 +42,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ## 文本组件和富文本编辑器 {#the-text-component-and-the-rich-text-editor}
 
-核心组件文本组件利用AEM富文本编辑器(RTE)。 RTE为内容作者提供了各种用于编辑其文本内容的功能。 RTE的配置非常灵活，并提供了许多选项。 有关如何配置RTE的更多详细信息，请参阅配置富文 [本编辑器](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html)[和配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
+核心组件文本组件利用AEM富文本编辑器(RTE)。 RTE为内容作者提供了各种用于编辑其文本内容的功能。 RTE在配置方面非常灵活，并优惠了许多选项。 有关如何配置RTE的更多详细信息，请参阅配置富文 [本编辑器](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html)[和配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
 
 本文的其余部分演示了核心组件文本组件的标准配置以及现成的RTE配置。
 
@@ -52,7 +52,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ## Edit Dialog {#edit-dialog}
 
-编辑对话框提供了用户期望合成文本的标准富文本格式工具。
+编辑对话框优惠用户希望创作文本的标准富文本格式工具。
 
 ![](/help/assets/screen_shot_2018-01-11at143025.png)
 
@@ -98,7 +98,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 将复制的任何文本粘贴为纯文本，而无任何格式。
 
-选择此选项后，将打开一个窗口，在该窗口中，文本可以粘贴为纯文本，且在插入到文本中之前没有格式作为预览。 点按或单击复选标记以接受，点按或单击x以取消。
+选择此选项后，将打开一个窗口，在该窗口中，文本可以粘贴为纯文本，且在插入文本之前不会以预览形式粘贴。 点按或单击复选标记以接受，点按或单击x以取消。
 
 ![](/help/assets/screen_shot_2018-01-11at143234.png)
 
@@ -150,7 +150,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ![](/help/assets/screen_shot_2018-01-11at130145.png)
 
-如果未找到其他实例，将显示一条消息，并从文本的开头开始搜索。
+如果未找到其他实例，则将显示一条消息，并从文本的开头开始搜索。
 
 ![](/help/assets/screen_shot_2018-01-11at130241.png)
 
@@ -171,6 +171,10 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 如果找到匹配项，则高亮显示该匹配项，并且搜索对话框灰显。 在灰显 **的对话框中再次单击****** “查找”按钮以搜索下一个匹配项，或选择“替换”按钮以替换高亮显示的匹配文本。 请注意，“ **替换** ”按钮仅在匹配后才处于活动状态。
 
 选择 **全部替换** ，以同时替换所有出现的文本。
+
+使用替换功能时，应在输入查找字符串的同时输入要替换的替换字符串。 但是，在替换字符串之前，您仍然可以单击“查找”以搜索该字符串。 如果在单击“查找”后输入替换字符串，则搜索将重置为文本的开头。
+
+单击查找时，查找和替换对话框变得透明，单击替换时，该对话框变得不透明。 这允许作者查看作者将替换的文本。
 
 ### 左对齐文本
 
@@ -234,7 +238,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 * **高**&#x200B;度表的高度
 * **单元格边**&#x200B;距单元格内容周围的空格
 * **单元格间**&#x200B;距单元格之间的间距
-* **边**&#x200B;框表边框的粗细
+* **边**&#x200B;框表边框的权重
 * 如果表的标题：
    * 应使用第一行
    * 应使用第一列
@@ -248,7 +252,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 用于检查文本内容的拼写。 可能的拼写错误下划线带有红色的断线。
 
-有关拼写检查和自定义拼写检查字典的更多详细信息，请参阅 [配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
+有关拼写检查和自定义拼写检查字典的更多详细信息，请参阅文档 [配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
 
 ### 特殊字符 {#special-characters}
 
@@ -264,9 +268,9 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ![](/help/assets/screen_shot_2018-01-11at142746.png)
 
-用于查看和修改文本的HTML源。
+用于视图和修改文本的HTML源。
 
-点按或单击“ **源编辑** ”图标，以从格式化视图更改文本的内容以查看原始HTML。 在此模式中，所有其他格式选项都被禁用。 再次点按或单 **击源编辑图标** ，以返回到格式化的视图。
+点按或单击“ **源编辑** ”图标，以更改格式化视图中的文本内容，以视图原始HTML。 在此模式中，所有其他格式选项都被禁用。 再次点按或单击 **源编辑图标** ，以返回到已设置格式的视图。
 
 >[!CAUTION]
 >
@@ -276,7 +280,7 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 >[!NOTE]
 >
->由于通过“源编辑 **”输入的HTML会扫描XSS风险和任何脚本并自动删除找到的脚本，因此保留的实际内容可能与在“源编辑”中输入的内容** 不同 ****。 因此，要保存使用源代码编辑所做的更改 ******** ，必须先退出源代码编辑，才能在正常编辑器中查看文本，然后再保存。
+>由于通过“源编辑 **”输入的HTML会扫描XSS风险和任何脚本并自动删除找到的脚本，因此保留的实际内容可能与在“源编辑”中输入的内容** 不同 ****。 因此，要保存使用源代码编辑所做的更改 **，必须先退出**&#x200B;源代码编辑 **** ，以在普通编辑器中视图文本，然后再保存。
 
 ### 段落格式
 
