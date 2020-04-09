@@ -1,8 +1,8 @@
 ---
 title: 核心组件版本
-description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍了哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
+description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
 
 ---
 
@@ -11,54 +11,22 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 核心组件的当前版本为2.8.0，并且与 [AEM（作为云服务）和内部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)[安装兼容](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它于2019年12月发布，作为版本2.0.0的重要更新。版本2.0.0引入了新组件以及现有组件的v2更新。
 
-有关详细信 [息，请参阅本文档的发行历史](#versions-and-releases) 和兼容性一节。
-
-您还可以查看组件 [库](https://adobe.com/go/aem_cmp_library)，它显示核心组件的当前版本并提供其使用示例。
-
-## 版本和版本 {#versions-and-releases}
-
-核心组件通过GitHub分发。 这使Adobe能够更快地向组件添加功能，并允许在AEM发布周期之外进行社区输入。
-
-核心组件在定义的AEM版本中可用，这些版本与之兼容。 这意味着一个AEM版本可能支持核心组件的多个版本或版本。 这比以前与特定版本的AEM绑定的基础组件具有更大的灵活性。
-
-### 版本 {#versions}
-
-核心组件的主要小版本是 **版本**。 每个组件都有一个版本。 版本用 **v** ，附加一个非零正整数（如v1和v2）表示。 版本仅会因不向后兼容的更改而递增，这通常是引入新特性和功能的情况。
-
-开发人员和管理员可以按其资源类型路径中的数字和其实现的完全限定的Java类名称识别核心组件的版本。 此版本号表示由语义版本控制准则定义的 [主要版本](https://semver.org/)。
-
-有关核心组件版本的更多详细信息，请参 [阅核心组件的开发人员文档](developing/guidelines.md)。
-
-### 版本 {#releases}
-
-核心组件通过发行版提供 **** , [并代表GitHub上可用的实际已发布对象](https://github.com/adobe/aem-core-wcm-components/releases)。 版本以X.Y.Z格式的十进制数表示，并将所有核心组件作为可交付的包一起收集。
-
-* **主要版本** ，可以引入现有组件的新版本，以及全新的组件和标准错误修复。 这由发行号的X组件中的增量表示。
-* **重要版本** ，可向现有版本的组件引入新功能以及错误修复。 这由发行号的Y组件中的增量表示。
-* **次要版本** ，仅包含错误修复。 这由发行号的Z分量中的增量表示。
-
->[!NOTE]
->
->版本可以包含同一组件的多个版本。
->
->同一版本的组件可显示在多个版本中。
-
 ## 发布历史和兼容性 {#release-history-and-compatibility}
 
 核心组件最初随AEM 6.3一起发布，设计为灵活且与所有支持的AEM版本兼容。 因此，一个版本的组件可以包含同一组件的多个版本。
 
 下表说明了核心组件版本的兼容性以及包含哪些版本的组件版本。
 
-### 发布历史记录和支持的AEM版本 {#release-history-supported-aem-versions}
+### 发行历史和要求 {#release-history-requirements}
 
 下表提供了GitHub的内容，其中包含 [完整版本详细信息](https://github.com/adobe/aem-core-wcm-components/releases)，概述了核心组件的版本及其与AEM版本和Java版本的兼容性。
 
-| 版本 | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM作为云服务 | Java | 发布日期 |
+| 版本 | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 | Java | 发布日期 |
 |---|---|---|---|---|---|---|---|
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本侧重于修复，但增强了很小。 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019年12月5日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此版本引入了新的嵌入组件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019 年 9 月 25 日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入了新的体验片段组件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019 年 9 月 6 日 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引入了新的Accordion、Button、Container和Download组件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019年6月25日 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引入了新的Accordion、Button、容器和下载组件。 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019年6月25日 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入了内容片段列表组件 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019年5月7日 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本侧重于对组件库的细化，但同时包含对分隔符组件的一些功能增强 | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 连续 | 8 | 2019年3月14日 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本侧重于组件库以及新的分隔符组件，但同时包含图像组件的一些功能增强 | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 2019年2月11日 |
@@ -112,14 +80,51 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 | **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[嵌入](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
-## 文档 {#documentation}
+## 版本和版本 {#versions-and-releases}
 
-[使用核心组件进行创作](get-started/authoring.md) ，描述核心组件的使用情况以及向内容作者和模板作者公开的功能。 每个组件都有详细的说明。
+核心组件通过GitHub分发。 这使Adobe能够更快地向组件添加功能，并允许在AEM发布周期之外进行社区输入。
 
-[组件库是](https://adobe.com/go/aem_cmp_library) 大多数核心组件的当前版本的展示，说明了它们的使用方式。
+核心组件在定义的AEM版本中可用，这些版本与之兼容。 这意味着一个AEM版本可能支持核心组件的多个版本或版本。 这比以前与特定版本的AEM绑定的基础组件具有更大的灵活性。
 
-[开发核心组件](developing/overview.md) ，介绍核心组件的技术功能、如何在项目中使用它们、如何自定义和最佳实践。
+### 版本 {#versions}
 
-[核心组件简介](introduction.md) 概述了核心组件在不同版本、用例和支持之间的兼容性。
+核心组件的主要小版本是 **版本**。 每个组件都有一个版本。 版本用 **v** ，附加一个非零正整数（如v1和v2）表示。 版本仅会因不向后兼容的更改而递增，这通常是引入新特性和功能的情况。
 
-[WKND教程是AEM开发（包括使用核心组件）的一个极好的分步介绍。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+开发人员和管理员可以按其资源类型路径中的数字和其实现的完全限定的Java类名称识别核心组件的版本。 此版本号表示由语义版本控制准则定义的 [主要版本](https://semver.org/)。
+
+有关核心组件版本的更多详细信息，请参 [阅核心组件的开发人员文档](developing/guidelines.md)。
+
+### 版本 {#releases}
+
+核心组件通过发行版提供 **** , [并代表GitHub上可用的实际已发布对象](https://github.com/adobe/aem-core-wcm-components/releases)。 版本以X.Y.Z格式的十进制数表示，并将所有核心组件作为可交付的包一起收集。
+
+* **主要版本** ，可以引入现有组件的新版本，以及全新的组件和标准错误修复。 这由发行号的X组件中的增量表示。
+* **重要版本** ，可向现有版本的组件引入新功能以及错误修复。 这由发行号的Y组件中的增量表示。
+* **次要版本** ，仅包含错误修复。 这由发行号的Z分量中的增量表示。
+
+>[!NOTE]
+>
+>版本可以包含同一组件的多个版本。
+>
+>同一版本的组件可显示在多个版本中。
+
+## 核心组件支持 {#core-components-support}
+
+核心组件是 AEM 的一个组成部分，依原样提供支持，并作为“快速入门”的一部分提供，须遵循相同的条款和条件。
+
+与其他产品功能一样，其生命周期结束的一般规则是：
+
+* 组件在被删除之前，先被声明弃用；
+* 声明弃用之后，这些组件将最早从 AEM 版本中删除。
+
+这为客户提供了至少一个发布周期，以便在支持结束前转移到组件的新版本。
+
+每个组件的版本都清楚地声明了其支持的 AEM 版本。当某个 AEM 版本不再受到支持时，该版本 AEM 的核心组件也不再受到支持。
+
+有关组件自定义支持的详细信息，请参阅相关核心组件版本的[自定义核心组件](developing/customizing.md)页面。
+
+## 基础组件支持 {#foundation-component-support}
+
+由于基础组件在许多版本中都是众多项目开发的基础，因此在可预见的将来，仍将继续支持这些组件。
+
+However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
