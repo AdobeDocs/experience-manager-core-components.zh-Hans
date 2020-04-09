@@ -1,165 +1,13 @@
 ---
 title: 开发核心组件
-description: 核心组件提供强大且可扩展的基本组件，这些组件提供丰富的功能、连续交付、组件版本控制、现代化实施、精益标记和内容的JSON导出。
+description: 核心组件提供强大且可扩展的基本组件，这些组件可以优惠丰富的功能、连续投放、组件版本控制、现代实施、精益标记和内容的JSON导出。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
 
 ---
 
 
 # 开发核心组件 {#developing-core-components}
-
-## 概述 {#overview}
-
-核心组件提供强大且可扩展的基本组件，其亮点包括：
-
-* 功能丰富
-   * [灵活的配置选项](/help/get-started/authoring.md) ，可适应许多用例
-   * [可预配置的功能](/help/get-started/authoring.md#pre-configuring-core-components) ，用于定义哪些功能可供页面作者使用
-* 持续交付
-   * 频繁的增量功能改进
-   * 在GitHub上提 [供源代码](https://github.com/adobe/aem-core-wcm-components) ，让开发人员社区提供反馈和贡献
-   * 通过单独发 [布的内容包进行安装](https://github.com/adobe/aem-core-wcm-components/releases) ，以便组件升级与AEM升级独立完成
-* [组件版本控制](guidelines.md#component-versioning)
-   * [确保版本内的兼容性](#upgrade-of-core-components)，同时允许组件不断改进
-   * 允许一个组件的多个版本共存于同一环境中
-* 现代实施
-   * 在 [HTML模板语言](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL)中定义的标记
-   * 使用 [Sling Models实现的内容模型逻辑](https://sling.apache.org/documentation/bundles/models.html)
-* 精益标记
-   * 从版 [本2.0.0开始](https://getbem.com/) ，以下块元素修饰符(BEM)表示法
-      * 先前版本遵循 [Bootstrap](https://getbootstrap.com/css/) 命名惯例
-   * Built around [accessibility guidelines](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
-   * 可用于响应式和移动站点
-* 能够将无外设CMS用例的内容模型序列化为JSON
-* 可访问
-   * 符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
-
->[!CAUTION]
->
->核心组件需要AEM 6.3或更高版本以及Java 8，并且需要使用可编辑 [的模板](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
->
->核心组件不适用于经典UI，也不适用于静态模板。
-
-## Gems 教程概述 {#gems-session-overview}
-
-关于核心组件、组件提供的功能以及它们在 AEM 中的使用方式，请参阅 AEM Gems 教程 [AEM 核心组件。](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
-
-[Adobe Experience Manager上的Gems](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ，是Adobe专家提供的一系列技术深入介绍。 此系列是对产品文档和所有其他技术渠道的补充，使开发人员能够相互交流并深入讨论特定主题。
-
-## WKND 开发人员教程 {#wknd-developer-tutorial}
-
-Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-
-## AEM 项目原型 {#aem-project-archetype}
-
-[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件示例，用于逻辑和使用建议的代理模式正确实施核心组件。](/help/developing/archetype/overview.md)
-
-## 通过GitHub交付 {#delivered-over-github}
-
-核心组件是在GitHub中开发和提供的。
-
-GITHUB上的代码
-
-您可以在GitHub上找到此页面的代码
-
-* [在GitHub上打开aem-core-wcm-components项目](https://github.com/adobe/aem-core-wcm-components)
-* 将项目下载为 [ZIP文件](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
-
-请参阅 [使用核心组件文档页](/help/get-started/using.md) ，了解如何在项目中开始使用它们。
-
-在GitHub上安装核心组件可以进行频繁更新，并倾听AEM开发人员社区的反馈。 此外，这应有助于客户和合作伙伴在构建自定义组件时遵循类似的模式。
-
->[!NOTE]
->
->要及时了解对核心组件的最新更改，您可以在GitHub上查看 [核心组件存储库](https://github.com/adobe/aem-core-wcm-components) 。
-
-## 组件库
-
-查看组 [件库](https://adobe.com/go/aem_cmp_library)，它显示核心组件的当前版本并提供其使用示例。
-
-### 现成核心组件 {#out-of-the-box}
-
-根据您运行AEM的方式，可能会自动安装或不自动安装核心组件。
-
-#### AEM作为云服务 {#aem-cloud-service}
-
-尽管核心组件与 [AEM作为云服务完全兼容](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)，但核心组件必须手动安装，并且不能现成使用。
-
-#### AEM内部部署 {#on-premise}
-
-在内部部署安装中，当示例内容存在时，核心组件会显示在快速启动中，因为 [We.Retail参考站点使用这些组件](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) 。 但是，在生产中运行(在 `nosamplecontent` 运行模式中，未启用示例内容)时，核心组件将不再存在，并且必须安装在AEM实例上。
-
->[!NOTE]
->
->在预置生产环境中，请始终在运行模式下运行快 `nosamplecontent` 速启动。 要在运行模式中使用核 `nosamplecontent` 心组件，请按照使用核心组 [件文档页面的说明](/help/get-started/using.md) 。
-
-## 技术功能 {#technical-capabilities}
-
-下表概述了核心组件与基础组件之间的差异。
-
-有关其创作功能和可预先配置的选项的详细信息，请 [参阅有关这些功能的创作页面](/help/get-started/authoring.md)。
-
-| **功能** | **核心组件** | **基础组件** |
-|-----|---|---|
-| 逻辑实现 | 带有 [Sling Models注释的Java POJO](https://sling.apache.org/documentation/bundles/models.html) | JSP代码 |
-| 标记定义 | [HTML模板语言](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL)语法 | JSP代码 |
-| XSS清理 | 由HTL自动化 | 多为手动 |
-| CSS类命名 | 基于块元素修 [饰符](https://getbem.com/) (BEM)记号的标准化命名约定（从版本2.0.0开始） | 自定义方案 |
-| 对话框定义 | [珊瑚3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 +经典UI |
-| JSON输出 | [Sling Models Exporter（带有Jackson序列化）](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | 默认Sling Servlet |
-| 版本控制 | [对于模型和HTL](guidelines.md) | 无 |
-| 测试 | 单元测试+集成测试 | 集成测试 |
-| 交付 | [通过公共GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过快速入门 |
-| License | [Apache许可证](https://www.apache.org/licenses/LICENSE-2.0) | Adobe专有 |
-| 贡献 | 通过拉取请求 | 不可能 |
-| 辅助功能 | 完全符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html | 仅部分符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
-
-## 组件列表 {#component-list}
-
-下表列出了可用的核心组件，它们链接到其API并指示它们替换的基础组件。
-
-| 核心组件 | 描述 | 已更换基础组件 |
-|---|---|---|
-| [页面](https://adobe.com/go/aem_cmp_tech_page_v2) | 使用模板编辑器的响应式页面 | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
-| [痕迹导航](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | 页面层次导航 | `/libs/foundation/components/breadcrumb` |
-| [标题](https://adobe.com/go/aem_cmp_tech_title_v2) | H1-H6标题 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
-| [文本](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | 富文本 | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [图像](https://adobe.com/go/aem_cmp_tech_image_v2) | 智能和延迟加载最佳再现大小 | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
-| [列表](https://adobe.com/go/aem_cmp_tech_list_v2) | 页面列表 | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [社交媒体共享](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Facebook和Pinterest共享构件 | `-` |
-| [表单容器](https://adobe.com/go/aem_cmp_tech_form_container_v2) | 响应式表单段落系统 | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
-| [表单文本](https://adobe.com/go/aem_cmp_tech_form_text_v2) | 文本输入字段 | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
-| [表单选项](https://adobe.com/go/aem_cmp_tech_form_options_v2) | 多个选项输入字段 | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
-| [隐藏的表单](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | 隐藏输入字段 | `/libs/foundation/components/form/hidden` |
-| [表单按钮](https://adobe.com/go/aem_cmp_tech_form_button_v2) | 提交或自定义按钮 | `/libs/foundation/components/form/submit` |
-| [导航](https://adobe.com/go/aem_cmp_tech_navigation_v1) | 列出嵌套页面层次结构的站点导航组件 | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
-| [语言导航](https://adobe.com/go/aem_cmp_tech_langnav_v1) | 列出全球语言结构的语言和国家／地区切换程序 | `-` |
-| [快速搜索](https://adobe.com/go/aem_cmp_tech_search_v1) | 在下拉菜单中将结果显示为就地建议的搜索组件 | `/libs/foundation/components/search` |
-| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | 允许内容作者使用图像、标题或富文本轻松创建Teaser以进一步内容，并链接到其他内容或其他操作 | `-` |
-| [选项卡](https://adobe.com/go/aem_cmp_tech_tabs_v1) | 允许内容作者在多个选项卡中组织页面内容 | `-` |
-| [轮播](https://adobe.com/go/aem_cmp_tech_carousel_v1) | 允许内容作者在旋转的幻灯片轮盘中组织内容 | `/libs/foundation/components/carousel` |
-| [内容片段](https://adobe.com/go/aem_cmp_tech_cf_v1) | 允许显示内容片段 | `-` |
-| [内容片段列表](https://adobe.com/go/aem_cmp_tech_cflist_v1) | 允许显示内容片段列表 | `-` |
-| [分隔符](https://adobe.com/go/aem_cmp_tech_separator_v1) | 分隔页面上的内容 | `-` |
-| [折叠](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 在可折叠的面板中组织内容面板 | `-` |
-| [容器](https://adobe.com/go/aem_cmp_tech_container_v1) | 在容器内组织组件 | `-` |
-| [按钮](https://adobe.com/go/aem_cmp_tech_button_v1) | 在页面上创建按钮 | `-` |
-| [下载](https://adobe.com/go/aem_cmp_tech_download_v1) | 向页面添加可下载的资源 | `-` |
-| [体验片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 将体验片段添加到页面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [嵌入](https://adobe.com/go/aem_cmp_tech_embed_v1) | 在页面中嵌入外部资源 | - |
-
-### 即将推出的组件 {#upcoming-components}
-
-有关即将推出的核心组件路线图的概述，请参阅GitHub [上的专题wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
-
-## 升级核心组件 {#upgrade-of-core-components}
-
-版本控制组件的一个好处是它允许将迁移到新AEM版本与迁移到新组件版本分开。 此外，如果有新组件版本可用，它允许将每个组件单独迁移到新版本。
-
-迁移到新AEM版本不会影响核心组件的工作方式，前提是其版本还支持要迁移到的新AEM版本。 对核心组件进行的自定义也不应受到影响，只要它们不使用已弃用或删除 [的API](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
-
-迁移到新版本的核心组件也不会影响组件的工作方式，但可能会为页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防不需要默认行为。 但是，可能需要调整自定义，有关详细信息，请参阅自 [定义核心组件](customizing.md#upgrade-compatibility-of-customizations) 。
 
 ## When to Use the Core Components? {#when-to-use-the-core-components}
 
@@ -175,11 +23,15 @@ GITHUB上的代码
 * **现有自定义**&#x200B;组件如果您的组件按预期工作，则按原样保留它们。\
    否则，请参阅上面的“新建自定义组件”。
 
+## 如何使核心组件取得成功 {#how-to-succeed}
+
+核心组件功能强大、灵活且易于使用和自定义。 [遵循几个关键准则](success.md) ，将确保您的核心组件项目取得成功。
+
 ## 迁移到核心组件
 
 任何新项目都应使用核心组件来实施。 但是，现有项目通常具有广泛的基础组件实施。
 
-对现有项目（例如重新品牌化或整体重构）进行更大的努力，通常会提供迁移到核心组件的机会。 为便于迁移，Adobe提供了许多迁移工具，鼓励采用核心组件和最新的AEM技术。
+对现有项目（例如重新品牌化或整体重构）进行更大的努力通常会优惠到核心组件。 为便于迁移，Adobe提供了许多迁移工具，鼓励采用核心组件和最新的AEM技术。
 
 [AEM Moderination Tools](http://opensource.adobe.com/aem-modernize-tools/) （AEM现代化工具）允许轻松转换：
 
@@ -204,13 +56,70 @@ GITHUB上的代码
 
 有关支持组件自定义的详细信息，请参阅自定 [义核心组件](customizing.md) 。
 
-## 基础组件支持 {#foundation-component-support}
 
-由于基础组件在许多AEM版本中用作了大量项目开发的基础，因此在可预见的将来，它们将继续受支持。
+## 技术功能 {#technical-capabilities}
 
-However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+下表概述了核心组件与基础组件之间的差异。
 
-**阅读下一篇文章：**
+有关其创作功能和可预先配置的选项的详细信息，请 [参阅有关这些功能的创作页面](/help/get-started/authoring.md)。
 
-* [使用核心组件](/help/get-started/using.md) -在您自己的项目中开始使用核心组件。
-* [组件准则](guidelines.md) -了解核心组件的实施模式。
+| **功能** | **核心组件** | **基础组件** |
+|-----|---|---|
+| 逻辑实现 | 带有 [Sling Models注释的Java POJO](https://sling.apache.org/documentation/bundles/models.html) | JSP代码 |
+| 标记定义 | [HTML模板语言](https://docs.adobe.com/content/help/zh-Hans/experience-manager-htl/using/overview.html) (HTL)语法 | JSP代码 |
+| XSS清理 | 由HTL自动化 | 多为手动 |
+| CSS类命名 | 基于块元素修 [饰符](https://getbem.com/) (BEM)记号的标准化命名约定（从版本2.0.0开始） | 自定义方案 |
+| 对话框定义 | [珊瑚3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 +经典UI |
+| JSON输出 | [Sling Models Exporter（带有Jackson序列化）](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | 默认Sling Servlet |
+| 版本控制 | [对于模型和HTL](guidelines.md) | 无 |
+| 测试 | 单元测试+集成测试 | 集成测试 |
+| 交付 | [通过公共GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过快速入门 |
+| License | [Apache许可证](https://www.apache.org/licenses/LICENSE-2.0) | Adobe专有 |
+| 贡献 | 通过拉取请求 | 不可能 |
+| 辅助功能 | 完全符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html | 仅部分符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+
+## 组件列表 {#component-list}
+
+下表列表了可用的核心组件，它们链接到其API并指示它们替换的基础组件。
+
+| 核心组件 | 描述 | 已更换基础组件 |
+|---|---|---|
+| [页面](https://adobe.com/go/aem_cmp_tech_page_v2) | 使用模板编辑器的响应式页面 | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
+| [痕迹导航](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | 页面层次导航 | `/libs/foundation/components/breadcrumb` |
+| [标题](https://adobe.com/go/aem_cmp_tech_title_v2) | H1-H6标题 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
+| [文本](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | 富文本 | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
+| [图像](https://adobe.com/go/aem_cmp_tech_image_v2) | 智能和延迟加载最佳再现大小 | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [列表](https://adobe.com/go/aem_cmp_tech_list_v2) | 页面列表 | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
+| [社交媒体共享](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Facebook和Pinterest共享构件 | `-` |
+| [表单容器](https://adobe.com/go/aem_cmp_tech_form_container_v2) | 响应式表单段落系统 | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
+| [表单文本](https://adobe.com/go/aem_cmp_tech_form_text_v2) | 文本输入字段 | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
+| [表单选项](https://adobe.com/go/aem_cmp_tech_form_options_v2) | 多个选项输入字段 | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
+| [隐藏的表单](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | 隐藏输入字段 | `/libs/foundation/components/form/hidden` |
+| [表单按钮](https://adobe.com/go/aem_cmp_tech_form_button_v2) | 提交或自定义按钮 | `/libs/foundation/components/form/submit` |
+| [导航](https://adobe.com/go/aem_cmp_tech_navigation_v1) | 列表嵌套页面层次结构的站点导航组件 | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
+| [语言导航](https://adobe.com/go/aem_cmp_tech_langnav_v1) | 列表全球语言结构的语言和国家／地区切换程序 | `-` |
+| [快速搜索](https://adobe.com/go/aem_cmp_tech_search_v1) | 在下拉菜单中将结果显示为就地建议的搜索组件 | `/libs/foundation/components/search` |
+| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | 允许内容作者使用图像、标题或富文本轻松创建Teaser以进一步内容，并链接到其他内容或其他操作 | `-` |
+| [选项卡](https://adobe.com/go/aem_cmp_tech_tabs_v1) | 允许内容作者在多个选项卡中组织页面内容 | `-` |
+| [轮播](https://adobe.com/go/aem_cmp_tech_carousel_v1) | 允许内容作者在旋转的幻灯片轮盘中组织内容 | `/libs/foundation/components/carousel` |
+| [内容片段](https://adobe.com/go/aem_cmp_tech_cf_v1) | 允许显示内容片段 | `-` |
+| [内容片段列表](https://adobe.com/go/aem_cmp_tech_cflist_v1) | 允许显示内容片段的列表 | `-` |
+| [分隔符](https://adobe.com/go/aem_cmp_tech_separator_v1) | 分隔页面上的内容 | `-` |
+| [折叠](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 在可折叠的面板中组织内容面板 | `-` |
+| [容器](https://adobe.com/go/aem_cmp_tech_container_v1) | 在容器中组织组件 | `-` |
+| [按钮](https://adobe.com/go/aem_cmp_tech_button_v1) | 在页面上创建按钮 | `-` |
+| [下载](https://adobe.com/go/aem_cmp_tech_download_v1) | 向页面添加可下载的资源 | `-` |
+| [体验片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 将体验片段添加到页面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [嵌入](https://adobe.com/go/aem_cmp_tech_embed_v1) | 在页面中嵌入外部资源 | - |
+
+### 即将推出的组件 {#upcoming-components}
+
+有关即将推出的核心组件路线图的概述，请参阅GitHub [上的专题wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
+
+## 升级核心组件 {#upgrade-of-core-components}
+
+版本控制组件的一个好处是它允许将迁移到新AEM版本与迁移到新组件版本分开。 此外，如果有新组件版本可用，它允许将每个组件单独迁移到新版本。
+
+迁移到新AEM版本不会影响核心组件的工作方式，前提是其版本还支持要迁移到的新AEM版本。 对核心组件进行的自定义也不应受到影响，只要它们不使用已弃用或删除 [的API](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+
+迁移到新版本的核心组件也不会影响组件的工作方式，但可能会为页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防不需要默认行为。 但是，可能需要调整自定义，有关详细信息，请参阅自 [定义核心组件](customizing.md#upgrade-compatibility-of-customizations) 。
