@@ -2,7 +2,7 @@
 title: 核心组件简介
 description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
 translation-type: tm+mt
-source-git-commit: 71c1cca664dde91968df16848650df9f0f0a5218
+source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
 
 ---
 
@@ -25,11 +25,21 @@ source-git-commit: 71c1cca664dde91968df16848650df9f0f0a5218
 
 ## 功能 {#features}
 
-|||—|—||生产就绪|核心组件是27个强大的组件，经过测试、广泛使用并且性能良好。|| Cloud-Ready|无论在 [AEM上是云服务](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)，在 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，还是在预置型平台上，它们都可以正常工作。||通用|组件代表通用概念，作者可以使用这些概念组合几乎任何布局。||可配置|模板级内 [容策略](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) ，定义作者允许或不允许使用的页面功能。|
-|Accessible| They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)).|
-|SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.||WebApp-Ready|简化的 [JSON输出允许客户端渲染](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，但仍有可能进行上 [下文编辑](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。||设计工具包| Adobe XD [的UI工具包](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) ，使设计人员能够创建线框，然后根据需 [要设计样式](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)。|
-|Themeable| The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).||可自定义|多种模式可 [轻松自定义](developing/customizing.md)，从调整HTML到高级功能重用。||版本控制|版 [本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ，可确保在改进可能影响您的内容时，核心组件不会破坏您的站点。|
-|Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).||开放源|如果某些内容不应该这样做， [则有助于改进！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
+|  |  |
+|---|---|
+| 可以即刻投入使用 | 核心组件是27个强大的组件，经过测试、广泛使用并且性能良好。 |
+| 云就绪 | 无论在 [AEM上还是在](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)Adobe Managed Services上 [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，还是在预置型服务上，它们都可以正常工作。 |
+| 可以通用 | 这些组件代表通用概念，作者可以使用这些概念组合几乎任何布局。 |
+| 可配置 | 模板级内 [容策略](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) ，定义允许或不允许页面作者使用的功能。 |
+| 可访问 | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
+| SEO-Friendly | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
+| WebApp-Ready | 简化 [的JSON输出允许客户端渲染](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，但仍有可能进行上 [下文编辑](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
+| 设计套件 | Adobe XD [的UI套件使设计人员能创建线框](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) ，然后可以根据需 [要设计样式](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)。 |
+| 可编辑 | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
+| 可自定义 | 从调整HTML到高 [级功能重用](developing/customizing.md)，多种模式可轻松实现自定义。 |
+| 版本控制 | 版 [本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ，可确保在改进可能影响您的内容时，核心组件不会破坏您的站点。 |
+| 可本地化 | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
+| 开放源 | 如果某件事情不是应有的， [请改进！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
 ## 组件 {#the-components}
 
