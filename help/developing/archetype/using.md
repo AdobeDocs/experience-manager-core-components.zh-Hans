@@ -2,7 +2,10 @@
 title: 使用AEM Project Archetype
 description: AEM Project Archetype的详细使用说明
 translation-type: tm+mt
-source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '2057'
+ht-degree: 1%
 
 ---
 
@@ -13,7 +16,7 @@ AEM项目原型创建了基于最佳实践、最少的Adobe Experience Manager�
 
 ## 为什么使用原型 {#why-use-the-archetype}
 
-使用AEM Project Archetype，您只需按几次键，即可踏上构建基于最佳实践的AEM项目的道路。 通过使用原型，所有部分都已到位，这样，虽然生成的项目最少，但它已实现AEM的所 [有主](#features) 要功能，因此您只需在顶部构建并扩展。
+使用AEM Project Archetype，您只需按几次键，即可踏上构建基于最佳实践的AEM项目的道路。 通过使用原型，所有部分都已到位，这样，虽然生成的项目最少，但它已实现AEM的所 [有主](#what-you-get) 要功能，因此您只需在顶部构建并扩展。
 
 当然，进入成功的AEM项目有许多元素，但使用AEM项目原型是可靠的基础，强烈建议对任何AEM项目使用。
 
@@ -68,7 +71,7 @@ mvn -B archetype:generate \
 ```
 
 * 设 `XX` 置为最 [新AEM](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) Project Archetype的版本号。
-* 将 `aemVersion=cloud` AEM [设置为云服务](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
+* Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
    为 `aemVersion=6.5.0` Adobe [Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或内部部署设置。
 核心组件依赖关系仅针对非云aem版本添加，因为核心组件作为CloudService为AEM提供OOTB。
 * 调整 `appTitle="My Site"` 以定义网站标题和组件组。
@@ -101,7 +104,7 @@ mvn -B archetype:generate \
 | `languageCountry` | `en_us` | 用于创建内容结构的语言和国家／地区代码(例如， `en_us`)。 |
 | `singleCountry` | `y` | 包括语言主内容结构(可以 `y`是或 `n`)。 |
 | `includeExamples` | `y` | 包括 [组件库](https://www.aemcomponents.dev/) 示例站点( `y`可以是或 `n`)。 |
-| `includeErrorHandler` | `n` | 包括将对整个实例（可以是或）全局的自定义404响 `y` 应页 `n`面。 |
+| `includeErrorHandler` | `n` | 包括将对整个实例（可以是或）全局的自定义404响 `y` 应 `n`页。 |
 
 >[!NOTE]
 > 如果原型是第一次在交互模式下执行的，则无法更改具有默认值的属性(有关更 [多详细信息，请参阅](https://issues.apache.org/jira/browse/ARCHETYPE-308) ARCHETYPE-308)。 当结束时的属性确认被拒绝并且调查表被重复时，或者通过在命令行中传递参数(例如， `-DoptionIncludeExamples=n`)。
@@ -115,7 +118,7 @@ mvn -B archetype:generate \
 
 | 用户档案ID | 描述 |
 --------------------------|------------------------------
-| `autoInstallBundle` | 将带有maven-sling-plugin的核心捆绑套件安装到felix控制台 |
+| `autoInstallBundle` | 将带有maven-sling-plugin的核心捆绑包安装到felix控制台 |
 | `autoInstallPackage` | 将包含content-package-maven-plugin的ui.content和ui.apps内容包安装到包管理器，以在localhost上默认创作实例，端口为4502。 主机名和端口可以使用和用户 `aem.host` 定义 `aem.port` 的属性进行更改。 |
 | `autoInstallPackagePublish` | 将包含content-package-maven-plugin的ui.content和ui.apps内容包安装到包管理器，以在localhost上默认发布实例，端口4503。 主机名和端口可以使用和用户 `aem.host` 定义 `aem.port` 的属性进行更改。 |
 | `autoInstallSinglePackage` | 将包含 `all` content-package-maven-plugin的内容包安装到包管理器，以在localhost上安装默认的作者实例，端口为4502。 主机名和端口可以使用和用户 `aem.host` 定义 `aem.port` 的属性进行更改。 |
