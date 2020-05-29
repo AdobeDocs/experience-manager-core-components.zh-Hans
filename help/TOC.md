@@ -2,9 +2,9 @@
 sub-product: AEM 核心组件
 user-guide-title: AEM 核心组件
 translation-type: tm+mt
-source-git-commit: afd846b1f124ac9b326e59ff71b145f7b9efeb11
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 70%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 70%
    + [WKND 开发人员教程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自定义核心组件](developing/customizing.md)
    + [组件准则](developing/guidelines.md)
-   + [使用Adobe客户端数据层]{#data-layer}
+   + Adobe客户端数据层 {#data-layer}
       + [核心组件和Adobe客户端数据层](developing/data-layer/overview.md)
       + [与Adobe Launch集成](developing/data-layer/launch-integration.md)
       + [与Adobe Analytics集成](developing/data-layer/analytics-integration.md)
