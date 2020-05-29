@@ -2,16 +2,19 @@
 title: 表单按钮组件
 description: 核心组件表单隐藏组件允许在表单中包含隐藏字段。
 translation-type: tm+mt
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 4%
 
 ---
 
 
 # 表单按钮组件 {#form-button-component}
 
-核心组件表单按钮组件允许包含按钮以触发页面上的操作。
+核心组件表单按钮组件允许包含按钮以在页面上触发操作。
 
-## 使用情况 {#usage}
+## 使用 {#usage}
 
 核心组件表单按钮组件允许创建按钮字段，通常用于触发表单的提交，并准备与表单容器组件一 [起使用](form-container.md)。
 
@@ -19,20 +22,20 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-表单按钮组件的当前版本为v2,v2是2018年1月随核心组件版本2.0.0一起引入的，本文档对此进行了说明。
+表单按钮组件的当前版本为v2,2018年1月随核心组件的2.0.0版一起推出v2，该版本在本文档中进行了说明。
 
-下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本的文档的链接。
+下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
 
 | 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
 |--- |--- |--- |--- |---|
-| v2 | 兼容 | 兼容 | 兼容 | 兼容 |
+| v2 | - | 兼容 | 兼容 | 兼容 |
 | [v1](/help/components/v1/form-button-v1.md) | 兼容 | 兼容 | 兼容 | - |
 
-有关核心组件版本和版本的详细信息，请参阅文档核 [心组件版本](/help/versions.md)。
+有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验表单按钮组件以及查看其配置选项的示例以及HTML和JSON输出，请访问组件 [库](https://adobe.com/go/aem_cmp_library_form_button)。
+要体验表单按钮组件以及查看其配置选项以及HTML和JSON输出的示例，请访问组 [件库](https://adobe.com/go/aem_cmp_library_form_button)。
 
 ### 技术详细信息 {#technical-details}
 
@@ -46,7 +49,7 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ### 属性选项卡 {#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at120433.png)
+![表单按钮组件的编辑对话框](/help/assets/form-button-edit.png)
 
 * **类型**
 
@@ -59,6 +62,11 @@ source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 * **名称** -随表单数据一起提交的按钮的名称
 * **值** -随表单数据一起提交的按钮的值
+
+* **ID** —— 此选项允许控制HTML和数据层中组件的唯一标 [识符](/help/developing/data-layer/overview.md)。
+   * 如果留空，则会自动为您生成唯一ID，并可通过检查生成的页面找到该ID。
+   * 如果指定了ID，则作者有责任确保它是唯一的。
+   * 更改ID可能会影响CSS、JS和数据层跟踪。
 
 ## 设计对话框 {#design-dialog}
 
