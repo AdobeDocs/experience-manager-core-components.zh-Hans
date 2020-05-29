@@ -2,9 +2,9 @@
 title: 核心组件简介
 description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '841'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 * **[组件库：](https://www.adobe.com/go/aem_cmp_library)**视图各个配置中组件的示例集合。
 * **组件文档(此文档):** 对于开发人员和作者，提供有关每个组件的详细信息。
+* **[核心组件GitHub存储库：](https://github.com/adobe/aem-core-wcm-components)**有关每个组件和项目下载的开发人员详细信息。
 * 开始使用:
    * **[核心组件的成功：](/help/developing/success.md)**在开始将使用核心组件的任何项目之前，应考虑相关准则。
    * **[WKND教程：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**用于构建新站点的两天教程。
@@ -43,6 +44,7 @@ ht-degree: 28%
 | 版本控制 | 版 [本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ，可确保在改进可能影响您的内容时，核心组件不会破坏您的网站。 |
 | 可本地化 | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
 | 开放源 | 如果事情不是本该如此， [请改进！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| 可跟踪 | 主要组件 [与Adobe客户端数据层集成。](/help/developing/data-layer/overview.md) |
 
 ## 组件 {#the-components}
 
