@@ -2,9 +2,9 @@
 title: 核心组件简介
 description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '846'
 ht-degree: 28%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 28%
 | 云就绪 | 无论 [在AEM作为云服务](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、在 [Adobe Managed Services上还是在预置型](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，它们都能正常工作。 |
 | 可以通用 | 这些组件代表通用概念，作者可以用这些概念组合几乎任何布局。 |
 | 可配置 | 模板级内 [容策略](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) ，定义允许页面作者使用或不使用的功能。 |
+| 可跟踪 | Adobe [客户端数据层集成](/help/developing/data-layer/overview.md) ，允许跟踪访客体验的各个方面。 |
 | 可访问 | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO友好 | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
 | WebApp就绪 | 简化 [的JSON输出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，允许客户端进行渲染，但仍可 [能进行上下文编辑](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
@@ -44,7 +45,6 @@ ht-degree: 28%
 | 版本控制 | 版 [本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ，可确保在改进可能影响您的内容时，核心组件不会破坏您的网站。 |
 | 可本地化 | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
 | 开放源 | 如果事情不是本该如此， [请改进！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
-| 可跟踪 | 主要组件 [与Adobe客户端数据层集成。](/help/developing/data-layer/overview.md) |
 
 ## 组件 {#the-components}
 
