@@ -2,7 +2,7 @@
 title: 核心组件版本
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 448a2d31c27869b257ea694dc06fabca903c30b1
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.8.0，并且与AEM(作为 [云服务)和](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)[内部部署AEM安装兼容](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它于2019年12月作为版本2.0.0的重要更新发布。版本2.0.0引入了新组件以及现有组件的v2更新。
+核心组件的当前版本为2.9.0，并且与AEM(作为 [云服务)和](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)[内部部署AEM安装兼容](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它于2020年5月作为版本2.0.0的重要更新发布。版本2.0.0引入了新组件以及现有组件的v2更新。
 
 ## 发布历史和兼容性 {#release-history-and-compatibility}
 
@@ -95,7 +95,7 @@ ht-degree: 25%
 
 核心组件的主要小版本是 **版本**。 每个组件都有一个版本。 版本用v **附加** 一个非零的正整数（如v1和v2）表示。 版本仅会因不向后兼容的更改而递增，而新功能的引入通常也是如此。
 
-开发人员和管理员可以通过资源类型路径中的数字以及实现的完全限定的Java类名称识别核心组件的版本。 此版本号表示由语义版本控制准则定义的 [主要版本](https://semver.org/)。
+开发人员和管理员可以通过资源类型路径中的数字以及他们实现的完全限定的Java类名称来识别核心组件的版本。 此版本号表示由语义版本控制准则定义的 [主要版本](https://semver.org/)。
 
 有关核心组件版本的更多详细信息，请 [参阅核心组件的开发人员文档](developing/guidelines.md)。
 
