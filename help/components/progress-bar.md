@@ -2,7 +2,7 @@
 title: 进度栏组件
 description: 进度栏组件以可视方式表示向目标的进度
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验进度栏组件并查看其配置选项以及HTML和JSON输出的示例，请访问组 [件库](https://adobe.com/go/aem_cmp_library_progress)。
+要体验进度栏组件并查看其配置选项以及HTML和JSON输出的示例，请访问组 [件库](https://adobe.com/go/aem_cmp_library_progressbar)。
 
 ### 技术详细信息 {#technical-details}
 
