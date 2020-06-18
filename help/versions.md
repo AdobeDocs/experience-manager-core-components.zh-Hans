@@ -2,9 +2,9 @@
 title: 核心组件版本
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: 448a2d31c27869b257ea694dc06fabca903c30b1
+source-git-commit: cef65c3fdf99130086136fe9019ca759bbf1926c
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1717'
 ht-degree: 25%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.9.0，并且与AEM(作为 [云服务)和](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)[内部部署AEM安装兼容](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它于2020年5月作为版本2.0.0的重要更新发布。版本2.0.0引入了新组件以及现有组件的v2更新。
+核心组件的当前版本为2.10.0，与AEM [兼容，作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)[和内部部署AEM安装](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它于2020年6月作为版本2.0.0的重要更新发布。版本2.0.0引入了新组件以及现有组件的v2更新。
 
 ## 发布历史和兼容性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 25%
 
 | 版本 | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 | Java | 发布日期 |
 |---|---|---|---|---|---|---|---|
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此版本引入了PDF查看器组件。 | - | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2020年6月17日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本支持与Adobe客户端数据层的集成，并引入了进度栏组件。 | - | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2020年5月29日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本侧重于修复，但增强了很小。 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019年12月5日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此版本引入了新的嵌入组件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019 年 9 月 25 日 |
@@ -84,6 +85,7 @@ ht-degree: 25%
 | **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[嵌入](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[进度条](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+| **[PDF查看器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## 版本和版本 {#versions-and-releases}
 
@@ -95,7 +97,7 @@ ht-degree: 25%
 
 核心组件的主要小版本是 **版本**。 每个组件都有一个版本。 版本用v **附加** 一个非零的正整数（如v1和v2）表示。 版本仅会因不向后兼容的更改而递增，而新功能的引入通常也是如此。
 
-开发人员和管理员可以通过资源类型路径中的数字以及他们实现的完全限定的Java类名称来识别核心组件的版本。 此版本号表示由语义版本控制准则定义的 [主要版本](https://semver.org/)。
+开发人员和管理员可以通过资源类型路径中的数字以及实现的完全限定的Java类名称识别核心组件的版本。 此版本号表示由语义版本控制准则定义的 [主要版本](https://semver.org/)。
 
 有关核心组件版本的更多详细信息，请 [参阅核心组件的开发人员文档](developing/guidelines.md)。
 
