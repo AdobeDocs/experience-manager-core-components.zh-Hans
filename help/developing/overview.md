@@ -2,9 +2,9 @@
 title: 开发核心组件
 description: 核心组件提供强大且可扩展的基本组件，这些组件可优惠丰富的功能、连续投放、组件版本控制、现代实施、精益标记和JSON内容导出。
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1442'
 ht-degree: 12%
 
 ---
@@ -23,7 +23,8 @@ ht-degree: 12%
    由于它们被大多数现有项目广泛使用，因此将继 [续支持基础组件。](/help/versions.md#foundation-component-support)
 * **新自定义组**&#x200B;件评估是否可 [以自定义现有核心组件](customizing.md)。\
    否则，建议按照组件准则构建新的自定 [义组件](guidelines.md)。
-* **现有自定义**&#x200B;组件如果您的组件按预期工作，则可以按原样保留它们。\
+* **现有自定义**&#x200B;组件如果您的组件按预期工作，则可以按原样保留它们。
+\
    否则，请参阅上面的“New Custom Components”（新建自定义组件）。
 
 ## 如何通过核心组件获得成功 {#how-to-succeed}
@@ -115,6 +116,7 @@ ht-degree: 12%
 | [体验片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 将体验片段添加到页面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [嵌入](https://adobe.com/go/aem_cmp_tech_embed_v1) | 在页面中嵌入外部资源 | - |
 | [进度条](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以可视方式呈现实现目标的进展情况 | - |
+| [PDF查看器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在页面上显示PDF文档 | - |
 
 ### 即将推出的组件 {#upcoming-components}
 
