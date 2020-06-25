@@ -2,9 +2,9 @@
 title: 核心组件简介
 description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
 translation-type: tm+mt
-source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
+source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 28%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 28%
 |  |  |
 |---|---|
 | 可以即刻投入使用 | 核心组件是28个强大的组件，经过测试、广泛使用，并且性能良好。 |
-| 云就绪 | 无论 [在AEM作为云服务](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、在 [Adobe Managed Services上还是在预置型](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，它们都能正常工作。 |
+| 云就绪 | 无论 [是在AEM中](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)，在 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)中，还是在预置中，它们都可以正常工作。 |
 | 可以通用 | 这些组件代表通用概念，作者可以用这些概念组合几乎任何布局。 |
 | 可配置 | 模板级内 [容策略](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) ，定义允许页面作者使用或不使用的功能。 |
 | 可跟踪 | Adobe [客户端数据层集成](/help/developing/data-layer/overview.md) ，允许跟踪访客体验的各个方面。 |
@@ -74,6 +74,7 @@ ht-degree: 28%
 * [社交媒体共享](components/sharing.md)
 * [分隔符](components/separator.md)
 * [进度条](components/progress-bar.md)
+* [PDF查看器](components/pdf-viewer.md)
 
 ### 容器组件 {#container-components}
 
@@ -104,10 +105,10 @@ ht-degree: 28%
 
 | 核心组件 | AEM 云服务 | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
 ---------|---------|---------|---------|---------|---------
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 持续 | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 持续 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 有关以前核心组件版本的要求，请参 [阅核心组件版本](versions.md)。
 
 核心组件需要使用可编 [辑的模板](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) ，并且不支持经典UI或静态模板。 如果需要，请查看AEM [现代化工具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) ，以使用这些新式AEM功能更新您的项目。
 
-要设置本地开发环境，请 [将AEM的此概述作为Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) ，或 [将此文档用于旧版AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
+要设置本地开发环境，请 [将此概述作为Cloud ServiceSDK查](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 看，或将此文档用 [于旧版AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
