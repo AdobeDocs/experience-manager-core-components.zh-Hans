@@ -2,7 +2,7 @@
 title: 核心组件版本
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: cef65c3fdf99130086136fe9019ca759bbf1926c
+source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 25%
@@ -26,8 +26,8 @@ ht-degree: 25%
 
 | 版本 | 描述 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 | Java | 发布日期 |
 |---|---|---|---|---|---|---|---|
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此版本引入了PDF查看器组件。 | - | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2020年6月17日 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本支持与Adobe客户端数据层的集成，并引入了进度栏组件。 | - | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2020年5月29日 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此版本引入了PDF查看器组件。 | - | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年6月17日 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本支持与Adobe客户端数据层的集成，并引入了进度栏组件。 | - | 6.4.8.0+ | 6.5.4.0+ | 持续 | 8, 11 | 2020年5月29日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本侧重于修复，但增强了很小。 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019年12月5日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此版本引入了新的嵌入组件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019 年 9 月 25 日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入了新的体验片段组件 | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019 年 9 月 6 日 |
