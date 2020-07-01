@@ -2,9 +2,9 @@
 title: 将Adobe客户端数据层与核心组件结合使用
 description: 将Adobe客户端数据层与核心组件结合使用
 translation-type: tm+mt
-source-git-commit: 539a4250c954ac830731a9ecf010e129b2cf9c3a
+source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,7 @@ Adobe客户端数据层与平台无关，但完全集成到核心组件中以与
 
 1. 在节点下创建以下 `/conf` 结构：
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
+   * 节点类型： `nt:unstructured`
 1. 添加一个名为的布 `enabled` 尔属性，并将其设 `true`置为。
 1. 将属 `sling:configRef` 性添加到 `jcr:content` 您的站点的节点 `/content` (例如， `/content/<mySite>/jcr:content`)并将其设置为 `/conf/<mySite>`。
 
