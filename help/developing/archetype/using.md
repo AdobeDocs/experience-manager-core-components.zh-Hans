@@ -2,7 +2,7 @@
 title: 使用AEM Project Archetype
 description: AEM Project Archetype的详细使用说明
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # AEM 项目原型 {#aem-project-archetype}
 
-AEM项目原型创建了基于最佳实践、最少的Adobe Experience Manager项目，作为您自己的AEM项目的起点。 使用此原型时必须提供的属性允许您指定此项目所有部分的名称，并控制某些可选特征。
+AEM Project Archetype可创建基于最佳实践的最小Adobe Experience Manager项目，作为您自己的AEM项目的起点。 使用此原型时必须提供的属性允许您指定此项目所有部分的名称，并控制某些可选特征。
 
 ## 为什么使用原型 {#why-use-the-archetype}
 
@@ -24,7 +24,7 @@ AEM项目原型创建了基于最佳实践、最少的Adobe Experience Manager�
 
 项目原型使AEM上的开发更简单。 您可以通过多种方式执行第一步。
 
-* WKND教程——有关在AEM上进行开发的精彩介绍，包括如何利用原型，请参阅 [AEM Sites入门- WKND教程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) ，以获得一个实际示例，该示例将指导您逐步使用原型来实施一个简单的项目。
+* WKND教程——有关在AEM上进行开发（包括如何利用原型）的精彩介绍，请参阅 [AEM Sites入门](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) - WKND教程，以获得一个实际示例，该示例将指导您逐步使用原型来实施一个简单的项目。
 * WKND事件教程——如果您对AEM上的单页应用程序(SPA)开发特别感兴趣，请务必查看专用的WKND [事件教程](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)。
 * 自行下载和开始! -您可以轻松下载GitHub上提供的当前项目原型，并按照以下简 [单步骤创建您的第一个项目](#how-to-use-the-archetype)。
 
@@ -72,7 +72,7 @@ mvn -B archetype:generate \
 
 * 设 `XX` 置为最 [新AEM](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) Project Archetype的版本号。
 * Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
-   为 `aemVersion=6.5.0` Adobe [Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或内部部署设置。
+   设 `aemVersion=6.5.0` 置为 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，或内部部署。
 核心组件依赖关系仅针对非云aem版本添加，因为核心组件作为CloudService为AEM提供OOTB。
 * 调整 `appTitle="My Site"` 以定义网站标题和组件组。
 * 调 `appId="mysite"` 整以定义Maven artifactId、组件、配置和内容文件夹名称以及客户端库名称。
@@ -97,19 +97,21 @@ mvn -B archetype:generate \
 | `groupId` |  | 基本Maven组ID(例如， `"com.mysite"`)。 |
 | `package` | *`${groupId}`* | Java源包(例如， `"com.mysite"`)。 |
 | `version` | `1.0-SNAPSHOT` | 项目版本(如 `1.0-SNAPSHOT`)。 |
-| `aemVersion` | `6.5.0` | 目标AEM版本(可 `cloud` 以 [将AEM作为云服务](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); 或 `6.5.0`者 `6.4.4`，或 `6.3.3` 用于 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署)。 |
+| `aemVersion` | `6.5.0` | 目标AEM版本(可 `cloud` 以 [将AEM用作Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); 或 `6.5.0`者 `6.4.4`，或 `6.3.3` Adobe Managed Services [](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署)。 |
 | `sdkVersion` | `latest` | 当 `aemVersion=cloud` 可 [以指定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) SDK版本时(例如， `2020.02.2265.20200217T222518Z-200130`)。 |
 | `includeDispatcherConfig` | `y` | 根据值（可以是或），为云或AMS/本地包括调度程序 `aemVersion` 配置 `y` 。 `n` |
 | `frontendModule` | `none` | 包括一个Webpack前端构建模块，它生成客户端库(可以是常规 `general` 站点 `none` 或常规站点； 可以是 `angular` 或 `react` 用于实施SPA编辑器的单 [页应用程序](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html))。 |
 | `languageCountry` | `en_us` | 用于创建内容结构的语言和国家／地区代码(例如， `en_us`)。 |
-| `singleCountry` | `y` | 包括语言主内容结构(可以 `y`是或 `n`)。 |
+| `singleCountry` | `y` | 包括语言主控的内容结构( `y`可以是 `n`或)。 |
 | `includeExamples` | `y` | 包括 [组件库](https://www.aemcomponents.dev/) 示例站点( `y`可以是或 `n`)。 |
-| `includeErrorHandler` | `n` | 包括将对整个实例（可以是或）全局的自定义404响 `y` 应 `n`页。 |
+| `includeErrorHandler` | `n` | 包括将对整个实例（可以是或）全局的自定义404响 `y` 应页 `n`面。 |
 
 >[!NOTE]
+>
 > 如果原型是第一次在交互模式下执行的，则无法更改具有默认值的属性(有关更 [多详细信息，请参阅](https://issues.apache.org/jira/browse/ARCHETYPE-308) ARCHETYPE-308)。 当结束时的属性确认被拒绝并且调查表被重复时，或者通过在命令行中传递参数(例如， `-DoptionIncludeExamples=n`)。
 
 >[!NOTE]
+>
 >在Windows上运行并生成调度程序配置时，应在提升的命令提示符或Windows Subsystem for Linux中运行(请参 [阅问题329](https://github.com/adobe/aem-project-archetype/issues/329))。
 
 ### 个人资料 {#profiles}
