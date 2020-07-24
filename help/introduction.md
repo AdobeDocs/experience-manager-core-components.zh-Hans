@@ -2,9 +2,9 @@
 title: 核心组件简介
 description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
 translation-type: tm+mt
-source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '863'
 ht-degree: 28%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 28%
 | 可访问 | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO友好 | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
 | WebApp就绪 | 简化 [的JSON输出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，允许客户端进行渲染，但仍可 [能进行上下文编辑](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
+| AMP支持 | 这些组件内置了对AMP [标准的支持，可加快您的](/help/developing/amp.md) 移动体验。 |
 | 设计套件 | Adobe XD [的UI套件使设计人员](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) 能够创建线框，然后根据 [需要设计样式](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)。 |
 | Themeable | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
 | 可自定义 | 从调整HTML到 [高级功能](developing/customizing.md)重用，多种模式都可轻松实现自定义。 |
@@ -74,7 +75,7 @@ ht-degree: 28%
 * [社交媒体共享](components/sharing.md)
 * [分隔符](components/separator.md)
 * [进度条](components/progress-bar.md)
-* [PDF查看器](components/pdf-viewer.md)
+* [PDF 查看器](components/pdf-viewer.md)
 
 ### 容器组件 {#container-components}
 
@@ -105,7 +106,7 @@ ht-degree: 28%
 
 | 核心组件 | AEM 云服务 | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
 ---------|---------|---------|---------|---------|---------
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 持续 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 持续 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 有关以前核心组件版本的要求，请参 [阅核心组件版本](versions.md)。
 
