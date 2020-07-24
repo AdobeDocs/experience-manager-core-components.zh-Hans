@@ -2,10 +2,10 @@
 sub-product: AEM 核心组件
 user-guide-title: AEM 核心组件
 translation-type: tm+mt
-source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 69%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 69%
    + [列表](components/list.md)
    + [导航](components/navigation.md)
    + [页面](components/page.md)
-   + [PDF查看器](components/pdf-viewer.md)
+   + [PDF 查看器](components/pdf-viewer.md)
    + [进度条](components/progress-bar.md)
    + [快速搜索](components/quick-search.md)
    + [分隔符](components/separator.md)
@@ -70,6 +70,7 @@ ht-degree: 69%
    + [WKND 开发人员教程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自定义核心组件](developing/customizing.md)
    + [组件准则](developing/guidelines.md)
+   + [AMP支持](developing/amp.md)
    + Adobe客户端数据层 {#data-layer}
       + [核心组件和Adobe客户端数据层](developing/data-layer/overview.md)
       + [与Adobe Launch集成](developing/data-layer/launch-integration.md)
