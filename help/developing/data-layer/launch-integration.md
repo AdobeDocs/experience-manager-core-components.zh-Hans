@@ -1,54 +1,54 @@
 ---
-title: 使用Adobe Client Data Layer集成核心组件和Adobe Launch
-description: 如何配置Adobe Launch以使用Adobe Launch注册核心组件事件
+title: 使用Adobe客户端数据层集成核心组件和Adobe启动
+description: 如何使用Adobe启动配置Adobe启动以注册核心组件事件
 translation-type: tm+mt
-source-git-commit: f930a0d6004a29369b189137dd9c52e637ea3a61
+source-git-commit: 85fb3612aed12b7bfdc05f0a569ae7c7364e6121
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# 使用Adobe Client Data Layer集成核心组件和Adobe Launch {#launch-integration}
+# 使用Adobe客户端数据层集成核心组件和Adobe启动 {#launch-integration}
 
-核心组件可以通过使用Adobe客户端数据层与Adobe Launch集成。 本文档以图像组件为例，介绍如何配置Adobe Launch以跟踪单击事件。
+核心组件可以通过使用Adobe客户端数据层与Adobe启动集成。 此文档描述了如何配置Adobe启动以跟踪图像组件的单击事件。
 
 配置后，当单击核心图像组件时，Launch将在浏览器控制台中生成以下输出。
 
 ![控制台输出示例](/help/assets/launch-console-output.png)
 
-## Launch与AEM集成 {#launch-aem}
+## 启动与AEM的集成 {#launch-aem}
 
-首先，必须将Adobe Launch与您的AEM站点集成。
+首次Adobe启动必须与AEM站点集成。
 
-### 步骤1 —— 在Adobe I/O中创建集成 {#create-io-integration}
+### 步骤1 —— 在AdobeI/O中创建集成 {#create-io-integration}
 
-首先登录Adobe I/O以开始配置集成。
+首先登录AdobeI/O以开始配置集成。
 
 1. 转到 `https://console.adobe.io`.
 1. 使用您的Adobe ID登录。
 1. 在“快速开始”部分，单击“ **创建集成**”。
 1. Select **Access an API** and click **Continue**.
-1. 在Adobe **Experience Platform下选择** Experience Platform Launch API，然后单击 **继续**。
+1. 选择 **Adobe Experience Platform下** 的Experience Platform LaunchAPI，然后单 **击继续**。
 
-### 第2步——在AEM中创建IMS配置 {#ims-configuration}
+### 步骤2 —— 在AEM中创建IMS配置 {#ims-configuration}
 
-在AEM中，您需要定义在Adobe I/O中开始配置的集成。
+在AEM中，您需要定义在AdobeI/O中开始配置的集成。
 
-1. 转到AEM主页，单击 **工具->安全-> Adobe IMS配置**。
+1. 转到AEM主页，单击“工 **具”->“安全”->“AdobeIMS配置”**。
 1. 单击&#x200B;**创建**。
-1. 作为 **云解决方案**，选择 **Adobe Launch**。
-1. 选中 **创建新证书**。
+1. 作为 **云解决方案**，选择 **Adobe启动**。
+1. Check **Create new certificate**.
 1. 输入证书的别名， **如aem-launch-certificate**。
 1. 单 **击“Create** certificate **（创建证书）” ，然后在弹出** 窗口中单击“OK（确定）”以创建证书。
 1. 单 **击“下载公钥** ”，然后在弹出窗口中单击“ **下载”**。
 
-### 步骤3 —— 完成Adobe I/O配置 {#finish-io}
+### 步骤3 —— 完成AdobeI/O配置 {#finish-io}
 
-使用在AEM IMS配置中创建的证书和密钥，您可以完成Adobe I/O配置。
+使用在AEM IMS配置中创建的证书和密钥，您可以完成AdobeI/O配置。
 
-1. 按步骤1返回Adobe I/O控 [制台。](#create-io-integration)
+1. 按步骤1返回AdobeI/O控 [制台。](#create-io-integration)
 1. 在创 **建新集成窗口** ，输入名称和说明，如 **AEM Launch数据层**。
 1. 在“ **公钥证书**”下，上传您在步骤2中创建 [的证书。](#ims-configuration)
 1. 选择“ **启动——产品”用户档案**。
@@ -57,28 +57,28 @@ ht-degree: 1%
 
 ### 第4步——完成IMS配置 {#finish-ims}
 
-通过Adobe I/O集成详细信息，您可以完成AEM IMS配置。
+通过AdobeI/O集成详细信息，您可以完成AEM IMS配置。
 
-1. 在AEM选项卡的步骤2 **的Adobe IMS技术帐户配** 置选项卡中 [，单](#ims-configuration) 击下一 **步**。
-1. 输入标题，如 **Adobe Launch的IMS配置**。
-1. 在Adobe I/O选项卡中，复制 **API密钥（客户端ID）**。
-1. 在AEM选项卡中，将前一个复制的密钥粘贴到API **密钥字段中**。
-1. 在Adobe I/O中，单击“检 **索客户端机密** ”并复制它。
-1. 在AEM选项卡中，将其粘贴到“客户端 **机密** ”字段。
-1. 在Adobe I/O选项卡中，选择 **JWT** 选项卡并复制URL，如 `https://ims-na1.adobelogin.com`。
-1. 在AEM选项卡中，将URL粘贴到“授权服 **务器”字** 段中。
-1. 在Adobe I/O选项卡中，复制JWT有效负荷（大括号之间的代码）。
+1. 在AEM选项卡的步骤2 **的AdobeIMS技术帐户配** 置选项卡 [](#ims-configuration) 中，单击 **下一**&#x200B;步。
+1. 输入标题，如 **Adobe启动的IMS配置**。
+1. 在AdobeI/O选项卡中，复制 **API密钥（客户端ID）**。
+1. 在AEM选项卡中，将前一个复制的密钥粘贴到 **API密钥字段中**。
+1. 在AdobeI/O中，单击“检 **索客户端机密** ”并复制它。
+1. 在AEM选项卡中，将其粘贴到“客户 **端机密** ”字段。
+1. 在AdobeI/O选项卡中，选择 **JWT** 选项卡并复制URL，如 `https://ims-na1.adobelogin.com`。
+1. 在AEM选项卡中，将URL粘贴到“授权服 **务器”字段** 。
+1. 在“AdobeI/O”选项卡中，复制JWT有效负荷（大括号之间的代码）。
 1. 在AEM选项卡中，将其粘贴到“有效 **负荷** ”字段。
 1. 单击 **创建** ，在AEM中创建IMS配置。
 
-### 第5a步——在Adobe Launch中创建属性 {#create-property}
+### 第5a步——在Adobe启动中创建属性 {#create-property}
 
 属性定义Launch可以注入到您的站点的功能。
 
-1. 请访问 `https://launch.adobe.com`Adobe Launch。
+1. 转到Adobe启动 `https://launch.adobe.com`。
 1. 使用您的Adobe ID登录。
 1. 单击 **新建属性**。
-1. 输入名称，如 **启动AEM数据层**。
+1. 输入名称，如 **启动AEM Data Layer**。
 1. 输入您的域。
 1. 单击&#x200B;**保存**。
 
@@ -101,9 +101,9 @@ ht-degree: 1%
 
 ### 第6步——发布启动规则 {#publish-rule}
 
-要使新规则可用于您的AEM站点，您需要发布它。
+要使新规则可用于AEM站点，您需要发布它。
 
-1. 在Adobe **Launch选项卡** ，选择“发 **布”选** 项卡。
+1. 在“Adobe **启动项** ”选项卡中，选 **择“发布** ”选项卡。
 1. 单击“ **添加新库”**。
 1. 根据需要 **输入** “名称”, **如demo-1**。
 1. 对于 **环境** ，根据需要选择， **如开发（开发）**。
@@ -121,17 +121,17 @@ ht-degree: 1%
 
 ### 第7步——为您的站点启用云配置 {#enable-configurations}
 
-要使用集成，需要在AEM中将其分配为云配置。
+要使用集成，需要在AEM中将其指定为云配置。
 
-1. 在AEM控制台中，单击 **工具->常规->配置浏览器**。
+1. 在AEM控制台中，单 **击工具->常规->配置浏览器**。
 1. 检查核心 **组件示例** ，然后单 **击属性**。
 1. 检查云 **配置** ，然后单 **击保存并关闭**。
 
-### 第8步——在AEM中创建与站点的Launch集成 {#create-launch-integration}
+### 第8步——创建与AEM站点的Launch集成 {#create-launch-integration}
 
-AEM需要与Launch集成才能与Launch结合使用
+AEM与Launch结合使用时，必须集成Launch
 
-1. 在AEM控制台中，单 **击工具->云服务-> Adobe Launch配置**。
+1. 在AEM控制台中，单 **击工具->Cloud Services->Adobe启动配置**。
 1. 选择 **核心组件示例** ，然后单 **击创建**。
 1. 输入标 **题** ，如 **启动配置**。
 1. 选择您在步骤4中创建的 [IMS配置。](#finish-ims)
@@ -142,7 +142,7 @@ AEM需要与Launch集成才能与Launch结合使用
 1. 单击&#x200B;**下一步**。
 1. 单击&#x200B;**创建**。
 
-### 第9步——将AEM站点连接到启动项集成 {#connect-aem}
+### 第9步——将AEM站点连接到启动集成 {#connect-aem}
 
 要使AEM使用Launch集成，需要将其分配为云配置。
 
@@ -150,7 +150,7 @@ AEM需要与Launch集成才能与Launch结合使用
 1. 单击&#x200B;**属性**.
 1. Select the **Advanced** tab.
 1. 在云 **配置中**，选择核 **心组件示例** ，然后单 **击选择**。
-1. Click **Save &amp; Close**.
+1. 单击&#x200B;**保存并关闭**。
 
 ### 第10步——验证启动逻辑是否应用于页面 {#verify-launch}
 
@@ -161,11 +161,11 @@ AEM需要与Launch集成才能与Launch结合使用
 
 ## 启动与AEM和数据层的集成 {#data-layer-launch}
 
-现在，AEM与Launch之间的集成已设置完毕，我们可以与数据层集成。
+现在AEM和Launch之间的集成已设置完毕，我们可以与数据层集成。
 
-### 第1步——在Adobe Launch中创建规则 {#create-rule}
+### 第1步——在Adobe启动中创建规则 {#create-rule}
 
-重复第5步 [中的步骤](#launch-rule) ，以使用以下值在Adobe Launch中添加新规则。
+重复第5步中 [的步骤](#launch-rule) ，使用以下值在Adobe启动中添加新规则。
 
 * 名称: `image-click-data-layer`
 * 事件:
@@ -184,7 +184,7 @@ AEM需要与Launch集成才能与Launch结合使用
         adobeDataLayer.addEventListener('image clicked', onImageClick);
       ```
 
-### 第2步——发布启动规则，使其可用于您的AEM站点 {#publish-rule-2}
+### 第2步——发布启动规则，使其可用于AEM站点 {#publish-rule-2}
 
 重复第6步 [中的步骤](#publish-rule) ，发布新规则。
 
