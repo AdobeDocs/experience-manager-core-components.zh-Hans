@@ -2,10 +2,10 @@
 title: 将Adobe客户端数据层与核心组件结合使用
 description: 将Adobe客户端数据层与核心组件结合使用
 translation-type: tm+mt
-source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '426'
+ht-degree: 4%
 
 ---
 
@@ -16,20 +16,19 @@ Adobe客户端数据层的目标是通过提供一种标准化方法来公开和
 
 Adobe客户端数据层与平台无关，但完全集成到核心组件中以与AEM一起使用。
 
-与核心组件一样，GitHub上提供Adobe客户端数据层的代码及其开发人员文档。 此文档概述了核心组件与数据层的交互方式，但GitHub文档中会提供完整的技术详细信息。
+与核心组件一样，Adobe客户端数据层的代码可在GitHub上找到，并提供开发人员文档。 此文档概述了核心组件与数据层的交互方式，但GitHub文档中会提供完整的技术详细信息。
 
 >[!TIP]
 >
->有关Adobe Client Data Layer的更多信息，请 [参阅其GitHub存储库中的资源。](https://github.com/adobe/adobe-client-data-layer)
+>有关Adobe客户端数据层的详细信 [息，请参阅其GitHub存储库中的资源。](https://github.com/adobe/adobe-client-data-layer)
 >
 >有关Adobe客户端数据层与核心组件集成的更多技术详细信息，请参 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 阅核心组件存储库中的文件。
-
 
 ## 安装和激活 {#installation-activation}
 
 自2.9.0版核心组件起，数据层将作为clientlib与核心组件一起分发。 无需安装。
 
-但是，默认情况下不激活数据层。 激活数据层
+但是，默认情况下不激活数据层。 要激活数据层，必须为其创 [建上下文感知](/help/developing/context-aware-configs.md) 型配置：
 
 1. 在节点下创建以下 `/conf` 结构：
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
