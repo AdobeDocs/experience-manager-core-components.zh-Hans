@@ -2,9 +2,9 @@
 title: 对核心组件的AMP支持
 description: 核心组件支持AMP —— 加速移动页面
 translation-type: tm+mt
-source-git-commit: 905096d909d4fbf624152ba3b5cbc1d80637245f
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,18 @@ ht-degree: 0%
 
 核心组件 `amp` 用作Sling选择器来渲染AMP页面。 例如， `example.html` 将呈现普通页面 `example.amp.html` ，并将显示AMP版本。
 
-### 要求 {#requirements}
-
-将AMP与核心组件一起使用时，主要区别在于AMP要求所有CSS都嵌入到元素 `<head>` 中并进行优化。
-
-为支持此功能，将使用自定义的页面组件，该组件仅加载页面上所存在的组件的特定于AMP的CSS。
-
-有关更多要求和技术详细信息，请参 [阅GitHub开发人员文档。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
-
-### 在核心组件中使用AMP {#using-amp}
-
 单个项目可以决定是否利用AMP。 事实上，由于AMP和标准HTML页可以并行交付，因此项目可以选择仅在项目的特定页面上使用AMP。
 
-### 安装AMP支持 {#installing-amp}
+## 项目中的AMP支持入门 {#getting-started}
 
-由于AMP是可选的，它作为核心组件的扩展提供。
+尽管AMP支持优惠具有很大的灵活性，但快速入门只需要几个简单的步骤：
 
-* 对于AEM作为Cloud Service项目，扩展将自动可用。
-* 对于内部部署和AMS项目，安装核心组件时必须显式安装扩展。
-
-安装扩展后，组件作者只需将组件超级类型指向扩展中的超级类型。
+1. 根据需要安装AMP支持扩展。
+   * 对于AEM作为Cloud Service项目，核心组件可自动使用该扩展，无需安装。
+   * 对于内部部署和AMS项目，安装核心组件时必须显式安装扩展。
+1. 安装AMP扩展后，组件作者只需将组件超类型指向扩展中的那些类型。
+1. [在模板级别](#enabling-amp) ，或在您的各个页面上启用AMP支持。
+1. [根据需要部署](#css-requirements) inlined CSS。
 
 ### 为页面启用AMP {#enabling-amp}
 
@@ -65,3 +57,11 @@ ht-degree: 0%
 * **无AMP** —— 页面仅作为标准HTML提供。
 * **成对AMP** —— 页面以AMP和HTML的形式传送。
 * **仅AMP** —— 页面仅作为AMP传送。
+
+### CSS要求 {#css-requirements}
+
+将AMP与核心组件一起使用时，主要区别在于AMP要求所有CSS都内嵌在元素 `<head>` 中并进行优化。
+
+为支持此功能，将使用自定义的页面组件，该组件仅加载页面上所存在的组件的特定于AMP的CSS。
+
+有关更多要求和技术详细信息，请参 [阅GitHub开发人员文档。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
