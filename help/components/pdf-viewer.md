@@ -2,16 +2,15 @@
 title: PDF查看器组件
 description: PDF查看器组件允许显示PDF文档。
 translation-type: tm+mt
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 3%
 
 ---
 
 
 # PDF查看器组件 {#pdf-viewer-component}
-
 
 核心组件PDF查看器组件允许在页面中包含PDF文档。
 
@@ -41,13 +40,17 @@ PDF查看器组件的当前版本为v1,2020年6月随核心组件的2.10.0版引
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](/help/developing/overview.md)。
 
+>[!NOTE]
+>
+>PDF查看器组件利用 [Adobe的文档服](https://www.adobe.io/apis/documentcloud/dcsdk.html) 务API [，并要求管理员配置上下文](/help/developing/context-aware-configs.md) 感知配置以使用这些服务。 有关此配置的详细信息，请查 [看组件的技术文档。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+
 ## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义查看器以及查看器的行为和显示方式，以便访客页面。
 
 ### Configuration Tab {#configuration-tab}
 
-“配置”选项卡允许作者定义应显示的PDF。 该路径可在AEM中定义为资产，或定义为其他资源的绝对路径。
+“配置”选项卡允许作者定义应显示的PDF。 该路径可以定义为AEM中的资产，也可以定义为其他资源的绝对路径。
 
 ![PDF查看器组件编辑对话框的配置选项卡](/help/assets/pdf-viewer-edit-configuration.png)
 
@@ -63,25 +66,25 @@ PDF查看器组件的当前版本为v1,2020年6月随核心组件的2.10.0版引
 * [大小容器](#sized-container) -查看区域在整个浏览器中呈现。 这最适合于存储和工作效率应用程序。
 * [内嵌](#in-line) -在网页内以行方式呈现的所有PDF页面。 这最适合读取应用程序。
 
-#### 完整窗口 {#full-window}
+#### 全屏 {#full-window}
 
 查看区域在整个浏览器中呈现。 这最适合于存储和工作效率应用程序。
 
 ![“自定义PDF查看器组件”编辑对话框的选项卡全窗口选项](/help/assets/pdf-viewer-edit-customize-full.png)
 
 * **默认视图模式** -查看器将如何适合显示该查看器的页面
-   * 适合页面
-   * 适合宽度
+   * 适应页面
+   * 适应宽度
 * **全屏** -启用后，查看器将占用视口的全高／全宽。
 * **注释工具** -启用注释工具后，即可使用注释工具。
 * **左侧面板** -启用后，将显示左侧面板。
 * **下载PDF** —— 启用后，将显示下载按钮。
 * **打印PDF** —— 启用后，将显示打印按钮。
 * **页面控件** -切换页面控件的行为。
-   * 停放
-   * 取消停放
+   * 停靠
+   * 取消停靠
 
-#### 大小容器 {#sized-container}
+#### 设定了大小的容器 {#sized-container}
 
 查看区域在整个浏览器中呈现。 这最适合于存储和工作效率应用程序。
 
@@ -91,10 +94,10 @@ PDF查看器组件的当前版本为v1,2020年6月随核心组件的2.10.0版引
 * **下载PDF** —— 启用后，将显示下载按钮。
 * **打印PDF** —— 启用后，将显示打印按钮。
 * **页面控件** -切换页面控件的行为。
-   * 停放
-   * 取消停放
+   * 停靠
+   * 取消停靠
 
-#### 联机 {#in-line}
+#### 嵌入式 {#in-line}
 
 在网页内以行形式呈现的所有PDF页面。 这最适合读取应用程序。
 
