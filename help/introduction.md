@@ -2,7 +2,7 @@
 title: 核心组件简介
 description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
 translation-type: tm+mt
-source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
+source-git-commit: 4e68b1c293f4e6553aa5888ac26ee76c1a569ff3
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 28%
@@ -14,25 +14,25 @@ ht-degree: 28%
 
 在 Adobe Experience Manager 中，组件是结构化元素，用于构成所创作的页面内容。组件一直是 AEM 体验的一个基本元素，它使页面的创建过程变得简便但功能强大，使开发人员对组件的开发变得灵活且可扩展。
 
-核心组件是一套针对AEM的标准化Web内容管理(WCM)组件，可缩短网站开发时间并降低网站维护成本。
+核心组件是一套用于AEM的标准化Web内容管理(WCM)组件，可缩短网站开发时间并降低网站维护成本。
 
 ## 资源 {#resources}
 
-* **[组件库：](https://www.adobe.com/go/aem_cmp_library)**视图各个配置中组件的示例集合。
+* **[组件库：](https://www.adobe.com/go/aem_cmp_library)** 视图各个配置中组件的示例集合。
 * **组件文档(此文档):** 对于开发人员和作者，提供有关每个组件的详细信息。
-* **[核心组件GitHub存储库：](https://github.com/adobe/aem-core-wcm-components)**有关每个组件和项目下载的开发人员详细信息。
+* **[核心组件GitHub存储库：](https://github.com/adobe/aem-core-wcm-components)** 有关每个组件和项目下载的开发人员详细信息。
 * 开始使用:
-   * **[核心组件的成功：](/help/developing/success.md)**在开始将使用核心组件的任何项目之前，应考虑相关准则。
-   * **[WKND教程：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**用于构建新站点的两天教程。
-   * **[峰会教程：](https://expleague.azureedge.net/labs/L767/index.html)**一个长达两小时的教程，用于构建新站点（来自2019年美国峰会实验室）。
-   * **[Gems网络研讨会：](https://helpx.adobe.com/cn/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**核心组件的指导浏览（2018年12月录制）。
+   * **[核心组件的成功：](/help/developing/success.md)** 在开始将使用核心组件的任何项目之前，应考虑相关准则。
+   * **[WKND教程：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 用于构建新站点的两天教程。
+   * **[峰会教程：](https://expleague.azureedge.net/labs/L767/index.html)** 一个长达两小时的教程，用于构建新站点（来自2019年美国峰会实验室）。
+   * **[Gems网络研讨会：](https://helpx.adobe.com/cn/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 核心组件的指导浏览（2018年12月录制）。
 
 ## 功能 {#features}
 
 |  |  |
 |---|---|
 | 可以即刻投入使用 | 核心组件是28个强大的组件，经过测试、广泛使用，并且性能良好。 |
-| 云就绪 | 无论 [是在AEM中](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)，在 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)中，还是在预置中，它们都可以正常工作。 |
+| 云就绪 | 无论是 [在AEM作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、 [在Adobe Managed Services上](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)，还是在预置型环境下，它们都能正常工作。 |
 | 可以通用 | 这些组件代表通用概念，作者可以用这些概念组合几乎任何布局。 |
 | 可配置 | 模板级内 [容策略](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) ，定义允许页面作者使用或不使用的功能。 |
 | 可跟踪 | Adobe [客户端数据层集成](/help/developing/data-layer/overview.md) ，允许跟踪访客体验的各个方面。 |
@@ -40,7 +40,7 @@ ht-degree: 28%
 | SEO友好 | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
 | WebApp就绪 | 简化 [的JSON输出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ，允许客户端进行渲染，但仍可 [能进行上下文编辑](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
 | AMP支持 | 这些组件内置了对AMP [标准的支持，可加快您的](/help/developing/amp.md) 移动体验。 |
-| 设计套件 | Adobe XD [的UI套件使设计人员](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) 能够创建线框，然后根据 [需要设计样式](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)。 |
+| 设计套件 | 适用 [于Adobe XD的UI套件](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) ，使设计人员能够创建线框，然后根据 [需要设计样式](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)。 |
 | Themeable | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
 | 可自定义 | 从调整HTML到 [高级功能](developing/customizing.md)重用，多种模式都可轻松实现自定义。 |
 | 版本控制 | 版 [本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ，可确保在改进可能影响您的内容时，核心组件不会破坏您的网站。 |
@@ -105,11 +105,11 @@ ht-degree: 28%
 ## 系统要求 {#system-requirements}
 
 | 核心组件 | AEM 云服务 | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
----------|---------|---------|---------|---------|---------
+|---------|---------|---------|---------|---------|---------|
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 持续 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 有关以前核心组件版本的要求，请参 [阅核心组件版本](versions.md)。
 
-核心组件需要使用可编 [辑的模板](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) ，并且不支持经典UI或静态模板。 如果需要，请查看AEM [现代化工具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) ，以使用这些新式AEM功能更新您的项目。
+核心组件需要使用可编 [辑的模板](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) ，并且不支持经典UI或静态模板。 如果需要，请查阅AEM [Moderization Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) ，使用这些现代AEM功能更新您的项目。
 
-要设置本地开发环境，请 [将此概述作为Cloud ServiceSDK查](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 看，或将此文档用 [于旧版AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
+要设置本地开发环境，请查 [看此概述(AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 为Cloud ServiceSDK [)或此文档(](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)对于旧版本的AEM)。
