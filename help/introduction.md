@@ -1,11 +1,11 @@
 ---
 title: 核心组件简介
-description: '引入核心组件是为了基于最新技术和最佳做法，提供强大、可扩展的基本组件。 '
+description: '核心组件提供健壮、可扩展的基础组件，这些组件构建在最新技术和最佳实践的基础上。 '
 translation-type: tm+mt
-source-git-commit: 4e68b1c293f4e6553aa5888ac26ee76c1a569ff3
+source-git-commit: f94b9e8757295ba25f11a0e60fc864a85db5c765
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 28%
+source-wordcount: '861'
+ht-degree: 26%
 
 ---
 
