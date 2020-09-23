@@ -2,10 +2,10 @@
 title: 将Adobe客户端数据层与核心组件结合使用
 description: 将Adobe客户端数据层与核心组件结合使用
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 4%
+source-wordcount: '575'
+ht-degree: 5%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe客户端数据层与平台无关，但完全集成到核心组件中以与
 
 组件/容器项模式定义如下。
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -69,6 +69,9 @@ id: {                   // component ID
 }
 ```
 
+以下 [事件](#events) 与组件/容器项模式相关：
+
+* `cmp:click`
 
 ### 页面模式 {#page}
 
@@ -78,7 +81,7 @@ id: {                   // component ID
 
 页面模式定义如下。
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -104,7 +107,7 @@ id: {
 
 容器模式定义如下。
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -117,6 +120,12 @@ id: {
 }
 ```
 
+以下 [事件](#events) 与容器模式相关：
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### 图像模式 {#image}
 
 图像模式由以下组件使用：
@@ -125,7 +134,7 @@ id: {
 
 图像模式定义如下。
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -138,13 +147,17 @@ id: {
 }
 ```
 
+以下 [事件](#events) 与图像模式相关：
+
+* `cmp:click`
+
 ### 资产模式 {#asset}
 
 资产模式用于图像 [组件中。](/help/components/image.md)
 
 资产模式定义如下。
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -154,3 +167,28 @@ id: {
 }
 ```
 
+以下 [事件](#events) 与资产模式相关：
+
+* `cmp:click`
+
+## 事件 {#events}
+
+数据层会触发许多事件。
+
+* **`cmp:click`** -单击可单击的元素(具有属性的 `data-cmp-clickable` 元素)会导致数据层触发 `cmp:click` 事件。
+* **`cmp:show`** 和 **`cmp:hide`** -操作折叠面板（展开／折叠）、旋转（下一个／上一个按钮）和选项卡（选项卡选择）组件会分别触发数据层和 `cmp:show` 事件 `cmp:hide` 。
+* **`cmp:loaded`** -一旦数据层填充了页面上的核心组件，数据层就会触发 `cmp:loaded` 事件。
+
+### 事件由组件触发 {#events-components}
+
+下表列表了触发事件的标准核心组件以及这些事件。
+
+| 组件 | 事件 |
+|---|---|
+| [导航](/help/components/navigation.md) | `cmp:click` |
+| [语言导航](/help/components/language-navigation.md) | `cmp:click` |
+| [痕迹导航](/help/components/breadcrumb.md) | `cmp:click` |
+| [按钮](/help/components/button.md) | `cmp:click` |
+| [轮播](/help/components/carousel.md) | `cmp:show` 和 `cmp:hide` |
+| [选项卡](/help/components/tabs.md) | `cmp:show` 和 `cmp:hide` |
+| [折叠](/help/components/accordion.md) | `cmp:show` 和 `cmp:hide` |
