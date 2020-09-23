@@ -4,10 +4,10 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: Core Components Guide
 user-guide-description: Use the extensible Core Components to let authors easily create content.
 translation-type: tm+mt
-source-git-commit: ea7c8b2ac4a60a22644c9de96833b95c4113986d
+source-git-commit: b35b951a203b100e296bc3a115e34e27727293ae
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 68%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -75,9 +75,8 @@ ht-degree: 68%
    + [AMP支持](developing/amp.md)
    + [上下文感知配置](developing/context-aware-configs.md)
    + Adobe客户端数据层 {#data-layer}
-      + [核心组件和Adobe客户端数据层](developing/data-layer/overview.md)
-      + [与Adobe启动集成](developing/data-layer/launch-integration.md)
-      + [与Adobe Analytics集成](developing/data-layer/analytics-integration.md)
+      + [数据层概述](developing/data-layer/overview.md)
+      + [与数据层集成](developing/data-layer/integrations.md)
       + [扩展数据层](developing/data-layer/extending.md)
    + AEM 项目原型 {#archetype}
       + [原型概述](developing/archetype/overview.md)
