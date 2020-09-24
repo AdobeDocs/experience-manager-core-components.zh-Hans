@@ -2,7 +2,7 @@
 title: 对核心组件的AMP支持
 description: 核心组件支持AMP —— 加速移动页面
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### CSS要求 {#css-requirements}
 
-将AMP与核心组件一起使用时，主要区别在于AMP要求所有CSS都内嵌在元素 `<head>` 中并进行优化。
+将AMP与核心组件一起使用时，主要区别在于AMP要求 [在元素中嵌入](including-clientlibs.md#inlining)`<head>` 所有CSS并进行优化。
 
 为支持此功能，将使用自定义的页面组件，该组件仅加载页面上所存在的组件的特定于AMP的CSS。
 
