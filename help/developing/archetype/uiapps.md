@@ -1,8 +1,8 @@
 ---
-title: AEM项目原型的ui.apps模块
-description: AEM项目原型的ui.apps模块
+title: aem Project Archetype的ui.apps模块
+description: aem Project Archetype的ui.apps模块
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: a427c2ade8cca69de8e2b59fc3afb4405342909c
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -10,9 +10,9 @@ ht-degree: 0%
 ---
 
 
-# AEM项目原型的ui.apps模块 {#uiapps-module}
+# aem Project Archetype的ui.apps模块 {#uiapps-module}
 
-ui.apps授权模块()`<src-directory>/<project>/ui.apps`包括下方站点所需的所有渲染代码 `/apps`。 这包括将以称为clientlibs的AEM格式存储的CSS/JS。 这还包括用于呈现动态HTML的HTL脚本。 您可以将ui.apps模块视为JCR中结构的映射，但其格式可以存储在文件系统中并提交到源代码控制。
+ui.apps授权模块()`<src-directory>/<project>/ui.apps`包括下方站点所需的所有渲染代码 `/apps`。 这包括将以AEM格式存储的CSS/JS，该格式名为 [clientlibs。](uifrontend.md#clientlibs) 这还包括用于呈现动态HTML的HTL脚本。 您可以将ui.apps模块视为JCR中结构的映射，但其格式可以存储在文件系统中并提交到源代码控制。
 
 Apache Jackrabbit FileVault包插件用于将ui.apps模块的内容编译为可部署到AEM的AEM包。 插件的全局配置在父pom.xml中定义。
 
