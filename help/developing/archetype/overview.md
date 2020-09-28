@@ -2,9 +2,9 @@
 title: AEM 项目原型
 description: 基于AEM的应用程序的项目模板
 translation-type: tm+mt
-source-git-commit: 1e95666ee58c63fc5dc98821e6424be6acfe4e04
+source-git-commit: 8b8f0ad528c77cfb6080981438786275bd9fbef1
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1001'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ AEM Project Archetype是一个Maven模板，它创建基于最小最佳实践的
    * **[ui.frontend:](uifrontend.md)** 如何使用前端构建模块
 * 以下教程基于此原型：
    * **[WKND站点：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 了解如何开始新网站。
-   * **[WKND单页应用程序：](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)** 了解如何构建在AEM中完全可授权的React或Angular Web应用程序。
+   * **[WKND单页应用程序：](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** 了解如何构建在AEM中完全可授权的React或Angular Web应用程序。
 
 ## 功能 {#features}
 
@@ -36,12 +36,12 @@ AEM Project Archetype是一个Maven模板，它创建基于最小最佳实践的
 * **多站点：** 如果需要，原型为多语言和多 [区域设置生成内容结构](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/msm.html)。
 * **核心组件：** 作者可以使用我们的多功能标准化组件集 [创建几乎任何布局](/help/introduction.md)。
 * **可编辑模板：** 无需代码 [即可组合几乎任何模板](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，并定义作者可以编辑的内容。
-* **响应式布局：** 在模板或单个页面上，定 [义元素如何重排](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/responsive-layout.html) （定义的断点）。
+* **响应式布局：** 在模板或单个页面上，定 [义元素如何重排](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html) （定义的断点）。
 * **页眉和页脚：** 使用组件的本地化功能，无需代码即可将 [其组合并本地化](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/get-started/localization.html)。
 * **样式系统：** 通过允许作者对自定义组件应用不 [同的样式，避免](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) 构建自定义组件。
-* **前端构建：** 前端设备可以 [使用Webpack](uifrontend.md#webpack-dev-server)[、TypeScript和SASS模](uifrontend.md) 拟AEM页面并构建客户端库。
-* **WebApp就绪：** 对于使用 [React](uifrontend-react.md) 或Angular的 [站点](uifrontend-angular.md)，请使 [用SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-architecture.html) ，在应 [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)用程序的上下文创作中保留。
-* **示例代码：** 结帐HelloWorld组件，以及示例模型、服务器、过滤器和调度程序。
+* **前端构建：** 前端开发人员可以 [使用Webpack](uifrontend.md#webpack-dev-server)[、TypeScript和SASS模](uifrontend.md) 拟AEM页面并构建客户端库。
+* **WebApp就绪：** 对于使用 [React](uifrontend-react.md) 或Angular的 [站点](uifrontend-angular.md)，请使 [用SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) ，在应 [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)用程序的上下文创作中保留。
+* **示例代码：** 结帐HelloWorld组件，以及示例模型、Servlet、过滤器和调度程序。
 * **未结来源：** 如果事情不是本该如此，那 [就帮](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) 助您改进！
 
 ## 使用
@@ -50,15 +50,12 @@ AEM Project Archetype是一个Maven模板，它创建基于最小最佳实践的
 
 ```
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=23 \
- -D aemVersion=cloud \
+ -D archetypeVersion=24 \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
- -D frontendModule=general \
- -D includeExamples=n
 ```
 
 * Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
@@ -79,13 +76,14 @@ mvn -B archetype:generate \
 | `groupId` |  | 基本Maven组ID(例如， `"com.mysite"`)。 |
 | `package` | *`${groupId}`* | Java源包(例如， `"com.mysite"`)。 |
 | `version` | `1.0-SNAPSHOT` | 项目版本(如 `1.0-SNAPSHOT`)。 |
-| `aemVersion` | `6.5.0` | 目标AEM版本(可 `cloud` 以 [作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);或 `6.5.0`者 `6.4.4`，或 `6.3.3` 用于 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署)。 |
+| `aemVersion` | `cloud` | 目标AEM版本(可 `cloud` 以 [作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);或 `6.5.0`者适 `6.4.4` 用于 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署)。 |
 | `sdkVersion` | `latest` | 当 `aemVersion=cloud` 可 [以指定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) SDK版本时(例如， `2020.02.2265.20200217T222518Z-200130`)。 |
 | `includeDispatcherConfig` | `y` | 根据值（可以是或），为云或AMS/本地包括调度程序 `aemVersion` 配置 `y` 。 `n` |
-| `frontendModule` | `none` | 包括一个Webpack前端构建模块，它生成客户端库(可以是常规 `general` 站点 `none` 或常规站点；可以是 `angular` 或 `react` 用于实施SPA编辑器的单 [页应用程序](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html))。 |
-| `languageCountry` | `en_us` | 用于创建内容结构的语言和国家／地区代码(例如， `en_us`)。 |
+| `frontendModule` | `general` | 包括一个Webpack前端构建模块，它生成客户端库(可以是常规 `general` 站点 `none` 或常规站点；可以是 `angular` 或 `react` 用于实施SPA编辑器的单 [页应用程序](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html))。 |
+| `language` | `en` | 用于从(例如， `en`, `deu`)。 |
+| `country` | `us` | 国家／地区代码(ISO 3166-1)，用于创建内容结构(例如， `US`)。 |
 | `singleCountry` | `y` | 包括语言主控的内容结构( `y`可以是 `n`或)。 |
-| `includeExamples` | `y` | 包括 [组件库](https://www.aemcomponents.dev/) 示例站点( `y`可以是或 `n`)。 |
+| `includeExamples` | `n` | 包括 [组件库](https://www.aemcomponents.dev/) 示例站点( `y`可以是或 `n`)。 |
 | `includeErrorHandler` | `n` | 包括将对整个实例（可以是或）全局的自定义404响 `y` 应页 `n`面。 |
 | `includeCommerce` | `n` | 包括 [CIF核心组件依赖](https://github.com/adobe/aem-core-cif-components) ，并生成相应的伪像。 |
 | `commerceEndpoint` |  | 仅CIF必需。 要使用的商务系统GraphQL服务的可选端点(例如， `https://hostname.com/grapql`)。 |
