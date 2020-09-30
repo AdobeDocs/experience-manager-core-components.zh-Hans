@@ -2,7 +2,7 @@
 title: 将Adobe客户端数据层与核心组件结合使用
 description: 将Adobe客户端数据层与核心组件结合使用
 translation-type: tm+mt
-source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 4%
@@ -35,7 +35,7 @@ Adobe客户端数据层与平台无关，但完全集成到核心组件中以与
    * 每个节点设置 `jcr:primaryType` 为的位 `nt:unstructured`置。
 1. 添加一个名为的布 `enabled` 尔属性，并将其设 `true`置为。
 
-   ![WKND参考站点中DataLayerConfig的位置](../../assets/datalayer-contextaware-sling-config.png)
+   ![WKND参考站点中DataLayerConfig的位置](/help/assets/datalayer-contextaware-sling-config.png)
 
    *WKND参考站点中DataLayerConfig的位置*
 
@@ -59,7 +59,7 @@ Adobe客户端数据层与平台无关，但完全集成到核心组件中以与
 
 1. 您还可以打开浏览器的开发人员工具，并在控制台中 `adobeDataLayer` 提供JavaScript对象。 输入以下命令以获取当前页面的数据层状态：
 
-   ```js
+   ```javascript
    window.adobeDataLayer.getState();
    ```
 
@@ -238,7 +238,7 @@ eventInfo: {
 
 例如：
 
-```js
+```javascript
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
         var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
