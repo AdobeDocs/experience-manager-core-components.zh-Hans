@@ -2,99 +2,102 @@
 title: 组件准则
 description: 核心组件遵循与基础组件截然不同的现代实施模式。
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 2%
 
 ---
 
 
 # 组件准则 {#component-guidelines}
 
-核心 [](overview.md) 组件遵循与基础组件截然不同的现代实施模式。
+核心 [组件遵循](overview.md) 与基础组件截然不同的现代实施模式。
 
-本页介绍这些模式，以及何时使用这些模式构建您自己的可创作组件。 第一部分“ [常规组件模式](#general-component-patterns)[](#reusable-component-patterns) ”适用于任何类型的组件，而第二部分“可重用组件模式”则适用于计划跨站点或项目重用的组件，例如核心组件。
+本页介绍这些模式，以及何时使用这些模式构建您自己的可创作组件。 第一部分 [常规组件模式](#general-component-patterns) 适用于任何类型的组件，而第二部分可重用组件模式则 [适用于计划在站点或项目之间重复使用的组件](#reusable-component-patterns) ，例如核心组件。
 
 ## 常规组件模式 {#general-component-patterns}
 
-本节中的准则建议用于任何类型的组件，无论该组件是否特定于单个项目，或该组件是否打算在各站点或项目之间广泛重复使用。
+本节中的准则建议用于任何类型的组件，无论该组件是否特定于单个项目，或该组件是否打算跨站点或项目广泛重复使用。
 
 ### 可配置组件 {#configurable-components}
 
-组件可以具有包含各种选项的对话框。 这应该被用于使组件变得灵活且可配置，并避免实施多个组件，这些组件大多是彼此不同的组件。
+组件可以具有包含各种选项的对话框。 应利用此功能，使组件变得灵活、可配置，并避免实施多个组件，这些组件大多是彼此不同的组件。
 
-通常，如果线框或设计包含类似元素的变体，则这些变体不应作为不同的组件实现，而应作为一个具有在变体之间进行选择的选项的组件实现。
+通常，如果线框或设计包含相似元素的变体，则这些变体不应作为不同的元件实现，而应作为具有在这些变体之间进行选择的一个元件。
 
-要更进一步，如果组件在站点或项目之间重复使用，请参阅预 [配置功能部分](#pre-configurable-capabilities) 。
+要更进一步，如果组件在站点或项目之间重复使用，请参 [阅预配置功能](#pre-configurable-capabilities) 。
 
 ### 关注事项分离 {#separation-of-concerns}
 
-通常，将组件的逻辑（或模型）与标记模板（或视图）分开是一个好做法。 要实现此目的，有多种方法，但建议使用 [Sling Models](https://sling.apache.org/documentation/bundles/models.html) （逻辑模型）和 [](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) HTML模板语言(HTL)（核心组件也是如此）。
+将组件的逻辑（或模型）与标记模板(或视图)分开通常是一种好做法。 实现这一点有几种方法，但建议使用 [Sling Models](https://sling.apache.org/documentation/bundles/models.html) （逻辑）和 [](https://docs.adobe.com/content/help/zh-Hans/experience-manager-htl/using/overview.html) HTML模板语言(HTL)（核心组件也使用）。
 
-Sling Models是一组Java注释，可以从POJO中轻松访问所需的变量，因此为组件实现Java逻辑提供了一种简单、强大而高效的方法。
+Sling Models是一组Java注释，用于从POJO轻松访问所需的变量，因此，它优惠一种简单、强大而高效的方法来为组件实施Java逻辑。
 
-HTL设计为一种安全、简单的模板语言，专为AEM量身定制。 它可以调用多种形式的逻辑，这使得它非常灵活。
+HTL设计为一种安全、简单的模板语言，专为AEM量度身定制。 它可以调用多种形式的逻辑，使其非常灵活。
 
-## 可重用的组件模式 {#reusable-component-patterns}
+## 可重用组件模式 {#reusable-component-patterns}
 
-本节中的准则也可用于任何类型的组件，但对于打算跨站点或项目重复使用的组件（例如，核心组件），它们最有意义。 因此，对于仅用于单个站点或项目的组件，可忽略这些准则。
+本节中的准则也可用于任何类型的组件，但对于希望跨站点或项目重复使用的组件（例如核心组件），它们最有意义。 因此，对于仅用于单个站点或项目的组件，可以忽略这些准则。
 
 ### 预配置功能 {#pre-configurable-capabilities}
 
-除了页面作者使用的编辑对话框外，组件还可以有一个设计对话框，供模板作者预配置它们。 模 [板编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 允许设置所有这些预配置，这些预配置称为“策略”。
+除了页面作者使用的编辑对话框外，组件还可以具有模板作者的设计对话框，供模板作者预配置。 模 [板编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 允许设置所有这些预配置，这些预配置称为“策略”。
 
-为使组件尽可能地可重用，应为它们提供有意义的预配置选项。 这将允许或禁用组件的功能以匹配不同站点的特定需求。
+为使组件尽可能地可重用，应为它们提供有意义的预配置选项。 这将允许或禁用组件功能以匹配不同站点的特定需求。
 
 ### 代理组件模式 {#proxy-component-pattern}
 
-由于每个内容资源都有一个引用组件以呈现它的属性，因此通常最好将这些属性指向特定于站点的组件，而不是指向由多个站点共享的组件。 `sling:resourceType` 如果一个站点需要某个组件的不同行为，这将提供更大的灵活性并避免内容重构，因为随后可以在特定于站点的组件上实现此自定义，而不会影响其他站点。
+由于每个内容资源都有引 `sling:resourceType` 用组件来呈现它的属性，因此通常最好将这些属性指向特定于站点的组件，而不是指向由多个站点共享的组件。 如果一个站点需要组件的不同行为，这将优惠更多的灵活性并避免内容重构，因为随后可以在特定于站点的组件上实现此自定义，而不会影响其他站点。
 
-但是，对于不复制任何代码的项目特定组件，它们应分别引用具有属性的共享父组 `sling:resourceSuperType` 件。 这些主要只引用父组件的项目特定组件称为“代理组件”。 如果代理组件完全继承了该功能，则它们可以是完全空的，也可以重新定义组件的某些方面。
+但是，对于不重复任何代码的项目特定组件，它们应分别使用属性引用共享的父组 `sling:resourceSuperType` 件。 这些主要只引用父组件的项目特定组件称为“代理组件”。 如果代理组件完全继承该功能，则它们可以是完全空的，也可以重新定义组件的某些方面。
 
 ### 组件版本控制 {#component-versioning}
 
-随着时间的推移，组件应保持完全兼容，但有时无法保持兼容的更改是必要的。 解决这些对立需求的一个解决方案是通过在其资源类型路径和实现的完全限定的Java类名称中添加数字来引入组件版本控制。 此版本号表示由语义版本控制准则定义的主 [要版本](https://semver.org/)，该版本仅对不向后兼容的更改递增。
+随着时间的推移，组件应保持完全兼容，但有时，无法保持兼容的更改是必要的。 解决这些对立需求的一个解决方案是通过在其资源类型路径和实现的完全限定的Java类名称中添加数字来引入组件版本控制。 此版本号表示由语义版本控制指南定 [义的主要版本](https://semver.org/)，该版本仅对不向后兼容的更改递增。
 
-对组件的以下方面进行不兼容的更改将导致组件的新版本：
+对组件的以下方面进行不兼容的更改将生成新版本：
 
 * Sling模型（遵循语义版本控制准则）
 * HTL脚本和模板
 * HTML标记和CSS选择器
-* JSON表示
+* JSON表示法
 * 对话框
 
-有关更多详细信息，请参 [阅GitHub中的“版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) ”文档。
+有关更多详细信息，请参 [阅GitHub中的](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) “版本控制策略”文档。
 
-组件版本控制创建了一种对升级很重要的合同形式，因为它阐明了何时可能需要重新分析某些内容。 另请参阅自定义 [的升级兼容性部分](customizing.md#upgrade-compatibility-of-customizations)，其中解释了不同形式的自定义升级需要考虑哪些事项。
+组件版本控制创建了一种合同形式，该形式对升级很重要，因为它澄清了何时可能需要对某些内容进行重构。 另请参阅自定 [义的升级兼容性](customizing.md#upgrade-compatibility-of-customizations)，该部分解释了不同形式的自定义升级需要哪些注意事项。
 
-为避免痛苦的内容迁移，永远不要直接指向内容资源中的版本化组件非常重要。 根据经验，某个内 `sling:resourceType` 容永远不得包含版本号，或升级组件也需要重新构造内容。 避免这种情况的最佳方法是遵循上述 [代理组件模式](#proxy-component-pattern) 。
+为避免痛苦的内容迁移，切勿直接指向内容资源中的版本化组件。 根据经验，某 `sling:resourceType` 些内容永远不得包含版本号，或升级组件也需要重新构造内容。 避免这种情况的最佳方法是遵循上 [述的代理组件](#proxy-component-pattern) 模式。
 
 ### 模型接口 {#model-interfaces}
 
-此模式与HTL指向Java接口的指 `data-sly-use` 令有关，而Sling Model实现也将自身注册到组件的资源类型。
+此模式与HTL指向Java接 `data-sly-use` 口的指令有关，而Sling Model实现也将自身注册到组件的资源类型。
 
-与上述代理组 [件模式结合使用](#proxy-component-pattern) ，这种双绑定形式提供了以下不错的扩展点：
+与上述代理组 [件模式结合使用](#proxy-component-pattern) ，这种形式的多次绑定优惠会遵循良好的扩展点：
 
-1. 站点可以通过将Sling模型注册到代理组件的资源类型来重新定义其实现，而无需考虑HTL文件，该文件仍可指向接口。
-1. 站点可以重新定义组件的HTL标记，而不必考虑它应该指向哪个实现逻辑。
+1. 站点可以通过将Sling模型注册到代理组件的资源类型来重新定义其实现，而无需考虑HTL文件，该HTL文件仍可指向接口。
+1. 站点可以重新定义组件的HTL标记，而不必考虑它应指向的实现逻辑。
 
-## 整合 {#putting-it-all-together}
+## 将所有内容整合在一起 {#putting-it-all-together}
 
-以下是整个资源类型绑定结构的概述，以标题核心组件为例。 它说明了站点特定的代理组件如何允许解析组件版本控制，以避免内容资源包含任何版本号。 然后，它显示组件的 `title.html` HTL文件如何用于模型接口，而实现则通过 [Sling Model](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)[](https://sling.apache.org/documentation/bundles/models.html) annotations绑定到组件的特定版本。
+以下是整个资源类型绑定结构的概述，以标题核心组件为例。 它说明了站点特定的代理组件如何能够解析组件版本控制，以避免内容资源包含任何版本号。 然后，它显示组件的HTL文 `title.html` 件 [如何用于模型接口](https://docs.adobe.com/content/help/zh-Hans/experience-manager-htl/using/overview.html) ，而实现则通过Sling Model注释绑定到组件的特 [定版本](https://sling.apache.org/documentation/bundles/models.html) 。
 
 ![资源绑定概述](/help/assets/chlimage_1-32.png)
 
-下面是另一个概述，它不显示实施POJO的详细信息，但显示关联的模板和策 [略的引用](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html) 。
+下面是另一个概述，它不显示实施POJO的详细信息，但显示如何引用关 [联的模板](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html) 和策略。
 
-该属 `cq:allowedTemplates` 性告诉哪些模板可用于站点，以及每个页 `cq:template` 面的相关模板信息。 每个模板由以下三部分组成：
+该属 `cq:allowedTemplates` 性告诉哪些模板可用于站点，以及每 `cq:template` 个页面都告诉相关模板是什么。 每个模板由以下三部分组成：
 
-* **structure** —— 包含将强制显示每个页面的资源，以及页面作者无法删除的资源，例如页眉和页脚组件。
-* **initial** —— 包含创建页面时将复制到该页面的初始内容。
-* **策略** -包含每个组件的策略映射，该策略是组件的预配置。 此映射允许策略在模板之间重复使用，因此可以集中管理。
+* **structure** —— 包含将强制显示每个页面的资源，以及页面作者无法删除的资源，如page header和footer组件。
+* **initial** —— 包含创建页面时将复制到页面的初始内容。
+* **策略** -包含每个组件到策略的映射，策略是组件的预配置。 此映射允许策略在模板之间重复使用，因此可集中管理。
 
 ![模板和策略概述](/help/assets/screen_shot_2018-12-07at093102.png)
 
 ## AEM 项目原型 {#aem-project-archetype}
 
-[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件示例，用于逻辑和使用建议的代理模式正确实施核心组件。](/help/developing/archetype/overview.md)
+[AEM Project Archetype将创建最小的](/help/developing/archetype/overview.md) “Adobe Experience Manager项目”作为您自己项目的起点，包括一个使用SlingModels实现逻辑的自定义HTL组件示例，以及使用推荐的代理模式正确实现核心组件。
 
 **阅读下一篇文章：**
 
