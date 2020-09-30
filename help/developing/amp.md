@@ -2,9 +2,9 @@
 title: 对核心组件的AMP支持
 description: 核心组件支持AMP —— 加速移动页面
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ### 为页面启用AMP {#enabling-amp}
 
-要为页面启用AMP，必 **须在页面策** 略中 [选择AMP模式。](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html#editingatemplatepagepolicies)
+要为页面启用AMP，必 **须在页面策** 略中 [选择AMP模式。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
 ![AMP页策略选项](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 * **成对AMP** —— 页面以AMP和HTML的形式传送。
 * **仅AMP** —— 页面仅作为AMP传送。
 
-页面的AMP设置也可以在单个页面的 [页面属性](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-page-properties.html) 中被覆盖。
+页面的AMP设置也可以在单个页面的 [页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) 中被覆盖。
 
 ![AMP页面属性](/help/assets/amp-page-properties.png)
 
