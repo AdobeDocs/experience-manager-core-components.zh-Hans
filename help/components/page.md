@@ -2,9 +2,9 @@
 title: 页面组件
 description: 页面组件是一个可扩展的页面组件，设计用于与模板编辑器一起使用，并允许使用模板编辑器组合页面页眉／页脚和结构组件。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '631'
 ht-degree: 2%
 
 ---
@@ -26,16 +26,12 @@ ht-degree: 2%
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
-|---|---|---|---|---|
-| v2 | - | 兼容 | 兼容 | 兼容 |
-| [v1](v1/page-v1.md) | 兼容 | 兼容 | 兼容 | - |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
+|---|---|---|---|
+| v2 | 兼容 | 兼容 | 兼容 |
+| [v1](v1/page-v1.md) | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
-
->[!NOTE]
->
->要在页面组 `cq:Page` 件和AEM 6.3版本2的级别启用重定向， [需要Service Pack](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) 2或更高版本。 此类重定向在以前的版本中不可用。
 
 ### 技术详细信息 {#technical-details}
 
@@ -55,7 +51,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->在AEM的先前版本中，页 **面策略** 称为 **页面设计**。
+>在AEM的早期版本中， **页面策略** 称为 **页面设计**。
 
 ### 属性选项卡 {#properties-tab}
 
@@ -86,4 +82,4 @@ ht-degree: 2%
 
 ### 样式选项卡 {#styles-tab}
 
-页面组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
+页面组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
