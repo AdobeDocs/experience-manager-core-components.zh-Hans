@@ -2,7 +2,7 @@
 title: 导航组件
 description: 导航组件允许用户轻松导航全球化的站点结构。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 1%
@@ -61,11 +61,11 @@ ht-degree: 1%
 \-- wknd-shop
 ```
 
-对于站点We.Retail，您可能希望将导航组件作为标题的一部分放置在页面模板上。 模板的一部分后，您可以将组 **件的导航** Root设置 `/content/wknd/language-masters/en` 为，因为这是该站点的主内容开始的位置。 您可能还希望将导 **航结构深度设置为** , `2` 因为您可能不希望组件显示整个内容树，而是希望前两个级别，以便它作为概述。
+对于站点WKND，您可能希望将导航组件作为标题的一部分放置在页面模板上。 模板的一部分后，您可以将组 **件的导航** 根设置 `/content/wknd/language-masters/en` 为，因为这是该站点的主控内容开始的位置。 您可能还希望将导 **航结构深度设置为** , `2` 因为您可能不希望组件显示整个内容树，而是希望前两个级别，以便它作为概述。
 
 使用导 **航根** (Navigation Root)值，导航组件知道在导航开始后， `/content/wknd/language-masters/en` 它可以通过向下递归站点的结构两级（由导航结构深度值定义）来生成 **** 导航选项。
 
-无论用户正在查看哪个本地化页面，导航组件都可以通过了解当前页面的位置找到相应的本地化页面，然后返回到根页面，然后转发到相应的页面。
+无论用户正在查看什么本地化页面，导航组件都可以通过了解当前页面的位置找到相应的本地化页面，然后返回到根页面，然后转发到相应的页面。
 
 因此，如果访客正 `/content/ch/de/experience/arctic-surfing-in-lofoten`在查看，则组件知道根据生成导航结构 `/content/wknd/language-masters/de`。 同样，如果访客正 `/content/us/en/experience/arctic-surfing-in-lofoten`在查看，则组件知道根据生成导航结构 `/content/wknd/language-masters/en`。
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 导航组件随后将根据阴影站点结构呈现菜单。 组件呈现的链接指向阴影页面重定向到的实际内容页面，而不是重定向到阴影页面本身。 此外，该组件还显示实际页面的名称，并正确突出显示活动页面，即使导航基于阴影页面也是如此。 导航组件有效地使阴影页面对访客完全透明。
 
 >[!NOTE]
->阴影页面使导航选项更灵活，但请记住，此结构的维护是完全手动完成的。 如果重新排列实际的站点内容或添加／删除内容，则需要根据需要手动更新阴影结构。
+>阴影页面使导航选项更灵活，但请记住，此结构的维护是完全手动完成的。 如果您重新排列实际的站点内容或添加／删除内容，您需要根据需要手动更新阴影结构。
 
 >[!NOTE]
 >渲染阴影站点结构时，导航逻辑只递归阴影页。 该逻辑不重复重定向目标的结构。
@@ -164,4 +164,4 @@ ht-degree: 1%
 
 ### 样式选项卡 {#styles-tab}
 
-导航组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
+导航组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
