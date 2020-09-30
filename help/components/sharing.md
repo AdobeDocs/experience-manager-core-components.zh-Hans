@@ -2,9 +2,9 @@
 title: 社交共享组件
 description: 核心组件社交共享组件是Facebook和Pinterest共享构件。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-社交共享组件的当前版本为v1,v1是在AEM 6.3的核心组件版本1.0.0中引入的，在本文档中有介绍。
+社交共享组件的当前版本为v1，它是随核心组件版本1.0.0引入的，本文档中对此进行了说明。
 
 下表详细列出了组件的所有受支持版本以及与组件版本兼容的AEM版本。
 
