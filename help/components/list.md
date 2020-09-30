@@ -2,9 +2,9 @@
 title: 列表组件
 description: 核心组件列表组件允许轻松创建动态和静态列表。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '966'
 ht-degree: 4%
 
 ---
@@ -24,10 +24,10 @@ ht-degree: 4%
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
-|--- |--- |--- |--- |---|
-| v2 | - | 兼容 | 兼容 | 兼容 |
-| [v1](v1/list-v1.md) | 兼容 | 兼容 | 兼容 | - |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
+|--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 |
+| [v1](v1/list-v1.md) | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
 
@@ -80,19 +80,19 @@ ht-degree: 4%
 
 点按或单击 **添加** 按钮，将新项目插入列表。
 
-* 在列表中为项目输入文本，或使 **用选择** 对话框从AEM中选择项目。
+* 在列表中为项目输入文本，或使用“选 **择”对话框** ，从AEM中选择项目。
 * 使用拖动手柄重新排列列表中的项目。
 * 使用垃圾桶图标删除列表中的项目。
 
 #### 搜索 {#search-options}
 
-列表可以使用AEM内容搜索结果构建。
+列表可以使用AEM内容搜索结果来构建。
 
 ![搜索列表选项](/help/assets/list-edit-search.png)
 
 * **搜索**&#x200B;查询将运行全文搜索以生成列表元素的字符串
 * **搜索**&#x200B;应在何处运行搜索
-   * 使用选 **择对话框** ，在AEM中选择位置
+   * 使用选 **择对话框** ，选择AEM中的位置
    * 如果留空，则使用当前页面
 
 #### 标记 {#tags}
@@ -102,9 +102,9 @@ ht-degree: 4%
 ![标记列表选项](/help/assets/list-edit-tags.png)
 
 * **父页面**&#x200B;标记匹配的位置应开始
-   * 使用选 **择对话框** ，在AEM中选择位置
+   * 使用选 **择对话框** ，选择AEM中的位置
    * 如果留空，则使用当前页面
-* **标记**&#x200B;应匹配哪些标记
+* **标记**&#x200B;应匹配的标记
    * 使用“浏 **览** ”对话框选择标记
 * **匹**&#x200B;配定义哪些类型的匹配应使页面有资格包含在列表中
    * **任何标记**
@@ -167,4 +167,4 @@ ht-degree: 4%
 
 ### 样式选项卡 {#styles-tab}
 
-图像组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
+图像组件支持AEM [Style System](/help/get-started/authoring.md#component-styling)。
