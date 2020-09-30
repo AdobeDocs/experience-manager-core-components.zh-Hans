@@ -2,9 +2,9 @@
 title: 折叠组件
 description: 核心组件折叠面板组件允许创建在页面上折叠面板中排列的面板集合。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1054'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 1%
 
 要执行此操作：
 
-1. 使用页面编辑器中的“视图 **[为已发布”选项](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**，将页面与组件视图。
-1. 检查页面内容并标识面板的ID。
+1. 使用页面编辑器中的“视图 **[为已发布”选项](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** ，将页面与组件视图。
+1. Inspect页面内容并标识该小组的ID。
    * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. 该ID成为可使用散列()附加到URL的锚`#`点。
    * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -120,8 +120,8 @@ Accordion组件的当前版本为v1,2019年6月随核心组件的2.5.0版引入�
 
 允许 **的组件** 选项卡用于定义内容作者可以将哪些组件作为项目添加到折叠组件的面板。
 
-当在模板编辑器中定义布局容器的策略和属性时，允许的组 [件选项卡的功能与同名选项卡的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html)
+当在模板编辑器中定义布局容器的策略和属性时，允许的组 [件选项卡的功能与同名选项卡的功能相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### 样式选项卡 {#styles-tab}
 
-Accordion组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
+Accordion组件支持AEM [Style System](/help/get-started/authoring.md#component-styling)。
