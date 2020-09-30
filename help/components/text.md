@@ -2,9 +2,9 @@
 title: 文本组件
 description: 文本组件是一个富文本编辑和合成组件，可进行就地编辑。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2200'
 ht-degree: 3%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 3%
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
-|---|---|---|---|---|
-| v2 | - | 兼容 | 兼容 | 兼容 |
-| [v1](v1/text-v1.md) | 兼容 | 兼容 | 兼容 | - |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
+|---|---|---|---|
+| v2 | 兼容 | 兼容 | 兼容 |
+| [v1](v1/text-v1.md) | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
 
@@ -45,13 +45,13 @@ ht-degree: 3%
 
 ## 文本组件和富文本编辑器 {#the-text-component-and-the-rich-text-editor}
 
-核心组件文本组件利用AEM富文本编辑器(RTE)。 RTE为内容作者提供了各种用于编辑其文本内容的功能。 RTE的配置非常灵活，并优惠了许多选项。 有关如何配置RTE的更多详细信息，请参阅 [配置富文本编辑器](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html)[和配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
+核心组件文本组件利用AEM富文本编辑器(RTE)。 RTE为内容作者提供了各种用于编辑其文本内容的功能。 RTE的配置非常灵活，并优惠了许多选项。 有关如何配置RTE的更多详细信息，请参阅 [配置富文本编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)[和配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 本文的其余部分演示了使用现成RTE配置的核心组件文本组件的标准配置。
 
 >[!NOTE]
 >
->文本组件中 [仅提供由RTE的UI](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) 配置启用的选项。
+>文本组件中 [仅提供由RTE的UI](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 配置启用的选项。
 
 ## Edit Dialog {#edit-dialog}
 
@@ -122,9 +122,9 @@ ht-degree: 3%
 ![超链接示例](/help/assets/text-hyperlink-example.png)
 
 * 输入路径
-   * 在AEM中使用“打开选择”对话框选择路径
+   * 使用“打开选择”对话框在AEM中选择路径
    * 如果链接不在AEM中，请输入绝对URL
-      * 非绝对路径被解释为相对于AEM
+      * 非绝对路径被解释为相对于AEM的相对路径
 * 输入链接的替代描述性文本
 * 选择链接行为
    * 目标
@@ -132,6 +132,7 @@ ht-degree: 3%
    * 新选项卡
    * 父框架
    * 顶层框架
+
    点按或单击复选标记以应用链接，或点按x以取消。
 
 ### 取消链接
@@ -257,7 +258,7 @@ ht-degree: 3%
 
 用于检查文本内容的拼写。 可能的拼写错误用破红线加下划线。
 
-有关拼写检查和自定义拼写检查字典的更多详细信息，请参 [阅文档配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)。
+有关拼写检查和自定义拼写检查字典的更多详细信息，请参 [阅文档配置富文本编辑器插件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 ### 特殊字符 {#special-characters}
 
