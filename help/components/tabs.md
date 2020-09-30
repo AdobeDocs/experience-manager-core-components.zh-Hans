@@ -2,10 +2,10 @@
 title: 选项卡组件
 description: 选项卡组件允许创建多个选项卡来排列页面上的内容。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
+source-wordcount: '1027'
+ht-degree: 2%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 1%
 
 要执行此操作：
 
-1. 使用页面编辑器中的“视图 **[为已发布”选项](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**，将页面与组件视图。
-1. 检查页面内容并标识面板的ID。
+1. 使用页面编辑器中的“视图 **[为已发布”选项](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** ，将页面与组件视图。
+1. Inspect页面内容并标识该小组的ID。
    * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. 该ID成为可使用散列()附加到URL的锚`#`点。
    * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -113,12 +113,12 @@ ht-degree: 1%
 
 ![选择面板弹出窗口](/help/assets/select-panel-popover.png)
 
-* 点按或单击下拉框中的条目，将编辑器中的视图切换到该选项卡。
+* 点按或单击下拉菜单中的某个条目，将编辑器中的视图切换到该选项卡。
 * 使用拖动手柄可以就地重新排列选项卡。
 
 >[!NOTE]
 >
->创作者在编辑模式下无法选择 **选项卡** 。 使用 **[预览](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**模式或“已发**[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 布的视图”选项与选项卡进行交互，就像已发布内容的读者一样。
+>创作者在编辑模式下无法选择 **选项卡** 。 使用 **[预览](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** 模式或“已发 **[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** 布的视图”选项与选项卡进行交互，就像已发布内容的读者一样。
 
 ## 设计对话框 {#design-dialog}
 
