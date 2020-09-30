@@ -2,9 +2,9 @@
 title: 通过核心组件创作
 description: 在AEM中，组件是构成所创作页面内容的结构元素——核心组件优惠灵活且功能丰富的创作功能。
 translation-type: tm+mt
-source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '764'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 要体验核心组件并查看其配置选项以及HTML和JSON输出的示例，请访问组 [件库](https://adobe.com/go/aem_cmp_library)。
 
-有关在AEM项目上使用AEM项目原型实施核心组件的更深入、面向开 [发人员的介绍](/help/developing/archetype/overview.md) ，请 [阅读WKND教程。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+有关在AEM项目上使用AEM项目原型实施核心组件的更深入、面向开发人员的介绍， [请查看WKND教](/help/developing/archetype/overview.md) 程 [中的相关内容。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->核心组 [件需要AEM 6.3或更高版本](/help/versions.md) ，并且需要使用可编 [辑的模板](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它们不适用于经典UI，也不适用于静态模板。
+>核心组 [件需要AEM 6.4或更高](/help/versions.md) ，并且需要使用可编 [辑的模板](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它们不适用于经典UI，也不适用于静态模板。
 
 ## 通过核心组件创作 {#authoring-with-core-components}
 
@@ -79,10 +79,6 @@ Components are available on the **Components** tab of the side panel of the page
 * 然后，内容作者可以选择在添加组件和创建内容时应用的样式。
 
 有关更多详细信息，请 [参阅样式系](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) 统文档。
-
->[!NOTE]
->
->在AEM 6.3中，需要Service Pack 2(6.3.2.0)或更高版本才能启用样式系统功能。
 
 ## 开发人员资源 {#developer-resources}
 
