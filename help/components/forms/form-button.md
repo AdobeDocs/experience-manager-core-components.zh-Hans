@@ -2,9 +2,9 @@
 title: 表单按钮组件
 description: 核心组件表单隐藏组件允许在表单中包含隐藏字段。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 4%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 4%
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
-|--- |--- |--- |--- |---|
-| v2 | - | 兼容 | 兼容 | 兼容 |
-| [v1](/help/components/v1/form-button-v1.md) | 兼容 | 兼容 | 兼容 | - |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
+|--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 |
+| [v1](/help/components/v1/form-button-v1.md) | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
 
@@ -72,4 +72,4 @@ ht-degree: 4%
 
 ### 样式选项卡 {#styles-tab}
 
-表单按钮组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
+表单按钮组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
