@@ -2,9 +2,9 @@
 title: 表单隐藏组件
 description: 核心组件表单隐藏组件允许显示隐藏字段。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '428'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ## 使用 {#usage}
 
-核心组件表单隐藏组件允许创建隐藏字段，以将有关当前页面的信息传回AEM，并与表单容器组件一 [起使用](form-container.md)。
+核心组件表单隐藏组件允许创建隐藏字段，将有关当前页面的信息传回AEM，该组件将与表单容器组件一 [起使用](form-container.md)。
 
 字段属性可由内容编辑器在配置对话框中 [定义](form-hidden.md)。
 
@@ -26,10 +26,10 @@ ht-degree: 3%
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
-|--- |--- |--- |--- |---|
-| v2 | - | 兼容 | 兼容 | 兼容 |
-| [v1](/help/components/v1/form-hidden-v1.md) | 兼容 | 兼容 | 兼容 | - |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
+|--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 |
+| [v1](/help/components/v1/form-hidden-v1.md) | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
 
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 ### 技术详细信息 {#technical-details}
 
-有关表单隐藏组件的最 [新技术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_form_hidden_v2)。
+有关表单隐藏组件的最新技 [术文档可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_form_hidden_v2)。
 
 有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](/help/developing/overview.md)。
 
@@ -64,4 +64,4 @@ ht-degree: 3%
 
 ### 样式选项卡 {#styles-tab}
 
-表单隐藏组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
+表单隐藏组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
