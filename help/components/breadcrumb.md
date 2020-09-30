@@ -2,9 +2,9 @@
 title: 痕迹导航组件
 description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层次结构中的位置构建链接的痕迹导航。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '709'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 2%
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
-|--- |--- |--- |--- |---|
-| v2 | - | 兼容 | 兼容 | 兼容 |
-| [v1](v1/breadcrumb-v1.md) | 兼容 | 兼容 | 兼容 | - |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
+|--- | --- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 |
+| [v1](v1/breadcrumb-v1.md) | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ![痕迹导航组件编辑对话框](/help/assets/breadcrumb-edit.png)
 
-* **导航开始级** -在层次结构中，痕迹导航组件应开始向下浏览到当前页面的位置。 例如，在We.Retail中：
+* **导航开始级** -在层次结构中，痕迹导航组件应开始向下浏览到当前页面的位置。 例如：
 
    * 0个开始 `/content`
    * 1个开始，价格 `/content/<yourSite>`
@@ -88,4 +88,4 @@ ht-degree: 2%
 
 ### 样式选项卡 {#styles-tab}
 
-痕迹导航组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
+痕迹导航组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
