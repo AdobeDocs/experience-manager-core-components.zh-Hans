@@ -2,9 +2,9 @@
 title: 图像组件
 description: 核心组件图像组件是一种自适应图像组件功能，可进行就地编辑。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1921'
 ht-degree: 2%
 
 ---
@@ -32,10 +32,10 @@ ht-degree: 2%
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
-|--- |--- |--- |--- |---|
-| v2 | - | 兼容 | 兼容 | 兼容 |
-| [v1](v1/image-v1.md) | 兼容 | 兼容 | 兼容 | - |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
+|--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 |
+| [v1](v1/image-v1.md) | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->SVG支持要求核心组件版本2.1.0或更高版本以及 [AEM 6.4的Service](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) Pack [2或AEM 6.3的](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) Service Pack 3 [或更高版本支持AEM中](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) 的新图像编辑器功能。
+>SVG支持要求核心组件版本2.1.0或更高版本以及AEM [6.4或更高版本的](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) service pack 2 [，以支持AEM中](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) 的图像编辑器功能。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -91,12 +91,13 @@ ht-degree: 2%
    * 从DAM获取替代文本——选中后，图像的替代文本将填充DAM中元 `dc:description` 数据的值。
 
 * **题注**&#x200B;有关图像的其他信息，默认情况下显示在图像下方。
-   * **从DAM获取**&#x200B;题注选中此项后，图像的题注文本将填充DAM中元 `dc:title` 数据的值。
+   * **从DAM获取**&#x200B;题注选中此选项后，图像的题注文本将填充 
+`dc:title` 元数据。
    * **将题注显示为弹**&#x200B;出窗口选中此项后，题注不会显示在图像下方，而会在将鼠标悬停在图像上方时由某些浏览器显示为弹出窗口。
 
 * **链接**
    * 将图像链接到其他资源。
-   * 使用选择对话框链接到其他AEM资源。
+   * 使用选择对话框链接到另一个AEM资源。
    * 如果未链接到AEM资源，请输入绝对URL。 非溶质URL将解释为相对于AEM。
 
 * **ID** —— 此选项允许控制HTML和数据层中组件的唯一标 [识符](/help/developing/data-layer/overview.md)。
@@ -118,6 +119,7 @@ ht-degree: 2%
 
    * 选择“手 **自由** ”选项以定义您自己的裁剪。
    * 选择删除 **裁剪** ，以显示原始资产。
+
    选择裁剪选项后，使用蓝色手柄调整图像上的裁剪大小。
 
    ![裁剪选项](/help/assets/image-crop-options.png)
@@ -178,7 +180,7 @@ ht-degree: 2%
 * **图像具有装饰**&#x200B;性定义在将图像组件添加到页面时是否自动启用装饰性图像选项。
 * **从DAM获取替代文**&#x200B;本在将图像组件添加到页面时，定义是否自动启用从DAM检索替代文本的选项。
 * **从DAM获取题**&#x200B;注在将图像组件添加到页面时，定义是否自动启用从DAM检索题注的选项。
-* **将题注显示为弹**&#x200B;出窗口定义在将图像组件添加到页面时，是否自动启用将图像题注显示为弹出窗口的选项。
+* **将题注显示为弹**&#x200B;出窗口定义在将图像组件添加到页面时是否自动启用将图像题注显示为弹出窗口的选项。
 * **禁用UUID跟**&#x200B;踪检查以禁用对图像资产UUID的跟踪。
 
 * **宽**&#x200B;度定义图像的宽度列表（以像素为单位），组件会根据浏览器大小自动加载最合适的宽度。
@@ -211,8 +213,10 @@ ht-degree: 2%
 
    ![图像组件的设计对话框功能选项卡](/help/assets/image-design-features-orientation.png)
 
-* **旋**&#x200B;转使用此选项可允许内容作者使用“向右 **旋转** ”选项。
-* **翻转**&#x200B;使用此选项可允许内容作者使用“水平翻转” **和“垂直** 翻转”选项 **** 。
+* **旋**&#x200B;转使用此选项可允许内容作者使用 
+**“向右旋转** ”选项。
+* **翻转**&#x200B;使用此选项可允许内容作者使用 
+**“水平翻转** ”和 **“垂直翻转** ”选项。
 
    >[!CAUTION]
    >
@@ -228,13 +232,14 @@ ht-degree: 2%
    * 输入长宽比的数值。
    * 使用拖动手柄重新排列长宽比的顺序
    * 使用垃圾桶图标删除长宽比。
+
    >[!CAUTION]
    >
    >Note that in AEM, crop aspect ratios are defined as **height/width**. 这与常见的宽高比的定义不同，这样做是出于对旧版兼容性的考虑。只要您提供比率的明确名称，内容作者就不会察觉到任何差异，因为该名称显示在UI中，而不是比率本身。
 
 ### 样式选项卡 {#styles-tab-1}
 
-图像组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
+图像组件支持AEM [Style System](/help/get-started/authoring.md#component-styling)。
 
 ## 自适应图像Servlet {#adaptive-image-servlet}
 
