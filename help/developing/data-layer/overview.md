@@ -2,10 +2,10 @@
 title: 将Adobe客户端数据层与核心组件结合使用
 description: 将Adobe客户端数据层与核心组件结合使用
 translation-type: tm+mt
-source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
+source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 5%
+source-wordcount: '868'
+ht-degree: 4%
 
 ---
 
@@ -26,17 +26,42 @@ Adobe客户端数据层与平台无关，但完全集成到核心组件中以与
 
 ## 安装和激活 {#installation-activation}
 
-自2.9.0版核心组件起，数据层将作为clientlib与核心组件一起分发。 无需安装。
+从核心组件2.9.0版开始，数据层作为AEM客户端库随核心组件一起分发，无需安装。 默认情况下，由AEM Project [Archetype v. 24+生成的所](/help/developing/archetype/overview.md) 有项目都包括已激活的数据层。
 
-但是，默认情况下不激活数据层。 要激活数据层，必须为其创 [建上下文感知](/help/developing/context-aware-configs.md) 型配置：
+要手动激活数据层，必须为其创 [建上下文感知](/help/developing/context-aware-configs.md) 型配置：
 
-1. 在节点下创建以下 `/conf` 结构：
+1. 在文件夹下创建 `/conf/<mySite>` 以下结 `<mySite>` 构，其中是站点项目的名称：
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * 节点类型： `nt:unstructured`
+   * 每个节点设置 `jcr:primaryType` 为的位 `nt:unstructured`置。
 1. 添加一个名为的布 `enabled` 尔属性，并将其设 `true`置为。
-1. 将属 `sling:configRef` 性添加到 `jcr:content` 您的站点的节点 `/content` (例如， `/content/<mySite>/jcr:content`)并将其设置为 `/conf/<mySite>`。
 
-启用后，您可以通过在编辑器外加载站点的页面来验证激活。 检查页面时，您将看到Adobe客户端数据层已加载。
+   ![WKND参考站点中DataLayerConfig的位置](../../assets/datalayer-contextaware-sling-config.png)
+
+   *WKND参考站点中DataLayerConfig的位置*
+
+1. 将属 `sling:configRef` 性添加到 `jcr:content` 您的站点的节点 `/content` (例如， `/content/<mySite>/jcr:content`)并将其从上 `/conf/<mySite>` 一步设置为。
+
+1. 启用后，您可以通过在编辑器外加载站点的页面来验证激活。 Inspect页面源和标 `<body>` 签应包含属性 `data-cmp-data-layer-enabled`
+
+   ```html
+   <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
+       <script>
+         window.adobeDataLayer = window.adobeDataLayer || [];
+         adobeDataLayer.push({
+             page: JSON.parse("{\x22page\u002D6c5d4b9fdd\x22:{\x22xdm:language\x22:\x22en\x22,\x22repo:path\x22:\x22\/content\/wknd\/language\u002Dmasters\/en.html\x22,\x22xdm:tags\x22:[],\x22xdm:template\x22:\x22\/conf\/wknd\/settings\/wcm\/templates\/landing\u002Dpage\u002Dtemplate\x22,\x22@type\x22:\x22wknd\/components\/page\x22,\x22dc:description\x22:\x22WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.\x22,\x22dc:title\x22:\x22WKND Adventures and Travel\x22,\x22repo:modifyDate\x22:\x222020\u002D09\u002D29T07:50:13Z\x22}}"),
+             event:'cmp:show',
+             eventInfo: {
+                 path: 'page.page\u002D6c5d4b9fdd'
+             }
+         });
+       </script>
+   ```
+
+1. 您还可以打开浏览器的开发人员工具，并在控制台中 `adobeDataLayer` 提供JavaScript对象。 输入以下命令以获取当前页面的数据层状态：
+
+   ```js
+   window.adobeDataLayer.getState();
+   ```
 
 ## 核心组件数据模式 {#data-schemas}
 
@@ -96,6 +121,8 @@ id: {
     xdm:language        // page language
 }
 ```
+
+页面 `cmp:show` 加载时将触发事件。 此事件从紧靠在开始标签下的内嵌JavaScript中调 `<body>` 度，使它成为数据层事件序列中最早的事件。
 
 ### 容器模式 {#container}
 
@@ -171,13 +198,15 @@ id: {
 
 * `cmp:click`
 
-## 事件 {#events}
+## 核心组件事件 {#events}
 
-数据层会触发许多事件。
+核心组件通过数据层触发的事件很多。 与事件层交互的最佳实践是注 [册监听器](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) , ** 然后根据触发事件的事件类型和／或组件执行操作。 这将避免使用异步脚本的潜在竞争条件。
+
+以下是AEM核心组件提供的开箱即用事件:
 
 * **`cmp:click`** -单击可单击的元素(具有属性的 `data-cmp-clickable` 元素)会导致数据层触发 `cmp:click` 事件。
-* **`cmp:show`** 和 **`cmp:hide`** -操作折叠面板（展开／折叠）、旋转（下一个／上一个按钮）和选项卡（选项卡选择）组件会分别触发数据层和 `cmp:show` 事件 `cmp:hide` 。
-* **`cmp:loaded`** -一旦数据层填充了页面上的核心组件，数据层就会触发 `cmp:loaded` 事件。
+* **`cmp:show`** 和 **`cmp:hide`** -操作折叠面板（展开／折叠）、旋转（下一个／上一个按钮）和选项卡（选项卡选择）组件会分别触发数据层和 `cmp:show` 事件 `cmp:hide` 。 加 `cmp:show` 载页面时也会调度事件，并且该事件应为第一个。
+* **`cmp:loaded`** -一旦数据层填充了页面上的核心组件，数据层就会触发一个 `cmp:loaded` 事件。
 
 ### 事件由组件触发 {#events-components}
 
@@ -185,10 +214,45 @@ id: {
 
 | 组件 | 事件 |
 |---|---|
-| [导航](/help/components/navigation.md) | `cmp:click` |
-| [语言导航](/help/components/language-navigation.md) | `cmp:click` |
-| [痕迹导航](/help/components/breadcrumb.md) | `cmp:click` |
-| [按钮](/help/components/button.md) | `cmp:click` |
-| [轮播](/help/components/carousel.md) | `cmp:show` 和 `cmp:hide` |
-| [选项卡](/help/components/tabs.md) | `cmp:show` 和 `cmp:hide` |
 | [折叠](/help/components/accordion.md) | `cmp:show` 和 `cmp:hide` |
+| [按钮](/help/components/button.md) | `cmp:click` |
+| [痕迹导航](/help/components/breadcrumb.md) | `cmp:click` |
+| [轮播](/help/components/carousel.md) | `cmp:show` 和 `cmp:hide` |
+| [语言导航](/help/components/language-navigation.md) | `cmp:click` |
+| [导航](/help/components/navigation.md) | `cmp:click` |
+| [页面](/help/components/page.md) | `cmp:show` |
+| [选项卡](/help/components/tabs.md) | `cmp:show` 和 `cmp:hide` |
+| [Teaser](/help/components/teaser.md) | `cmp:click` |
+
+### 事件路径信息 {#event-path-info}
+
+AEM核心组件触发的每个数据层事件都将包含具有以下JSON对象的有效负荷：
+
+```json
+eventInfo: {
+    path: '<component-path>'
+}
+```
+
+其 `<component-path>` 中是触发事件的数据层中组件的JSON路径。  该值(可通过 `event.eventInfo.path`使用)很重要，因为它可用作 `adobeDataLayer.getState(<component-path>)` 参数，用于检索触发事件的组件的当前状态，允许自定义代码访问其他数据并将其添加到数据层。
+
+例如：
+
+```js
+function logEventObject(event) {
+    if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
+        var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
+        console.debug("The component that triggered this event: ");
+        console.log(dataObject);
+    }
+}
+
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function (dl) {
+     dl.addEventListener("cmp:show", logEventObject);
+});
+```
+
+## 教程
+
+想要更详细地了解数据层和核心组件？ [查看此实践教程](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
