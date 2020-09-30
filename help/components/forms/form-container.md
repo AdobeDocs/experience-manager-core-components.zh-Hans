@@ -2,10 +2,10 @@
 title: 表单容器组件
 description: 核心组件表单容器组件允许创建简单的提交表单。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 3%
+source-wordcount: '803'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->表单容器组件的核心组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。 不支持 [在核心组件](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) （反之亦然）中使用基础组件表单组件。
+>表单容器组件核心组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。 不支持 [在核心组件](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) （反之亦然）中使用基础组件表单组件。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -30,10 +30,10 @@ ht-degree: 3%
 
 下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
 
-| 组件版本 | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
-|--- |--- |--- |--- |---|
-| v2 | - | 兼容 | 兼容 | 兼容 |
-| [v1](/help/components/v1/form-container-v1.md) | 兼容 | 兼容 | 兼容 | - |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 云服务 |
+|--- |--- |--- |---|
+| v2 | 兼容 | 兼容 | 兼容 |
+| [v1](/help/components/v1/form-container-v1.md) | 兼容 | 兼容 | - |
 
 有关核心组件版本和版本的详细信息，请参阅文档 [核心组件版本](/help/versions.md)。
 
@@ -90,8 +90,8 @@ ht-degree: 3%
 ![表单容器组件编辑对话框中的常规选项](/help/assets/form-container-edit-general.png)
 
 * **感谢页面** -表单提交完成后，用户将被重定向到指定页面。
-   * 使用选择对话框在AEM中选择资源。
-   * 如果感谢页面不在AEM中，请指定绝对URL。 非绝对URL将解释为相对于AEM。
+   * 使用选择对话框选择AEM中的资源。
+   * 如果感谢页面不在AEM中，请指定绝对URL。 非绝对URL将被解释为相对于AEM。
    * 留空可在提交后重新显示表单。
 * **ID** —— 此选项允许控制HTML和数据层中组件的唯一标 [识符](/help/developing/data-layer/overview.md)。
    * 如果留空，则会自动为您生成唯一ID，并可通过检查生成的页面找到该ID。
@@ -104,4 +104,4 @@ ht-degree: 3%
 
 ### 样式选项卡 {#styles-tab}
 
-表单容器组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+表单容器组件支持AEM样 [式系统](/help/get-started/authoring.md#component-styling)。
