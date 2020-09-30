@@ -2,9 +2,9 @@
 title: AEM Project Archetype前端构建
 description: 基于AEM的应用程序的项目模板
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ AEM Project Archetype包括一个可选的、基于Webpack的专用前端构建�
 
 ## ClientLibs概述 {#clientlibs}
 
-前端模块可使用AEM [ClientLib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)。 执行NPM构建脚本时，将构建应用程序，aem-clientlib-generator包将获得的构建输出并将其转换为此类ClientLib。
+前端模块可使用AEM [ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)。 执行NPM构建脚本时，将构建应用程序，aem-clientlib-generator包将获得的构建输出并将其转换为此类ClientLib。
 
 ClientLib将包含以下文件和目录：
 
@@ -161,7 +161,7 @@ ui.frontend模块构建过程利用 [aem-clientlib-generator](https://www.npmjs.
 
 ### 在页面上包括客户端库 {#clientlib-inclusion}
 
-`clientlib-site` 和 `clientlib-dependencies` 类别通过页面策略配 [置作为默认模板的一](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) 部分，包括在页面上。 要视图策略，请编辑“内 **容页面模板”>“页面信息”>“页面策略**”。
+`clientlib-site` 和 `clientlib-dependencies` 类别通过页面策略配 [置作为默认模板的一](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) 部分，包括在页面上。 要视图策略，请编辑“内 **容页面模板”>“页面信息”>“页面策略**”。
 
 站点页面中最终包含的客户端库如下：
 
