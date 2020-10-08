@@ -2,10 +2,10 @@
 title: 包括客户端库
 description: 根据您的用例，可以通过多种不同的方式包含客户端库。
 translation-type: tm+mt
-source-git-commit: 24f718be2ba66113eda970c213c6ce4baec51752
+source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,8 @@ ht-degree: 3%
 
 ## 仅限CSS或JS {#css-js-only}
 
-通常，要将CSS包含的内容放在HTML元 `head` 素中，而JS包含在元素关闭之前 `body` 。&#x200B;
+通常，要将CSS包含的内容放在HTML元 `head` 素中，而JS包含在元素关闭之前 `body` 。
+
 在中 `head`，要仅包含CSS而不是JS，请使用 `cssIncludes`:
 
 ```html
@@ -83,7 +84,9 @@ ht-degree: 3%
 
 可 `link` 以传递到的CSS属 `jsAndCssIncludes` 性和 `cssIncludes`:
 
-* `media`:字符&#x200B;串JS属性，可传递 `script` 到 `jsAndCssIncludes``jsIncludes`:
+* `media`: 字符串
+
+可 `script` 传递到的JS属 `jsAndCssIncludes` 性和 `jsIncludes`:
 
 * `async`: 布尔型
 * `defer`: 布尔型
@@ -92,7 +95,8 @@ ht-degree: 3%
 
 ## 内衬 {#inlining}
 
-在某些情况下，要进行优化， [或者](amp.md) 为电子邮件或AMP，可能需要将CSS或JS嵌入到HTML的输出中&#x200B;。
+在某些情况下，要进行优化， [或者](amp.md) 为电子邮件或AMP，可能需要将CSS或JS嵌入到HTML的输出中。
+
 要嵌入CSS, `cssInline` 可以使用，在这种情况下，您必须编写周围的元 `style` 素：
 
 ```html
