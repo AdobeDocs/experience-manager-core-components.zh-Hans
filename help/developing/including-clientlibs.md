@@ -2,10 +2,10 @@
 title: 包括客户端库
 description: 根据您的用例，可以通过多种不同的方式包含客户端库。
 translation-type: tm+mt
-source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
+source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -84,10 +84,7 @@ ht-degree: 4%
 
 可 `link` 以传递到的CSS属 `jsAndCssIncludes` 性和 `cssIncludes`:
 
-* `media`: 字符串
-
-可 `script` 传递到的JS属 `jsAndCssIncludes` 性和 `jsIncludes`:
-
+* `media`:字符 `script` 串JS属性，可传递给 `jsAndCssIncludes` 和 `jsIncludes`:
 * `async`: 布尔型
 * `defer`: 布尔型
 * `onload`: 字符串
