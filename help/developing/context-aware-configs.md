@@ -2,9 +2,9 @@
 title: Sling上下文感知配置和核心组件
 description: 核心组件利用Sling上下文感知配置来实现某些功能
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: 11e2c6da0fa93084b601437fd45fd65dd8d73231
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## Sling上下文感知配置 {#context-aware-configurations}
 
-您的站点可能需要针对不同站点区域的不同配置，例如，某些参数可能共享，需要继承嵌套上下文和全局回退值。 Sling上下文感知配置支持此功能。
+您的站点可能需要针对不同站点区域的不同配置，例如，某些参数可能共享，需要继承嵌套上下文和全局回退值。 AEM利用Sling上下文感知配置，从而实现这种可能性。
 
-有关Sling上下文感知配置的完整详细信 [息，请参阅Apache文档。](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)
+有关AEM中配置的详细信息， [请参阅配置和配置浏览器文档。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
 
 ## 用于核心组件 {#core-components}
 
