@@ -2,10 +2,10 @@
 title: 开发核心组件
 description: 核心组件提供强大且可扩展的基本组件，这些组件可优惠丰富的功能、连续投放、组件版本控制、现代实施、精益标记和JSON内容导出。
 translation-type: tm+mt
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
 workflow-type: tm+mt
 source-wordcount: '1442'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -35,26 +35,26 @@ ht-degree: 12%
 
 任何新项目都应通过核心组件来实施。 但是，现有项目通常具有广泛的基础组件实施。
 
-对现有项目（例如重新品牌化或整体重构）进行更大的投入通常会优惠到迁移到核心组件的机会。 为了促进此迁移，Adobe提供了许多迁移工具，以鼓励采用核心组件和最新的AEM技术。
+对现有项目（例如重新品牌化或整体重构）进行更大的投入通常会优惠到迁移到核心组件的机会。 为了促进这一迁移，Adobe提供了一些迁移工具，鼓励采用核心组件和最新的AEM技术。
 
-[AEM Moderization Tools](http://opensource.adobe.com/aem-modernize-tools/) 允许轻松转换：
+[AEM现代化工具](http://opensource.adobe.com/aem-modernize-tools/) ，可轻松转换：
 
 * 静态模板到可编辑模板
-* 为策略设计配置
+* 设计配置到策略
 * 基础组件到核心组件
-* 经典UI到触屏优化UI
+* 经典 UI 到触控式 UI
 
 有关这些工具的使用方法的更多信息，请 [参阅其文档](http://opensource.adobe.com/aem-modernize-tools/)。
 
 >[!NOTE]
 >
->AEM现代化工具是一项社区工作，Adobe不支持或担保。
+>AEM现代化工具是一项社区工作，不受Adobe支持或授权。
 
 ## 核心组件支持 {#core-component-support}
 
 核心组件是 AEM 的一个组成部分，依原样提供支持，并作为“快速入门”的一部分提供，须遵循相同的条款和条件。
 
-与其他AEM产品功能一样，一般规则为： 首先宣布弃用组件，并且最早删除以下AEM版本的组件。 这样，客户在放弃支持之前，至少可以在一个发布周期中迁移到新版本的组件。
+与其他AEM产品功能一样，一般规则是：首先宣布弃用组件，并且最早删除以下AEM版本的组件。 这样，客户在放弃支持之前，至少可以在一个发布周期中迁移到新版本的组件。
 
 每个组件的版本都清楚地声明了其支持的 AEM 版本。当某个 AEM 版本不再受到支持时，该版本 AEM 的核心组件也不再受到支持。
 
@@ -80,7 +80,7 @@ ht-degree: 12%
 | 交付 | [通过公共GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过快速入门 |
 | License | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe专有 |
 | 贡献 | 通过拉入请求 | 不可能 |
-| 辅助功能 | 完全符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html | 仅部分符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| 辅助功能 | 完全符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 仅部分符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## 组件列表 {#component-list}
 
@@ -116,7 +116,7 @@ ht-degree: 12%
 | [体验片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 将体验片段添加到页面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [嵌入](https://adobe.com/go/aem_cmp_tech_embed_v1) | 在页面中嵌入外部资源 | - |
 | [进度条](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以可视方式呈现实现目标的进展情况 | - |
-| [PDF查看器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在页面上显示PDF文档 | - |
+| [PDF 查看器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在页面上显示PDF文档 | - |
 
 ### 即将推出的组件 {#upcoming-components}
 
@@ -124,8 +124,8 @@ ht-degree: 12%
 
 ## 升级核心组件 {#upgrade-of-core-components}
 
-版本控制组件的一个好处是，它允许将迁移分离到新AEM版本与迁移到新组件版本。 此外，如果有新组件版本可用，它允许将每个组件单独迁移到新版本。
+版本化组件的一个好处是，它允许将迁移从迁移到新组件版本分离到新的AEM版本。 此外，如果有新组件版本可用，它允许将每个组件单独迁移到新版本。
 
-迁移到新AEM版本不会影响核心组件的工作方式，前提是其版本还支持要迁移到的新AEM版本。 对核心组件进行的自定义也不应受到影响，只要它们不使用已弃用或删除 [的API](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+迁移到新的AEM版本不会影响核心组件的工作方式，前提是其版本还支持要迁移到的新AEM版本。 对核心组件进行的自定义也不应受到影响，只要它们不使用已弃用或删除 [的API](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
 迁移到核心组件的新版本也不会影响组件的工作方式，但可能会为页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防缺省行为不理想。 但是，可能需要调整自定义，有关详细信息，请参阅自 [定义核心组件](customizing.md#upgrade-compatibility-of-customizations) 页面。
