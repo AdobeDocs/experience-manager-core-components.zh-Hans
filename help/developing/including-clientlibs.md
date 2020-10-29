@@ -2,9 +2,9 @@
 title: 包括客户端库
 description: 根据您的用例，可以通过多种不同的方式包含客户端库。
 translation-type: tm+mt
-source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
+source-git-commit: afce571ada011c38c83830628f09a9e268658965
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
@@ -111,3 +111,26 @@ ht-degree: 3%
     ${clientlibs.jsInline @ context="unsafe"}
 </script>
 ```
+
+## 加载上下文感知CSS和JavaScript {#context-aware-loading}
+
+页 [面组件](/help/components/page.md) 还支持加载开发人员定义的上下文感知CSS、JavaScript或meta标签。
+
+这是通过使用以 [下结构创建上下文感](context-aware-configs.md)`com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` 知资源来完成的：
+
+```text
+com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
+    - prefixPath="/some/path"
+    + item01
+        - element=["link"|"script"|"meta"]
+        - location=["header"|"footer"]
+        + attributes
+            - attributeName01="attributeValue01"
+            - attributeName02="attributeValue02"
+            ...
+    + item02
+        ...
+    ...
+```
+
+[有关详细信息，请参阅页面组件的技术文档。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
