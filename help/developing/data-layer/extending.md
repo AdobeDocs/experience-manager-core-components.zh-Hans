@@ -2,9 +2,9 @@
 title: 扩展Adobe客户端数据层
 description: Adobe客户端数据层可以按照一些基本模式进行扩展
 translation-type: tm+mt
-source-git-commit: 896ed679ed3351cb309a34b38bf97fe81adc2cfe
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,7 @@ ht-degree: 0%
 因此，您的自定义Sling模型可能 `getData` 有一种方法，它返回一个扩展 `ComponentData` 以返回更多字段的对象。
 
 这样，将向组 `data-cmp-data-layer` 件的HTML元素添加一个属性，其中包含将填充到数据层的数据的JSON。 此时，您可以实现侦听此数据或相关事件的脚本。
+
+>[!TIP]
+>
+>要进一步探索数据层的灵活性，请查看集成选项，包括如何为自定义组件启用数据层。
