@@ -2,9 +2,9 @@
 title: 表单容器组件
 description: 核心组件表单容器组件允许创建简单的提交表单。
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '956'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 表单容器组件支持简单的WCM表单，并使用嵌套结构允许其他表单组件，从而支持构建简单的信息提交表单和功能。
 
-通过使用 [配置对话框](#configure-dialog) ，内容编辑器可以定义由表单提交触发的操作、应在何处存储提交的内容以及是否应触发工作流。 模板作者可以使用设 [计对话框](#design-dialog) ，定义允许的组件及其映射，这与模板编辑器中标准布 [局容器的设计对话框类似](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+通过使用 [配置对话框](#configure-dialog) ，内容编辑器可以定义由表单提交触发的操作、应处理提交的URl以及是否应触发工作流。 模板作者可以使用设 [计对话框](#design-dialog) ，定义允许的组件及其映射，这与模板编辑器中标准布 [局容器的设计对话框类似](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 >[!NOTE]
 >
@@ -53,10 +53,23 @@ ht-degree: 2%
 
 根据所选的操 **作类型**,容器中的可用选项将发生变化。 可用的操作类型有：
 
+* [发布表单数据](#post-data)
 * [邮件](#mail)
 * [存储内容](#store-content)
 
 无论类型如何，都有适 [用于每](#general-settings) 个操作的常规设置。
+
+### 发布表单数据 {#post-data}
+
+提交表单后，提交的表单数据操作类型会将提交的数据作为JSON传递给第三方以进行处理。
+
+![在表单容器组件的编辑对话框中发布表单数据选项](/help/assets/form-container-edit-post.png)
+
+* **端点** -将处理数据的完全限定的HTTPS服务
+* **错误消息** -在提交失败时显示的消息
+
+>[!TIP]
+>系统管理员可以调整其他超时选项来处理转发的表单数据。 [有关详细信息，请参阅GitHub上的技术文档。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### 邮件 {#mail}
 
@@ -82,6 +95,12 @@ ht-degree: 2%
 * **内容路径** -存储已提交内容的内容存储库路径
 * **视图数据** -点按或单击以将存储的提交数据视图为JSON
 * **开始工作流** -配置以在提交表单时将存储的内容作为有效负荷开始工作流
+
+>[!NOTE]
+>
+>为了简化用户数据管理并强制分散关注点，一般不建议在存储库中存储用户生成的内容。
+>
+>请改用“ [发布表单服务提供商](#post-data) ”操作类型，将用户内容传递到专用的。
 
 ### 常规设置 {#general-settings}
 
