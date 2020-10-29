@@ -2,17 +2,17 @@
 title: 核心组件版本
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: a35054397619e3efe051e557951e2d62634c678a
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 23%
+source-wordcount: '1783'
+ht-degree: 22%
 
 ---
 
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.11.0，与AEM兼容， [是Cloud Service和内部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安装 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 置。 它于2020年7月作为版本2.0.0的重要更新发布。版本2.0.0引入了新组件以及现有组件的v2更新。
+核心组件的当前版本为2.12.0，与AEM兼容， [是Cloud Service和内部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安装 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 置。 它于2020年10月作为版本2.0.0的重要更新发布。版本2.0.0引入了新组件以及现有组件的v2更新。
 
 ## 发布历史和兼容性 {#release-history-and-compatibility}
 
@@ -26,28 +26,29 @@ ht-degree: 23%
 
 | 版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM 云服务 | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了AMP支持。 | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年7月20日 |
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此版本引入了PDF查看器组件。 | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年6月17日 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本支持与Adobe客户端数据层的集成，并引入了进度栏组件。 | 6.4.8.0+ | 6.5.4.0+ | 持续 | 8, 11 | 2020年5月29日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了 [一个新的POST表单处理程序；](/help/components/forms/form-container.md#post-data) 通过上下文感知配置包含自定义CSS、 [Javascript和元数据标记；](/help/developing/including-clientlibs.md#context-aware-loading) 以及简化 `DataLayerBuilder` 自定义组 [件中数据层集成的实用程序。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年10月27日 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了 [AMP支持。](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年7月20日 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此版本引入了 [PDF查看器组件。](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年6月17日 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本支持与Adobe客 [户端层集成](/help/developing/data-layer/overview.md) ，并引入了 [进度栏组件。](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 持续 | 8, 11 | 2020年5月29日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本侧重于修复，但增强了很小。 | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019年12月5日 |
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此版本引入了新的嵌入组件 | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019 年 9 月 25 日 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入了新的体验片段组件 | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019 年 9 月 6 日 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引入了新的Accordion、Button、容器和下载组件。 | 6.4.2.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019年6月25日 |
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入了内容片段列表组件 | 6.4.2.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019年5月7日 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本侧重于对组件库的细化，但也包含对分隔符组件的一些功能增强 | 6.4.2.0+ | 6.5.0.0+ | 持续 | 8 | 2019年3月14日 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本侧重于组件库以及新的分隔符组件，但还包含图像组件的一些功能增强 | 6.4.2.0+ | - | - | 8 | 2019年2月11日 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此版本主要侧重于错误修复，但也包含旋转组件的一些功能增强 | 6.4.2.0+ | - | - | 8 | 2018年11月27日 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 引入了选项卡和传送组件，对图像、页面和标题组件进行了改进，并增强了跟踪功能 | 6.4.2.0+ | - | - | 8 | 2018年10月16日 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 引入了Teaser组件、图像组件改进和大量错误修复 | 6.4.2.0+ | - | - | 8 | 2018年7月13日 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 错误修复版本 | 6.4.0.0+ | - | - | 8 | 2018年6月12日 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 其他底层改进、错误修复和小改进，包括图像翻转支持。 | 6.4.0.0+ | - | - | 8 | 2018年4月11日 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 大多数内在的改进、错误修复，以及对图像、页面和内容片段组件的一些细微改进 | 6.4.0.0+ | - | - | 8 | 2018年3月7日 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 引入了导航、语言导航和快速搜索组件。 为所有组件实现的样式系统。 | 6.4.0.0+ | - | - | 8 | 2018年1月16日 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 在所有组件上实施JSON导出，引入内容片段组件 | 6.4.0.0+ | - | - | 8 | 2017年10月10日 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 对图像组件的多个修复 | 6.4.0.0+ | - | - | 8 | 2017年8月4日 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 页面组件、图像组件的修复、各种全局修复和改进 | 6.4.0.0+ | - | - | 8 | 2017年4月26日 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 图像组件中动画GIF图像的修复 | 6.4.0.0+ | - | - | 7 | 2017年3月22日 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心组件的初始版本 | 6.4.0.0+ | - | - | 7 | 2017年3月20日 |
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此版本引入了新的 [嵌入组件。](/help/components/embed.md) | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019 年 9 月 25 日 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此版本引入了新的 [体验片段组件。](/help/components/experience-fragment.md) | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019 年 9 月 6 日 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | 此版本引入了新 [的Accordion](/help/components/accordion.md) 、 [Button](/help/components/button.md) 、 [](/help/components/container.md)[容器和下载组件。](/help/components/download.md) | 6.4.2.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019年6月25日 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此版本引入了内 [容片段列表组件。](/help/components/content-fragment-list.md) | 6.4.2.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019年5月7日 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此版本侧重于对组件库 [的细化](https://aemcomponents.dev) ，但还包含对分隔符组件的某 [些功能增强。](/help/components/separator.md) | 6.4.2.0+ | 6.5.0.0+ | 持续 | 8 | 2019年3月14日 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此版本侧重于组 [件库](https://aemcomponents.dev) ，并引入了新 [的分隔符组件](/help/components/separator.md) ，但还包含图像组件的某 [些功能增强。](/help/components/image.md) | 6.4.2.0+ | - | - | 8 | 2019年2月11日 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此版本主要侧重于错误修复，但也包含旋转组件的一些功 [能增强。](/help/components/carousel.md) | 6.4.2.0+ | - | - | 8 | 2018年11月27日 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 此版本引入了 [选项卡组](/help/components/tabs.md) 件和传送 [组件，并对图像组件、](/help/components/carousel.md) 页面组件 [、](/help/components/image.md) 页标题组件和进行了改进， [](/help/components/page.md)[](/help/components/title.md) 并增强了跟踪功能。 | 6.4.2.0+ | - | - | 8 | 2018年10月16日 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 此版本引入了 [Teaser组件](/help/components/teaser.md) ，并改进了图 [像组件](/help/components/image.md) 和大量错误修复。 | 6.4.2.0+ | - | - | 8 | 2018年7月13日 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 这是一个错误修复版本。 | 6.4.0.0+ | - | - | 8 | 2018年6月12日 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 此版本新增了内在改进、错误修复和小改进，包括支持图像组件中的图 [像翻转。](/help/components/image.md) | 6.4.0.0+ | - | - | 8 | 2018年4月11日 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | 此版本主要侧重于内在改进、错误修复以及对图像组件、页面组件和内 [容片段组](/help/components/image.md) 件的 [一些小](/help/components/page.md) 微改 [进。](/help/components/content-fragment-component.md) | 6.4.0.0+ | - | - | 8 | 2018年3月7日 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | 此版本引入了 [导航组件、](/help/components/navigation.md) 语言 [导航组件](/help/components/language-navigation.md) 和快速搜 [索组件，并为所](/help/components/quick-search.md) 有组件实 [](/help/get-started/authoring.md#component-styling) 现了样式系统。 | 6.4.0.0+ | - | - | 8 | 2018年1月16日 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | 此版本对所有组件实施JSON导出并引入内 [容片段组件。](/help/components/content-fragment-component.md) | 6.4.0.0+ | - | - | 8 | 2017年10月10日 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | 此版本为图像组件添加了多 [个修复。](/help/components/image.md) | 6.4.0.0+ | - | - | 8 | 2017年8月4日 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 此版本为页面组件、图 [像组件添](/help/components/page.md) 加 [了修复，并](/help/components/image.md) 添加了各种全局修复和改进。 | 6.4.0.0+ | - | - | 8 | 2017年4月26日 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 此版本为图像组件中的动画GIF图像添 [加了修复。](/help/components/image.md) | 6.4.0.0+ | - | - | 7 | 2017年3月22日 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心组件的初始版本。 | 6.4.0.0+ | - | - | 7 | 2017年3月20日 |
 
 >[!NOTE]
 >
