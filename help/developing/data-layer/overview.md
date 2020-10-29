@@ -2,10 +2,10 @@
 title: 将Adobe客户端数据层与核心组件结合使用
 description: 将Adobe客户端数据层与核心组件结合使用
 translation-type: tm+mt
-source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 4%
+source-wordcount: '893'
+ht-degree: 3%
 
 ---
 
@@ -256,3 +256,7 @@ window.adobeDataLayer.push(function (dl) {
 ## 教程
 
 想要更详细地了解数据层和核心组件？ [查看此实践教程](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
+
+>[!TIP]
+>
+>要进一步探索数据层的灵活性，请查看集成选项，包括如何为自定义组件启用数据层。
