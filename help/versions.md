@@ -2,7 +2,7 @@
 title: 核心组件版本
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: a35054397619e3efe051e557951e2d62634c678a
+source-git-commit: d815058a1fe295eba5988a283c17de576ef06c5e
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 22%
@@ -26,7 +26,7 @@ ht-degree: 22%
 
 | 版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM 云服务 | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了 [一个新的POST表单处理程序；](/help/components/forms/form-container.md#post-data) 通过上下文感知配置包含自定义CSS、 [Javascript和元数据标记；](/help/developing/including-clientlibs.md#context-aware-loading) 以及简化 `DataLayerBuilder` 自定义组 [件中数据层集成的实用程序。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年10月27日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了 [一个新的POST表单处理程序；](/help/components/forms/form-container.md#post-data) 通过上下文感知配置包含自定义CSS、 [Javascript和元数据标记；](/help/developing/including-clientlibs.md#context-aware-loading) 以及简化 `DataLayerBuilder` 自定义组 [件中数据层集成的实用程序。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年10月29日 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了 [AMP支持。](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年7月20日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此版本引入了 [PDF查看器组件。](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年6月17日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本支持与Adobe客 [户端层集成](/help/developing/data-layer/overview.md) ，并引入了 [进度栏组件。](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 持续 | 8, 11 | 2020年5月29日 |
