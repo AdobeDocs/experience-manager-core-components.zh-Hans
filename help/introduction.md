@@ -2,10 +2,10 @@
 title: 核心组件简介
 description: '核心组件提供健壮、可扩展的基础组件，这些组件构建在最新技术和最佳实践的基础上。 '
 translation-type: tm+mt
-source-git-commit: 8f57b555b06cbb193e0b94021c81193f016390b8
+source-git-commit: 836fc4a8544e4d5bdf352074385ee4aed9303b1d
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 26%
+source-wordcount: '898'
+ht-degree: 25%
 
 ---
 
@@ -104,9 +104,13 @@ ht-degree: 26%
 
 ## 系统要求 {#system-requirements}
 
-| 核心组件 | AEM 云服务 | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
+| 核心组件 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
 |---------|---------|---------|---------|---------|---------|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 持续 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 持续 | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
+
+>[!NOTE]
+>
+>(*)自版本2.11.0起， `org.apache.sling.models.impl` 版本1.4.12或更高版本是必需的(由 [于SLING-8781](https://issues.apache.org/jira/browse/SLING-8781))。 这将在将来的服务包中为AEM 6.4和6.5提供。 在此之前，Sling Models捆绑包包含在包 `core.wcm.components.all` 中。
 
 有关以前核心组件版本的要求，请参 [阅核心组件版本](versions.md)。
 
