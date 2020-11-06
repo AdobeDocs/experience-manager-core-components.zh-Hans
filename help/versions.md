@@ -2,9 +2,9 @@
 title: 核心组件版本
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: d815058a1fe295eba5988a283c17de576ef06c5e
+source-git-commit: c64276bb95aeaef4223fc2a0dc2c3cfdf8609f5a
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1848'
 ht-degree: 22%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 22%
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.12.0，与AEM兼容， [是Cloud Service和内部部](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 署AEM安装 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 置。 它于2020年10月作为版本2.0.0的重要更新发布。版本2.0.0引入了新组件以及现有组件的v2更新。
+核心组件的当前版本是2.12.1，它与AEM兼容， [作为Cloud Service和](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) 内部部署AEM安装 [](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) 。 它于2020年11月作为2.12.0的修补程序版本发布。版本2.12.0引入了表单、元数据和数据层的几个新功能。
 
 ## 发布历史和兼容性 {#release-history-and-compatibility}
 
@@ -24,10 +24,11 @@ ht-degree: 22%
 
 下表提供了核心组件 [的发行版本及其与AEM发行版和Java版本的兼容性](https://github.com/adobe/aem-core-wcm-components/releases)。
 
-| 版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM 云服务 | Java | 发布日期 |
+| 版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了 [一个新的POST表单处理程序；](/help/components/forms/form-container.md#post-data) 通过上下文感知配置包含自定义CSS、 [Javascript和元数据标记；](/help/developing/including-clientlibs.md#context-aware-loading) 以及简化 `DataLayerBuilder` 自定义组 [件中数据层集成的实用程序。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年10月29日 |
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了 [AMP支持。](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年7月20日 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | 这是2.12.0的修补程序版本，用于修复图像组件中的一个主要错误。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年11月5日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了 [一个新的POST表单处理程序；](/help/components/forms/form-container.md#post-data) 通过上下文感知配置包含自定义CSS、 [Javascript和元数据标记；](/help/developing/including-clientlibs.md#context-aware-loading) 以及简化 `DataLayerBuilder` 自定义组 [件中数据层集成的实用程序。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年10月29日 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此版本引入了 [AMP支持。](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年7月20日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此版本引入了 [PDF查看器组件。](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | 持续 | 8, 11 | 2020年6月17日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此版本支持与Adobe客 [户端层集成](/help/developing/data-layer/overview.md) ，并引入了 [进度栏组件。](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | 持续 | 8, 11 | 2020年5月29日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此版本侧重于修复，但增强了很小。 | 6.4.4.0+ | 6.5.0.0+ | 持续 | 8, 11 | 2019年12月5日 |
@@ -51,6 +52,10 @@ ht-degree: 22%
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心组件的初始版本。 | 6.4.0.0+ | - | - | 7 | 2017年3月20日 |
 
 >[!NOTE]
+>
+>(*)自版本2.11.0起， `org.apache.sling.models.impl` 版本1.4.12或更高版本是必需的(由 [于SLING-8781](https://issues.apache.org/jira/browse/SLING-8781))。 这将在将来的服务包中为AEM 6.4和6.5提供。 在此之前，Sling Models捆绑包包含在包 `core.wcm.components.all` 中。
+
+>[!TIP]
 >
 >与AEM一样，Adobe建议开发人 [员使用最新版本和可用的核心组件版本](https://github.com/adobe/aem-core-wcm-components/releases/latest) ，这些版本与他们运行的AEM版本兼容，以便从最新的修复和功能中受益。
 
