@@ -2,10 +2,10 @@
 title: AEM 项目原型
 description: 基于AEM的应用程序的项目模板
 translation-type: tm+mt
-source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
+source-git-commit: c9ec069a9eb12b8625be09d1c38dcaaf437bd5cb
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 6%
+source-wordcount: '1280'
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ AEM Project Archetype是一个Maven模板，它创建基于最小最佳实践的
 * **页眉和页脚：** 使用组件的本地化功能，无需代码即可将 [其组合并本地化](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/get-started/localization.html)。
 * **样式系统：** 通过允许作者对自定义组件应用不 [同的样式，避免](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) 构建自定义组件。
 * **前端构建：** 前端开发人员可以 [使用Webpack](uifrontend.md#webpack-dev-server)[、TypeScript和SASS模](uifrontend.md) 拟AEM页面并构建客户端库。
-* **WebApp就绪：** 对于使用 [React](uifrontend-react.md) 或Angular的 [站点](uifrontend-angular.md)，请使 [用SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) ，在应 [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)用程序的上下文创作中保留。
+* **WebApp就绪：** 对于使用 [React](uifrontend-react.md) 或Angular的 [站点](uifrontend-angular.md)，请使 [用SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) ，以保 [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)留应用程序的上下文创作。
 * **启用商务：** 对于希望将AEM Commerce与商 [务解决方案](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) (如使用商务核 [心组件](https://magento.com/) 进行 [Magento)](https://github.com/adobe/aem-core-cif-components)集成的项目。
 * **示例代码：** 结帐HelloWorld组件，以及示例模型、Servlet、过滤器和调度程序。
 * **未结来源：** 如果事情不是本该如此，那 [就帮](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) 助您改进！
@@ -80,7 +80,7 @@ mvn -B archetype:generate \
 | `aemVersion` | `cloud` | 目标AEM版本(可 `cloud` 以 [作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);或 `6.5.0`者适 `6.4.4` 用于 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署)。 |
 | `sdkVersion` | `latest` | 当 `aemVersion=cloud` 可 [以指定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) SDK版本时(例如， `2020.02.2265.20200217T222518Z-200130`)。 |
 | `includeDispatcherConfig` | `y` | 根据值（可以是或），为云或AMS/本地包括调度程序 `aemVersion` 配置 `y` 。 `n` |
-| `frontendModule` | `general` | 包括一个Webpack前端构建模块，它生成客户端库(可以是常规 `general` 站点 `none` 或常规站点；可以是 `angular` 或 `react` 用于实施SPA编辑器的单 [页应用程序](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html))。 |
+| `frontendModule` | `general` | 包括一个Webpack前端构建模块，它生成客户端库(可以是常规 `general` 站点 `none` 或常规站点；可以是 `angular` 或 `react` 用于实施SPA Editor的单页 [应用程序](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html))。 |
 | `language` | `en` | 用于从(例如， `en`, `deu`)。 |
 | `country` | `us` | 国家／地区代码(ISO 3166-1)，用于创建内容结构(例如， `US`)。 |
 | `singleCountry` | `y` | 包括语言主控的内容结构( `y`可以是 `n`或)。 |
@@ -91,9 +91,24 @@ mvn -B archetype:generate \
 | `datalayer` | `y` | 激活与Adobe客 [户端数据层的集成](/help/developing/data-layer/overview.md)。 |
 | `amp` | `n` | 启用 [对生成](/help/developing/amp.md) 的项目模板的AMP支持。 |
 
+## Analyzer模块 {#analyzer-module}
+
+AEM analyzer Maven插件可分析各种内容包项目的结构。
+
+有关如何 [将AEM Analyzer Maven插件包含在AEM](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) Maven项目中的信息，请参阅AnalyzerMaven插件文档。 该插件包含在AEM Maven原型版本25及更高版本中。
+
+下表描述了作为此步骤一部分执行的分析器。 请注意，有些在本地SDK中执行，而有些仅在Cloud Manager管道部署期间执行。
+
+| 模块 | 功能、示例和疑难解答 | 本地SDK | Cloud Manager |
+|---|---|---|---|
+| `api-regions-exportsimports` | 检查所有OSGI包是否都具有其Import-Package声明，该声明由Maven项目中其他包含包的Export-package声明所满足。 <p> </p> 要进行疑难解答，请查看要导出的捆绑清单，以确定使用的是错误名称还是错误版本。 | 是 | 是 |
+| `requirements-capabilities` | 检查在OSGI捆绑包中所做的所有要求声明是否由Maven项目中包含的其他捆绑包的功能声明来满足。 <p> </p> 要进行疑难解答，请查看您希望声明功能以确定缺少该功能的捆绑清单。 | 是 | 是 |
+| `bundle-content` | 如果捆绑包包含用Sling-Initial-Content指定的初始内容，则发出警告，在AEM中，这是作为Cloud Service群集环境的问题。 | 是 | 是 |
+| `api-regions-crossfeature-dups` | 验证客户OSGI捆绑包没有覆盖AEM作为Cloud Service公共API的导出包声明 | 是 | 是 |
+
 ## 系统要求
 
-| 原型 | AEM 云服务 | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
+| 原型 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
 |---------|---------|---------|---------|---------|---------|
 | [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | 持续 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
