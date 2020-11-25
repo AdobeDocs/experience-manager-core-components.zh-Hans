@@ -4,10 +4,10 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: Core Components 指南
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 translation-type: tm+mt
-source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
+source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 71%
+source-wordcount: '206'
+ht-degree: 69%
 
 ---
 
@@ -89,3 +89,4 @@ ht-degree: 71%
       + [ui.frontend.react模块](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular模块](developing/archetype/uifrontend-angular.md)
       + [ui.tests模块](developing/archetype/uitests.md)
+      + [构建Analyzer Maven插件](developing/archetype/build-analyzer-maven-plugin.md)
