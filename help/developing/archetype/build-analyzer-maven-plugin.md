@@ -2,9 +2,9 @@
 title: AEM作为Cloud ServiceSDK构建Analyzer Maven插件
 description: 本地Maven构建分析器插件的文档
 translation-type: tm+mt
-source-git-commit: a58434ebf7ae72472989f2e55d40bfa22fd99208
+source-git-commit: abb43865278f884555d1bb963686ccc561f319b5
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 3%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 3%
 
 # AEM作为Cloud ServiceSDK构建Analyzer Maven插件 {#maven-analyzer-plugin}
 
-AEM analyzer Maven插件可分析各种内容包项目的结构。
+AEM作为Cloud ServiceSDK构建分析器主插件，可分析各种内容包项目的结构。
 
 有关如何 [将AEM Analyzer Maven插件包含在AEM](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) Maven项目中的信息，请参阅AnalyzerMaven插件文档。
 
-下表描述了作为此步骤一部分执行的分析器。 请注意，有些在本地SDK中执行，而有些仅在Cloud Manager管道部署期间执行。
+下表描述了作为此步骤一部分执行的分析器。 <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | 模块 | 功能、示例和疑难解答 | 本地SDK | Cloud Manager |
 |---|---|---|---|
