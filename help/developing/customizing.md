@@ -1,44 +1,47 @@
 ---
 title: 自定义核心组件
-description: 核心组件实现了多种模式，从简单的样式设计到高级功能重用，这些模式可轻松实现自定义。
+description: 核心组件实现了多种模式，从简单的样式设计到高级功能重用，都可轻松定制。
 translation-type: tm+mt
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 2%
 
 ---
 
 
 # 自定义核心组件{#customizing-core-components}
 
-核心 [组件实施了多种模式](overview.md) ，从简单的样式设计到高级功能重用，这些模式可轻松自定义。
+[核心组件](overview.md)实现了多种可轻松自定义的模式，从简单样式到高级功能重用。
 
-## 灵活的架构 {#flexible-architecture}
+## 灵活的架构{#flexible-architecture}
 
 核心组件从一开始就设计为灵活且可扩展。 查看其架构的概述，可了解可在何处进行自定义。
 
 ![核心组件架构](/help/assets/screen_shot_2018-12-07at093742.png)
 
-* [设计对话框定义](/help/get-started/authoring.md#edit-and-design-dialogs) ，作者可以在编辑对话框中执行或无法执行的操作。
-* [编辑对话框](/help/get-started/authoring.md#edit-and-design-dialogs) ，仅向作者显示允许他们使用的选项。
-* [Sling模型验证](#customizing-the-logic-of-a-core-component) ，并为视图（模板）准备内容。
-* [Sling模型的结果可以序列化为JSON](#customizing-the-logic-of-a-core-component) ，以供SPA用例使用。
-* [HTL在服务器端呈现HTML](#customizing-the-markup) ，以实现传统的服务器端呈现。
-* [HTML输出具有语义](#customizing-the-markup) 、可访问性、经过优化的搜索引擎并且易于设置样式。
+* [设计对](/help/get-started/authoring.md#edit-and-design-dialogs) 话框定义作者在编辑对话框中可以或不能执行的操作。
+* [编辑对](/help/get-started/authoring.md#edit-and-design-dialogs) 话框仅向作者显示允许他们使用的选项。
+* [Sling模型](#customizing-the-logic-of-a-core-component) 验证并准备视图的内容（模板）。
+* [对于SPA用例，Sling](#customizing-the-logic-of-a-core-component) 模型的结果可序列化为JSON。
+* [HTL在HTML服务器](#customizing-the-markup) 端进行传统的服务器端渲染。
+* [HTML输出](#customizing-the-markup) 具有语义、可访问性、经过优化的搜索引擎以及易于设置样式。
 
-所有核心组件都实现 [样式系统](#styling-the-components)。
+所有核心组件都实现[样式系统](#styling-the-components)。
 
 ## AEM 项目原型 {#aem-project-archetype}
 
-[AEM Project Archetype将创建一个最小的Adobe Experience Manager项目作为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件示例，用于逻辑和使用建议的代理模式正确实施核心组件。](/help/developing/archetype/overview.md)
+[AEM Project Archety](/help/developing/archetype/overview.md) 将最小的Adobe Experience Manager项目视为您自己项目的起点，包括一个包含SlingModels的自定义HTL组件的示例，用于逻辑和使用推荐的代理模式正确实施核心组件。
 
-## 自定义模式 {#customization-patterns}
+## 自定义模式{#customization-patterns}
 
-### 自定义对话框 {#customizing-dialogs}
+### 自定义对话框{#customizing-dialogs}
 
-可能需要自定义核心组件对话框中可用的配置选项，无论是设计对 [话框还是编辑对话框](/help/get-started/authoring.md)。
+可能需要自定义核心组件对话框中的可用配置选项，无论是[设计对话框还是编辑对话框](/help/get-started/authoring.md)。
 
-每个对话框都具有一致的节点结构。 建议在继承组件中复制此结构，以便 [Sling Resource Mergare](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) and [Hide Conditions](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) （合并和隐藏条件）可用于隐藏、替换或重新排序原始对话框的各个部分。 要复制的结构定义为跳位项节点级别以下的任何内容。
+每个对话框都具有一致的节点结构。 建议在继承组件中复制此结构，以便[Sling Resource Mergare](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html)和[ Hide Conditions](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html)可用于隐藏、替换或重新排序原始对话框的各个部分。 要复制的结构定义为任何最高到选项卡项目节点级别的内容。
 
-为了与对对话框当前版本所做的任何更改完全兼容，务必不要改动选项卡项目级别下的结构（隐藏、添加到、替换、重新排序等）。 相反，父项中的选项卡项应通过属性(请参阅 `sling:hideResource`[Sling Resource Mergare Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html))隐藏，并添加了新的包含定制配置字段的选项卡项。 `sling:orderBefore` 可用于根据需要对选项卡项重新排序。
+要完全兼容对对话框当前版本所做的任何更改，必须不接触选项卡项目级别下的结构（隐藏、添加到、替换、重新排序等）。 相反，应通过`sling:hideResource`属性（请参阅[Sling Resource Mergare Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)）隐藏父代中的选项卡项，并添加新的包含定制配置字段的选项卡项。 `sling:orderBefore` 可用于根据需要对选项卡项进行重新排序。
 
 下面的对话框演示了建议的对话框结构以及如何隐藏和替换继承的选项卡，如上所述：
 
@@ -70,13 +73,13 @@ source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 </jcr:root>
 ```
 
-### 自定义核心组件的逻辑 {#customizing-the-logic-of-a-core-component}
+### 自定义核心组件{#customizing-the-logic-of-a-core-component}的逻辑
 
-核心组件的业务逻辑在Sling Models中实现。 此逻辑可通过使用Sling委托模式来扩展。
+核心组件的业务逻辑在Sling Models中实现。 此逻辑可通过使用Sling委托模式进行扩展。
 
-例如，标题核心组件使用所请 `jcr:title` 求资源的属性提供标题文本。 如果未 `jcr:title` 定义任何属性，则将实现对当前页面标题的回退。 我们希望更改行为，以便始终显示当前页面的标题。
+例如，标题核心组件使用所请求资源的`jcr:title`属性提供标题文本。 如果未定义`jcr:title`属性，则将实现对当前页面标题的回退。 我们希望更改行为，以便始终显示当前页面的标题。
 
-由于核心组件模型的实施是私有的，因此必须使用委托模式来扩展它们。
+由于核心组件模型的实施是私有的，因此必须采用委托模式来扩展它们。
 
 ```java
 @Model(adaptables = SlingHttpServletRequest.class,
@@ -95,23 +98,23 @@ public class PageHeadline implements Title {
 }
 ```
 
-有关委托模式的更多详细信息，请参阅核心组件GitHub wiki文章Sling [模型的委托模式](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)。
+有关委托模式的更多详细信息，请参阅核心组件GitHub Wiki文章[ Sling模型的委托模式](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)。
 
-### 自定义标记 {#customizing-the-markup}
+### 自定义标记{#customizing-the-markup}
 
 有时，高级样式需要组件的不同标记结构。
 
 这可以通过将需要修改的HTL文件从核心组件复制到代理组件中来轻松完成。
 
-再以核心痕迹导航组件的示例为例，要自定义其标记输出，必须将文件复制到站点特定的组件中，该组件具有指向核心痕迹导航 `breadcrumb.html``sling:resourceSuperTypes` 组件的组件。
+再举核心痕迹导航组件的示例，要自定义其标记输出，必须将`breadcrumb.html`文件复制到站点特定的组件中，该组件具有指向核心痕迹导航组件的`sling:resourceSuperTypes`。
 
-### 设置组件样式 {#styling-the-components}
+### 设置组件{#styling-the-components}的样式
 
 第一种自定义形式是应用CSS样式。
 
-为了简化这一过程，核心组件渲染语义标记并遵循由 [Bootstrap启发的标准化命名惯例](https://getbootstrap.com/)。 此外，为了轻松定位和命名各个组件的样式，每个核心组件都包装在一个DIV元素中，并带有“ `cmp`”和“ `cmp-<name>`”类。
+为了简化这一过程，核心组件渲染语义标记并遵循由[Bootstrap](https://getbootstrap.com/)启发的标准化命名约定。 此外，为了轻松目标和命名空间各个组件的样式，每个核心组件都打包在DIV元素中，并带有“ `cmp`”和“ `cmp-<name>`”类。
 
-例如，查看v1核心痕迹导航组件的HTL文件：Breadcrumb.html [，我们会看到元素输出的层次结构](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)`ol.breadcrumb > li.breadcrumb-item > a`。 因此，要确保CSS规则仅影响该组件的痕迹导航类，所有规则的命名应如下所示：
+例如，查看v1核心痕迹导航组件的HTL文件：[痕迹导航mb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)，我们看到元素输出的层次结构为`ol.breadcrumb > li.breadcrumb-item > a`。 因此，要确保CSS规则仅影响该组件的痕迹导航类，所有规则的命名方式应如下所示：
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -119,39 +122,39 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每个核心组件还利用AEM [Style System功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) ，该功能允许模板作者定义其他CSS类名称，这些名称可由页面作者应用于组件。 这允许为每个模板定义一个允许的组件样式列表，以及其中一个样式是否应默认应用于该类型的所有组件。
+此外，每个核心组件都利用AEM [样式系统功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html)，该功能允许模板作者定义其他CSS类名称，这些名称可由页面作者应用于组件。 这允许为每个模板定义允许的组件样式的列表，以及默认情况下其中一个样式是否应用于该类型的所有组件。
 
-## 自定义的升级兼容性 {#upgrade-compatibility-of-customizations}
+## 自定义{#upgrade-compatibility-of-customizations}的升级兼容性
 
-有三种不同的升级方式：
+可以进行三种不同的升级：
 
 * 升级AEM版本
 * 将核心组件升级到新的次要版本
-* 将核心组件升级到主要版本
+* 将核心组件升级到主版本
 
-通常，将AEM升级到新版本不会影响核心组件或完成的自定义，前提是组件的版本还支持要迁移到的新AEM版本，且自定义不使用已弃用或删除 [的API](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+通常，将AEM升级到新版本不会影响核心组件或完成的自定义，前提是组件版本还支持要迁移到的新AEM版本，且自定义不使用[已弃用或已删除的API](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
-只要使用本页所述的自定义模式，在不切换到较新的主要版本的情况下升级核心组件不会影响自定义。
+只要使用本页中描述的自定义模式，在不切换到较新的主要版本的情况下升级核心组件不会影响自定义。
 
-切换到核心组件较新的主要版本仅对内容结构兼容，但可能需要重新构建自定义。 将为每个组件版本发布清除更改日志，以突出显示将影响本页所述自定义类型的更改。
+切换到核心组件较新的主要版本仅与内容结构兼容，但可能需要重新构建自定义。 将为每个组件版本发布清除更改日志，以突出显示将影响本页所述自定义类型的更改。
 
-## 支持自定义 {#support-of-customizations}
+## 支持自定义{#support-of-customizations}
 
-与任何AEM组件一样，在自定义方面需要注意许多事项：
+与任何AEM组件一样，在自定义方面有许多注意事项需要注意：
 
 1. **切勿直接修改核心组件的代码。**
 
-   这会使组件完全不受支持，并使组件的未来更新成为一个痛苦的过程。 请改用本页中介绍的自定义方法。
+   这将使它们完全不受支持，并使组件的未来更新成为一个痛苦的过程。 请改用本页所述的自定义方法。
 
 1. **自定义代码由您自行负责。**
 
-   我们的支持计划不涵盖自定义代码，并且报告的问题无法与文档中使用的 [vanilla核心组件复制](/help/get-started/using.md) 。
+   我们的支持项目不涵盖自定义代码，并且报告的无法用[作为文档使用的vanilla核心组件复制的问题将不符合条件。](/help/get-started/using.md)
 
 1. **观看已弃用和已删除的功能。**
 
-   在将每个新AEM版本升级到的情况下，通过关注已弃用和已删除的功能页面，确保所有使用的API仍 [然是热门的](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) 。
+   将每个新的AEM版本升级到后，请注意[已弃用和已删除功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)页面，确保所有使用的API仍然是热门的。
 
-另请参阅核 [心组件支持](overview.md#core-component-support) 。
+另请参阅[核心组件支持](overview.md#core-component-support)部分。
 
 **阅读下一篇文章：**
 
