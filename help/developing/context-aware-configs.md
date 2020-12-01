@@ -2,25 +2,25 @@
 title: Sling上下文感知配置和核心组件
 description: 核心组件利用Sling上下文感知配置来实现某些功能
 translation-type: tm+mt
-source-git-commit: 11e2c6da0fa93084b601437fd45fd65dd8d73231
+source-git-commit: aff9046008dcea6c0cbda4b3de400df77a507097
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 
-# Sling上下文感知配置和核心组件 {#sling-context-aware-configurations}
+# Sling上下文感知配置和核心组件{#sling-context-aware-configurations}
 
-上下文感知配置是Sling的一个功能，是与内容资源或资源树相关的配置，核心组件利用这些配置来允许站点范围的配置。
+上下文感知配置是Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)的[功能。 这些配置与内容资源或资源树相关，并由核心组件利用它们来允许站点范围的配置。
 
-## Sling上下文感知配置 {#context-aware-configurations}
+## Sling上下文感知配置{#context-aware-configurations}
 
 您的站点可能需要针对不同站点区域的不同配置，例如，某些参数可能共享，需要继承嵌套上下文和全局回退值。 AEM利用Sling上下文感知配置，从而实现这种可能性。
 
-有关AEM中配置的详细信息， [请参阅配置和配置浏览器文档。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
+有关AEM中配置的详细信息，请参阅配置和配置浏览器文档。[](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
 
-## 用于核心组件 {#core-components}
+## 在核心组件{#core-components}中使用
 
 许多核心组件功能都利用上下文感知配置。 所有这些配置都位于以下节点下：
 
