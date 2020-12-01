@@ -11,7 +11,7 @@ ht-degree: 3%
 ---
 
 
-# 图像组件(v1) {#image-component-v}
+# 图像组件(v1){#image-component-v}
 
 核心组件图像组件是一种自适应图像组件功能，可进行就地编辑。
 
@@ -19,9 +19,9 @@ ht-degree: 3%
 
 图像组件可轻松放置图像资产和优惠进行就地编辑。 它具有自适应图像选择功能，具有延迟加载和为内容作者裁剪功能。
 
-模板作者可以在设计对话框中定义允许的图像宽度以及裁剪和其 [他设置](#design-dialog)。 内容编辑器可以在“配置”对话框中上 [传或选择资](#configure-dialog) 产，并在“编辑”对 [话框中裁剪图像](#edit-dialog)。 为了更方便，还可以对图像进行简单的就地修改。
+模板作者可以在[设计对话框](#design-dialog)中定义允许的图像宽度以及裁剪和其他设置。 内容编辑器可以上传或选择[配置对话框](#configure-dialog)中的资产，并裁剪[编辑对话框](#edit-dialog)中的图像。 为了更方便，还可以对图像进行简单的就地修改。
 
-## 版本和兼容性 {#version-and-compatibility}
+## 版本和兼容性{#version-and-compatibility}
 
 本文档描述了最初随AEM 6.3的核心组件版本1.0.0引入的图像组件版本1。
 
@@ -36,11 +36,11 @@ ht-degree: 3%
 >
 >此文档描述图像组件的v1。
 >
->有关图像组件的当前版本的详细信息，请参阅图 [像组件](/help/components/image.md) 文档。
+>有关图像组件的当前版本的详细信息，请参阅[图像组件](/help/components/image.md)文档。
 
-## 示例组件输出 {#sample-component-output}
+## 示例组件输出{#sample-component-output}
 
-以下是从We.Retail [取得的示例](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)。
+以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)取的示例。
 
 ### 屏幕快照 {#screenshot}
 
@@ -73,30 +73,30 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要1.1.0版的核心组件。 请参阅核 [心组件v1的兼容性信息](/help/versions.md) ，了解更多信息。
+>从核心组件导出JSON时，需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
-## 配置对话框 {#configure-dialog}
+## 配置对话框{#configure-dialog}
 
-除了标准的编 [辑对话框](#edit-dialog)[和设计对话框](#design-dialog)，图像组件还优惠一个配置对话框，在该对话框中定义图像本身及其描述和基本属性。
+除了标准[编辑对话框](#edit-dialog)和[设计对话框](#design-dialog)之外，图像组件还优惠一个配置对话框，其中定义了图像本身及其描述和基本属性。
 
 ![](/help/assets/chlimage_1-50.png)
 
 * **图像资产**
-   * 从资产浏览器 [中删除资产](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) ，或点 **按浏览选** 项，以从本地文件系统上传。
-   * 点按或单击 **清除** ，以取消选择当前选定的图像。
-   * 点按或单 **击**[编辑，以在资产编辑器中](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) 管理资产的演绎版。
+   * 从[资产浏览器](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)中删除资产，或点按&#x200B;**浏览**&#x200B;选项，从本地文件系统中上传。
+   * 点按或单击&#x200B;**清除**&#x200B;以取消选择当前选定的图像。
+   * 点按或单击&#x200B;**编辑**&#x200B;以[在资产编辑器中管理资产](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)的演绎版。
 
-* **图像具有装饰性** -检查图像是否应被辅助型技术忽略，因此不需要替代文本。 这仅适用于装饰图像。
-* **替换文本** -对于视力受损的读者，图像含义或功能的文本替换。
+* **图像具有装饰性** -检查图像是否应被辅助技术忽略，因此不需要替代文本。这仅适用于装饰图像。
+* **替代文本** -对于视觉障碍的读者，图像含义或功能的文本替代。
 * **链接**
    * 将图像链接到其他资源。
    * 使用选择对话框链接到另一个AEM资源。
    * 如果未链接到AEM资源，请输入绝对URL。 非溶质URL将解释为相对于AEM。
 
-* **Caption** —— 默认为有关图像的其他信息，显示在图像下方。
-* **将题注显示为弹出** -选中此项后，题注将不会显示在图像下方，而是在将鼠标悬停在图像上方时由某些浏览器显示为弹出窗口。
+* **Caption**  —— 默认为有关图像的其他信息，显示在图像下方。
+* **将题注显示为弹出** -选中此项后，题注将不会显示在图像下方，而会在鼠标悬停在图像上方时由某些浏览器显示为弹出窗口。
 
-## Edit Dialog {#edit-dialog}
+## 编辑对话框{#edit-dialog}
 
 编辑对话框允许内容作者裁剪、修改启动映射和缩放图像。
 
@@ -108,8 +108,8 @@ ht-degree: 3%
 
    选择此选项将打开预定义裁剪比例的下拉框。
 
-   * 选择“手 **自由** ”选项以定义您自己的裁剪。
-   * 选择删除 **裁剪** ，以显示原始资产。
+   * 选择选项&#x200B;**Free Hand**&#x200B;以定义您自己的裁剪。
+   * 选择选项&#x200B;**删除裁剪**&#x200B;以显示原始资产。
 
    选择裁剪选项后，使用蓝色手柄调整图像上的裁剪大小。
 
@@ -143,7 +143,8 @@ ht-degree: 3%
       * 使用路径选取器选项在AEM中选择路径
       * 如果路径不在AEM中，请使用绝对URL。 非绝对路径将被解释为相对于AEM。
 
-      * **替代文**&#x200B;本路径目标的替代说明
+      * **替**
+代文本路径目标的替代说明
       * **目标**
          * **相同选项卡**
          * **“新建”选项卡**
@@ -176,13 +177,13 @@ ht-degree: 3%
 >
 >GIF图像不支持图像编辑操作（裁剪、翻转、旋转）。 在编辑模式下对GIF所做的任何此类更改都不会被保留。
 
-## 设计对话框 {#design-dialog}
+## 设计对话框{#design-dialog}
 
 设计对话框允许模板作者定义内容作者在使用此组件时进行的裁剪、上传和旋转上传。
 
 ### 主要 {#main}
 
-On the **Main** tab you can define a list of allowed widths in pixels for the image to automatically load the most appropriate width from the list.
+在&#x200B;**Main**&#x200B;选项卡上，可以定义允许宽度的列表（以像素为单位），以便图像自动从列表加载最合适的宽度。
 
 ![](/help/assets/chlimage_1-51.png)
 
@@ -191,48 +192,49 @@ On the **Main** tab you can define a list of allowed widths in pixels for the im
 * 使用抓握手柄重新排列大小的顺序。
 * 使用删除图标删除宽度。
 
-默认情况下，图像加载会延迟到它们变为可见。 选择“停 **用延迟加载** ”选项，在页面加载时加载图像。
+默认情况下，图像加载会延迟到它们变为可见。 选择选项&#x200B;**禁用延迟加载**，以在页面加载时加载图像。
 
 ### 功能 {#features}
 
-在“功 **能** ”选项卡上，您可以定义当使用内容作者使用的选项，包括上传选项、方向和裁剪选项。
+在&#x200B;**功能**&#x200B;选项卡上，您可以定义在使用包含上载选项、方向和裁剪选项的组件时，内容作者可以使用哪些选项。
 
 * 源
 
    ![](/help/assets/chlimage_1-19.png)
 
-   选择“允 **许从文件系统上传资产** ”选项，以允许内容作者从其本地计算机上传图像。 要强制内容作者仅从AEM中选择资产，请取消选择此选项。
+   选择选项&#x200B;**允许从文件系统上传资产**&#x200B;以允许内容作者从其本地计算机上传图像。 要强制内容作者仅从AEM中选择资产，请取消选择此选项。
 
 * 方向
 
    ![](/help/assets/chlimage_1-20.png)
 
-   * **旋转** -使用此选项可允许内容作者使用“向右旋 **转** ”选项。
-   * **翻转**&#x200B;使用此选项可允许内容作者使用 
-**“水平翻转** ”和 **“垂直翻转** ”选项。
+   * **旋转** -使用此选项可允许内容作者使用旋 **转** 权选项。
+   * **翻**
+转使用此选项允许内容作者使用 
+**“水平** 翻转”和“ **垂直** 翻转”选项。
    >[!CAUTION]
    >
-   >默认 **情况下** ,“翻转”选项处于禁用状态。 启用此功能将在图 **像组件的编** 辑对话框中显示 **“垂直翻转”和“水平翻转** ”按钮，但AEM当前不支持此功能，并且不会保留使用这些选项所做的任何更改。
+   >默认情况下，**Flip**&#x200B;选项处于禁用状态。 启用此功能，将在图像组件的编辑对话框中显示&#x200B;**垂直翻转**&#x200B;和&#x200B;**水平翻转**&#x200B;按钮，但AEM当前不支持此功能，并且不会保留使用这些选项所做的任何更改。
 
 * 裁剪
 
    ![](/help/assets/chlimage_1-21.png)
 
-   选择允许 **裁剪** ，以允许内容作者在编辑对话框中裁剪组件中的图像。
-   * 单 **击** “添加”以添加预定义的裁剪长宽比。
-   * 输入描述性名称，该名称将显示在“开始 **裁剪** ”下拉框中。
+   选择选项&#x200B;**允许裁剪**，以允许内容作者在编辑对话框中裁剪组件中的图像。
+   * 单击&#x200B;**添加**&#x200B;以添加预定义的裁剪长宽比。
+   * 输入描述性名称，该名称将显示在&#x200B;**开始裁剪**&#x200B;下拉列表中。
    * 输入长宽比的数值。
    * 使用拖动手柄重新排列长宽比的顺序
    * 使用垃圾桶图标删除长宽比。
 
    >[!CAUTION]
    >
-   >Note that in AEM, crop aspect ratios are defined as **height/width**. 这与常见的宽高比的定义不同，这样做是出于对旧版兼容性的考虑。只要您提供比率的明确名称，内容作者就不会察觉到任何差异，因为该名称显示在UI中，而不是比率本身。
+   >请注意，在AEM中，裁剪长宽比定义为&#x200B;**height/width**。 这与常见的宽高比的定义不同，这样做是出于对旧版兼容性的考虑。只要您提供比率的明确名称，内容作者就不会察觉到任何差异，因为该名称显示在UI中，而不是比率本身。
 
-## 技术详细信息 {#technical-details}
+## 技术详细信息{#technical-details}
 
-有关图像组件的最新技术文 [档可在GitHub上找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)。
+有关映像组件[的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)上找到。
 
 整个核心组件项目可从GitHub下载。
 
-有关开发核心组件的更多详细信息，请参阅核 [心组件开发人员文档](/help/developing/overview.md)。
+有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
