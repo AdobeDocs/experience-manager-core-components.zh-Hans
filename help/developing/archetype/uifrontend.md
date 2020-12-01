@@ -10,11 +10,11 @@ ht-degree: 0%
 ---
 
 
-# aem Project Archetype的ui.frontend模块 {#uifrontend-module}
+# aem Project Archetype {#uifrontend-module}的ui.frontend模块
 
 AEM Project Archetype包括一个可选的、基于Webpack的专用前端构建机制。 因此，ui.frontend模块成为项目所有前端资源（包括JavaScript和CSS文件）的中心位置。 要充分利用这一有用、灵活的功能，必须了解前端开发如何适合AEM项目。
 
-## AEM项目和前端开发 {#aem-and-front-end-development}
+## AEM项目和前端开发{#aem-and-front-end-development}
 
 用极为简化的术语来说，AEM项目可以认为是由两个单独但相关的部分组成的：
 
@@ -27,17 +27,17 @@ AEM Project Archetype包括一个可选的、基于Webpack的专用前端构建�
 
 但是，任何最终的项目都需要同时使用这些开发工作的产出，即后端和前端。
 
-运 `npm run dev` 行开始前端构建过程，该过程收集存储在ui.frontend模块中的JavaScript和CSS文件，并生成调用并存放在ui.apps模块中的两个精简客户端库 `clientlib-site``clientlib-dependencies` 或ClientLib。 ClientLib可部署到AEM并允许您将客户端代码存储在存储库中。
+运行`npm run dev`将开始前端构建过程，该过程收集存储在ui.frontend模块中的JavaScript和CSS文件，并生成两个名为`clientlib-site`和`clientlib-dependencies`的精简客户端库或ClientLib，并将它们放入ui.apps模块中。 ClientLib可部署到AEM并允许您将客户端代码存储在存储库中。
 
-当整个AEM项目原型使用所有项目 `mvn clean install -PautoInstallPackage` 对象（包括ClientLib）运行时，会将其推送到AEM实例。
+使用`mvn clean install -PautoInstallPackage`运行整个AEM项目原型时，包括ClientLib在内的所有项目对象都会推送到AEM实例。
 
 >[!TIP]
 >
->进一步了解AEM在AEM开发文档中如 [何处理ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)，如 [何包含它们](/help/developing/including-clientlibs.md)，或查看 [下面ui.frontend模块如何使用它们。](#clientlib-generation)
+>进一步了解AEM如何在[AEM开发文档](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)中处理ClientLibs，如何[将它们包含在](/help/developing/including-clientlibs.md)中，或参见下面的[ui.frontend模块如何使用它们。](#clientlib-generation)
 
-## ClientLibs概述 {#clientlibs}
+## ClientLibs概述{#clientlibs}
 
-前端模块可使用AEM [ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)。 执行NPM构建脚本时，将构建应用程序，aem-clientlib-generator包将获得的构建输出并将其转换为此类ClientLib。
+前端模块使用[AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)可用。 执行NPM构建脚本时，将构建应用程序，aem-clientlib-generator包将获得的构建输出并将其转换为此类ClientLib。
 
 ClientLib将包含以下文件和目录：
 
@@ -47,38 +47,38 @@ ClientLib将包含以下文件和目录：
 * `js.txt` 告诉AEM文件的顺序和名称， `js/` 以便合并它们
 * `resources/`:源映射、非入口点代码块（由代码拆分产生）、静态资产（例如图标）等。
 
-## 可能的前端开发工作流 {#possible-workflows}
+## 可能的前端开发工作流{#possible-workflows}
 
-前端构建模块是一个实用且非常灵活的工具，但并未对它的使用方式提出任何具体意见。 以下是两个可能的使 *用示例* ，但您的个别项目需求可能决定其他使用模式。
+前端构建模块是一个实用且非常灵活的工具，但并未对它的使用方式提出任何具体意见。 以下是&#x200B;*可能的*&#x200B;使用情况的两个示例，但您的单个项目需要可能决定其他使用模式。
 
-### 使用Webpack Static Development Server {#using-webpack}
+### 使用Webpack静态开发服务器{#using-webpack}
 
 使用Webpack，您可以根据ui.frontend模块中AEM网页的静态输出进行样式设计和开发。
 
-1. 预览AEM中使用页面预览模式或在URL `wcmmode=disabled` 中传递页面
+1. 预览在AEM中使用页面预览模式或在URL中传入`wcmmode=disabled`
 1. 视图页面源并在ui.frontend模块中另存为静态HTML
-1. [开始Web](#webpack-dev-server) Pack并开始设计样式并生成必要的JavaScript和CSS
-1. 运 `npm run dev` 行以生成ClientLib
+1. [开始](#webpack-dev-server) webpack和开始设置样式并生成必要的JavaScript和CSS
+1. 运行`npm run dev`以生成ClientLib
 
 在此流程中，AEM开发人员可以执行步骤一和步骤二，并将静态HTML传递给基于AEM HTML输出进行开发的前端开发人员。
 
 >[!TIP]
 >
->您还可以利用组 [件库](https://adobe.com/go/aem_cmp_library) ，捕获每个组件标记输出的样本，以便在组件级别而不是页面级别工作。
+>您还可以利用[组件库](https://adobe.com/go/aem_cmp_library)捕获每个组件的标记输出样本，以便在组件级别而不是页面级别工作。
 
-### 使用故事书 {#using-storybook}
+### 使用串连图书{#using-storybook}
 
-使 [用Storybook](https://storybook.js.org) ，您可以执行更多原子前端开发。 尽管AEM Project Archetype中不包含Storybook，但您可以安装它，并在ui.frontend模块中存储Storybook对象。 准备好在AEM中进行测试后，可以通过运行将它们部署为ClientLib `npm run dev`。
+使用[Storybook](https://storybook.js.org)，您可以执行更多原子前端开发。 尽管AEM Project Archetype中不包含Storybook，但您可以安装它，并在ui.frontend模块中存储Storybook对象。 准备好在AEM中进行测试后，可以通过运行`npm run dev`将其部署为ClientLibs。
 
 >[!NOTE]
 >
->[AEM](https://storybook.js.org) Project Archetype中不包含Storybook。 如果选择使用它，则必须单独安装它。
+>[aem ](https://storybook.js.org) Project Archetype中不包含Storybook。如果选择使用它，则必须单独安装它。
 
-### 确定标记 {#determining-markup}
+### 确定标记{#determining-markup}
 
 无论您决定为您的项目实施哪个前端开发工作流程，后端开发人员和前端开发人员都必须首先同意该标记。 通常，AEM定义由核心组件提供的标记。 [但是，如有必要，可以自定义此项](/help/developing/customizing.md#customizing-the-markup)。
 
-## ui.frontend模块 {#ui-frontend-module}
+## ui.frontend模块{#ui-frontend-module}
 
 AEM Project Archetype包括基于Webpack的可选专用前端构建机制，该机制具有以下功能。
 
@@ -88,12 +88,12 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制，该�
 * 通配
    * 无需在任何位置添加导入
    * 现在，所有JS和CSS文件都可添加到每个组件。
-      * 最佳实践在 `/clientlib/js`以下 `/clientlib/css`、或 `/clientlib/scss`
-   * 由于 `.content.xml` 所有内 `js.txt`容都通过Webpack运行`css.txt` ，因此无需任何或／文件。
-   * 该全局程序将拉入该文件夹下的所有JS `/component/` 文件。
+      * 最佳实践在`/clientlib/js`、`/clientlib/css`或`/clientlib/scss`下
+   * 由于所有内容都通过Webpack运行，因此不需要`.content.xml`或`js.txt`/`css.txt`文件。
+   * 全局服务器将拉入`/component/`文件夹下的所有JS文件。
       * Webpack允许通过JS文件链接CSS/SCSS文件。
-      * 他们被拉进两个入口点， `sites.js` 然后 `vendors.js`。
-   * AEM使用的唯一文件是输 `site.js` 出 `site.css` 文件 `/clientlib-site` 以及 `dependencies.js` 输 `dependencies.css` 入 `/clientlib-dependencies`
+      * 它们通过两个入口点（`sites.js`和`vendors.js`）被拉入。
+   * AEM使用的唯一文件是`/clientlib-site`中的输出文件`site.js`和`site.css`以及`/clientlib-dependencies`中的`dependencies.js`和`dependencies.css`
 * 区块
    * 主要（站点js/css）
    * 供应商（依赖项js/css）
@@ -102,16 +102,16 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制，该�
 
 >[!NOTE]
 >
->有关ui.frontend模块的更多技术信息，请参阅GitHub [上的文档](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md)。
+>有关ui.frontend模块的更多技术信息，请参阅GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md)上的[文档。
 
-## 安装 {#installation}
+## 安装{#installation}
 
-1. 全 [局安装](https://nodejs.org/en/download/) NodeJS(v10+)。 这也将安装npm。
-1. 在项目中导航到ui.frontend并运行 `npm install`。
+1. 全局安装[NodeJS](https://nodejs.org/en/download/)(v10+)。 这也将安装npm。
+1. 导航到项目中的ui.frontend并运行`npm install`。
 
 >[!NOTE]
 >
->您必须运 [行带有](overview.md) “填充ui. `-DoptionIncludeFrontendModule=y` frontend”文件夹”选项的原型。
+>必须具有[运行带有选项`-DoptionIncludeFrontendModule=y`的原型](overview.md)来填充ui.frontend文件夹。
 
 ## 使用 {#usage}
 
@@ -123,10 +123,10 @@ AEM Project Archetype包括基于Webpack的可选专用前端构建机制，该�
 
 ## 输出 {#output}
 
-ui.frontend模块编译文件夹下的代码 `ui.frontend/src` ，并输出已编译的CSS和JS以及名为的文件夹下的任何资源 `ui.frontend/dist`。
+ui.frontend模块编译`ui.frontend/src`文件夹下的代码，并输出已编译的CSS和JS以及名为`ui.frontend/dist`的文件夹下的任何资源。
 
-* **站点** - `site.js`以及布局相关 `site.css` 图像和字体的文件夹都在clientlib-site文 `resources/``dist/`件夹中创建。
-* **依赖项** - `dependencies.js` 并 `dependencies.css` 在文件夹中创 `dist/clientlib-dependencies` 建。
+* **站点** -以 `site.js`及布局相 `site.css` 关图像和字体的文件夹都在clientlib-site `resources/`  `dist/`文件夹中创建。
+* **依赖项** - `dependencies.js` 并 `dependencies.css` 在文件夹中 `dist/clientlib-dependencies` 创建。
 
 ### JavaScript {#javascript}
 
@@ -136,7 +136,8 @@ ui.frontend模块编译文件夹下的代码 `ui.frontend/src` ，并输出已�
 
 * 自动预修——所有CSS都通过预修器运行，任何需要预修的属性都将自动在CSS中添加这些属性。
 * 优化——在发布时，所有CSS都通过优化程序(cssnano)运行，优化程序根据以下默认规则将其标准化：
-   * 尽可能减少CSS计算表达式，确保浏览器兼容性和压缩在等效长度、时间和角度值之间进行转换。 请注意，默认情况下，长度值不会转换。
+   * 尽可能减少CSS计算表达式，确保浏览器兼容性和压缩性
+在等效长度、时间和角度值之间进行转换。 请注意，默认情况下，长度值不会转换。
    * 删除规则、选择器和声明中及周围的注释
    * 删除重复的规则、at规则和声明
       * 请注意，这仅适用于精确重复。
@@ -152,16 +153,16 @@ ui.frontend模块编译文件夹下的代码 `ui.frontend/src` ，并输出已�
 >
 >前端构建选项利用共享公共配置文件的仅开发和仅生产Webpack配置文件。 这样，可以单独修改开发和生产设置。
 
-### 客户端库生成 {#clientlib-generation}
+### 客户端库生成{#clientlib-generation}
 
-ui.frontend模块构建过程利用 [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) plugin将编译的CSS、JS和任何资源移入ui.apps模块。 aem-clientlib-generator配置在中定义 `clientlib.config.js`。 将生成以下客户端库：
+ui.frontend模块构建过程利用[aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator)插件将编译的CSS、JS和任何资源移入ui.apps模块。 aem-clientlib-generator配置在`clientlib.config.js`中定义。 将生成以下客户端库：
 
-* **clientlib-site** - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-site`
-* **clientlib-dependencies** - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-dependencies`
+* **clientlib-site** -  `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-site`
+* **clientlib-dependencies** -  `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-dependencies`
 
-### 在页面上包括客户端库 {#clientlib-inclusion}
+### 在页面{#clientlib-inclusion}中包含客户端库
 
-`clientlib-site` 和 `clientlib-dependencies` 类别通过页面策略配 [置作为默认模板的一](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) 部分，包括在页面上。 要视图策略，请编辑“内 **容页面模板”>“页面信息”>“页面策略**”。
+`clientlib-site` 和 `clientlib-dependencies` 类别通过页面策略配 [置](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) 作为默认模板的一部分包含在页面上。要视图策略，请编辑&#x200B;**内容页面模板>页面信息>页面策略**。
 
 站点页面中最终包含的客户端库如下：
 
@@ -183,11 +184,11 @@ ui.frontend模块构建过程利用 [aem-clientlib-generator](https://www.npmjs.
 
 当然，可以通过更新页面策略和／或修改各个客户端库的类别和嵌入属性来修改上述包含内容。
 
-### 静态Webpack Development Server {#webpack-dev-server}
+### 静态Webpack开发服务器{#webpack-dev-server}
 
 ui.frontend模块包含一个webpack-dev-server，它提供实时重装，以便在AEM之外进行快速前端开发。 安装程序利用html-webpack-plugin自动将从ui.frontend模块编译的CSS和JS注入静态HTML模板。
 
-#### 重要文件 {#important-files}
+#### 重要文件{#important-files}
 
 * `ui.frontend/webpack.dev.js`
    * 它包含webpack-dev-serve的配置并指向要使用的html模板。
@@ -198,12 +199,12 @@ ui.frontend模块包含一个webpack-dev-server，它提供实时重装，以便
    * 假定放入此文件中的标记准确反映了AEM组件生成的标记。
    * 此文件中的标记不会自动与AEM组件标记同步。
    * 此文件还包含对存储在AEM中的客户端库（如核心组件CSS和响应式网格CSS）的引用。
-   * Webpack开发服务器设置为代理这些CSS/JS包括基于中的配置运行的本地AEM实例 `ui.frontend/webpack.dev.js`。
+   * Webpack开发服务器设置为代理这些CSS/JS包括基于`ui.frontend/webpack.dev.js`中的配置运行的本地AEM实例。
 
 #### 使用 {#using-webpack-server}
 
-1. 从项目的根目录中运行命令 `mvn -PautoInstallSinglePackage clean install` ，将整个项目安装到运行于的AEM实例 `localhost:4502`。
-1. 在文件夹内 `ui.frontend` 导航。
-1. 运行以下命令 `npm run start` 以开始webpack dev server。 启动后，它应打开浏览器(`localhost:8080` 或下一个可用端口)。
+1. 从项目的根目录中运行命令`mvn -PautoInstallSinglePackage clean install` ，将整个项目安装到运行于`localhost:4502`的AEM实例。
+1. 在`ui.frontend`文件夹内导航。
+1. 运行以下命令`npm run start`以开始webpack dev服务器。 启动后，应打开浏览器（`localhost:8080`或下一个可用端口）。
 
 您现在可以修改CSS、JS、SCSS和TS文件，并立即查看Webpack开发服务器中反映的更改。
