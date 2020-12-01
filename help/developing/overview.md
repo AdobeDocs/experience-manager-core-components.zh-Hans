@@ -12,24 +12,28 @@ ht-degree: 14%
 
 # 开发核心组件 {#developing-core-components}
 
-## When to Use the Core Components? {#when-to-use-the-core-components}
+## 何时使用核心组件？{#when-to-use-the-core-components}
 
 由于核心组件是全新的，并且具备多种优势，因此建议新的 AEM 项目使用这些组件。对于现有项目，可以考虑在进行更大型项目工作期间进行迁移，例如在重新品牌化或整体重构工作期间。
 
 因此，Adobe提出以下建议：
 
-* **新项目**&#x200B;新项目应始终尝试使用核心组件。 如果核心组件不能直接使用或扩 [展](customizing.md) ，以满足项目要求，则按照核心组件中规定的组件架构创建自定义组件。 除非有其他可能，否则请避免使用 [基础组件](/help/versions.md#foundation-component-support)。
-* **现有项**&#x200B;目推荐将继续使用 [基础组件](/help/versions.md#foundation-component-support)，除非计划进行站点或组件重构。\
-   由于它们被大多数现有项目广泛使用，因此将继 [续支持基础组件。](/help/versions.md#foundation-component-support)
-* **新自定义组**&#x200B;件评估是否可 [以自定义现有核心组件](customizing.md)。\
-   否则，建议按照组件准则构建新的自定 [义组件](guidelines.md)。
-* **现有自定义**&#x200B;组件如果您的组件按预期工作，则可以按原样保留它们。
+* **新项**
+目新项目应始终尝试使用核心组件。如果核心组件不能直接使用或[extended](customizing.md)满足项目要求，请按照核心组件中规定的组件架构创建自定义组件。 除非另有可能，否则请避免使用[基础组件](/help/versions.md#foundation-component-support)。
+* **现有**
+ProjectsRecommendation将继续使用 [基础组件](/help/versions.md#foundation-component-support)，除非计划进行站点或组件重构。\
+   由于它们在大多数现有项目中得到广泛应用，因此将继续支持基础组件[。](/help/versions.md#foundation-component-support)
+* **新自定义**
+组件评估是否可 [以自定义现有核心组件](customizing.md)。\
+   否则，建议按照[组件准则](guidelines.md)构建新的自定义组件。
+* **现有自定**
+义组件如果您的组件按预期工作，则可以按原样进行保留。
 \
    否则，请参阅上面的“New Custom Components”（新建自定义组件）。
 
-## 如何通过核心组件获得成功 {#how-to-succeed}
+## 如何成功使用核心组件{#how-to-succeed}
 
-核心组件功能强大、灵活，易于使用和自定义。 [遵循几个关键准则](success.md) ，将确保您的核心组件项目取得成功。
+核心组件功能强大、灵活，易于使用和自定义。 [遵循几个关键指](success.md) 南将确保您的核心组件项目取得成功。
 
 ## 迁移到核心组件
 
@@ -37,20 +41,20 @@ ht-degree: 14%
 
 对现有项目（例如重新品牌化或整体重构）进行更大的投入通常会优惠到迁移到核心组件的机会。 为了促进这一迁移，Adobe提供了一些迁移工具，鼓励采用核心组件和最新的AEM技术。
 
-[AEM现代化工具](http://opensource.adobe.com/aem-modernize-tools/) ，可轻松转换：
+[AEM现代化工](http://opensource.adobe.com/aem-modernize-tools/) 具套件可轻松转换：
 
 * 静态模板到可编辑模板
 * 设计配置到策略
 * 基础组件到核心组件
 * 经典 UI 到触控式 UI
 
-有关这些工具的使用方法的更多信息，请 [参阅其文档](http://opensource.adobe.com/aem-modernize-tools/)。
+有关这些工具的使用的详细信息，请[参阅其文档](http://opensource.adobe.com/aem-modernize-tools/)。
 
 >[!NOTE]
 >
 >AEM现代化工具是一项社区工作，不受Adobe支持或授权。
 
-## 核心组件支持 {#core-component-support}
+## 核心组件支持{#core-component-support}
 
 核心组件是 AEM 的一个组成部分，依原样提供支持，并作为“快速入门”的一部分提供，须遵循相同的条款和条件。
 
@@ -58,21 +62,21 @@ ht-degree: 14%
 
 每个组件的版本都清楚地声明了其支持的 AEM 版本。当某个 AEM 版本不再受到支持时，该版本 AEM 的核心组件也不再受到支持。
 
-有关支持组件自定义的详细信息，请参阅自 [定义核心组件](customizing.md) 页。
+有关支持组件自定义的详细信息，请参阅[自定义核心组件](customizing.md)页。
 
 
-## 技术能力 {#technical-capabilities}
+## 技术能力{#technical-capabilities}
 
 下表概述了核心组件与基础组件之间的差异。
 
-有关其创作功能和可预先配置的选项的详细信息，请 [参阅有关这些功能的创作页面](/help/get-started/authoring.md)。
+有关其创作功能和预配置选项的详细信息，[请参阅有关这些功能的创作页面](/help/get-started/authoring.md)。
 
 | **功能** | **核心组件** | **基础组件** |
 |-----|---|---|
-| 逻辑实现 | 带Sling模型注 [释的Java](https://sling.apache.org/documentation/bundles/models.html) POJO | JSP代码 |
+| 逻辑实现 | 带有[Sling Models](https://sling.apache.org/documentation/bundles/models.html)注释的Java POJO | JSP代码 |
 | 标记定义 | [HTML模板语言](https://docs.adobe.com/content/help/zh-Hans/experience-manager-htl/using/overview.html) (HTL)语法 | JSP代码 |
 | XSS清理 | 由HTL自动化 | 大多为手动 |
-| CSS类命名 | 基于块元素修 [饰符(BEM](https://getbem.com/) )记号的标准命名约定（从版本2.0.0开始） | 自定义方案 |
+| CSS类命名 | 基于[块元素修饰符](https://getbem.com/)(BEM)记号的标准命名约定（从版本2.0.0开始） | 自定义方案 |
 | 对话框定义 | [珊瑚3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 +经典UI |
 | JSON输出 | [Sling Models Exporter和Jackson系列化](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | 默认Sling Servlet |
 | 版本控制 | [对于模型和HTL](guidelines.md) | 无 |
@@ -80,9 +84,9 @@ ht-degree: 14%
 | 交付 | [通过公共GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过快速入门 |
 | License | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe专有 |
 | 贡献 | 通过拉入请求 | 不可能 |
-| 辅助功能 | 完全符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 仅部分符合 [WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| 辅助功能 | 完全符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 仅部分符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
-## 组件列表 {#component-list}
+## 组件列表{#component-list}
 
 下表列表了可用的核心组件（链接到其API），并指示它们替换的基础组件。
 
@@ -118,14 +122,14 @@ ht-degree: 14%
 | [进度条](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以可视方式呈现实现目标的进展情况 | - |
 | [PDF 查看器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在页面上显示PDF文档 | - |
 
-### 即将推出的组件 {#upcoming-components}
+### 即将推出的组件{#upcoming-components}
 
-有关即将推出的核心组件路线图的概述，请参 [阅GitHub上的专题wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
+有关即将推出的核心组件路线图的概述，请参阅GitHub上的[专题wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
 
-## 升级核心组件 {#upgrade-of-core-components}
+## 升级核心组件{#upgrade-of-core-components}
 
 版本化组件的一个好处是，它允许将迁移从迁移到新组件版本分离到新的AEM版本。 此外，如果有新组件版本可用，它允许将每个组件单独迁移到新版本。
 
-迁移到新的AEM版本不会影响核心组件的工作方式，前提是其版本还支持要迁移到的新AEM版本。 对核心组件进行的自定义也不应受到影响，只要它们不使用已弃用或删除 [的API](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+迁移到新的AEM版本不会影响核心组件的工作方式，前提是其版本还支持要迁移到的新AEM版本。 对核心组件进行的自定义也不应受到影响，只要它们不使用[已弃用或已删除的API](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
-迁移到核心组件的新版本也不会影响组件的工作方式，但可能会为页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防缺省行为不理想。 但是，可能需要调整自定义，有关详细信息，请参阅自 [定义核心组件](customizing.md#upgrade-compatibility-of-customizations) 页面。
+迁移到核心组件的新版本也不会影响组件的工作方式，但可能会为页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防缺省行为不理想。 但是，可能需要调整自定义，有关详细信息，请参阅[自定义核心组件](customizing.md#upgrade-compatibility-of-customizations)页。
