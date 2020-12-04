@@ -2,9 +2,9 @@
 title: 图像组件
 description: 核心组件图像组件是一种自适应图像组件功能，可进行就地编辑。
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '2157'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,12 @@ ht-degree: 2%
 图像组件附带强大的响应式功能，随时可用。 在页面模板级别，[设计对话框](#design-dialog)可用于定义图像资产的默认宽度。 然后，图像组件将自动加载正确的宽度以根据浏览器窗口的大小进行显示。 调整窗口大小时，图像组件会动态加载正确的图像大小。 由于图像组件已经过优化以加载您的内容，因此组件开发人员无需担心定义自定义媒体查询。
 
 此外，图像组件还支持延迟加载，以延迟实际图像资产的加载，直到其在浏览器中可见为止，从而提高页面的响应性。
+
+## Dynamic Media支持{#dynamic-media}
+
+图像组件（从[版本2.13.0](/help/versions.md)开始）支持[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia)资产。 [启用后，](#design-dialog) 这些功能将优惠通过简单的拖放操作或通过资产浏览器添加Dynamic Media图像资产的功能，就像您添加任何其他图像一样。此外，还支持图像修饰符、图像预设和智能裁切。
+
+使用核心组件构建的Web体验不能提供丰富的、由Sensei提供支持、强大、高性能、跨平台的Dynamic Media图像功能。
 
 ## 版本和兼容性{#version-and-compatibility}
 
@@ -65,9 +71,7 @@ ht-degree: 2%
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
->[!NOTE]
->
->从2.1.0版核心组件开始，图像组件支持[模式.org microdata](https://schema.org)。
+图像组件支持[模式.org microdata](https://schema.org)。
 
 ## 配置对话框{#configure-dialog}
 
@@ -86,33 +90,35 @@ ht-degree: 2%
 
 ![图像组件的配置对话框的元数据选项卡](/help/assets/image-configure-metadata.png)
 
-* **图像具有**
-装饰性检查图像是否应被辅助技术忽略，因此不需要替代文本。这仅适用于装饰图像。
-* **替**
-代文本图像含义或功能的文本替代，供有视觉障碍的读者使用。
-   * 从DAM获取替代文本——选中后，图像的替代文本将填充DAM中`dc:description`元数据的值。
-
-* **题**
-注有关图像的其他信息，默认显示在图像下方。
-   * **从DAMW获取**
-字幕检查图像的字幕文本时，将填充 
-`dc:title` 元数据。
-   * **将题注显示为弹**
-出窗口选中此项后，题注将不会显示在图像下方，而是在将鼠标悬停在图像上方时由某些浏览器显示为弹出窗口。
-
-* **链接**
-   * 将图像链接到其他资源。
+* **预设类型** -它定义可用的图像预设类型(图 **像** 预设 **或智能裁剪**)，并且仅在启用Dynamic Media功 [](#dynamic-meida) 能时可用。
+   * **图像预设** -选 **择“** 预设 **类型** ”后， **可** 以使用下拉式图像预设，从可用的Dynamic Media预设中进行选择。仅当为选定资产定义了预设时，此选项才可用。
+   * **智能裁剪** -选 **择** 预设 **类型** 智能 **** 裁剪后，下拉列表将可用，允许从选定资产的可用演绎版中进行选择。仅当为选定资产定义了演绎版时，此选项才可用。
+   * **图像修饰符** -此处可以分隔其他Dynamic Media图像服务命令，无论选择哪种预设 `&`类型， **均可** 以定义这些命令。
+* **图像具有装饰性** -检查图像是否应被辅助技术忽略，因此不需要替代文本。这仅适用于装饰图像。
+* **替代文本** -对于视觉障碍的读者，图像含义或功能的文本替代。
+   * **从DAM获取替代文本** -选中后，图像的替代文本将填充DAM中元数 `dc:description` 据的值。
+* **题注** -有关图像的其他信息，默认情况下显示在图像下方。
+   * **从DAM获取题** 注——选中此项后，图像的题注文本将填充DAM中元 `dc:title` 数据的值。
+   * **将题注显示为弹出** -选中此项后，题注将不会显示在图像下方，而会在鼠标悬停在图像上方时由某些浏览器显示为弹出窗口。
+* **链接** -将图像链接到其他资源。
    * 使用选择对话框链接到另一个AEM资源。
    * 如果未链接到AEM资源，请输入绝对URL。 非溶质URL将解释为相对于AEM。
-
 * **ID**  —— 此选项允许控制HTML和数据层中组件的唯一标 [识符](/help/developing/data-layer/overview.md)。
    * 如果留空，则会自动为您生成唯一ID，并可通过检查生成的页面找到该ID。
    * 如果指定了ID，则作者有责任确保它是唯一的。
    * 更改ID可能会影响CSS、JS和数据层跟踪。
 
+>[!TIP]
+>
+>**智能** Crop和图 **像预** 设是互斥的选项。如果作者需要将图像预设与智能裁剪再现结合使用，则作者必须使用&#x200B;**图像修饰符**&#x200B;来手动添加预设。
+
 ## 编辑对话框{#edit-dialog}
 
 编辑对话框允许内容作者裁剪、修改启动映射和缩放图像。
+
+>[!NOTE]
+>
+>裁剪、旋转和缩放功能不适用于Dynamic Media资产。 如果[Dynamic Media功能](#dynamic-media)处于启用状态，则应通过[配置对话框执行对Dynamic Media资产的任何此类编辑。](#configure-dialog)
 
 ![图像组件的编辑对话框](/help/assets/image-edit.png)
 
@@ -181,36 +187,20 @@ ht-degree: 2%
 
 ![图像组件的设计对话框主选项卡](/help/assets/image-design-main.png)
 
-* **启用延迟**
-加载定义在将图像组件添加到页面时是否自动启用延迟加载选项。
-* **图像具有**
-装饰性定义在将图像组件添加到页面时是否自动启用装饰性图像选项。
-* **在将图像组件添**
-加到页面时，如果自动启用从DAM检索替代文本的选项，则从DAMefine获取替代文本。
-* **从DAM中获**
-取题注如果在将图像组件添加到页面时自动启用从DAM中检索题注的选项。
-* **将题注显示为弹**
-出窗口定义将图像题注显示为弹出窗口的选项是否在将图像组件添加到页面时自动启用。
-* **禁用UUID**
-TrackingCheck以禁用对图像资产UUID的跟踪。
-
-* **宽**
-度为图像定义宽度列表（以像素为单位），组件会根据浏览器大小自动加载最合适的宽度。
+* **启用DM功能** -选中此选项后，将 [提供启](#dynamic-media) 用Dynamic Media功能。
+* **启用延迟加载** -定义在将图像组件添加到页面时是否自动启用延迟加载选项。
+* **图像具有装饰** -定义在将图像组件添加到页面时是否自动启用装饰图像选项。
+* **从DAM获取替代文本**-定义在将图像组件添加到页面时是否自动启用从DAM检索替代文本的选项。
+* **从DAM获取题注** -定义在将图像组件添加到页面时是否自动启用从DAM检索题注的选项。
+* **将题注显示为弹出** -定义在将图像组件添加到页面时是否自动启用将图像题注显示为弹出窗口的选项。
+* **禁用UUID跟踪** -选中此选项可禁用对图像资产UUID的跟踪。
+* **宽度** -定义图像的宽度列表（以像素为单位），组件会根据浏览器大小自动加载最合适的宽度。
    * 点按或单击&#x200B;**添加**&#x200B;按钮以添加其他大小。
       * 使用抓握手柄重新排列大小的顺序。
       * 使用&#x200B;**删除**&#x200B;图标删除宽度。
    * 默认情况下，图像加载会延迟到它们变为可见。
       * 选择选项&#x200B;**禁用延迟加载**，以在页面加载时加载图像。
-* **JPEG质**
-量转换的JPEG图像的质量系数（以0和100的百分比表示）（例如，缩放或裁剪）。
-
->[!NOTE]
->
->“JPEG质量”选项在“核心组件”的2.2.0版中可用。
-
->[!NOTE]
->
->从核心组件的2.2.0版开始，图像组件将唯一的UUID属性`data-asset-id`添加到图像资产，以便跟踪和分析单个资产接收的视图数。
+* **JPEG质量** -转换的JPEG图像的质量系数（以0和100的百分比表示）（例如，缩放或裁剪）。
 
 ### 功能选项卡{#features-tab}
 
@@ -262,6 +252,6 @@ TrackingCheck以禁用对图像资产UUID的跟踪。
 
 >[!NOTE]
 >
->通过`Last-Modified`头的条件请求受自适应图像Servlet支持，但`Last-Modified`头[的缓存需要在Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)中启用。
+>通过`Last-Modified`头的条件请求受自适应图像Servlet支持，但`Last-Modified`头[的缓存需要在Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)中启用。
 >
 >[AEM Project Archetype的示例](/help/developing/archetype/overview.md)Dispatcher配置已包含此配置。
