@@ -2,9 +2,9 @@
 title: 核心组件版本
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: 2f3d2499e9f6c88453b633c20e49703eac25eff4
+source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1873'
 ht-degree: 22%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 22%
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.12.1，与[AEM(作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[内部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装兼容。 它于2020年11月作为2.12.0的修补程序版本发布。版本2.12.0引入了表单、元数据和数据层的几个新功能。
+核心组件的当前版本为2.13.0，与[AEM(作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[内部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装兼容。
 
 ## 发布历史和兼容性{#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 22%
 
 | 版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 此版本包含[图像组件的新Dynamic Media功能。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年12月4日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 这是2.12.0的修补程序版本，包括次要修复。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年11月11日 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 这是2.12.0的修补程序版本，它修复了[映像组件中的一个主要错误。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年11月5日 |
 | [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 此版本引入了[新的POST表单处理程序；](/help/components/forms/form-container.md#post-data)通过上下文感知配置包含自定义CSS、Javascript和元数据[标签的能力；](/help/developing/including-clientlibs.md#context-aware-loading)和`DataLayerBuilder`实用程序，以[简化自定义组件中的数据层集成。](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年10月29日 |
