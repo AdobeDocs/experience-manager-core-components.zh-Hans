@@ -2,9 +2,9 @@
 title: 核心组件简介
 description: '核心组件提供健壮、可扩展的基础组件，这些组件构建在最新技术和最佳实践的基础上。 '
 translation-type: tm+mt
-source-git-commit: 882c67a5a1b0d52c21180d4100f16aa663385c86
+source-git-commit: 456bd449f5776355923bcd859a2afb6b00f33d5c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 25%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 25%
 | SEO友好 | HTML输出是语义的，提供[模式.org](https://schema.org)微数据注释。 |
 | WebApp就绪 | [简化的JSON输出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)允许客户端渲染，但仍有可能进行[上下文内编辑](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
 | AMP支持 | 这些组件内置了[对AMP标准的支持，](/help/developing/amp.md)可加速移动体验。 |
-| 设计套件 | Adobe XD的[UI套件允许设计人员创建线框，然后根据需要[设置样式。](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd)](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) |
+| 设计套件 | Adobe XD的[UI套件允许设计人员创建线框，然后根据需要[设置样式。](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) |
 | Themeable | 组件实现[样式系统](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html)，标记遵循[BEM CSS约定](http://getbem.com/)。 |
 | 可自定义 | 多种模式允许[轻松自定义](developing/customizing.md)，从调整HTML到高级功能重用。 |
 | 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)确保在改进可能影响您的内容时，核心组件不会破坏您的站点。 |
