@@ -2,7 +2,7 @@
 title: 按钮组件
 description: 核心组件按钮组件允许创建和显示按钮。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 4%
@@ -72,4 +72,4 @@ ht-degree: 4%
 
 ### 样式选项卡{#styles-tab}
 
-映像组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+按钮组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
