@@ -2,9 +2,9 @@
 title: Teaser组件
 description: Teaser组件可显示图像、标题、富文本以及（可选）链接到其他内容。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: e7aeff3a24cff14fbcd468561632ee1927c07b4e
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 2%
 
 ---
@@ -52,6 +52,10 @@ Teaser组件的当前版本为v1,2018年7月随核心组件的2.1.0版引入v1�
    * 从[资产浏览器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)中删除资产，或点按&#x200B;**浏览**&#x200B;选项，从本地文件系统中上传。
    * 点按或单击&#x200B;**清除**&#x200B;以取消选择当前选定的图像。
    * 点按或单击&#x200B;**编辑**&#x200B;以[在资产编辑器中管理资产](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)的演绎版。
+
+>[!NOTE]
+>
+>[Dynamic Media](image.md#dynamic-media) 功能当前在Teaser组件中不可用。
 
 ### 文本 {#text}
 
