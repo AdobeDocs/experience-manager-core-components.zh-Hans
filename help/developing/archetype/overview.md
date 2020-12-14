@@ -2,7 +2,7 @@
 title: AEM 项目原型
 description: 基于AEM的应用程序的项目模板
 translation-type: tm+mt
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 6%
@@ -49,7 +49,7 @@ AEM Project Archetype是一个Maven模板，它创建基于最小最佳实践的
 
 要生成项目，请根据需要调整以下命令行：
 
-```
+```shell
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
