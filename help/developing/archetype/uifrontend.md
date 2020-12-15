@@ -2,9 +2,9 @@
 title: AEM Project Archetype前端构建
 description: 基于AEM的应用程序的项目模板
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ AEM Project Archetype包括一个可选的、基于Webpack的专用前端构建�
 
 >[!TIP]
 >
->进一步了解AEM如何在[AEM开发文档](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)中处理ClientLibs，如何[将它们包含在](/help/developing/including-clientlibs.md)中，或参见下面的[ui.frontend模块如何使用它们。](#clientlib-generation)
+>进一步了解AEM如何在[AEM开发文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)中处理ClientLibs，如何[将它们包含在](/help/developing/including-clientlibs.md)中，或参见下面的[ui.frontend模块如何使用它们。](#clientlib-generation)
 
 ## ClientLibs概述{#clientlibs}
 
-前端模块使用[AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)可用。 执行NPM构建脚本时，将构建应用程序，aem-clientlib-generator包将获得的构建输出并将其转换为此类ClientLib。
+前端模块使用[AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)可用。 执行NPM构建脚本时，将构建应用程序，aem-clientlib-generator包将获得的构建输出并将其转换为此类ClientLib。
 
 ClientLib将包含以下文件和目录：
 
