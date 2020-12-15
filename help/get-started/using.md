@@ -2,9 +2,9 @@
 title: 使用核心组件
 description: “要在您自己的项目中开始使用核心组件，需要执行三个步骤：下载和安装、创建代理组件、加载核心样式并允许模板上的组件。”
 translation-type: tm+mt
-source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '757'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 ## 加载核心样式{#load-the-core-styles}
 
-1. 如果尚未完成，请创建[客户端库](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html)，其中包含站点所需的所有CSS和JS文件。
+1. 如果尚未完成，请创建[客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)，其中包含站点所需的所有CSS和JS文件。
 1. 在站点的客户端库中，将依赖项添加到可能需要的核心组件。 这是通过添加`embed`属性来完成的。
 
    例如，要包含所有v1核心组件的客户端库，要添加的属性为：
