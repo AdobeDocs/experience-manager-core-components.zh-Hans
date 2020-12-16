@@ -2,9 +2,9 @@
 title: 核心组件版本
 description: 核心组件作为可能包含同一核心组件多个版本的发行版发布。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: 0f2994657ac42d4110e3b802753968a2bfdf0e5a
+source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1901'
 ht-degree: 22%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 22%
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.13.0，与[AEM(作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[内部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装兼容。
+核心组件的当前版本为2.13.2，与[AEM(作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[内部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装兼容。
 
 ## 发布历史和兼容性{#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 22%
 
 | 版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 这是解决在AEMaCS上使用RTE时的问题的修补程序版本 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年12月16日 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 此版本包含[图像组件的新Dynamic Media功能。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年12月4日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 这是2.12.0的修补程序版本，包括次要修复。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年11月11日 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 这是2.12.0的修补程序版本，它修复了[映像组件中的一个主要错误。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年11月5日 |
