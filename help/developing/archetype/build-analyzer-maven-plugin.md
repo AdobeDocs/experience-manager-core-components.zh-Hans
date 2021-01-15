@@ -2,9 +2,9 @@
 title: AEM作为Cloud ServiceSDK构建Analyzer Maven插件
 description: 本地Maven构建分析器插件的文档
 translation-type: tm+mt
-source-git-commit: b95515dba74486add7f50bc8984f4358090e735c
+source-git-commit: 37ec5c245d3806d98dd8a8538c81fc10154a2dfc
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '425'
 ht-degree: 3%
 
 ---
@@ -26,3 +26,4 @@ AEM作为Cloud ServiceSDK构建分析器主插件，可分析各种内容包项�
 | `bundle-resources` | 如果捆绑包包含用Sling-Bundle-Resources头指定的资源，则发出警告，在AEM中，这是作为Cloud Service群集环境的问题。 警告如下所示：<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> 要对将资源转换为重新指向语句进行疑难解答，请参阅[重新指向文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=en#repo-init)。 | 是 | 是 |
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | 这些分析器检查与特征模型转换过程[相关的一些细节，该过程会产生符合Sling特征模型的伪像。 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying)任何错误都应报告给Adobe客户支持。 | 是 | 是 |
 | `api-regions-crossfeature-dups` | 验证客户OSGI捆绑包没有覆盖AEM作为Cloud Service公共API的导出包声明<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>要修复问题，请停止导出属于AEM public API的包。 | 是 | 是 |
+| `repoinit` | 检查所有重新指向节的语法 | 是 | 是 |
