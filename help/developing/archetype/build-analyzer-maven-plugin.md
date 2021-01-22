@@ -2,9 +2,9 @@
 title: AEM作为Cloud ServiceSDK构建Analyzer Maven插件
 description: 本地Maven构建分析器插件的文档
 translation-type: tm+mt
-source-git-commit: 37ec5c245d3806d98dd8a8538c81fc10154a2dfc
+source-git-commit: 42a9dcd64ed8a9c70ec0f72dac50bf88111b703b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '470'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 3%
 AEM作为Cloud ServiceSDK构建分析器主插件，可分析各种内容包项目的结构。
 
 有关如何将插件包含在AEM maven项目中的信息，请参阅[ Maven插件文档](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md)。
+
+>[!NOTE]
+>
+>建议您更新Maven项目，以引用Maven中央存储库中的插件的最新版本，位于以下位置：https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
 下表描述了作为此步骤一部分执行的分析器。<!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
@@ -27,3 +31,4 @@ AEM作为Cloud ServiceSDK构建分析器主插件，可分析各种内容包项�
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | 这些分析器检查与特征模型转换过程[相关的一些细节，该过程会产生符合Sling特征模型的伪像。 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying)任何错误都应报告给Adobe客户支持。 | 是 | 是 |
 | `api-regions-crossfeature-dups` | 验证客户OSGI捆绑包没有覆盖AEM作为Cloud Service公共API的导出包声明<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>要修复问题，请停止导出属于AEM public API的包。 | 是 | 是 |
 | `repoinit` | 检查所有重新指向节的语法 | 是 | 是 |
+| `bundle-nativecode` | 验证OSGI包未安装本机代码。 | 是 | 是 |
