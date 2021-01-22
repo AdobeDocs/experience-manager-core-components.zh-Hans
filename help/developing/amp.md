@@ -2,10 +2,10 @@
 title: 对核心组件的AMP支持
 description: 核心组件支持AMP —— 加速移动页面
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 * **成对AMP**  —— 页面以AMP和HTML的形式传送。
 * **仅AMP** -页面仅作为AMP传送。
 
-页面的AMP设置也可以在单个页面的[页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)中被覆盖。
+页面的AMP设置也可以在单个页面的[页面属性](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)中被覆盖。
 
 ![AMP页面属性](/help/assets/amp-page-properties.png)
 
@@ -63,5 +63,9 @@ ht-degree: 0%
 将AMP与核心组件一起使用时，主要区别在于AMP要求在`<head>`元素中嵌入](including-clientlibs.md#inlining)所有[CSS并进行优化。
 
 为支持此功能，将使用自定义的页面组件，该组件仅加载页面上所存在的组件的特定于AMP的CSS。
+
+>[!NOTE]
+>
+>由于AMP设计限制，Adobe不支持将响应式网格与页面的AMP版本一起使用。
 
 有关更多要求和技术详细信息，请参阅[GitHub开发人员文档。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
