@@ -57,7 +57,7 @@ Adobe客户端数据层与平台无关，但完全集成到核心组件中以与
        </script>
    ```
 
-1. 您还可以打开浏览器的开发人员工具，在控制台中，`adobeDataLayer` JavaScript对象应可用。 输入以下命令以获取当前页面的数据层状态：
+1. 您还可以打开浏览器的开发人员工具，在控制台中`adobeDataLayer` JavaScript对象应可用。 输入以下命令以获取当前页面的数据层状态：
 
    ```javascript
    window.adobeDataLayer.getState();
