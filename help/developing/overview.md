@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
 workflow-type: tm+mt
 source-wordcount: '1442'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -84,7 +84,7 @@ ProjectsRecommendation将继续使用 [基础组件](/help/versions.md#foundatio
 | 交付 | [通过公共GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过快速入门 |
 | License | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe专有 |
 | 贡献 | 通过拉入请求 | 不可能 |
-| 辅助功能 | 完全符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 仅部分符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| 辅助功能 | 完全符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 仅部分符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## 组件列表{#component-list}
 
