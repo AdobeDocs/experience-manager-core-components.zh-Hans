@@ -28,7 +28,7 @@ ht-degree: 3%
 
 核心组件背后的驱动思想之一是灵活性。 更频繁地发布新版核心组件，使Adobe能够更灵活地提供新功能。 开发人员反过来可以灵活地选择将组件集成到其项目中以及希望更新它们的频率。
 
-因此，在生产模式下（无示例内容）启动时，核心组件不是快速启动的一部分。 因此，您的第一步是从GitHub[下载最新发布的内容包，并将其安装在AEM环境上。](https://github.com/adobe/aem-core-wcm-components/releases/latest)
+因此，在生产模式下（无示例内容）启动时，核心组件不是快速启动的一部分。 因此，您的第一步是从GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest)下载最新发布的内容包，并将其安装在AEM环境上。[
 
 可以通过多种方式实现自动化，但在实例上快速安装内容包的最简单方法是使用包管理器；请参阅[安装软件包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您还运行了发布实例，您需要将该包复制到发布者；请参阅[复制包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
 
