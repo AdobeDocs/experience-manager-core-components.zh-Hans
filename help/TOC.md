@@ -2,7 +2,7 @@
 sub-product: AEM 核心组件
 user-guide-title: AEM 核心组件
 breadcrumb-title: Core Components 指南
-user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
+user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
 translation-type: tm+mt
 source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
