@@ -77,7 +77,7 @@ mvn -B archetype:generate \
 | `groupId` |  | 基本Maven组ID(例如，`"com.mysite"`)。 |
 | `package` | *`${groupId}`* | Java源包(例如，`"com.mysite"`)。 |
 | `version` | `1.0-SNAPSHOT` | 项目版本(如`1.0-SNAPSHOT`)。 |
-| `aemVersion` | `cloud` | 目标AEM版本(对于`cloud`AEM，可以是[Cloud Service;或](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)，或`6.5.0`（适用于`6.4.4`Adobe Managed Services[或内部部署）。](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) |
+| `aemVersion` | `cloud` | 目标AEM版本(对于[AEM，可以是](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)Cloud Service;或`6.5.0`，或`6.4.4`（适用于[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)或内部部署）。`cloud` |
 | `sdkVersion` | `latest` | 当`aemVersion=cloud`可以指定[ SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)版本时(例如，`2020.02.2265.20200217T222518Z-200130`)。 |
 | `includeDispatcherConfig` | `y` | 根据`aemVersion`的值（可以是`y`或`n`），为云或AMS/on-premise包括调度程序配置。 |
 | `frontendModule` | `general` | 包括一个Webpack前端构建模块，它为常规站点生成客户端库(可以是`general`或`none`;对于实现[SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)的单页应用程序，可以是`angular`或`react`。 |
