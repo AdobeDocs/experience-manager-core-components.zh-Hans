@@ -4,10 +4,10 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: Core Components 指南
 user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
 translation-type: tm+mt
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
+source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 69%
+source-wordcount: '214'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 69%
 # AEM 核心组件帮助 {#using}
 
 + [核心组件简介](introduction.md)
-+ [成功路径](developing/success.md)
++ [成功之路](developing/success.md)
 + [组件库](https://adobe.com/go/aem_cmp_library)
 + [核心组件版本](versions.md)
 + 开始使用 {#get-started}
@@ -68,7 +68,7 @@ ht-degree: 69%
          + [表单文本 (v1)](components/v1/form-text-v1.md)
 + 开发 {#developing}
    + [开发核心组件](developing/overview.md)
-   + [成功路径](developing/success.md)
+   + [成功之路](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [WKND 开发人员教程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自定义核心组件](developing/customizing.md)
    + [组件准则](developing/guidelines.md)
@@ -86,7 +86,8 @@ ht-degree: 69%
       + [ui.apps模块](developing/archetype/uiapps.md)
       + [ui.content模块](developing/archetype/uicontent.md)
       + [ui.frontend.general模块](developing/archetype/uifrontend.md)
-      + [ui.frontend.react模块](developing/archetype/uifrontend-react.md)
+      + [ui.frontend.react Module](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular模块](developing/archetype/uifrontend-angular.md)
       + [ui.tests模块](developing/archetype/uitests.md)
-      + [构建Analyzer Maven插件](developing/archetype/build-analyzer-maven-plugin.md)
+      + [it.tests模块](developing/archetype/ittests.md)
+      + [构建Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
