@@ -2,17 +2,17 @@
 title: 内容片段组件
 description: 核心组件内容片段组件允许显示内容片段。
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 3%
+source-wordcount: '673'
+ht-degree: 5%
 
 ---
 
 
 # 内容片段组件{#content-fragment-component}
 
-核心组件内容片段组件允许显示[内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+核心组件内容片段组件允许显示[内容片段](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
@@ -23,14 +23,14 @@ ht-degree: 3%
 核心组件内容片段组件允许在页面中包含[内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 * 可以在[配置对话框](#configure-dialog)中选择片段及其属性。
-* 处理特定图像和网格的资源类型可以在[设计对话框](#design-dialog)中定义。
+* 可在[设计对话框](#design-dialog)中定义用于处理特定图像和网格的资源类型。
 * 编辑选项将在[内容片段编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中打开所选片段。
 
 ## 版本和兼容性{#version-and-compatibility}
 
-内容片段组件的当前版本为v1,2017年10月随核心组件版本1.1.0一起推出，本文档对此进行了说明。
+内容片段组件的当前版本为v1,2017年10月随核心组件版本1.1.0引入了v1，本文档对此进行了说明。
 
-下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
+下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本文档的链接。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
@@ -42,11 +42,11 @@ ht-degree: 3%
 >
 > `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
 > 
->从2.4.0开始，它已移至以下位置。
+>从2.4.0开始，它已移到以下位置。
 >
 >`apps/core/wcm/components/contentfragment/v1/contentfragment`
 >
->虽然两者都是v1，但从extensions文件夹使用的任何内容片段组件在升级到核心组件的2.4.0版或更高版本时，都需要迁移其相关代理组件才能使用新的资源类型。
+>虽然两者都是v1，但从extensions文件夹使用的任何内容片段组件都需要在升级到核心组件版本2.4.0或更高版本时，迁移其相关代理组件以使用新的资源类型。
 
 有关核心组件版本和版本的详细信息，请参阅文档[核心组件版本](/help/versions.md)。
 
@@ -71,25 +71,25 @@ ht-degree: 3%
 * **内容片段**
 
    * 所需内容片段的路径
-   * **选择对话框**&#x200B;可用于定位片段
+   * **选择对话框**&#x200B;可用于查找片段
 
 * **显示模式**
-   * **单文本元素** -支持选择一个多行文本元素并启用段落控制选项
-   * **多元素** -允许选择所选内容片段的一个或多个元素
-* **元素** -要包括的内容片段的元素
-* **变体** -要使用的内容片段的变体(默认为 **主控**)
+   * **单文本元素**  — 启用选择一个多行文本元素并启用段落控制选项
+   * **多个元素**  — 允许选择所选内容片段的一个或多个元素
+* **元素**  — 要包括的内容片段的元素
+* **变体**  — 要使用的内容片段的变体(默认为 **主控**)
 
 * **段落**
 
-   * **全部** -显示所有段落
+   * **全部**  — 显示所有段落
    * **范围**
 
       * 指定应显示的段落范围，以分号分隔
-      * 例如`1;3-5;7;9-*`，包含1、3至5、7和9至最后段落
-* **ID**  —— 此选项允许控制HTML和数据层中组件的唯一标 [识符](/help/developing/data-layer/overview.md)。
-   * 如果留空，则会自动为您生成唯一ID，并可通过检查生成的页面找到该ID。
+      * 例如`1;3-5;7;9-*`，以包括1、3至5、7和9至最后段落
+* **ID**  — 此选项允许控制HTML和数据层中组件的唯一 [标识符](/help/developing/data-layer/overview.md)。
+   * 如果留空，系统会为您自动生成唯一ID，通过检查生成的页面可以找到它。
    * 如果指定了ID，则作者有责任确保它是唯一的。
-   * 更改ID可能会影响CSS、JS和数据层跟踪。
+   * 更改ID可能会影响CSS、JS和数据图层跟踪。
 
 ### 段落控件选项卡{#paragraph-control-tab}
 
@@ -97,7 +97,7 @@ ht-degree: 3%
 
 ![内容片段组件](/help/assets/content-fragment-edit-paragraph.png)
 
-* **段落** -允许选择所有段落或范围
+* **段落**  — 允许选择所有段落或范围
 * **将标题作为自己的段落处理**
 
 ## 设计对话框{#design-dialog}
@@ -110,3 +110,6 @@ ht-degree: 3%
 
    * 用于内部响应式网格的Sling资源类型
 
+## Adobe客户端数据层{#data-layer}
+
+内容片段组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
