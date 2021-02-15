@@ -2,9 +2,9 @@
 title: 选项卡组件
 description: 选项卡组件允许创建多个选项卡来排列页面上的内容。
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 >
 >支持嵌套的选项卡组件（选项卡中的选项卡）。
 >
->使用[内容树](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)可以定位／选择简单（非嵌套）的选项卡组件，但嵌套的选项卡不能。
+>使用[内容树](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)可以定位/选择简单（非嵌套）的选项卡组件，但嵌套的选项卡不能。
 
 ## 深层链接到面板{#deep-linking}
 
@@ -32,19 +32,19 @@ ht-degree: 2%
 
 要执行此操作：
 
-1. 使用页面编辑器中的&#x200B;**[视图作为“已发布”](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项，将页面与组件视图。
-1. Inspect页面内容并标识该小组的ID。
+1. 使用页面编辑器中的&#x200B;**[视图作为“已发布”](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项将页面与组件视图。
+1. Inspect页面内容并标识面板的ID。
    * 例如`id="accordion-86196c94d3-item-ca319dbb0b"`
-1. 该ID成为可以使用散列(`#`)附加到URL的锚点。
+1. 该ID将成为您可以使用哈希(`#`)附加到URL的锚点。
    * 例如`https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 导航到面板ID为锚点的URL，浏览器将直接滚动到特定组件并显示指定的面板。 如果面板配置为默认不展开，则会自动展开面板。
 
 ## 版本和兼容性{#version-and-compatibility}
 
-标签组件的当前版本为v1,2018年10月随核心组件的2.2.0版引入了v1，本文档中对此进行了说明。
+当前版本的选项卡组件为v1,2018年10月随核心组件版本2.2.0引入了v1，本文档对此进行了说明。
 
-下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本以及指向先前版本文档的链接。
+下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本文档的链接。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
@@ -64,18 +64,18 @@ ht-degree: 2%
 
 ## 编辑对话框{#edit-dialog}
 
-编辑对话框允许内容作者创建、重命名和重新排列选项卡以及定义活动选项卡。
+在编辑对话框中，内容作者可以创建、重命名和重新排列选项卡以及定义活动选项卡。
 
 ### 项目选项卡{#items-tab}
 
 ![选项卡组件的编辑对话框项目选项卡](/help/assets/tabs-edit-items.png)
 
-使用&#x200B;**添加**&#x200B;按钮打开组件选择器以选择要添加为选项卡的组件。 添加后，将向列表添加一个条目，该条目包含以下列：
+使用&#x200B;**添加**&#x200B;按钮打开组件选择器以选择要添加为选项卡的组件。 添加后，将向列表中添加一个条目，其中包含以下列：
 
-* **图标** -选项卡的组件类型图标，以便在列表中进行标识。将鼠标悬停在上方，可将完整组件名称作为工具提示查看。
-* **说明** -用作选项卡文本的说明，默认使用为选项卡选择的组件的名称。
-* **删除** -点按或单击，从选项卡组件中删除选项卡。
-* **重新排列** -点按或单击并拖动以重新排列选项卡的顺序。
+* **图标**  — 选项卡的组件类型图标，可在列表中轻松识别。将鼠标悬停在上方，可以将完整组件名称作为工具提示查看。
+* **说明**  — 用作选项卡文本的说明，默认使用为选项卡选择的组件的名称。
+* **删除**  — 点按或单击可从选项卡组件中删除选项卡。
+* **重新排列**  — 点按或单击并拖动以重新排列选项卡的顺序。
 
 >[!TIP]
 >
@@ -85,12 +85,12 @@ ht-degree: 2%
 
 ![选项卡组件的编辑对话框属性选项卡](/help/assets/tabs-edit-properties.png)
 
-* **活动项** -内容作者可以定义载入页面时处于活动状态的选项卡。
+* **活动项**  — 内容作者可以定义载入页面时处于活动状态的选项卡。
    * 使用&#x200B;**Default**&#x200B;选项，将选择第一个选项卡。
-* **ID**  —— 此选项允许控制HTML和数据层中组件的唯一标 [识符](/help/developing/data-layer/overview.md)。
-   * 如果留空，则会自动为您生成唯一ID，并可通过检查生成的页面找到该ID。
+* **ID**  — 此选项允许控制HTML和数据层中组件的唯一 [标识符](/help/developing/data-layer/overview.md)。
+   * 如果留空，系统会为您自动生成唯一ID，通过检查生成的页面可以找到它。
    * 如果指定了ID，则作者有责任确保它是唯一的。
-   * 更改ID可能会影响CSS、JS和数据层跟踪。
+   * 更改ID可能会影响CSS、JS和数据图层跟踪。
 
 ### 辅助功能选项卡{#accessibility-tab}
 
@@ -98,27 +98,27 @@ ht-degree: 2%
 
 在&#x200B;**辅助功能**&#x200B;选项卡上，可以为组件的[ARIA辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/)标签设置值。
 
-* **标签** -组件的ARIA标签属性的值
+* **Label**  — 组件的ARIA label属性值
 
 ## 选择面板{#select-panel}
 
-内容作者可以使用组件工具栏上的&#x200B;**选择面板**&#x200B;选项更改为其他面板进行编辑，并轻松重新排列选项卡的顺序。
+内容作者可以使用组件工具栏上的&#x200B;**选择面板**&#x200B;选项更改到其他面板进行编辑，并轻松重新排列选项卡的顺序。
 
 ![选择面板图标](/help/assets/select-panel-icon.png)
 
 在组件工具栏中选择&#x200B;**选择面板**&#x200B;选项后，将显示所配置的选项卡作为下拉列表。
 
-* 列表按标签的分配排列排列，并反映在编号中。
-* 首先显示选项卡的组件类型，然后以较淡的字体显示选项卡的说明。
+* 列表按标签的指定排列排列，并反映在编号中。
+* 首先显示选项卡的组件类型，然后以较浅的字体显示选项卡的说明。
 
-![选择面板弹出窗口](/help/assets/select-panel-popover.png)
+![选择面板快显](/help/assets/select-panel-popover.png)
 
-* 点按或单击下拉菜单中的某个条目，将编辑器中的视图切换到该选项卡。
-* 使用拖动手柄可以就地重新排列选项卡。
+* 点按或单击下拉列表中的条目，将编辑器中的视图切换到该选项卡。
+* 可以使用拖动手柄就地重新排列选项卡。
 
 >[!NOTE]
 >
->在&#x200B;**编辑**&#x200B;模式下，作者不能选择选项卡。 使用&#x200B;**[预览](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;模式或&#x200B;**[视图作为已发布的](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项与选项卡进行交互，就像已发布内容的读者一样。
+>作者在&#x200B;**编辑**&#x200B;模式下无法选择制表符。 使用&#x200B;**[预览](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;模式或&#x200B;**[视图作为已发布](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项与选项卡进行交互，作为已发布内容的读者。
 
 ## 设计对话框{#design-dialog}
 
@@ -133,3 +133,7 @@ ht-degree: 2%
 ### 样式选项卡{#styles-tab}
 
 选项卡组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+
+## Adobe客户端数据层{#data-layer}
+
+选项卡组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
