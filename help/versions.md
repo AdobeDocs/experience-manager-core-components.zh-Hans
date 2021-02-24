@@ -2,10 +2,10 @@
 title: 核心组件版本
 description: 核心组件作为版本发布，其中可能包含同一核心组件的多个版本。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 translation-type: tm+mt
-source-git-commit: defc6f2cf4cac817577f3e74372da5e420a45ead
+source-git-commit: 0f188a1d380e29674c8c8c6a6c9e773e0276743f
 workflow-type: tm+mt
-source-wordcount: '1938'
-ht-degree: 22%
+source-wordcount: '1971'
+ht-degree: 21%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 22%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 此版本包含[嵌入组件](/help/components/embed.md)的新选项，并在[页面](/help/components/page.md)级别引入品牌辅助信息区并解决许多问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年2月8日 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 此版本包括对[页面组件](/help/components/page.md)中渐进式Web应用程序的支持，并支持[Adobe数据层版本2.0.0。](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年2月23日 |
+| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 此版本包含[嵌入组件](/help/components/embed.md)的新选项，并在[页面](/help/components/page.md)级别引入品牌辅助信息区并解决许多问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年2月9日 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 这是解决AEMaCS上使用RTE时的问题的修补程序版本 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年12月16日 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 此版本包含用于[图像组件的新Dynamic Media功能。](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年12月4日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 这是2.12.0的修补程序版本，包括小修复。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年11月11日 |
@@ -114,7 +115,7 @@ ht-degree: 22%
 
 ### 版本{#releases}
 
-核心组件通过&#x200B;**发行版**&#x200B;和[提供，它们代表GitHub](https://github.com/adobe/aem-core-wcm-components/releases)上实际发布的对象。 版本以X.Y.Z格式的十进制数表示，并将所有核心组件作为可交付包一起收集。
+核心组件通过&#x200B;**发行版**&#x200B;和[提供，它们代表GitHub](https://github.com/adobe/aem-core-wcm-components/releases)上可用的实际已发布对象。 版本以X.Y.Z格式的十进制数表示，并将所有核心组件作为可交付包一起收集。
 
 * **主要** 版本可以引入现有组件的新版本，以及全新的组件和标准错误修复。这由发行号的X组件中的增量表示。
 * **重要** 版本可向现有版本的组件引入新功能并修复错误。此值由发行号的Y分量中的增量表示。
