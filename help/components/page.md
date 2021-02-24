@@ -2,10 +2,10 @@
 title: 页面组件
 description: 页面组件是一个可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器组合页面页眉/页脚和结构组件。
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 4%
+source-wordcount: '691'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,11 @@ ht-degree: 4%
 
 页面组件构成了使用核心组件以及可编辑模板设计的所有页面的基础。 通过使用页面组件，页眉、页脚和页面结构可以使用其他核心组件定义为模板。
 
-使用[设计对话框](#design-dialog)，可以为页面定义自定义客户端库。 与具有可直接从组件访问的编辑对话框的其他组件不同，因为组件是页面本身，因此页面组件的[编辑对话框](#edit-dialog)是页面属性窗口。
+使用[设计对话框](#design-dialog)，可以为页面定义自定义客户端库。 与具有可直接从组件访问的编辑对话框的其他组件不同，由于页面组件是页面本身，因此页面组件的[编辑对话框](#edit-dialog)是页面属性窗口。
+
+## 渐进式Web应用程序支持{#pwa-support}
+
+核心组件版本2.15.0引入了对页面组件中AEM内置[渐进式Web应用程序(PWA)功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html)的支持。 通过站点级别的简单配置，将您的AEM体验转变为PWA!
 
 ## 版本和兼容性{#version-and-compatibility}
 
@@ -41,7 +45,7 @@ ht-degree: 4%
 
 ## 编辑对话框{#edit-dialog}
 
-由于组件表示整个页面，因此通常在编辑对话框中的设置位于[页面属性](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)窗口中。
+由于组件表示整个页面，因此通常在编辑对话框中的设置会显示在[页面属性](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)窗口中。
 
 ## 设计对话框{#design-dialog}
 
