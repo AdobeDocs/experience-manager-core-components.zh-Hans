@@ -2,10 +2,11 @@
 title: 表单按钮组件(v1)
 description: 核心组件表单隐藏组件允许在表单中包含隐藏字段。
 index: n
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '347'
 ht-degree: 3%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 3%
 
 ## 版本和兼容性{#version-and-compatibility}
 
-本文档描述了最初随AEM 6.3的核心组件版本1.0.0引入的表单按钮组件的v1。
+本文档描述了最初随AEM 6.3核心组件版本1.0.0引入的表单按钮组件的v1。
 
 下表列表了“表单按钮”组件v1的兼容性。
 
@@ -34,9 +35,9 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->本文档描述表单按钮组件的v1。
+>本文档描述了表单按钮组件的v1。
 >
->有关表单按钮组件的当前版本的详细信息，请参阅[表单按钮组件](/help/components/forms/form-button.md)文档。
+>有关表单按钮组件当前版本的详细信息，请参阅[表单按钮组件](/help/components/forms/form-button.md)文档。
 
 ## 示例组件输出{#sample-component-output}
 
@@ -84,7 +85,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
+>从核心组件导出JSON需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
 ## 配置对话框{#configure-dialog}
 
@@ -96,11 +97,11 @@ ht-degree: 3%
    * **按钮**
    * **提交**
 
-* **标题** -按钮上显示的文本
+* **标题**  — 按钮上显示的文本
    * 如果未提供，则默认为按钮类型
 
-* **名称** -随表单数据提交的按钮的名称
-* **值** -随表单数据一起提交的按钮的值
+* **名称**  — 随表单数据提交的按钮的名称
+* **值**  — 随表单数据一起提交的按钮的值
 
 ## 设计对话框{#design-dialog}
 
@@ -108,7 +109,7 @@ ht-degree: 3%
 
 ## 技术详细信息{#technical-details}
 
-有关表单按钮组件[的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)上找到。
+有关“表单按钮组件[”的最新技术文档，可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)上找到。
 
 整个核心组件项目可从GitHub下载。
 
