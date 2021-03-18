@@ -1,11 +1,12 @@
 ---
 title: 页面组件(v1)
-description: 页面组件是一个可扩展的页面组件，设计用于与模板编辑器配合使用，并允许使用模板编辑器组合页面页眉／页脚和结构组件。
+description: 页面组件是一个可扩展的页面组件，旨在与模板编辑器结合使用，并允许使用模板编辑器组合页面页眉/页脚和结构组件。
 index: n
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '495'
 ht-degree: 2%
 
 ---
@@ -13,17 +14,17 @@ ht-degree: 2%
 
 # 页面组件(v1){#page-component-v}
 
-页面组件是可扩展的页面组件，设计用于与[模板编辑器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)一起使用，并允许使用模板编辑器组合页面页眉／页脚和结构组件。
+页面组件是可扩展的页面组件，设计用于与[模板编辑器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)一起使用，并允许使用模板编辑器组合页面页眉/页脚和结构组件。
 
 ## 使用 {#usage}
 
 页面组件构成了使用核心组件以及可编辑模板设计的所有页面的基础。 通过使用页面组件，页眉、页脚和页面结构可以使用其他核心组件定义为模板。
 
-使用[设计对话框](#design-dialog)，可以为页面定义自定义客户端库。 与具有可直接从组件访问的编辑对话框的其他组件不同，由于组件是页面本身，因此页面组件的[编辑对话框](#edit-dialog)是页面属性窗口。
+使用[设计对话框](#design-dialog)，可以为页面定义自定义客户端库。 与具有可直接从组件访问的编辑对话框的其他组件不同，因为组件是页面本身，因此页面组件的[编辑对话框](#edit-dialog)是页面属性窗口。
 
 ## 版本和兼容性{#version-and-compatibility}
 
-本文档描述页面组件的v1，最初随AEM 6.3的核心组件版本1.0.0引入。
+本文档描述了页面组件的v1，该版本最初随AEM 6.3的核心组件版本1.0.0引入。
 
 下表列表了页面组件v1的兼容性。
 
@@ -34,13 +35,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->此文档描述页面组件的v1。
+>此文档描述了页面组件的v1。
 >
 >有关页面组件当前版本的详细信息，请参阅[页面组件](/help/components/page.md)文档。
 
 >[!NOTE]
 >
->页面组件的v1不支持页面重定向。 请使用页面组件的[当前版本](/help/components/page.md)获得页面重定向支持。
+>页面组件的v1不支持页面重定向。 请使用页面组件[的当前版本](/help/components/page.md)获得页面重定向支持。
 
 ## 示例组件输出{#sample-component-output}
 
@@ -678,7 +679,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
+>从核心组件导出JSON需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
 ## 编辑对话框{#edit-dialog}
 
@@ -686,7 +687,7 @@ ht-degree: 2%
 
 ## 设计对话框{#design-dialog}
 
-由于组件表示整个页面，因此可通过&#x200B;**页面信息->页面设计**&#x200B;访问设计对话框。
+由于组件表示整个页面，因此可通过&#x200B;**页面信息 — >页面设计**&#x200B;访问设计对话框。
 
 ![](/help/assets/chlimage_1-94.png)
 
