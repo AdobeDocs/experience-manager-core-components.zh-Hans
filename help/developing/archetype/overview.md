@@ -1,10 +1,12 @@
 ---
 title: AEM 项目原型
 description: 基于AEM的应用程序的项目模板
+feature: 核心组件、 AEM项目原型
+role: 架构师、开发人员、管理员
 translation-type: tm+mt
-source-git-commit: 4ea3f1da41d9dd63707135c9eb9466c31d3dbe51
+source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1043'
 ht-degree: 6%
 
 ---
