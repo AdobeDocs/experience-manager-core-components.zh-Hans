@@ -1,10 +1,12 @@
 ---
 title: 使用AEM Project Archetype
 description: AEM Project Archetype的详细使用说明
+feature: 核心组件、 AEM项目原型
+role: 架构师、开发人员、管理员
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2072'
 ht-degree: 1%
 
 ---
@@ -39,7 +41,7 @@ AEM Archetype由模块组成：
 * **ui.config**:包含项目的特定于运行模式的OSGi配置。
 * **[ui.frontend.general](uifrontend.md)**: **（可选）** 包含使用基于Webpack的常规前端构建模块所需的伪像。
 * **[ui.frontend.react](uifrontend-react.md)**: **（可选）包** 含使用原型创建基于React的SPA项目时所需的伪像。
-* **[ui.frontend.angular](uifrontend-angular.md)**: **（可选）包** 含使用原型创建基于角度的SPA项目时所需的伪像。
+* **[ui.frontend.angular](uifrontend-angular.md)**: **（可选）包** 含使用原型创建基于Angular的SPA项目时所需的伪像。
 * **[ui.tests](uitests.md)**:包含基于Selenium的UI测试。
 * **全部**:是一个内容包，它嵌入所有已编译模块（包和内容包），包括任何供应商依赖关系。
 * **分析**:对项目运行分析，为将AEM作为Cloud Service部署提供附加验证。
