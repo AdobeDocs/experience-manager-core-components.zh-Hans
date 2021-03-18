@@ -1,10 +1,12 @@
 ---
 title: AEM项目原型的核心模块
 description: AEM项目原型的核心模块
+feature: 核心组件、 AEM项目原型
+role: 架构师、开发人员、管理员
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
