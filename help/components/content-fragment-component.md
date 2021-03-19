@@ -1,10 +1,11 @@
 ---
 title: 内容片段组件
 description: 核心组件内容片段组件允许显示内容片段。
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '678'
 ht-degree: 5%
 
 ---
