@@ -2,10 +2,11 @@
 title: 标题组件(v1)
 description: 核心组件标题组件是具有就地编辑功能的章节标题组件。
 index: n
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 2%
 
 ## 版本和兼容性{#version-and-compatibility}
 
-本文档描述了标题组件的v1，该组件最初随AEM 6.3的核心组件的1.0.0版引入。
+本文档描述了标题组件的v1，该组件最初随AEM 6.3的核心组件版本1.0.0引入。
 
 下表列表了标题组件v1的兼容性。
 
@@ -34,7 +35,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->此文档描述标题组件的版本1。
+>本文档介绍标题组件的版本1。
 >
 >有关标题组件当前版本的详细信息，请参阅[标题组件](/help/components/title.md)文档。
 
@@ -67,7 +68,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
+>从核心组件导出JSON需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
 ## 编辑对话框{#edit-dialog}
 
