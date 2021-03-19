@@ -1,24 +1,26 @@
 ---
-title: 针对角度SPA的前端构建
-description: 描述基于角度的SPA项目的前端构建过程
+title: angular SPA前端构建
+description: 基于Angular的SPA项目的前端构建流程说明
+feature: 核心组件、 AEM项目原型
+role: 架构师、开发人员、管理员
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 
-# 角SPA的前端构建{#frontend-angular}
+# angular SPA的前端构建{#frontend-angular}
 
-本文档介绍了在使用原型创建基于角度框架的单页应用程序(SPA)时创建的项目的详细信息。 例如，将`frontendModule`选项设置为`angular`时。
+本文档介绍了在基于Angular框架使用原型创建单页应用程序(SPA)时创建的项目的详细信息。 例如，将`frontendModule`选项设置为`angular`时。
 
 ## 概述 {#overview}
 
-此项目已使用[Angular CLI](https://github.com/angular/angular-cli)启动。
+此项目已使用[AngularCLI](https://github.com/angular/angular-cli)启动。
 
-此应用程序的构建目的是使用站点的AEM模型。 它将使用[@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components)包中的帮助组件自动生成布局。
+此应用程序的构建目的是使用站点的AEM模型。 它将使用[@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components)包中的帮助器组件自动生成布局。
 
 ## 脚本 {#scripts}
 
@@ -49,7 +51,7 @@ npm start
 npm test
 ```
 
-此命令启动Karma测试运行器。 有关详细信息，请参阅有关运行测试的[角度文档](https://angular.io/guide/testing)。
+此命令启动Karma测试运行器。 有关详细信息，请参阅有关运行测试的[Angular文档。](https://angular.io/guide/testing)
 
 ### npm运行测试：debug {#npm-run-test-debug}
 
@@ -65,7 +67,7 @@ npm run test:debug
 npm run build
 ```
 
-此命令将生产应用程序构建到build文件夹。 它在生产模式中捆绑Angular，并优化构建以获得最佳性能。 有关详细信息，请参阅关于部署](https://angular.io/guide/deployment)的[角度文档。
+此命令将生产应用程序构建到build文件夹。 它将Angular捆绑在生产模式中，并优化构建以获得最佳性能。 有关详细信息，请参阅有关部署](https://angular.io/guide/deployment)的[Angular文档。
 
 此外，还使用[aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator)包从应用程序生成AEM ClientLib。
 
