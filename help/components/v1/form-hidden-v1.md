@@ -2,10 +2,11 @@
 title: 表单隐藏组件(v1)
 description: 核心组件表单隐藏组件允许显示隐藏字段。
 index: n
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 2%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 2%
 
 ## 使用 {#usage}
 
-核心组件表单隐藏组件允许创建隐藏字段，将有关当前页面的信息传回AEM，并准备与[表单容器组件](form-container-v1.md)一起使用。
+核心组件表单隐藏组件允许创建隐藏字段，以将有关当前页面的信息传递回AEM，并准备与[表单容器组件](form-container-v1.md)一起使用。
 
 字段属性可由[配置对话框](#configure-dialog)中的内容编辑器定义。
 
 ## 版本和兼容性{#version-and-compatibility}
 
-本文档描述了最初随AEM 6.3的核心组件版本1.0.0引入的表单隐藏组件的v1。
+本文档描述了最初随AEM 6.3核心组件版本1.0.0引入的表单隐藏组件版本1。
 
-下表列表了“表单隐藏组件”v1的兼容性。
+下表列表了表单隐藏组件v1的兼容性。
 
 | AEM 版本 | 表单隐藏组件v1 |
 |--- |--- |
@@ -34,9 +35,9 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->此文档描述了表单隐藏组件的v1。
+>本文档描述了表单隐藏组件的v1。
 >
->有关表单隐藏组件的当前版本的详细信息，请参阅[表单隐藏组件](/help/components/forms/form-hidden.md)文档。
+>有关表单隐藏组件当前版本的详细信息，请参阅[表单隐藏组件](/help/components/forms/form-hidden.md)文档。
 
 ## 示例组件输出{#sample-component-output}
 
@@ -80,7 +81,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md#release-history-and-compatibility)的[兼容性信息。
+>从核心组件导出JSON需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md#release-history-and-compatibility)的[兼容性信息。
 
 ## 配置对话框{#configure-dialog}
 
@@ -88,9 +89,9 @@ ht-degree: 2%
 
 ![](/help/assets/chlimage_1-26.png)
 
-* **名称** -随表单数据提交的字段的名称
-* **值** -与表单数据一起提交的字段的值
-* **标识符** -该标识符在页面上应是唯一的，并可用于将脚本绑定到此表单字段
+* **名称**  — 随表单数据提交的字段的名称
+* **值**  — 随表单数据提交的字段值
+* **标识符**  — 该标识符在页面上应是唯一的，并可用于将脚本绑定到此表单域
 
 ## 设计对话框{#design-dialog}
 
