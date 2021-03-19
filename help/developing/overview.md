@@ -1,10 +1,11 @@
 ---
 title: 开发核心组件
-description: 核心组件提供强大且可扩展的基本组件，这些组件可优惠丰富的功能、连续投放、组件版本控制、现代实施、精益标记和JSON内容导出。
+description: 核心组件提供强大和可扩展的基本组件，这些组件可优惠丰富的功能、连续投放、组件版本控制、现代实施、精益标记和内容的JSON导出。
+role: 架构师、开发人员、管理员
 translation-type: tm+mt
-source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1445'
 ht-degree: 15%
 
 ---
@@ -19,46 +20,46 @@ ht-degree: 15%
 因此，Adobe提出以下建议：
 
 * **新项**
-目新项目应始终尝试使用核心组件。如果核心组件不能直接使用或[extended](customizing.md)满足项目要求，请按照核心组件中规定的组件架构创建自定义组件。 除非另有可能，否则请避免使用[基础组件](/help/versions.md#foundation-component-support)。
+目新项目应始终尝试使用核心组件。如果核心组件不能直接使用或[extended](customizing.md)满足项目要求，则按照核心组件中所述的组件架构创建自定义组件。 除非其他可能，否则请避免使用[基础组件](/help/versions.md#foundation-component-support)。
 * **现有**
-ProjectsRecommendation将继续使用 [基础组件](/help/versions.md#foundation-component-support)，除非计划进行站点或组件重构。\
-   由于它们在大多数现有项目中得到广泛应用，因此将继续支持基础组件[。](/help/versions.md#foundation-component-support)
+ProjectsRecommendation将继续使用 [基础组件](/help/versions.md#foundation-component-support)，除非计划了站点或组件重构。\
+   由于大多数现有项目都广泛使用这些组件，因此将继续支持基础组件[。](/help/versions.md#foundation-component-support)
 * **新自定义**
 组件评估是否可 [以自定义现有核心组件](customizing.md)。\
    否则，建议按照[组件准则](guidelines.md)构建新的自定义组件。
 * **现有自定**
-义组件如果您的组件按预期工作，则可以按原样进行保留。
+义组件如果您的组件按预期工作，则可以按原样保留它们。
 \
-   否则，请参阅上面的“New Custom Components”（新建自定义组件）。
+   否则，请参阅上面的“新建自定义组件”。
 
-## 如何成功使用核心组件{#how-to-succeed}
+## 如何使核心组件{#how-to-succeed}成功
 
 核心组件功能强大、灵活，易于使用和自定义。 [遵循几个关键指](success.md) 南将确保您的核心组件项目取得成功。
 
 ## 迁移到核心组件
 
-任何新项目都应通过核心组件来实施。 但是，现有项目通常具有广泛的基础组件实施。
+任何新项目都应通过核心组件实施。 但是，现有项目通常具有广泛的Foundation Components实施。
 
-对现有项目（例如重新品牌化或整体重构）进行更大的投入通常会优惠到迁移到核心组件的机会。 为了促进这一迁移，Adobe提供了一些迁移工具，鼓励采用核心组件和最新的AEM技术。
+对现有项目（例如重新品牌化或整体重构）的更大努力通常会优惠迁移到核心组件的机会。 为了促进这一迁移，Adobe提供了一些迁移工具，以鼓励采用核心组件和最新的AEM技术。
 
-[AEM现代化工](http://opensource.adobe.com/aem-modernize-tools/) 具套件可轻松转换：
+[AEM现代化工](http://opensource.adobe.com/aem-modernize-tools/) 具包可轻松转换：
 
 * 静态模板到可编辑模板
 * 设计配置到策略
 * 基础组件到核心组件
 * 经典 UI 到触控式 UI
 
-有关这些工具的使用的详细信息，请[参阅其文档](http://opensource.adobe.com/aem-modernize-tools/)。
+有关这些工具使用情况的更多信息，请[参阅其文档](http://opensource.adobe.com/aem-modernize-tools/)。
 
 >[!NOTE]
 >
->AEM现代化工具是一项社区工作，不受Adobe支持或授权。
+>AEM现代化工具是一项社区工作，不受Adobe支持或保证。
 
 ## 核心组件支持{#core-component-support}
 
 核心组件是 AEM 的一个组成部分，依原样提供支持，并作为“快速入门”的一部分提供，须遵循相同的条款和条件。
 
-与其他AEM产品功能一样，一般规则是：首先宣布弃用组件，并且最早删除以下AEM版本的组件。 这样，客户在放弃支持之前，至少可以在一个发布周期中迁移到新版本的组件。
+与其他AEM产品功能一样，一般规则是：首先宣布弃用组件，并且最早删除以下AEM版本。 这样，客户在放弃支持之前，至少可以在一个发布周期内迁移到新版本的组件。
 
 每个组件的版本都清楚地声明了其支持的 AEM 版本。当某个 AEM 版本不再受到支持时，该版本 AEM 的核心组件也不再受到支持。
 
@@ -75,22 +76,22 @@ ProjectsRecommendation将继续使用 [基础组件](/help/versions.md#foundatio
 |-----|---|---|
 | 逻辑实现 | 带有[Sling Models](https://sling.apache.org/documentation/bundles/models.html)注释的Java POJO | JSP代码 |
 | 标记定义 | [HTML模板语言](https://docs.adobe.com/content/help/zh-Hans/experience-manager-htl/using/overview.html) (HTL)语法 | JSP代码 |
-| XSS清理 | 由HTL自动化 | 大多为手动 |
-| CSS类命名 | 基于[块元素修饰符](https://getbem.com/)(BEM)记号的标准命名约定（从版本2.0.0开始） | 自定义方案 |
+| XSS清理 | 由HTL自动 | 大部分是手动的 |
+| CSS类命名 | 基于[块元素修饰符](https://getbem.com/)(BEM)表示法（从版本2.0.0开始）的标准化命名约定 | 自定义方案 |
 | 对话框定义 | [珊瑚3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 +经典UI |
-| JSON输出 | [Sling Models Exporter和Jackson系列化](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | 默认Sling Servlet |
+| JSON输出 | [Sling Models Exporter与Jackson系列化](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | 默认Sling Servlet |
 | 版本控制 | [对于模型和HTL](guidelines.md) | 无 |
 | 测试 | 单元测试+集成测试 | 集成测试 |
 | 交付 | [通过公共GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过快速入门 |
-| License | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe专有 |
+| License | [Apache许可证](https://www.apache.org/licenses/LICENSE-2.0) | Adobe专有 |
 | 贡献 | 通过拉入请求 | 不可能 |
 | 辅助功能 | 完全符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 仅部分符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## 组件列表{#component-list}
 
-下表列表了可用的核心组件（链接到其API），并指示它们替换的基础组件。
+下表列表了可用的核心组件，它们链接到了它们的API，并指示它们替换的基础组件。
 
-| 核心组件 | 描述 | 已替换基础组件 |
+| 核心组件 | 描述 | 已更换基础组件 |
 |---|---|---|
 | [页面](https://adobe.com/go/aem_cmp_tech_page_v2) | 使用模板编辑器的响应式页面 | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
 | [痕迹导航](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | 页面层次结构导航 | `/libs/foundation/components/breadcrumb` |
@@ -105,21 +106,21 @@ ProjectsRecommendation将继续使用 [基础组件](/help/versions.md#foundatio
 | [隐藏的表单](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | 隐藏输入字段 | `/libs/foundation/components/form/hidden` |
 | [表单按钮](https://adobe.com/go/aem_cmp_tech_form_button_v2) | 提交或自定义按钮 | `/libs/foundation/components/form/submit` |
 | [导航](https://adobe.com/go/aem_cmp_tech_navigation_v1) | 列表嵌套页面层次结构的站点导航组件 | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
-| [语言导航](https://adobe.com/go/aem_cmp_tech_langnav_v1) | 列表全球语言结构的语言和国家／地区转换程序 | `-` |
-| [快速搜索](https://adobe.com/go/aem_cmp_tech_search_v1) | 在下拉菜单中将结果显示为就地建议的搜索组件 | `/libs/foundation/components/search` |
-| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | 允许内容作者轻松创建Teaser以使用图像、标题或富文本进一步创建内容，并链接到其他内容或其他操作 | `-` |
+| [语言导航](https://adobe.com/go/aem_cmp_tech_langnav_v1) | 列表全球语言结构的语言和国家/地区切换程序 | `-` |
+| [快速搜索](https://adobe.com/go/aem_cmp_tech_search_v1) | 一个搜索组件，在下拉菜单中将结果显示为就地建议 | `/libs/foundation/components/search` |
+| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | 允许内容作者轻松创建Teaser以使用图像、标题或富文本进行内容创作，并链接到其他内容或其他操作 | `-` |
 | [选项卡](https://adobe.com/go/aem_cmp_tech_tabs_v1) | 允许内容作者在多个选项卡中组织页面内容 | `-` |
 | [轮播](https://adobe.com/go/aem_cmp_tech_carousel_v1) | 允许内容作者在旋转的幻灯片轮盘中组织内容 | `/libs/foundation/components/carousel` |
 | [内容片段](https://adobe.com/go/aem_cmp_tech_cf_v1) | 允许显示内容片段 | `-` |
-| [内容片段列表](https://adobe.com/go/aem_cmp_tech_cflist_v1) | 允许显示内容片段列表 | `-` |
+| [内容片段列表](https://adobe.com/go/aem_cmp_tech_cflist_v1) | 允许显示内容片段的列表 | `-` |
 | [分隔符](https://adobe.com/go/aem_cmp_tech_separator_v1) | 分隔页面上的内容 | `-` |
-| [折叠](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 在可折叠的面板中组织内容面板 | `-` |
+| [折叠](https://adobe.com/go/aem_cmp_tech_accordion_v1) | 在可折叠的折叠面板中组织内容面板 | `-` |
 | [容器](https://adobe.com/go/aem_cmp_tech_container_v1) | 在容器内组织组件 | `-` |
 | [按钮](https://adobe.com/go/aem_cmp_tech_button_v1) | 在页面上创建按钮 | `-` |
 | [下载](https://adobe.com/go/aem_cmp_tech_download_v1) | 向页面添加可下载的资源 | `-` |
 | [体验片段](https://adobe.com/go/aem_cmp_tech_xf_v1) | 将体验片段添加到页面 | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [嵌入](https://adobe.com/go/aem_cmp_tech_embed_v1) | 在页面中嵌入外部资源 | - |
-| [进度条](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以可视方式呈现实现目标的进展情况 | - |
+| [进度条](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以可视方式表示实现目标的进展 | - |
 | [PDF 查看器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在页面上显示PDF文档 | - |
 
 ### 即将推出的组件{#upcoming-components}
@@ -128,8 +129,8 @@ ProjectsRecommendation将继续使用 [基础组件](/help/versions.md#foundatio
 
 ## 升级核心组件{#upgrade-of-core-components}
 
-版本化组件的一个好处是，它允许将迁移从迁移到新组件版本分离到新的AEM版本。 此外，如果有新组件版本可用，它允许将每个组件单独迁移到新版本。
+版本化组件的一个好处是，它允许将迁移到新AEM版本与迁移到新组件版本分开。 此外，如果有新的组件版本，它允许将每个组件单独迁移到新版本。
 
-迁移到新的AEM版本不会影响核心组件的工作方式，前提是其版本还支持要迁移到的新AEM版本。 对核心组件进行的自定义也不应受到影响，只要它们不使用[已弃用或已删除的API](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
+迁移到新的AEM版本不会影响核心组件的工作方式，前提是其版本还支持要迁移到的新AEM版本。 对核心组件进行的自定义也不应受到影响，只要它们不使用已[弃用或已删除的API](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)。
 
-迁移到核心组件的新版本也不会影响组件的工作方式，但可能会为页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防缺省行为不理想。 但是，可能需要调整自定义，有关详细信息，请参阅[自定义核心组件](customizing.md#upgrade-compatibility-of-customizations)页。
+迁移到核心组件的新版本也不会影响组件的工作方式，但可能会向页面作者引入新功能，这可能需要模板编辑器进行一些配置，以防不需要默认行为。 但是，可能需要调整自定义，有关详细信息，请参阅[自定义核心组件](customizing.md#upgrade-compatibility-of-customizations)页。
