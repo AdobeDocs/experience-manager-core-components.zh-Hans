@@ -1,19 +1,15 @@
 ---
-product: Adobe Experience Manager
+product: adobe experience manager
+solution: Experience Manager Sites
+type: 文档
 description: Adobe Experience Manager核心组件文档
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.zh-Hans
 index: y
-solution-title: AEM学习和支持
-solution-hub-url: https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/home.html
-getting-started-title: AEM开发入门
-getting-started-url: https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/core-concepts/home.html
-tutorials-title: AEM 教程
-tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
 translation-type: tm+mt
-source-git-commit: f109463f1942349c300600acf6b94f268e8aa60e
+source-git-commit: 290423c39b925ea8cf4077f31a76ecf01167f344
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 21%
+source-wordcount: '113'
+ht-degree: 6%
 
 ---
 
