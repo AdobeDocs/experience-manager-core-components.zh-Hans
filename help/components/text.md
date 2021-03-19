@@ -1,10 +1,11 @@
 ---
 title: 文本组件
 description: 文本组件是一个富文本编辑和合成组件，具有就地编辑功能。
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2218'
 ht-degree: 4%
 
 ---
