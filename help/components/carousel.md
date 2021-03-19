@@ -1,10 +1,11 @@
 ---
 title: 传送组件
 description: 传送组件允许内容作者在旋转传送中显示内容。
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1130'
 ht-degree: 1%
 
 ---
