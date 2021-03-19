@@ -1,10 +1,11 @@
 ---
 title: 导航组件
 description: 导航组件允许用户轻松导航全球化的站点结构。
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1387'
 ht-degree: 1%
 
 ---
@@ -123,7 +124,7 @@ ht-degree: 1%
 ![导航组件的编辑对话框属性选项卡](/help/assets/navigation-edit-properties.png)
 
 * **导航根**  — 将用于生成导航树的根页面。
-* **排除根级别**  — 通常，导航中不应包含根。此选项允许您指定要从根中向上排除多少级。 例如：
+* **排除根级别**  — 通常，导航中不应包含根。此选项允许您指定要从根中排除的级别数。 例如：
    * 0 =显示根级别
    * 1 =排除根级别
    * 2 =排除根，再向上1级
