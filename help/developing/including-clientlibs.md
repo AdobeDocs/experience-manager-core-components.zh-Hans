@@ -1,10 +1,11 @@
 ---
 title: 包括客户端库
 description: 根据您的用例，可以通过多种不同的方式包含客户端库。
+role: 架构师、开发人员、管理员
 translation-type: tm+mt
-source-git-commit: afce571ada011c38c83830628f09a9e268658965
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '397'
 ht-degree: 3%
 
 ---
@@ -12,11 +13,11 @@ ht-degree: 3%
 
 # 包括客户端库{#including-client-libraries}
 
-根据您的用例，有许多不同的方法来包含[客户端库](/help/developing/archetype/uifrontend.md#clientlibs)。 此文档提供示例和示例[HTL片段](https://docs.adobe.com/content/help/zh-Hans/experience-manager-htl/using/overview.html)。
+根据您的用例，有多种不同的方法来包含[客户端库](/help/developing/archetype/uifrontend.md#clientlibs)。 本文档提供了每个代码片段的示例和示例[HTL代码片段](https://docs.adobe.com/content/help/zh-Hans/experience-manager-htl/using/overview.html)。
 
 ## 建议的默认用法{#recommended-default-usage}
 
-如果您没有时间调查最适合您的情况，请通过将以下HTL行放在页面`head`元素中来包含您的客户端库：
+如果您没有时间调查最适合您的情况，请通过在页面`head`元素中放置以下HTL行来包含您的客户端库：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -25,11 +26,11 @@ ht-degree: 3%
 </sly>
 ```
 
-这将包括页面`head`中的CSS和JS，但向JS `script`中添加`defer`属性会使浏览器在执行脚本之前等待DOM就绪，从而优化页面加载速度。
+这将包括页面`head`中的CSS和JS，但向JS `script`中添加`defer`属性会包括，这样浏览器会在执行脚本之前等待DOM就绪，从而优化页面加载速度。
 
 ## 基本用法{#basic-usage}
 
-包含客户端库类别的JS和CSS的基本语法将生成所有相应的CSS `link`元素和／或JS `script`元素，如下所示：
+包含客户端库类别的JS和CSS的基本语法如下：`link``script`
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -48,7 +49,7 @@ ht-degree: 3%
 
 ## 仅CSS或JS {#css-js-only}
 
-通常，要将CSS包含在HTML `head`元素中，而JS包含在`body`元素关闭之前。
+通常，要将CSS包含在HTML `head`元素中，而JS包含在`body`元素关闭前。
 
 在`head`中，要仅包含CSS而不是JS，请使用`cssIncludes`:
 
@@ -58,7 +59,7 @@ ht-degree: 3%
 </sly>
 ```
 
-在`body`关闭之前，要仅包含JS而不包含CSS，请使用`jsIncludes`:
+在`body`关闭之前，要仅包含JS而不是CSS，请使用`jsIncludes`:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @ categories='wknd.base'}">
@@ -68,7 +69,7 @@ ht-degree: 3%
 
 ## 属性 {#attributes}
 
-要将属性应用于生成的CSS `link`元素和／或JS `script`元素，可以使用许多参数：
+要将属性应用于生成的CSS `link`元素和/或JS `script`元素，可以使用许多参数：
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -84,17 +85,17 @@ ht-degree: 3%
 
 可传递给`jsAndCssIncludes`和`cssIncludes`的CSS `link`属性：
 
-* `media`:字符串 `script` JS属性，可传递 `jsAndCssIncludes` 到 `jsIncludes`:
+* `media`:可传递 `script` 给的字符串JS属 `jsAndCssIncludes` 性 `jsIncludes`:
 * `async`: 布尔型
 * `defer`: 布尔型
 * `onload`: 字符串
 * `crossorigin`: 字符串
 
-## 内嵌{#inlining}
+## 内线{#inlining}
 
-在某些情况下，要进行优化，或者为电子邮件或[AMP，可能需要](amp.md)将CSS或JS嵌入到HTML的输出中。
+在某些情况下，要进行优化，或者为电子邮件或[AMP，](amp.md)可能需要将CSS或JS嵌入到HTML的输出中。
 
-要嵌入CSS，可以使用`cssInline`，在这种情况下，必须编写周围的`style`元素：
+要内嵌CSS，可以使用`cssInline`，在这种情况下，您必须编写周围的`style`元素：
 
 ```html
 <style type="text/css"
@@ -103,7 +104,7 @@ ht-degree: 3%
 </style>
 ```
 
-同样，要内嵌JS，可以使用`jsInline`，在这种情况下，您必须写入周围的`script`元素：
+同样，要内嵌JS，可以使用`jsInline`，在这种情况下，您必须编写周围的`script`元素：
 
 ```html
 <script type="text/javascript"
