@@ -1,10 +1,11 @@
 ---
 title: 核心组件版本
 description: 核心组件作为版本发布，其中可能包含同一核心组件的多个版本。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: 3c5749d6660af1ad94f4911f261951e0369fa139
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1976'
 ht-degree: 21%
 
 ---
