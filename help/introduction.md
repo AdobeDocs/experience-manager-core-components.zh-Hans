@@ -1,10 +1,11 @@
 ---
 title: 核心组件简介
 description: '核心组件提供基于最新技术和最佳实践的强大、可扩展的基本组件。 '
+role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: a752bbe7e03b3b85950b4b6332c39960198edd1e
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '894'
 ht-degree: 25%
 
 ---
