@@ -3,9 +3,9 @@ title: 页面组件
 description: 页面组件是一个可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器组合页面页眉/页脚和结构组件。
 role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '696'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 渐进式Web应用程序支持{#pwa-support}
 
-核心组件版本2.15.0引入了对AEM的支持，作为Cloud Service的内置渐进式Web应用程序(PWA)功能。 通过站点级别的简单配置，将您的AEM体验转变为PWA!
+核心组件版本2.15.0引入了对AEM的支持，作为Cloud Service的内置[渐进式Web应用程序(PWA)功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) 通过站点级别的简单配置，将您的AEM体验转变为PWA!
 
 ## 版本和兼容性{#version-and-compatibility}
 
