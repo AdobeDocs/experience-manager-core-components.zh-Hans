@@ -3,9 +3,9 @@ title: 核心组件版本
 description: 核心组件作为版本发布，其中可能包含同一核心组件的多个版本。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 role: 架构师、开发人员、管理员、业务从业者
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2009'
 ht-degree: 21%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 21%
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.15.0，与作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[内部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装的[AEM兼容。
+核心组件的当前版本为2.15.2，与作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[内部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装的[AEM兼容。
 
 ## 发行历史记录和兼容性{#release-history-and-compatibility}
 
@@ -27,6 +27,7 @@ ht-degree: 21%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | 这是一个修补程序版本，主要修复了[数据层](/help/developing/data-layer/overview.md)向后兼容性和IT测试在某些情况下失败的问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年3月16日 |
 | [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 此版本包括对[页面组件](/help/components/page.md)中渐进式Web应用程序的支持，并支持[Adobe数据层版本2.0.0。](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年2月23日 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 此版本包含[嵌入组件](/help/components/embed.md)的新选项，并在[页面](/help/components/page.md)级别引入品牌辅助信息区并解决许多问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年2月9日 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 这是解决AEMaCS上使用RTE时的问题的修补程序版本 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2020年12月16日 |
