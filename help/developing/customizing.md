@@ -1,15 +1,15 @@
 ---
 title: 自定义核心组件
 description: 核心组件采用多种模式，从简单的样式设计到高级功能重用，这些模式允许轻松定制。
-role: 架构师、开发人员、管理员
+role: Architect, Developer, Administrator
+exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1106'
 ht-degree: 2%
 
 ---
-
 
 # 自定义核心组件{#customizing-core-components}
 
@@ -105,7 +105,7 @@ public class PageHeadline implements Title {
 
 有时，高级样式需要组件的不同标记结构。
 
-这可以通过将需要修改的HTL文件从核心组件复制到代理组件中来轻松完成。
+这可以通过将需要修改的HTL文件从核心组件复制到[代理组件中来轻松实现。](guidelines.md#proxy-component-pattern)
 
 再举核心痕迹导航组件的示例，要自定义其标记输出，必须将`breadcrumb.html`文件复制到站点特定的组件中，该组件具有指向核心痕迹导航组件的`sling:resourceSuperTypes`。
 
