@@ -1,15 +1,15 @@
 ---
 title: 开发核心组件
 description: 核心组件提供强大和可扩展的基本组件，这些组件可优惠丰富的功能、连续投放、组件版本控制、现代实施、精益标记和内容的JSON导出。
-role: 架构师、开发人员、管理员
+role: Architect, Developer, Administrator
+exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 15%
+source-wordcount: '1591'
+ht-degree: 14%
 
 ---
-
 
 # 开发核心组件 {#developing-core-components}
 
@@ -40,6 +40,8 @@ ProjectsRecommendation将继续使用 [基础组件](/help/versions.md#foundatio
 
 任何新项目都应通过核心组件实施。 但是，现有项目通常具有广泛的Foundation Components实施。
 
+### 从Foundation组件{#from-foundation}迁移
+
 对现有项目（例如重新品牌化或整体重构）的更大努力通常会优惠迁移到核心组件的机会。 为了促进这一迁移，Adobe提供了一些迁移工具，以鼓励采用核心组件和最新的AEM技术。
 
 [AEM现代化工](http://opensource.adobe.com/aem-modernize-tools/) 具包可轻松转换：
@@ -54,6 +56,23 @@ ProjectsRecommendation将继续使用 [基础组件](/help/versions.md#foundatio
 >[!NOTE]
 >
 >AEM现代化工具是一项社区工作，不受Adobe支持或保证。
+
+## 迁移(通过移动到AEM作为Cloud Service{#via-aemaacs})
+
+由于AEM作为Cloud Service自动附带最新版核心组件，当您从内部部署AEM安装迁移时，您需要删除项目`pom.xml`文件中对核心组件的任何依赖关系。
+
+您的代理组件仍能正常工作，因为   代理指向必要的超类型，超类型路径中包含该版本。 这样，只需删除依赖项，核心组件就能像在内部部署中一样在AEMaCS中工作。
+
+与任何其他AEMaCS项目一样，您也需要向AEM SDKjar添加依赖项。 这并非特定于核心组件，而是必需的。
+
+```xml
+<dependency>
+   <groupId>com.adobe.aem</groupId>
+   <artifactId>aem-sdk-api</artifactId>
+</dependency>
+```
+
+有关AEMaCS项目的详细信息，请参阅文档[AEM Project Structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)。
 
 ## 核心组件支持{#core-component-support}
 
