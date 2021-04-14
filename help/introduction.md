@@ -1,15 +1,15 @@
 ---
 title: 核心组件简介
 description: '核心组件提供基于最新技术和最佳实践的强大、可扩展的基本组件。 '
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 25%
+source-wordcount: '936'
+ht-degree: 24%
 
 ---
-
 
 # 核心组件简介{#core-components-introduction}
 
@@ -118,3 +118,9 @@ ht-degree: 25%
 核心组件需要使用[可编辑的模板](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，并且不支持经典UI或静态模板。 如果需要，请查看[AEM现代化工具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)以使用这些现代AEM功能更新您的项目。
 
 要设置本地开发环境，请查看[此概述(AEM作为Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html))或此文档[(对于旧版AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html))。
+
+>[!TIP]
+>
+>核心组件作为Cloud Service自动属于AEM的一部分，并且您始终拥有最新版本的核心组件。
+>
+>有关如何在AEMaCS和内部部署中开始使用核心组件的详细信息，请参阅[使用核心组件](/help/get-started/using.md)文档。
