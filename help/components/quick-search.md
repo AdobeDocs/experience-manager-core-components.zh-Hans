@@ -4,7 +4,7 @@ description: “快速搜索”组件向网站提供搜索功能并显示搜索�
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
@@ -50,7 +50,7 @@ ht-degree: 1%
 ![快速搜索组件的编辑对话框](/help/assets/quick-search-edit.png)
 
 **搜索根**  — 从中开始搜索的根页面。“搜索根”可以是蓝图主控、语言主控或常规页面。
-* **ID**  — 此选项允许控制HTML和数据层中组件的唯一 [标识符](/help/developing/data-layer/overview.md)。
+* **ID**  — 此选项允许控制HTML和数据层中组件的唯一标识符 [。](/help/developing/data-layer/overview.md)
    * 如果留空，系统会为您自动生成唯一ID，通过检查生成的页面可以找到它。
    * 如果指定了ID，则作者有责任确保它是唯一的。
    * 更改ID可能会影响CSS、JS和数据图层跟踪。
