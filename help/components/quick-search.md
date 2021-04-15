@@ -1,15 +1,15 @@
 ---
 title: 快速搜索组件
 description: “快速搜索”组件向网站提供搜索功能并显示搜索结果，以便访客可以搜索网站并筛选结果。
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 2%
+source-wordcount: '614'
+ht-degree: 1%
 
 ---
-
 
 # 快速搜索组件{#quick-search-component}
 
@@ -54,6 +54,10 @@ ht-degree: 2%
    * 如果留空，系统会为您自动生成唯一ID，通过检查生成的页面可以找到它。
    * 如果指定了ID，则作者有责任确保它是唯一的。
    * 更改ID可能会影响CSS、JS和数据图层跟踪。
+
+>[!NOTE]
+>
+>如果未配置或无法解析&#x200B;**搜索根**，则“快速搜索”默认为在当前页面下方进行搜索。
 
 ## 设计对话框{#design-dialog}
 
