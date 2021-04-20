@@ -1,8 +1,8 @@
 ---
 title: AEM Project Archetype前端构建
 description: 基于AEM的应用程序的项目模板
-feature: 核心组件、 AEM项目原型
-role: 架构师、开发人员、管理员
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

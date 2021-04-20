@@ -1,7 +1,7 @@
 ---
 title: 包括客户端库
 description: 根据您的用例，可以通过多种不同的方式包含客户端库。
-role: 架构师、开发人员、管理员
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

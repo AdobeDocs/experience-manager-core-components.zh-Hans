@@ -1,7 +1,7 @@
 ---
 title: 体验片段组件
 description: 体验片段组件允许内容作者将体验片段变量添加到页面。
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

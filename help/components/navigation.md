@@ -1,7 +1,7 @@
 ---
 title: 导航组件
 description: 导航组件允许用户轻松导航全球化的站点结构。
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

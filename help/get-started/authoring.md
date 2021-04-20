@@ -1,7 +1,7 @@
 ---
 title: 通过核心组件创作
 description: 在AEM中，组件是构成所创作页面内容的结构元素 — 核心组件优惠灵活且功能丰富的创作功能。
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

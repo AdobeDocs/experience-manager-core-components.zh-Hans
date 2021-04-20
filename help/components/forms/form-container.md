@@ -1,7 +1,7 @@
 ---
 title: 表单容器组件
 description: 核心组件表单容器组件允许创建简单的提交表单。
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

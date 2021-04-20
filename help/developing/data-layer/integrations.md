@@ -1,8 +1,8 @@
 ---
 title: 集成和Adobe客户端数据层
 description: 了解Adobe客户端数据层如何与您的自定义组件集成，以及与Adobe Analytics和Adobe Target的集成如何帮助您深入了解您的网站
-feature: 核心组件，Adobe客户端数据层
-role: 架构师、开发人员、管理员
+feature: Core Components, Adobe Client Data Layer
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

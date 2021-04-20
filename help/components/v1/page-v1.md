@@ -2,7 +2,7 @@
 title: 页面组件(v1)
 description: 页面组件是一个可扩展的页面组件，旨在与模板编辑器结合使用，并允许使用模板编辑器组合页面页眉/页脚和结构组件。
 index: n
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

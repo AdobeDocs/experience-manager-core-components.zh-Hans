@@ -1,7 +1,7 @@
 ---
 title: 嵌入组件
 description: 嵌入组件允许在AEM内容页面中嵌入外部内容。
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

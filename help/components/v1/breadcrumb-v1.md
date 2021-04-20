@@ -2,7 +2,7 @@
 title: 痕迹导航组件(v1)
 description: 核心组件痕迹导航组件是一个导航组件，用于根据页面在内容层次结构中的位置构建链接的痕迹导航。
 index: n
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 title: 标题组件(v1)
 description: 核心组件标题组件是具有就地编辑功能的章节标题组件。
 index: n
-role: 架构师、开发人员、管理员、业务从业者
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
