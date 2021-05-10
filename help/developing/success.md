@@ -2,14 +2,14 @@
 title: 核心组件的成功路径
 description: 如何通过核心组件实现项目
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 13%
+source-wordcount: '564'
+ht-degree: 14%
 
 ---
-
 
 # 核心组件{#paths-to-success}的成功路径
 
@@ -41,7 +41,7 @@ ht-degree: 13%
 
 ### 使用Adobe XD {#ui-kit}的UI套件
 
-一旦对自定义组件有了充分的需求，就应利用适用于Adobe XD的[ UI套件](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)，以便设计人员能够开始构建线框和以核心组件作为构建块的设计。
+一旦对自定义组件有了充分的需求，就应利用适用于Adobe XD的[ UI套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，以便设计人员能够开始构建线框和以核心组件作为构建块的设计。
 
 ## 不要忽视强大的功能{#powerful-features}
 
@@ -60,4 +60,4 @@ AEM和核心组件的功能可能非常强大，但也非常微妙，某些功�
 
 ### 嵌入组件{#embed-component}
 
-[嵌入](/help/components/embed.md) 组件不仅允许简单地包含外部资源（如YouTube视频内容），而且还可扩展以允许它容纳特定于项目需求的内容。
+[嵌入组](/help/components/embed.md) 件不仅允许简单地包含外部资源(如YouTube视频内容)，而且还可扩展，以允许它适应特定于项目需求的内容。
