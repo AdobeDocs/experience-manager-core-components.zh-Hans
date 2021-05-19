@@ -3,17 +3,16 @@ title: 核心组件版本
 description: 核心组件作为版本发布，其中可能包含同一核心组件的多个版本。 本文档介绍哪些版本和版本以及如何了解与核心组件和AEM的兼容性。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-translation-type: tm+mt
-source-git-commit: f151a70c5ff7db042d4e10adc7ed8a9752ea9c87
+source-git-commit: 46d97324ed1b903c315725429fe36b11a1856aa9
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2067'
 ht-degree: 21%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.16.0，与作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[内部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装的[AEM兼容。
+核心组件的当前版本为2.16.2，与作为Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[内部部署AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装的[AEM兼容。
 
 ## 发行历史记录和兼容性{#release-history-and-compatibility}
 
@@ -27,6 +26,7 @@ ht-degree: 21%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 这是用于修复与链接处理程序相关问题的修补程序版本。 还对PWA作了小幅改进。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年5月15日 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 此版本侧重于对辅助功能的改进，并向现有组件引入了新的链接处理程序。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年4月22日 |
 | [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | 这是一个修补程序版本，主要修复了[数据层](/help/developing/data-layer/overview.md)向后兼容性和IT测试在某些情况下失败的问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021 年 3 月 16 日 |
 | [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 此版本包括对[页面组件](/help/components/page.md)中渐进式Web应用程序的支持，并支持[Adobe数据层版本2.0.0。](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年2月23日 |
@@ -116,7 +116,7 @@ ht-degree: 21%
 
 有关核心组件版本的详细信息，请参阅核心组件](developing/guidelines.md)的[开发人员文档。
 
-### 版本{#releases}
+### 版本 {#releases}
 
 核心组件通过&#x200B;**发行版**&#x200B;和[提供，它们代表GitHub](https://github.com/adobe/aem-core-wcm-components/releases)上可用的实际已发布对象。 版本以X.Y.Z格式的十进制数表示，并将所有核心组件作为可交付包一起收集。
 
