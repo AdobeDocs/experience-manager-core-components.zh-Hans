@@ -1,19 +1,18 @@
 ---
 title: 表单文本组件
-description: 核心组件表单文本组件允许输入要提交的表单文本。
+description: 核心组件表单文本组件允许输入表单文本以供提交。
 role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '577'
 ht-degree: 7%
 
 ---
 
-
 # 表单文本组件{#form-text-component}
 
-核心组件表单文本组件允许输入要提交的表单文本。
+核心组件表单文本组件允许输入表单文本以供提交。
 
 ## 使用 {#usage}
 
@@ -21,24 +20,24 @@ ht-degree: 7%
 
 ## 版本和兼容性{#version-and-compatibility}
 
-表单文本组件的当前版本为v2,2018年1月随核心组件版本2.0.0引入了v2，本文档对此进行了说明。
+表单文本组件的当前版本为v2，该版本在2018年1月核心组件版本2.0.0中引入，在本文档中进行了描述。
 
-下表详细列出了组件的所有受支持版本、与组件版本兼容的AEM版本，以及指向先前版本文档的链接。
+下表详细列出了组件的所有受支持版本、组件版本与之兼容的AEM版本，以及指向以前版本文档的链接。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v2 | 兼容 | 兼容 | 兼容 |
 | [v1](/help/components/v1/form-text-v1.md) | 兼容 | 兼容 | - |
 
-有关核心组件版本和版本的详细信息，请参阅文档[核心组件版本](/help/versions.md)。
+有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 示例组件输出{#sample-component-output}
+## 组件输出示例{#sample-component-output}
 
-要体验表单文本组件及其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_form_text)。
+要体验表单文本组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_form_text)。
 
 ### 技术详细信息{#technical-details}
 
-有关表单文本组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2)上找到。
+有关表单文本组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
@@ -50,7 +49,7 @@ ht-degree: 7%
 
 ![“属性”选项卡](/help/assets/form-text-edit-properties.png)
 
-* **约束**  — 要输入并将验证的文本类型
+* **约束**  — 要输入并将针对其进行验证的文本类型
    * **文本**
    * **文本区域**
    * **电子邮件**
@@ -58,22 +57,22 @@ ht-degree: 7%
    * **日期**
    * **数字**
    * **密码**
-* **文本行**  — 要在文本区域中显示的行数(仅当“约束”设置为“文 **** 本区域”时 **显示**)
+* **文本行**  — 要在文本区域中显示的行数(仅当“约束”设置为“文 **** 本区域” **时显示**)
 * **标签**  — 将为字段显示的标签
-* **隐藏标签以免显示**  — 如果标签仅用于辅助功能目的而且不传递有关字段的任何其他可视信息，则需要
-* **元素名称**  — 随表单数据提交的字段的名称
+* **隐藏标签以防显示**  — 如果仅出于辅助功能目的而需要标签，并且不会传递有关该字段的任何其他可视化信息，则需要此标签
+* **元素名称**  — 随表单数据一起提交的字段的名称
 * **值**  — 在字段中预填充的默认值
-* **ID**  — 此选项允许控制HTML和数据层中组件的唯一 [标识符](/help/developing/data-layer/overview.md)。
-   * 如果留空，系统会为您自动生成唯一ID，通过检查生成的页面可以找到它。
-   * 如果指定了ID，则作者有责任确保它是唯一的。
-   * 更改ID可能会影响CSS、JS和数据图层跟踪。
+* **ID**  — 利用此选项，可控制HTML和数据层中组件的唯一标识符 [的唯一标识符](/help/developing/data-layer/overview.md)。
+   * 如果留为空白，则会自动为您生成唯一ID，并且可以通过检查生成的页面找到该ID。
+   * 如果指定了ID，则作者有责任确保该ID是唯一的。
+   * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-### 关于Tab {#about-tab}
+### 关于选项卡{#about-tab}
 
 ![“关于”选项卡](/help/assets/form-text-edit-about.png)
 
 * **帮助消息**  — 向用户提示可在字段中输入的内容
-* **将帮助消息显示为占位符**  — 在表单输入为空且未聚焦时在表单输入内显示帮助消息
+* **将帮助消息显示为占位符**  — 在表单输入中显示帮助消息，当该消息为空且未集中
 
 ### 约束选项卡 {#constraints-tab}
 
@@ -81,8 +80,8 @@ ht-degree: 7%
 
 * **约束消息**
    * 如果该值对于所选的类型无效，则在提交表单时，将以工具提示形式显示消息
-   * 未针对&#x200B;**Text**&#x200B;和&#x200B;**Text Area**&#x200B;约束类型显示
-* **必需**  — 如果选中，则用户必须在提交表单之前填写值
+   * 未显示&#x200B;**Text**&#x200B;和&#x200B;**Text Area**&#x200B;约束类型
+* **必需**  — 如果选中此项，则用户必须在提交表单之前填写值
    * **必需消息**  — 如果字段留空，则消息将显示为工具提示
 * **设为只读**  — 如果选中，则用户无法修改字段的值
 
