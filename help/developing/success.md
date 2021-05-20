@@ -1,9 +1,8 @@
 ---
-title: 核心组件的成功路径
-description: 如何通过核心组件实现项目
+title: 使用核心组件取得成功的途径
+description: 如何使用核心组件实施项目时取得成功
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-translation-type: tm+mt
 source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
 workflow-type: tm+mt
 source-wordcount: '564'
@@ -11,45 +10,45 @@ ht-degree: 14%
 
 ---
 
-# 核心组件{#paths-to-success}的成功路径
+# 核心组件{#paths-to-success}成功路径
 
-核心组件功能强大、灵活，易于使用和自定义。 遵循本文档中概述的几条关键指南，将确保您的核心组件项目取得成功。
+核心组件功能强大、灵活，易于使用和自定义。 遵循本文档中概述的一些关键准则，将确保您具有核心组件的项目取得成功。
 
 ## 成功的两条路径{#two-paths}
 
-实施核心部分有两种基本办法，可以取得成功，但也有各自的取舍，需要逐个项目加以考虑。
+实施核心组成部分有两种基本方法，虽然可以取得成功，但需要逐个项目考虑它们各自的利弊。
 
-1. 将您的设计映射到核心组件，并采用它们提供的HTML。 或者
-1. 如果您必须遵守已定义的HTML标准，则需要付出更多努力，而不能从核心组件中获得所有好处。
+1. 将您的设计映射到核心组件，并获取它们提供的HTML。 或者
+1. 如果您必须遵守已定义的HTML标准，则需要付出更多努力，而无法从核心组件获得所有好处。
 
 ## 组件实施{#common-pitfalls}中的常见缺陷
 
 导致项目无法成功使用核心组件的两个常见问题是：
 
-* **最终设计**  — 这些设计甚至可能是C级批准的，并交给开发团队以实施像素完美型设计，而不必担心底层技术。
-* **公司范围的HTML样式指南**  — 此类指南通常必须由从上到下透视应用样式的组件教条式地遵循。
+* **最终设计**  — 这些设计甚至可能获得C级批准，并交给开发团队以实施像素级完美设计，而无需考虑底层技术。
+* **公司范围的HTML风格指南**  — 此类指南的后面往往必须由从上到下应用样式的组件以教条的方式遵循。
 
-在这两种情况下，对组件的要求都非常紧密和具体，因此很难使核心组件或任何现成的组件符合这些要求，从而导致自定义组件的大规模开发。
+在这两种情况下，对组件的要求都非常严格和具体，因此很难使核心组件或任何现成的组件符合这些要求，从而导致大量开发自定义组件。
 
-## 开始早{#start-early}
+## 提前开始{#start-early}
 
-在线框化和设计阶段，已经与核心组件开始，而不是只考虑项目实施阶段的核心组件。
+在线框构建和设计阶段，核心组件不再只是考虑项目实施阶段的核心组件，而是从核心组件开始。
 
 ### 使用组件库{#component-library}
 
-引用已在设计阶段的[组件库](https://adobe.com/go/aem_cmp_library)。 核心组件功能强大、灵活，可以帮助您从头开始。 只有在存在真正无法通过核心组件实现的真正业务需求时添加自定义组件。
+引用已处于设计阶段的[组件库](https://adobe.com/go/aem_cmp_library)。 核心组件功能强大且灵活，可以让您充分了解。 仅当存在真正的业务需求且无法使用核心组件实现合理目标时，才添加自定义组件。
 
-### 使用Adobe XD {#ui-kit}的UI套件
+### 使用Adobe XD UI包{#ui-kit}
 
-一旦对自定义组件有了充分的需求，就应利用适用于Adobe XD的[ UI套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，以便设计人员能够开始构建线框和以核心组件作为构建块的设计。
+只要对自定义组件有充分的需求，就应利用[适用于Adobe XD的UI套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，以便设计人员能够开始使用核心组件作为构建基块来构建线框和设计。
 
 ## 不要忽视强大的功能{#powerful-features}
 
-AEM和核心组件的功能可能非常强大，但也非常微妙，某些功能的可能性对设计人员来说可能并不直接。
+AEM和核心组件的功能可能非常强大，但也非常微妙，某些功能的可能性对于设计人员来说可能并不直接可见。
 
 ### 内容片段 {#content-fragments}
 
-[内容](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) 片段允许您创建渠道中性内容，以及(可能特定于渠道的)变量。您随后可以在创作内容页面时使用这些片段及其变量。
+[内容](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) 片段允许您创建渠道中性内容，以及（可能特定于渠道）变量。您随后可以在创作内容页面时使用这些片段及其变量。
 
 结构化内容片段与更新的 JSON 导出程序结合使用时，还可用于通过 Content Services 将 AEM 内容传送到 AEM 页面以外的渠道。
 
@@ -60,4 +59,4 @@ AEM和核心组件的功能可能非常强大，但也非常微妙，某些功�
 
 ### 嵌入组件{#embed-component}
 
-[嵌入组](/help/components/embed.md) 件不仅允许简单地包含外部资源(如YouTube视频内容)，而且还可扩展，以允许它适应特定于项目需求的内容。
+[嵌入组](/help/components/embed.md) 件不仅允许简单包含外部资源(如YouTube视频内容)，而且还具有可扩展性，以允许它适应特定于项目需求的内容。
