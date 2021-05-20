@@ -3,14 +3,13 @@ title: 表单按钮组件(v1)
 description: 核心组件表单隐藏组件允许在表单中包含隐藏字段。
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '342'
 ht-degree: 3%
 
 ---
-
 
 # 表单按钮组件(v1){#form-button-component-v}
 
@@ -20,13 +19,13 @@ ht-degree: 3%
 
 核心组件表单按钮组件允许创建按钮字段，通常用于触发表单的提交，并准备与[表单容器组件](form-container-v1.md)一起使用。
 
-按钮属性可由[配置对话框](#configure-dialog)中的内容编辑器定义。
+[配置对话框](#configure-dialog)中的内容编辑器可定义按钮属性。
 
 ## 版本和兼容性{#version-and-compatibility}
 
-本文档描述了最初随AEM 6.3核心组件版本1.0.0引入的表单按钮组件的v1。
+本文档介绍了表单按钮组件v1，该组件最初随AEM 6.3核心组件1.0.0版一起引入。
 
-下表列表了“表单按钮”组件v1的兼容性。
+下表列出了表单按钮组件v1的兼容性。
 
 | AEM 版本 | 表单按钮组件v1 |
 |--- |--- |
@@ -35,13 +34,13 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->本文档描述了表单按钮组件的v1。
+>本文档介绍表单按钮组件的v1。
 >
 >有关表单按钮组件当前版本的详细信息，请参阅[表单按钮组件](/help/components/forms/form-button.md)文档。
 
-## 示例组件输出{#sample-component-output}
+## 组件输出示例{#sample-component-output}
 
-以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)取的示例。
+以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)获取的示例。
 
 ### 屏幕快照 {#screenshot}
 
@@ -85,7 +84,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->从核心组件导出JSON需要1.1.0版的核心组件。 有关详细信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
+>从核心组件导出JSON时，需要安装核心组件版本1.1.0。 有关更多信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
 ## 配置对话框{#configure-dialog}
 
@@ -100,7 +99,7 @@ ht-degree: 3%
 * **标题**  — 按钮上显示的文本
    * 如果未提供，则默认为按钮类型
 
-* **名称**  — 随表单数据提交的按钮的名称
+* **名称**  — 随表单数据一起提交的按钮的名称
 * **值**  — 随表单数据一起提交的按钮的值
 
 ## 设计对话框{#design-dialog}
@@ -109,8 +108,8 @@ ht-degree: 3%
 
 ## 技术详细信息{#technical-details}
 
-有关“表单按钮组件[”的最新技术文档，可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)上找到。
+有关表单按钮组件[的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button)。
 
-整个核心组件项目可从GitHub下载。
+可以从GitHub下载整个核心组件项目。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
