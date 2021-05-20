@@ -1,37 +1,36 @@
 ---
-title: ui.tests Module of AEM Project Archetype
-description: 如何使用AEM Project原型UI测试
-feature: Core Components, AEM Project Archetype
+title: AEM项目原型的ui.test模块
+description: 如何使用AEM项目原型UI测试
+feature: 核心组件、 AEM项目原型
 role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: eb3c9b34-f10e-410f-bcf3-34f94f124c7c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-
 # ui.tests AEM项目原型{#uitests-module}的模块
 
-项目中包含三个测试级别：
+项目包含三个级别的测试：
 
-* [设备测试](core.md#unit-tests)
+* [单元测试](core.md#unit-tests)
 * [集成测试](ittests.md)
-* UI测试
+* 用户界面测试
 
-本文介绍作为ui.tests模块的一部分提供的UI测试。
+本文介绍了作为ui.tests模块一部分提供的UI测试。
 
 ## 运行UI测试{#running-tests}
 
-要测试，请执行：
+要进行测试，请执行：
 
 ```shell
 mvn verify -Pui-tests-local-execution
 ```
 
-执行后，报告和日志可在`target/reports`文件夹中使用。
+执行后，`target/reports`文件夹中提供了报告和日志。
 
 ## 其他选项{#additional-options}
 
-UI测试可以使用许多不同的选项运行，包括针对本地浏览器和作为Docker映像进行无外设测试。 有关详细信息，请参阅ui.tests module](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests)的[README.md文件。
+UI测试可以使用多种不同的选项来运行，包括针对本地浏览器和作为Docker图像进行无头测试。 有关详细信息，请参阅ui.tests模块](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests)的[README.md文件。
