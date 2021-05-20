@@ -4,7 +4,6 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: Core Components 指南
 user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
 feature-set: Experience Manager Sites
-translation-type: tm+mt
 source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
 workflow-type: tm+mt
 source-wordcount: '214'
@@ -87,8 +86,8 @@ ht-degree: 67%
       + [ui.apps模块](developing/archetype/uiapps.md)
       + [ui.content模块](developing/archetype/uicontent.md)
       + [ui.frontend.general模块](developing/archetype/uifrontend.md)
-      + [ui.frontend.react Module](developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
+      + [ui.frontend.react模块](developing/archetype/uifrontend-react.md)
+      + [ui.frontend.angular模块](developing/archetype/uifrontend-angular.md)
       + [ui.tests模块](developing/archetype/uitests.md)
       + [it.tests模块](developing/archetype/ittests.md)
-      + [构建Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
+      + [生成Analyzer Maven插件](developing/archetype/build-analyzer-maven-plugin.md)
