@@ -3,16 +3,16 @@ title: 核心组件版本
 description: 核心组件以发行版形式发布，其中可能包含同一核心组件的多个版本。 本文档介绍哪些版本和版本，以及如何了解与核心组件和AEM的兼容性。
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 9f7ecb12c7135033a87508901a5c8bd006f72a0e
+source-git-commit: e62bb19a487e337c1ea5994d9fbfc845145ae19d
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2147'
 ht-degree: 21%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为2.16.4，且与[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[本地AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装兼容。
+核心组件的当前版本为2.17.0，且与[AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)和[本地AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)安装兼容。
 
 ## 发行历史记录和兼容性{#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 21%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此版本包括许多支持链接处理程序功能的新组件版本的技术预览，以及[页面组件的特色图像功能的技术预览。](/help/components/page.md) 还包含若干错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 持续 | 8, 11 | 2021年6月16日 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 这是用于修复新链接处理程序问题的修补程序版本。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年5月19日 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 这是一个修补程序版本，主要修复了新链接处理程序的问题，并添加了支持多页应用程序进行[PWA的增强功能。](/help/components/page.md#pwa-support) | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年5月15日 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 此版本重点改进了辅助功能，并对现有组件引入了新的链接处理程序。 | 6.4.8.1+ * | 6.5.5.0+ * | 持续 | 8, 11 | 2021年4月22日 |
