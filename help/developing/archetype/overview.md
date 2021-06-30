@@ -4,10 +4,10 @@ description: 基于AEM的应用程序的项目模板
 feature: 核心组件、 AEM项目原型
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
+source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 6%
+source-wordcount: '1111'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ AEM项目原型是一个Maven模板，可创建基于最佳实践的、最基础
 
 >[!TIP]
 >
->最新的AEM项目原型[可在GitHub](https://github.com/adobe/aem-project-archetype)上找到。
+>最新的AEM项目原型[可在GitHub上找到。](https://github.com/adobe/aem-project-archetype)
 
 ## 资源 {#resources}
 
@@ -46,7 +46,7 @@ AEM项目原型是一个Maven模板，可创建基于最佳实践的、最基础
 * **示例代码：** 签出HelloWorld组件以及示例模型、Servlet、过滤器和调度程序。
 * **开放源：** 如果某些内容不如预期，将为您的改 [](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) 进做出贡献！
 
-## 使用
+## 使用 {#usage}
 
 要生成项目，请根据需要调整以下命令行：
 
@@ -68,10 +68,10 @@ mvn -B archetype:generate \
 * 调整`groupId="com.mysite"`以定义Maven groupId和Java源包。
 * 查找可用属性列表，以查看是否需要调整更多属性。
 
-## 可用属性
+## 可用属性 {#available-properties}
 
 | 名称 | 默认 | 描述 |
---------------------------|----------------|--------------------
+|---------------------------|----------------|--------------------|
 | `appTitle` |  | 应用程序标题将用于网站标题和组件组(例如，`"My Site"`)。 |
 | `appId` |  | 技术名称将用于组件、配置和内容文件夹名称，以及客户端库名称(例如，`"mysite"`)。 |
 | `artifactId` | *`${appId}`* | 基本Maven对象ID(例如，`"mysite"`)。 |
@@ -91,22 +91,26 @@ mvn -B archetype:generate \
 | `commerceEndpoint` |  | 仅CIF必需。 要使用的商务系统GraphQL服务的可选端点(例如，`https://hostname.com/grapql`)。 |
 | `datalayer` | `y` | 激活与[Adobe客户端数据层](/help/developing/data-layer/overview.md)的集成。 |
 | `amp` | `n` | 为生成的项目模板启用[AMP](/help/developing/amp.md)支持。 |
+| `enableDynamicMedia` | `n` | 在项目策略设置中启用基础DynamicMedia组件，并在核心图像组件的策略中激活Dynamic Media功能。 |
+| `enableSSR` | `n` | 为前端项目启用SSR的选项 |
 
-## 系统要求
+## 系统要求 {#requirements}
 
-| 原型 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
-|---------|---------|---------|---------|---------|---------|
-| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) | 持续 | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| 原型 | AEM as a Cloud Service | AEM 6.5 | Java SE | 马文 |
+|---------|---------|---------|---------|---------|
+| [28](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | 持续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 为[AEM as a Cloud ServiceSDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)或为[旧版AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)设置本地开发环境。
 
-### 已知问题
+### 已知问题 {#known-issues}
 
 在Windows上运行并生成调度程序配置时，您应在提升的命令提示符下或Linux的Windows子系统中运行(请参阅[#329](https://github.com/adobe/aem-project-archetype/issues/329))。
 
 在交互模式下执行原型（不带`-B`参数）时，无法更改具有默认值的属性，除非最终确认被取消，否则将重复问题，方法是在问题中包含具有默认值的属性(请参阅
 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308)以了解详细信息)。
 
-## 进一步阅读{#further-reading}
+使用`File -> New -> Maven Project`启动新项目时，无法在Eclipse中使用此原型，因为后生成脚本`archetype-post-generate.groovy`将因[Eclipse问题而不执行。](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) 解决方法是使用上述命令行，然后在Eclipse中使用 `File -> Import -> Existing Maven Project`。
+
+## 进一步阅读 {#further-reading}
 
 有关使用原型（包括原型的好处、选项及其模块的工作方式）的更多详细信息，请参阅[使用原型文档。](using.md)
