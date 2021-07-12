@@ -1,26 +1,26 @@
 ---
 title: 对核心组件的AMP支持
 description: 核心组件支持AMP - Accelerated Mobile Pages
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 1%
 
 ---
 
-# 对核心组件{#amp-support}的AMP支持
+# 对核心组件的AMP支持 {#amp-support}
 
 从核心组件的[版本2.11.0](/help/versions.md)开始，完全支持[AMP - Accelerated Mobile Pages](https://developers.google.com/amp) -。
 
 本文档概述了AMP的支持方式以及如何为您的站点启用它。 但是，有关完整的技术详细信息，请参阅[GitHub开发人员文档。](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
 
-## 什么是AMP?{#what-is-amp}
+## 什么是AMP? {#what-is-amp}
 
 Accelerated Mobile Pages或AMP是一个开源框架，最初由Google设计，旨在优化页面以进行移动浏览。 AMP页面的加载速度通常比标准网页快得多，可提供更好的移动体验。
 
-## 核心组件{#amp-in-core-components}中的AMP
+## 核心组件中的AMP {#amp-in-core-components}
 
 核心组件中对AMP的支持可以完全配置[。](#enabling-amp) 页面的AMP版本可以与标准HTML版本一起提供，也可以根本不提供。
 
@@ -28,7 +28,7 @@ Accelerated Mobile Pages或AMP是一个开源框架，最初由Google设计，�
 
 单个项目可以决定是否利用AMP。 事实上，由于AMP和标准HTML页面可以并行交付，因此项目可以选择仅在项目的某些页面上使用AMP。
 
-## 项目{#getting-started}中的AMP支持快速入门
+## 在您的项目中开始使用AMP支持 {#getting-started}
 
 尽管AMP支持提供了极大的灵活性，但要快速入门，只需几个简单的步骤：
 
@@ -39,7 +39,7 @@ Accelerated Mobile Pages或AMP是一个开源框架，最初由Google设计，�
 1. [在模板](#enabling-amp) 级别或您的各个页面上启用AMP支持。
 1. [根据需要部](#css-requirements) 署内联CSS。
 
-### 为页面{#enabling-amp}启用AMP
+### 为页面启用AMP {#enabling-amp}
 
 要为页面启用AMP，必须在[页面策略中选择&#x200B;**AMP模式**。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
@@ -58,7 +58,7 @@ Accelerated Mobile Pages或AMP是一个开源框架，最初由Google设计，�
 * **已配对的AMP**  — 页面将以AMP和HTML形式交付。
 * **仅限AMP**  — 仅将页面作为AMP交付。
 
-### CSS要求{#css-requirements}
+### CSS要求 {#css-requirements}
 
 将AMP与核心组件结合使用时，主要区别在于AMP要求在`<head>`元素中插入所有[CSS并对其进行优化。](including-clientlibs.md#inlining)
 
