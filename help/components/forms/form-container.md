@@ -1,16 +1,16 @@
 ---
 title: 表单容器组件
 description: 核心组件表单容器组件允许创建简单的提交表单。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 2%
 
 ---
 
-# 表单容器组件{#form-container-component}
+# 表单容器组件 {#form-container-component}
 
 核心组件表单容器组件允许创建简单的提交表单。
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 >
 >表单容器组件的核心组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。 不支持在核心组件表单容器内使用[基础组件](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html)表单组件（反之亦然）。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 表单容器组件的当前版本为v2,2018年1月核心组件2.0.0版中引入了v2，本文档对此进行了描述。
 
@@ -37,17 +37,17 @@ ht-degree: 2%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验表单容器组件以及其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_form_container)。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关表单容器组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义在提交组件时执行的操作。
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 无论类型如何，都有[常规设置](#general-settings)适用于每个操作。
 
-### 表单数据{#post-data}
+### 帖子表单数据 {#post-data}
 
 提交表单后，帖子表单数据操作类型会将提交的数据作为JSON传递给第三方以进行处理。
 
@@ -117,10 +117,10 @@ ht-degree: 2%
    * 如果指定了ID，则作者有责任确保该ID是唯一的。
    * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者为容器定义允许的组件及其映射，类似于模板编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)中[标准布局容器的设计对话框。
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 表单容器组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
