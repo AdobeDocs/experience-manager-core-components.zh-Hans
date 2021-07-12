@@ -1,9 +1,9 @@
 ---
 title: 体验片段组件
 description: 体验片段组件允许内容作者向页面添加体验片段变量。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 * 可以在[配置对话框](#configure-dialog)中定义组件的属性。
 * 将组件添加到页面时的默认值，可在[设计对话框](#design-dialog)中定义。
 
-## 本地化站点结构支持{#localized-site-structure}
+## 本地化的站点结构支持 {#localized-site-structure}
 
 体验片段组件自适应于本地化的站点结构，并根据页面的本地化呈现适当的体验片段。 要实现此目的，体验片段必须满足以下条件。
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 1. 如果未找到，则会尝试查找Live Copy。
 1. 如果未找到，则默认使用组件中配置的体验片段。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 体验片段组件的当前版本为v1，该版本在2019年9月随核心组件2.6.0版引入，在本文档中进行了描述。
 
@@ -102,17 +102,17 @@ ht-degree: 1%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验体验片段组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_xf)。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关体验片段组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1)上找到。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者选择应在页面上呈现的体验片段变量。
 
@@ -128,10 +128,10 @@ ht-degree: 1%
 * 如果指定了ID，则作者有责任确保该ID是唯一的。
 * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义可供内容作者使用的选项，这些选项在放置体验片段组件时使用体验片段组件和设置的默认值。
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 体验片段组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
