@@ -2,16 +2,16 @@
 title: React SPA的前端内部版本
 description: 基于React的SPA项目的前端构建流程描述
 feature: 核心组件、 AEM项目原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
 
 ---
 
-# React SPA的前端内部版本{#frontend-react}
+# React SPA的前端内部版本 {#frontend-react}
 
 本文档介绍了在使用原型基于React框架创建单页应用程序(SPA)时创建的项目的详细信息。 例如，将`frontendModule`选项设置为`react`时。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 在项目目录中，可以运行以下命令：
 
-### npm开始{#npm-start}
+### npm开始 {#npm-start}
 
 ```shell
 npm start
@@ -44,7 +44,7 @@ npm start
    * 支持的标头：授权
    * 允许的方法：OPTIONS
 
-### npm测试{#npm-test}
+### npm测试 {#npm-test}
 
 ```shell
 npm test
@@ -52,7 +52,7 @@ npm test
 
 此命令在交互式监视模式下启动测试运行器。 有关更多信息，请参阅[React文档中有关运行测试](https://facebook.github.io/create-react-app/docs/running-tests)的信息。
 
-### npm运行内部版本{#npm-run-build}
+### npm运行生成 {#npm-run-build}
 
 ```shell
 npm run build
@@ -62,11 +62,11 @@ npm run build
 
 此外，还使用[aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator)包从应用程序生成AEM ClientLib。
 
-## 浏览器支持{#browser-support}
+## 浏览器支持 {#browser-support}
 
 默认情况下，此项目使用[Browserslist](https://github.com/browserslist/browserslist)的默认选项来标识目标浏览器。 此外，它还包含现代语言功能的填充，以支持旧版浏览器（例如Internet Explorer 11）。 如果不需要支持此类浏览器，则可以删除多填充依赖项和导入。
 
-## 代码拆分{#code-splitting}
+## 代码拆分 {#code-splitting}
 
 默认情况下， React应用程序配置为使用[代码拆分](https://webpack.js.org/guides/code-splitting)。 在构建生产应用程序时，代码将以多个区块输出：
 
