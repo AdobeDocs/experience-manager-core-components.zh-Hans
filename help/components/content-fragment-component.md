@@ -1,9 +1,9 @@
 ---
 title: 内容片段组件
 description: 核心组件内容片段组件允许显示内容片段。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 * 可在[设计对话框](#design-dialog)中定义用于处理某些图像和网格的资源类型。
 * 编辑选项将在[内容片段编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中打开选定的片段。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 内容片段组件的当前版本为v1，该版本于2017年10月随核心组件1.1.0版引入，在本文档中进行了描述。
 
@@ -50,21 +50,21 @@ ht-degree: 5%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验内容片段组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_cf)。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关内容片段组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1)上找到。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义要包含的内容片段和该片段的元素。
 
-### 属性选项卡{#properties-tab}
+### “属性”选项卡 {#properties-tab}
 
 ![内容片段组件](/help/assets/content-fragment-edit-properties.png)
 
@@ -91,7 +91,7 @@ ht-degree: 5%
    * 如果指定了ID，则作者有责任确保该ID是唯一的。
    * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-### 段落控制选项卡{#paragraph-control-tab}
+### 段落控制选项卡 {#paragraph-control-tab}
 
 当选择&#x200B;**多个元素**&#x200B;模式时，此选项卡不可用。
 
@@ -100,7 +100,7 @@ ht-degree: 5%
 * **段落**  — 允许选择所有段落或范围
 * **将标题处理为它们自己的段落**
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义用于处理混合媒体图像和响应式网格的资源类型。
 
@@ -110,6 +110,6 @@ ht-degree: 5%
 
    * 用于内部响应式网格的Sling资源类型
 
-## Adobe客户端数据层{#data-layer}
+## Adobe客户端数据层 {#data-layer}
 
 内容片段组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
