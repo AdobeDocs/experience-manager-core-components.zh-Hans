@@ -2,16 +2,16 @@
 title: 页面组件(v1)
 description: 页面组件是一个可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器组装页眉/页脚和结构组件。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 2%
 
 ---
 
-# 页面组件(v1){#page-component-v}
+# 页面组件(v1) {#page-component-v}
 
 页面组件是一个可扩展的页面组件，旨在与[模板编辑器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)一起使用，并允许使用模板编辑器来组装页眉/页脚和结构组件。
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 使用[设计对话框](#design-dialog)，可以为页面定义自定义客户端库。 与具有可直接从组件访问的编辑对话框的其他组件不同，由于组件是页面本身，因此页面组件的[编辑对话框](#edit-dialog)是页面属性窗口。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 本文档介绍页面组件v1，该组件最初随AEM 6.3核心组件版本1.0.0一起引入。
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 >
 >页面组件的v1不支持页面重定向。 请使用[当前版本的页面组件](/help/components/page.md)获取页面重定向支持。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)获取的示例。
 
@@ -680,11 +680,11 @@ ht-degree: 2%
 >
 >从核心组件导出JSON时，需要安装核心组件版本1.1.0。 有关更多信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 由于组件表示整个页面，因此通常会在编辑对话框中的设置会显示在[页面属性](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html)窗口中。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 由于组件表示整个页面，因此可通过&#x200B;**页面信息 — >页面设计**&#x200B;访问设计对话框。
 
@@ -700,7 +700,7 @@ ht-degree: 2%
 
 ![](/help/assets/chlimage_1-95.png)
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关页面组件[的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page)。
 
