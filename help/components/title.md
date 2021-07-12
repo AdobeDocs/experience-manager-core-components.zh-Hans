@@ -1,9 +1,9 @@
 ---
 title: 标题组件
 description: 核心组件标题组件是可进行就地编辑的区域标题组件。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 3%
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 标题组件将用作内容部分的标题或标题。 可用的标题级别可由模板作者在[设计对话框](#design-dialog)中定义。 内容编辑器可以从[编辑对话框](#edit-dialog)的可用标题级别中进行选择。 为了方便起见，还提供了标题文本的简单就地编辑功能。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 标题组件的当前版本为v2，该版本于2018年1月随核心组件2.0.0版引入，在本文档中进行了描述。
 
@@ -31,17 +31,17 @@ ht-degree: 3%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验标题组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_title)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 有关标题组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_title_v2)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 编辑对话框允许内容作者定义标题文本并选择标题级别。
 
@@ -63,11 +63,11 @@ ht-degree: 3%
 
 ![标题组件的就地编辑](/help/assets/title-edit-inline.png)
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义标题组件在由内容作者创建时将具有的默认标题级别。
 
-### “大小”选项卡{#sizes-tab}
+### “大小”选项卡 {#sizes-tab}
 
 ![标题组件的设计对话框](/help/assets/title-design.png)
 
@@ -79,10 +79,10 @@ ht-degree: 3%
 >
 >核心组件版本2.2.0中引入了为标题定义链接的功能。
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 标题组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客户端数据层{#data-layer}
+## Adobe客户端数据层 {#data-layer}
 
 标题组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
