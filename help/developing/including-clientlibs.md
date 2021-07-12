@@ -1,20 +1,20 @@
 ---
 title: 包括客户端库
 description: 根据您的用例，有许多不同的方法来包含客户端库。
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 3%
 
 ---
 
-# 包括客户端库{#including-client-libraries}
+# 包括客户端库 {#including-client-libraries}
 
 根据您的用例，有多种不同的方法可包含[客户端库](/help/developing/archetype/uifrontend.md#clientlibs)。 本文档提供了每个代码片段的示例和示例[HTL代码片段](https://docs.adobe.com/content/help/zh-Hans/experience-manager-htl/using/overview.html)。
 
-## 建议的默认用法{#recommended-default-usage}
+## 建议的默认用法 {#recommended-default-usage}
 
 如果您没有时间调查您的最佳情况，请通过将以下HTL行放置到页面`head`元素中来包含您的客户端库：
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 这将在您的页面`head`中同时包含CSS和JS，但是向JS `script`中添加了`defer`属性，这样浏览器就会等待DOM准备就绪后再执行脚本，从而优化页面加载速度。
 
-## 基本用法{#basic-usage}
+## 基本用法 {#basic-usage}
 
 要同时包含客户端库类别的JS和CSS的基本语法如下：`link``script`
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 </sly>
 ```
 
-## 仅{#css-js-only} CSS或JS
+## 仅限CSS或JS {#css-js-only}
 
 通常，您会希望将CSS包含的内容放置在HTML `head`元素中，并且JS包含在`body`元素关闭之前。
 
