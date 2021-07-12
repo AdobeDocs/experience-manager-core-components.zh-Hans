@@ -2,16 +2,16 @@
 title: 图像组件(v1)
 description: 核心组件图像组件是自适应图像组件功能就地编辑。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 3%
 
 ---
 
-# 图像组件(v1){#image-component-v}
+# 图像组件(v1) {#image-component-v}
 
 核心组件图像组件是自适应图像组件功能就地编辑。
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 模板作者可以在[设计对话框](#design-dialog)中定义允许的图像宽度以及裁剪和其他设置。 内容编辑器可以上传或选择[配置对话框](#configure-dialog)中的资产，并在[编辑对话框](#edit-dialog)中裁剪图像。 为了更方便起见，还提供简单的图像就地修改。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 本文档介绍了图像组件v1，该组件最初随AEM 6.3核心组件1.0.0版一起引入。
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 >
 >有关当前版本的图像组件的详细信息，请参阅[图像组件](/help/components/image.md)文档。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)获取的示例。
 
@@ -75,7 +75,7 @@ ht-degree: 3%
 >
 >从核心组件导出JSON时，需要安装核心组件版本1.1.0。 有关更多信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 除了标准的[编辑对话框](#edit-dialog)和[设计对话框](#design-dialog)之外，图像组件还提供一个配置对话框，在其中定义了图像本身及其描述和基本属性。
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 * **标题**  — 默认显示在图像下方的有关图像的其他信息。
 * **将题注显示为弹出窗口**  — 选中此选项后，题注不会显示在图像下方，而是会在将鼠标悬停在图像上方时显示为某些浏览器显示的弹出窗口。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 编辑对话框允许内容作者裁剪、修改启动映射和缩放图像。
 
@@ -177,7 +177,7 @@ ht-degree: 3%
 >
 >GIF图像不支持图像编辑操作（裁剪、翻转、旋转）。 在编辑模式下对GIF所做的任何此类更改将不会持久保留。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义使用此组件时内容作者进行的裁剪、上传和旋转上传。
 
@@ -231,7 +231,7 @@ ht-degree: 3%
    >
    >请注意，在AEM中，裁剪长宽比被定义为&#x200B;**高度/宽度**。 这与常见的宽高比的定义不同，这样做是出于对旧版兼容性的考虑。只要您提供了比率的明确名称，内容作者便不会察觉到任何差异，因为该名称会显示在UI中，而不是比率本身。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关图像组件[的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image)。
 
