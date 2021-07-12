@@ -1,9 +1,9 @@
 ---
 title: 轮播组件
 description: 轮播组件允许内容作者以旋转轮播显示内容。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 [编辑对话框](#edit-dialog)允许内容作者创建、命名和排序多张幻灯片，并允许延迟自动过渡。 使用[设计对话框](#design-dialog)，模板作者可以定义可以添加到轮播的组件、启用或禁用自动过渡以及自定义样式。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 传送组件的当前版本为v1，该版本于2018年10月随核心组件2.2.0版引入，在本文档中进行了描述。
 
@@ -32,21 +32,21 @@ ht-degree: 1%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验轮播组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_carousel)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 有关轮播组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 编辑对话框允许内容作者添加、重命名和重新排列幻灯片，以及定义自动过渡设置。
 
-### 项目选项卡{#items-tab}
+### “项目”选项卡 {#items-tab}
 
 ![轮播组件编辑对话框的项目选项卡](/help/assets/carousel-edit-items.png)
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 >
 >如果缩小了页面的视区，使编辑对话框变为全屏，则将隐藏&#x200B;**Add**&#x200B;按钮。 组件仍可以通过从组件浏览器中拖放到页面编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)中的轮播组件中的[，添加到轮播组件中。
 
-### 属性选项卡{#properties-tab}
+### “属性”选项卡 {#properties-tab}
 
 ![轮播组件编辑对话框的属性选项卡](/help/assets/carousel-edit-properties.png)
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 >
 >在&#x200B;**编辑**&#x200B;模式下，未启用自动前进功能。 使用&#x200B;**[查看已发布内容](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项，以已发布内容的读者身份查看自动推进功能。
 
-### 辅助功能选项卡{#accessibility-tab}
+### “辅助功能”选项卡 {#accessibility-tab}
 
 ![轮播组件编辑对话框的辅助功能选项卡](/help/assets/carousel-edit-accessibility.png)
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 * **标签**  — 组件的ARIA标签属性的值
 
-## 选择面板{#select-panel}
+## 选择面板 {#select-panel}
 
 内容作者可以使用组件工具栏上的&#x200B;**选择面板**&#x200B;选项更改为其他幻灯片以进行编辑，并轻松地重新排列幻灯片的顺序。
 
@@ -105,11 +105,11 @@ ht-degree: 1%
 * 点按或单击下拉菜单中的条目，将编辑器中的视图切换到该幻灯片。
 * 可使用拖动手柄就地重新排序幻灯片。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义哪些组件可以作为幻灯片添加到轮播组件，以及定义自动过渡默认值以及哪些自定义样式可供内容作者使用。
 
-### 属性选项卡{#properties-tab-1}
+### “属性”选项卡 {#properties-tab-1}
 
 当内容作者将轮播组件添加到页面时， **属性**&#x200B;选项卡用于定义幻灯片过渡的默认设置。
 
@@ -119,16 +119,16 @@ ht-degree: 1%
 * **过渡延迟**  — 定义内容作者将轮播组件添加到页面时，幻灯片之间过渡延迟的默认值（以毫秒为单位）。
 * **禁用悬停时的自动暂停**  — 定义在内容作者选择自动过渡幻灯片时，默认情况下是否启用 **禁用** 自动幻灯片暂停的选项。
 
-### 允许的组件选项卡{#allowed-components-tab}
+### 允许的组件选项卡 {#allowed-components-tab}
 
 **允许的组件**&#x200B;选项卡用于定义哪些组件可作为内容作者向轮播组件添加的幻灯片。
 
 当[在模板编辑器中定义布局容器的策略和属性时，允许的组件选项卡的功能与同名的选项卡相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 传送组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客户端数据层{#data-layer}
+## Adobe客户端数据层 {#data-layer}
 
 传送组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
