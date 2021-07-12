@@ -2,16 +2,16 @@
 title: AEM项目原型的ui.apps模块
 description: AEM项目原型的ui.apps模块
 feature: 核心组件、 AEM项目原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
-# AEM项目原型{#uiapps-module}的ui.apps模块
+# AEM项目原型的ui.apps模块 {#uiapps-module}
 
 ui.apps maven模块(`<src-directory>/<project>/ui.apps`)包含`/apps`下站点所需的所有渲染代码。 这包括将以名为[clientlibs的AEM格式存储的CSS/JS。](uifrontend.md#clientlibs) 这还包括用于渲染动态HTML的HTL脚本。您可以将ui.apps模块视为JCR中结构的映射，但其格式可以存储在文件系统中并提交到源代码控制。
 
