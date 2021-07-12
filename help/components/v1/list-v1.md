@@ -2,16 +2,16 @@
 title: 列表组件(v1)
 description: 核心组件列表组件允许轻松创建动态和静态列表。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 4%
 
 ---
 
-# 列表组件(v1){#list-component-v}
+# 列表组件(v1) {#list-component-v}
 
 核心组件列表组件允许轻松创建动态和静态列表。
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 可用列表类型和格式选项可由模板作者在[设计对话框](#design-dialog)中定义。 内容编辑器可以从可用的列表类型中进行选择，以及如何在[编辑对话框](#edit-dialog)中设置列表元素的格式。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 本文档介绍列表组件的v1，该组件最初随AEM 6.3核心组件版本1.0.0一起引入。
 
@@ -38,7 +38,7 @@ ht-degree: 4%
 >
 >有关列表组件当前版本的详细信息，请参阅[列表组件](/help/components/list.md)文档。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)获取的示例。
 
@@ -136,7 +136,7 @@ ht-degree: 4%
 >
 >从核心组件导出JSON时，需要安装核心组件版本1.1.0。 有关更多信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 编辑对话框允许内容作者配置列表和列表元素。
 
@@ -166,7 +166,7 @@ ht-degree: 4%
    * 留空以使用当前页面
 * **子级深度**  — 应使用层次结构中的下层级别数
 
-#### 修复列表{#fixed-list}
+#### 固定列表 {#fixed-list}
 
 可以使用固定的项目列表来构建列表。
 
@@ -204,7 +204,7 @@ ht-degree: 4%
    * **任何标记**
    * **所有标记**
 
-#### 排序选项{#sort-options}
+#### 排序选项 {#sort-options}
 
 无论您选择如何构建列表，都始终可以定义某些排序选项。
 
@@ -232,7 +232,7 @@ ht-degree: 4%
 * **显示**
 链接项目的DateShow修改日期
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义允许内容作者使用的列表类型以及可用的项目设置。
 
@@ -258,7 +258,7 @@ ht-degree: 4%
 * **显示描述**  — 编辑对话框中的启用显示 [描述选项](#edit-dialog)
 * **显示日期**  — 编辑对话框中的启用显示 [日期选项](#edit-dialog)
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关列表组件[的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list)。
 
