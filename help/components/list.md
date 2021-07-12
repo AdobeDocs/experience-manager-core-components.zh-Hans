@@ -1,9 +1,9 @@
 ---
 title: 列表组件
 description: 核心组件列表组件允许轻松创建动态和静态列表。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 列表组件可用于创建子页面的动态列表或任意定义项目的静态列表。 可用列表类型和格式选项可由模板作者在[设计对话框](#design-dialog)中定义。 内容编辑器可以从可用的列表类型中进行选择，以及如何在[编辑对话框](#edit-dialog)中设置列表元素的格式。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 列表组件的当前版本为v2，该版本于2018年1月随核心组件2.0.0版引入，在本文档中进行了描述。
 
@@ -31,21 +31,21 @@ ht-degree: 4%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验列表组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_list)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 有关列表组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_list_v2)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 编辑对话框允许内容作者配置列表和列表项。
 
-### 列表设置选项卡{#list-settings-tab}
+### “列表设置”选项卡 {#list-settings-tab}
 
 列表可以采用不同的方式构建。
 
@@ -73,7 +73,7 @@ ht-degree: 4%
 * **子级深**
 度应使用层级中下方的层数
 
-#### 修复列表{#fixed-list}
+#### 固定列表 {#fixed-list}
 
 可以使用固定的项目列表来构建列表。
 
@@ -116,7 +116,7 @@ ht-degree: 4%
    * **任何标记**
    * **所有标记**
 
-#### 排序选项{#sort-options}
+#### 排序选项 {#sort-options}
 
 无论您选择如何构建列表，都始终可以定义某些排序选项。
 
@@ -138,7 +138,7 @@ ht-degree: 4%
    * 如果指定了ID，则作者有责任确保该ID是唯一的。
    * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-### “项目设置”选项卡{#item-settings-tab}
+### “项目设置”选项卡 {#item-settings-tab}
 
 使用“项目设置”选项卡，可以配置列表元素的格式。
 
@@ -151,7 +151,7 @@ ht-degree: 4%
 * **显示**
 链接项目的DateShow修改日期
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义允许内容作者使用的列表类型以及可用的项目设置。
 
@@ -185,10 +185,10 @@ ht-degree: 4%
 * **显示**
 日期编辑对话框中的启用显示 [日期选项](#edit-dialog)
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 图像组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客户端数据层{#data-layer}
+## Adobe客户端数据层 {#data-layer}
 
 列表组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
