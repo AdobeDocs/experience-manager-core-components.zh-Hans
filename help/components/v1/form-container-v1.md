@@ -2,16 +2,16 @@
 title: 表单容器组件(v1)
 description: 核心组件表单容器组件允许创建简单的提交表单。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 3%
 
 ---
 
-# 表单容器组件(v1){#form-container-component-v1}
+# 表单容器组件(v1) {#form-container-component-v1}
 
 核心组件表单容器组件允许创建简单的提交表单。
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 通过使用[设置对话框](#settings-dialog)，内容编辑器可以定义提交表单触发器的操作类型、应将提交的内容存储在何处以及是否应触发工作流。 模板作者可以使用[设计对话框](#design-dialog)定义允许组件及其映射，这与模板编辑器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html)中[标准布局容器的设计对话框类似。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 本文档介绍表单容器组件v1，最初是在AEM 6.3的核心组件1.0.0版中引入的。
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 >
 >有关表单容器组件当前版本的详细信息，请参阅[表单容器组件](/help/components/forms/form-container.md)文档。
 
-## 设置对话框{#settings-dialog}
+## “设置”对话框 {#settings-dialog}
 
 设置对话框允许内容作者定义在提交组件时执行的操作。
 
@@ -102,11 +102,11 @@ ht-degree: 3%
 * 如果感谢页面不在AEM中，请指定绝对URL。 非绝对URL将被解释为相对于AEM。
 * 留空可在提交后重新显示表单。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者为容器定义允许的组件及其映射，类似于模板编辑器](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)中[标准布局容器的设计对话框。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关表单容器组件[的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container)。
 
