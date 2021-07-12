@@ -1,9 +1,9 @@
 ---
 title: 导航组件
 description: 导航组件允许用户轻松导航全球化的站点结构。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 [编辑对话框](#edit-dialog)允许内容作者定义导航根页面以及导航深度。 [设计对话框](#design-dialog)允许模板作者为导航根和深度定义默认值。
 
-## 本地化站点结构支持{#localized-site-structure}
+## 本地化的站点结构支持 {#localized-site-structure}
 
 网站通常针对不同区域以多种语言提供。 通常，每个本地化页面都将包含一个导航元素，该元素将作为页面模板的一部分包含在内。 导航组件允许您将其置于网站所有页面的模板上一次，然后它会根据您的全球化网站结构，自动针对各个本地化页面进行调整。
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 因此，如果访客正在查看`/content/ch/de/experience/arctic-surfing-in-lofoten`，则组件将知道根据`/content/wknd/language-masters/de`生成导航结构。 同样，如果访客正在查看`/content/us/en/experience/arctic-surfing-in-lofoten`，则组件将知道根据`/content/wknd/language-masters/en`生成导航结构。
 
-## 卷影站点结构支持{#shadow-structure}
+## 阴影站点结构支持 {#shadow-structure}
 
 有时，需要为访客创建与实际网站结构不同的导航菜单。 或许，促销活动应通过重新排列内容列表来突出显示菜单中的某些内容。 使用只是重定向到其他内容页面的阴影页面，导航组件可以生成任何必要的任意导航结构。
 
@@ -83,12 +83,12 @@ ht-degree: 1%
 然后，导航组件将根据阴影站点结构渲染菜单。 组件呈现的链接是指向实际内容页面的链接，这些内容页面会重定向到，而不是重定向到阴影页面本身。 此外，该组件还会显示实际页面的名称，并正确地突出显示活动页面，即使导航基于阴影页面也是如此。 导航组件有效地使阴影页面对访客完全透明。
 
 >[!NOTE]
->阴影页使您的导航选项更加灵活，但请记住，此结构的维护随后将完全由手动进行。 如果重新排列实际的网站内容或添加/删除内容，则需要根据需要手动更新卷影结构。
+>阴影页使您的导航选项更加灵活，但请记住，此结构的维护随后将完全手动进行。 如果重新排列实际的网站内容或添加/删除内容，则需要根据需要手动更新卷影结构。
 
 >[!NOTE]
 >渲染阴影站点结构时，导航逻辑仅会递归阴影页面。 该逻辑不会递归重定向目标的结构。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 导航组件的当前版本为v1，该版本于2018年1月随核心组件2.0.0版引入，在本文档中进行了描述。
 
@@ -100,11 +100,11 @@ ht-degree: 1%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验导航组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_navigation)。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关导航组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1)。
 
@@ -114,11 +114,11 @@ ht-degree: 1%
 >
 >自2.1.0版核心组件起，导航组件支持[schema.org微数据](https://schema.org)。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 在编辑对话框中，内容作者可以定义导航的根页面和导航结构的深度。
 
-### 属性选项卡{#properties-tab}
+### “属性”选项卡 {#properties-tab}
 
 ![导航组件的编辑对话框属性选项卡](/help/assets/navigation-edit-properties.png)
 
@@ -136,7 +136,7 @@ ht-degree: 1%
    * 如果指定了ID，则作者有责任确保该ID是唯一的。
    * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-### 辅助功能选项卡{#accessibility-tab}
+### “辅助功能”选项卡 {#accessibility-tab}
 
 ![导航组件的编辑对话框辅助功能选项卡](/help/assets/navigation-edit-accessibility.png)
 
@@ -144,11 +144,11 @@ ht-degree: 1%
 
 * **标签**  — 组件的ARIA标签属性的值
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者为向内容作者显示的导航根页面和导航深度设置默认值。
 
-### 属性选项卡{#properties-tab-design}
+### “属性”选项卡 {#properties-tab-design}
 
 ![导航组件的设计对话框](/help/assets/navigation-design.png)
 
@@ -162,10 +162,10 @@ ht-degree: 1%
 * **导航结构深度**  — 导航结构深度的默认值。
 * **禁用跟踪**  — 添加导航组件时，如果应禁用跟踪，则的默认值为
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 导航组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客户端数据层{#data-layer}
+## Adobe客户端数据层 {#data-layer}
 
 导航组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
