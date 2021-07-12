@@ -2,16 +2,16 @@
 title: 痕迹导航组件(v1)
 description: 核心组件痕迹导航组件是一个导航组件，可根据页面在内容层次结构中的位置生成链接的痕迹导航。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
 
 ---
 
-# 痕迹导航组件(v1){#breadcrumb-component-v}
+# 痕迹导航组件(v1) {#breadcrumb-component-v}
 
 核心组件痕迹导航组件是一个导航组件，可根据页面在内容层次结构中的位置生成链接的痕迹导航。
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 模板作者可在[设计对话框](#design-dialog)中定义默认导航级别以及显示当前页面或隐藏页面的功能等可用选项。 然后，内容编辑器可以选择是否应显示隐藏的页面以及组件在[编辑对话框](#edit-dialog)中的实际导航级别。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 本文档介绍了痕迹导航组件v1，该组件最初随AEM 6.3核心组件1.0.0版一起引入。
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 >本文档介绍痕迹导航组件的v1。
 >有关当前版本的痕迹导航组件的详细信息，请参阅[痕迹导航组件](/help/components/breadcrumb.md)文档。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)获取的示例。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 >
 >从核心组件导出JSON时，需要安装核心组件版本1.1.0。 有关更多信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 编辑对话框允许内容作者在痕迹导航中禁止隐藏和活动页面以及该页面应显示的层次结构深度。
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 * **显示隐藏**  — 显示痕迹导航中标记为隐藏的页面（默认情况下，不会显示这些页面）
 * **隐藏当前** — 在痕迹导航中禁止当前页面（默认情况下将显示该页面）
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义用于在痕迹导航中禁止隐藏和活动页面的选项的默认值以及应显示的层次结构深度。
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
    * 它不会为作者启用或禁用选项。 它仅设置默认值。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关痕迹导航组件[的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb)。
 
