@@ -1,9 +1,9 @@
 ---
 title: 嵌入组件
 description: 嵌入组件允许在AEM内容页面中嵌入外部内容。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 * 可以在[配置对话框](#configure-dialog)中定义组件的属性。
 * 将组件添加到页面时的默认值，可在[设计对话框](#design-dialog)中定义。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 嵌入组件的当前版本为v1，该版本已在2019年9月核心组件版本2.7.0中引入，该版本在此文档中进行了描述。
 
@@ -33,17 +33,17 @@ ht-degree: 2%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验嵌入组件以及查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_embed)。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关嵌入组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义要嵌入到页面上的外部资源。 首先选择应嵌入的资源类型：
 
@@ -116,11 +116,11 @@ ht-degree: 2%
 >[!NOTE]
 >尽管AntiSamy卫生框架规则可以通过覆盖`/libs/cq/xssprotection/config.xml`来配置，但这些更改会影响所有HTL和JSP行为，而不仅影响嵌入核心组件。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义内容作者可用的选项，这些选项使用嵌入组件，并在放置嵌入组件时设置默认值。
 
-### 可嵌入类型选项卡{#embeddable-types-tab}
+### “可嵌入类型”选项卡 {#embeddable-types-tab}
 
 ![“嵌入组件”的设计对话框](/help/assets/embed-design.png)
 
@@ -129,7 +129,7 @@ ht-degree: 2%
 * **禁用HTML**  — 选择后， **** 将禁用内容作者的HTML选项。
 * **允许的可嵌入项**  — 多选项，用于定义哪些可嵌入的处理器可供内容作者使用，前提是 **** Embeddableoption处于活动状态。
 
-### YouTube选项卡{#youtube-tab}
+### YouTube选项卡 {#youtube-tab}
 
 ![嵌入组件设计对话框的YouTube选项卡](/help/assets/embed-design-youtube.png)
 
