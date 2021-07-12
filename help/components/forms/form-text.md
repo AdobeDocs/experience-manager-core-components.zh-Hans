@@ -1,9 +1,9 @@
 ---
 title: 表单文本组件
 description: 核心组件表单文本组件允许输入表单文本以供提交。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 7%
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 表单文本组件允许提交不同类型的文本，并准备与[表单容器组件](form-container.md)一起使用。 文本验证、标签和帮助消息的类型可由[配置对话框](#configure-dialog)中的内容编辑器定义。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 表单文本组件的当前版本为v2，该版本在2018年1月核心组件版本2.0.0中引入，在本文档中进行了描述。
 
@@ -31,21 +31,21 @@ ht-degree: 7%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验表单文本组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_form_text)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 有关表单文本组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义要输入的文本类型以及默认值和标签。
 
-### 属性选项卡{#properties-tab}
+### “属性”选项卡 {#properties-tab}
 
 ![“属性”选项卡](/help/assets/form-text-edit-properties.png)
 
@@ -67,7 +67,7 @@ ht-degree: 7%
    * 如果指定了ID，则作者有责任确保该ID是唯一的。
    * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-### 关于选项卡{#about-tab}
+### 关于选项卡 {#about-tab}
 
 ![“关于”选项卡](/help/assets/form-text-edit-about.png)
 
@@ -85,8 +85,8 @@ ht-degree: 7%
    * **必需消息**  — 如果字段留空，则消息将显示为工具提示
 * **设为只读**  — 如果选中，则用户无法修改字段的值
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 表单文本组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
