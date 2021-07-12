@@ -1,9 +1,9 @@
 ---
 title: 核心组件版本
 description: 核心组件以发行版形式发布，其中可能包含同一核心组件的多个版本。 本文档介绍哪些版本和版本，以及如何了解与核心组件和AEM的兼容性。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 535e60115d7163b94185113a354c19cb03c402e4
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2174'
 ht-degree: 20%
