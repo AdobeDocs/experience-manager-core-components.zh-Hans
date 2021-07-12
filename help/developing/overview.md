@@ -1,9 +1,9 @@
 ---
 title: 开发核心组件
 description: 核心组件提供了强大且可扩展的基本组件，这些组件提供了丰富的功能、连续交付、组件版本控制、现代实施、精益标记和内容的JSON导出。
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 14%
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # 开发核心组件 {#developing-core-components}
 
-## 何时使用核心组件？{#when-to-use-the-core-components}
+## 何时使用核心组件？ {#when-to-use-the-core-components}
 
 由于核心组件是全新的，并且具备多种优势，因此建议新的 AEM 项目使用这些组件。对于现有项目，可以考虑在进行更大型项目工作期间进行迁移，例如在重新品牌化或整体重构工作期间。
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 \
    如果没有，请参阅上面的“新建自定义组件”。
 
-## 如何成功使用核心组件{#how-to-succeed}
+## 如何使用核心组件取得成功 {#how-to-succeed}
 
 核心组件功能强大、灵活，易于使用和自定义。 [遵循一些关键](success.md) 准则将确保您具有核心组件的项目取得成功。
 
@@ -39,7 +39,7 @@ ht-degree: 14%
 
 任何新项目都应使用核心组件进行实施。 但是，现有项目通常会大量实施基础组件。
 
-### 从基础组件{#from-foundation}迁移
+### 从基础组件迁移 {#from-foundation}
 
 对现有项目进行更大的努力（例如重新品牌化或整体重构）通常会提供迁移到核心组件的机会。 为了促进此迁移，Adobe提供了许多迁移工具，以鼓励采用核心组件和最新的AEM技术。
 
@@ -56,7 +56,7 @@ ht-degree: 14%
 >
 >AEM现代化工具是社区共同努力的结果，不受Adobe支持或保证。
 
-## 通过作为Cloud Service{#via-aemaacs}迁移到AEM
+## 通过移动到AEM as aCloud Service迁移 {#via-aemaacs}
 
 由于AEM as a Cloud Service会自动附带最新版本的核心组件，因此当您从内部部署AEM安装中移动时，将需要在项目`pom.xml`文件中删除对核心组件的任何依赖项。
 
@@ -73,7 +73,7 @@ ht-degree: 14%
 
 有关AEMaaCS项目的更多信息，请参阅文档[AEM项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)。
 
-## 核心组件支持{#core-component-support}
+## 核心组件支持 {#core-component-support}
 
 核心组件是 AEM 的一个组成部分，依原样提供支持，并作为“快速入门”的一部分提供，须遵循相同的条款和条件。
 
@@ -84,7 +84,7 @@ ht-degree: 14%
 有关组件自定义支持的详细信息，请参阅[自定义核心组件](customizing.md)页面。
 
 
-## 技术功能{#technical-capabilities}
+## 技术能力 {#technical-capabilities}
 
 下表概述了核心组件与基础组件之间的差异。
 
@@ -105,7 +105,7 @@ ht-degree: 14%
 | 贡献 | 通过拉取请求 | 不可能 |
 | 辅助功能 | 完全符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | 仅部分符合[WCAG 2.0 AA标准](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
-## 组件列表{#component-list}
+## 组件列表 {#component-list}
 
 下表列出了可用的核心组件（链接到其API），并指示它们替换的基础组件。
 
@@ -141,11 +141,11 @@ ht-degree: 14%
 | [进度条](https://adobe.com/go/aem_cmp_tech_progress_v1) | 以直观的方式表示实现目标的进展 | - |
 | [PDF 查看器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | 在页面上显示PDF文档 | - |
 
-### 即将推出的组件{#upcoming-components}
+### 即将推出的组件 {#upcoming-components}
 
 有关即将推出的核心组件路线图的概述，请参阅GitHub上的[项目wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
 
-## 升级核心组件{#upgrade-of-core-components}
+## 核心组件升级 {#upgrade-of-core-components}
 
 版本控制组件的一个好处是，它允许将迁移到新AEM版本的过程与迁移到新组件版本的过程分开。 此外，如果有新的组件版本可用，则允许将每个组件单独迁移到新版本。
 
