@@ -1,9 +1,9 @@
 ---
 title: 表单隐藏组件
 description: 核心组件表单隐藏组件允许显示隐藏字段。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 字段属性可由[配置对话框](form-hidden.md)中的内容编辑器定义。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 表单隐藏组件的当前版本为v2，该版本于2018年1月随核心组件2.0.0版一起引入，在本文档中进行了描述。
 
@@ -33,17 +33,17 @@ ht-degree: 3%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验表单隐藏组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_form_hidden)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 有关表单隐藏组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2)上找到。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义隐藏字段的参数。
 
@@ -60,8 +60,8 @@ ht-degree: 3%
 
 ![表单隐藏组件示例](/help/assets/form-hidden-example.png)
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 表单隐藏组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
