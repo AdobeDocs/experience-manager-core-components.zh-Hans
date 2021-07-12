@@ -2,16 +2,16 @@
 title: 表单文本组件(v1)
 description: 核心组件表单文本组件允许输入表单文本以供提交。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 8%
 
 ---
 
-# 表单文本组件(v1){#form-text-component-v}
+# 表单文本组件(v1) {#form-text-component-v}
 
 核心组件表单文本组件允许输入表单文本以供提交。
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 文本验证、标签和帮助消息的类型可由[配置对话框](#configure-dialog)中的内容编辑器定义。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 本文档介绍了表单文本组件v1，最初是在AEM 6.3的核心组件1.0.0版中引入的。
 
@@ -38,7 +38,7 @@ ht-degree: 8%
 >
 >有关表单文本组件当前版本的详细信息，请参阅[表单文本组件](/help/components/forms/form-text.md)文档。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)获取的示例。
 
@@ -90,7 +90,7 @@ ht-degree: 8%
 >
 >从核心组件导出JSON时，需要安装核心组件版本1.1.0。 有关更多信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义要输入的文本类型以及默认值和标签。
 
@@ -134,11 +134,11 @@ ht-degree: 8%
 * **必需**  — 如果选中此项，则用户必须在提交表单之前填写值
 * **设为只读**  — 如果选中，则用户无法修改字段的值
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 表单文本组件没有设计对话框。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关表单文本组件[的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)。
 
