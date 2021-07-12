@@ -1,9 +1,9 @@
 ---
 title: 容器组件
 description: 核心组件容器组件允许为页面上的多个其他组件创建容器。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 * 可以在[配置对话框](#configure-dialog)中选择容器的属性。
 * 在[设计对话框](#design-dialog)中可定义将容器组件添加到页面时的默认值。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 容器组件的当前版本为v1,2019年6月2.5.0版核心组件中引入了v1，本文档对此进行了描述。
 
@@ -33,17 +33,17 @@ ht-degree: 2%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验容器组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_container)。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关容器组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_container_v1)上找到。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义容器项目以及容器项目的行为和显示方式，以供页面访客访问。
 
@@ -59,27 +59,27 @@ ht-degree: 2%
    * 如果指定了ID，则作者有责任确保该ID是唯一的。
    * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义内容作者可以使用容器组件的选项。
 
-### 允许的组件选项卡{#allowed-components-tab}
+### 允许的组件选项卡 {#allowed-components-tab}
 
 **允许的组件**&#x200B;选项卡用于定义哪些组件可以作为内容作者添加到容器组件的项目。
 
 当[在模板编辑器中定义布局容器的策略和属性时，允许的组件选项卡的功能与同名的选项卡相同。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### “默认组件”选项卡{#default-components-tab}
+### “默认组件”选项卡 {#default-components-tab}
 
 默认组件选项卡用于定义在容器上放置特定资产类型时向组件添加的组件，与在页面模板](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)中定义默认组件的方式类似。[
 
-### 响应设置选项卡{#responsive-settings-tab}
+### 响应设置选项卡 {#responsive-settings-tab}
 
 ![容器组件设计对话框的响应设置选项卡](/help/assets/container-design-responsive.png)
 
 * **列**  — 定义生成容器的网格中的列数。
 
-### “背景”选项卡{#background-tab}
+### “背景”选项卡 {#background-tab}
 
 ![容器组件“设计”对话框的“背景”选项卡](/help/assets/container-design-background.png)
 
@@ -96,6 +96,6 @@ ht-degree: 2%
    * **删除**  — 点按或单击以删除色板。
    * **重新排列**  — 点按或单击并拖动以重新排列样本的顺序。
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 容器组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
