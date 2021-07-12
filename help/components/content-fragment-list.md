@@ -1,9 +1,9 @@
 ---
 title: 内容片段列表组件
 description: 核心组件内容片段列表组件允许显示内容片段列表。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 * 可以在[配置对话框](#configure-dialog)中选择列表及其属性。
 * 样式可以应用于[设计对话框](#design-dialog)中的组件。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 内容片段组件的当前版本为v1，该版本在2019年5月随核心组件2.4.0版引入，在本文档中进行了描述。
 
@@ -33,17 +33,17 @@ ht-degree: 5%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验内容片段列表组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_cflist)。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关内容片段列表组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1)上找到。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义构成列表的内容片段以及要包含的这些片段的元素。
 
@@ -86,6 +86,6 @@ ht-degree: 5%
    * 单击或点按&#x200B;**删除**&#x200B;按钮以删除选定的元素。
    * 拖动&#x200B;**Order**&#x200B;句柄以重新排列元素的顺序。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义应用于内容片段列表组件的样式。
