@@ -1,9 +1,9 @@
 ---
 title: 页面组件
 description: 页面组件是一个可扩展的页面组件，旨在与模板编辑器一起使用，并允许使用模板编辑器来组装页眉/页脚和结构组件。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 3%
@@ -20,11 +20,11 @@ ht-degree: 3%
 
 使用[设计对话框](#design-dialog)，可以为页面定义自定义客户端库。 与具有可直接从组件访问的编辑对话框的其他组件不同，由于页面组件是页面本身，因此页面组件的[编辑对话框](#edit-dialog)是页面属性窗口。
 
-## 渐进式Web应用程序支持{#pwa-support}
+## 渐进式Web应用程序支持 {#pwa-support}
 
 核心组件版本2.15.0引入了对AEM作为Cloud Service内置[渐进式Web应用程序(PWA)功能的支持。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) 通过在站点级别进行简单配置，将AEM体验转变为PWA!
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 页面组件的当前版本为v2，该版本于2018年1月随核心组件2.0.0版引入，在本文档中进行了描述。
 
@@ -37,17 +37,17 @@ ht-degree: 3%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 有关页面组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_page_v2)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 由于组件表示整个页面，因此通常会在编辑对话框中的设置会显示在[页面属性](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)窗口中。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 由于组件表示整个页面，因此在编辑页面模板时，可通过&#x200B;**页面信息 — >页面策略**&#x200B;访问设计对话框。
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 >
 >在AEM的早期版本中，**页面策略**&#x200B;被称为&#x200B;**页面设计**。
 
-### 属性选项卡{#properties-tab}
+### “属性”选项卡 {#properties-tab}
 
 使用“页面设计”窗口，您可以定义要加载的客户端库以及页面的Web资源库。
 
@@ -84,10 +84,10 @@ ht-degree: 3%
 >
 >核心组件版本2.2.0中引入了为页面头单独定义客户端库的功能。
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 页面组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客户端数据层{#data-layer}
+## Adobe客户端数据层 {#data-layer}
 
 页面组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
