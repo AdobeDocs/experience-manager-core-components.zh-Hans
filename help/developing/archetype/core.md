@@ -2,16 +2,16 @@
 title: AEM项目原型的核心模块
 description: AEM项目原型的核心模块
 feature: 核心组件、 AEM项目原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 49e80d8c-2b41-4c42-b45e-c2e3b4b16a59
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-# AEM项目原型{#core-module}的核心模块
+# AEM项目原型的核心模块 {#core-module}
 
 核心Maven模块(`<src-directory>/<project>/core`)包含实施所需的所有Java代码。 该模块将打包所有Java代码并作为OSGi包部署到AEM实例。
 
@@ -25,7 +25,7 @@ mvn -PautoInstallBundle clean install
 
 成功执行后，您应该能够在`http://<host>:<port>/system/console/bundles`中看到“包”控制台。
 
-##  单元测试{#unit-tests}
+##  单元测试 {#unit-tests}
 
 核心模块中的单元测试显示包中包含的代码的经典单元测试。 要进行测试，请执行：
 
