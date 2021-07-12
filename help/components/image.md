@@ -1,9 +1,9 @@
 ---
 title: 图像组件
 description: 核心组件图像组件是自适应图像组件功能就地编辑。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2170'
 ht-degree: 2%
@@ -20,19 +20,19 @@ ht-degree: 2%
 
 模板作者可以在[设计对话框](#design-dialog)中定义图像宽度以及裁剪和其他设置。 内容编辑器可以上传或选择[配置对话框](#configure-dialog)中的资产，并在[编辑对话框](#edit-dialog)中裁剪图像。 为了更方便起见，还提供简单的图像就地修改。
 
-## 响应功能{#responsive-features}
+## 响应功能 {#responsive-features}
 
 图像组件提供了开箱即用的强大响应功能。 在页面模板级别，可以使用[设计对话框](#design-dialog)定义图像资产的默认宽度。 然后，图像组件将自动加载正确的宽度以根据浏览器窗口的大小显示。 在调整窗口大小时，图像组件会动态加载正确的图像大小。 组件开发人员无需担心定义自定义媒体查询，因为图像组件已经过优化以加载您的内容。
 
 此外，图像组件还支持延迟加载，以便将实际图像资产的加载推迟到在浏览器中可见为止，从而提高页面的响应性。
 
-## Dynamic Media支持{#dynamic-media}
+## Dynamic Media支持 {#dynamic-media}
 
 图像组件(从[版本2.13.0](/help/versions.md)开始)支持[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia)资产。 [启用后，](#design-dialog) 这些功能允许您通过简单的拖放操作，或通过资产浏览器添加Dynamic Media图像资产，就像您使用任何其他图像一样。此外，还支持图像修饰符、图像预设和智能裁剪。
 
 使用核心组件构建的Web体验不能提供功能丰富、Sensei支持、强大、高性能、跨平台的Dynamic Media图像功能。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 图像组件的当前版本为v2，该版本于2018年1月随核心组件版本2.0.0一起引入，在本文档中进行了描述。
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## SVG支持{#svg-support}
+## SVG支持 {#svg-support}
 
 图像组件支持可缩放矢量图形(SVG)。
 
@@ -61,11 +61,11 @@ ht-degree: 2%
 >
 >SVG支持要求核心组件版本2.1.0或更高版本以及适用于AEM 6.4或更高版本的[Service Pack 2](https://docs.adobe.com/content/help/zh-Hans/experience-manager-64/release-notes/sp-release-notes.html)，以支持AEM中的[图像编辑器功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验图像组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_image)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 有关图像组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_image_v2)。
 
@@ -73,11 +73,11 @@ ht-degree: 2%
 
 图像组件支持[schema.org微数据](https://schema.org)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 除了标准的[编辑对话框](#edit-dialog)和[设计对话框](#design-dialog)之外，图像组件还提供一个配置对话框，在其中定义了图像本身及其描述和基本属性。
 
-### 资产选项卡{#asset-tab}
+### “资产”选项卡 {#asset-tab}
 
 ![图像组件配置对话框的资产选项卡](/help/assets/image-configure-asset.png)
 
@@ -86,7 +86,7 @@ ht-degree: 2%
    * 点按或单击&#x200B;**清除**&#x200B;以取消选择当前选定的图像。
    * 点按或单击&#x200B;**编辑** ，以在资产编辑器中[管理资产的演绎版。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)
 
-### 元数据选项卡{#metadata-tab}
+### 元数据选项卡 {#metadata-tab}
 
 ![图像组件配置对话框的元数据选项卡](/help/assets/image-configure-metadata.png)
 
@@ -112,7 +112,7 @@ ht-degree: 2%
 >
 >**智能交** 叉和图 **像预** 设是互斥选项。如果作者需要将图像预设和智能裁剪呈现版本一起使用，则作者必须使用&#x200B;**图像修饰符**&#x200B;来手动添加预设。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 编辑对话框允许内容作者裁剪、修改启动映射和缩放图像。
 
@@ -175,11 +175,11 @@ ht-degree: 2%
 >
 >GIF图像不支持图像编辑操作（裁剪、翻转、旋转）。 在编辑模式下对GIF所做的任何此类更改将不会持久保留。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义内容作者在使用此组件时拥有的裁剪、上传和旋转及上传选项。
 
-### 主选项卡{#main-tab}
+### 主选项卡 {#main-tab}
 
 在&#x200B;**主**&#x200B;选项卡上，您可以定义图像的宽度列表（以像素为单位），组件将根据浏览器大小自动加载最合适的宽度。 这是图像组件[响应功能](#responsive-features)的重要部分。
 
@@ -202,7 +202,7 @@ ht-degree: 2%
       * 选择选项&#x200B;**禁用延迟加载** ，以在页面加载时加载图像。
 * **JPEG质量**  — 已转换（例如，缩放或裁剪）JPEG图像的质量因子（以0和100的百分比表示）。
 
-### “功能”选项卡{#features-tab}
+### “功能”选项卡 {#features-tab}
 
 在&#x200B;**功能**&#x200B;选项卡上，您可以定义在使用组件（包括上传选项、方向和裁剪选项）时，内容作者可以使用的选项。
 
@@ -242,7 +242,7 @@ ht-degree: 2%
    >
    >请注意，在AEM中，裁剪长宽比被定义为&#x200B;**高度/宽度**。 这与常见的宽高比的定义不同，这样做是出于对旧版兼容性的考虑。只要您提供了比率的明确名称，内容作者便不会察觉到任何差异，因为该名称会显示在UI中，而不是比率本身。
 
-### 样式选项卡{#styles-tab-1}
+### “样式”选项卡 {#styles-tab-1}
 
 图像组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
@@ -256,6 +256,6 @@ ht-degree: 2%
 >
 >[AEM项目原型](/help/developing/archetype/overview.md)的示例Dispatcher配置已包含此配置。
 
-## Adobe客户端数据层{#data-layer}
+## Adobe客户端数据层 {#data-layer}
 
 图像组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
