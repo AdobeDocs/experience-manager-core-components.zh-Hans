@@ -2,16 +2,16 @@
 title: 表单隐藏组件(v1)
 description: 核心组件表单隐藏组件允许显示隐藏字段。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
 
 ---
 
-# 表单隐藏组件(v1){#form-hidden-component-v}
+# 表单隐藏组件(v1) {#form-hidden-component-v}
 
 核心组件表单隐藏组件允许显示隐藏字段。
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 字段属性可由[配置对话框](#configure-dialog)中的内容编辑器定义。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 本文档介绍了表单隐藏组件v1，该组件最初随AEM 6.3核心组件1.0.0版引入。
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >有关当前版本的表单隐藏组件的详细信息，请参阅[表单隐藏组件](/help/components/forms/form-hidden.md)文档。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)获取的示例。
 
@@ -82,7 +82,7 @@ ht-degree: 2%
 >
 >从核心组件导出JSON时，需要安装核心组件版本1.1.0。 有关更多信息，请参阅核心组件v1](/help/versions.md#release-history-and-compatibility)的[兼容性信息。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义隐藏字段的参数。
 
@@ -92,11 +92,11 @@ ht-degree: 2%
 * **Value**  — 随表单数据提交的字段值
 * **标识符**  — 标识符在页面上应是唯一的，可用于将脚本绑定到此表单字段
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 “表单隐藏”组件没有设计对话框。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关表单隐藏组件[的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden)上找到。
 
