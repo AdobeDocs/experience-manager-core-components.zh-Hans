@@ -1,9 +1,9 @@
 ---
 title: 语言导航组件
 description: 语言导航组件为站点提供语言/国家/地区导航，以便访客可以在不同区域设置中导航到同一页面。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 [编辑对话框](#edit-dialog)允许定义全局站点导航根目录以及导航应深入到的结构中。 使用[设计对话框](#design-dialog)，模板作者可以为相同选项设置默认值。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 语言导航组件的当前版本为v1，该版本于2018年1月随核心组件2.0.0版引入，在本文档中进行了描述。
 
@@ -35,23 +35,23 @@ ht-degree: 2%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验语言导航组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_langnav)。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关语言导航组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 编辑对话框允许定义全局站点导航根目录以及导航在结构中的深度。
 
 通常，只需在页面模板级别完成这些配置。 但是，可以通过[编辑对话框](#edit-dialog)在页面级别更改它们。
 
-### 属性选项卡{#properties-tab}
+### “属性”选项卡 {#properties-tab}
 
 ![语言导航组件的设计对话框](/help/assets/language-navigation-design.png)
 
@@ -89,11 +89,11 @@ ht-degree: 2%
 
 无论用户查看的是什么页面，语言导航组件都能够以其他语言找到相应的页面，方法是知道当前页面的位置并向后工作到根页面，然后转到相应的页面。
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 语言导航组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 通常，只需在网站的页面模板中添加和配置语言导航组件即可。 但是，如果语言导航组件需要添加到单个内容页面，则编辑对话框允许内容作者配置与[设计对话框](#design-dialog)中所述的相同值。
 
@@ -105,6 +105,6 @@ ht-degree: 2%
 
 ![语言导航组件的编辑对话框](/help/assets/language-navigation-edit.png)
 
-## Adobe客户端数据层{#data-layer}
+## Adobe客户端数据层 {#data-layer}
 
 语言导航组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
