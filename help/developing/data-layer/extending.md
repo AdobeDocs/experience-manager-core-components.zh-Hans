@@ -2,16 +2,16 @@
 title: 扩展Adobe客户端数据层
 description: Adobe客户端数据层可以按照一些基本模式进行扩展
 feature: 核心组件，Adobe客户端数据层
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
-# 扩展Adobe客户端数据层{#extending-acdl}
+# 扩展Adobe客户端数据层 {#extending-acdl}
 
 您可以使用自定义对话框选项扩展核心组件，该对话框选项允许内容作者输入与数据层相关的其他信息。
 
