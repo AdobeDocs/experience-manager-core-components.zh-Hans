@@ -2,16 +2,16 @@
 title: 适用于AngularSPA的前端内部版本
 description: 基于Angular的SPA项目的前端构建流程描述
 feature: 核心组件、 AEM项目原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-# angularSPA {#frontend-angular}的前端内部版本
+# 适用于AngularSPA的前端内部版本 {#frontend-angular}
 
 本文档介绍了在使用原型基于Angular框架创建单页应用程序(SPA)时创建的项目的详细信息。 例如，将`frontendModule`选项设置为`angular`时。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 在项目目录中，可以运行以下命令。
 
-### npm开始{#npm-start}
+### npm开始 {#npm-start}
 
 ```
 npm start
@@ -44,7 +44,7 @@ npm start
    * 支持的标头：授权
    * 允许的方法：OPTIONS
 
-### npm测试{#npm-test}
+### npm测试 {#npm-test}
 
 ```shell
 npm test
@@ -60,7 +60,7 @@ npm run test:debug
 
 此命令在交互式监视模式下启动Karma测试运行器。
 
-### npm运行内部版本{#npm-run-build}
+### npm运行生成 {#npm-run-build}
 
 ```shell
 npm run build
@@ -72,6 +72,6 @@ npm run build
 
 有关项目原型如何使用AEM ClientLibs的更多信息，请参阅常规[ui.frontend模块文档](uifrontend.md#clientlibs)。
 
-## 浏览器支持{#browser-support}
+## 浏览器支持 {#browser-support}
 
 默认情况下，此项目使用[Browserslist](https://github.com/browserslist/browserslist)的默认选项来标识目标浏览器。 此外，它还包含现代语言功能的填充，以支持旧版浏览器（例如Internet Explorer 11）。 如果不需要支持此类浏览器，则可以删除多填充依赖项和导入。
