@@ -2,16 +2,16 @@
 title: 表单选项组件(v1)
 description: 核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 3%
 
 ---
 
-# 表单选项组件(v1){#form-options-component-v}
+# 表单选项组件(v1) {#form-options-component-v}
 
 核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 选项、标签和单个选项的表示方式可由[配置对话框](#configure-dialog)中的内容编辑器定义。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 本文档介绍表单选项组件v1，最初是在AEM 6.3的核心组件1.0.0版中引入的。
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 >
 >有关表单选项组件当前版本的详细信息，请参阅[表单选项组件](/help/components/forms/form-options.md)文档。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)获取的示例。
 
@@ -112,7 +112,7 @@ ht-degree: 3%
 >
 >从核心组件导出JSON时，需要安装核心组件版本1.1.0。 有关更多信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义应显示的选项类型、标签以及可用的选项。
 
@@ -143,11 +143,11 @@ ht-degree: 3%
          * **数据源**  — 数据源的资源类型
 * **帮助消息**  — 向用户提供可在字段中输入内容的提示
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 表单选项组件没有设计对话框。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关表单选项组件[的最新技术文档可在GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options)上找到。
 
