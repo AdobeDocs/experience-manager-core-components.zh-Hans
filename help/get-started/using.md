@@ -1,9 +1,9 @@
 ---
 title: 使用核心组件
 description: “要在您自己的项目中启动并运行核心组件，需遵循以下三个步骤：下载并安装、创建代理组件、加载核心样式，以及允许模板上的组件。”
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 >
 >如果您使用[AEM项目原型，则根据Adobe的最佳实践建议，](/help/developing/archetype/overview.md)核心组件会自动包含在您的项目中。
 
-## 下载并安装{#download-and-install}
+## 下载并安装 {#download-and-install}
 
 核心组件背后的驱动思想之一是灵活性。 通过更频繁地发布核心组件的新版本，Adobe能够更灵活地提供新功能。 开发人员反过来也可以灵活地选择将哪些组件集成到其项目中，以及希望更新这些组件的频率。 这会为AEM和核心组件生成单独的发布流程。
 
@@ -46,13 +46,13 @@ ht-degree: 2%
 * 如果您的项目之前在`/apps`中包含核心组件，则您可能需要调整项目。](/help/developing/overview.md#via-aemaacs)[
 * 即使核心组件现在位于`/libs`中，也不建议在`/apps`中创建同一路径的任何叠加。 [如果需要自](/help/developing/guidelines.md#proxy-component-pattern) 定义组件的任何方面，则应使用代理组件模式。
 
-### AEM 6.5和之前的{#aem-65}
+### AEM 6.5及更高版本 {#aem-65}
 
 在生产模式下启动（不含示例内容）时，核心组件不是快速启动的一部分。 因此，您的第一步是从GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest)下载最新发布的内容包，并将其安装在您的AEM环境中。[
 
 有多种方法可以自动执行此操作，但在实例上快速安装内容包的最简单方法是使用包管理器；请参阅[安装软件包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您还将运行一个发布实例，则需要将该包复制到发布者；请参阅[复制包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
 
-## 创建代理组件{#create-proxy-components}
+## 创建代理组件 {#create-proxy-components}
 
 由于[代理组件模式](/help/developing/guidelines.md#proxy-component-pattern)部分中所述的原因，核心组件不得直接从内容中引用。 为了避免这种情况，它们都属于隐藏的组件组（`.core-wcm`或`.core-wcm-form`），这将阻止它们直接在编辑器中显示。
 
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 例如，查看WKND站点](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml)的[标题组件，这是通过这种方式构建的代理组件的一个很好示例。
 
-## 加载核心样式{#load-the-core-styles}
+## 加载核心样式 {#load-the-core-styles}
 
 1. 如果尚未创建，请创建一个[客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)，其中包含网站所需的所有CSS和JS文件。
 1. 在网站的客户端库中，将依赖项添加到可能需要的核心组件中。 可通过添加`embed`属性来完成此操作。
@@ -103,7 +103,7 @@ ht-degree: 2%
 
 在转到下一部分之前，请确保已将您的代理组件和客户端库部署到AEM环境。
 
-## 允许组件{#allow-the-components}
+## 允许组件 {#allow-the-components}
 
 在[模板编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)中执行以下步骤。
 
