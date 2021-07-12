@@ -3,7 +3,7 @@ title: 核心组件简介
 description: '核心组件基于最新技术和最佳实践提供强大且可扩展的基本组件。 '
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: cc1fc14e1ca9125a24c13ac68716951ef790afea
+source-git-commit: 85904d334091f1b9345023a84e8f12abeeb54692
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 24%
@@ -51,7 +51,7 @@ ht-degree: 24%
 
 当前版本的核心组件具有以下组件。
 
-### 模板组件{#template-components}
+### 模板组件 {#template-components}
 
 * [页面](components/page.md)
 * [导航](components/navigation.md)
@@ -59,7 +59,7 @@ ht-degree: 24%
 * [痕迹导航](components/breadcrumb.md)
 * [快速搜索](components/quick-search.md)
 
-### 页面创作组件{#page-authoring-components}
+### 页面创作组件 {#page-authoring-components}
 
 * [标题](components/title.md)
 * [文本](components/text.md)
@@ -77,7 +77,7 @@ ht-degree: 24%
 * [进度条](components/progress-bar.md)
 * [PDF 查看器](components/pdf-viewer.md)
 
-### 容器组件{#container-components}
+### 容器组件 {#container-components}
 
 * [容器](components/container.md)
 * [轮播](components/carousel.md)
@@ -102,11 +102,11 @@ ht-degree: 24%
 >
 >有关兼容性信息，请参阅特定组件对应的帮助页面（可在上文中的列表中点击相应链接），或参考[核心组件版本](versions.md)文档以了解更多信息。
 
-## 系统要求{#system-requirements}
+## 系统要求 {#system-requirements}
 
 | 核心组件 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 持续 | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 持续 | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
