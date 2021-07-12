@@ -1,9 +1,9 @@
 ---
 title: 文本组件
 description: 文本组件是一种富文本编辑和合成组件，可进行就地编辑。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 [编辑对话框](#edit-dialog)具有在全屏编辑对话框中提供的具有完整功能的有限选项的内嵌编辑功能。 使用[设计对话框](#design-dialog)，可以为内容作者的模板配置文本格式选项，例如标题、特殊字符和段落样式。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 文本组件的当前版本为v2，该版本于2018年1月随核心组件2.0.0版引入，在本文档中进行了描述。
 
@@ -33,17 +33,17 @@ ht-degree: 4%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验文本组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_text)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 有关文本组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_text_v2)上找到。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 文本组件和富文本编辑器{#the-text-component-and-the-rich-text-editor}
+## 文本组件和富文本编辑器 {#the-text-component-and-the-rich-text-editor}
 
 核心组件文本组件可利用AEM富文本编辑器(RTE)。 RTE为内容作者提供了多种用于编辑其文本内容的功能。 RTE的配置非常灵活，提供了多个选项。 有关如何配置RTE的更多详细信息，请参阅以下文章： [配置富文本编辑器](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[配置富文本编辑器插件](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
@@ -53,7 +53,7 @@ ht-degree: 4%
 >
 >文本组件中仅提供由RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)的UI配置启用的选项。[
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 编辑对话框提供了用户期望撰写文本的标准富文本格式工具。
 
@@ -296,7 +296,7 @@ ht-degree: 4%
 
 ![段落格式示例](/help/assets/text-paragraph-example.png)
 
-### 行内编辑{#in-line-editing}
+### 内联编辑 {#in-line-editing}
 
 文本组件也可以内嵌编辑，但由于空间限制，并非所有格式选项都可内嵌使用。 要查看所有选项，请切换到全屏模式。
 
@@ -310,11 +310,11 @@ ht-degree: 4%
 * 如果指定了ID，则作者有责任确保该ID是唯一的。
 * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义内容作者可以使用的文本格式选项。
 
-### 插件选项卡{#plugins-tab}
+### “插件”选项卡 {#plugins-tab}
 
 插件选项卡用于启用和禁用内容作者可用的各种文本格式选项。
 
@@ -366,10 +366,10 @@ ht-degree: 4%
 * 要删除字符，请点按或单击&#x200B;**删除**&#x200B;按钮。
 * 要重新排列字符的顺序，请点按或单击并拖动手柄。
 
-## 样式选项卡{#styles-tab}
+## “样式”选项卡 {#styles-tab}
 
 文本组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客户端数据层{#data-layer}
+## Adobe客户端数据层 {#data-layer}
 
 文本组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
