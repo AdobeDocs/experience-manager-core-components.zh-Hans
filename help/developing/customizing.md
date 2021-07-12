@@ -1,9 +1,9 @@
 ---
 title: 自定义核心组件
 description: 核心组件实施了多种模式，从简单的样式到高级功能重用，这些模式可轻松进行自定义。
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 [核心组件](overview.md)实施了多种模式，从简单的样式到高级功能重用，这些模式可轻松进行自定义。
 
-## 灵活的架构{#flexible-architecture}
+## 灵活的架构 {#flexible-architecture}
 
 核心组件从一开始就设计得灵活且可扩展。 查看其架构的概述，即可找到可进行自定义的位置。
 
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 [AEM项目原](/help/developing/archetype/overview.md) 型将最小的Adobe Experience Manager项目视为您自己项目的起点，包括一个使用SlingModels的自定义HTL组件示例，该示例可用于逻辑和使用推荐的代理模式正确实施核心组件。
 
-## 自定义模式{#customization-patterns}
+## 自定义模式 {#customization-patterns}
 
-### 自定义对话框{#customizing-dialogs}
+### 自定义对话框 {#customizing-dialogs}
 
 可能需要自定义核心组件对话框中可用的配置选项，无论是[设计对话框还是编辑对话框](/help/get-started/authoring.md)。
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 </jcr:root>
 ```
 
-### 自定义核心组件{#customizing-the-logic-of-a-core-component}的逻辑
+### 自定义核心组件的逻辑 {#customizing-the-logic-of-a-core-component}
 
 核心组件的业务逻辑在Sling模型中实施。 可以使用Sling委派模式扩展此逻辑。
 
@@ -100,7 +100,7 @@ public class PageHeadline implements Title {
 
 有关委派模式的更多详细信息，请参阅核心组件GitHub Wiki文章[Sling模型的委派模式](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)。
 
-### 自定义标记{#customizing-the-markup}
+### 自定义标记 {#customizing-the-markup}
 
 有时，高级样式需要组件的标记结构不同。
 
@@ -108,7 +108,7 @@ public class PageHeadline implements Title {
 
 再以核心痕迹导航组件为例，要自定义其标记输出，必须将`breadcrumb.html`文件复制到站点特定的组件中，该组件具有指向核心痕迹导航组件的`sling:resourceSuperTypes`。
 
-### 组件的样式{#styling-the-components}
+### 组件的样式 {#styling-the-components}
 
 第一种形式的自定义是应用CSS样式。
 
@@ -124,7 +124,7 @@ public class PageHeadline implements Title {
 
 此外，每个核心组件都利用AEM [样式系统功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html)，该功能允许模板作者定义可由页面作者应用于组件的其他CSS类名称。 这允许为每个模板定义允许的组件样式列表，以及其中一个样式是否默认应用于此类型的所有组件。
 
-## 自定义项的升级兼容性{#upgrade-compatibility-of-customizations}
+## 自定义项的升级兼容性 {#upgrade-compatibility-of-customizations}
 
 可以进行三种不同的升级：
 
@@ -138,7 +138,7 @@ public class PageHeadline implements Title {
 
 切换到核心组件的较新主要版本仅与内容结构兼容，但可能需要重构自定义设置。 将为每个组件版本发布清除更改日志，以突出显示可能影响此页面中所述自定义类型的更改。
 
-## 支持自定义{#support-of-customizations}
+## 自定义支持 {#support-of-customizations}
 
 与任何AEM组件一样，有关自定义的许多事项需要注意：
 
