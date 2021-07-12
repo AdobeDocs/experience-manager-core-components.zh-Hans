@@ -2,16 +2,16 @@
 title: 将Adobe客户端数据层与核心组件结合使用
 description: 将Adobe客户端数据层与核心组件结合使用
 feature: 核心组件，Adobe客户端数据层
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 5%
 
 ---
 
-# 将Adobe客户端数据层与核心组件{#data-layer-core-components}结合使用
+# 将Adobe客户端数据层与核心组件结合使用 {#data-layer-core-components}
 
 Adobe客户端数据层的目标是通过提供标准化方法来公开和访问任何脚本的任何类型的数据，从而减少对网站进行测试的工作量。
 
@@ -25,7 +25,7 @@ Adobe客户端数据层与平台无关，但完全集成到核心组件中以与
 >
 >有关Adobe客户端数据层与核心组件集成的更多技术详细信息，请参阅核心组件存储库中的[`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md)文件。
 
-## 安装和激活{#installation-activation}
+## 安装和激活 {#installation-activation}
 
 自2.9.0版核心组件起，数据层将作为AEM客户端库与核心组件一起分发，无需安装。 默认情况下，由[AEM Project Archetype v. 24+](/help/developing/archetype/overview.md)生成的所有项目都包含已激活的数据层。
 
@@ -64,7 +64,7 @@ Adobe客户端数据层与平台无关，但完全集成到核心组件中以与
    window.adobeDataLayer.getState();
    ```
 
-## 支持的组件{#supported-components}
+## 支持的组件 {#supported-components}
 
 以下组件支持数据层。
 
@@ -86,7 +86,7 @@ Adobe客户端数据层与平台无关，但完全集成到核心组件中以与
 
 另请参阅组件触发的[事件。](#events-components)
 
-## 核心组件数据架构{#data-schemas}
+## 核心组件数据架构 {#data-schemas}
 
 以下是核心组件用于数据层的架构列表。
 
@@ -221,7 +221,7 @@ id: {
 
 * `cmp:click`
 
-### 内容片段架构{#content-fragment}
+### 内容片段架构 {#content-fragment}
 
 内容片段架构由[内容片段组件使用。](/help/components/content-fragment-component.md)
 
@@ -259,7 +259,7 @@ id: {
 * **`cmp:show`** 和 —  **`cmp:hide`** 处理折叠面板（展开/折叠）、轮播（下一个/上一个按钮）和选项卡（选项卡选择）组件会分别导致数据层触发 `cmp:show` 和事 `cmp:hide` 件。页面加载时也会调度`cmp:show`事件，该事件应为第一个事件。
 * **`cmp:loaded`**  — 一旦数据层在页面上填充了核心组件，数据层就会触发一个 `cmp:loaded` 事件。
 
-### 组件{#events-components}触发的事件
+### 由组件触发的事件 {#events-components}
 
 下表列出了可触发事件的标准核心组件以及这些事件。
 
@@ -275,7 +275,7 @@ id: {
 | [选项卡](/help/components/tabs.md) | `cmp:show` 和 `cmp:hide` |
 | [Teaser](/help/components/teaser.md) | `cmp:click` |
 
-### 事件路径信息{#event-path-info}
+### 事件路径信息 {#event-path-info}
 
 由AEM核心组件触发的每个数据层事件都将包含具有以下JSON对象的有效负载：
 
