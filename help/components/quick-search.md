@@ -1,16 +1,16 @@
 ---
 title: 快速搜索组件
 description: 快速搜索组件为网站提供搜索功能，并显示搜索结果，以便访客可以搜索网站并过滤结果。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
 
 ---
 
-# 快速搜索组件{#quick-search-component}
+# 快速搜索组件 {#quick-search-component}
 
 “快速搜索”组件向网站提供搜索功能并显示搜索结果，以便访客可以轻松查找匹配的内容和查看结果。
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 [编辑对话框](#edit-dialog)允许内容作者定义搜索在内容树中应开始的位置。 使用[设计对话框](#design-dialog)，模板作者可以为内容树中应开始搜索的位置以及最大结果集大小和最小搜索词长度设置默认值。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 快速搜索组件的当前版本为v1，该版本于2018年1月随核心组件2.0.0版引入，在本文档中进行了描述。
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 编辑对话框{#edit-dialog}
+## 编辑对话框 {#edit-dialog}
 
 编辑对话框允许内容作者定义搜索在内容树中的起始位置。
 
@@ -58,11 +58,11 @@ ht-degree: 1%
 >
 >如果未配置或无法解析&#x200B;**搜索根**，则“快速搜索”默认为在当前页面下进行搜索。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 使用“设计”对话框，模板作者可以为内容树中应开始搜索的位置设置默认值，以及最大结果集大小和最小搜索词长度。“设计”对话框允许模板作者定义可供内容作者使用的文本格式选项。
 
-### 属性选项卡{#properties-tab}
+### “属性”选项卡 {#properties-tab}
 
 ![“快速搜索组件的设计”对话框](/help/assets/quick-search-design.png)
 
@@ -81,6 +81,6 @@ ht-degree: 1%
 >
 >**如果** 结果大 **小和搜索词** 最小长度分别设置得过高或过低，则它们可能会对性能产生影响。
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 快速搜索组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
