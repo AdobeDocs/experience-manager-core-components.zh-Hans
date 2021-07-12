@@ -2,16 +2,16 @@
 title: AEM as a Cloud ServiceSDK Build Analyzer Maven插件
 description: 有关本地Maven内部版本分析器插件的文档
 feature: 核心组件、 AEM项目原型
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: de1bb63dc965e6674652bc3e61b515f8f045c6bc
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 4%
 
 ---
 
-# AEM as a Cloud ServiceSDK Build AnalyzerMaven插件{#maven-analyzer-plugin}
+# AEM as a Cloud ServiceSDK Build Analyzer Maven插件 {#maven-analyzer-plugin}
 
 AEM as a Cloud ServiceSDK构建分析器Maven插件可分析各种内容包项目的结构。
 
