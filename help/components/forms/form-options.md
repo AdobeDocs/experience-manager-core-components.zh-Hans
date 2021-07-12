@@ -1,16 +1,16 @@
 ---
 title: 表单选项组件
 description: 核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 3%
 
 ---
 
-# 表单选项组件{#form-options-component}
+# 表单选项组件 {#form-options-component}
 
 核心组件表单选项组件允许从各种格式的预定义选项中进行选择。
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 选项、标签和单个选项的表示方式可由[配置对话框](#configure-dialog)中的内容编辑器定义。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 表单选项组件的当前版本为v2，该版本于2018年1月随核心组件2.0.0版一起引入，在本文档中进行了描述。
 
@@ -33,17 +33,17 @@ ht-degree: 3%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验表单选项组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_form_options)。
 
-### 技术详细信息{#technical-details}
+### 技术详细信息 {#technical-details}
 
 有关表单选项组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_form_options_v2)上找到。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义应显示的选项类型、标签以及可用的选项。
 
@@ -74,8 +74,8 @@ ht-degree: 3%
    * 如果指定了ID，则作者有责任确保该ID是唯一的。
    * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 表单选项组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
