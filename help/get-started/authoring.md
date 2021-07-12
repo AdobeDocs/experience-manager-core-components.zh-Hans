@@ -1,9 +1,9 @@
 ---
 title: 通过核心组件创作
 description: 在AEM中，组件是构成所创作页面内容的结构元素 — 核心组件提供灵活且功能丰富的创作功能。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 8%
@@ -54,7 +54,7 @@ ht-degree: 8%
 >
 >将所需组件添加到可见的组，或自定义这些组件以供作者使用。
 
-## 预配置核心组件{#pre-configuring-core-components}
+## 预配置核心组件 {#pre-configuring-core-components}
 
 配置基础组件是开发人员的工作。 但是，使用核心组件，模板作者现在可以通过模板编辑器配置许多功能。
 
@@ -62,7 +62,7 @@ ht-degree: 8%
 
 有关更多信息，请参阅[创建页面模板](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) 。
 
-### 编辑和设计对话框{#edit-and-design-dialogs}
+### 编辑和设计对话框 {#edit-and-design-dialogs}
 
 由于核心组件可由模板作者进行预配置以定义允许哪些选项作为模板的一部分，然后由页面作者进一步配置以定义实际的页面内容，因此每个组件可以在两个不同的对话框中具有选项。
 
@@ -71,7 +71,7 @@ ht-degree: 8%
 | **编辑对话框** | 在对放置的组件进行正常页面编辑期间，**页面作者**&#x200B;可修改的选项 | 组件显示的内容以及组件最终在页面上的显示方式。 | 设置内容文本的格式，旋转页面上的图像 |
 | **“设计”对话框** | 配置页面模板时，**模板作者**&#x200B;可修改的选项。 | 编辑组件时，页面作者可以使用哪些选项 | 哪些文本格式选项可用，哪些图像就地选项可用 |
 
-### 组件样式{#component-styling}
+### 组件样式 {#component-styling}
 
 大多数核心组件的样式都可以使用AEM样式系统来定义。
 
