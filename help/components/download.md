@@ -1,9 +1,9 @@
 ---
 title: 下载组件
 description: 核心组件下载组件允许在页面上创建下载选项。
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 * 可以在[配置对话框](#configure-dialog)中选择下载选项的属性。
 * 可在[设计对话框](#design-dialog)中定义下载组件的默认值。
 
-## 版本和兼容性{#version-and-compatibility}
+## 版本和兼容性 {#version-and-compatibility}
 
 下载组件的当前版本为v1，该版本于2019年6月随核心组件2.5.0版引入，该版本在此文档中进行了描述。
 
@@ -33,23 +33,23 @@ ht-degree: 1%
 
 有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例{#sample-component-output}
+## 组件输出示例 {#sample-component-output}
 
 要体验下载组件以及查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_download)。
 
-## 技术详细信息{#technical-details}
+## 技术详细信息 {#technical-details}
 
 有关下载组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_download_v1)。
 
 有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-## 配置对话框{#configure-dialog}
+## 配置对话框 {#configure-dialog}
 
 配置对话框允许内容作者定义下载项目以及该项目的行为方式和向页面访客显示的方式。
 
 ![下载组件编辑对话框的资产选项卡](/help/assets/download-edit-asset.png)
 
-### 资产选项卡{#asset-tab}
+### “资产”选项卡 {#asset-tab}
 
 选择下载资产与[图像组件](image.md)的功能非常相似，也同样利用AEM DAM。
 
@@ -58,7 +58,7 @@ ht-degree: 1%
    * 点按或单击&#x200B;**清除**&#x200B;以取消选择当前选定的图像。
    * 点按或单击&#x200B;**编辑** ，以在资产编辑器中[管理资产的演绎版。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)
 
-### 属性选项卡{#properties-tab}
+### “属性”选项卡 {#properties-tab}
 
 ![下载组件编辑对话框的属性选项卡](/help/assets/download-edit-properties.png)
 
@@ -74,11 +74,11 @@ ht-degree: 1%
    * 如果指定了ID，则作者有责任确保该ID是唯一的。
    * 更改ID可能会影响CSS、JS和数据层跟踪。
 
-## 设计对话框{#design-dialog}
+## “设计”对话框 {#design-dialog}
 
 设计对话框允许模板作者定义内容作者可以使用下载组件的选项。
 
-### 属性选项卡{#properties-tab-design}
+### “属性”选项卡 {#properties-tab-design}
 
 ![下载组件的设计对话框](/help/assets/download-design.png)
 
@@ -93,6 +93,6 @@ ht-degree: 1%
 * **显示文件名**  — 选择后，资产的文件名将显示在下载组件中。
    * 已选择默认值。
 
-### 样式选项卡{#styles-tab}
+### “样式”选项卡 {#styles-tab}
 
 图像组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
