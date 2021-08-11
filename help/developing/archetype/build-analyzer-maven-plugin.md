@@ -4,9 +4,9 @@ description: 有关本地Maven内部版本分析器插件的文档
 feature: 核心组件、 AEM项目原型
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '595'
 ht-degree: 4%
 
 ---
@@ -38,3 +38,25 @@ AEM as a Cloud ServiceSDK构建分析器Maven插件可分析各种内容包项�
 | `configuration-api` | 验证重要的OSGi配置。 <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 是 | 是 |
 | `region-deprecated-api` | 检查是否使用了[已弃用的api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
 
+## 已知问题
+
+以下是使用Build Analyzer Maven插件时的已知问题列表。
+
+### 无法在本地SDK中执行生成分析器Maven插件
+
+将本地SDK与低于`1.1.2`的Build Analyzer Maven Plugin版本一起使用时，运行该插件可能会导致以下错误。 在这种情况下，请将您的项目更新到该插件的最新版本。
+
+```txt
+[ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
+```
+
+如果您使用AEM项目原型来设置项目，请确保按如下所示调整根Maven `pom.xml`中的属性。
+
+```xml
+   ...
+   <properties>
+      ...
+      <aemanalyser.version>1.1.2</aemanalyser.version> <!-- Make sure to use the latest release -->
+      ...
+   </properties>
+```
