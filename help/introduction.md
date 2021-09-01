@@ -3,7 +3,7 @@ title: 核心组件简介
 description: '核心组件基于最新技术和最佳实践提供强大且可扩展的基本组件。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: cc8c3275bf251b4c390ee66588f34bac7c0ec218
+source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 24%
@@ -23,7 +23,7 @@ ht-degree: 24%
 * **[核心组件GitHub存储库：](https://github.com/adobe/aem-core-wcm-components)** 有关每个组件和项目下载的开发人员详细信息。
 * 开始使用:
    * **[核心组件成功：](/help/developing/success.md)** 在开始任何使用核心组件的项目之前，请务必考虑相关准则。
-   * **[WKND教程：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 有关构建新站点的为期两天的教程。
+   * **[WKND教程：](https://docs.adobe.com/content/help/zh-Hans/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 有关构建新站点的为期两天的教程。
    * **[峰会教程：](https://expleague.azureedge.net/labs/L767/index.html)** 一个两小时的教程，用于构建新站点（来自2019年美国峰会的实验室）。
    * **[Gems网络研讨会：](https://helpx.adobe.com/cn/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 核心组件的指导性浏览（2018年12月录制）。
 
@@ -53,7 +53,7 @@ ht-degree: 24%
 
 ### 模板组件 {#template-components}
 
-* [页面](components/page.md)
+* [Page](components/page.md)
 * [导航](components/navigation.md)
 * [语言导航](components/language-navigation.md)
 * [痕迹导航](components/breadcrumb.md)
@@ -106,7 +106,7 @@ ht-degree: 24%
 
 | 核心组件 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 持续 | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 持续 | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >

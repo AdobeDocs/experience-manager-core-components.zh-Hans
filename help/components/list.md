@@ -3,9 +3,9 @@ title: 列表组件
 description: 核心组件列表组件允许轻松创建动态和静态列表。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,17 @@ ht-degree: 4%
 ## 使用 {#usage}
 
 列表组件可用于创建子页面的动态列表或任意定义项目的静态列表。 可用列表类型和格式选项可由模板作者在[设计对话框](#design-dialog)中定义。 内容编辑器可以从可用的列表类型中进行选择，以及如何在[编辑对话框](#edit-dialog)中设置列表元素的格式。
+
+## 列表中的重定向 {#redirects}
+
+当页面具有重定向目标(无论它指向外部URL还是其他AEM页面)时，列表中会包含指向重定向目标URL的直接链接。
+
+### 示例 {#redirect-example}
+
+* 创建重定向到页面B的页面A。
+* 创建重定向到`https://aemcomponents.dev`的页面C
+* 在页面D中，插入包含页面A和C的列表组件
+* 然后，生成的相应链接直接指向页面B和`https://aemcomponents.dev`
 
 ## 版本和兼容性 {#version-and-compatibility}
 

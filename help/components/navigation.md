@@ -3,9 +3,9 @@ title: 导航组件
 description: 导航组件允许用户轻松导航全球化的站点结构。
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1469'
 ht-degree: 1%
 
 ---
@@ -87,6 +87,18 @@ ht-degree: 1%
 
 >[!NOTE]
 >渲染阴影站点结构时，导航逻辑仅会递归阴影页面。 该逻辑不会递归重定向目标的结构。
+
+## 导航中的重定向 {#redirects}
+
+当页面具有重定向目标(无论它指向外部URL还是其他AEM页面)时，导航组件会包含指向重定向目标URL的直接链接。
+
+### 示例 {#redirect-example}
+
+* 创建重定向到页面B的页面A。
+* 创建重定向到`https://aemcomponents.dev`的页面C
+* 在页面D中，插入包含页面A和C的或导航组件
+* 然后，生成的相应链接直接指向页面B和`https://aemcomponents.dev`
+
 
 ## 版本和兼容性 {#version-and-compatibility}
 
