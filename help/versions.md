@@ -3,9 +3,9 @@ title: 核心组件版本
 description: 核心组件以发行版形式发布，其中可能包含同一核心组件的多个版本。 本文档介绍哪些版本和版本，以及如何了解与核心组件和AEM的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2279'
 ht-degree: 20%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 20%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此修补程序增强了[List](/help/components/list.md)和[Navigation](/help/components/navigation.md)组件以显示重定向目标的外部URL，为[Teaser](/help/components/teaser.md)组件启用了页面图像继承，并包含其他错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 持续 | 8, 11 | 2021年8月31日 |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此修补程序增强了[List](/help/components/list.md)和[Navigation](/help/components/navigation.md)组件以显示重定向目标的外部URL，为即将推出的[Teaser](/help/components/teaser.md)组件的v2启用页面图像继承，并包含其他错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 持续 | 8, 11 | 2021年8月31日 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 此修补程序版本这是一个修补程序版本，用于修复先前引入的向后不兼容的更改。 | 6.4.8.4+ * | 6.5.6.0+ * | 持续 | 8, 11 | 2021年8月2日 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此修补程序版本增加了对页面站点映射的支持，并包含各种辅助功能改进。 | 6.4.8.4+ * | 6.5.6.0+ * | 持续 | 8, 11 | 2021年7月29日 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此修补程序版本修复了[数据层](/help/developing/data-layer/overview.md)不适用于AEMaaCS的问题。 | 6.4.8.4+ * | 6.5.6.0+ * | 持续 | 8, 11 | 2021年7月8日 |
