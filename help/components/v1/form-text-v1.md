@@ -1,46 +1,46 @@
 ---
-title: 表单文本组件(v1)
-description: 核心组件表单文本组件允许输入表单文本以供提交。
+title: 表单文本组件 (v1)
+description: 利用核心组件表单文本组件，可以输入表单文本供提交。
 index: n
 role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# 表单文本组件(v1) {#form-text-component-v}
+# 表单文本组件 (v1) {#form-text-component-v}
 
-核心组件表单文本组件允许输入表单文本以供提交。
+利用核心组件表单文本组件，可以输入表单文本供提交。
 
-## 使用 {#usage}
+## 用途 {#usage}
 
-表单文本组件允许提交不同类型的文本，并准备与[表单容器组件](form-container-v1.md)一起使用。
+利用表单文本组件可提交不同类型的文本，此组件旨在与[表单容器组件](form-container-v1.md)结合使用。
 
-文本验证、标签和帮助消息的类型可由[配置对话框](#configure-dialog)中的内容编辑器定义。
+文本验证的类型、标签和帮助消息可由内容编辑者在[“配置”对话框](#configure-dialog)中定义。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍了表单文本组件v1，最初是在AEM 6.3的核心组件1.0.0版中引入的。
+本文档介绍了表单文本组件 (v1)，它最初随带 AEM 6.3 的核心组件 1.0.0 版引入。
 
-下表列出了表单文本组件v1的兼容性。
+下表列出了表单文本组件 (v1) 的兼容性。
 
-| AEM 版本 | 表单文本组件v1 |
+| AEM 版本 | 表单文本组件 v1 |
 |--- |--- |
 | 6.3 | 兼容 |
 | 6.4 | 兼容 |
 
 >[!CAUTION]
 >
->本文档介绍表单文本组件的v1。
+>本文档介绍了表单文本组件 (v1)。
 >
->有关表单文本组件当前版本的详细信息，请参阅[表单文本组件](/help/components/forms/form-text.md)文档。
+>有关当前版本的表单文本组件的详细信息，请参阅[表单文本组件](/help/components/forms/form-text.md)文档。
 
-## 组件输出示例 {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-以下是从[We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)获取的示例。
+以下是摘自 [We.Retail](https://helpx.adobe.com/cn/experience-manager/6-4/sites/developing/using/we-retail.html) 的示例。
 
 ### 屏幕快照 {#screenshot}
 
@@ -88,17 +88,17 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->从核心组件导出JSON时，需要安装核心组件版本1.1.0。 有关更多信息，请参阅核心组件v1](/help/versions.md)的[兼容性信息。
+>从核心组件执行 JSON 导出需要版本 1.1.0 的核心组件。有关更多信息，请参阅[核心组件 v1 的兼容性信息](/help/versions.md)。
 
-## 配置对话框 {#configure-dialog}
+## “配置”对话框 {#configure-dialog}
 
-配置对话框允许内容作者定义要输入的文本类型以及默认值和标签。
+利用“配置”对话框，内容作者可以定义要作为默认值和标签输入的文本的类型。
 
 ### 主要 {#main}
 
 ![](/help/assets/chlimage_1-23.png)
 
-* **约束**  — 要输入并将针对其进行验证的文本类型
+* **约束** - 要输入并进行验证的文本的类型。
 
    * **文本**
    * **文本区域**
@@ -108,19 +108,19 @@ ht-degree: 8%
    * **数字**
    * **密码**
 
-* **文本行**  — 要在文本区域中显示的行数(仅当“约束”设置为“文 **** 本区域” **时显示**)
+* **文本行** - 在文本区域中显示的行数（仅在&#x200B;**约束**&#x200B;设置为&#x200B;**文本区域**&#x200B;时显示）
 
-* **标签**  — 将为字段显示的标签
-* **隐藏标签以防显示**  — 如果仅出于辅助功能目的而需要标签，并且不会传递有关该字段的任何其他可视化信息，则需要此标签
-* **元素名称**  — 随表单数据一起提交的字段的名称
-* **值**  — 在字段中预填充的默认值
+* **标签** - 将为字段显示的标签
+* **隐藏标签以不被显示** - 在标签仅用于辅助功能且不影响有关字段的任何其他可视信息时需要
+* **元素名称** - 随表单数据一起提交的字段的名称
+* **值** - 在字段中预填充的默认值
 
 ### 关于 {#about}
 
 ![](/help/assets/chlimage_1-24.png)
 
-* **帮助消息**  — 向用户提示可在字段中输入的内容
-* **将帮助消息显示为占位符**  — 在表单输入中显示帮助消息，当该消息为空且未集中
+* **帮助消息** - 关于用户可在字段中输入的内容的提示
+* **将帮助消息显示为占位符** - 当表单输入为空且焦点不在其上时，在表单输入中显示帮助消息
 
 ### 约束 {#constraints}
 
@@ -129,19 +129,19 @@ ht-degree: 8%
 * **约束消息**
 
    * 如果该值对于所选的类型无效，则在提交表单时，将以工具提示形式显示消息
-   * 未显示&#x200B;**Text**&#x200B;和&#x200B;**Text Area**&#x200B;约束类型
+   * 对于&#x200B;**文本**&#x200B;和&#x200B;**文本区域**&#x200B;约束类型不显示
 
-* **必需**  — 如果选中此项，则用户必须在提交表单之前填写值
-* **设为只读**  — 如果选中，则用户无法修改字段的值
+* **必填** - 如果选择，用户必须在提交表单之前填充值
+* **使只读** - 如果选中，用户无法修改字段的值
 
 ## “设计”对话框 {#design-dialog}
 
-表单文本组件没有设计对话框。
+表单文本组件没有“设计”对话框。
 
 ## 技术详细信息 {#technical-details}
 
-有关表单文本组件[的最新技术文档，请参阅GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)。
+[在 GitHub 上可找到](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)有关表单文本组件的最新技术文档。
 
-可以从GitHub下载整个核心组件项目。
+从 GitHub 可下载整个核心组件项目。
 
-有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
