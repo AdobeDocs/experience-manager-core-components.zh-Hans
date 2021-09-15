@@ -1,56 +1,56 @@
 ---
 title: 分隔符组件
-description: 分隔符组件会在页面上的组件之间创建一个分隔符
+description: 分隔符组件在页面上的组件之间创建隔断
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # 分隔符组件 {#separator-component}
 
-核心组件分隔符组件显示用于分隔内容的水平规则。
+核心组件分隔符组件显示分隔内容的水平规则。
 
-## 使用 {#usage}
+## 用途 {#usage}
 
-使用分隔符组件，内容作者可以轻松创建水平规则作为内容之间的分隔符，以更好地组织页面上的信息。
+使用分隔符组件，内容作者可以轻松地创建水平规则作为内容之间的隔断，以更好地排列页面上的信息。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-分隔符组件的当前版本为v1，该版本于2019年2月随核心组件2.3.0版引入，在本文档中进行了描述。
+分隔符组件的当前版本是 V1，此版本随 2019 年 2 月的核心组件发行版 2.3.0 的发布引入，具体说明见本文。
 
-下表详细列出了组件的所有受支持版本、组件版本与之兼容的AEM版本，以及指向以前版本文档的链接。
+下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 兼容 | 兼容 | 兼容 |
 
-## 组件输出示例 {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-要体验分隔符组件以及其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_separator)。
+要体验分隔符组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_separator_cn)。
 
 ### 技术详细信息 {#technical-details}
 
-有关分隔符组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1)上找到。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_separator_v1_cn)有关分隔符组件的最新技术文档。
 
-有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
-## 配置对话框 {#configure-dialog}
+## “配置”对话框 {#configure-dialog}
 
-![分隔符组件的编辑对话框](/help/assets/separator-edit.png)
+![分隔符组件的“编辑”对话框](/help/assets/separator-edit.png)
 
-* **ID**  — 利用此选项，可控制HTML和数据层中组件的唯一标识符 [的唯一标识符](/help/developing/data-layer/overview.md)。
-   * 如果留为空白，则会自动为您生成唯一ID，并且可以通过检查生成的页面找到该ID。
-   * 如果指定了ID，则作者有责任确保该ID是唯一的。
-   * 更改ID可能会影响CSS、JS和数据层跟踪。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
+   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
+   * 如果指定一个 ID，作者有责任确保它是唯一的。
+   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 
-设计对话框允许模板作者定义应用于分隔符组件的样式。
+利用“设计”对话框，模板作者可以定义应用于分隔符组件的样式。
 
 ### “样式”选项卡 {#styles-tab}
 
-分隔符组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+分隔符组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
