@@ -5,9 +5,9 @@ breadcrumb-title: Core Components 指南
 user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 67%
 # AEM 核心组件帮助 {#using}
 
 + [核心组件简介](introduction.md)
-+ [成功之路](developing/success.md)
-+ [组件库](https://adobe.com/go/aem_cmp_library)
++ [获得成功的途径](developing/success.md)
++ [组件库](https://adobe.com/go/aem_cmp_library_cn)
 + [核心组件版本](versions.md)
 + 开始使用 {#get-started}
    + [通过核心组件创作](get-started/authoring.md)
@@ -26,7 +26,7 @@ ht-degree: 67%
    + [折叠](components/accordion.md)
    + [痕迹导航](components/breadcrumb.md)
    + [按钮](components/button.md)
-   + [轮播](components/carousel.md)
+   + [轮盘](components/carousel.md)
    + [容器](components/container.md)
    + [内容片段](components/content-fragment-component.md)
    + [内容片段列表](components/content-fragment-list.md)
@@ -50,7 +50,7 @@ ht-degree: 67%
    + 表单组件 {#forms}
       + [表单按钮](components/forms/form-button.md)
       + [表单容器](components/forms/form-container.md)
-      + [隐藏的表单](components/forms/form-hidden.md)
+      + [表单隐藏](components/forms/form-hidden.md)
       + [表单选项](components/forms/form-options.md)
       + [表单文本](components/forms/form-text.md)
    + v1 组件 {#v1-components}
@@ -63,31 +63,31 @@ ht-degree: 67%
       + v1 表单组件 {#v1-forms}
          + [表单按钮 (v1)](components/v1/form-button-v1.md)
          + [表单容器 (v1)](components/v1/form-container-v1.md)
-         + [隐藏的表单 (v1)](components/v1/form-hidden-v1.md)
+         + [表单隐藏 (v1)](components/v1/form-hidden-v1.md)
          + [表单选项 (v1)](components/v1/form-options-v1.md)
          + [表单文本 (v1)](components/v1/form-text-v1.md)
 + 开发 {#developing}
    + [开发核心组件](developing/overview.md)
-   + [成功之路](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [WKND 开发人员教程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自定义核心组件](developing/customizing.md)
    + [组件准则](developing/guidelines.md)
-   + [AMP支持](developing/amp.md)
+   + [AMP 支持](developing/amp.md)
    + [上下文感知配置](developing/context-aware-configs.md)
-   + [包括客户端库](developing/including-clientlibs.md)
-   + Adobe客户端数据层{#data-layer}
-      + [数据层概述](developing/data-layer/overview.md)
-      + [与数据层集成](developing/data-layer/integrations.md)
-      + [扩展数据层](developing/data-layer/extending.md)
+   + [包含客户端库](developing/including-clientlibs.md)
+   + Adobe Client Data Layer {#data-layer}
+      + [Data Layer 的概述](developing/data-layer/overview.md)
+      + [与 Data Layer 的集成](developing/data-layer/integrations.md)
+      + [扩展 Data Layer](developing/data-layer/extending.md)
    + AEM 项目原型 {#archetype}
       + [原型概述](developing/archetype/overview.md)
       + [使用原型](developing/archetype/using.md)
       + [核心模块](developing/archetype/core.md)
-      + [ui.apps模块](developing/archetype/uiapps.md)
-      + [ui.content模块](developing/archetype/uicontent.md)
-      + [ui.frontend.general模块](developing/archetype/uifrontend.md)
-      + [ui.frontend.react模块](developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular模块](developing/archetype/uifrontend-angular.md)
-      + [ui.tests模块](developing/archetype/uitests.md)
-      + [it.tests模块](developing/archetype/ittests.md)
-      + [生成Analyzer Maven插件](developing/archetype/build-analyzer-maven-plugin.md)
+      + [ui.apps 模块](developing/archetype/uiapps.md)
+      + [ui.content 模块](developing/archetype/uicontent.md)
+      + [ui.frontend.general 模块](developing/archetype/uifrontend.md)
+      + [ui.frontend.react 模块](developing/archetype/uifrontend-react.md)
+      + [ui.frontend.angular 模块](developing/archetype/uifrontend-angular.md)
+      + [ui.tests 模块](developing/archetype/uitests.md)
+      + [it.tests 模块](developing/archetype/ittests.md)
+      + [构建分析器 Maven 插件](developing/archetype/build-analyzer-maven-plugin.md)
