@@ -1,58 +1,58 @@
 ---
 title: 社交共享组件
-description: 核心组件社交共享组件是一个Facebook和Pinterest共享小组件。
+description: 核心组件社交共享组件是一个 Facebook 和 Pinterest 共享构件。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # 社交共享组件{#social-sharing-component}
 
-核心组件社交共享组件是一个Facebook和Pinterest共享小组件。
+核心组件社交共享组件是一个 Facebook 和 Pinterest 共享构件。
 
-## 使用 {#usage}
+## 用途 {#usage}
 
-社交共享组件会将Facebook和Pinterest共享链接添加到页面。 它通常包含在页眉或页脚中。
+社交共享组件将 Facebook 和 Pinterest 共享链接添加到页面。它通常包含在页眉或页脚中。
 
-与其他组件不同，社交共享组件的设置由模板作者通过[初始页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)完成，而内容作者则通过[页面属性](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)完成。
+与其他组件不同，社交共享组件的设置可由模板作者通过[初始页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)设定，也可由内容作者通过[页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)设定。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-社交共享组件的当前版本为v1，该版本在核心组件的1.0.0版中引入，在本文档中进行了描述。
+社交共享组件的当前版本是 v1，此版本随核心组件 1.0.0 版的发布引入，具体说明见本文。
 
-下表详细列出了组件的所有受支持版本以及与组件版本兼容的AEM版本。
+下表详细说明了该组件的所有支持版本以及与该组件的各个版本兼容的 AEM 版本。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v1 | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例 {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-要体验社交共享组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_sharing)。
+要体验社交共享组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_sharing_cn)。
 
 ### 技术详细信息 {#technical-details}
 
-有关共享组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_sharing_v1)。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_sharing_v1_cn)有关共享组件的最新技术文档。
 
-有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
-## 编辑对话框 {#edit-dialog}
+## “编辑”对话框 {#edit-dialog}
 
-![共享组件的编辑对话框](/help/assets/sharing-edit.png)
+![共享组件的“编辑”对话框](/help/assets/sharing-edit.png)
 
-* **ID**  — 利用此选项，可控制HTML和数据层中组件的唯一标识符 [的唯一标识符](/help/developing/data-layer/overview.md)。
-   * 如果留为空白，则会自动为您生成唯一ID，并且可以通过检查生成的页面找到该ID。
-   * 如果指定了ID，则作者有责任确保该ID是唯一的。
-   * 更改ID可能会影响CSS、JS和数据层跟踪。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
+   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
+   * 如果指定一个 ID，作者有责任确保它是唯一的。
+   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
-由于共享需要特殊的页面标题，因此必须在页面级别启用任何共享。 因此，对于内容作者，可通过共享选项卡[页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)访问共享组件的其他编辑选项。
+由于共享需要特殊的页眉，因此必须在页面级别启用任何共享。因此，对于内容作者，可通过[页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)的“共享”选项卡使用共享组件的编辑选项。
 
 ## “设计”对话框 {#design-dialog}
 
-由于共享需要特殊的页面标题，因此必须在页面级别启用任何共享。 因此，对于模板作者，共享组件的设计选项可通过[初始页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)获得。
+由于共享需要特殊的页眉，因此必须在页面级别启用任何共享。因此，对于模板作者，可通过[初始页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)使用共享组件的设计选项。
