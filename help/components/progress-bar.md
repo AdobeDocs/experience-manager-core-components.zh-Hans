@@ -1,61 +1,61 @@
 ---
 title: 进度条组件
-description: 进度条组件以可视方式表示实现目标的进度
+description: 进度条组件以可视化形式展示向目标的进展
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # 进度条组件 {#progress-bar-component}
 
-核心组件进度条组件以可视方式表示目标的进度。
+核心组件进度条组件以可视化形式展示向目标的进展。
 
-## 使用 {#usage}
+## 用途 {#usage}
 
-进度条组件允许内容作者通过定义完成百分比来轻松创建进度条，从而直观地显示目标进度。
+使用进度条组件，内容作者可以通过定义完成百分比轻松地创建进度条，从而直观地以可视化形式展示向目标的进展。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-进度条组件的当前版本为v1，该版本于2020年5月随核心组件2.9.0版引入，在本文档中进行了描述。
+进度条组件的当前版本是 V1，此版本随 2020 年 5 月的核心组件 2.9.0 版的发布引入，具体说明见本文。
 
-下表详细列出了组件的所有受支持版本、组件版本与之兼容的AEM版本，以及指向以前版本文档的链接。
+下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 兼容 | 兼容 | 兼容 |
 
-## 组件输出示例 {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-要体验进度条组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_progressbar)。
+要体验进度条组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_progressbar_cn)。
 
 ### 技术详细信息 {#technical-details}
 
-有关进度条组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1)上找到。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_progress_v1_cn)有关进度条组件的最新技术文档。
 
-有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
-## 配置对话框 {#configure-dialog}
+## “配置”对话框 {#configure-dialog}
 
-![进度条组件的编辑对话框](/help/assets/progress-bar-edit.png)
+![进度条组件的“编辑”对话框](/help/assets/progress-bar-edit.png)
 
-* **完成**  — 进度以百分比表示
-* **ID**  — 利用此选项，可控制HTML和数据层中组件的唯一标识符 [的唯一标识符](/help/developing/data-layer/overview.md)。
-   * 如果留为空白，则会自动为您生成唯一ID，并且可以通过检查生成的页面找到该ID。
-   * 如果指定了ID，则作者有责任确保该ID是唯一的。
-   * 更改ID可能会影响CSS、JS和数据层跟踪。
+* **完成** - 按百分比表示的进度
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
+   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
+   * 如果指定一个 ID，作者有责任确保它是唯一的。
+   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 
-设计对话框允许模板作者定义应用于进度条组件的样式。
+利用“设计”对话框，模板作者可以定义应用于进度条组件的样式。
 
 ### “样式”选项卡 {#styles-tab}
 
-进度条组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+进度条组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## Adobe客户端数据层 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-进度条组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
+进度条组件支持 [Adobe Client Data Layer](/help/developing/data-layer/overview.md)。
