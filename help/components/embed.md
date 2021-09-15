@@ -1,145 +1,145 @@
 ---
 title: 嵌入组件
-description: 嵌入组件允许在AEM内容页面中嵌入外部内容。
+description: 使用嵌入组件可以在 AEM 内容页面中嵌入外部内容。
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # 嵌入组件{#embed-component}
 
-核心组件嵌入组件允许在AEM内容页面中嵌入外部内容。
+利用核心组件嵌入组件，可以在 AEM 内容页面中嵌入外部内容。
 
-## 使用 {#usage}
+## 用途 {#usage}
 
-核心组件嵌入组件允许内容作者定义要嵌入到AEM内容页面中的选定外部内容。 此外，还有一个选项可定义要嵌入的自由格式HTML。
+利用核心组件嵌入组件，内容作者可以将所选外部内容定义为嵌入到 AEM 内容页面中。此外，还有一个选择，即定义嵌入的自由格式的 HTML。
 
-* 可以在[配置对话框](#configure-dialog)中定义组件的属性。
-* 将组件添加到页面时的默认值，可在[设计对话框](#design-dialog)中定义。
+* 组件的属性可在[“配置”对话框](#configure-dialog)中定义。
+* 将组件添加到页面时的组件默认值可以在[“设计”对话框](#design-dialog)中定义。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-嵌入组件的当前版本为v1，该版本已在2019年9月核心组件版本2.7.0中引入，该版本在此文档中进行了描述。
+嵌入组件的当前版本是 V1，此版本随 2019 年 9 月的核心组件发行版本 2.7.0 的发布引入，具体说明见本文。
 
-下表详细列出了组件的所有受支持版本、组件版本与之兼容的AEM版本，以及指向以前版本文档的链接。
+下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
 | v1 | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例 {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-要体验嵌入组件以及查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_embed)。
+要体验嵌入组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_embed_cn)。
 
 ## 技术详细信息 {#technical-details}
 
-有关嵌入组件[的最新技术文档，请参阅GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1)。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_embed_v1_cn)有关嵌入组件的最新技术文档。
 
-有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
-## 配置对话框 {#configure-dialog}
+## “配置”对话框 {#configure-dialog}
 
-配置对话框允许内容作者定义要嵌入到页面上的外部资源。 首先选择应嵌入的资源类型：
+利用“配置”对话框，内容作者可以定义要在页面上嵌入的外部资源。首先选择要嵌入什么类型的资源：
 
 * [URL](#url)
 * [可嵌入内容](#embeddable)
 * [HTML](#html)
 
-对于每种类型的可嵌入内容，您可以定义广告&#x200B;**ID**。 此选项允许控制HTML和[数据层](/help/developing/data-layer/overview.md)中组件的唯一标识符。
+对于每种可嵌入的类型，您可以定义 ad **ID**。利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
 
-* 如果留为空白，则会自动为您生成唯一ID，并且可以通过检查生成的页面找到该ID。
-* 如果指定了ID，则作者有责任确保该ID是唯一的。
-* 更改ID可能会影响CSS、JS和数据层跟踪。
+* 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
+* 如果指定一个 ID，作者有责任确保它是唯一的。
+* 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ### URL {#url}
 
-最简单的嵌入方式是URL。 只需将要嵌入到&#x200B;**URL**&#x200B;字段中的资源的URL进行粘贴即可。 该组件将尝试访问该资源，如果某个处理器可以呈现该资源，则会在&#x200B;**URL**&#x200B;字段下显示确认消息。 如果没有，则该字段将被标记为错误。
+最简单的嵌入是 URL。只需将待嵌入资源的 URL 粘贴到 **URL** 字段中。组件将尝试访问资源，如果它可以由处理程序之一渲染，则会在 **URL** 字段下显示确认消息。如果不能，该字段将标记为出错。
 
-嵌入组件随附有适用于以下类型资源的处理器：
+嵌入组件附带了用于以下资源类型的处理程序：
 
-* 符合[oEmbed标准](https://oembed.com/)的资源，包括Facebook Post、Instagram、SoundCloud、Twitter和YouTube
+* 符合 [oEmbed 标准](https://oembed.com/)的资源，包括 Facebook Post、Instagram、SoundCloud、Twitter 和 YouTube
 * Pinterest
 
-开发人员可以按照嵌入组件的开发人员文档添加[的其他URL处理器。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+开发人员可以[按照嵌入组件的开发人员文档](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)，添加额外的 URL 处理程序。
 
-![URL的嵌入组件编辑对话框](/help/assets/embed-url.png)
+![嵌入组件的 URL 的“编辑”对话框](/help/assets/embed-url.png)
 
 ### 可嵌入内容 {#embeddable}
 
-可嵌入式允许对嵌入式资源进行更多自定义，该资源可以进行参数化并包含其他信息。 作者可以从预配置的可信任可嵌入项中进行选择，并且组件随YouTube可嵌入的现成组件一起提供。
+可嵌入内容允许对嵌入的资源进行更多的自定义，这些自定义可以参数化并包括额外信息。作者能够从 YouTube 提供的现成可嵌入内容中，选择预配置的可信可嵌入内容。
 
-**Embeddable**&#x200B;字段定义要使用的处理器类型。 对于YouTube可嵌入项，您随后可以定义：
+**可嵌入内容**&#x200B;字段定义所要使用的处理程序的类型。在使用 YouTube 可嵌入内容时，您可以定义：
 
-* **视频ID**  — 来自要嵌入的资源YouTube的唯一视频ID
-* **宽度**  — 嵌入式视频的宽度
-* **高度**  — 嵌入式视频的高度
-* **启用静音**  — 此参数指定视频是否默认播放为静音。启用此选项可增加自动播放在现代浏览器中工作的机会。
-* **启用自动播放**  — 此参数指定在播放器加载时是否自动开始播放初始视频。仅当在发布实例中或在创作实例中使用&#x200B;**查看已发布内容**&#x200B;选项时，此操作才有效。
-* **启用循环**  — 对于单个视频，此参数指定播放器是否应重复播放初始视频。对于播放列表，播放器播放整个播放列表，然后在第一个视频处再次开始。
-* **启用内联播放(iOS)**  — 此参数控制iOS上HTML5播放器中的视频是内联播放（开）还是全屏播放（关）。
-* **非限制相关视频**  — 如果禁用此选项，则相关视频将来自与刚才播放的视频相同的渠道，否则，将来自任何渠道。
+* **视频 ID** - YouTube 中待嵌入资源的唯一视频 ID
+* **宽度** - 所嵌入视频的宽度
+* **高度** - 所嵌入视频的高度
+* **启用静音** - 此参数指定默认情况下播放的视频是否静音。启用此项会增加自动播放在现代浏览器中工作的可能性。
+* **启用自动播放** - 此参数指定在加载了播放器时，是否自动开始播放初始视频。这仅在发布实例上或者在创作实例上使用&#x200B;**以发布的形式查看**&#x200B;选项时有效。
+* **启用自动循环** - 在单个视频的情况下，此参数指定播放器是否应重复播放初始视频。在有播放列表的情况下，播放器播放整个播放列表，然后从第一个视频从头开始。
+* **启用内联播放 (iOS)** - 此参数控制在 iOS 上的 HTML5 播放器中，是内联播放（打开）还是全屏播放（关闭）。
+* **不受限相关视频** - 如果禁用此选项，则相关视频将来自与刚播放的视频相同的频道，否则来自任何频道。
 
-请注意，必须通过[设计对话框](#design-dialog)激活“enable”选项，并且可以将其设置为默认值。
+请注意，“启用”选项必须通过[“设计”对话框](#design-dialog)激活，并可设置为默认值。
 
-其他可嵌入项将提供类似的字段，开发人员可在[之后根据嵌入组件的开发人员文档进行定义。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+其他可嵌入内容将提供类似的字段，并可由开发人员[按照嵌入组件的开发人员文档](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)定义。
 
-![嵌入组件的可嵌入项编辑对话框](/help/assets/embed-embeddable.png)
+![嵌入组件的可嵌入内容的“编辑”对话框](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->必须通过[设计对话框](#design-dialog)在模板级别启用可嵌入项，才能供页面作者使用。
+>可嵌入内容必须通过[“设计”对话框](#design-dialog)在模板级别启用，然后才可供内容作者使用。
 
 ### HTML {#html}
 
-您可以使用嵌入组件将自由格式的HTML添加到页面中。
+您可以使用嵌入组件将自由格式的 HTML 添加到页面。
 
-![HTML的嵌入组件的编辑对话框](/help/assets/embed-html.png)
-
->[!NOTE]
->任何不安全的标记（如脚本）都将从输入的HTML中过滤，而不会在生成的页面上呈现。
-
-#### 安全 {#security}
-
-出于安全考虑，作者可以输入的HTML标记会进行筛选，以避免跨站点脚本攻击，例如允许作者获取管理权限的攻击。
-
-*通常，所有* 脚本和 `style` 元素以及所有和 `on*` 属 `style` 性都将从输出中删除。
-
-但是，这些规则更加复杂，因为嵌入组件遵循AEM全局HTML AntiSamy卫生框架筛选规则集，可在`/libs/cq/xssprotection/config.xml`中找到该规则集。 如果需要，开发人员可以覆盖此配置以进行特定于项目的配置。
-
-有关内部部署安装](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html)和[AEM as a Cloud Service安装的[AEM开发人员文档中提供了其他安全信息。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/security/home.html)
+![嵌入组件的 HTML 的“编辑”对话框](/help/assets/embed-html.png)
 
 >[!NOTE]
->尽管AntiSamy卫生框架规则可以通过覆盖`/libs/cq/xssprotection/config.xml`来配置，但这些更改会影响所有HTL和JSP行为，而不仅影响嵌入核心组件。
+>任何不安全的标记（例如脚本）将从输入的 HTML 中筛选掉，不在生成的页面上渲染。
+
+#### 安全性 {#security}
+
+出于安全目的，作者可以输入的 HTML 标记将筛选掉，以避免跨站点脚本攻击，例如，此类攻击可允许作者获取管理权限。
+
+*一般来说，*&#x200B;所有脚本和 `style` 元素以及 `on*` 和 `style` 属性，都将从输出中删除。
+
+但是，规则更复杂，因为嵌入组件遵循 AEM 的全局 HTML AntiSamy 净化框架筛选规则集，此规则集可在 `/libs/cq/xssprotection/config.xml` 中找到。如果需要，这可以由开发人员覆盖以提供项目特定的配置。
+
+其他安全信息可在[适用于内部部署安装的 AEM 开发人员文档](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html)以及 [AEM as a Cloud Service 安装](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)中找到。
+
+>[!NOTE]
+>虽然 AntiSamy 净化框架规则可以通过覆盖 `/libs/cq/xssprotection/config.xml` 来配置，但这些更改会影响到所有 HTL 和 JSP 行为，而不只是嵌入核心组件。
 
 ## “设计”对话框 {#design-dialog}
 
-设计对话框允许模板作者定义内容作者可用的选项，这些选项使用嵌入组件，并在放置嵌入组件时设置默认值。
+使用“设计”对话框，模板作者可以定义哪些选项可供使用嵌入组件的内容作者使用，以及在放置嵌入组件时的默认设置。
 
-### “可嵌入类型”选项卡 {#embeddable-types-tab}
+### “可嵌入内容类型”选项卡 {#embeddable-types-tab}
 
-![“嵌入组件”的设计对话框](/help/assets/embed-design.png)
+![嵌入组件的“设计”对话框](/help/assets/embed-design.png)
 
-* **禁用URL**  — 选择后， **** 将禁用内容作者的URL选项
-* **禁用可嵌入**  — 选择内 **** 容作者的Embeddable选项后，无论允许哪些可嵌入处理器。
-* **禁用HTML**  — 选择后， **** 将禁用内容作者的HTML选项。
-* **允许的可嵌入项**  — 多选项，用于定义哪些可嵌入的处理器可供内容作者使用，前提是 **** Embeddableoption处于活动状态。
+* **禁用 URL** - 在选中时，对内容作者禁用 **URL** 选项
+* **禁用可嵌入内容** - 在选中时，对内容作者禁用&#x200B;**可嵌入内容**&#x200B;选项，而无论允许了什么可嵌入内容处理程序。
+* **禁用 HTML** - 在选中时，对内容作者禁用 **HTML** 选项。
+* **允许可嵌入内容** - 多项选择，定义哪些可嵌入内容处理程序可供内容作者使用，前提是激活了&#x200B;**可嵌入内容**&#x200B;选项。
 
-### YouTube选项卡 {#youtube-tab}
+### “YouTube”选项卡 {#youtube-tab}
 
-![嵌入组件设计对话框的YouTube选项卡](/help/assets/embed-design-youtube.png)
+![嵌入组件的“设计”对话框的“YouTube”选项卡](/help/assets/embed-design-youtube.png)
 
-* **允许配置静音行为**  — 允许内容作者在选择YouTube嵌 **入** 类型后在组件中配置启用静音选项
-   * **默认值为mute**  — 选择YouTube嵌 **入类** 型后，自动设置“启用静音”选项
-* **允许配置自动播放行为**  — 允许内容作者在选择YouTube嵌 **入** 类型后在组件中配置启用自动播放选项
-   * **自动播放的默认值**  — 在选择YouTube嵌 **入类** 型后自动设置启用自动播放选项
-* **允许配置循环行为**  — 允许内容作者在选择YouTube嵌 **入** 类型后在组件中配置启用加载项
-   * **默认值为loop**  — 在选择YouTube嵌 **入** 类型后自动设置启用加载项
-* **允许配置内联播放(iOS)**  — 允许内容作者在选择YouTube嵌 **入类型时在组件中配置启用内联播放(iOS)** 选项
-   * **内联播放(iOS)的默认值**  — 在选择YouTube嵌 **入类型时自动设置“启用内联播放(iOS)”** 选项
-* **允许配置内联视频**  — 允许内容作者在选择YouTube嵌 **入类** 型后，在组件中配置“不受限制的相关视频”选项
-   * **非限制相关视频的默认值**  — 在选择YouTube嵌 **入类型时** 自动设置非限制相关视频选项
+* **允许静音行为配置** - 允许内容作者在选择了 YouTube 嵌入类型时，在组件中配置&#x200B;**启用静音**&#x200B;选项
+   * **默认静音值** - 在选择了 YouTube 嵌入类型时，自动设置&#x200B;**启用静音**&#x200B;选项
+* **允许自动播放行为配置** - 允许内容作者在选择了 YouTube 嵌入类型时，在组件中配置&#x200B;**启用自动播放**&#x200B;选项
+   * **默认自动播放值** - 在选择了 YouTube 嵌入类型时，自动设置&#x200B;**启用自动播放**&#x200B;选项
+* **允许循环行为配置** - 允许内容作者在选择了 YouTube 嵌入类型时，在组件中配置&#x200B;**启用循环**&#x200B;选项
+   * **默认循环值** - 在选择了 YouTube 嵌入类型时，自动设置&#x200B;**启用循环**&#x200B;选项
+* **允许内联播放 (iOS) 配置** - 允许内容作者在选择了 YouTube 嵌入类型时，在组件中配置&#x200B;**启用内联播放 (iOS)** 选项
+   * **默认内联播放 (iOS) 值** - 在选择了 YouTube 嵌入类型时，自动设置&#x200B;**启用内联播放 (iOS)** 选项
+* **允许内联视频配置** - 允许内容作者在选择了 YouTube 嵌入类型时，在组件中配置&#x200B;**不受限相关视频**&#x200B;选项
+   * **默认不受限相关视频值** - 在选择了 YouTube 嵌入类型时，自动设置&#x200B;**不受限相关视频**&#x200B;选项
