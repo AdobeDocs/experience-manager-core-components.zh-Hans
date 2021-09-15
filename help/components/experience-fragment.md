@@ -1,44 +1,44 @@
 ---
 title: 体验片段组件
-description: 体验片段组件允许内容作者向页面添加体验片段变量。
+description: 使用体验片段组件，内容作者可以向页面添加体验片段变体。
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # 体验片段组件{#experience-fragment-component}
 
-核心组件体验片段组件允许内容作者在支持本地化网站结构的同时，将体验片段变量放置到页面上。
+使用核心组件体验片段组件，内容作者可以在支持本地化网站结构时，在页面上放置体验片段变体。
 
-## 使用 {#usage}
+## 用途 {#usage}
 
-核心组件体验片段组件允许内容作者从现有体验片段变量中进行选择，然后将一个体验片段变量放置到内容页面上。 体验片段组件还支持本地化的站点结构。
+使用核心组件体验片段组件，内容作者可以从现有体验片段变体中选择并将其放在内容页面上。体验片段组件还支持本地化的网站结构。
 
-* 可以在[配置对话框](#configure-dialog)中定义组件的属性。
-* 将组件添加到页面时的默认值，可在[设计对话框](#design-dialog)中定义。
+* 组件的属性可在[“配置”对话框](#configure-dialog)中定义。
+* 将组件添加到页面时的组件默认值可以在[“设计”对话框](#design-dialog)中定义。
 
-## 本地化的站点结构支持 {#localized-site-structure}
+## 本地化网站结构支持 {#localized-site-structure}
 
-体验片段组件自适应于本地化的站点结构，并根据页面的本地化呈现适当的体验片段。 要实现此目的，体验片段必须满足以下条件。
+体验片段组件可以适应本地化的网站结构，并根据页面的本地化渲染正确的体验片段。为此，体验片段必须满足以下条件。
 
-* 体验片段组件即会添加到模板。
-* 该模板用于创建新内容页面，该页面是`/content/<site>`下本地化结构的一部分。
-* 内容页面上引用的体验片段是`/content/experience-fragments`下本地化体验片段结构的一部分，该结构遵循与`/content/<site>`下站点相同的模式，包括使用相同的组件名称。
+* 模板中添加了体验片段组件。
+* 该模板用于创建新的内容页面，这些页面是 `/content/<site>` 以下的本地化结构的一部分。
+* 在内容页面上引用的体验片段属于 `/content/experience-fragments` 以下的本地化体验结构的一部分，遵循与 `/content/<site>` 以下的网站相同的模式，包括使用相同的组件名称。
 
-在这种情况下，与当前页面具有相同本地化（语言、Blueprint或Live Copy）的片段将作为模板的一部分呈现。
+在本例中，与当前页面具有相同本地化（语言、Blueprint 或实时副本）的片段将作为模板的一部分渲染。
 
-此行为仅限于添加到模板的体验片段组件。 添加到单个内容页面的体验片段组件将呈现组件中配置的确切体验片段演绎版。
+此行为仅限添加到模板的体验片段组件。添加到单独内容页面的体验片段组件将渲染在页面中配置的准确体验片段再现。
 
-* 有关体验片段组件的本地化功能如何工作的示例，请参阅[以下部分](#example)。
-* 有关核心组件的本地化功能如何协同工作的示例，请参阅核心组件页面](/help/get-started/localization.md)的[本地化功能。
+* 有关体验片段组件本地化功能的工作方式示例，请参阅[以下部分](#example)。
+* 有关核心组件的本地化功能如何配合使用的示例，请参阅[核心组件页面的本地化功能](/help/get-started/localization.md)。
 
 ### 示例 {#example}
 
-假设您的内容如下所示：
+假设您的内容与以下内容类似：
 
 ```
 /content
@@ -75,63 +75,63 @@ ht-degree: 1%
 \-- wknd-shop
 ```
 
-请注意，下面的`/content/experience-fragments/wknd`结构反映`/content/wknd`的结构。
+请注意，`/content/experience-fragments/wknd` 以下的结构镜像了 `/content/wknd` 的结构。
 
-在这种情况下，如果体验片段组件`/content/experience-fragments/wknd/us/en/footerTextXf`放置在模板上，则基于该模板创建的本地化页面将自动呈现与本地化内容页面对应的本地化体验片段。
+在本例中，如果体验片段组件 `/content/experience-fragments/wknd/us/en/footerTextXf` 放在模板上，则根据该模板创建的本地化页面将自动渲染与本地化内容页面对应的本地化体验片段。
 
-因此，如果您导航到使用相同模板的`/content/wknd/ch/de`下的内容页面，将呈现`/content/experience-fragments/wknd/ch/de/footerTextXf`，而不是`/content/experience-fragments/wknd/us/en/footerTextXf`。
+因此，如果您要导航到 `/content/wknd/ch/de` 下使用同一模板的内容页面，则将渲染 `/content/experience-fragments/wknd/ch/de/footerTextXf` 而不是 `/content/experience-fragments/wknd/us/en/footerTextXf`。
 
 ### 回退 {#fallback}
 
-体验片段组件将尝试按以下顺序查找相应的本地化组件。
+体验片段组件将尝试按照以下顺序查找对应的本地化组件。
 
-1. 首先，它会尝试找到语言根。
-1. 如果未找到，则会尝试查找蓝图。
-1. 如果未找到，则会尝试查找Live Copy。
-1. 如果未找到，则默认使用组件中配置的体验片段。
+1. 首先尝试查找语言根。
+1. 如果未找到，则尝试查找 Blueprint。
+1. 如果未找到，则尝试查找实时副本。
+1. 如果未找到，则它会默认为在组件中配置的体验片段。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-体验片段组件的当前版本为v1，该版本在2019年9月随核心组件2.6.0版引入，在本文档中进行了描述。
+体验片段组件的当前版本是 v1，此版本随 2019 年 9 月的核心组件发行版本 2.6.0 的发布引入，具体说明见本文。
 
-下表详细列出了组件的所有受支持版本、组件版本与之兼容的AEM版本，以及指向以前版本文档的链接。
+下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
 | v1 | 兼容 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例 {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-要体验体验片段组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_xf)。
+要对体验片段组件进行体验并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_xf_cn)。
 
 ## 技术详细信息 {#technical-details}
 
-有关体验片段组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1)上找到。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_xf_v1_cn)有关体验片段组件的最新技术文档。
 
-有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
-## 配置对话框 {#configure-dialog}
+## “配置”对话框 {#configure-dialog}
 
-配置对话框允许内容作者选择应在页面上呈现的体验片段变量。
+利用“配置”对话框，内容作者可以选择应在页面上渲染的体验片段变体。
 
-![体验片段组件的编辑对话框](/help/assets/experience-fragment-edit.png)
+![体验片段组件的“编辑”对话框](/help/assets/experience-fragment-edit.png)
 
-使用&#x200B;**打开选择对话框**&#x200B;按钮打开组件选择器，以选择要添加到内容页面的体验片段组件变量。
+使用&#x200B;**打开选择对话框**&#x200B;按钮可打开组件选择器，来选择要添加到内容页面中的体验片段组件变体。
 
-如果您将体验片段组件添加到模板，请注意，如果体验片段已本地化，则它将自动本地化，因此页面上呈现的内容可能与您明确选择的组件有所不同。 [有关更多信](#example) 息，请参阅上面的示例。
+如果您将体验片段组件添加到模板，请注意，如果体验片段已本地化，则它会自动本地化，因此根据您明确选择的组件，页面上渲染的内容会变化。有关更多信息，[请参阅以上示例](#example)。
 
-您还可以定义&#x200B;**ID**。 此选项允许控制HTML和[数据层](/help/developing/data-layer/overview.md)中组件的唯一标识符。
+您还可以定义 **ID**。利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
 
-* 如果留为空白，则会自动为您生成唯一ID，并且可以通过检查生成的页面找到该ID。
-* 如果指定了ID，则作者有责任确保该ID是唯一的。
-* 更改ID可能会影响CSS、JS和数据层跟踪。
+* 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
+* 如果指定一个 ID，作者有责任确保它是唯一的。
+* 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 
-设计对话框允许模板作者定义可供内容作者使用的选项，这些选项在放置体验片段组件时使用体验片段组件和设置的默认值。
+使用“设计”对话框，模板作者可以定义哪些选项可供使用体验片段组件的内容作者使用，以及在放置体验片段组件时的默认设置。
 
 ### “样式”选项卡 {#styles-tab}
 
-体验片段组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+体验片段组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
