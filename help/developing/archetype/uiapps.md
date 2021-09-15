@@ -1,36 +1,36 @@
 ---
-title: AEM项目原型的ui.apps模块
-description: AEM项目原型的ui.apps模块
-feature: 核心组件、 AEM项目原型
+title: AEM 项目原型的 ui.apps 模块
+description: AEM 项目原型的 ui.apps 模块
+feature: 核心组件，AEM 项目原型
 role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# AEM项目原型的ui.apps模块 {#uiapps-module}
+# AEM 项目原型的 ui.apps 模块 {#uiapps-module}
 
-ui.apps maven模块(`<src-directory>/<project>/ui.apps`)包含`/apps`下站点所需的所有渲染代码。 这包括将以名为[clientlibs的AEM格式存储的CSS/JS。](uifrontend.md#clientlibs) 这还包括用于渲染动态HTML的HTL脚本。您可以将ui.apps模块视为JCR中结构的映射，但其格式可以存储在文件系统中并提交到源代码控制。
+ui.apps maven 模块 (`<src-directory>/<project>/ui.apps`) 包含 `/apps` 下方的站点所需的所有渲染代码。这包括将以名为 [clientlibs 的 AEM 格式存储的 CSS/JS。](uifrontend.md#clientlibs) 这还包括用于渲染动态 HTML 的 HTL 脚本。您可以将 ui.apps 模块视为采用 JCR 的结构的映射，但可通过某种格式存储在文件系统上并提交给源代码控制。
 
-Apache Jackrabbit FileVault包插件用于将ui.apps模块的内容编译到可部署到AEM的AEM包中。 插件的全局配置在父pom.xml中定义。
+Apache Jackrabbit FileVault 包插件用于将 ui.apps 模块的内容编译为可部署到 AEM 的 AEM 包。在父 pom.xml 中定义插件的全局配置。
 
-## 父POM {#parent-pom}
+## 父级 POM {#parent-pom}
 
-[父POM](/help/developing/archetype/using.md#parent-pom) (`<src>/<project>/pom.xml`)包括为 `<plugin>` 项目中使用的插件定义各种配置的部分。这包括Jackrabbit FileVault包插件的`filterSource`配置。 `filterSource`指向`filter.xml`文件的位置，该文件用于定义包中包含的jcr路径。
+[父级 POM](/help/developing/archetype/using.md#parent-pom) (`<src>/<project>/pom.xml`) 包含 `<plugin>` 部分，其中定义了项目中使用的插件的各种配置。这包括 Jackrabbit FileVault 包插件的 `filterSource` 的配置。`filterSource` 指向 `filter.xml` 文件的位置，该文件用于定义包中包含的 jcr 路径。
 
-除了Jackrabbit FileVault包插件之外，还是内容包插件的定义，用于随后将包推送到AEM。 请注意，使用的变量包括`aem.host`、`aem.port`、`vault.user`和`vault.password`，这些变量与同一父POM中定义的全局属性相对应。
+除了 Jackrabbit FileVault 包插件之外，还定义了内容包插件，此插件用于将包推送到 AEM。请注意，使用的 `aem.host`、`aem.port`、`vault.user` 和 `vault.password` 的变量对应于同一父级 POM 中定义的全局属性。
 
 ## ui.apps/pom.xml {#uiapps-pom}
 
-ui.apps pom(`<src>/<project>/ui.apps/pom.xml`)为`filevault-package-maven-plugin`提供`embedded`标记。 `embedded`标记包含编译的核心包，该核心包将作为ui.apps包的一部分，并且将在其中安装。
+ui.apps pom (`<src>/<project>/ui.apps/pom.xml`) 提供 `filevault-package-maven-plugin` 的 `embedded` 标记。`embedded` 标记包括作为 ui.apps 包的一部分的编译的核心捆绑包及其安装位置。
 
-请注意，core.wcm.components.all和core.wcm.components.examples包作为子包包含在内。 这样每次都会部署核心组件包和WKND代码。
+请注意，core.wcm.components.all 和 core.wcm.components.examples 包作为子包包含在内。这将每次部署核心组件包和 WKND 代码。
 
-core.wcm.components.all和core.wcm.components.examples作为依赖项列表中的依赖项包含在内。 但是，作为最佳实践，此处忽略了依赖项的版本，并在[父pom文件](/help/developing/archetype/using.md#core-components)中进行管理。
+core.wcm.components.all 和 core.wcm.components.examples 作为依赖项包含在依赖项列表中。但作为最佳实践，依赖项的版本在此处被忽略并在[父级 pom 文件](/help/developing/archetype/using.md#core-components)中进行管理。
 
 ## filter.xml {#filter}
 
-ui.apps模块的`filter.xml`文件位于`<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml`，其中包含将随ui.apps包一起包含和安装的路径。
+ui.apps 模块的 `filter.xml` 文件位于 `<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml`，并包含将随 ui.apps 包一起包含和安装的路径。
