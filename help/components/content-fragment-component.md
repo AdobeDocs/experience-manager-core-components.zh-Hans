@@ -1,36 +1,36 @@
 ---
 title: 内容片段组件
-description: 核心组件内容片段组件允许显示内容片段。
+description: 利用核心组件内容片段组件，可以显示内容片段。
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # 内容片段组件{#content-fragment-component}
 
-核心组件内容片段组件允许显示[内容片段](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+利用核心组件内容片段组件，可以显示[内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
->在核心组件2.4.0版之前，内容片段组件可用作核心组件的扩展，并且必须单独下载并明确启用。
+>在版本 2.4.0 的核心组件之前，内容片段组件作为核心组件的扩展提供，并且必须单独下载并明确启用。
 
-## 使用 {#usage}
+## 用途 {#usage}
 
-核心组件内容片段组件允许在页面上包含[内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+利用核心组件内容片段组件，可以包含页面上的[内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
-* 可在[配置对话框](#configure-dialog)中选择片段及其属性。
-* 可在[设计对话框](#design-dialog)中定义用于处理某些图像和网格的资源类型。
+* 可在[“配置”对话框](#configure-dialog)中选择片段及其属性。
+* 可在[“设计”对话框](#design-dialog)中定义用于处理特定图像的资源类型。
 * 编辑选项将在[内容片段编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中打开选定的片段。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-内容片段组件的当前版本为v1，该版本于2017年10月随核心组件1.1.0版引入，在本文档中进行了描述。
+内容片段组件的当前版本是 v1，此版本随 2017 年 10 月的核心组件 1.1.0 版的发布引入，具体说明见本文。
 
-下表详细列出了组件的所有受支持版本、组件版本与之兼容的AEM版本，以及指向以前版本文档的链接。
+下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
@@ -38,31 +38,31 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->在版本2.4.0之前，内容片段组件位于扩展文件夹中。
+>在版本 2.4.0 之前，内容片段组件位于 extensions 文件夹中。
 >
 > `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
 > 
->从2.4.0开始，已将其移至以下位置。
+>从版本 2.4.0 开始，该组件已移至以下位置。
 >
 >`apps/core/wcm/components/contentfragment/v1/contentfragment`
 >
->尽管两者都是v1，但是从扩展文件夹中使用的任何内容片段组件在升级到核心组件版本2.4.0或更高版本时，都需要迁移其相关的代理组件才能使用新的资源类型。
+>虽然两者都是 v1，但在升级到版本 2.4.0 或更高版本的核心组件时，从 extensions 文件夹中使用的任何内容片段组件都需要迁移其相关代理组件才能使用新的资源类型。
 
-有关核心组件版本和版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
-## 组件输出示例 {#sample-component-output}
+## 示例组件输出 {#sample-component-output}
 
-要体验内容片段组件并查看其配置选项以及HTML和JSON输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_cf)。
+要体验内容片段组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_cf_cn)。
 
 ## 技术详细信息 {#technical-details}
 
-有关内容片段组件[的最新技术文档可在GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1)上找到。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_cf_v1_cn)有关内容片段组件的最新技术文档。
 
-有关开发核心组件的更多详细信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
-## 配置对话框 {#configure-dialog}
+## “配置”对话框 {#configure-dialog}
 
-配置对话框允许内容作者定义要包含的内容片段和该片段的元素。
+利用“配置”对话框，内容作者可以定义要包含的内容片段及其元素。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -71,45 +71,45 @@ ht-degree: 5%
 * **内容片段**
 
    * 所需内容片段的路径
-   * **选择对话框**&#x200B;可用于查找片段
+   * **“选择”对话框**&#x200B;可用于定位片段
 
 * **显示模式**
-   * **单个文本元素**  — 启用一个多行文本元素的选择，并启用段落控制选项
-   * **多个元素**  — 允许选择选定内容片段的一个或多个元素
-* **元素**  — 要包含的内容片段的元素
-* **变量**  — 要使用的内容片段的哪个变体(默认为 **主控**)
+   * **单个文本元素** - 允许选择一个多行文本元素并启用段落控制选项
+   * **多个元素** - 允许选择选定的内容片段的一个或多个元素
+* **元素** - 要包含的内容片段的一个或多个元素
+* **变体** - 要使用的内容片段的变体（默认为 **Master**）
 
 * **段落**
 
-   * **全部**  — 显示所有段落
+   * **全部** - 显示所有段落
    * **范围**
 
-      * 指定应显示的段落范围（以分号分隔）
-      * 例如，`1;3-5;7;9-*`包括1、3至5、7和9至最后段落
-* **ID**  — 利用此选项，可控制HTML和数据层中组件的唯一标识符 [的唯一标识符](/help/developing/data-layer/overview.md)。
-   * 如果留为空白，则会自动为您生成唯一ID，并且可以通过检查生成的页面找到该ID。
-   * 如果指定了ID，则作者有责任确保该ID是唯一的。
-   * 更改ID可能会影响CSS、JS和数据层跟踪。
+      * 指定应显示的段落的范围（用分号分隔）
+      * 例如，如果为 `1;3-5;7;9-*`，则包含第一段、第三段到第五段、第七段、第九段到最后一段
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
+   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
+   * 如果指定一个 ID，作者有责任确保它是唯一的。
+   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
-### 段落控制选项卡 {#paragraph-control-tab}
+### “段落控制”选项卡 {#paragraph-control-tab}
 
-当选择&#x200B;**多个元素**&#x200B;模式时，此选项卡不可用。
+在选择&#x200B;**多个元素**&#x200B;模式时，此选项卡不可用。
 
 ![内容片段组件](/help/assets/content-fragment-edit-paragraph.png)
 
-* **段落**  — 允许选择所有段落或范围
+* **段落** - 允许选择所有段落或一个范围
 * **将标题处理为它们自己的段落**
 
 ## “设计”对话框 {#design-dialog}
 
-设计对话框允许模板作者定义用于处理混合媒体图像和响应式网格的资源类型。
+利用“设计”对话框，模板作者可以定义用于处理混合媒体图像和响应式网格的资源类型。
 
-![内容片段组件的设计对话框](/help/assets/content-fragment-design.png)
+![内容片段组件“设计”对话框](/help/assets/content-fragment-design.png)
 
 * **内部响应式网格**
 
-   * 用于内部响应式网格的Sling资源类型
+   * 用于内部响应式网格的 Sling 资源类型
 
-## Adobe客户端数据层 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
-内容片段组件支持[Adobe客户端数据层。](/help/developing/data-layer/overview.md)
+内容片段组件支持 [Adobe Client Data Layer](/help/developing/data-layer/overview.md)。
