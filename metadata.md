@@ -1,30 +1,29 @@
 ---
 product: adobe experience manager
-solution: Experience Manager Sites
+solution: Experience Manager, Experience Manager Sites
 type: Documentation
 description: Adobe Experience Manager核心组件文档
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.zh-Hans
 index: y
-translation-type: tm+mt
-source-git-commit: 290423c39b925ea8cf4077f31a76ecf01167f344
+source-git-commit: 3897e37ed1e24c4a045b7f6cc716b5cabdd7cf9f
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 6%
+source-wordcount: '112'
+ht-degree: 89%
 
 ---
 
 
 # 内部使用的元数据
 
-GitHub创作系统中的元数据是分层的，定义为以下不断增加的先例级别。
+GitHub 创作系统中的元数据为层级式的，并定义了以下相对于前一项的递增级别。
 
 1. metadata.md
 1. ToC
 1. 文章
 
-metadata.md文件中定义的元数据适用于整个回购，但可以在ToC和文章级别覆盖。 对元数据的任何覆盖都应在尽可能低的级别执行。
+在 metadata.md 文件中的定义的元数据应用到整个存储库，但可以在 ToC 和文章级别覆盖。任何覆盖元数据的操作应在尽可能最低的级别进行。
 
-experience-manager-core-components.en repo中的元数据是最低要求。
+experience-manager-core-components.en 存储库中的元数据是最低要求。
 
 metadata.md
 
@@ -38,7 +37,7 @@ metadata.md
 * `tutorials-title`
 * `tutorials-url`
 
-ToCs
+ToC
 
 * `sub-product`
 * `user-guide-title`
@@ -47,6 +46,6 @@ ToCs
 
 * `title`
 * `description`
-* `index: n` （仅适用于早期版本的组件）
+* `index: n`（仅适用于组件的以前版本）
 
-有关元数据的其他信息，请参阅[内部创作指南。](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
+有关元数据的其他信息可在[内部创作指南](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)中找到。
