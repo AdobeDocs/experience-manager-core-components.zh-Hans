@@ -1,13 +1,13 @@
 ---
 title: 使用 AEM 项目原型
 description: AEM 项目原型的详细使用说明
-feature: 核心组件，AEM 项目原型
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2147'
-ht-degree: 100%
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+workflow-type: tm+mt
+source-wordcount: '2209'
+ht-degree: 96%
 
 ---
 
@@ -117,6 +117,7 @@ OOTB。
 | `amp` | `n` | 为生成的项目模板启用 [AMP](/help/developing/amp.md) 支持。 |
 | `enableDynamicMedia` | `n` | 在项目策略设置中启用基础 DynamicMedia 组件，并在核心图像组件的策略中激活 Dynamic Media 功能。 |
 | `enableSSR` | `n` | 用于为前端项目启用 SSR 的选项 |
+| `precompiledScripts` | `n` | 用于[预编译](/help/developing/archetype/precompiled-bundled-scripts.md)来自`ui.apps`的服务器端脚本的选项，并将它们作为`ui.apps`项目中的辅助包对象附加到内部版本。 `aemVersion` 应设置为 `cloud`。 |
 
 >[!NOTE]
 >
@@ -138,6 +139,7 @@ OOTB。
 | `autoInstallSinglePackage` | 通过包管理器将带 content-package-maven-plugin 的 `all` 内容包安装到本地主机上的默认创作实例（端口 4502）。可使用 `aem.host` 和 `aem.port` 用户定义的属性更改主机名和端口。 |
 | `autoInstallSinglePackagePublish` | 通过包管理器将带 content-package-maven-plugin 的 `all` 内容包安装到本地主机上的默认发布实例（端口 4503）。可使用 `aem.host` 和 `aem.port` 用户定义的属性更改主机名和端口。 |
 | `integrationTests` | 在 AEM 实例上运行提供的集成测试（仅针对 `verify` 阶段） |
+| `precompiledScripts` | 在生成项目时自动定义，`precompiledScripts`属性设置为`y`。 默认情况下，该配置文件处于活动状态，并在`ui.apps`内生成一个OSGi包，其中包含预编译的脚本，该脚本将包含在`all`内容包中。 可以使用`-DskipScriptPrecompilation=true`禁用配置文件。 |
 
 ### 构建和安装 {#building-and-installing}
 

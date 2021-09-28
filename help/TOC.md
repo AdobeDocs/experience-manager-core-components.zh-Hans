@@ -1,13 +1,13 @@
 ---
-sub-product: AEM 核心组件
+sub-product: AEM Core Components
 user-guide-title: AEM 核心组件
 breadcrumb-title: Core Components 指南
 user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
-workflow-type: ht
+source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
+workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [使用原型](developing/archetype/using.md)
       + [核心模块](developing/archetype/core.md)
       + [ui.apps 模块](developing/archetype/uiapps.md)
+      + [预编译捆绑脚本](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content 模块](developing/archetype/uicontent.md)
       + [ui.frontend.general 模块](developing/archetype/uifrontend.md)
       + [ui.frontend.react 模块](developing/archetype/uifrontend-react.md)
