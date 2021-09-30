@@ -1,12 +1,12 @@
 ---
 title: 核心组件简介
-description: '核心组件基于最新技术和最佳实践提供强大且可扩展的基本组件。 '
+description: '核心组件提供基于最新技术和最佳实践构建的强大且可扩展的基本组件 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: 19a7057d0a37d8222dcb2441bba1e479d786fb10
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 24%
+source-wordcount: '937'
+ht-degree: 98%
 
 ---
 
@@ -14,38 +14,38 @@ ht-degree: 24%
 
 在 Adobe Experience Manager 中，组件是结构化元素，用于构成所创作的页面内容。组件一直是 AEM 体验的一个基本元素，它使页面的创建过程变得简便但功能强大，使开发人员对组件的开发变得灵活且可扩展。
 
-核心组件是一套适用于AEM的标准化Web内容管理(WCM)组件，可加快开发时间并降低网站维护成本。
+核心组件是一组用于 AEM 的标准化网站内容管理 (WCM) 组件，可加快开发速度并降低网站的维护成本。
 
 ## 资源 {#resources}
 
-* **[组件库：](https://www.adobe.com/go/aem_cmp_library)** 用于查看其各种配置中的组件的一组示例。
-* **组件文档（本文档）：** 对于开发人员和作者，包含有关每个组件的详细信息。
-* **[核心组件GitHub存储库：](https://github.com/adobe/aem-core-wcm-components)** 有关每个组件和项目下载的开发人员详细信息。
-* 开始使用:
-   * **[核心组件成功：](/help/developing/success.md)** 在开始任何使用核心组件的项目之前，请务必考虑相关准则。
-   * **[WKND教程：](https://docs.adobe.com/content/help/zh-Hans/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** 有关构建新站点的为期两天的教程。
-   * **[峰会教程：](https://expleague.azureedge.net/labs/L767/index.html)** 一个两小时的教程，用于构建新站点（来自2019年美国峰会的实验室）。
-   * **[Gems网络研讨会：](https://helpx.adobe.com/cn/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** 核心组件的指导性浏览（2018年12月录制）。
+* **[组件库：](https://www.adobe.com/go/aem_cmp_library_cn)**&#x200B;一组用于查看组件的各种配置的示例。
+* **组件文档（此文档）：**&#x200B;对于开发人员和作者，包含有关每个组件的详细信息。
+* **[核心组件 GitHub 存储库：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;对于开发人员，包含每个组件和项目下载的详细信息。
+* 开始使用：
+   * **[使用核心组件获得成功：](/help/developing/success.md)**&#x200B;在任何将使用核心组件的项目开始之前要考虑的指南。
+   * **[WKND 教程：](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**&#x200B;有关构建新站点的两日教程。
+   * **[Summit 教程：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;有关构建新站点的两小时教程（来自 US Summit 2019 的实验室）。
+   * **[Gems 网络研讨会：](https://helpx.adobe.com/cn/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;核心组件导览（于 2018 年 12 月录制）。
 
 ## 功能 {#features}
 
 |  |  |
 |---|---|
-| 可以即刻投入使用 | 核心组件是28个强大的组件，经过良好测试、广泛使用，并且性能良好。 |
-| 云就绪 | 无论在[AEM as aCloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、在[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)上还是在内部部署版上，它们都只能正常工作。 |
-| 可以通用 | 这些组件表示作者几乎可以装配任何布局的通用概念。 |
-| 可配置 | 模板级别[内容策略](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies)定义页面作者可以使用或不使用的功能。 |
-| 可跟踪 | [Adobe客户端数据层集成](/help/developing/data-layer/overview.md)允许跟踪访客体验的所有方面。 |
+| 可以即刻投入使用 | 核心组件是 28 个经过充分测试、广泛使用且性能出色的强大组件。 |
+| 云就绪 | 无论是在 [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 上还是内部部署，这些组件都能运行。 |
+| 可以通用 | 这些组件代表了作者可用来设计几乎任何布局的通用概念。 |
+| 可配置 | 模板级[内存策略](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies)定义页面作者可以使用或无法使用的功能。 |
+| 可跟踪 | [Adobe Client Data Layer 集成](/help/developing/data-layer/overview.md)允许全方位跟踪访客体验。 |
 | 可访问 | 它们符合[WCAG 2.1标准](https://www.w3.org/TR/WCAG21/)，提供ARIA标签，并支持键盘导航（[已知问题](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)）。 |
-| SEO友好 | HTML输出是语义的，并提供[schema.org](https://schema.org)微数据批注。 |
-| WebApp-Ready | [简化的JSON输出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)允许客户端渲染，但仍可能进行[上下文内编辑](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
-| AMP支持 | 这些组件内置了[对AMP标准的支持，](/help/developing/amp.md)可加速您的移动体验。 |
-| 设计工具包 | 适用于Adobe XD的[UI套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)允许设计人员创建线框，然后他们可以根据需要[样式](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)。 |
-| 表 | 这些组件实施[样式系统](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html)，且标记遵循[BEM CSS约定](http://getbem.com/)。 |
-| 可自定义 | 通过使用多种模式，[可轻松自定义](developing/customizing.md)，从调整HTML到重新使用高级功能。 |
-| 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可确保在改进可能影响您的内容时，核心组件不会破坏您的网站。 |
-| 可本地化 | 智能引用解析允许某些组件自动查找和[渲染相应的本地化内容](get-started/localization.md)。 |
-| 开源 | 如果某些内容不如预期，[将提供改进！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| SEO 友好 | HTML 输出是语义的，并提供 [schema.org](https://schema.org) 微数据注释。 |
+| WebApp 就绪 | [简化的 JSON 输出](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)允许客户端渲染，并且仍可进行[上下文内编辑](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
+| AMP 支持 | 组件已内置[对 AMP 标准的支持，](/help/developing/amp.md)可加快移动体验。 |
+| 设计套件 | 利用 [Adobe XD UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，设计人员可以创建随后可[按需样式化](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)的线框。 |
+| 可主题化 | 这些组件实施[样式系统](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/style-system.html)，且标记遵循 [BEM CSS 约定](http://getbem.com/)。 |
+| 可自定义 | 可利用几种模式来[轻松进行自定义设置](developing/customizing.md)（从调整 HTML 到高级功能重用）。 |
+| 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可确保核心组件在改进可能影响您的内容时不会中断您的网站。 |
+| 可本地化 | 智能引用解析允许特定组件自动查找和[自动渲染对应的本地化内容](get-started/localization.md)。 |
+| 开源 | 如果有出错的地方，请[做出您的改进！](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
 ## 组件 {#the-components}
 
@@ -53,7 +53,7 @@ ht-degree: 24%
 
 ### 模板组件 {#template-components}
 
-* [Page](components/page.md)
+* [页面](components/page.md)
 * [导航](components/navigation.md)
 * [语言导航](components/language-navigation.md)
 * [痕迹导航](components/breadcrumb.md)
@@ -80,7 +80,7 @@ ht-degree: 24%
 ### 容器组件 {#container-components}
 
 * [容器](components/container.md)
-* [轮播](components/carousel.md)
+* [轮盘](components/carousel.md)
 * [选项卡](components/tabs.md)
 * [折叠](components/accordion.md)
 
@@ -89,12 +89,12 @@ ht-degree: 24%
 * [表单容器](components/forms/form-container.md)
 * [表单文本](components/forms/form-text.md)
 * [表单选项](components/forms/form-options.md)
-* [隐藏的表单](components/forms/form-hidden.md)
+* [表单隐藏](components/forms/form-hidden.md)
 * [表单按钮](components/forms/form-button.md)
 
 >[!NOTE]
 >
->核心组件不可直接供作者使用，[开发团队必须先将它们集成到您的环境中](get-started/using.md)。集成后，即可通过[模板编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)使用和预配置模板。
+>核心组件不可直接供作者使用，[开发团队必须先将它们集成到您的环境中](get-started/using.md)。在集成后，可通过[模板编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)使其可用并进行预配置。
 
 >[!NOTE]
 >
@@ -104,22 +104,22 @@ ht-degree: 24%
 
 ## 系统要求 {#system-requirements}
 
-| 核心组件 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | 马文 |
+| 核心组件 | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 持续 | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 连续 | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
->(*)自版本2.11.0起，要求使用`org.apache.sling.models.impl`版本1.4.12或更高版本（由于[SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)）。 这将在将来的Service Pack中为AEM 6.4和6.5提供。 在此之前，`core.wcm.components.all`包中包含Sling模型包。
+>(*) 自版本 2.11.0 开始，需要 `org.apache.sling.models.impl` 版本 1.4.12 或更高版本（由于 [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)）。这会在将来的 Service Pack 中为 AEM 6.4 和 6.5 提供。在此之前，Sling 模型捆绑包将包含在 `core.wcm.components.all` 包中。
 
-有关以前核心组件版本的要求，请参阅[核心组件版本](versions.md)。
+有关以前的核心组件版本的要求，请参阅[核心组件版本](versions.md)。
 
-核心组件需要使用[可编辑的模板](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，并且不支持经典UI或静态模板。 如果需要，请查看[AEM现代化工具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)以使用这些现代AEM功能更新您的项目。
+核心组件要求使用[可编辑模板](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，并且不支持经典 UI 和静态模板。如果需要，请检查 [AEM 现代化工具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)以使用这些现代化 AEM 功能更新您的项目。
 
-要设置本地开发环境，请查看[此AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)概述，或查看此文档[，了解旧版AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)。
+要设置本地开发环境，请查看[此 AEM as a Cloud Service 开发工具包概述](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html)或适用于[旧版 AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) 的本文档。
 
 >[!TIP]
 >
->核心组件会自动作为Cloud Service包含在AEM中，并且您始终可以获得最新版本的核心组件。
+>核心组件自动成为 AEM as a Cloud Service 的一部分，并且您始终拥有最新版本的核心组件。
 >
->有关如何在AEMaaCS和内部部署中开始使用核心组件的更多信息，请参阅[使用核心组件](/help/get-started/using.md)文档。
+>有关如何在 AEMaaCS 中和内部部署开始使用核心组件的更多信息，请参阅[使用核心组件](/help/get-started/using.md)文档。
