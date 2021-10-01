@@ -3,10 +3,10 @@ title: Sling 上下文感知配置和核心组件
 description: 核心组件为特定功能使用 Sling 上下文感知配置
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 对于不同网站区域，您的网站可能需要不同的配置，例如，某些可能共享的参数需要集成嵌套上下文和全局回退值。AEM 利用 Sling 上下文感知配置实现了这种可能性。
 
-有关 AEM 中配置的详细信息，[请参阅配置和配置浏览器文档](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)。
+有关 AEM 中配置的详细信息，[请参阅配置和配置浏览器文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)。
 
 ## 在核心组件中使用 {#core-components}
 

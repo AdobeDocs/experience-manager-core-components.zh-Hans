@@ -3,16 +3,16 @@ title: 包含客户端库
 description: 可通过多种不同的方式来包含客户端库，具体取决于您的使用案例。
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '394'
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
 
 # 包含客户端库 {#including-client-libraries}
 
-可通过多种不同的方式来包含[客户端库](/help/developing/archetype/uifrontend.md#clientlibs)，具体取决于您的使用案例。本文档提供了多个示例以及针对每个示例的示例 [HTL 代码片段](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)。
+可通过多种不同的方式来包含[客户端库](/help/developing/archetype/uifrontend.md#clientlibs)，具体取决于您的使用案例。本文档提供了多个示例以及针对每个示例的示例 [HTL 代码片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans)。
 
 ## 推荐的默认使用 {#recommended-default-usage}
 

@@ -1,13 +1,13 @@
 ---
 title: 将 Adobe Client Data Layer 与核心组件配合使用
 description: 将 Adobe Client Data Layer 与核心组件配合使用
-feature: 核心组件，Adobe Client Data Layer
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '972'
+ht-degree: 99%
 
 ---
 
@@ -306,7 +306,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教程
 
-希望更详细地探讨 Data Layer 和核心组件？[请查看此实践教程](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
+希望更详细地探讨 Data Layer 和核心组件？[请查看此实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
 
 >[!TIP]
 >

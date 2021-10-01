@@ -3,20 +3,20 @@ title: 内容片段列表组件
 description: 利用核心组件内容片段列表组件，可显示内容片段的列表。
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 98%
 
 ---
 
 # 内容片段列表组件{#content-fragment-list-component}
 
-利用核心组件内容片段列表组件，可显示[内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的列表。
+利用核心组件内容片段列表组件，可显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的列表。
 
 ## 用途 {#usage}
 
-利用核心组件内容片段列表组件，可包含基于内容片段模型的页面上的[内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的列表。这对于创建可由其他应用程序轻松使用的[无头内容](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特别有用。
+利用核心组件内容片段列表组件，可包含基于内容片段模型的页面上的[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的列表。这对于创建可由其他应用程序轻松使用的[无头内容](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特别有用。
 
 * 可在[“配置”对话框](#configure-dialog)中选择此列表及其属性。
 * 样式可应用于[“设计”对话框](#design-dialog)中的组件。

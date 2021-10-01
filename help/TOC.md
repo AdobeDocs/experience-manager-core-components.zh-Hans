@@ -4,10 +4,10 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: Core Components 指南
 user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
+source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 + 开发 {#developing}
    + [开发核心组件](developing/overview.md)
    + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [WKND 开发人员教程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自定义核心组件](developing/customizing.md)
    + [组件准则](developing/guidelines.md)
    + [AMP 支持](developing/amp.md)

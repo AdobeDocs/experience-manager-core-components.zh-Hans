@@ -1,13 +1,13 @@
 ---
 title: AEM 项目原型前端构建
 description: 基于 AEM 的应用程序的项目模板
-feature: 核心组件，AEM 项目原型
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1625'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '1618'
+ht-degree: 99%
 
 ---
 
@@ -163,7 +163,7 @@ ui.frontend 模块构建过程利用 [aem-clientlib-generator](https://www.npmjs
 
 ### 在页面上包含客户端库 {#clientlib-inclusion}
 
-通过[页面策略配置](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions)在页面上将 `clientlib-site` 和 `clientlib-dependencies` 类别作为默认模板的一部分包含。要查看策略，请编辑&#x200B;**内容页面模板 > 页面信息 > 页面策略**。
+通过[页面策略配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions)在页面上将 `clientlib-site` 和 `clientlib-dependencies` 类别作为默认模板的一部分包含。要查看策略，请编辑&#x200B;**内容页面模板 > 页面信息 > 页面策略**。
 
 站点页面上最终的客户端库包含如下：
 

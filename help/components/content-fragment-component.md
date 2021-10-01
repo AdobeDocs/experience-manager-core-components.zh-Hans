@@ -3,16 +3,16 @@ title: 内容片段组件
 description: 利用核心组件内容片段组件，可以显示内容片段。
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '673'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
 # 内容片段组件{#content-fragment-component}
 
-利用核心组件内容片段组件，可以显示[内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+利用核心组件内容片段组件，可以显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-利用核心组件内容片段组件，可以包含页面上的[内容片段](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
+利用核心组件内容片段组件，可以包含页面上的[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 * 可在[“配置”对话框](#configure-dialog)中选择片段及其属性。
 * 可在[“设计”对话框](#design-dialog)中定义用于处理特定图像的资源类型。
-* 编辑选项将在[内容片段编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中打开选定的片段。
+* 编辑选项将在[内容片段编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中打开选定的片段。
 
 ## 版本和兼容性 {#version-and-compatibility}
 

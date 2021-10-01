@@ -3,10 +3,10 @@ title: 容器组件
 description: 使用核心组件容器组件，可在页面上为多个其他组件创建容器。
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 * **布局** - 此选项定义容器组件的行为或布局行为。
    * **简单** - 将容器定义为简单的组件集合
-   * **响应式网格** - 将容器定义为 [AEM 响应式布局](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **响应式网格** - 将容器定义为 [AEM 响应式布局](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **背景颜色** - 定义为自由格式的 RGB 值，或者使用拾色器，[具体取决于配置](#background-tab)
 * **背景图像** - 定义容器的背景颜色，[具体取决于配置](#background-tab)
 * **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
@@ -67,11 +67,11 @@ ht-degree: 100%
 
 **允许的组件**&#x200B;选项卡用于定义哪些组件可由内容作者作为项目添加到容器组件。
 
-“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)的同名选项卡的功能相同。
+“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的同名选项卡的功能相同。
 
 ### “默认组件”选项卡 {#default-components-tab}
 
-“默认组件”选项卡用于定义在特定资源类型放到容器上时，要向组件中添加哪些组件，类似于[如何在页面模板上定义默认组件](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)。
+“默认组件”选项卡用于定义在特定资源类型放到容器上时，要向组件中添加哪些组件，类似于[如何在页面模板上定义默认组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 ### “响应式设置”选项卡 {#responsive-settings-tab}
 

@@ -1,13 +1,13 @@
 ---
 title: 集成和 Adobe Client Data Layer
 description: 了解 Adobe Client Data Layer 如何与您的自定义组件集成，以及与 Adobe Analytics 和 Adobe Target 的集成如何帮助您深入了解自己的网站
-feature: 核心组件，Adobe Client Data Layer
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 96%
 
 ---
 
@@ -40,10 +40,10 @@ Adobe Client Data Layer 与 Adobe Analytics 和 Adobe Target 搭配使用，为�
 
 了解如何使用带 AEM 核心组件的 Adobe Client Data Layer 的内置功能来收集有关 Adobe Experience Manager Sites 中页面的数据。Experience Platform Launch 和 Adobe Analytics 扩展将用于创建规则以将页面数据发送到 Adobe Analytics。
 
-[在此处查看教程。](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
+[在此处查看教程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
 
 ### 使用 Adobe Analytics 跟踪单击的组件 {#track-clicked-components}
 
 使用带 AEM 核心组件的事件驱动型 Adobe Client Data Layer 跟踪 Adobe Experience Manager Site 上的特定组件的单击数。了解如何使用 Experience Platform Launch 中的规则来侦听单击事件、按组件筛选并在带跟踪链接信标的情况下将数据发送到 Adobe Analytics。
 
-[在此处查看教程。](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
+[在此处查看教程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)

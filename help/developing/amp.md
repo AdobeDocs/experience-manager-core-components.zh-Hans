@@ -3,10 +3,10 @@ title: 核心组件的 AMP 支持
 description: 核心组件支持 AMP - 移动页面加速
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ AMP 支持提供了很大的灵活性，快速开始使用 AMP 只需执行几�
 
 ### 为页面启用 AMP {#enabling-amp}
 
-要为页面启用 AMP，必须在[页面策略](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)中选择 **AMP 模式**。
+要为页面启用 AMP，必须在[页面策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)中选择 **AMP 模式**。
 
 ![AMP 页面策略选项](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ AMP 支持提供了很大的灵活性，快速开始使用 AMP 只需执行几�
 * **成对 AMP** - 以 AMP 和 HTML 形式提供页面。
 * **仅 AMP** - 仅以 AMP 形式提供页面。
 
-也可在单个页面的[页面属性](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)中覆盖页面的 AMP 设置。
+也可在单个页面的[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)中覆盖页面的 AMP 设置。
 
 ![AMP 页面属性](/help/assets/amp-page-properties.png)
 

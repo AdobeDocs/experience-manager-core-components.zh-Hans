@@ -3,10 +3,10 @@ title: 图像组件
 description: 核心组件图像组件是一个自适应图像组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2170'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '2162'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->SVG 支持需要核心组件发行版本 2.1.0 或更高版本，还需要 AEM 6.4 或更高版本的 [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html)，以支持 AEM 中的[图像编辑器功能](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
+>SVG 支持需要核心组件发行版本 2.1.0 或更高版本，还需要 AEM 6.4 或更高版本的 [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=zh-Hans)，以支持 AEM 中的[图像编辑器功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -82,9 +82,9 @@ ht-degree: 100%
 ![图像组件“配置”对话框的“资源”选项卡](/help/assets/image-configure-asset.png)
 
 * **图像资源**
-   * 通过[资源浏览器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
    * 点击或单击&#x200B;**清除**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击&#x200B;**编辑**&#x200B;可在资源编辑器中[管理资源的再现](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
+   * 点击或单击&#x200B;**编辑**&#x200B;可在资源编辑器中[管理资源的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 ### “元数据”选项卡 {#metadata-tab}
 

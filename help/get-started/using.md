@@ -3,10 +3,10 @@ title: 使用核心组件
 description: “要在您自己的项目中启动并运行核心组件，需要执行四个步骤：下载并安装、创建代理组件、加载核心样式和在模板上启用组件。”
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '977'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!TIP]
 >
 >要更详细地了解如何从头开始使用项目设置、核心组件、可编辑模板、客户端库和组件开发，以下包含多个部分的教程可能会对您有所帮助：\
->[AEM Sites 快速入门 - WKND 教程](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[AEM Sites 快速入门 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 在生产模式（没有示例内容）下启动时，核心组件不是快速入门的一部分。因此，您首先要[从 GitHub 下载最新发布的内容包](https://github.com/adobe/aem-core-wcm-components/releases/latest)并在 AEM 环境中安装此包。
 
-虽然可通过多种方法自动执行此操作，但使用包管理器可最轻松地在实例上快速安装内容包；请参阅[安装包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。此外，一旦您还运行了发布实例，您就需要将该包复制到发布者；请参阅[复制包](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
+虽然可通过多种方法自动执行此操作，但使用包管理器可最轻松地在实例上快速安装内容包；请参阅[安装包](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。此外，一旦您还运行了发布实例，您就需要将该包复制到发布者；请参阅[复制包](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
 
 ## 创建代理组件 {#create-proxy-components}
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 
 ## 允许组件 {#allow-the-components}
 
-在[模板编辑器](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)中执行以下步骤。
+在[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)中执行以下步骤。
 
 1. 在模板编辑器中，选择“布局容器”，然后打开其策略。
 1. 在“允许的组件”列表中，选择之前创建的代理组件，这些组件应显示在为其分配的组件组的下方。完成后，应用更改。
