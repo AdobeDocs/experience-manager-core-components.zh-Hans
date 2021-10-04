@@ -3,16 +3,16 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: 35d29c28672f53812de4a348c9f75f6766b2a7e7
 workflow-type: tm+mt
-source-wordcount: '2273'
-ht-degree: 96%
+source-wordcount: '2300'
+ht-degree: 95%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前发行版本是 2.17.10，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 安装兼容。
+核心组件的当前发行版本是 2.17.12，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 安装兼容。
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 96%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个修补程序版本，用于修复上一版本中引入的回归。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021年10月1日 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此修补程序增强了[List](/help/components/list.md)和[Navigation](/help/components/navigation.md)组件以显示重定向目标的外部URL，为即将推出的[Teaser](/help/components/teaser.md)组件的v2启用页面图像继承，并包含其他错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021年8月31日 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 此修补程序版本这是一个修补程序版本，用于修复先前引入的向后不兼容的更改。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021年8月2日 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此修补程序版本增加了对页面站点映射的支持，并包含各种辅助功能改进。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 7 月 29 日 |
