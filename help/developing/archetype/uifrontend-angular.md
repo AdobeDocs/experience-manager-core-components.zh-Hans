@@ -1,12 +1,12 @@
 ---
 title: Angular SPA 的前端构建
 description: 对基于 Angular 的 SPA 项目的前端构建流程描述
-feature: 核心组件，AEM 项目原型
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '409'
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
