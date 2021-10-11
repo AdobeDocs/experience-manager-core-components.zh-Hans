@@ -1,12 +1,12 @@
 ---
 title: AEM 项目原型的 it.tests 模块
 description: 如何使用 AEM 项目原型集成测试
-feature: 核心组件，AEM 项目原型
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 0abc0265-3a3f-4323-97e6-3af0c62299ef
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '80'
+source-wordcount: '75'
 ht-degree: 100%
 
 ---
