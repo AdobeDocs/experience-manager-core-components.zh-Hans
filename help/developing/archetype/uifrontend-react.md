@@ -1,12 +1,12 @@
 ---
 title: React SPA 的前端构建
 description: 对基于 React 的 SPA 项目的前端构建流程的描述
-feature: 核心组件，AEM 项目原型
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '517'
+source-wordcount: '512'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ npm run build
 
 ## 浏览器支持 {#browser-support}
 
-默认情况下，此项目使用 [Browserslist](https://github.com/browserslist/browserslist) 的默认选项来标识目标浏览器。此外，它包括用于现代语言功能的 polyfill，以支持较早的浏览器（例如，Internet Explorer 11）。如果不需要支持这些浏览器，可以删除 polyfill 依赖关系和导入。
+默认情况下，此项目使用 [Browserslist](https://github.com/browserslist/browserslist) 的默认选项来标识目标浏览器。此外，它包括用于现代语言功能的 polyfill 以支持较早的浏览器（例如，Internet Explorer 11）。如果不需要支持这些浏览器，可以删除 polyfill 依赖关系和导入。
 
 ## 代码拆分 {#code-splitting}
 
