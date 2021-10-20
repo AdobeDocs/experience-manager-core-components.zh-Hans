@@ -4,9 +4,9 @@ description: 使用核心组件折叠组件，可在页面上创建一系列以�
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
 
 ![折叠组件“编辑”对话框的“项”选项卡](/help/assets/accordion-edit-items.png)
 
-使用&#x200B;**添加**&#x200B;按钮可打开组件选择器，来选择要作为面板添加的组件。在添加之后，一个条目将添加到列表中，包含以下列：
+使用&#x200B;**“添加”**&#x200B;按钮可打开组件选择器，来选择要作为面板添加的组件。在添加之后，一个条目将添加到列表中，包含以下列：
 
 * **图标** - 面板的组件类型的图标，用于方便在列表中识别。将鼠标悬停在上面时将显示完整的组件名称作为工具提示。
 * **描述** - 用作面板的文本的描述，默认情况下是为面板选择的组件的名称。
@@ -75,7 +75,7 @@ ht-degree: 98%
 
 >[!TIP]
 >
->如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**添加**&#x200B;按钮。组件仍可以通过[从组件浏览器拖动并放置在页面编辑器的折叠组件上](https://helpx.adobe.com/cn/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)来添加到折叠组件中。
+>如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。组件仍可以通过[从组件浏览器拖动并放置在页面编辑器的折叠组件上](https://helpx.adobe.com/cn/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)来添加到折叠组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -83,8 +83,8 @@ ht-degree: 98%
 
 * **单项展开** - 在选中时，此选项强制一次展开单个折叠项。展开一项将折叠所有其他项。
 * **展开项** - 此选项定义加载页面时默认展开的项。
-   * 在选中了&#x200B;**单项展开**&#x200B;时，必须选择一个面板。不过默认情况下选择第一个面板。
-   * 未选中&#x200B;**单项展开**&#x200B;时，此选项为多选并且是可选的。
+   * 在选中了&#x200B;**“单项展开”**&#x200B;时，必须选择一个面板。不过默认情况下选择第一个面板。
+   * 未选中&#x200B;**“单项展开”**&#x200B;时，此选项为多选并且是可选的。
 * **ID** - 利用此选项，可以控制 HTML 和[ Data Layer ](/help/developing/data-layer/overview.md)中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
@@ -92,11 +92,11 @@ ht-degree: 98%
 
 ## “选择面板”弹出框 {#select-panel-popover}
 
-内容作者可以使用组件工具栏上的&#x200B;**选择面板**&#x200B;选项，更改到不同的面板进行编辑，以及轻松地重新排列折叠中的面板。
+内容作者可以使用组件工具栏上的&#x200B;**“选择面板”**&#x200B;选项，更改到不同的面板进行编辑，以及轻松地重新排列折叠中的面板。
 
 ![选择面板图标](/help/assets/select-panel-icon.png)
 
-在组件工具栏中选择了&#x200B;**选择面板**&#x200B;选项之后，配置的折叠面板将显示为下拉列表。
+在组件工具栏中选择了&#x200B;**“选择面板”**&#x200B;选项之后，配置的折叠面板将显示为下拉列表。
 
 ![“选择面板”弹出框](/help/assets/select-panel-popover.png)
 
@@ -118,7 +118,7 @@ ht-degree: 98%
 
 ### “允许的组件”选项卡 {#allowed-components-tab}
 
-**允许的组件**&#x200B;选项卡用于定义哪些项可以由内容作者作为面板添加到折叠组件。
+**“允许的组件”**&#x200B;选项卡用于定义哪些项可以由内容作者作为面板添加到折叠组件。
 
 “允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)的同名选项卡的功能相同。
 
