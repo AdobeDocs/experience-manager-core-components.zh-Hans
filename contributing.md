@@ -1,6 +1,6 @@
 ---
 source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
 ht-degree: 100%
 
@@ -58,4 +58,4 @@ ht-degree: 100%
 
 ## 更多信息
 
-有关如何使用 GitHub 创作平台的更多详细信息，请参阅 [Adobe 文档内容贡献者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+有关如何使用 GitHub 创作平台的更多详细信息，请参阅 [Adobe 文档内容贡献者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
