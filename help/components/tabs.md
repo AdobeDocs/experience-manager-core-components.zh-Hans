@@ -4,9 +4,9 @@ description: 利用选项卡组件，可以创建多个选项卡来在页面上�
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 94%
 
 ![选项卡组件的“编辑”对话框中的“项”选项卡](/help/assets/tabs-edit-items.png)
 
-使用&#x200B;**添加**&#x200B;按钮可打开组件选择器，选择要作为选项卡添加的组件。在添加之后，一个条目将添加到列表中，包含以下列：
+使用&#x200B;**“添加”**&#x200B;按钮可打开组件选择器，选择要作为选项卡添加的组件。在添加之后，一个条目将添加到列表中，包含以下列：
 
 * **图标** - 选项卡的组件类型的图标，用于方便在列表中识别。将鼠标悬停在上面时将显示完整的组件名称作为工具提示。
 * **描述** - 用作选项卡的文本的描述，默认情况下是为选项卡选择的组件的名称。
@@ -79,7 +79,7 @@ ht-degree: 94%
 
 >[!TIP]
 >
->如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**添加**&#x200B;按钮。仍可通过将组件[从组件浏览器中拖动并放置到页面编辑器的选项卡组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)来将其添加到选项卡组件中。
+>如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。仍可通过将组件[从组件浏览器中拖动并放置到页面编辑器的选项卡组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)来将其添加到选项卡组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -102,11 +102,11 @@ ht-degree: 94%
 
 ## 选择面板 {#select-panel}
 
-内容作者可以使用组件工具栏上的&#x200B;**选择面板**&#x200B;选项，更改到不同的面板进行编辑，以及轻松地重新排列选项卡。
+内容作者可以使用组件工具栏上的&#x200B;**“选择面板”**&#x200B;选项，更改到不同的面板进行编辑，以及轻松地重新排列选项卡。
 
 ![选择面板图标](/help/assets/select-panel-icon.png)
 
-在组件工具栏中选择了&#x200B;**选择面板**&#x200B;选项之后，配置的选项卡将显示为下拉列表。
+在组件工具栏中选择了&#x200B;**“选择面板”**&#x200B;选项之后，配置的选项卡将显示为下拉列表。
 
 * 此列表按指定的选项卡排列方式进行排序并反映在编号中。
 * 首先显示选项卡的组件类型，随后显示采用较细字体的选项卡描述。
@@ -126,7 +126,7 @@ ht-degree: 94%
 
 ### “允许的组件”选项卡 {#allowed-components-tab}
 
-**允许的组件**&#x200B;选项卡用于定义哪些组件可由内容作者作为项添加到选项卡组件。
+**“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为项添加到选项卡组件。
 
 “允许的组件”选项卡的功能与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的同名选项卡的功能相同。
 
