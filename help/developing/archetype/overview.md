@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1104'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ AEM 项目原型是一个 Maven 模板，它创建最小的基于最佳实践的
 * **最佳实践：**&#x200B;使用 Adobe 的所有最新推荐实践引导您的网站。
 * **少量代码：**&#x200B;编辑您的模板、创建内容、部署您的 CSS，您的网站就可以上线了。
 * **云就绪：**&#x200B;如果需要，使用 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 在几天内上线并简化可扩展性和维护。
-* **Dispatcher：**&#x200B;只能通过可确保速度和安全性的 [Dispatcher 配置](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hans)完成项目。
+* **Dispatcher：**&#x200B;只能通过可确保速度和安全性的 [Dispatcher 配置](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html)完成项目。
 * **多站点：**&#x200B;如果需要，原型将为[多语言和多区域设置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/msm/overview.html)生成内容结构。
 * **核心组件：**&#x200B;作者可以使用我们通用的[标准化组件集](/help/introduction.md)创建几乎任何布局。
 * **可编辑模板：**&#x200B;收集几乎任何[不带代码的模板](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，并定义作者可编辑的内容。
@@ -94,7 +94,7 @@ mvn -B archetype:generate \
 | `amp` | `n` | 为生成的项目模板启用 [AMP](/help/developing/amp.md) 支持。 |
 | `enableDynamicMedia` | `n` | 在项目策略设置中启用基础 DynamicMedia 组件，并在核心图像组件的策略中激活 Dynamic Media 功能。 |
 | `enableSSR` | `n` | 用于为前端项目启用 SSR 的选项 |
-| `precompiledScripts` | `n` | 用于[预编译](/help/developing/archetype/precompiled-bundled-scripts.md)来自`ui.apps`的服务器端脚本的选项，并将它们作为`ui.apps`项目中的辅助包对象附加到内部版本。 `aemVersion` 应设置为 `cloud`。 |
+| `precompiledScripts` | `n` | 用于从 `ui.apps` [预编译](/help/developing/archetype/precompiled-bundled-scripts.md)服务器端脚本并将它们作为 `ui.apps` 项目中的次捆绑构件附加到版本的选项。`aemVersion` 应设置为 `cloud`。 |
 
 ## 系统要求 {#requirements}
 
