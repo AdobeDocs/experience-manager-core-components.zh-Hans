@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: db33866f0a9e87e34eaaa061d308438c6f5bebb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -37,21 +37,21 @@ AEM as a Cloud Service SDK 构建分析器 Maven 插件分析各种内容包项�
 | `bundle-nativecode` | 确保 OSGI 捆绑没有安装原生代码。 | 是 | 是 |
 | `configuration-api` | 验证重要 OSGi 配置。 <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 是 | 是 |
 | `region-deprecated-api` | 检查是否使用了[已弃用的 api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
-| `artifact-rules` | 验证包和内容包等依赖项，以防止工件中出现已知问题。<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
+| `artifact-rules` | 验证包和内容包等依赖项以防止构件中出现已知问题。<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
 
 ## 已知问题
 
-以下是使用Build Analyzer Maven插件时的已知问题列表。
+以下是使用构建分析器 Maven 插件时出现的已知问题的列表。
 
-### 无法在本地SDK中执行生成分析器Maven插件
+### 无法在本地 SDK 中执行构建分析器 Maven 插件
 
-将本地SDK与低于`1.1.2`的Build Analyzer Maven Plugin版本一起使用时，运行该插件可能会导致以下错误。 在这种情况下，请将您的项目更新到该插件的最新版本。
+在将本地 SDK 与低于 `1.1.2` 的构建分析器 Maven 插件结合使用时，运行该插件可能会导致以下错误。在此情况下，请将您的项目更新到该插件的最新版本。
 
 ```txt
 [ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
 ```
 
-如果您使用AEM项目原型来设置项目，请确保按如下所示调整根Maven `pom.xml`中的属性。
+如果您已使用 AEM 项目原型设置项目，请确保调整根 Maven `pom.xml` 中的属性，如下所示。
 
 ```xml
    ...
