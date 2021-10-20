@@ -4,9 +4,9 @@ description: 利用核心组件内容片段组件，可以显示内容片段。
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 96%
 
 ### “段落控制”选项卡 {#paragraph-control-tab}
 
-在选择&#x200B;**多个元素**&#x200B;模式时，此选项卡不可用。
+在选择&#x200B;**“多个元素”**&#x200B;模式时，此选项卡不可用。
 
 ![内容片段组件](/help/assets/content-fragment-edit-paragraph.png)
 
