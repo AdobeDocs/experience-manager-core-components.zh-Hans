@@ -4,9 +4,9 @@ description: 利用核心组件实施的多种模式，可以轻松执行从简�
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -159,4 +159,4 @@ public class PageHeadline implements Title {
 **阅读下一篇文章：**
 
 * [使用核心组件](/help/get-started/using.md) - 在您自己的项目中启动并运行核心组件。
-* [组件指南](guidelines.md) - 了解核心组件的实施模式。
+* [《组件指南》](guidelines.md) - 了解核心组件的实施模式。
