@@ -5,9 +5,9 @@ breadcrumb-title: Core Components 指南
 user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 95%
       + [使用原型](developing/archetype/using.md)
       + [核心模块](developing/archetype/core.md)
       + [ui.apps 模块](developing/archetype/uiapps.md)
-      + [预编译捆绑脚本](developing/archetype/precompiled-bundled-scripts.md)
+      + [预编译的捆绑脚本](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content 模块](developing/archetype/uicontent.md)
       + [ui.frontend.general 模块](developing/archetype/uifrontend.md)
       + [ui.frontend.react 模块](developing/archetype/uifrontend-react.md)
