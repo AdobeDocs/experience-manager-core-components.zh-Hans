@@ -1,23 +1,22 @@
 ---
 source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
-# Adobe Experience Manager核心组件文档
+# Adobe Experience Manager 核心组件文档
 
 ## 核心组件文档
 
-这是Adobe Experience Manager核心组件&#x200B;***文档***&#x200B;的存储库。 本文档涵盖安装、创作使用以及如何自定义核心组件。
+这是 Adobe Experience Manager 核心组件&#x200B;***文档*** 的存储库。本文档介绍了安装、创作使用以及如何自定义核心组件。
 
-欢迎您对文档做出贡献。 请参阅以下资源：
+欢迎您贡献文档内容。请参阅以下资源：
 
-* [comtribiting.](contributing.md) md有关如何为文档做出贡献的概述。
-* [guidelines.](guidelines.md) md有关稿件中预期内容以及如何编写文档稿件的概述。
-* [code-of-cond.md有关](code-of-conduct.md) 我们在您为本文档项目做出贡献时所期待的行为标准的概述。
+* [contributing.md](contributing.md) 概述如何贡献文档内容。
+* [guidelines.md](guidelines.md) 概述应贡献哪些内容以及如何撰写文档贡献内容。
+* [code-of-conduct.md](code-of-conduct.md) 概述为文档项目贡献内容时应遵循的行为标准。
 
 ## 核心组件存储库
 
-[Adobe Experience Manager核心组件](https://github.com/adobe/aem-core-wcm-components)本身作为项目维护在单独的存储库中。 如果您需要有关组件的技术／开发人员文档，希望为组件本身做出贡献，或需要针对核心组件的功能或特性提出问题，请查看该项目。
+[Adobe Experience Manager 核心组件](https://github.com/adobe/aem-core-wcm-components)本身作为单独存储库中的项目进行维护。如果您需要有关组件的技术/开发人员文档，希望完善组件本身，或需要提交有关核心组件的功能或特性的问题，请查看该项目。
