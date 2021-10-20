@@ -4,9 +4,9 @@ description: '核心组件提供基于最新技术和最佳实践构建的强大
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 35d29c28672f53812de4a348c9f75f6766b2a7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 90%
 | 可以通用 | 这些组件代表了作者可用来设计几乎任何布局的通用概念。 |
 | 可配置 | 模板级[内存策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies)定义页面作者可以使用或无法使用的功能。 |
 | 可跟踪 | [Adobe Client Data Layer 集成](/help/developing/data-layer/overview.md)允许全方位跟踪访客体验。 |
-| 可访问 | 它们符合[WCAG 2.1标准](https://www.w3.org/TR/WCAG21/)，提供ARIA标签，并支持键盘导航（[已知问题](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)）。 |
+| 可访问 | 它们符合 [WCAG 2.1 标准](https://www.w3.org/TR/WCAG21/)，提供 ARIA 标签，并支持键盘导航（[已知问题](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)）。 |
 | SEO 友好 | HTML 输出是语义的，并提供 [schema.org](https://schema.org) 微数据注释。 |
 | WebApp 就绪 | [简化的 JSON 输出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html)允许客户端渲染，并且仍可进行[上下文内编辑](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。 |
 | AMP 支持 | 组件已内置[对 AMP 标准的支持，](/help/developing/amp.md)可加快移动体验。 |
