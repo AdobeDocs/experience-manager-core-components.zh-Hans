@@ -4,9 +4,9 @@ description: 在 AEM 中，组件是结构化元素，用于构成所创作的�
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '742'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 88%
 
 * 简单易用，并与[页面编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)很好地集成
 
-* 具有丰富的功能，可以适应 [WKND 参考网站](https://wknd.site)以及[组件库](https://adobe.com/go/aem_cmp_library)中所述的多种使用案例
+* 具有丰富的功能，可以适应 [WKND 参考网站](https://wknd.site)以及[组件库](https://adobe.com/go/aem_cmp_library_cn)中所述的多种使用案例
 
 * 可通过[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)进行[预先配置](#pre-configuring-core-components)，以定义可供页面作者使用的功能
 
@@ -44,7 +44,7 @@ ht-degree: 88%
 
 * 构建用于支持 [轻松本地化](localization.md)
 
-在[编辑页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)时，组件在页面编辑器侧面板的&#x200B;**组件**&#x200B;选项卡上可用。
+在[编辑页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)时，组件在页面编辑器侧面板的&#x200B;**“组件”**&#x200B;选项卡上可用。
 
 组件根据类别分组为组件组，以轻松地排列和筛选组件。组件组名称与组件一起显示在[组件浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)中，还可以按组筛选以轻松地查找合适的组件。
 
