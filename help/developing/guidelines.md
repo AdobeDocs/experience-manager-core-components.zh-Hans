@@ -4,9 +4,9 @@ description: 核心组件遵循的现代实施模式与基础组件大为不同�
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ### 分离关注点 {#separation-of-concerns}
 
-通常，将组件的逻辑（或模型）与标记模板（或视图）分离开是一种好的做法。有多种方法可以做到这一点，但是，建议的方法是为逻辑使用 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)，为标记使用 [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans) (HTL)，就像核心组件这样。
+通常，将组件的逻辑（或模型）与标记模板（或视图）分离开是一种好的做法。有多种方法可以做到这一点，但是，建议的方法是为逻辑使用 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)，为标记使用 [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL)，就像核心组件这样。
 
 Sling 模型是一组 Java 注释，可从 POJO 轻松地访问所需的变量，因此这种模型提供了简单、强大且高效的方法为组件实施 Java 逻辑。
 
