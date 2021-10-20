@@ -4,9 +4,9 @@ description: “页面组件”是指可扩展的页面组件，设计用于模�
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 97%
 
 可以同时为&#x200B;**客户端库**&#x200B;和&#x200B;**客户端库 JavaScript 页头**&#x200B;字段配置库，如下所示：
 
-* 要添加新字段，请单击或点击字段下的&#x200B;**添加**&#x200B;按钮。
+* 要添加新字段，请单击或点击字段下的&#x200B;**“添加”**&#x200B;按钮。
 * 要删除字段，请单击或点击要删除的字段旁边的垃圾桶图标。
 * 要重新设置加载顺序，请单击或点击要移动的字段并拖动旁边的手柄。
 
