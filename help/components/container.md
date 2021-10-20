@@ -4,9 +4,9 @@ description: 使用核心组件容器组件，可在页面上为多个其他组�
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 96%
 
 ### “允许的组件”选项卡 {#allowed-components-tab}
 
-**允许的组件**&#x200B;选项卡用于定义哪些组件可由内容作者作为项目添加到容器组件。
+**“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为项目添加到容器组件。
 
 “允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的同名选项卡的功能相同。
 
@@ -88,9 +88,9 @@ ht-degree: 96%
 * **背景颜色**
    * **启用背景颜色** - 选择此选项可允许内容作者定义容器的背景颜色。
    * **仅色板** - 选择此选项可仅允许内容作者从预定义的色板中选择容器的背景颜色。
-      * 仅在选择了&#x200B;**启用背景颜色**&#x200B;时可用
+      * 仅在选择了&#x200B;**“启用背景颜色”**&#x200B;时可用
 * **允许的色板** - 定义内容作者可从中选择容器背景颜色的预定义颜色
-   * 使用&#x200B;**添加**&#x200B;按钮可添加预定义的色板。在添加之后，一个条目将添加到列表中，包含以下列：
+   * 使用&#x200B;**“添加”**&#x200B;按钮可添加预定义的色板。在添加之后，一个条目将添加到列表中，包含以下列：
    * **值** - 通过 RGB 值手动定义颜色
       * 点击或单击拾色器，以通过调整单独的 RGB 值或定义十六进制值，更轻松地选择颜色。
    * **删除** - 点击或单击以删除色板。
