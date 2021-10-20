@@ -4,9 +4,9 @@ description: “要在您自己的项目中启动并运行核心组件，需要�
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 >[!TIP]
 >
 >要更详细地了解如何从头开始使用项目设置、核心组件、可编辑模板、客户端库和组件开发，以下包含多个部分的教程可能会对您有所帮助：\
->[AEM Sites 快速入门 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[《AEM Sites 快速入门》 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
@@ -116,4 +116,4 @@ ht-degree: 96%
 **阅读下一篇文章：**
 
 * [自定义核心组件](/help/developing/customizing.md) - 了解如何样式化和自定义核心组件。
-* [组件指南](/help/developing/guidelines.md) - 了解核心组件的实施模式。
+* [《组件指南》](/help/developing/guidelines.md) - 了解核心组件的实施模式。
