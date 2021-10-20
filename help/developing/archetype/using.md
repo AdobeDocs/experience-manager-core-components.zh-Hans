@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2193'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Maven 中表示的 AEM 原型模块作为表示应用程序、内容和必要的
 
 ### 创建项目 {#create-project}
 
-首先，您可以简单地使用 [AEM Eclipse 扩展](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html)并遵循“新建项目”向导，然后选择 **AEM 示例多模块项目**&#x200B;以使用原型的发行版。
+首先，您可以简单地使用 [AEM Eclipse 扩展](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html)并遵循“新建项目”向导，然后选择&#x200B;**“AEM 示例多模块项目”**&#x200B;以使用原型的发行版。
 
 当然，您也可以直接调用 Maven。
 
@@ -117,7 +117,7 @@ OOTB。
 | `amp` | `n` | 为生成的项目模板启用 [AMP](/help/developing/amp.md) 支持。 |
 | `enableDynamicMedia` | `n` | 在项目策略设置中启用基础 DynamicMedia 组件，并在核心图像组件的策略中激活 Dynamic Media 功能。 |
 | `enableSSR` | `n` | 用于为前端项目启用 SSR 的选项 |
-| `precompiledScripts` | `n` | 用于[预编译](/help/developing/archetype/precompiled-bundled-scripts.md)来自`ui.apps`的服务器端脚本的选项，并将它们作为`ui.apps`项目中的辅助包对象附加到内部版本。 `aemVersion` 应设置为 `cloud`。 |
+| `precompiledScripts` | `n` | 用于从 `ui.apps` [预编译](/help/developing/archetype/precompiled-bundled-scripts.md)服务器端脚本并将它们作为 `ui.apps` 项目中的次捆绑构件附加到版本的选项。`aemVersion` 应设置为 `cloud`。 |
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ OOTB。
 | `autoInstallSinglePackage` | 通过包管理器将带 content-package-maven-plugin 的 `all` 内容包安装到本地主机上的默认创作实例（端口 4502）。可使用 `aem.host` 和 `aem.port` 用户定义的属性更改主机名和端口。 |
 | `autoInstallSinglePackagePublish` | 通过包管理器将带 content-package-maven-plugin 的 `all` 内容包安装到本地主机上的默认发布实例（端口 4503）。可使用 `aem.host` 和 `aem.port` 用户定义的属性更改主机名和端口。 |
 | `integrationTests` | 在 AEM 实例上运行提供的集成测试（仅针对 `verify` 阶段） |
-| `precompiledScripts` | 在生成项目时自动定义，`precompiledScripts`属性设置为`y`。 默认情况下，该配置文件处于活动状态，并在`ui.apps`内生成一个OSGi包，其中包含预编译的脚本，该脚本将包含在`all`内容包中。 可以使用`-DskipScriptPrecompilation=true`禁用配置文件。 |
+| `precompiledScripts` | 在将 `precompiledScripts` 属性设置为 `y` 的情况下生成项目时自动定义。该配置文件默认处于活动状态，并在 `ui.apps` 中生成一个带预编译脚本的 OSGi 捆绑包，该包将包含在 `all` 内容包中。可使用 `-DskipScriptPrecompilation=true` 禁用配置文件。 |
 
 ### 构建和安装 {#building-and-installing}
 
@@ -199,7 +199,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-关键依赖项之一是[AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)。 这将包括所有 AEM API，并且 AEM 版本只有一个依赖项。
+关键依赖项之一是 [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)。这将包括所有 AEM API，并且 AEM 版本只有一个依赖项。
 
 >[!NOTE]
 >
