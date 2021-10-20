@@ -4,9 +4,9 @@ description: 使用导航组件，用户可轻松地在全局化网站结构中�
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1469'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -90,14 +90,14 @@ ht-degree: 94%
 
 ## 导航中的重定向 {#redirects}
 
-当页面具有重定向目标(无论它指向外部URL还是其他AEM页面)时，导航组件会包含指向重定向目标URL的直接链接。
+如果页面具有重定向目标（无论它指向的是外部 URL 还是另一个 AEM 页面），则包含指向该点的链接的导航组件将直接指向重定向目标的 URL。
 
 ### 示例 {#redirect-example}
 
-* 创建重定向到页面B的页面A。
-* 创建重定向到`https://aemcomponents.dev`的页面C
-* 在页面D中，插入包含页面A和C的或导航组件
-* 然后，生成的相应链接直接指向页面B和`https://aemcomponents.dev`
+* 创建重定向到页面 B 的页面 A。
+* 创建重定向到 `https://aemcomponents.dev` 的页面 C
+* 在页面 D 上，插入包含页面 A 和 C 的导航组件
+* 随后，生成的相应链接将直接指向页面 B 和 `https://aemcomponents.dev`
 
 
 ## 版本和兼容性 {#version-and-compatibility}
