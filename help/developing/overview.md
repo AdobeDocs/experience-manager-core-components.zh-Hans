@@ -4,9 +4,9 @@ description: 核心组件提供可靠且可扩展的基本组件，这些组件�
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 98%
 | **功能** | **核心组件** | **基础组件** |
 |-----|---|---|
 | 逻辑实施 | Java POJO 和 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)注释 | JSP 代码 |
-| 标记定义 | [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans) (HTL) 语法 | JSP 代码 |
+| 标记定义 | [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL) 语法 | JSP 代码 |
 | XSS 净化 | 由 HTL 自动执行 | 大部分手动 |
 | CSS 类命名 | 基于 [Block Element Modifier](https://getbem.com/) (BEM) 表示法（截止到发行版本 2.0.0）的标准化命名约定 | 自定义架构 |
 | 对话框定义 | [Coral 3](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + 经典 UI |
