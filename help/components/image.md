@@ -4,9 +4,9 @@ description: 核心组件图像组件是一个自适应图像组件，具备就�
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2162'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->SVG 支持需要核心组件发行版本 2.1.0 或更高版本，还需要 AEM 6.4 或更高版本的 [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=zh-Hans)，以支持 AEM 中的[图像编辑器功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
+>SVG 支持需要核心组件发行版本 2.1.0 或更高版本，还需要 AEM 6.4 或更高版本的 [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)，以支持 AEM 中的[图像编辑器功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html)。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -83,8 +83,8 @@ ht-degree: 98%
 
 * **图像资源**
    * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
-   * 点击或单击&#x200B;**清除**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击&#x200B;**编辑**&#x200B;可在资源编辑器中[管理资源的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
+   * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
+   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资源编辑器中[管理资源的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 ### “元数据”选项卡 {#metadata-tab}
 
@@ -195,9 +195,9 @@ ht-degree: 98%
 * **以弹出形式显示题注** - 定义在将图像组件添加到页面时，是否自动启用以弹出形式显示图像题注的选项。
 * **禁用 UUID 跟踪** - 选中此项可禁用图像资源的 UUID。
 * **宽度** - 定义图像的宽度（以像素为单位），组件将根据浏览器的大小自动加载最合适的宽度。
-   * 点击或单击&#x200B;**添加**&#x200B;按钮可添加其他大小。
+   * 点击或单击&#x200B;**“添加”**&#x200B;按钮可添加其他大小。
       * 使用抓取手柄可重新排列大小。
-      * 使用&#x200B;**删除**&#x200B;图标可删除宽度。
+      * 使用&#x200B;**“删除”**&#x200B;图标可删除宽度。
    * 默认情况下，图像加载会被延迟，直到图像变得可见。
       * 选择&#x200B;**禁用延迟加载**&#x200B;选项可在页面加载时加载图像。
 * **JPEG 质量** - 用于转换（例如，缩放或裁切）的 JPEG 图像的质量系数（以从 0 到 100 的百分比表示）。
@@ -232,7 +232,7 @@ ht-degree: 98%
    ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-cropping.png)
 
    选择&#x200B;**允许裁切**&#x200B;选项可允许内容作者在“编辑”对话框中裁切组件中的图像。
-   * 单击&#x200B;**添加**&#x200B;可添加预定义的裁切长宽比。
+   * 单击&#x200B;**“添加”**&#x200B;可添加预定义的裁切长宽比。
    * 输入一个描述性名称，该名称将显示在&#x200B;**开始裁切**&#x200B;下拉列表中。
    * 输入长宽比的数字比率。
    * 使用拖动手柄可重新排列长宽比
