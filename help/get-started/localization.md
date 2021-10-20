@@ -4,9 +4,9 @@ description: 核心组件的本地化功能
 role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
