@@ -4,10 +4,10 @@ description: 基于 AEM 的应用程序的项目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+source-git-commit: acff746b66c69dd3a0f4beb7c0c4e9eb0e3e116c
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 96%
 
 ---
 
@@ -95,12 +95,14 @@ mvn -B archetype:generate \
 | `enableDynamicMedia` | `n` | 在项目策略设置中启用基础 DynamicMedia 组件，并在核心图像组件的策略中激活 Dynamic Media 功能。 |
 | `enableSSR` | `n` | 用于为前端项目启用 SSR 的选项 |
 | `precompiledScripts` | `n` | 用于从 `ui.apps` [预编译](/help/developing/archetype/precompiled-bundled-scripts.md)服务器端脚本并将它们作为 `ui.apps` 项目中的次捆绑构件附加到版本的选项。`aemVersion` 应设置为 `cloud`。 |
+| `includeFormscommunications` | `n` | 包括 [Forms核心组件](https://github.com/adobe/aem-core-forms-components) 依赖关系、模板、表单数据模型、主题，并为Forms通信程序生成相应的工件。 |
+| `includeFormsenrollment` | `n` | 包括 [Forms核心组件](https://github.com/adobe/aem-core-forms-components) 依赖项、模板、表单数据模型、主题，并为Forms注册计划生成相应的项目。 |
 
 ## 系统要求 {#requirements}
 
 | 原型 | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [30](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [32](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-32) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 为 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 或[旧版本的 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) 设置本地开发环境。
 
