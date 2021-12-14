@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: acff746b66c69dd3a0f4beb7c0c4e9eb0e3e116c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -95,8 +95,8 @@ mvn -B archetype:generate \
 | `enableDynamicMedia` | `n` | 在项目策略设置中启用基础 DynamicMedia 组件，并在核心图像组件的策略中激活 Dynamic Media 功能。 |
 | `enableSSR` | `n` | 用于为前端项目启用 SSR 的选项 |
 | `precompiledScripts` | `n` | 用于从 `ui.apps` [预编译](/help/developing/archetype/precompiled-bundled-scripts.md)服务器端脚本并将它们作为 `ui.apps` 项目中的次捆绑构件附加到版本的选项。`aemVersion` 应设置为 `cloud`。 |
-| `includeFormscommunications` | `n` | 包括 [Forms核心组件](https://github.com/adobe/aem-core-forms-components) 依赖关系、模板、表单数据模型、主题，并为Forms通信程序生成相应的工件。 |
-| `includeFormsenrollment` | `n` | 包括 [Forms核心组件](https://github.com/adobe/aem-core-forms-components) 依赖项、模板、表单数据模型、主题，并为Forms注册计划生成相应的项目。 |
+| `includeFormscommunications` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 通信程序生成相应的伪像。 |
+| `includeFormsenrollment` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 注册程序生成相应的伪像。 |
 
 ## 系统要求 {#requirements}
 
