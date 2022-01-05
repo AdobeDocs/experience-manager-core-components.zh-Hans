@@ -3,10 +3,10 @@ title: 图像组件
 description: 核心组件图像组件是一个自适应图像组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '2162'
-ht-degree: 100%
+source-git-commit: c48f332ac97ef96d0cb59f2b64e3f726f9a90307
+workflow-type: tm+mt
+source-wordcount: '2270'
+ht-degree: 95%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 100%
 图像组件提供了可靠的响应式功能，可以直接使用。在页面模板级别，可以使用[“设计”对话框](#design-dialog)来定义图像资源的默认宽度。然后，图像组件将自动加载正确的宽度，以根据浏览器窗口的大小进行显示。在窗口调整大小时，图像组件即时动态加载正确的图像大小。组件开发人员无需担心自定义媒体查询的定义方式，因为图像组件已经针对加载内容进行了优化。
 
 此外，图像组件支持延迟加载，可以将实际图像资源的加载推迟到在浏览器中可见时，从而提升了页面的响应能力。
+
+>[!TIP]
+>
+>请参阅部分 [自适应图像Servlet](#adaptive-image-servlet) 有关这些功能和优化演绎版选择提示的更多技术详细信息。
 
 ## Dynamic Media 支持 {#dynamic-media}
 
@@ -202,6 +206,10 @@ ht-degree: 100%
       * 选择&#x200B;**禁用延迟加载**&#x200B;选项可在页面加载时加载图像。
 * **JPEG 质量** - 用于转换（例如，缩放或裁切）的 JPEG 图像的质量系数（以从 0 到 100 的百分比表示）。
 
+>[!TIP]
+>
+>请参阅部分 [自适应图像Servlet](#adaptive-image-servlet) 有关其功能的更多技术详细信息，以及通过仔细定义宽度来优化演绎版选择的提示。
+
 ### “功能”选项卡 {#features-tab}
 
 在&#x200B;**功能**&#x200B;选项卡上，您可以定义在使用组件时可供内容作者使用的选项，包括上传选项、方向和裁切选项。
@@ -249,6 +257,12 @@ ht-degree: 100%
 ## 自适应图像 Servlet {#adaptive-image-servlet}
 
 图像组件使用核心组件的自适应图像 Servlet。[自适应图像 Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 负责图像处理和流式传输，可由开发人员在其[核心组件的自定义设置](/help/developing/customizing.md)中使用。
+
+### 优化演绎版选择 {#optimizing-rendition-selection}
+
+自适应图像Servlet将尝试根据请求的图像大小和类型选择最佳呈现版本。 It&#39;s recommended that DAM renditions and Image component allowed widths are defined in sync so that the Adaptive Image Servlet does as little processing as possible.
+
+这将提高性能，并避免底层图像处理库无法正确处理某些图像。
 
 >[!NOTE]
 >
