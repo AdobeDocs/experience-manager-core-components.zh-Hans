@@ -4,8 +4,8 @@ description: 基于 AEM 的应用程序的项目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: acff746b66c69dd3a0f4beb7c0c4e9eb0e3e116c
-workflow-type: ht
+source-git-commit: 9ae35572f7ef60ea5140a7b48be087f34e39ce3a
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ AEM 项目原型是一个 Maven 模板，它创建最小的基于最佳实践的
 * **原型文档（本文档）：**&#x200B;原型架构及其不同模块的概述。
    * **[使用原型：](using.md)**&#x200B;有关使用原型和可用模块的更多详细信息
    * **[ui.frontend：](uifrontend.md)**&#x200B;如何使用前端构建模块
-* 以下教程基于此原型：
+* **以下教程基于此原型：**
    * **[WKND 网站：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**&#x200B;了解如何启动全新的网站。
    * **[WKND 单页面应用程序：](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)**&#x200B;了解如何构建可完全在 AEM 中创作的 React 或 Angular Web 应用程序。
 
@@ -102,7 +102,7 @@ mvn -B archetype:generate \
 
 | 原型 | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [32](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-32) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [34](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-34) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 为 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 或[旧版本的 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) 设置本地开发环境。
 
