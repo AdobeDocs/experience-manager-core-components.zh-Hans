@@ -5,7 +5,7 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 1a27f8c48e29199df94b1dbdccd5bf7fa160e479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
 ht-degree: 100%
 
