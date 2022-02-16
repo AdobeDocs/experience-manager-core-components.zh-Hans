@@ -1,16 +1,16 @@
 ---
-title: 列表组件
+title: 列表组件 (v2)
 description: 利用核心组件列表组件，可以轻松地创建动态和静态列表。
 role: Architect, Developer, Admin, User
-exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 88%
+source-wordcount: '1022'
+ht-degree: 98%
 
 ---
 
-# 列表组件{#list-component}
+
+# 列表组件 (v2) {#list-component}
 
 利用核心组件列表组件，可以轻松地创建动态和静态列表。
 
@@ -20,17 +20,13 @@ ht-degree: 88%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-列表组件的当前版本为v3，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+本文档介绍列表组件v1，该版本于2018年1月在核心组件2.0.0版中引入。
 
-下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
-
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | 兼容 | 兼容 |
-| [v2](v2/list.md) | 兼容 | 兼容 | 兼容 |
-| [v1](v1/list-v1.md) | 兼容 | 兼容 | - |
-
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文档介绍了列表组件 (v2)。
+>
+>有关当前版本的列表组件的详细信息，请参阅[列表组件](/help/components/list.md)文档。
 
 ## 列表中的重定向 {#redirects}
 
@@ -156,20 +152,12 @@ ht-degree: 88%
 
 ![项设置](/help/assets/list-edit-items.png)
 
-* **链接项目**  — 将项目关联到相应的页面
-* **显示描述**  — 显示链接项目的描述
-* **显示日期**  — 显示链接项目的修改日期
-* **显示为Teaser**  — 选中后，项目将显示为Teaser
-
-### “样式”选项卡 {#styles-tab-edit}
-
-列表组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
-
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
-
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
-
-![列表组件编辑对话框的样式选项卡](/help/assets/list-edit-styles.png)
+* **链接项**
+将项链接到对应的页面
+* **显示描述**
+显示链接项的描述
+* **显示日期**
+显示链接项的修改日期
 
 ## “设计”对话框 {#design-dialog}
 

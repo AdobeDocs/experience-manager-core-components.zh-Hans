@@ -1,16 +1,16 @@
 ---
-title: 下载组件
+title: 下载组件(v1)
 description: 利用核心组件下载组件，可在页面上创建下载选项。
 role: Architect, Developer, Admin, User
-exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 87%
+source-wordcount: '644'
+ht-degree: 93%
 
 ---
 
-# 下载组件{#download-component}
+
+# 下载组件 (v1) {#download-component}
 
 利用核心组件下载组件，可在页面上创建下载选项。
 
@@ -23,16 +23,13 @@ ht-degree: 87%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-下载组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+本文档介绍了2019年6月核心组件2.5.0版引入的下载组件v1。
 
-下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
-
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | 兼容 | 兼容 |
-| [v1](v1/download.md) | 兼容 | 兼容 | 兼容 |
-
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文档介绍下载组件的v1。
+>
+>有关下载组件当前版本的详细信息，请参阅 [下载组件](/help/components/download.md) 文档。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -52,7 +49,7 @@ ht-degree: 87%
 
 ### “资源”选项卡 {#asset-tab}
 
-下载资源的选择与[图像组件](image.md)非常相似，同样利用了 AEM 的 DAM。
+下载资源的选择与[图像组件](image-v1.md)非常相似，同样利用了 AEM 的 DAM。
 
 * **下载资源**
    * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
@@ -74,16 +71,6 @@ ht-degree: 87%
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
-
-### “样式”选项卡 {#styles-tab-edit}
-
-![下载组件编辑对话框的样式选项卡](/help/assets/download-edit-styles.png)
-
-下载组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
-
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
-
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
 
 ## “设计”对话框 {#design-dialog}
 

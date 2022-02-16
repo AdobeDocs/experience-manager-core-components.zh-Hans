@@ -1,16 +1,16 @@
 ---
-title: 内容片段列表组件
+title: 内容片段列表组件 (v1)
 description: 利用核心组件内容片段列表组件，可显示内容片段的列表。
 role: Architect, Developer, Admin, User
-exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 86%
+source-wordcount: '725'
+ht-degree: 93%
 
 ---
 
-# 内容片段列表组件{#content-fragment-list-component}
+
+# 内容片段列表组件 (v1) {#content-fragment-list-component}
 
 利用核心组件内容片段列表组件，可显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的列表。
 
@@ -23,16 +23,13 @@ ht-degree: 86%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-内容片段组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+本文档介绍了内容片段组件v1，该组件在2019年5月的核心组件2.4.0版中引入。
 
-下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
-
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|----|---|---|
-| v2 | - | 兼容 | 兼容 |
-| [v1](v1/content-fragment-list.md) | 兼容 | 兼容 | 兼容 |
-
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文档介绍内容片段列表组件的v1。
+>
+>有关当前版本的内容片段列表组件的详细信息，请参阅 [内容片段列表组件](/help/components/content-fragment-list.md) 文档。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -87,18 +84,6 @@ ht-degree: 86%
    * 单击或点击&#x200B;**“删除”**&#x200B;按钮可删除选定元素。
    * 拖动&#x200B;**排序**&#x200B;手柄可重新排列元素的顺序。
 
-### “样式”选项卡 {#styles-tab-edit}
-
-![内容片段列表组件编辑对话框的样式选项卡](/help/assets/content-fragment-list-styles.png)
-
-内容片段列表组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
-
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
-
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
-
 ## “设计”对话框 {#design-dialog}
 
-### “样式”选项卡 {#styles-tab}
-
-内容片段列表组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling).
+利用“设计”对话框，模板作者可以定义应用于内容片段列表组件的样式。

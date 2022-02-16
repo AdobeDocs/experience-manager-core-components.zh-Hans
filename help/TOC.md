@@ -4,9 +4,9 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: Core Components 指南
 user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -55,9 +55,17 @@ ht-degree: 100%
       + [表单文本](components/forms/form-text.md)
    + v1 组件 {#v1-components}
       + [痕迹导航 (v1)](components/v1/breadcrumb-v1.md)
+      + [按钮 (v1)](components/v1/button.md)
+      + [内容片段列表 (v1)](components/v1/content-fragment-list.md)
+      + [下载 (v1)](components/v1/download.md)
+      + [嵌入 (v1)](components/v1/embed.md)
+      + [体验片段 (v1)](components/v1/experience-fragment.md)
       + [图像 (v1)](components/v1/image-v1.md)
+      + [语言导航 (v1)](components/v1/language-navigation.md)
       + [列表 (v1)](components/v1/list-v1.md)
+      + [导航 (v1)](components/v1/navigation.md)
       + [页面 (v1)](components/v1/page-v1.md)
+      + [Teaser (v1)](components/v1/teaser.md)
       + [文本 (v1)](components/v1/text-v1.md)
       + [标题 (v1)](components/v1/title-v1.md)
       + v1 表单组件 {#v1-forms}
@@ -66,6 +74,12 @@ ht-degree: 100%
          + [表单隐藏 (v1)](components/v1/form-hidden-v1.md)
          + [表单选项 (v1)](components/v1/form-options-v1.md)
          + [表单文本 (v1)](components/v1/form-text-v1.md)
+   + v2 组件 {#v2-components}
+      + [痕迹导航 (v2)](components/v2/breadcrumb.md)
+      + [图像 (v2)](components/v2/image.md)
+      + [列表 (v2)](components/v2/list.md)
+      + [页面 (v2)](components/v2/page.md)
+      + [标题 (v2)](components/v2/title.md)
 + 开发 {#developing}
    + [开发核心组件](developing/overview.md)
    + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)

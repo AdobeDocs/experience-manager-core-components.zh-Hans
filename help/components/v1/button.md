@@ -1,16 +1,16 @@
 ---
-title: 按钮组件
+title: 按钮组件 (v1)
 description: 利用核心组件按钮组件，可创建和显示按钮。
 role: Architect, Developer, Admin, User
-exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 79%
+source-wordcount: '412'
+ht-degree: 89%
 
 ---
 
-# 按钮组件{#button-component}
+
+# 按钮组件 (v1) {#button-component}
 
 利用核心组件按钮组件，可在页面上配置和显示按钮。
 
@@ -23,16 +23,13 @@ ht-degree: 79%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-按钮组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+该文档介绍了按钮组件v1，该组件于2019年6月随核心组件2.5.0版引入。
 
-下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
-
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | 兼容 | 兼容 |
-| [v1](v1/button.md) | 兼容 | 兼容 | 兼容 |
-
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文档介绍按钮组件的v1。
+>
+>有关按钮组件当前版本的详细信息，请参阅 [按钮组件](/help/components/button.md) 文档。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -55,7 +52,6 @@ ht-degree: 79%
 * **文本** - 在按钮上显示的文本
 * **链接** - 与 AEM 中的内容页面、外部资源或锚点的链接。
    * 使用&#x200B;**“选择”对话框**&#x200B;可在 AEM 中选择路径。
-* **在新选项卡中打开链接**  — 如果选中此项，则将在新的浏览器选项卡中打开该链接。
 * **图标** - 在按钮中显示图标的标识符
 * **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
@@ -69,16 +65,6 @@ ht-degree: 79%
 在&#x200B;**辅助功能**&#x200B;选项卡上，可以为组件的 [ARIA 辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/)标签设置值。
 
 * **标签** - 组件的 ARIA 标签属性的值
-
-### “样式”选项卡 {#styles-tab-edit}
-
-![按钮组件编辑对话框的样式选项卡](/help/assets/button-edit-styles.png)
-
-按钮组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
-
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
-
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
 
 ## “设计”对话框 {#design-dialog}
 

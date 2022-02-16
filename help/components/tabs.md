@@ -3,10 +3,10 @@ title: 选项卡组件
 description: 利用选项卡组件，可以创建多个选项卡来在页面上排列内容。
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,28 @@ ht-degree: 100%
 >
 >可以使用[内容树](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)定位/选择简单（非嵌套）选项卡组件，但无法对嵌套选项卡执行此操作。
 
+## 版本和兼容性 {#version-and-compatibility}
+
+选项卡组件的当前版本是 v1，此版本随 2018 年 10 月的核心组件 2.2.0 版的发布引入，具体说明见本文。
+
+下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
+
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | 兼容 with<br>[版本2.17.4](/help/versions.md) 和优先 | 兼容 | 兼容 |
+
+有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+
+## 示例组件输出 {#sample-component-output}
+
+要体验选项卡组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_tabs_cn)。
+
+### 技术详细信息 {#technical-details}
+
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_tabs_v1_cn)有关选项卡组件的最新技术文档。
+
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
+
 ## 深度链接到面板 {#deep-linking}
 
 选项卡和[折叠组件](accordion.md)支持直接链接到组件中的面板。
@@ -39,28 +61,6 @@ ht-degree: 100%
    * 例如 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 导航到将面板 ID 作为锚点的 URL，浏览器将直接滚动到特定组件并显示指定的面板。如果面板配置为默认情况下不展开，则会自动展开。
-
-## 版本和兼容性 {#version-and-compatibility}
-
-选项卡组件的当前版本是 v1，此版本随 2018 年 10 月的核心组件 2.2.0 版的发布引入，具体说明见本文。
-
-下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
-
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v1 | 兼容 | 兼容 | 兼容 |
-
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
-
-## 示例组件输出 {#sample-component-output}
-
-要体验选项卡组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_tabs_cn)。
-
-### 技术详细信息 {#technical-details}
-
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_tabs_v1_cn)有关选项卡组件的最新技术文档。
-
-在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
 ## “编辑”对话框 {#edit-dialog}
 

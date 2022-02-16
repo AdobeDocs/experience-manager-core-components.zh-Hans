@@ -1,16 +1,16 @@
 ---
-title: 页面组件
+title: 页面组件 (v2)
 description: “页面组件”是指可扩展的页面组件，设计用于模板编辑器，允许使用模板编辑器来组装页眉/页脚和结构组件。
 role: Architect, Developer, Admin, User
-exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 97%
 
 ---
 
-# 页面组件{#page-component}
+
+# 页面组件 (v2) {#page-component}
 
 “页面组件”是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，允许使用模板编辑器来组装页眉/页脚和结构组件。
 
@@ -22,17 +22,13 @@ ht-degree: 92%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-页面组件的当前版本为v3，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+本文档介绍页面组件v2，该版本于2018年1月在核心组件2.0.0版中引入。
 
-下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
-
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | 兼容 | 兼容 |
-| [v2](v2/page.md) | 兼容 | 兼容 | 兼容 |
-| [v1](v1/page-v1.md) | 兼容 | 兼容 | - |
-
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文档介绍了页面组件 (v2)。
+>
+>有关当前版本的页面组件的详细信息，请参阅[页面组件](/help/components/page.md)文档。
 
 ## 渐进式 Web 应用程序支持 {#pwa-support}
 
@@ -70,8 +66,6 @@ ht-degree: 92%
 * **Web 资源客户端库** - 用于提供 favicon 等 Web 资源的客户端库类别。
 
 * **跳到主内容元素选择器** - 用作可访问性功能，以直接跳到页面的主内容。
-
-* **呈现替代语言链接**  — 如果启用，则指向同一站点中页面其他语言版本的链接将添加到页面标题中。
 
 ![页面组件设计对话框](/help/assets/page-design.png)
 

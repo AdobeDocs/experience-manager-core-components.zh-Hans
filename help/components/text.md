@@ -3,10 +3,10 @@ title: 文本组件
 description: 文本组件是一种富文本编辑和撰写组件，具有就地编辑功能。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '2205'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '2209'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v2 | 兼容 | 兼容 | 兼容 |
+| v2 | 兼容 with<br>[版本2.17.4](/help/versions.md) 和优先 | 兼容 | 兼容 |
 | [v1](v1/text-v1.md) | 兼容 | 兼容 | - |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。

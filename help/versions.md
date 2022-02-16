@@ -3,16 +3,16 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: ef18f65be72295f7886a132a26bdd4f8bc2fbd50
-workflow-type: ht
-source-wordcount: '2318'
-ht-degree: 100%
+source-git-commit: 06fc67134b312d2fa0311dc9f2250c82b8eee3f6
+workflow-type: tm+mt
+source-wordcount: '2389'
+ht-degree: 92%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前发行版本是 2.17.14，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 安装兼容。
+核心组件的当前发行版本是 2.18.0，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) 安装兼容。
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
@@ -26,8 +26,9 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 12 月 13 日 |
-| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本，修复了上一个版本引入的回归。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 10 月 1 日 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 此主要版本的核心组件在多个组件的新版本中引入了新的链接处理程序，同时还进行了许多辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022年2月24日 |
+| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个修补程序版本。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 12 月 13 日 |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个修补程序版本，它修复了先前版本中引入的回归。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 10 月 1 日 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此补丁增强了 [List](/help/components/list.md) 和 [Navigation](/help/components/navigation.md) 组件以显示重定向目标的外部 URL，支持即将发布的 v2 的 [Teaser](/help/components/teaser.md) 组件的页面图像继承以及包含其他错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 8 月 31 日 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 这是一个补丁发行版本，用于修复之前引入的无法向后兼容的更改。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 8 月 2 日 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此补丁发行版本添加了对页面的网站地图的支持，并包括各种辅助功能改进。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 7 月 29 日 |
@@ -79,42 +80,42 @@ ht-degree: 100%
 
 下表详细列出了哪些组件的哪些版本包括在核心组件的哪些发行版本中。
 
-|  | 发行版本 1.0.0 - 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 - 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 - 2.2.0 | 发行版本 2.3.0 - 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 - 2.8.0 | 发行版本 2.9.0+ |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[页面](components/page.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[标题](components/title.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[图像](components/image.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[列表](components/list.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[社交媒体共享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[表单容器](components/forms/form-container.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[表单文本](components/forms/form-text.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[表单选项](components/forms/form-options.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[表单隐藏](components/forms/form-hidden.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[表单按钮](components/forms/form-button.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
-| **[内容片段](components/content-fragment-component.md)** |  | 沙盒 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1，v2 | v1，v2 |
-| **[导航](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[语言导航](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[快速搜索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[选项卡](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[轮盘](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[分隔符](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[内容片段列表](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
-| **[折叠](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[按钮](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[容器](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[下载](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
-| **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
-| **[嵌入](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
-| **[进度条](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
-| **[PDF 查看器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+|  | 发行版本 1.0.0 - 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 - 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 - 2.2.0 | 发行版本 2.3.0 - 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 - 2.8.0 | 版本2.9.0-2.17.14 | 发行版本 2.18.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **[页面](components/page.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
+| **[标题](components/title.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
+| **[图像](components/image.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
+| **[列表](components/list.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
+| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
+| **[社交媒体共享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[表单容器](components/forms/form-container.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
+| **[表单文本](components/forms/form-text.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
+| **[表单选项](components/forms/form-options.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
+| **[表单隐藏](components/forms/form-hidden.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
+| **[表单按钮](components/forms/form-button.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
+| **[内容片段](components/content-fragment-component.md)** |  | 沙盒 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1，v2 | v1，v2 | v1，v2 |
+| **[导航](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1，v2 |
+| **[语言导航](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1，v2 |
+| **[快速搜索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1，v2 |
+| **[选项卡](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[轮盘](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[分隔符](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[内容片段列表](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1，v2 |
+| **[折叠](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[按钮](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1，v2 |
+| **[容器](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[下载](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1，v2 |
+| **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1，v2 |
+| **[嵌入](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1，v2 |
+| **[进度条](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[PDF 查看器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 |
 
 ## 版本和发行版本 {#versions-and-releases}
 
 核心组件通过 GitHub 分发。这使得 Adobe 可以更快地向组件添加功能，还可以允许社区在 AEM 发行版本周期之外输入内容。
 
-核心组件与定义的兼容 AEM 版本一起提供。这意味着一个 AEM 版本可以支持核心组件的多个版本或发行版本。这比以前的基础组件提供了更好的灵活性，这些旧组件仅绑定到特定的 AEM 版本。
+核心组件与定义的兼容 AEM 版本一起提供。这意味着一个 AEM 版本可以支持核心组件的多个版本或发行版本。
 
 ### 版本 {#versions}
 
@@ -126,11 +127,11 @@ ht-degree: 100%
 
 ### 发行版本 {#releases}
 
-核心组件按&#x200B;**发行版本**&#x200B;提供，[表示 GitHub 上实际发布的工件](https://github.com/adobe/aem-core-wcm-components/releases)。发行版本使用格式为 X.Y.Z 的小数表示，将所有核心组件收集在一起作为可交付程序包。
+核心组件按&#x200B;**发行版本**&#x200B;提供，[表示 GitHub 上实际发布的工件](https://github.com/adobe/aem-core-wcm-components/releases)。版本的表示格式采用十进制数 `X.Y.Z` 并将所有核心组件作为可交付包一起收集。
 
-* **主要发行版本**&#x200B;可能会引入现有组件的新版本，以及全新的组件和标准修复。这由发行版本编号中的 X 部分的增加来表示。
-* **重要发行版本**&#x200B;可能会对现有组件版本引入新功能以及标准修复。这由发行版本编号中的 Y 部分的增加来表示。
-* **次发行版本**&#x200B;仅包含错误修复。这由发行版本编号中的 Z 部分的增加来表示。
+* **主要版本** 引入全新组件、改进了组件的现有版本，以及标准错误修复。 这由 `X` 版本号的组件。
+* **次要版本** 在现有组件版本中引入新组件、新增功能以及错误修复。 这由 `Y` 版本号的组件。
+* **修补程序版本** 仅包含错误修复。 这由 `Z` 版本号的组件。
 
 >[!NOTE]
 >
@@ -140,7 +141,7 @@ ht-degree: 100%
 
 ## 核心组件支持 {#core-components-support}
 
-核心组件是 AEM 的一个组成部分，依原样提供支持，并作为“快速入门”的一部分提供，须遵循相同的条款和条件。
+核心组件是AEM的一个组成部分，在相同的条款和条件下受支持，就像它们作为快速入门的一部分提供一样。
 
 与其他产品功能一样，其生命周期结束的一般规则是：
 

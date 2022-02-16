@@ -1,16 +1,16 @@
 ---
-title: 语言导航组件
+title: 语言导航组件 (v1)
 description: 语言导航组件提供对站点的语言/国家或地区导航，以便访客能够导航到采用不同区域设置的相同页面。
 role: Architect, Developer, Admin, User
-exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 80%
+source-wordcount: '810'
+ht-degree: 94%
 
 ---
 
-# 语言导航组件{#language-navigation-component}
+
+# 语言导航组件 (v1) {#language-navigation-component}
 
 语言导航组件提供对站点的语言/国家或地区导航，以便访客能够导航到采用不同区域设置的相同页面。
 
@@ -25,16 +25,13 @@ ht-degree: 80%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-语言导航组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+本文档介绍了语言导航组件v1，该组件在2018年1月的核心组件2.0.0版中引入。
 
-下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
-
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | 兼容 | 兼容 |
-| [v1](v1/language-navigation.md) | 兼容 | 兼容 | 兼容 |
-
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文档介绍语言导航组件的v1。
+>
+>有关当前版本的语言导航组件的详细信息，请参阅 [语言导航组件](/help/components/language-navigation.md) 文档。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -48,7 +45,7 @@ ht-degree: 80%
 
 ## “设计”对话框 {#design-dialog}
 
-设计对话框允许定义全局站点导航根目录以及导航在结构中的深度。
+利用“编辑”对话框，可以定义全局站点导航根目录以及结构中的导航深度。
 
 通常，这些配置只需在页面模板级别完成。不过，可通过[“编辑”对话框](#edit-dialog)在页面级别对其进行更改。
 
@@ -96,9 +93,7 @@ ht-degree: 80%
 
 ## “编辑”对话框 {#edit-dialog}
 
-### “属性”选项卡 {#properties-tab-edit}
-
-通常，只需在站点的页面模板中添加和配置语言导航组件。但是，如果语言导航组件需要添加到单个内容页面，则内容作者可以通过编辑对话框配置与 [设计对话框](#design-dialog)
+通常，只需在站点的页面模板中添加和配置语言导航组件。不过，如果需要将语言导航组件添加到单个内容页面，内容作者可以利用“编辑”对话框配置[“设计”对话框](#design-dialog)中描述的相同值。
 
 此外，您可以设置 **ID**。利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
 
@@ -107,22 +102,6 @@ ht-degree: 80%
 * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ![语言导航组件的“编辑”对话框](/help/assets/language-navigation-edit.png)
-
-### “辅助功能”选项卡 {#accessibility-tab}
-
-* **标签**  — 如果页面上有多个语言导航，用于设置组件的aria label属性，则应定义此选项。
-
-![语言导航辅助功能选项卡](/help/assets/language-navigation-edit-accessibility.png)
-
-### “样式”选项卡 {#styles-tab-edit}
-
-语言导航组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
-
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
-
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
-
-![语言导航组件编辑对话框的样式选项卡](/help/assets/language-navigation-edit-styles.png)
 
 ## Adobe Client Data Layer {#data-layer}
 

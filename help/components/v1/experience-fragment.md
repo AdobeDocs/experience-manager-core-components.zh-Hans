@@ -1,16 +1,16 @@
 ---
-title: 体验片段组件
+title: 体验片段组件 (v1)
 description: 使用体验片段组件，内容作者可以向页面添加体验片段变体。
 role: Architect, Developer, Admin, User
-exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 88%
+source-wordcount: '780'
+ht-degree: 94%
 
 ---
 
-# 体验片段组件{#experience-fragment-component}
+
+# 体验片段组件 (v1) {#experience-fragment-component}
 
 使用核心组件体验片段组件，内容作者可以在支持本地化网站结构时，在页面上放置体验片段变体。
 
@@ -23,16 +23,13 @@ ht-degree: 88%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-体验片段组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+本文档介绍了体验片段组件的v1，该组件在2019年9月的核心组件2.6.0版中引入。
 
-下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
-
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | 兼容 | 兼容 |
-| [v1](v1/experience-fragment.md) | 兼容 | 兼容 | 兼容 |
-
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文档介绍体验片段组件的v1。
+>
+>有关当前版本的体验片段组件的详细信息，请参阅 [体验片段组件](/help/components/experience-fragment.md) 文档。
 
 ## 本地化网站结构支持 {#localized-site-structure}
 
@@ -128,16 +125,6 @@ ht-degree: 88%
 * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
 * 如果指定一个 ID，作者有责任确保它是唯一的。
 * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
-
-### “样式”选项卡 {#styles-tab-edit}
-
-![体验片段组件编辑对话框的样式选项卡](/help/assets/experience-fragment-edit-styles.png)
-
-体验片段组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
-
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
-
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
 
 ## “设计”对话框 {#design-dialog}
 

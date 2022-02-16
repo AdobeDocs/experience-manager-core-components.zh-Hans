@@ -1,16 +1,16 @@
 ---
-title: 导航组件
+title: 导航组件 (v1)
 description: 使用导航组件，用户可轻松地在全局化网站结构中导航。
 role: Architect, Developer, Admin, User
-exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 93%
+source-wordcount: '1430'
+ht-degree: 97%
 
 ---
 
-# 导航组件{#navigation-component}
+
+# 导航组件 (v1) {#navigation-component}
 
 使用导航组件，用户可轻松地在全局化网站结构中导航。
 
@@ -24,16 +24,13 @@ ht-degree: 93%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-导航组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+本文档介绍导航组件v1，该组件在2018年1月的核心组件2.0.0版中引入。
 
-下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
-
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | 兼容 | 兼容 |
-| [v1](v1/navigation.md) | 兼容 | 兼容 | 兼容 |
-
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+>[!CAUTION]
+>
+>本文档介绍导航组件的v1。
+>
+>有关导航组件当前版本的详细信息，请参阅 [导航组件](/help/components/navigation.md) 文档。
 
 ## 本地化网站结构支持 {#localized-site-structure}
 
@@ -155,16 +152,6 @@ ht-degree: 93%
 在&#x200B;**辅助功能**&#x200B;选项卡上，可以为组件的 [ARIA 辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/)标签设置值。
 
 * **标签** - 组件的 ARIA 标签属性的值
-
-### “样式”选项卡 {#styles-tab-edit}
-
-导航组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
-
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
-
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
-
-![导航组件编辑对话框的样式选项卡](/help/assets/navigation-edit-styles.png)
 
 ## “设计”对话框 {#design-dialog}
 
