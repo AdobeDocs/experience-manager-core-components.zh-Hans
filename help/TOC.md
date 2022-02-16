@@ -4,9 +4,9 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: Core Components 指南
 user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [核心组件简介](introduction.md)
 + [获得成功的途径](developing/success.md)
 + [组件库](https://adobe.com/go/aem_cmp_library_cn)
-+ [核心组件版本](versions.md)
++ [版本](versions.md)
 + 开始使用 {#get-started}
    + [通过核心组件创作](get-started/authoring.md)
    + [使用核心组件](get-started/using.md)
