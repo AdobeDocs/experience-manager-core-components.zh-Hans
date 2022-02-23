@@ -4,9 +4,9 @@ description: Teaser 组件可以显示图像、标题、富文本并可以选择
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '999'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 69%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-Teaser组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+Teaser 组件的当前版本是 v2，此版本随 2022 年 2 月的核心组件发行版 2.18.0 的发布引入，具体说明见本文。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
@@ -47,16 +47,16 @@ Teaser组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0�
 
 ### “链接”选项卡 {#links-tab}
 
-![Teaser组件的编辑对话框链接选项卡](/help/assets/teaser-edit-links.png)
+![Teaser 组件的“编辑”对话框中的“链接”选项卡](/help/assets/teaser-edit-links.png)
 
 可从链接的页面或从第一个行动号召中链接的页面继承 Teaser 标题、描述和图像。如果未指定链接和行动号召，将从当前页面继承标题、描述和图像。
 
-* **链接**  — 此文件链接到内容页面、外部URL或页面锚点。
-* **在新选项卡中打开链接**  — 如果启用，将在新的浏览器选项卡中打开该链接。
-* **行动动员**  — 此选项允许链接到多个目标。
-   * 在继承Teaser标题、描述或图像时，将使用第一个行动动员中链接的页面。
+* **链接** - 此文件链接到内容页面、外部 URL 或页面锚点。
+* **在新标签页中打开链接** - 如果启用，将在一个新的浏览器标签页中打开链接。
+* **行动号召** - 此选项允许链接到多个目标。
+   * 在继承 Teaser 标题、描述或图像时使用第一个行动号召中链接的页面。
 
-### 文本选项卡 {#text-tab}
+### “文本”选项卡 {#text-tab}
 
 ![Teaser 组件的“编辑”对话框中的“文本”选项卡](/help/assets/teaser-edit-text.png)
 
@@ -74,13 +74,13 @@ Teaser组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0�
 
 ![Teaser 组件的“编辑”对话框中的“图像”选项卡](/help/assets/teaser-edit-image.png)
 
-* **从页面继承特色图像**  — 使用在链接页面或当前页面的页面属性中定义的图像（如果未找到）。
-* **图像资产**  — 从 [资产浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 或点按 **浏览** 用于从本地文件系统上传的选项。
+* **从页面继承精选图像** - 使用链接页面的页面属性中定义的图像，如果没有找到，则使用当前页面。
+* **图像资源** - 在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)中放置资源或点击&#x200B;**浏览**&#x200B;选项以从本地文件系统上传。
    * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
    * 点击或单击&#x200B;**“编辑”**&#x200B;可在资源编辑器中[管理资源的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
-* **辅助功能的替换文本**  — 利用此字段，可为视力受损的用户定义图像描述。
-   * **从页面继承替换文本**  — 此选项使用 `dc:description` 元数据（如果未关联资产）或当前页面的元数据。
-* **不提供替换文本**  — 当图像仅起装饰作用，或者没有向页面传达任何其他信息时，此选项会标记图像，并且这些信息会被屏幕阅读器等辅助技术忽略。
+* **用于辅助功能的替换文本** - 此字段允许您为视障用户定义图像的描述。
+   * **从页面继承替换文本** - 此选项使用 DAM 中 `dc:description` 元数据的链接资源值的替代描述或当前页面的替代描述（如果未链接资源）。
+* **不提供替换文本** - 此选项将图像标记为被屏幕阅读器等辅助技术忽略，以用于图像纯粹起装饰作用或不向页面传达额外信息的情况。
 
 >[!NOTE]
 >
@@ -88,13 +88,13 @@ Teaser组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0�
 
 ### “样式”选项卡 {#styles-tab-edit}
 
-![Teaser列表组件编辑对话框的样式选项卡](/help/assets/teaser-edit-styles.png)
+![Teaser 列表组件“编辑”对话框的“样式”选项卡](/help/assets/teaser-edit-styles.png)
 
-Teaser组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
+Teaser 组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
+使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
+必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便下拉菜单可用。
 
 ## “编辑”对话框 {#edit-dialog}
 
@@ -108,14 +108,14 @@ Teaser 组件将图像渲染委派给[图像组件](image.md)。因此，内容�
 
 ![Teaser 组件的“设计”对话框](/help/assets/teaser-design.png)
 
-* **行为召唤**
-   * **禁用行为召唤** - 对内容作者隐藏&#x200B;**行为召唤**&#x200B;选项
+* **行动号召**
+   * **禁用行动号召** - 对内容作者隐藏&#x200B;**行动号召**&#x200B;选项
 * **元素**
    * **隐藏前标题** - 对内容作者隐藏&#x200B;**前标题**&#x200B;选项
    * **隐藏标题** - 对内容作者隐藏&#x200B;**标题**&#x200B;选项
       * 在选中时，将隐藏&#x200B;**标题类型**
    * **隐藏描述** - 对内容作者隐藏&#x200B;**描述**&#x200B;选项
-* **默认标题类型**  — 定义Teaser标题要使用的H标记。
+* **默认标题类型** - 定义由 Teaser 的标题使用的 H 标记。
 * **图像委派** - 信息性显示，指示 Teaser 将图像处理委派到的组件。
 
 ### “样式”选项卡 {#styles-tab}
