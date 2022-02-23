@@ -1,18 +1,18 @@
 ---
 title: 页面组件
-description: “页面组件”是指可扩展的页面组件，设计用于模板编辑器，允许使用模板编辑器来组装页眉/页脚和结构组件。
+description: 页面组件是指可扩展的页面组件，设计用于模板编辑器，允许使用模板编辑器来组装页眉/页脚和结构组件。
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 页面组件{#page-component}
 
-“页面组件”是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，允许使用模板编辑器来组装页眉/页脚和结构组件。
+页面组件是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，允许使用模板编辑器来组装页眉/页脚和结构组件。
 
 ## 用途 {#usage}
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-页面组件的当前版本为v3，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+页面组件的当前版本是 v3，此版本随 2022 年 2 月的核心组件发行版 2.18.0 的发布引入，具体说明见本文。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
@@ -71,7 +71,7 @@ ht-degree: 92%
 
 * **跳到主内容元素选择器** - 用作可访问性功能，以直接跳到页面的主内容。
 
-* **呈现替代语言链接**  — 如果启用，则指向同一站点中页面其他语言版本的链接将添加到页面标题中。
+* **呈现替代语言链接** - 如果启用，则指向同一站点中页面的替代语言版本的链接将被添加到该页面的头部。
 
 ![页面组件设计对话框](/help/assets/page-design.png)
 
