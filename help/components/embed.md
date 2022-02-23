@@ -4,9 +4,9 @@ description: 使用嵌入组件可以在 AEM 内容页面中嵌入外部内容�
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1395'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-嵌入组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+嵌入组件的当前版本是 v2，此版本随 2022 年 2 月的核心组件发行版 2.18.0 的发布引入，具体说明见本文。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
@@ -56,7 +56,7 @@ ht-degree: 92%
 * [可嵌入内容](#embeddable)
 * [HTML](#html)
 
-对于每种类型的可嵌入项，您可以定义 **ID**. 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
+对于每种可嵌入的类型，您可以定义 **ID**。利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
 
 * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
 * 如果指定一个 ID，作者有责任确保它是唯一的。
@@ -111,7 +111,7 @@ ht-degree: 92%
 
 出于安全目的，作者可以输入的 HTML 标记将筛选掉，以避免跨站点脚本攻击，例如，此类攻击可允许作者获取管理权限。
 
-一般来说，所有脚本和 `style` 元素以及 `on*` 和 `style` 属性，都将从输出中删除。
+一般来说，所有脚本和 `style` 元素以及 `on*` 和 `style` 属性都将从输出中删除。
 
 但是，规则更复杂，因为嵌入组件遵循 AEM 的全局 HTML AntiSamy 净化框架筛选规则集，此规则集可在 `/libs/cq/xssprotection/config.xml` 中找到。如果需要，这可以由开发人员覆盖以提供项目特定的配置。
 
@@ -123,13 +123,13 @@ ht-degree: 92%
 
 ### “样式”选项卡 {#styles-tab-edit}
 
-![嵌入组件编辑对话框的“样式”选项卡](/help/assets/embed-styles.png)
+![嵌入组件“编辑”对话框的“样式”选项卡](/help/assets/embed-styles.png)
 
-嵌入组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
+嵌入组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
+使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
+必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便下拉菜单可用。
 
 ## “设计”对话框 {#design-dialog}
 
