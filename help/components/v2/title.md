@@ -3,9 +3,9 @@ title: 标题组件 (v2)
 description: 核心组件标题组件是章节标题组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 94%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍了标题组件的v2，该组件在2018年1月的核心组件版本2.0.0中引入。
+本文档介绍了标题组件 v2，此版本随 2018 年 1 月的核心组件发行版本 2.0.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍标题组件的v2。
+>本文档介绍了标题组件 v2。
 >
 >有关当前版本的标题组件的详细信息，请参阅[标题组件](/help/components/title.md)文档。
 
