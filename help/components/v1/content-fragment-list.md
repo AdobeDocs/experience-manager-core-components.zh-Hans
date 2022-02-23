@@ -3,9 +3,9 @@ title: 内容片段列表组件 (v1)
 description: 利用核心组件内容片段列表组件，可显示内容片段的列表。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '725'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 93%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍了内容片段组件v1，该组件在2019年5月的核心组件2.4.0版中引入。
+本文档介绍了内容片段组件 v1，此版本随 2019 年 5 月的核心组件发行版本 2.4.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍内容片段列表组件的v1。
+>本文档介绍了内容片段列表组件 v1。
 >
->有关当前版本的内容片段列表组件的详细信息，请参阅 [内容片段列表组件](/help/components/content-fragment-list.md) 文档。
+>有关当前版本的内容片段列表组件的详细信息，请参阅[内容片段列表组件](/help/components/content-fragment-list.md)文档。
 
 ## 示例组件输出 {#sample-component-output}
 
