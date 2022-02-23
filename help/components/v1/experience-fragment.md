@@ -3,9 +3,9 @@ title: 体验片段组件 (v1)
 description: 使用体验片段组件，内容作者可以向页面添加体验片段变体。
 role: Architect, Developer, Admin, User
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 94%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍了体验片段组件的v1，该组件在2019年9月的核心组件2.6.0版中引入。
+本文档介绍了体验片段组件 v1，此版本随 2019 年 9 月的核心组件发行版本 2.6.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍体验片段组件的v1。
+>本文档介绍了体验片段组件 v1。
 >
->有关当前版本的体验片段组件的详细信息，请参阅 [体验片段组件](/help/components/experience-fragment.md) 文档。
+>有关当前版本的体验片段组件的详细信息，请参阅[体验片段组件](/help/components/experience-fragment.md)文档。
 
 ## 本地化网站结构支持 {#localized-site-structure}
 
