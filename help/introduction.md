@@ -4,9 +4,9 @@ description: '核心组件提供基于最新技术和最佳实践构建的强大
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 01f57b2d547d2c1ab87b552522375a0a07496a23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 99%
 
 ## 系统要求 {#system-requirements}
 
-| 核心组件 发行版本 | AEM as a Cloud Service | AEM 6.5修补程序级别 | Java SE版本 | Maven版本 |
+| 核心组件发行版本 | AEM as a Cloud Service | AEM 6.5 补丁级别 | Java SE 版本 | Maven 版本 |
 |---------|---------|---------|---------|---------|
 | [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 连续 | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
 
