@@ -3,9 +3,9 @@ title: 语言导航组件 (v1)
 description: 语言导航组件提供对站点的语言/国家或地区导航，以便访客能够导航到采用不同区域设置的相同页面。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 94%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍了语言导航组件v1，该组件在2018年1月的核心组件2.0.0版中引入。
+本文档介绍了语言导航组件 v1，此版本随 2018 年 1 月的核心组件发行版本 2.0.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍语言导航组件的v1。
+>本文档介绍了语言导航组件 v1。
 >
->有关当前版本的语言导航组件的详细信息，请参阅 [语言导航组件](/help/components/language-navigation.md) 文档。
+>有关当前版本的语言导航组件的详细信息，请参阅[语言导航组件](/help/components/language-navigation.md)文档。
 
 ## 示例组件输出 {#sample-component-output}
 
