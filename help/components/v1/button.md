@@ -3,9 +3,9 @@ title: 按钮组件 (v1)
 description: 利用核心组件按钮组件，可创建和显示按钮。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 89%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-该文档介绍了按钮组件v1，该组件于2019年6月随核心组件2.5.0版引入。
+本文档介绍了按钮组件 v1，此版本随 2019 年 6 月的核心组件发行版本 2.5.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍按钮组件的v1。
+>本文档介绍了按钮组件 v1。
 >
->有关按钮组件当前版本的详细信息，请参阅 [按钮组件](/help/components/button.md) 文档。
+>有关当前版本的按钮组件的详细信息，请参阅[按钮组件](/help/components/button.md)文档。
 
 ## 示例组件输出 {#sample-component-output}
 
