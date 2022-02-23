@@ -4,9 +4,9 @@ description: 利用核心组件下载组件，可在页面上创建下载选项�
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-下载组件的当前版本为v2，该版本于2022年2月随核心组件2.18.0版引入，在本文档中进行了描述。
+下载组件的当前版本是 v2，此版本随 2022 年 2 月的核心组件发行版 2.18.0 的发布引入，具体说明见本文。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
@@ -77,13 +77,13 @@ ht-degree: 87%
 
 ### “样式”选项卡 {#styles-tab-edit}
 
-![下载组件编辑对话框的样式选项卡](/help/assets/download-edit-styles.png)
+![下载组件“编辑”对话框的“样式”选项卡](/help/assets/download-edit-styles.png)
 
-下载组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling).
+下载组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-使用下拉菜单选择要应用于组件的样式。 在编辑对话框中所做的选择与从组件工具栏中选择的选项具有相同的效果。
+使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
-必须在 [设计对话框](#design-dialog) 以便下拉菜单可用。
+必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便下拉菜单可用。
 
 ## “设计”对话框 {#design-dialog}
 
