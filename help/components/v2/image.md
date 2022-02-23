@@ -3,9 +3,9 @@ title: 图像组件 (v2)
 description: 核心组件图像组件是一个自适应图像组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2228'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 99%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍了2018年1月核心组件2.0.0版中引入的图像组件v2。
+本文档介绍了图像组件 v2，此版本随 2018 年 1 月的核心组件发行版本 2.0.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍了图像组件 (v1)。
+>本文档介绍了图像组件 v1。
 >
 >有关当前版本的图像组件的详细信息，请参阅[图像组件](/help/components/image.md)文档。
 
