@@ -1,11 +1,11 @@
 ---
-title: 下载组件(v1)
+title: 下载组件 (v1)
 description: 利用核心组件下载组件，可在页面上创建下载选项。
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 93%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍了2019年6月核心组件2.5.0版引入的下载组件v1。
+本文档介绍了下载组件 v1，此版本随 2019 年 6 月的核心组件发行版本 2.5.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍下载组件的v1。
+>本文档介绍了下载组件 v1。
 >
->有关下载组件当前版本的详细信息，请参阅 [下载组件](/help/components/download.md) 文档。
+>有关当前版本的下载组件的详细信息，请参阅[下载组件](/help/components/download.md)文档。
 
 ## 示例组件输出 {#sample-component-output}
 
