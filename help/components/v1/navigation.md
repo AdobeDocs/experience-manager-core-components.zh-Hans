@@ -3,9 +3,9 @@ title: 导航组件 (v1)
 description: 使用导航组件，用户可轻松地在全局化网站结构中导航。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 97%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍导航组件v1，该组件在2018年1月的核心组件2.0.0版中引入。
+本文档介绍了导航组件 v1，此版本随 2018 年 1 月的核心组件发行版本 2.0.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍导航组件的v1。
+>本文档介绍了导航组件 v1。
 >
->有关导航组件当前版本的详细信息，请参阅 [导航组件](/help/components/navigation.md) 文档。
+>有关当前版本的导航组件的详细信息，请参阅[导航组件](/help/components/navigation.md)文档。
 
 ## 本地化网站结构支持 {#localized-site-structure}
 
