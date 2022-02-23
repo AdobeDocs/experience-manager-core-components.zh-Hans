@@ -3,9 +3,9 @@ title: 痕迹导航组件 (v2)
 description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层级中的位置构建链接的痕迹导航。
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 97%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍了痕迹导航组件v2，该组件在2018年1月的核心组件2.0.0版中引入。
+本文档介绍了痕迹导航组件 v2，此版本随 2018 年 1 月的核心组件发行版本 2.0.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍了痕迹导航组件 (v2)。
+>本文档介绍了痕迹导航组件 v2。
 >
 >有关当前版本的痕迹导航组件的详细信息，请参阅[痕迹导航组件](/help/components/breadcrumb.md)文档。
 
