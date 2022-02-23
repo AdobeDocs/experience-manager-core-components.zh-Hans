@@ -1,18 +1,18 @@
 ---
 title: 页面组件 (v2)
-description: “页面组件”是指可扩展的页面组件，设计用于模板编辑器，允许使用模板编辑器来组装页眉/页脚和结构组件。
+description: 页面组件是指可扩展的页面组件，设计用于模板编辑器，允许使用模板编辑器来组装页眉/页脚和结构组件。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # 页面组件 (v2) {#page-component}
 
-“页面组件”是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，允许使用模板编辑器来组装页眉/页脚和结构组件。
+页面组件是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，允许使用模板编辑器来组装页眉/页脚和结构组件。
 
 ## 用途 {#usage}
 
@@ -22,11 +22,11 @@ ht-degree: 97%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍页面组件v2，该版本于2018年1月在核心组件2.0.0版中引入。
+本文档介绍了页面组件 v2，此版本随 2018 年 1 月的核心组件发行版本 2.0.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍了页面组件 (v2)。
+>本文档介绍了页面组件 v2。
 >
 >有关当前版本的页面组件的详细信息，请参阅[页面组件](/help/components/page.md)文档。
 
