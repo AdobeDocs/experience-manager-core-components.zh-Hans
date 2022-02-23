@@ -3,9 +3,9 @@ title: 列表组件 (v2)
 description: 利用核心组件列表组件，可以轻松地创建动态和静态列表。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 98%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍列表组件v1，该版本于2018年1月在核心组件2.0.0版中引入。
+本文档介绍了列表组件 v1，此版本随 2018 年 1 月的核心组件发行版本 2.0.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍了列表组件 (v2)。
+>本文档介绍了列表组件 v2。
 >
 >有关当前版本的列表组件的详细信息，请参阅[列表组件](/help/components/list.md)文档。
 
