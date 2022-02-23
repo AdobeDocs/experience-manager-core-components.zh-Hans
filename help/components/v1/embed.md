@@ -1,11 +1,11 @@
 ---
-title: 嵌入组件(v1)
+title: 嵌入组件 (v1)
 description: 使用嵌入组件可以在 AEM 内容页面中嵌入外部内容。
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 96%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍了嵌入组件v1，该组件在2019年9月的核心组件2.7.0版中引入。
+本文档介绍了嵌入组件 v1，此版本随 2019 年 9 月的核心组件发行版本 2.7.0 的发布引入。
 
 >[!CAUTION]
 >
->本文档介绍嵌入组件的v1。
+>本文档介绍了嵌入组件 v1。
 >
->有关嵌入组件当前版本的详细信息，请参阅 [嵌入组件](/help/components/embed.md) 文档。
+>有关当前版本的嵌入组件的详细信息，请参阅[嵌入组件](/help/components/embed.md)文档。
 
 ## 示例组件输出 {#sample-component-output}
 
