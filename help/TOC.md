@@ -1,8 +1,8 @@
 ---
 sub-product: AEM Core Components
 user-guide-title: AEM 核心组件
-breadcrumb-title: Core Components 指南
-user-guide-description: 使用可扩展的 Core Components 让作者轻松创建内容。
+breadcrumb-title: 核心组件指南
+user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt

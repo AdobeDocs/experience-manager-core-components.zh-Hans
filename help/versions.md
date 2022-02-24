@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
 source-wordcount: '2389'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 92%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 此主要版本的核心组件在多个组件的新版本中引入了新的链接处理程序，同时还进行了许多辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022年2月16日 |
-| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个修补程序版本。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 12 月 13 日 |
-| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个修补程序版本，它修复了先前版本中引入的回归。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 10 月 1 日 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 核心组件的这个主要发行版本引入了新链接处理程序，它跨多个组件的新版本，以及许多辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 2 月 16 日 |
+| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 12 月 13 日 |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本，修复了上一个版本引入的回归。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 10 月 1 日 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此补丁增强了 [List](/help/components/list.md) 和 [Navigation](/help/components/navigation.md) 组件以显示重定向目标的外部 URL，支持即将发布的 v2 的 [Teaser](/help/components/teaser.md) 组件的页面图像继承以及包含其他错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 8 月 31 日 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 这是一个补丁发行版本，用于修复之前引入的无法向后兼容的更改。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 8 月 2 日 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此补丁发行版本添加了对页面的网站地图的支持，并包括各种辅助功能改进。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 7 月 29 日 |
@@ -80,13 +80,13 @@ ht-degree: 92%
 
 下表详细列出了哪些组件的哪些版本包括在核心组件的哪些发行版本中。
 
-|  | 发行版本 1.0.0 - 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 - 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 - 2.2.0 | 发行版本 2.3.0 - 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 - 2.8.0 | 版本2.9.0-2.17.14 | 发行版本 2.18.0+ |
+|  | 发行版本 1.0.0 - 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 - 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 - 2.2.0 | 发行版本 2.3.0 - 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 - 2.8.0 | 发行版本 2.9.0 - 2.17.14 | 发行版本 2.18.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[页面](components/page.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
-| **[标题](components/title.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
-| **[图像](components/image.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
-| **[列表](components/list.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
-| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2, v3 |
+| **[页面](components/page.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2，v3 |
+| **[标题](components/title.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2，v3 |
+| **[图像](components/image.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2，v3 |
+| **[列表](components/list.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2，v3 |
+| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2，v3 |
 | **[社交媒体共享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[表单容器](components/forms/form-container.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
 | **[表单文本](components/forms/form-text.md)** | v1 | v1 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
@@ -127,11 +127,11 @@ ht-degree: 92%
 
 ### 发行版本 {#releases}
 
-核心组件按&#x200B;**发行版本**&#x200B;提供，[表示 GitHub 上实际发布的工件](https://github.com/adobe/aem-core-wcm-components/releases)。版本的表示格式采用十进制数 `X.Y.Z` 并将所有核心组件作为可交付包一起收集。
+核心组件按&#x200B;**发行版本**&#x200B;提供，[表示 GitHub 上实际发布的工件](https://github.com/adobe/aem-core-wcm-components/releases)。发行版本使用格式为 `X.Y.Z` 的小数表示，将所有核心组件收集在一起作为可交付程序包。
 
-* **主要版本** 引入全新组件、改进了组件的现有版本，以及标准错误修复。 这由 `X` 版本号的组件。
-* **次要版本** 在现有组件版本中引入新组件、新增功能以及错误修复。 这由 `Y` 版本号的组件。
-* **修补程序版本** 仅包含错误修复。 这由 `Z` 版本号的组件。
+* **主要发行版本**&#x200B;引入了全新组件、对现有组件版本的改进以及标准错误修复。这由发行版本编号中 `X` 部分的增加来表示。
+* **次要发行版本**&#x200B;引入了新组件、现有组件版本的新功能以及错误修复。这由发行版本编号中 `Y` 部分的增加来表示。
+* **补丁发行版本**&#x200B;仅包含错误修复。这由发行版本编号中 `Z` 部分的增加来表示。
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ ht-degree: 92%
 
 ## 核心组件支持 {#core-components-support}
 
-核心组件是AEM的一个组成部分，在相同的条款和条件下受支持，就像它们作为快速入门的一部分提供一样。
+核心组件是 AEM 的一个组成部分，作为“快速入门”的一部分提供，遵循相同的条款和条件。
 
 与其他产品功能一样，其生命周期结束的一般规则是：
 
