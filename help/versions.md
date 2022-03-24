@@ -4,9 +4,9 @@ description: 核心组件作为发行版本发布，发行版本可能包含相�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 99%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 此版本修复了AEMaCS的问题。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022年3月17日 |
-| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 这是一个补丁发行版本。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022年3月3日 |
+| [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 此版本修复了 AEMaaCS 的一个问题。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 3 月 17 日 |
+| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 这是一个补丁发行版本。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 3 月 |
 | [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 核心组件的这个主要发行版本引入了新链接处理程序，它跨多个组件的新版本，以及许多辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 2 月 16 日 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 12 月 13 日 |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本，修复了上一个版本引入的回归。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 10 月 1 日 |
