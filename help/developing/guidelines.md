@@ -3,10 +3,10 @@ title: 组件准则
 description: 核心组件遵循的现代实施模式与基础组件大为不同。
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: ht
-source-wordcount: '1264'
-ht-degree: 100%
+source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
+workflow-type: tm+mt
+source-wordcount: '1267'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ HTL 设计作为针对 AEM 定制的简单安全的模板语言。它可以调�
 
 ![资源绑定概览](/help/assets/chlimage_1-32.png)
 
-下面是其他概述，其中并未显示实施 POJO 的详细信息，而是揭示了如何引用关联的[模板和策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html)。
+下面是其他概述，其中并未显示实施 POJO 的详细信息，而是揭示了如何引用关联的[模板和策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html)。
 
 `cq:allowedTemplates` 属性说明哪些模板可以用于网站，`cq:template` 说明关联模板的对应页面。每个模板由以下三个部分组成：
 

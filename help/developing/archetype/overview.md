@@ -4,10 +4,10 @@ description: 基于 AEM 的应用程序的项目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
-workflow-type: ht
-source-wordcount: '1148'
-ht-degree: 100%
+source-git-commit: a4ed30ad613efab89f10788a41a5dee8d663bf6c
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ AEM 项目原型是一个 Maven 模板，它创建最小的基于最佳实践的
 * **页眉和页脚：**&#x200B;收集页眉和页脚，并使用[组件的本地化功能](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html)将其本地化而不是使用代码。
 * **样式系统：**&#x200B;通过允许作者向自定义组件[应用不同的样式](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html)来避免构建这些组件。
 * **前端构建：**&#x200B;前端开发人员可以使用 Webpack、TypeScript 和 SASS [模拟 AEM 页面](uifrontend.md#webpack-dev-server)和[构建客户端库](uifrontend.md)。
-* **Web 应用程序就绪：**&#x200B;对于使用 [React](uifrontend-react.md) 或 [Angular](uifrontend-angular.md) 的网站，使用 [SPA 开发工具包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/developing.html)保持[应用程序的上下文中创作](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。
+* **Web 应用程序就绪：**&#x200B;对于使用 [React](uifrontend-react.md) 或 [Angular](uifrontend-angular.md) 的网站，使用 [SPA 开发工具包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html)保持[应用程序的上下文中创作](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)。
 * **启用 Commerce：**&#x200B;对于要将 [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) 与 [Magento](https://magento.com/) 等商业解决方案集成的项目，使用 [Commerce 核心组件](https://github.com/adobe/aem-core-cif-components)。
 * **示例代码：**&#x200B;查看 HelloWorld 组件以及示例模型、servlet、过滤器和调度程序。
 * **开源：**&#x200B;如果有出错的地方，请[做出](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)您的改进！
@@ -82,7 +82,7 @@ mvn -B archetype:generate \
 | `aemVersion` | `cloud` | 目标 AEM 版本（可以是 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 的 `cloud`；或 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署的 `6.5.0` 或 `6.4.4`）。 |
 | `sdkVersion` | `latest` | 在为 `aemVersion=cloud` 时，可指定[开发工具包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)版本（例如 `2020.02.2265.20200217T222518Z-200130`）。 |
 | `includeDispatcherConfig` | `y` | 包括用于云或 AMS/内部部署的 Dispatcher 配置，具体取决于 `aemVersion` 的值（可以是 `y` 或 `n`）。 |
-| `frontendModule` | `general` | 包含一个生成客户端库的 Webpack 前端构建模块（可以是面向常规站点的 `general` 或 `none`；可以是面向实施 [SPA 编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)的单页面应用程序的 `angular` 或 `react`）。 |
+| `frontendModule` | `general` | 包含一个生成客户端库的 Webpack 前端构建模块（可以是面向常规站点的 `general` 或 `none`；可以是面向实施 [SPA 编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html)的单页面应用程序的 `angular` 或 `react`）。 |
 | `language` | `en` | 从中创建内容结构的语言代码 (ISO 639-1)（例如 `en`、`deu`）。 |
 | `country` | `us` | 从中创建内容结构的国家/地区代码 (ISO 3166-1)（例如 `US`）。 |
 | `singleCountry` | `y` | 包含语言主导的内容结构（可以是 `y` 或 `n`）。 |
