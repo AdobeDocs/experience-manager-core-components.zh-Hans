@@ -4,9 +4,9 @@ description: '核心组件提供基于最新技术和最佳实践构建的强大
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: e92a4b594ed7528d7383afd68853df982bd991ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
