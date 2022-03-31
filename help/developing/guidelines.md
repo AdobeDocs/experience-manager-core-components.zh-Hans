@@ -4,9 +4,9 @@ description: 核心组件遵循的现代实施模式与基础组件大为不同�
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
