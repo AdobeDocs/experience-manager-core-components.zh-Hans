@@ -4,9 +4,9 @@ description: 核心组件图像组件是一个自适应图像组件，具备就�
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 1a02aea6cda2bb1f70ab97d7a439e2c8e64add52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1799'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->自适应图像 Servlet 支持通过 `Last-Modified` 标头进行有条件请求，但是 `Last-Modified` 标头的缓存[需要在 Dispatcher 中启用](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers)。
+>自适应图像 Servlet 支持通过 `Last-Modified` 标头进行有条件请求，但是 `Last-Modified` 标头的缓存[需要在 Dispatcher 中启用](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-Hans#caching-http-response-headers)。
 >
 >[AEM 项目原型](/help/developing/archetype/overview.md)的示例 Dispatcher 配置已经包含此配置。
 
