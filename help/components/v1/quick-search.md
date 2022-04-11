@@ -6,7 +6,7 @@ exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->本文档介绍快速搜索组件的v1。
->有关快速搜索组件当前版本的详细信息，请参阅 [快速搜索组件](/help/components/quick-search.md) 文档。
+>本文档介绍了快速搜索组件 (v1)。
+>有关当前版本的快速搜索组件的详细信息，请参阅[快速搜索组件](/help/components/quick-search.md)文档。
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
