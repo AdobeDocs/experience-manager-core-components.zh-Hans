@@ -4,9 +4,9 @@ description: Teaser 组件可以显示图像、标题、富文本并可以选择
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
 ## “编辑”对话框 {#edit-dialog}
 
-Teaser 组件将图像渲染委派给[图像组件](image-v1.md)。因此， [编辑对话框](image-v1.md#edit-dialog) 图像组件的可用于内容作者操作Teaser图像。
+Teaser 组件将图像渲染委派给[图像组件](image-v1.md)。因此，内容作者可以使用图像组件的[“编辑”对话框](image-v1.md#edit-dialog)来处理 Teaser 图像。
 
 ## “设计”对话框 {#design-dialog}
 
