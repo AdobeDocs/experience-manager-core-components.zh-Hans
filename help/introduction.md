@@ -1,12 +1,12 @@
 ---
 title: 核心组件简介
-description: '获取核心组件问题的解决方案，并允许其他人在AEM中创作元素。 '
+description: '获取核心组件问题的解决方案，并允许其他人在 AEM 中创作元素。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '924'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
