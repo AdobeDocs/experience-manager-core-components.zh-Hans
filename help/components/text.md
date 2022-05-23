@@ -4,7 +4,7 @@ description: 文本组件是一种富文本编辑和撰写组件，具有就地�
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: c041439e31a7da62739b6d5130c52dea36662a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2209'
 ht-degree: 100%
 
