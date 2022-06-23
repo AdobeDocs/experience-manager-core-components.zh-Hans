@@ -4,9 +4,9 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: 核心组件指南
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: ht
-source-wordcount: '245'
+source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 100%
    + [快速搜索](components/quick-search.md)
    + [分隔符](components/separator.md)
    + [社交媒体共享](components/sharing.md)
+   + [目录](components/tableofcontents.md)
    + [文本](components/text.md)
    + [选项卡](components/tabs.md)
    + [Teaser](components/teaser.md)

@@ -3,9 +3,9 @@ title: 核心组件简介
 description: '获取核心组件问题的解决方案，并允许其他人在 AEM 中创作元素。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 72f774c7e4bbcf0e2dfefb6f8294dd729eb0ea1b
-workflow-type: ht
-source-wordcount: '924'
+source-git-commit: c572a2f5ab4e975e0ef467ab071fd25b373be18b
+workflow-type: tm+mt
+source-wordcount: '927'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 |  |  |
 |---|---|
-| 可以即刻投入使用 | 核心组件是 28 个经过充分测试、广泛使用且性能出色的强大组件。 |
+| 可以即刻投入使用 | 核心组件是 30 个经过充分测试、广泛使用且性能出色的强大组件。 |
 | 云就绪 | 无论是在 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 上还是内部部署，这些组件都能运行。 |
 | 可以通用 | 这些组件代表了作者可用来设计几乎任何布局的通用概念。 |
 | 可配置 | 模板级[内存策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)定义页面作者可以使用或无法使用的功能。 |
@@ -58,6 +58,7 @@ ht-degree: 100%
 * [语言导航](components/language-navigation.md)
 * [痕迹导航](components/breadcrumb.md)
 * [快速搜索](components/quick-search.md)
+* [目录](components/tableofcontents.md)
 
 ### 页面创作组件 {#page-authoring-components}
 
@@ -106,7 +107,7 @@ ht-degree: 100%
 
 | 核心组件发行版本 | AEM as a Cloud Service | AEM 6.5 补丁级别 | Java SE 版本 | Maven 版本 |
 |---------|---------|---------|---------|---------|
-| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 连续 | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 连续 | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
