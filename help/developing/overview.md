@@ -4,9 +4,9 @@ description: 核心组件提供可靠且可扩展的基本组件，这些组件�
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
-workflow-type: ht
-source-wordcount: '1559'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
