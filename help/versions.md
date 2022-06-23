@@ -3,7 +3,7 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+source-git-commit: 0e00de5d566143258f3b0ad573681806ce35d1af
 workflow-type: tm+mt
 source-wordcount: '2599'
 ht-degree: 98%
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本新增了 [目录组件](/help/components/tableofcontents.md) 以及错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022年5月 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本新增了 [目录组件](/help/components/tableofcontents.md) 以及错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022年6月23日 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 这一发行版本引入了[搜索组件](/help/components/quick-search.md)的一个新版本、[按钮组件](/help/components/button.md)的一些新功能，以及多项辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022年4月7日 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 此版本修复了 AEMaaCS 的一个问题。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 3 月 17 日 |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 这是一个补丁发行版本。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 3 月 |
