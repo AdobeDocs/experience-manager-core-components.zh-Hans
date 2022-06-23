@@ -3,9 +3,9 @@ title: 开发核心组件
 description: 核心组件提供可靠且可扩展的基本组件，这些组件提供了丰富的功能、连续交付、组件版本控制、现代化实施、精简标记以及内容的 JSON 导出。
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
 workflow-type: ht
-source-wordcount: '1583'
+source-wordcount: '1559'
 ht-degree: 100%
 
 ---
@@ -140,10 +140,6 @@ ht-degree: 100%
 | [嵌入](https://adobe.com/go/aem_cmp_tech_embed_v1_cn) | 在页面中嵌入外部资源 | - |
 | [进度条](https://adobe.com/go/aem_cmp_tech_progress_v1_cn) | 提供向目标进展的可视化表示形式 | - |
 | [PDF 查看器](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_cn) | 在页面上呈现 PDF 文档 | - |
-
-### 即将推出的组件 {#upcoming-components}
-
-有关即将推出的核心组件路线图概览，请参阅 [GitHub 上的项目 wiki](https://github.com/adobe/aem-core-wcm-components/wiki/home)。
 
 ## 核心组件升级 {#upgrade-of-core-components}
 
