@@ -2,10 +2,11 @@
 title: 目录组件
 description: 目录组件会根据页面内容中的标题创建一个ToC，以便读者快速导航页面。
 role: Architect, Developer, Admin, User
-source-git-commit: 52c63ecb014e5d4fda4d166d92e8efb3163633ba
+exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
+source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 23%
+source-wordcount: '759'
+ht-degree: 22%
 
 ---
 
@@ -15,7 +16,11 @@ ht-degree: 23%
 
 ## 用途 {#usage}
 
-“目录”组件使网站访客能够通过基于页面内容标题生成的ToC快速导览页面内容。
+目录组件使网站访客能够根据页面内容的标题，通过高效生成的ToC快速导航页面内容。
+
+* ToC在服务器端生成。
+* 调度程序已完全缓存该缓存，以便快速交付。
+* 它适用于页面上的所有组件，而不仅仅是核心组件。
 
 的 [编辑对话框](#edit-dialog) 允许内容作者定义要在ToC中使用的标题范围。 使用 [设计对话框](#design-dialog)，则当内容作者将目录组件添加到页面时，模板作者可以设置标题的默认值，并根据类名限制ToC中包含的标题。
 

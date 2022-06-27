@@ -3,9 +3,9 @@ title: 列表组件
 description: 利用核心组件列表组件，可以轻松地创建动态和静态列表。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '1151'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 |--- |--- |--- |---|
 | v3 | - | 兼容 | 兼容 |
 | [v2](v2/list.md) | 兼容 | 兼容 | 兼容 |
-| [v1](v1/list-v1.md) | 兼容 | 兼容 | - |
+| [v1](v1/list-v1.md) | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 

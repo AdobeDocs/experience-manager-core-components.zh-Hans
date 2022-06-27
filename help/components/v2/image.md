@@ -3,10 +3,10 @@ title: 图像组件 (v2)
 description: 核心组件图像组件是一个自适应图像组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
-workflow-type: ht
-source-wordcount: '2231'
-ht-degree: 100%
+source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+workflow-type: tm+mt
+source-wordcount: '2092'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,6 @@ ht-degree: 100%
 
 此外，图像组件支持延迟加载，可以将实际图像资源的加载推迟到在浏览器中可见时，从而提升了页面的响应能力。
 
->[!TIP]
->
->有关这些功能的更多技术细节和优化演绎版选择的技巧，请参阅[自适应图像 Servlet](#adaptive-image-servlet) 部分。
-
 ## Dynamic Media 支持 {#dynamic-media}
 
 图像组件（截止 [发行版本 2.13.0](/help/versions.md)）支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans#dynamicmedia) 资源。[在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁切。
@@ -51,7 +47,7 @@ ht-degree: 100%
 图像组件支持可缩放矢量图 (SVG)。
 
 * 从 DAM 拖放上传 SVG 资源以及从本地文件系统上传 SVG 文件均受支持。
-* 自适应图像 Servlet 流式传输经过流处理的原始 SVG 文件（跳过转换）。
+* 对原始SVG文件进行流式处理（跳过转换）。
 * 对于 SVG 图像，“智能图像”和“智能大小”均设置为图像模型中的空数组。
 
 ### 安全性 {#security}
@@ -186,9 +182,12 @@ ht-degree: 100%
 
 此外，您可以定义在作者将组件添加到页面时，自动禁用哪些常规组件选项。
 
-![图像组件“设计”对话框的主选项卡](/help/assets/image-design-main.png)
+![图像组件“设计”对话框的主选项卡](/help/assets/image-design-main-v2.png)
 
 * **启用 DM 功能** - 在选中时，[Dynamic Media 功能](#dynamic-media)可用。
+* **启用Web优化图像**  — 选中后， [Web优化的图像传送服务](/help/developing/web-optimized-image-delivery.md) 将以WebP格式传送图像，使图像大小平均减少25%。
+   * 此选项仅在AEMaCS中可用。
+   * 如果未选中或Web优化的图像交付服务不可用， [自适应图像Servlet](/help/developing/adaptive-image-servlet.md) 中，将使用。
 * **启用延迟加载** - 定义在将图像组件添加到页面时，是否自动启用延迟加载选项。
 * **图像是装饰性的** - 定义在将图像组件添加到页面时，是否自动启用装饰性图像选项。
 * **从 DAM 获取替换文本** - 定义在将图像组件添加到页面时，是否自动启用从 DAM 检索替换文本的选项。
@@ -205,7 +204,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->有关这些功能的更多技术细节以及通过仔细定义宽度来优化演绎版选择的技巧，请参阅[自适应图像 Servlet](#adaptive-image-servlet) 部分。
+>查看文档 [自适应图像Servlet](#adaptive-image-servlet) 以了解通过仔细定义宽度来优化演绎版选择的提示。
 
 ### “功能”选项卡 {#features-tab}
 
@@ -250,22 +249,6 @@ ht-degree: 100%
 ### “样式”选项卡 {#styles-tab-1}
 
 图像组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
-
-## 自适应图像 Servlet {#adaptive-image-servlet}
-
-图像组件使用核心组件的自适应图像 Servlet。[自适应图像 Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 负责图像处理和流式传输，可由开发人员在其[核心组件的自定义设置](/help/developing/customizing.md)中使用。
-
-### 优化演绎版选择 {#optimizing-rendition-selection}
-
-自适应图像 Servlet 将尝试针对请求的图像大小和类型选择最佳演绎版。建议同步定义 DAM 演绎版和图像组件所允许的宽度，以便自适应图像 Servlet 执行尽可能少的处理。
-
-这将提高性能并避免底层图像处理库无法正确处理某些图像。
-
->[!NOTE]
->
->自适应图像 Servlet 支持通过 `Last-Modified` 标头进行有条件请求，但是 `Last-Modified` 标头的缓存[需要在 Dispatcher 中启用](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-Hans#caching-http-response-headers)。
->
->[AEM 项目原型](/help/developing/archetype/overview.md)的示例 Dispatcher 配置已经包含此配置。
 
 ## Adobe Client Data Layer {#data-layer}
 

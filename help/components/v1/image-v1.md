@@ -4,10 +4,10 @@ description: 核心组件图像组件是一个自适应图像组件，具备就�
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1229'
-ht-degree: 100%
+source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+workflow-type: tm+mt
+source-wordcount: '1323'
+ht-degree: 92%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 * **图像资源**
    * 通过[资源浏览器](https://helpx.adobe.com/cn/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
-   * 点击或单击&#x200B;**清除**&#x200B;以取消选择当前选定的图像。
+   * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
    * 点击或单击&#x200B;**编辑**&#x200B;可在资源编辑器中[管理资源的再现](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)。
 
 * **图像是装饰性的** - 检查图像是否应被辅助技术忽略，因此不需要替换文本。这仅适用于装饰性图像。
@@ -194,9 +194,17 @@ ht-degree: 100%
 
 默认情况下，图像加载会被延迟，直到图像变得可见。选择&#x200B;**禁用延迟加载**&#x200B;选项可在页面加载时加载图像。
 
+* **启用Web优化图像**  — 选中后， [Web优化的图像传送服务](/help/developing/web-optimized-image-delivery.md) 将以WebP格式传送图像，使图像大小平均减少25%。
+   * 此选项仅在AEMaCS中可用。
+   * 如果未选中或Web优化的图像交付服务不可用， [自适应图像Servlet](/help/developing/adaptive-image-servlet.md) 中，将使用。
+
 ### 功能 {#features}
 
 在&#x200B;**功能**&#x200B;选项卡上，您可以定义在使用组件时可供内容作者使用的选项，包括上传选项、方向和裁切选项。
+
+* **启用Web优化图像**  — 选中此选项后，网络优化的图像交付服务将以WebP格式交付图像，平均将图像大小减少25%。
+   * 此选项仅在AEMaCS中可用。
+   * 如果未选中或Web优化的图像交付服务不可用， [自适应图像Servlet](/help/developing/adaptive-image-servlet.md) 中，将使用。
 
 * 来源
 
@@ -221,7 +229,7 @@ ht-degree: 100%
    ![](/help/assets/chlimage_1-21.png)
 
    选择&#x200B;**允许裁切**&#x200B;选项可允许内容作者在“编辑”对话框中裁切组件中的图像。
-   * 单击&#x200B;**添加**&#x200B;可添加预定义的裁切长宽比。
+   * 单击&#x200B;**“添加”**&#x200B;可添加预定义的裁切长宽比。
    * 输入一个描述性名称，该名称将显示在&#x200B;**开始裁切**&#x200B;下拉列表中。
    * 输入长宽比的数字比率。
    * 使用拖动手柄可重新排列长宽比

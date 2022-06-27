@@ -4,10 +4,10 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: 核心组件指南
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 97%
 
 ---
 
@@ -91,6 +91,8 @@ ht-degree: 100%
    + [AMP 支持](developing/amp.md)
    + [上下文感知配置](developing/context-aware-configs.md)
    + [包含客户端库](developing/including-clientlibs.md)
+   + [自适应图像Servlet](/help/developing/adaptive-image-servlet.md)
+   + [Web优化的图像交付](/help/developing/web-optimized-image-delivery.md)
    + Adobe Client Data Layer {#data-layer}
       + [Data Layer 的概述](developing/data-layer/overview.md)
       + [与 Data Layer 的集成](developing/data-layer/integrations.md)
