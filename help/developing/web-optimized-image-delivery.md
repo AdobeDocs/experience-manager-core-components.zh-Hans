@@ -2,13 +2,13 @@
 title: Web优化的图像交付
 description: 了解核心组件如何利用AEM Web优化的图像交付功能，更高效地交付图像。
 role: Architect, Developer, Admin, User
-source-git-commit: 20436ffb5d6a6346738be1e6f5e6e2e8a68e76c9
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
+source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
-
 
 # Web优化的图像交付 {#web-optimized-image-delivery}
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Web优化的图像交付服务是2022年6月发布的AEMas a Cloud Service预发布功能，预计7月份将推出GA。
+>Web优化图像交付服务是2022年6月发布的AEMas a Cloud Service预发布功能，预计7月将推出GA。
 >
 >有关AEMaCS预发行功能的更多信息，请参阅此文档 [Adobe Experience Manager as a Cloud Service预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
@@ -122,6 +122,6 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 不，这不该发生。
 
-* 在HTML中，启用Web优化图像时，标记不会更改，只有图像元素上SCR属性的值会更改。
+* 在HTML中，启用Web优化图像时，标记不会更改，只有图像元素上SRC属性的值会更改。
 * 当新图像服务不可用或无法处理所需的图像时，将生成URL [回退到自适应图像Servlet。](#fallback)
 * 调度程序规则可能会阻止Web优化的图像服务和 [激活该功能时应选中。](#activating)
