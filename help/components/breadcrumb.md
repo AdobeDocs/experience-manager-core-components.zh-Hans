@@ -4,7 +4,7 @@ description: 核心组件痕迹导航组件是一个导航组件，它根据页�
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
 ht-degree: 100%
 
