@@ -3,7 +3,7 @@ title: Web优化的图像交付
 description: 了解核心组件如何利用AEM Web优化的图像交付功能，更高效地交付图像。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
+source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >有关AEMaCS预发行功能的更多信息，请参阅此文档 [Adobe Experience Manager as a Cloud Service预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
-##  概述 {#overview}
+## 概述 {#overview}
 
 AEM as a Cloud Service的Web优化图像交付功能，可在 [WebP格式。](https://developers.google.com/speed/webp) WebP平均可将图像的下载大小减小约25%，从而加快页面加载速度。
 
