@@ -5,9 +5,9 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1323'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 利用图像组件，可以轻松放置图像资源并提供就地编辑。它具有带延迟加载的自适应图像选择功能以及面向内容作者的裁切功能。
 
-模板作者可以在[“设计”对话框](#design-dialog)中定义允许的图像宽度以及裁切和其他设置。内容编辑者可以在[“配置”对话框](#configure-dialog)中上传或选择资源，并在[“编辑”对话框](#edit-dialog)中裁切图像。为了增加便利性，还可以简单地就地修改图像。
+模板作者可以在[“设计”对话框](#design-dialog)中定义允许的图像宽度以及裁切和其他设置。 内容编辑者可以在[“配置”对话框](#configure-dialog)中上传或选择资源，并在[“编辑”对话框](#edit-dialog)中裁切图像。为了增加便利性，还可以简单地就地修改图像。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -73,7 +73,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->从核心组件执行 JSON 导出需要版本 1.1.0 的核心组件。有关更多信息，请参阅[核心组件 v1 的兼容性信息](/help/versions.md)。
+>从核心组件执行 JSON 导出需要版本 1.1.0 的核心组件。 有关更多信息，请参阅[核心组件 v1 的兼容性信息](/help/versions.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
@@ -83,18 +83,18 @@ ht-degree: 92%
 
 * **图像资源**
    * 通过[资源浏览器](https://helpx.adobe.com/cn/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
-   * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击&#x200B;**编辑**&#x200B;可在资源编辑器中[管理资源的再现](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)。
+   * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
+   * 点按或单击&#x200B;**编辑**&#x200B;可在资产编辑器中[管理资产的再现](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)。
 
-* **图像是装饰性的** - 检查图像是否应被辅助技术忽略，因此不需要替换文本。这仅适用于装饰性图像。
-* **替换文本** - 用于替代该图像含义或功能的文字内容，适用于视障读者。
+* **图像是装饰性的** – 检查图像是否应被辅助技术忽略，因此不需要替换文本。这仅适用于装饰性图像。
+* **替换文本** – 用于替代该图像含义或功能的文字内容，适用于视障读者。
 * **链接**
    * 将图像链接到其他资源。
    * 使用“选择”对话框可链接到其他 AEM 资源。
    * 如果未链接到 AEM 资源，请输入绝对 URL。非绝对 URL 将解释为相对于 AEM。
 
-* **题注** - 有关图像的附加信息，默认显示在图像的下方。
-* **以弹出形式显示题注** - 选中后，不会在图像下方显示题注，但在某些浏览器中，将鼠标悬停于图像上方时，会以弹出信息形式显示题注。
+* **题注** – 有关图像的附加信息，默认显示在图像的下方。
+* **以弹出窗口显示题注** – 选中后，不会在图像下方显示题注，但在某些浏览器中，将鼠标悬停于图像上方时，会以弹出信息形式显示题注。
 
 ## “编辑”对话框 {#edit-dialog}
 
@@ -125,7 +125,7 @@ ht-degree: 92%
 
    ![](/help/assets/chlimage_1-12.png)
 
-   使用此选项可向图像应用启动地图。选择此选项将打开一个新窗口，允许用户选择地图的形状：
+   使用此选项可向图像应用启动地图。 选择此选项将打开一个新窗口，允许用户选择地图的形状：
 
    * **添加矩形地图**
    * **添加圆形地图**
@@ -151,7 +151,7 @@ ht-degree: 92%
          * **父框架**
          * **顶层框架**
 
-   点击或单击蓝色复选标记可保存，点击或单击黑色 x 可取消，点击或单击红色垃圾桶可删除地图。
+   点按或单击蓝色复选标记可保存，点按或单击黑色 x 可取消，点按或单击红色垃圾桶可删除地图。
 
    ![](/help/assets/chlimage_1-14.png)
 
@@ -187,24 +187,24 @@ ht-degree: 92%
 
 ![](/help/assets/chlimage_1-51.png)
 
-点击或单击“添加”按钮可添加其他大小。
+点按或单击“添加”按钮可添加其他大小。
 
 * 使用抓取手柄可重新排列大小。
 * 使用删除图标可删除宽度。
 
 默认情况下，图像加载会被延迟，直到图像变得可见。选择&#x200B;**禁用延迟加载**&#x200B;选项可在页面加载时加载图像。
 
-* **启用Web优化图像**  — 选中后， [Web优化的图像传送服务](/help/developing/web-optimized-image-delivery.md) 将以WebP格式传送图像，使图像大小平均减少25%。
-   * 此选项仅在AEMaCS中可用。
-   * 如果未选中或Web优化的图像交付服务不可用， [自适应图像Servlet](/help/developing/adaptive-image-servlet.md) 中，将使用。
+* **启用 Web 优化图像** – 选中后， [Web 优化图像传送服务](/help/developing/web-optimized-image-delivery.md)将以 WebP 格式传送图像，使图像大小平均减少 25%。
+   * 此选项仅在 AEMaaCS 中可用。
+   * 当未选中或 Web 优化图像投放服务不可用时，将使用[自适应图像 Servlet](/help/developing/adaptive-image-servlet.md)。
 
 ### 功能 {#features}
 
 在&#x200B;**功能**&#x200B;选项卡上，您可以定义在使用组件时可供内容作者使用的选项，包括上传选项、方向和裁切选项。
 
-* **启用Web优化图像**  — 选中此选项后，网络优化的图像交付服务将以WebP格式交付图像，平均将图像大小减少25%。
-   * 此选项仅在AEMaCS中可用。
-   * 如果未选中或Web优化的图像交付服务不可用， [自适应图像Servlet](/help/developing/adaptive-image-servlet.md) 中，将使用。
+* **启用 Web 优化图像** – 选中此选项后，网络优化的图像投放服务将以 WebP 格式投放图像，平均将图像大小减少 25%。
+   * 此选项仅在 AEMaaCS 中可用。
+   * 当未选中或 Web 优化图像投放服务不可用时，将使用[自适应图像 Servlet](/help/developing/adaptive-image-servlet.md)。
 
 * 来源
 
@@ -216,7 +216,7 @@ ht-degree: 92%
 
    ![](/help/assets/chlimage_1-20.png)
 
-   * **旋转** - 使用此选项可允许内容作者使用&#x200B;**向右旋转**&#x200B;选项。
+   * **旋转** – 使用此选项可允许内容作者使用&#x200B;**向右旋转**&#x200B;选项。
    * **翻转**
 使用此选项可允许内容作者使用 
 **水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
