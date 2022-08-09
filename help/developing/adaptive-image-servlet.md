@@ -1,31 +1,31 @@
 ---
 title: 自适应图像 Servlet
-description: 了解核心组件如何使用自适应图像Servlet来交付图像，以及如何优化其使用。
+description: 了解核心组件如何使用自适应图像 Servlet 来投放图像，以及如何优化其使用。
 role: Architect, Developer, Admin, User
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
-workflow-type: tm+mt
+exl-id: d9199d51-6f09-4000-9525-afc30474437e
+source-git-commit: dd07fa714a23759d43ca491232674d88bc7bf88e
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-
 # 自适应图像 Servlet {#adaptive-image-servlet}
 
-了解核心组件如何使用自适应图像Servlet来交付图像，以及如何优化其使用。
+了解核心组件如何使用自适应图像 Servlet 来投放图像，以及如何优化其使用。
 
-## 自适应图像服务器还是Web优化图像交付？ {#options}
+## 自适应图像 Servelt 还是 Web 优化图像投放？ {#options}
 
 图像核心组件可以使用两种方法来传送图像。
 
-* 默认为自适应图像Servlet。
-* [优化了Web的图像交付](/help/developing/web-optimized-image-delivery.md) 可供AEMaaCS使用，并平均将下载大小减少25%。
+* 默认为自适应图像 Servlet。
+* [优化了 Web 的图像投放](/help/developing/web-optimized-image-delivery.md)可供 AEMaaCS 使用，并平均将下载大小减少 25%。
 
-本文档介绍了默认的自适应图像Servlet。
+本文档介绍了默认的自适应图像 Servlet。
 
 ## 概述 {#overview}
 
-默认情况下，图像组件使用核心组件的自适应图像Servlet来传送图像。 [自适应图像 Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 负责图像处理和流式传输，可由开发人员在其[核心组件的自定义设置](/help/developing/customizing.md)中使用。
+默认情况下，图像组件使用核心组件的自适应图像 Servlet 来传送图像。 [自适应图像 Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 负责图像处理和流式传输，可由开发人员在其[核心组件的自定义设置](/help/developing/customizing.md)中使用。
 
 ## 优化演绎版选择 {#optimizing-rendition-selection}
 
