@@ -3,10 +3,10 @@ title: 图像组件 (v2)
 description: 核心组件图像组件是一个自适应图像组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: ht
-source-wordcount: '2092'
-ht-degree: 100%
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+workflow-type: tm+mt
+source-wordcount: '2115'
+ht-degree: 98%
 
 ---
 
@@ -35,6 +35,10 @@ ht-degree: 100%
 图像组件提供了可靠的响应式功能，可以直接使用。在页面模板级别，可以使用[“设计”对话框](#design-dialog)来定义图像资源的默认宽度。然后，图像组件将自动加载正确的宽度，以根据浏览器窗口的大小进行显示。在窗口调整大小时，图像组件即时动态加载正确的图像大小。组件开发人员无需担心自定义媒体查询的定义方式，因为图像组件已经针对加载内容进行了优化。
 
 此外，图像组件支持延迟加载，可以将实际图像资源的加载推迟到在浏览器中可见时，从而提升了页面的响应能力。
+
+>[!TIP]
+>
+>图像组件由自适应图像Servlet提供支持。 请查看文档 [自适应图像Servlet](#adaptive-image-servlet) 以了解其工作方式的详细信息。
 
 ## Dynamic Media 支持 {#dynamic-media}
 
