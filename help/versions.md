@@ -4,9 +4,9 @@ description: 核心组件作为发行版本发布，发行版本可能包含相�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2686'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,37 +26,37 @@ ht-degree: 97%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 此修补程序版本修复了 [目录组件。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022年7月7日 |
-| — | — | — | — | — | — | — |
-| [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | 此修补程序版本修复了 [目录组件。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022年6月29日 |
-| — | — | — | — | — | — | — |
-| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 这是一个修补程序版本，用于修复新AEMaaCS中的问题 [优化了web的资产交付服务。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022年6月20日 |
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本新增了 [目录组件](/help/components/tableofcontents.md)，添加了对AEMaaCS的支持 [优化了web的资产交付服务，](/help/developing/web-optimized-image-delivery.md) 以及错误修复。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022年6月9日 |
+| [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 此补丁版本修复了新的[目录组件的问题。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 7 月 7 日 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | 此补丁版本修复了新的[目录组件的问题。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 6 月 29 日 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 这是一个修补程序版本，修复了新的 AEMaaCS [网络优化资产投放服务中的问题。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 6 月 20 日 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本添加了一个新的[目录组件](/help/components/tableofcontents.md)，增加了对 AEMaaCS [网络优化资产投放服务](/help/developing/web-optimized-image-delivery.md)的支持，并包括错误修复。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 6 月 9 日 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 这一发行版本引入了[搜索组件](/help/components/quick-search.md)的一个新版本、[按钮组件](/help/components/button.md)的一些新功能，以及多项辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 4 月 7 日 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 此版本修复了 AEMaaCS 的一个问题。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 3 月 17 日 |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 这是一个补丁发行版本。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 3 月 |
 | [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 核心组件的这个主要发行版本引入了新链接处理程序，它跨多个组件的新版本，以及许多辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 2 月 16 日 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 12 月 13 日 |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本，修复了上一个版本引入的回归。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 10 月 1 日 |
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此补丁增强了 [List](/help/components/list.md) 和 [Navigation](/help/components/navigation.md) 组件以显示重定向目标的外部 URL，支持即将发布的 v2 的 [Teaser](/help/components/teaser.md) 组件的页面图像继承以及包含其他错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 8 月 31 日 |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此补丁增强了[列表](/help/components/list.md)和[导航](/help/components/navigation.md)组件以显示重定向目标的外部 URL，支持即将发布的 v2 的 [Teaser](/help/components/teaser.md) 组件的页面图像继承以及包含其他错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 8 月 31 日 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 这是一个补丁发行版本，用于修复之前引入的无法向后兼容的更改。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 8 月 2 日 |
-| [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此补丁发行版本添加了对页面的网站地图的支持，并包括各种辅助功能改进。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 7 月 29 日 |
-| [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此补丁发行版本包括对[ Data Layer ](/help/developing/data-layer/overview.md)不可用于 AEMaaCS 的修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 7 月 8 日 |
+| [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此补丁发行版本添加了对页面的站点地图的支持，并包括各种辅助功能改进。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 7 月 29 日 |
+| [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此补丁发行版本包括对[数据层](/help/developing/data-layer/overview.md)不可用于 AEMaaCS 的修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 7 月 8 日 |
 | [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此发行版本包括许多支持链接处理程序功能的新组件版本的技术预览版，以及精选图像功能的技术预览版，该图像功能适用于[页面组件。](/help/components/page.md)其中还包括了多个错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 6 月 16 日 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 此补丁发行版用于修复新的链接处理程序的问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 5 月 19 日 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 此补丁发行版本主要修复了新的链接处理程序的问题，并增加了对 [PWA](/help/components/page.md#pwa-support) 多页应用程序的支持。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 5 月 15 日 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 此发行版本重点提供了可访问性改进以及向现有组件引入了新的链接处理程序。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 4 月 22 日 |
-| [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | 此补丁发行版本主要修复了[ Data Layer ](/help/developing/data-layer/overview.md)的向后兼容性问题以及特定情况下的 IT 测试失败。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 3 月 16 日 |
-| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 此发行版本包括了对[页面组件中的渐进式 Web 应用程序 (PWA)](/help/components/page.md#pwa-support) 的支持，并支持 [Adobe Data Layer](/help/developing/data-layer/overview.md) 版本 2.0.0。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 2 月 23 日 |
+| [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | 此补丁发行版本主要修复了[数据层](/help/developing/data-layer/overview.md)的向后兼容性问题以及特定情况下的 IT 测试失败。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 3 月 16 日 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 此发行版本包括了对[页面组件中的渐进式 Web 应用程序 (PWA)](/help/components/page.md#pwa-support) 的支持，并支持 [Adobe 数据层](/help/developing/data-layer/overview.md)版本 2.0.0。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 2 月 23 日 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 此发行版本包括了用于[嵌入组件](/help/components/embed.md)的新选项，并在[页面](/help/components/page.md)级别引入了 Brand Slug 且解决了许多问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 2 月 9 日 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 此补丁发行版本解决了在 AEMaaCS 上使用时 RTE 出现的问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 12 月 16 日 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 此发行版本包括用于[图像组件](/help/components/image.md)的新 Dynamic Media 功能。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 12 月 4 日 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 这是 2.12.0 的补丁发行版本，包含小修复。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 11 月 11 日 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 这是 2.12.0 的补丁发行版本，修复了[图像组件](/help/components/image.md)中的重大错误。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 11 月 5 日 |
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 此发行版本引入了[新的 POST 表单处理程序、](/help/components/forms/form-container.md#post-data)通过上下文感知配置[包括自定义 CSS、JavaScript 和元数据标记的能力](/help/developing/including-clientlibs.md#context-aware-loading)以及`DataLayerBuilder`[在自定义组件中简化 Data Layer 集成](/help/developing/data-layer/integrations.md#enabling-custom-components)的实用程序。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 10 月 29 日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 此发行版本引入了[新的 POST 表单处理程序、](/help/components/forms/form-container.md#post-data)通过上下文感知配置[包括自定义 CSS、JavaScript 和元数据标记的能力](/help/developing/including-clientlibs.md#context-aware-loading)以及`DataLayerBuilder`[在自定义组件中简化数据层集成](/help/developing/data-layer/integrations.md#enabling-custom-components)的实用程序。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 10 月 29 日 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此发行版本引入了 [AMP 支持](/help/developing/amp.md)。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 7 月 20 日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此发行版本引入了 [PDF 查看器组件](/help/components/pdf-viewer.md)。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2020 年 6 月 17 日 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此发行版本启用了与 [Adobe Client Data Layer](/help/developing/data-layer/overview.md) 的集成并引入了[进度条组件](/help/components/progress-bar.md)。 | 6.4.8.0+ | 6.5.4.0+ | 连续 | 8, 11 | 2020 年 5 月 29 日 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此发行版本启用了与 [Adobe 客户端数据层](/help/developing/data-layer/overview.md)的集成并引入了[进度条组件](/help/components/progress-bar.md)。 | 6.4.8.0+ | 6.5.4.0+ | 连续 | 8, 11 | 2020 年 5 月 29 日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此发行版本重点进行了修复并包括一些小的增强功能。 | 6.4.4.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019 年 12 月 5 日 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 此发行版本引入了新的[嵌入组件](/help/components/embed.md)。 | 6.4.4.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019 年 9 月 25 日 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 此发行版本引入了新的[体验片段组件](/help/components/experience-fragment.md)。 | 6.4.4.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019 年 9 月 6 日 |
@@ -79,7 +79,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->(*) 自版本 2.11.0 开始，需要 `org.apache.sling.models.impl` 版本 1.4.12 或更高版本（由于 [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)）。这会在将来的 Service Pack 中为 AEM 6.4 和 6.5 提供。在此之前，Sling 模型捆绑包将包含在 `core.wcm.components.all` 包中。
+>(*) 自版本 2.11.0 开始，需要 `org.apache.sling.models.impl` 版本 1.4.12 或更高版本（由于 [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)）。这会在将来的服务包中为 AEM 6.4 和 6.5 提供。在此之前，Sling 模型捆绑包将包含在 `core.wcm.components.all` 包中。
 
 >[!TIP]
 >
@@ -89,34 +89,34 @@ ht-degree: 97%
 
 下表详细列出了哪些组件的哪些版本包括在核心组件的哪些发行版本中。
 
-|  | 发行版本 1.0.0 - 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 - 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 - 2.2.0 | 发行版本 2.3.0 - 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 - 2.8.0 | 发行版本 2.9.0 - 2.17.14 | 发行版本 2.18.0 | 发行版本 2.19.0 | 发行版本 2.20.0+ |
+|  | 发行版本 1.0.0 – 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 – 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 – 2.2.0 | 发行版本 2.3.0 – 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 – 2.8.0 | 发行版本 2.9.0 – 2.17.14 | 发行版本 2.18.0 | 发行版本 2.19.0 | 发行版本 2.20.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[页面](components/page.md)** | v1 | v1 | v1, v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[标题](components/title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[图像](components/image.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[列表](components/list.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[页面](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[标题](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[图像](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[列表](components/list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
 | **[社交媒体共享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[表单容器](components/forms/form-container.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
-| **[表单文本](components/forms/form-text.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
-| **[表单选项](components/forms/form-options.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
-| **[表单隐藏](components/forms/form-hidden.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
-| **[表单按钮](components/forms/form-button.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
-| **[内容片段](components/content-fragment-component.md)** |  | 沙盒 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
-| **[导航](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
-| **[语言导航](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
-| **[快速搜索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 |
-| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
+| **[表单容器](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[表单文本](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[表单选项](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[表单隐藏](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[表单按钮](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[内容片段](components/content-fragment-component.md)** |  | 沙盒 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[导航](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[语言导航](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[快速搜索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 |
+| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
 | **[选项卡](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[轮盘](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[分隔符](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[内容片段列表](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
+| **[内容片段列表](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
 | **[折叠](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[按钮](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
+| **[按钮](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
 | **[容器](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[下载](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
-| **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
-| **[嵌入](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
+| **[下载](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[嵌入](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
 | **[进度条](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
 | **[PDF 查看器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
 | **[目录](components/tableofcontents.md)** |  |  |  |  |  |  |  |  |  |  |  |  |  | v1 |
@@ -137,7 +137,7 @@ ht-degree: 97%
 
 ### 发行版本 {#releases}
 
-核心组件按&#x200B;**发行版本**&#x200B;提供，[表示 GitHub 上实际发布的工件](https://github.com/adobe/aem-core-wcm-components/releases)。发行版本使用格式为 `X.Y.Z` 的小数表示，将所有核心组件收集在一起作为可交付程序包。
+核心组件按&#x200B;**发行版本**&#x200B;提供，[表示 GitHub 上实际发布的工件](https://github.com/adobe/aem-core-wcm-components/releases)。发行版本使用格式为 `X.Y.Z` 的小数表示，将所有核心组件收集在一起作为可投放程序包。
 
 * **主要发行版本**&#x200B;引入了全新组件、对现有组件版本的改进以及标准错误修复。这由发行版本编号中 `X` 部分的增加来表示。
 * **次要发行版本**&#x200B;引入了新组件、现有组件版本的新功能以及错误修复。这由发行版本编号中 `Y` 部分的增加来表示。
