@@ -4,9 +4,9 @@ description: 核心组件图像组件是一个自适应图像组件，具备就�
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 >[!TIP]
 >
->图像组件由自适应图像Servlet提供支持。 请查看文档 [自适应图像Servlet](#adaptive-image-servlet) 以了解其工作方式的详细信息。
+>图像组件由自适应图像 Servlet 提供支持。 有关其工作原理的详细信息，请参阅[自适应图像 Servlet](#adaptive-image-servlet)。
 
 ## Dynamic Media 支持 {#dynamic-media}
 
