@@ -4,9 +4,9 @@ description: 了解核心组件如何利用 AEM as a Cloud Service 的 Web 优�
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Web 优化图像投放仅在 AEM as a Cloud Service 中可用。 如果无法使
 
 ## 常见问题解答 {#faq}
 
-### 为什么在我的环境中没有启用Web优化图像的选项？ {#missing-option}
+### 为什么在我的环境中未启用 Web 优化图像的此类选项？ {#missing-option}
 
 该功能仅在 AEM as a Cloud Service 上可用。 在本地运行或内部部署 AEM，图像组件[ 回退](#fallback)以使用自适应图像 Servlet。
 
