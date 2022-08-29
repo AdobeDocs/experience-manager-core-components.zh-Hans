@@ -3,10 +3,10 @@ title: 目录组件
 description: 目录组件根据页面内容中的标题创建目录，以便读者快速浏览页面。
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,10 +35,6 @@ ht-degree: 100%
 | v1 | 兼容 | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
-
-## 示例组件输出 {#sample-component-output}
-
-要体验目录组件并查看其配置选项以及 HTML 和 JSON 输出的示例，请访问[组件库](https://adobe.com/go/aem_cmp_library_tableofcontents_cn)。
 
 ### 技术详细信息 {#technical-details}
 

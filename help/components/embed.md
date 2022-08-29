@@ -3,10 +3,10 @@ title: 嵌入组件
 description: 使用嵌入组件可以在 AEM 内容页面中嵌入外部内容。
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: ht
-source-wordcount: '1395'
-ht-degree: 100%
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 ## 技术详细信息 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_embed_v1_cn)有关嵌入组件的最新技术文档。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_embed_v2_cn)有关嵌入组件的最新技术文档。
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 

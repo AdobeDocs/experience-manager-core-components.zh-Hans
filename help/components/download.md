@@ -3,10 +3,10 @@ title: 下载组件
 description: 利用核心组件下载组件，可在页面上创建下载选项。
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 ## 技术详细信息 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_download_v1_cn)有关下载组件的最新技术文档。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_download_v2_cn)有关下载组件的最新技术文档。
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 * **下载资源**
    * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
-   * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
+   * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
    * 点击或单击&#x200B;**“编辑”**&#x200B;可在资源编辑器中[管理资源的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 ### “属性”选项卡 {#properties-tab}
@@ -73,7 +73,7 @@ ht-degree: 100%
 * **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
+   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
 ### “样式”选项卡 {#styles-tab-edit}
 

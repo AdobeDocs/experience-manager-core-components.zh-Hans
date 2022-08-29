@@ -3,10 +3,10 @@ title: 社交共享组件
 description: 核心组件社交共享组件是一个 Facebook 和 Pinterest 共享构件。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->社交共享部分已使用核心部分进行折旧 [版本2.18.0。](/help/versions.md)
+>社交共享组件已随核心组件[版本 2.18.0 一起弃用。](/help/versions.md)
 
 ## 用途 {#usage}
 
@@ -35,10 +35,6 @@ ht-degree: 96%
 | v1 | 兼容<br>[版本 2.17.4](/help/versions.md) 和更低版本 | 兼容，已弃用 | 兼容，已弃用 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
-
-## 示例组件输出 {#sample-component-output}
-
-要体验社交共享组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_sharing_cn)。
 
 ### 技术详细信息 {#technical-details}
 

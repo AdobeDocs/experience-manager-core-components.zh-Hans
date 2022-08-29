@@ -3,8 +3,8 @@ title: 痕迹导航组件
 description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层级中的位置构建链接的痕迹导航。
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ## 技术详细信息 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_cn)有关痕迹导航组件的最新技术文档。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3_cn)有关痕迹导航组件的最新技术文档。
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 * **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
+   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
 ### “样式”选项卡 {#styles-tab-edit}
 

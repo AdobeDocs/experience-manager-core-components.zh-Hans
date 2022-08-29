@@ -3,10 +3,10 @@ title: 体验片段组件
 description: 使用体验片段组件，内容作者可以向页面添加体验片段变体。
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '893'
-ht-degree: 100%
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 ## 技术详细信息 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_xf_v1_cn)有关体验片段组件的最新技术文档。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_xf_v2_cn)有关体验片段组件的最新技术文档。
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 
 * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
 * 如果指定一个 ID，作者有责任确保它是唯一的。
-* 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
+* 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
 ### “样式”选项卡 {#styles-tab-edit}
 
