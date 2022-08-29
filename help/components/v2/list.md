@@ -2,13 +2,13 @@
 title: 列表组件 (v2)
 description: 利用核心组件列表组件，可以轻松地创建动态和静态列表。
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+exl-id: fa34be64-b345-45cd-baf3-571973414852
+source-git-commit: 241c86240377858a73f4a022368d428da9c11100
 workflow-type: ht
 source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # 列表组件 (v2) {#list-component}
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 不论如何构建列表，始终可以配置[排序和 ID 选项](#sort-options)。
 
-![列表组件的“编辑”对话框](/help/assets/list-edit.png)
+![列表组件的“编辑”对话框](/help/assets/v2/list-edit.png)
 
 根据内容作者选择如何构建列表，可以更改其他配置选项。
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 列表可以由当前页面的子页面或其他页面构建。
 
-![子页面选项](/help/assets/list-edit-child-pages.png)
+![子页面选项](/help/assets/v2/list-edit-child-pages.png)
 
 * **父页面**
    * 其子页面应该用于生成列表的页面
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 列表可使用固定项列表构建。
 
-![固定列表选项](/help/assets/list-edit-fixed.png)
+![固定列表选项](/help/assets/v2/list-edit-fixed-list.png)
 
 点击或单击添加&#x200B;**按钮**&#x200B;可在列表中插入新项。
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 列表可使用对 AEM 内容搜索的结果来构建。
 
-![搜索列表选项](/help/assets/list-edit-search.png)
+![搜索列表选项](/help/assets/v2/list-edit-search.png)
 
 * **搜索查询**
 用于运行全文搜索以生成列表项的字符串
@@ -110,7 +110,7 @@ ht-degree: 100%
 
 列表可以使用在特定位置下与特定标记匹配的页面构建。
 
-![标记列表选项](/help/assets/list-edit-tags.png)
+![标记列表选项](/help/assets/v2/list-edit-tags.png)
 
 * **父页面**
 开始标记匹配的位置
@@ -128,7 +128,7 @@ ht-degree: 100%
 
 不论您选择如何构建列表，始终可以定义特定的排序选项。
 
-![排序选项](/help/assets/list-edit-sort-options.png)
+![排序选项](/help/assets/v2/list-edit-sort-options.png)
 
 * **排序方式**
 应该如何对元素排序
@@ -150,7 +150,7 @@ ht-degree: 100%
 
 使用“项设置”选项卡，可以配置列表元素的格式化。
 
-![项设置](/help/assets/list-edit-items.png)
+![项设置](/help/assets/v2/list-edit-item-settings.png)
 
 * **链接项**
 将项链接到对应的页面
@@ -167,7 +167,7 @@ ht-degree: 100%
 
 在&#x200B;**列表设置**&#x200B;选项卡上，可以定义日期格式以及在组件中什么类型的列表可供内容作者使用。
 
-![列表组件的“设计”对话框列表设置](/help/assets/list-design-list-settings.png)
+![列表组件的“设计”对话框列表设置](/help/assets/v2/list-design-list-settings.png)
 
 * **日期格式**
 用于显示上次修改日期的格式
@@ -184,7 +184,7 @@ ht-degree: 100%
 
 在&#x200B;**项设置**&#x200B;选项卡上，可以定义在组件中可供内容作者使用的单独列表元素的格式化选项。
 
-![列表组件的“设计”对话框项设置](/help/assets/list-design-item-settings.png)
+![列表组件的“设计”对话框项设置](/help/assets/v2/list-design-item-settings.png)
 
 * **链接项**
 在[“编辑”对话框](#edit-dialog)中启用“链接项”选项
