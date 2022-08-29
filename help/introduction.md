@@ -3,10 +3,10 @@ title: 核心组件简介
 description: '获取核心组件问题的解决方案，并允许其他人在 AEM 中创作元素。 '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 * [内容片段](components/content-fragment-component.md)
 * [内容片段列表](components/content-fragment-list.md)
 * [嵌入](components/embed.md)
-* [社交媒体共享](components/sharing.md)
+* [社交媒体共享](components/sharing.md) （已弃用）
 * [分隔符](components/separator.md)
 * [进度条](components/progress-bar.md)
 * [PDF 查看器](components/pdf-viewer.md)

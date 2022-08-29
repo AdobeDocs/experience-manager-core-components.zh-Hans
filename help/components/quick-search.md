@@ -3,10 +3,10 @@ title: 快速搜索组件
 description: 快速搜索组件提供对网站的搜索功能并显示搜索结果，以便访客能够搜索网站并筛选结果。
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
-source-wordcount: '621'
-ht-degree: 100%
+source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-快速搜索组件的当前版本是 v1，此版本随 2018 年 1 月的核心组件 2.0.0 版的发布引入，具体说明见本文。
+快速搜索组件的当前版本是 v2，此版本随 2018 年 1 月的核心组件 2.18.0 版的发布引入，具体说明见本文。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
