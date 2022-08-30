@@ -4,9 +4,9 @@ description: 目录组件根据页面内容中的标题创建目录，以便读�
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
