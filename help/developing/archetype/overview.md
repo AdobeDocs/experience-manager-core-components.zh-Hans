@@ -4,10 +4,10 @@ description: 基于 AEM 的应用程序的项目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8b6f0a38d27911f23afa1fe26fd1800b4d200d33
-workflow-type: ht
-source-wordcount: '1150'
-ht-degree: 100%
+source-git-commit: 01890b368b083b09b5be8a9b6efad55a5d8d4f9e
+workflow-type: tm+mt
+source-wordcount: '1167'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ mvn -B archetype:generate \
 | `appTitle` |  | 应用程序标题，将用于网站标题和组件组（例如 `"My Site"`）。 |
 | `appId` |  | 技术名称，将用于组件、配置和内容文件夹名称以及客户端库名称（例如，`"mysite"`）。 |
 | `artifactId` | *`${appId}`* | 基本 Maven 构件 ID（例如 `"mysite"`）。 |
-| `groupId` |  | 基本 Maven 组 ID（例如 `"com.mysite"`）。 |
+| `groupId` |  | 基本 Maven 组 ID（例如 `"com.mysite"`）。此值必须为 [有效的Java包名称。](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
 | `package` | *`${groupId}`* | Java 源程序包（例如 `"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | 项目版本（例如 `1.0-SNAPSHOT`）。 |
 | `aemVersion` | `cloud` | 目标 AEM 版本（可以是 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 的 `cloud`；或 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署的 `6.5.0` 或 `6.4.4`）。 |
