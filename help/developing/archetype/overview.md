@@ -4,10 +4,10 @@ description: 基于 AEM 的应用程序的项目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 01890b368b083b09b5be8a9b6efad55a5d8d4f9e
-workflow-type: ht
-source-wordcount: '1167'
-ht-degree: 100%
+source-git-commit: c817592207868284d6d9cc1c8bc0405aa50f8957
+workflow-type: tm+mt
+source-wordcount: '1192'
+ht-degree: 98%
 
 ---
 
@@ -90,19 +90,21 @@ mvn -B archetype:generate \
 | `includeErrorHandler` | `n` | 包含将为整个实例全局设置的自定义 404 响应页面（可以是 `y` 或 `n`）。 |
 | `includeCommerce` | `n` | 包含 [CIF 核心组件](https://github.com/adobe/aem-core-cif-components)依赖项并生成相应的构件。 |
 | `commerceEndpoint` |  | 仅对于 CIF 是必需的。要使用的商务系统 GraphQL 服务的可选端点（例如 `https://hostname.com/grapql`）。 |
+| `includeFormscommunications` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 通信程序生成相应的伪像。 |
+| `includeFormsenrollment` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 注册程序生成相应的伪像。 |
+| `sdkFormsVersion` | `latest` | When `aemVersion=cloud` 和 `includeFormsenrollment=y` 或 `includeFormscommunications=y`，可以指定Forms SDK版本(例如， `2020.12.17.02`)。 |
 | `datalayer` | `y` | 激活与 [Adobe Client Data Layer](/help/developing/data-layer/overview.md) 的集成。 |
 | `amp` | `n` | 为生成的项目模板启用 [AMP](/help/developing/amp.md) 支持。 |
 | `enableDynamicMedia` | `n` | 在项目策略设置中启用基础 DynamicMedia 组件，并在核心图像组件的策略中激活 Dynamic Media 功能。 |
 | `enableSSR` | `n` | 用于为前端项目启用 SSR 的选项 |
 | `precompiledScripts` | `n` | 用于从 `ui.apps` [预编译](/help/developing/archetype/precompiled-bundled-scripts.md)服务器端脚本并将它们作为 `ui.apps` 项目中的次捆绑构件附加到版本的选项。`aemVersion` 应设置为 `cloud`。 |
-| `includeFormscommunications` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 通信程序生成相应的伪像。 |
-| `includeFormsenrollment` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 注册程序生成相应的伪像。 |
+| `includeFormsheadless` | `n` | 包括 [Forms核心组件](https://github.com/adobe/aem-core-forms-components) 依赖关系， `ui.frontend.react.forms.af`和无头工件。 |
 
 ## 系统要求 {#requirements}
 
 | 原型 | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [37](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-37) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [39](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-39) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 为 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) 或[旧版本的 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) 设置本地开发环境。
 
