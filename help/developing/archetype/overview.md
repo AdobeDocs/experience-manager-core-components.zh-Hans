@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: c817592207868284d6d9cc1c8bc0405aa50f8957
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1192'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,13 +92,13 @@ mvn -B archetype:generate \
 | `commerceEndpoint` |  | 仅对于 CIF 是必需的。要使用的商务系统 GraphQL 服务的可选端点（例如 `https://hostname.com/grapql`）。 |
 | `includeFormscommunications` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 通信程序生成相应的伪像。 |
 | `includeFormsenrollment` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 注册程序生成相应的伪像。 |
-| `sdkFormsVersion` | `latest` | When `aemVersion=cloud` 和 `includeFormsenrollment=y` 或 `includeFormscommunications=y`，可以指定Forms SDK版本(例如， `2020.12.17.02`)。 |
+| `sdkFormsVersion` | `latest` | 当 `aemVersion=cloud` 并且 `includeFormsenrollment=y` 或 `includeFormscommunications=y` 其中之一时，可指定 Forms SDK 版本（例如 `2020.12.17.02`）。 |
 | `datalayer` | `y` | 激活与 [Adobe Client Data Layer](/help/developing/data-layer/overview.md) 的集成。 |
 | `amp` | `n` | 为生成的项目模板启用 [AMP](/help/developing/amp.md) 支持。 |
 | `enableDynamicMedia` | `n` | 在项目策略设置中启用基础 DynamicMedia 组件，并在核心图像组件的策略中激活 Dynamic Media 功能。 |
 | `enableSSR` | `n` | 用于为前端项目启用 SSR 的选项 |
 | `precompiledScripts` | `n` | 用于从 `ui.apps` [预编译](/help/developing/archetype/precompiled-bundled-scripts.md)服务器端脚本并将它们作为 `ui.apps` 项目中的次捆绑构件附加到版本的选项。`aemVersion` 应设置为 `cloud`。 |
-| `includeFormsheadless` | `n` | 包括 [Forms核心组件](https://github.com/adobe/aem-core-forms-components) 依赖关系， `ui.frontend.react.forms.af`和无头工件。 |
+| `includeFormsheadless` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、`ui.frontend.react.forms.af` 和 Headless 构件。 |
 
 ## 系统要求 {#requirements}
 
