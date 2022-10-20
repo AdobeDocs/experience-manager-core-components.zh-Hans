@@ -3,10 +3,10 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 9064b357476128525c428b33bdb49fbe68138890
-workflow-type: ht
-source-wordcount: '2753'
-ht-degree: 100%
+source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
+workflow-type: tm+mt
+source-wordcount: '2780'
+ht-degree: 98%
 
 ---
 
@@ -26,12 +26,13 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包括许多增强功能，包括发布了 LinkHandler API、改进了图像组件和数据层并改进了多面板组件。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
+| [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 这是一个修复v1和v2问题的修补程序版本 [Teaser组件。](/help/components/teaser.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
+| [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包括许多增强功能，包括发布LinkHandler API，对 [图像组件](/help/components/image.md) 和 [数据层、](/help/developing/data-layer/overview.md) 以及多面板组件的改进。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 此版本修复了通过 AdaptiveImageServlet 传送 SVG 图像的问题。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 8 月 4 日 |
 | [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 此补丁版本修复了新的[目录组件的问题。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 7 月 7 日 |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | — | — | — | — | — | — |
 | [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | 此补丁版本修复了新的[目录组件的问题。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 6 月 29 日 |
-| --- | --- | --- | --- | --- | --- | --- |
+| — | — | — | — | — | — | — |
 | [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 这是一个修补程序版本，修复了新的 AEMaaCS [网络优化资产投放服务中的问题。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 6 月 20 日 |
 | [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本添加了一个新的[目录组件](/help/components/tableofcontents.md)，增加了对 AEMaaCS [网络优化资产投放服务](/help/developing/web-optimized-image-delivery.md)的支持，并包括错误修复。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 6 月 9 日 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 这一发行版本引入了[搜索组件](/help/components/quick-search.md)的一个新版本、[按钮组件](/help/components/button.md)的一些新功能，以及多项辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 4 月 7 日 |
@@ -93,32 +94,32 @@ ht-degree: 100%
 
 |  | 发行版本 1.0.0 – 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 – 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 – 2.2.0 | 发行版本 2.3.0 – 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 – 2.8.0 | 发行版本 2.9.0 – 2.17.14 | 发行版本 2.18.0 | 发行版本 2.19.0 | 发行版本 2.20.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[页面](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[标题](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[图像](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[列表](components/list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[页面](components/page.md)** | v1 | v1 | v1, v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[标题](components/title.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[图像](components/image.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[列表](components/list.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
 | **[社交媒体共享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1，已弃用 | v1，已弃用 | v1，已弃用 |
-| **[表单容器](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[表单文本](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[表单选项](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[表单隐藏](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[表单按钮](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[内容片段](components/content-fragment-component.md)** |  | 沙盒 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[导航](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
-| **[语言导航](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
-| **[快速搜索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 |
-| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[表单容器](components/forms/form-container.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
+| **[表单文本](components/forms/form-text.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
+| **[表单选项](components/forms/form-options.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
+| **[表单隐藏](components/forms/form-hidden.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
+| **[表单按钮](components/forms/form-button.md)** | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
+| **[内容片段](components/content-fragment-component.md)** |  | 沙盒 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 | v1、v2 | v1，v2 |
+| **[导航](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
+| **[语言导航](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
+| **[快速搜索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 |
+| **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
 | **[选项卡](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[轮盘](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[分隔符](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[内容片段列表](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[内容片段列表](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
 | **[折叠](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[按钮](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[按钮](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
 | **[容器](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[下载](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
-| **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
-| **[嵌入](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
+| **[下载](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
+| **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
+| **[嵌入](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1、v2 | v1、v2 | v1、v2 |
 | **[进度条](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
 | **[PDF 查看器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
 | **[目录](components/tableofcontents.md)** |  |  |  |  |  |  |  |  |  |  |  |  |  | v1 |
