@@ -4,9 +4,9 @@ description: AEM 项目原型的 ui.apps 模块
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 19bceb1d8ba07c70798f2e7203db957d3e8b3d03
 workflow-type: ht
-source-wordcount: '335'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,6 @@ Apache Jackrabbit FileVault 包插件用于将 ui.apps 模块的内容编译为�
 除了 Jackrabbit FileVault 包插件之外，还定义了内容包插件，此插件用于将包推送到 AEM。请注意，使用的 `aem.host`、`aem.port`、`vault.user` 和 `vault.password` 的变量对应于同一父级 POM 中定义的全局属性。
 
 ## ui.apps/pom.xml {#uiapps-pom}
-
-ui.apps pom (`<src>/<project>/ui.apps/pom.xml`) 提供 `filevault-package-maven-plugin` 的 `embedded` 标记。`embedded` 标记包括作为 ui.apps 包的一部分的编译的核心捆绑包及其安装位置。
 
 请注意，core.wcm.components.all 和 core.wcm.components.examples 包作为子包包含在内。这将每次部署核心组件包和 WKND 代码。
 
