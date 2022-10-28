@@ -3,10 +3,10 @@ title: 核心组件简介
 description: 获取核心组件问题的解决方案，并允许其他人在 AEM 中创作元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 1e449c2b3c8fb9a98093c6731455089e8a157015
-workflow-type: ht
-source-wordcount: '928'
-ht-degree: 100%
+source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 核心组件要求使用[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=zh-Hans)，并且不支持经典 UI 和静态模板。如果需要，请检查 [AEM 现代化工具](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html)以使用这些现代化 AEM 功能更新您的项目。
 
-要设置本地开发环境，请查看[此 AEM as a Cloud Service 开发工具包概述](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hans)或适用于[旧版 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=zh-Hans) 的本文档。
+要设置本地开发环境，请参阅 [AEMas a Cloud ServiceSDK的此概述](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hans) 或 [对于旧版AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=zh-Hans).
 
 >[!TIP]
 >

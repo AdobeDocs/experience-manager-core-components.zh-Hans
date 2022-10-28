@@ -4,10 +4,10 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: 核心组件指南
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -110,3 +110,19 @@ ht-degree: 100%
       + [ui.tests 模块](developing/archetype/uitests.md)
       + [it.tests 模块](developing/archetype/ittests.md)
       + [构建分析器 Maven 插件](developing/archetype/build-analyzer-maven-plugin.md)
++ 电子邮件组件 {#email}
+   + [简介](/help/email/introduction.md)
+   + [使用电子邮件核心组件](/help/email/using.md)
+   + [促销活动变量](/help/email/campaign-variables.md)
+   + [版本](/help/email/versions.md)
+   + 电子邮件组件 {#components}
+      + [页面](/help/email/components/page.md)
+      + [容器](/help/email/components/container.md)
+      + [标题](/help/email/components/title.md)
+      + [文本](/help/email/components/text.md)
+      + [图像](/help/email/components/image.md)
+      + [按钮](/help/email/components/button.md)
+      + [Teaser](/help/email/components/teaser.md)
+      + [体验片段](/help/email/components/experience-fragment.md)
+      + [内容片段](/help/email/components/content-fragment.md)
+      + [分段](/help/email/components/segmentation.md)
