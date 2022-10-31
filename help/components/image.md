@@ -1,22 +1,22 @@
 ---
 title: 图像组件
-description: 核心组件图像组件是一个自适应图像组件，具备就地编辑的功能。
+description: 核心组件图像组件是自适应图像组件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1687'
-ht-degree: 100%
+source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
+workflow-type: tm+mt
+source-wordcount: '1678'
+ht-degree: 97%
 
 ---
 
 # 图像组件{#image-component}
 
-核心组件图像组件是一个自适应图像组件，具备就地编辑的功能。
+核心组件图像组件是自适应图像组件。
 
 ## 用途 {#usage}
 
-图像组件具有面向页面访客的自适应图像选择功能和带延迟加载的响应式行为，还具有面向内容作者的轻松图像放置和裁切功能。
+图像组件为页面访客提供了自适应图像选择和响应行为，并具有延迟加载功能，同时为内容作者提供了轻松的图像放置功能。
 
 模板作者可以在[“设计”对话框](#design-dialog)中定义图像宽度以及其他设置。内容编辑者可以在[“配置”对话框](#configure-dialog)中上传或选择资源。
 
