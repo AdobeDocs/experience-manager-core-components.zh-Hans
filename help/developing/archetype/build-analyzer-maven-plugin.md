@@ -4,10 +4,10 @@ description: 本地 Maven 构建分析器插件文档
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
-source-git-commit: be66739084334120158eda96b830a7b6216ef5cd
+source-git-commit: 60ec9c1643abce0ee75da5368269928476390440
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,7 @@ AEM as a Cloud Service SDK 构建分析器 Maven 插件分析各种内容包项�
 | 模块 | 函数、示例和疑难解答 | 本地 SDK | Cloud Manager |
 |---|---|---|---|
 | `api-regions-exportsimports` | 检查所有 OSGI 捆绑的 Import-Package 声明，是否由 Maven 项目中包含的其他捆绑的 Export-package 声明满足。错误可能类似下面这样： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is importing package(s) org.acme.foo in start level 20 but no bundle is exporting these for that start level.`<p> </p>要排除问题，请查看提供包的捆绑是否包括在部署中，或者查看您预期导出的捆绑的清单，以确定使用的名称或版本是否有错。 | 是 | 是 |
+| `bundle-unversioned-packages` | 检查OSGi包是否指定了包含导出包声明的版本和包含导入包声明的版本范围。 错误可能类似下面这样： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is exporting package org.acme.foo without a version.`<p> </p>要进行故障诊断，请确保在 `package-info.java` 添加到指定要导出的版本的包中。 | 是 | 是 |
 | `requirements-capabilities` | 检查 OSGI 捆绑提出的所有要求声明，是否由 Maven 项目中包含的其他捆绑的功能声明满足。错误可能类似下面这样： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Artifact org.acme:mybundle:0.0.1-SNAPSHOT requires org.foo.bar in start level 20 but no artifact is providing a matching capability in this start level.`<p> </p> 要排除问题，请查看您预期会声明功能的捆绑的清单，以确定捆绑为什么缺失，或者检查所需捆绑的清单，以查看其中的要求是否正确。 | 是 | 是 |
 | `bundle-content` | 如果某个捆绑包含使用 Sling-Initial-Content 指定的初始内容，而这些内容在 AEM as a Cloud Service 集群环境中有问题，则会提出警告。警告可能类似下面这样： <p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found initial content : [/]` <p> </p>要排除问题，请参阅 Repoinit 文档，将初始内容转化为 repoinit 语句。 | 是 | 是 |
 | `bundle-resources` | 如果某个捆绑包含使用 Sling-Bundle-Resources 标头指定的资源，而这些资源在 AEM as a Cloud Service 集群环境中有问题，则会提出警告。警告可能类似下面这样：<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> 要排除问题，请参阅 [Repoinit 文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hans#repo-init)将资源转化为 repoinit 语句。 | 是 | 是 |
