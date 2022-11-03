@@ -1,33 +1,33 @@
 ---
 title: 电子邮件容器组件
-description: 电子邮件容器组件允许为电子邮件内容中的多个其他组件创建容器。
+description: 使用电子邮件容器组件，可在您的电子邮件内容上为多个其他组件创建容器。
 role: Architect, Developer, Admin, User
 hidefromtoc: true
 index: false
 source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '835'
+ht-degree: 100%
 
 ---
 
 
 # 电子邮件容器组件 {#email-container-component}
 
-电子邮件容器组件允许为电子邮件内容中的多个其他组件创建容器。
+使用电子邮件容器组件，可在您的电子邮件内容上为多个其他组件创建容器。
 
 ## 用途 {#usage}
 
-电子邮件容器组件允许为电子邮件内容中的多个其他组件创建容器，并可用于对其他组件进行分组和应用通用样式或布局。
+使用电子邮件容器组件，可在您的电子邮件内容上为多个其他组件创建容器，并可用于分组其他组件以及应用通用样式或布局。
 
-* 可以在 [配置对话框。](#configure-dialog)
-* 将电子邮件容器组件添加到页面时，其默认值可在 [“设计”对话框。](#design-dialog)
+* 在[“配置”对话框](#configure-dialog)中可选择容器的属性。
+* 将电子邮件容器组件添加到页面时的默认值可以在[“设计”对话框](#design-dialog)中定义。
 
-将电子邮件容器组件添加到页面后，内容作者可以将其他组件拖放到页面中。
+将电子邮件容器组件添加到页面后，内容作者可以将其他组件拖放到其中。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-电子邮件容器组件的当前版本为v1，该版本于2022年10月随电子邮件核心组件X版引入，在本文档中进行了描述。
+电子邮件容器组件的当前版本是 v1，此版本随 2022 年 10 月的电子邮件核心组件发行版本 X 的发布引入，具体说明见本文档。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
@@ -35,64 +35,64 @@ ht-degree: 0%
 |---|---|---|
 | v1 | 兼容 | 兼容 |
 
-有关电子邮件核心组件版本和版本的更多信息，请参阅此文档 [电子邮件核心组件版本。](/help/email/versions.md)
+有关电子邮件核心组件版本的更多信息，请参阅文档[电子邮件核心组件版本。](/help/email/versions.md)
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验电子邮件容器组件，并查看其配置选项以及HTML和JSON输出的示例，请访问 [组件库。](https://adobe.com/go/aem_cmp_library_email_container)
+要体验电子邮件容器组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库。](https://adobe.com/go/aem_cmp_library_email_container_cn)
 
 ## 技术详细信息 {#technical-details}
 
-有关容器组件的最新技术文档 [可在GitHub上找到。](https://adobe.com/go/aem_cmp_tech_email_container_v1)
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_container_v1_cn)有关容器组件的最新技术文档。
 
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档。](/help/developing/overview.md)
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
 ## “配置”对话框 {#configure-dialog}
 
-配置对话框允许内容作者定义容器项目及其行为和在内容中的显示方式。
+配置对话框允许内容作者定义容器项以及它在您的内容中的行为和显示方式。
 
-![电子邮件容器组件的编辑对话框](/help/email/assets/email-container-configure.png)
+![电子邮件容器组件的“编辑”对话框](/help/email/assets/email-container-configure.png)
 
-* **布局**  — 此选项定义电子邮件容器组件的行为或布局行为。
-   * **全宽**
-   * **半|半**
+* **布局** - 此选项定义电子邮件容器组件的行为或布局行为。
+   * **完整宽度**
+   * **一半|一半**
    * **三分之一|三分之二**
    * **三分之二|三分之一**
-   * **第三|第三|第三**
+   * **三分之一|三分之一|三分之一**
 * **背景颜色** - 定义为自由格式的 RGB 值，或者使用拾色器，[具体取决于配置](#container-settings-tab)
-* **背景图像**  — 为容器定义背景图像， [取决于配置](#container-settings-tab)
-* **ID**  — 此选项允许控制组件在HTML中的唯一标识符。
-   * 如果留空，则会自动为您生成唯一ID，并且可以通过检查生成的内容来找到该ID。
+* **背景图像** – 定义容器的背景图像，[具体取决于配置](#container-settings-tab)
+* **ID** – 此选项允许控制 HTML 中组件的唯一标识符。
+   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果内容找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改ID可能会对CSS产生影响。
+   * 更改 ID 会对 CSS 产生影响。
 
 ### 样式选项卡 {#styles-tab-edit}
 
-电子邮件容器组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling)
+电子邮件容器组件支持 AEM [样式系统。](/help/get-started/authoring.md#component-styling)
 
 使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
-必须在 [设计对话框](#design-dialog) 以使选项卡可用。
+必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便选项卡可用。
 
 ## “设计”对话框 {#design-dialog}
 
-设计对话框允许模板作者定义内容作者可以使用电子邮件容器组件的选项。
+使用“设计”对话框，模板作者可以定义哪些选项可供使用电子邮件容器组件的内容作者使用。
 
 ### “允许的组件”选项卡 {#allowed-components-tab}
 
-的 **允许的组件** 选项卡，用于定义内容作者可以将哪些组件作为项目添加到电子邮件容器组件。
+**“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为项目添加到电子邮件容器组件。
 
-的 **允许的组件** 选项卡函数，与 [在模板编辑器中定义布局容器的策略和属性。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### “默认组件”选项卡 {#default-components-tab}
 
-的 **默认组件** 选项卡用于定义在容器上放置特定资产类型时向组件添加的组件，类似于 [如何在页面模板中定义默认组件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+**“默认组件”**&#x200B;选项卡用于定义在特定资源类型放到容器上时，要向组件中添加哪些组件，类似于[如何在页面模板上定义默认组件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-### “容器设置”选项卡 {#container-settings-tab}
+### 容器设置选项卡 {#container-settings-tab}
 
-的 **容器设置** 选项卡定义作者是否可以定义背景图像或颜色。
+**容器设置**&#x200B;选项卡定义作者是否可以定义背景图像或颜色。
 
-![电子邮件容器组件设计对话框的“容器设置”选项卡](/help/email/assets/email-container-design-container-settings.png)
+![电子邮件容器组件的“设计”对话框的“容器设置”选项卡](/help/email/assets/email-container-design-container-settings.png)
 
 * **背景图像**
    * **启用背景图像** - 选择此选项可允许内容作者定义容器的背景图像。
@@ -105,8 +105,8 @@ ht-degree: 0%
    * **值** - 通过 RGB 值手动定义颜色
       * 点击或单击拾色器，以通过调整单独的 RGB 值或定义十六进制值，更轻松地选择颜色。
    * **删除** - 点击或单击以删除色板。
-   * **重新排列**  — 点按或单击并拖动以重新排序色板。
+   * **重新排列** – 点击或单击并拖动以重新排列色板。
 
 ### 样式选项卡 {#styles-tab}
 
-电子邮件容器组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling)
+电子邮件容器组件支持 AEM [样式系统。](/help/get-started/authoring.md#component-styling)
