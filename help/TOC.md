@@ -5,9 +5,9 @@ breadcrumb-title: 核心组件指南
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '281'
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 + 电子邮件组件 {#email}
    + [简介](/help/email/introduction.md)
    + [使用电子邮件核心组件](/help/email/using.md)
-   + [促销活动变量](/help/email/campaign-variables.md)
+   + [Campaign 变量](/help/email/campaign-variables.md)
    + [版本](/help/email/versions.md)
    + 电子邮件组件 {#components}
       + [页面](/help/email/components/page.md)
