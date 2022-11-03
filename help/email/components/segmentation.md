@@ -5,29 +5,29 @@ role: Architect, Developer, Admin, User
 hidefromtoc: true
 index: false
 source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1171'
+ht-degree: 100%
 
 ---
 
 
 # 电子邮件分段组件 {#email-segmentation-component}
 
-电子邮件分段组件使用Adobe Campaign中的变量来根据内容的收件人显示和隐藏内容。
+电子邮件分段组件使用 Adobe Campaign 中的变量来根据内容的收件人显示和隐藏内容。
 
 ## 用途 {#usage}
 
-电子邮件分段组件允许内容作者根据变量满足的关于Adobe Campaign提供的收件人的条件来隐藏和显示内容。 这样，内容的收件人便可以根据其分段查看内容。
+电子邮件分段组件允许内容作者根据 Adobe Campaign 提供的有关收件人的变量所满足的条件隐藏和显示内容。 通过这种方式，内容的接收者可以看到基于他们的分段的内容。
 
-* 模板作者可以使用 [设计对话框](#design-dialog) 以定义可添加为区段的组件。
-* 内容作者可以使用 [配置对话框](#configure-dialog) 可将组件添加为区段，并根据Adobe Campaign变量配置显示哪些区段。
+* 模板作者可以使用[设计对话框](#design-dialog)定义哪些组件可以添加为段。
+* 内容作者可以使用[配置对话框](#configure-dialog)将组件添加为分段并根据 Adobe Campaign 变量配置显示哪些分段。
 
-作为使用配置对话框的替代方法，内容作者将电子邮件分段组件添加到内容页面后，内容作者可以将其他组件拖放到电子邮件分段组件上以创建新区段。
+作为使用配置对话框的替代方法，一旦内容作者将电子邮件分段组件添加到内容页面，内容作者就可以将其他组件拖放到电子邮件分段组件上创建新分段。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-电子邮件分段组件的当前版本为v1，该版本于2022年10月随电子邮件核心组件第x版引入，在本文档中进行了描述。
+电子邮件分段组件的当前版本是 v1，此版本随 2022 年 10 月的电子邮件核心组件发行版本 X 的发布引入，具体说明见本文档。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
@@ -37,51 +37,51 @@ ht-degree: 0%
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验电子邮件分段组件并查看其配置选项以及HTML和JSON输出的示例，请访问 [组件库。](https://adobe.com/go/aem_cmp_library_email_segmentation)
+要体验电子邮件分段组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_email_segmentation_cn)。
 
 ### 技术详细信息 {#technical-details}
 
-有关Email Teaser组件的最新技术文档 [可在GitHub上找到。](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_cn)有关电子邮件 Teaser 组件的最新技术文档。
 
-有关开发核心组件的更多详细信息，请参阅 [核心组件开发人员文档。](/help/developing/overview.md)
+在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，内容作者可以创建、重命名和重新排列区段，以及定义活动区段。 在电子邮件分段组件中，区段只是另一个根据内容收件人满足的条件隐藏或显示的组件。 您可以将其与 [核心组件选项卡组件、](/help/components/tabs.md) 但是在分段组件中，只显示满足条件的选项卡的内容。
+配置对话框允许内容作者创建、重命名和重新排列段以及定义活动段。 在电子邮件分段组件中，分段只是根据内容接收者满足的条件隐藏或显示的另一个组件。 您可以将其与[核心组件选项卡组件，](/help/components/tabs.md)进行比较，但在分段组件中，仅显示满足条件的选项卡的内容。
 
 ### “项”选项卡 {#items-tab}
 
-![电子邮件分段组件的“配置”对话框项目选项卡](/help/email/assets/email-segmentation-configure-items.png)
+![电子邮件分段组件的配置对话框项选项卡](/help/email/assets/email-segmentation-configure-items.png)
 
-使用 **添加区段** 按钮以打开组件选择器，以选择要添加为区段的组件。 添加后，会将一个条目添加到列表中，该列表包含以下元素：
+使用&#x200B;**“添加区段”**&#x200B;按钮可打开组件选择器，来选择要作为区段添加的组件。在添加之后，一个条目将添加到列表中，包含以下元素：
 
-* **图标**  — 区段的组件类型图标，以便在列表中轻松识别。 将鼠标悬停在上面时将显示完整的组件名称作为工具提示。
-* **条件**  — 要向内容的收件人显示此区段，必须满足的条件。
-   * 可用条件在 [“设计”对话框。](#design-dialog)
-   * **默认**  — 定义默认区段，以在不满足其他条件时显示
-   * **自定义**  — 允许作者定义条件
-      * 条件基于Adobe Campaign个性化变量
-      * [请参阅此处获取Adobe Campaign Standard个性化资源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-      * [请参阅此处获取Adobe Campaign Classic个性化资源。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
-* **删除**  — 点按或单击以从电子邮件分段组件中删除区段。
-* **重新排列**  — 点按或单击并拖动以重新排列区段。
+* **图标** – 区段的组件类型的图标，用于方便在列表中识别。将鼠标悬停在上面时将显示完整的组件名称作为工具提示。
+* **条件** – 该段必须满足的条件才能显示给内容的接收者。
+   * 可用的条件定义在[设计对话框。](#design-dialog)
+   * **默认** – 定义默认段以显示是否不满足其他条件
+   * **自定义** – 允许作者定义条件
+      * 条件基于 Adobe Campaign 个性化变量
+      * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+      * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+* **删除** – 点击或单击以从电子邮件分段组件中删除区段。
+* **重新排列** - 点击或单击并拖动以重新排列区段。
 
 >[!TIP]
 >
->如果缩小了内容的视区，使编辑对话框变为全屏，则 **添加** 按钮。 组件仍可以通过 [从组件浏览器中拖放到内容编辑器中的电子邮件分段组件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)
+>如果减小内容视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**添加**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在内容编辑器的电子邮件分段组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)来添加到电子邮件分段组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
-![电子邮件分段组件的“配置”对话框属性选项卡](/help/email/assets/email-segmentation-configure-properties.png)
+![电子邮件分段组件的配置对话框属性选项卡](/help/email/assets/email-segmentation-configure-properties.png)
 
-* **ID**  — 此选项允许控制组件在HTML中的唯一标识符。
-   * 如果留空，则会自动为您生成唯一ID，并且可以通过检查生成的内容来找到该ID。
+* **ID** – 此选项允许控制 HTML 中组件的唯一标识符。
+   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果内容找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改ID可能会对CSS产生影响。
+   * 更改 ID 会对 CSS 产生影响。
 
 ### “辅助功能”选项卡 {#accessibility-tab}
 
-![电子邮件分段组件的“配置”对话框辅助功能选项卡](/help/email/assets/email-segmentation-configure-accessibility.png)
+![电子邮件分段组件的配置对话框可访问性选项卡](/help/email/assets/email-segmentation-configure-accessibility.png)
 
 在&#x200B;**辅助功能**&#x200B;选项卡上，可以为组件的 [ARIA 辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/)标签设置值。
 
@@ -89,57 +89,57 @@ ht-degree: 0%
 
 ### “样式”选项卡 {#styles-tab-edit}
 
-电子邮件分段组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling)
+电子邮件分段组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
 使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
-必须在 [设计对话框](#design-dialog) 以使选项卡可用。
+必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便选项卡可用。
 
 ## 选择面板 {#select-panel}
 
-内容作者可以使用 **选择面板** 选项，以更改为其他区段进行编辑，并轻松重新排列区段。
+内容作者可以使用组件工具栏上的&#x200B;**选择面板**&#x200B;选项，更改到不同的区段进行编辑，以及轻松地重新排列区段。
 
 ![选择面板图标](/help/email/assets/select-panel-icon.png)
 
-选择 **选择面板** 选项时，配置的区段将显示为下拉列表。
+在组件工具栏中选择了&#x200B;**选择面板**&#x200B;选项之后，配置的区段将显示为下拉列表。
 
-* 列表按区段的分配排列排序，并反映在编号中。
-* 首先显示区段的组件类型，然后以较浅字体显示区段的描述。
+* 下拉列表按照向区段分配的顺序排列，并体现在编号中。
+* 首先显示区段的组件类型，然后是较细字体的区段描述。
 
 ![“选择面板”弹出框](/help/email/assets/select-panel-popover.png)
 
-* 点按或单击下拉菜单中的条目，即会将编辑器中的视图切换到该区段。
-* 可使用拖动手柄就地重新排列区段。
+* 在下拉列表中点击或单击某个条目，会在编辑器中将视图切换到该区段。
+* 可以使用拖动手柄就地重新排列区段。
 
 >[!NOTE]
 >
->区段在页面编辑器中以选项卡的形式呈现，以显示最终内容的多个选项。 作者在页面编辑器中无法选择这些选项卡。 使用“选择”面板可在显示的区段之间切换。
+>区段在页面编辑器中呈现为选项卡，以显示最终内容有多个选项。 作者在页面编辑器中无法选择这些选项卡。 使用选择面板在显示的区段之间切换。
 
 ## “设计”对话框 {#design-dialog}
 
-设计对话框允许模板作者定义哪些组件可作为区段添加到电子邮件分段组件，以及定义哪些自定义样式可供内容作者使用。
+使用“设计”对话框，模板作者可以定义哪些组件可以作为区段添加到电子邮件区段组件中，并定义哪些自定义样式可供内容作者使用。
 
 ### “允许的组件”选项卡 {#allowed-components-tab}
 
-的 **允许的组件** 选项卡，用于定义内容作者可以将哪些组件作为区段添加到电子邮件分段组件。
+**“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为区段添加到电子邮件分段组件。
 
-的 **允许的组件** 选项卡函数，与 [在模板编辑器中定义布局容器的策略和属性。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 样式选项卡 {#styles-tab}
 
-电子邮件分段组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling)
+电子邮件分段组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-### “定义的条件”选项卡 {#defined-conditions}
+### 定义条件选项卡 {#defined-conditions}
 
-使用 **定义的条件** 选项卡中，模板编辑器可以定义内容作者在创建区段时可以选择的条件。
+通过&#x200B;**定义条件**&#x200B;选项卡，模板编辑器可以定义内容作者在创建区段时可以选择哪些条件。
 
-![“设计”对话框“定义的条件”选项卡](/help/email/assets/email-segmentation-design-defined-conditions.png)
+![设计对话框定义条件选项卡](/help/email/assets/email-segmentation-design-defined-conditions.png)
 
-点按或单击 **添加** 按钮以创建新条件。
+点击或单击&#x200B;**添加**&#x200B;按钮可创建新条件。
 
-* **区段条件名称**  — 条件描述
-* **区段条件**  — 根据Adobe Campaign个性化变量，必须满足的实际条件
-   * [请参阅此处获取Adobe Campaign Standard个性化资源。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-   * [请参阅此处获取Adobe Campaign Classic个性化资源。](https://experienceleague.adobe.com/docs/)
-* **删除**  — 点按以删除条件
-* **重新排列**  — 点按或单击并拖动以重新排列条件的顺序
+* **区段条件名称** – 条件描述
+* **区段条件** – 必须满足的实际条件，基于 Adobe Campaign 个性化变量
+   * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+   * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。]（https://experienceleague.adobe.com/docs/
+* **移除** – 点击以移除条件
+* **重新排列** – 点击或单击并拖动以重新排列条件。
