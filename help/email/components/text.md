@@ -1,31 +1,31 @@
 ---
-title: 电子邮件文本组件
-description: 电子邮件文本组件是一种富文本编辑和合成组件，可进行就地编辑。
+title: 电子邮件表单文本组件
+description: 电子邮件文本组件是一种富文本编辑和撰写组件，具有就地编辑功能。
 role: Architect, Developer, Admin, User
 hidefromtoc: true
 index: false
 source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2328'
+ht-degree: 100%
 
 ---
 
 
-# 电子邮件文本组件 {#email-text-component}
+# 电子邮件表单文本组件 {#email-text-component}
 
-电子邮件文本组件是一种富文本编辑和合成组件，可进行就地编辑。
+电子邮件文本组件是一种富文本编辑和撰写组件，具有就地编辑功能。
 
 ## 用途 {#usage}
 
-电子邮件文本组件提供了强大的富文本编辑器，利用该编辑器，可以在简化的内嵌编辑器中轻松编辑文本以及全屏格式。
+电子邮件文本组件提供了一个强大的富文本编辑器，允许在简化的内联编辑器中以全屏格式轻松编辑文本。
 
 * [“编辑”对话框](#edit-dialog)具有带有限选项的内联编辑功能，可在全屏编辑对话框中实现完整功能。
-* 使用 [设计对话框，](#design-dialog) 可以为内容作者的模板配置文本格式选项，例如标题、特殊字符和段落样式。
+* 利用[“设计”对话框，](#design-dialog)可以为内容作者配置模板的文本格式选项，例如标题、特殊字符和段落样式。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-电子邮件文本组件的当前版本为v1，该版本于2022年10月随电子邮件核心组件X版引入，在此文档中进行了描述。
+电子邮件文本组件的当前版本是 v1，此版本随 2022 年 10 月的电子邮件核心组件发行版本 X 的发布引入，具体说明见本文档。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
@@ -33,35 +33,35 @@ ht-degree: 0%
 |---|---|---|
 | v1 | 兼容 | 兼容 |
 
-有关核心组件版本和版本的更多信息，请参阅此文档 [电子邮件核心组件版本。](/help/email/versions.md)
+有关核心组件版本的更多信息，请参阅文档[电子邮件核心组件版本。](/help/email/versions.md)
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验文本组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_email_text)。
+要体验文本组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_email_text_cn)。
 
 ### 技术详细信息 {#technical-details}
 
-有关电子邮件文本组件的最新技术文档 [可在GitHub上找到](https://adobe.com/go/aem_cmp_tech_email_text_v1).
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_email_text_v1_cn)有关电子邮件文本组件的最新技术文档。
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
 ## 电子邮件文本组件和富文本编辑器 {#the-text-component-and-the-rich-text-editor}
 
-电子邮件文本组件可利用AEM富文本编辑器(RTE)。 RTE 为内容作者提供了一系列广泛的功能来编辑其文本内容。RTE的配置方式非常灵活，提供了多个选项。 有关如何配置 RTE 的其他详细信息，请参阅文章[配置富文本编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
+电子邮件文本组件利用 AEM 富文本编辑器 (RTE)。 RTE 为内容作者提供了一系列广泛的功能来编辑其文本内容。RTE 的配置灵活，并切提供了许多选项。 有关如何配置 RTE 的其他详细信息，请参阅文章[配置富文本编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
-本文档的其余部分演示了使用现成RTE配置的电子邮件文本组件的标准配置。
+本文档的其余部分演示了具有现成 RTE 配置的电子邮件文本组件的标准配置。
 
 >[!NOTE]
 >
->仅启用的选项 [RTE的UI配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) 在电子邮件文本组件中可用。
+>仅由 [RTE 的 UI 配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)启用的选项在电子邮件文本组件中可用。
 
 ## “编辑”对话框 {#edit-dialog}
 
 ![文本组件的“编辑”对话框](/help/email/assets/email-text-edit.png)
 
-### 格式选项 {#options}
+### 格式化选项 {#options}
 
-编辑对话框提供了用户期望撰写文本的标准富文本格式工具。
+“编辑”对话框提供了用户将用于撰写文本的标准富文本格式工具。
 
 #### 粗体
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 将任何复制的文本粘贴为纯文本，而不设置任何格式。
 
-选择此选项时，会打开一个窗口，在该窗口中，文本可以作为纯文本进行粘贴，且在插入文本之前，不会作为预览进行格式设置。 通过点击或单击复选标记可接受，通过点击或单击 x 可取消。
+当选择此选项时，将打开一个窗口，其中的文本可以粘贴为无格式的纯文本，作为插入文本中之前的预览。 通过点击或单击复选标记可接受，通过点击或单击 x 可取消。
 
 ![粘贴为文本示例](/help/assets/text-paste-text-example.png)
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ![“从 Word 粘贴”图标](/help/assets/text-paste-word.png)
 
-选择此选项时，将打开一个窗口，可在该窗口中粘贴文本，并在将文本插入文本之前，将其格式保留为预览。 通过点击或单击复选标记可接受，通过点击或单击 x 可取消。
+当选择此选项时，将打开一个窗口，其中的文本可粘贴并保留其格式，作为插入文本中之前的预览。 通过点击或单击复选标记可接受，通过点击或单击 x 可取消。
 
 ![从 Word 粘贴示例](/help/assets/text-paste-word-example.png)
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 ![超链接示例](/help/assets/text-hyperlink-example.png)
 
 * 输入路径
-   * 使用 **打开选择** 对话框在AEM中选择路径
+   * 使用&#x200B;**“打开选择”**&#x200B;对话框可在 AEM 中选择路径
    * 如果链接未在 AEM 中，请输入绝对 URL
       * 非绝对路径将解释为相对于 AEM
 * 输入链接的替换描述文本
@@ -183,25 +183,25 @@ ht-degree: 0%
 * 如果您希望根据大小写进行精确匹配，请选择选项&#x200B;**匹配大小写**，然后再开始搜索。
 * 选择&#x200B;**全部替换**&#x200B;可一次性替换文本的所有匹配项。
 
-如果找到一个匹配项，则将突出显示该匹配项，并且搜索对话框将灰显。在灰显对话框中再次单击&#x200B;**查找**&#x200B;按钮可搜索下一个匹配项，选择&#x200B;**替换**&#x200B;按钮可替换突出显示的匹配文本。的 **替换** 按钮仅在进行匹配后才处于活动状态。
+如果找到一个匹配项，则将突出显示该匹配项，并且搜索对话框将灰显。在灰显对话框中再次单击&#x200B;**查找**&#x200B;按钮可搜索下一个匹配项，选择&#x200B;**替换**&#x200B;按钮可替换突出显示的匹配文本。**替换**&#x200B;按钮仅在进行匹配后处于活动状态。
 
 在单击“查找”时，“查找和替换”对话框变为透明；在单击“替换”时，此对话框变为不透明。这允许作者审查自己将替换的文本。
 
 >[!NOTE]
 >
->使用替换功能时，应在输入要替换的字符串时与要找到的字符串同时输入。 不过，您仍可以在替换字符串之前单击“查找”来搜索它。如果在单击“查找”后输入替换字符串，则搜索将重置到文本的开头。
+>在使用替换功能时，要替换的字符串应与要查找的字符串同时输入。 不过，您仍可以在替换字符串之前单击“查找”来搜索它。如果在单击“查找”后输入替换字符串，则搜索将重置到文本的开头。
 
-#### 撤消
+#### 还原
 
-![“撤消”图标](/help/email/assets/undo.png)
+![“还原”图标](/help/email/assets/undo.png)
 
-用于在富文本编辑器中撤消上次编辑。
+用于还原富文本编辑器中的最后一次编辑。
 
 #### 重做
 
 ![“重做”图标](/help/email/assets/redo.png)
 
-用于通过使用撤消图标撤消已撤消的编辑。
+用于还原使用还原图标还原的编辑。
 
 #### 左对齐文本
 
@@ -275,7 +275,7 @@ ht-degree: 0%
 
 #### 图像
 
-![图像图标](/help/email/assets/image-icon.png)
+![“图像”图标](/help/email/assets/image-icon.png)
 
 用于对齐插入的图像。
 
@@ -319,37 +319,37 @@ ht-degree: 0%
 
 ![“段落格式”图标](/help/assets/text-paragraph.png)
 
-用于对所选文本或在光标后插入的文本应用段落格式。选择此选项将打开一个下拉列表，其中选择了段落格式。
+用于对所选文本或在光标后插入的文本应用段落格式。选择此选项将打开一个下拉菜单，可从中选择段落格式。
 
 ![段落格式示例](/help/assets/text-paragraph-example.png)
 
 #### 选择 Adobe Campaign 变量
 
-![选择Adobe Campaign变量图标](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![选择 Adobe Campaign 变量图标](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
-打开 [选择Adobe Campaign变量](/help/email/campaign-variables.md) 对话框，以从Adobe Campaign插入动态内容。
+打开[选择 Adobe Campaign 变量](/help/email/campaign-variables.md)对话框，插入来自 Adobe Campaign 的动态内容。
 
 ### 内联编辑 {#in-line-editing}
 
-也可以内嵌编辑文本组件。 要编辑内嵌文本，请在内容页面上选择电子邮件文本组件。
+文本组件也可以在线编辑。 要在线编辑，请在内容页面上选择电子邮件文本组件。
 
-![选择电子邮件文本组件](/help/email/assets/email-text-select-component.png)
+![选择电子邮件表单文本组件](/help/email/assets/email-text-select-component.png)
 
-然后，点按或单击 **编辑** 图标。 工具栏会发生更改，以显示有限的文本格式选项(包括 **选择Adobe Campaign变量** 选项)，并且可以编辑内嵌文本。
+然后点击或单击组件上方弹出的工具栏上的&#x200B;**编辑**&#x200B;图标。 工具栏更改为显示有限的文本格式选项（包括访问&#x200B;**选择 Adobe Campaign 变量**&#x200B;选项），您可以编辑内嵌文本。
 
 ![内联编辑示例](/help/email/assets/email-text-edit-inline-example.png)
 
-点按或单击工具栏中的复选标记以保存更改，或点按要放弃的X。
+点击或单击工具栏中的复选标记可保存您的更改，点击或单击 X 可放弃保存。
 
-由于空间限制，并非所有格式选项都可以串联使用。 要查看所有选项，请切换到全屏模式。
+由于空间限制，并非所有格式选项都可以内嵌。 要查看所有选项，请切换到全屏模式。
 
-### 设置ID {#setting-id}
+### 设置 ID {#setting-id}
 
-此选项允许控制HTM中组件的唯一标识符。
+此选项允许控制 HTM 中组件的唯一标识符。
 
 * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
 * 如果指定一个 ID，作者有责任确保它是唯一的。
-* 更改ID可能会对CSS产生影响。
+* 更改 ID 会对 CSS 产生影响。
 
 ## “设计”对话框 {#design-dialog}
 
@@ -357,7 +357,7 @@ ht-degree: 0%
 
 ### “插件”选项卡 {#plugins-tab}
 
-的 **插件** 选项卡，用于启用和禁用内容作者可用的各种文本格式选项。
+**“插件”**&#x200B;选项卡用于启用和禁用对内容作者可用的各种文本格式选项。
 
 ### 功能 {#features}
 
@@ -368,7 +368,7 @@ ht-degree: 0%
 * 粘贴纯文本
 * 从 Word 粘贴
 * 查找并替换
-* 撤消和重做
+* “还原”和“重做”
 * 拼写检查器
 * 插入的图像修改选项
 * HTML 源编辑
@@ -394,8 +394,8 @@ ht-degree: 0%
 
 * 点击或单击&#x200B;**“添加”**&#x200B;按钮可插入新样式。
 * 输入将在“编辑”对话框中显示的样式代码和描述。
-* 要删除样式，请点按或单击 **删除** 按钮。
-* 要重新排列格式的顺序，请点按或单击并拖动控制滑块。
+* 要移除样式，请点击或单击&#x200B;**删除**&#x200B;按钮。
+* 要重新设置格式的顺序，请点击或单击并拖动手柄。
 
 ### 特殊字符 {#configuring-special-characters}
 
@@ -405,9 +405,9 @@ ht-degree: 0%
 
 * 点击或单击&#x200B;**“添加”**&#x200B;按钮可插入新字符。
 * 输入将在“编辑”对话框中显示的字符的 HTML 代码和描述。
-* 要删除字符，请点按或单击 **删除** 按钮。
+* 要移除字符，请点击或单击&#x200B;**删除**&#x200B;按钮。
 * 要重新设置字符的顺序，请点击或单击并拖动手柄。
 
 ## “样式”选项卡 {#styles-tab}
 
-电子邮件文本组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling).
+电子邮件文本组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
