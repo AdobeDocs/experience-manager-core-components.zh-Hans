@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 2557a72b6bc9ea3f1fd0f73e53b5880f9b6d3ce7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1192'
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 | `groupId` |  | 基本 Maven 组 ID（例如 `"com.mysite"`）。此值必须是[有效的 Java 包名称。](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
 | `package` | *`${groupId}`* | Java 源程序包（例如 `"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | 项目版本（例如 `1.0-SNAPSHOT`）。 |
-| `aemVersion` | `cloud` | 目标 AEM 版本（可以是 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 的 `cloud`；或 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署的 `6.5.0` 或 `6.4.4`）。 |
+| `aemVersion` | `cloud` | 目标 AEM 版本（可以是 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 的 `cloud`；或 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署的 `6.5.0` 或 `6.4.4`）。 |
 | `sdkVersion` | `latest` | 在为 `aemVersion=cloud` 时，可指定[开发工具包](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)版本（例如 `2020.02.2265.20200217T222518Z-200130`）。 |
 | `includeDispatcherConfig` | `y` | 包括用于云或 AMS/内部部署的 Dispatcher 配置，具体取决于 `aemVersion` 的值（可以是 `y` 或 `n`）。 |
 | `frontendModule` | `general` | 包含一个生成客户端库的 Webpack 前端构建模块（可以是面向常规站点的 `general` 或 `none`；可以是面向实施 [SPA 编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html)的单页面应用程序的 `angular` 或 `react`）。 |
