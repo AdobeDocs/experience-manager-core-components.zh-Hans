@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: 60ec9c1643abce0ee75da5368269928476390440
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '710'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ AEM as a Cloud Service SDK 构建分析器 Maven 插件分析各种内容包项�
 | 模块 | 函数、示例和疑难解答 | 本地 SDK | Cloud Manager |
 |---|---|---|---|
 | `api-regions-exportsimports` | 检查所有 OSGI 捆绑的 Import-Package 声明，是否由 Maven 项目中包含的其他捆绑的 Export-package 声明满足。错误可能类似下面这样： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is importing package(s) org.acme.foo in start level 20 but no bundle is exporting these for that start level.`<p> </p>要排除问题，请查看提供包的捆绑是否包括在部署中，或者查看您预期导出的捆绑的清单，以确定使用的名称或版本是否有错。 | 是 | 是 |
-| `bundle-unversioned-packages` | 检查OSGi包是否指定了包含导出包声明的版本和包含导入包声明的版本范围。 错误可能类似下面这样： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is exporting package org.acme.foo without a version.`<p> </p>要进行故障诊断，请确保在 `package-info.java` 添加到指定要导出的版本的包中。 | 是 | 是 |
+| `bundle-unversioned-packages` | 检查 OSGi 捆绑包是否指定了带有导出包声明的版本和带有导入包声明的版本范围。错误可能类似下面这样： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Bundle org.acme:mybundle:0.0.1-SNAPSHOT is exporting package org.acme.foo without a version.`<p> </p>要进行故障排除，请确保在该程序包中添加 `package-info.java`，指定要导出的版本。 | 是 | 是 |
 | `requirements-capabilities` | 检查 OSGI 捆绑提出的所有要求声明，是否由 Maven 项目中包含的其他捆绑的功能声明满足。错误可能类似下面这样： <p> </p> `[ERROR] org.acme:mybundle:0.0.1-SNAPSHOT: Artifact org.acme:mybundle:0.0.1-SNAPSHOT requires org.foo.bar in start level 20 but no artifact is providing a matching capability in this start level.`<p> </p> 要排除问题，请查看您预期会声明功能的捆绑的清单，以确定捆绑为什么缺失，或者检查所需捆绑的清单，以查看其中的要求是否正确。 | 是 | 是 |
 | `bundle-content` | 如果某个捆绑包含使用 Sling-Initial-Content 指定的初始内容，而这些内容在 AEM as a Cloud Service 集群环境中有问题，则会提出警告。警告可能类似下面这样： <p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found initial content : [/]` <p> </p>要排除问题，请参阅 Repoinit 文档，将初始内容转化为 repoinit 语句。 | 是 | 是 |
 | `bundle-resources` | 如果某个捆绑包含使用 Sling-Bundle-Resources 标头指定的资源，而这些资源在 AEM as a Cloud Service 集群环境中有问题，则会提出警告。警告可能类似下面这样：<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> 要排除问题，请参阅 [Repoinit 文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hans#repo-init)将资源转化为 repoinit 语句。 | 是 | 是 |
@@ -39,7 +39,7 @@ AEM as a Cloud Service SDK 构建分析器 Maven 插件分析各种内容包项�
 | `configuration-api` | 验证重要 OSGi 配置。 <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | 是 | 是 |
 | `region-deprecated-api` | 检查是否使用了[已弃用的 api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=zh-Hans) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
 | `artifact-rules` | 验证包和内容包等依赖项以防止构件中出现已知问题。<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | 是 | 是 |
-| `aem-env-var` | 根据 [变量命名指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#variable-naming)<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | 是 | 是 |
+| `aem-env-var` | 根据[变量命名指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#variable-naming)检查环境变量。<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | 是 | 是 |
 | `content-package-validation` | 运行 FileVault 验证器。默认情况下，启用了 jackrabbit docviewparser，用于检查将在部署期间安装的包中 xml 的结构良好的内容语法。<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>要修复此问题，请查看分析器命名的文件以了解 xml 问题。 | 是 | 是 |
 
 {style=&quot;table-layout:auto&quot;}
