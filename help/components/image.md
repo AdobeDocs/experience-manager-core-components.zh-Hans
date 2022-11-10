@@ -4,9 +4,9 @@ description: 核心组件图像组件是自适应图像组件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 ## 用途 {#usage}
 
-图像组件为页面访客提供了自适应图像选择和响应行为，并具有延迟加载功能，同时为内容作者提供了轻松的图像放置功能。
+图像组件具有自适应图像选择和响应式行为，页面访客可以延迟加载，内容作者可以轻松放置图像。
 
 模板作者可以在[“设计”对话框](#design-dialog)中定义图像宽度以及其他设置。内容编辑者可以在[“配置”对话框](#configure-dialog)中上传或选择资源。
 
@@ -168,7 +168,7 @@ ht-degree: 97%
 >
 >查看文档[自适应图像 Servlet](/help/developing/adaptive-image-servlet.md) 以了解通过仔细定义宽度来优化演绎版选择的提示。
 
-### “样式”选项卡 {#styles-tab}
+### 样式选项卡 {#styles-tab}
 
 图像组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
