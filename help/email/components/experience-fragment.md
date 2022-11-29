@@ -4,7 +4,7 @@ description: 电子邮件体验片段组件允许内容作者在其内容中放�
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 100%
 
