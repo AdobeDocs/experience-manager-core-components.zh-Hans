@@ -2,9 +2,8 @@
 title: 电子邮件分段组件
 description: 电子邮件分段组件
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '1171'
 ht-degree: 100%
@@ -87,7 +86,7 @@ ht-degree: 100%
 
 * **标签** - 组件的 ARIA 标签属性的值
 
-### “样式”选项卡 {#styles-tab-edit}
+### 样式选项卡 {#styles-tab-edit}
 
 电子邮件分段组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
