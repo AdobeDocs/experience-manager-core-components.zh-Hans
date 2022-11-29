@@ -2,9 +2,8 @@
 title: 电子邮件标题组件
 description: 电子邮件标题组件是您的电子邮件的分区标题组件，具有就地编辑功能。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '636'
 ht-degree: 100%
