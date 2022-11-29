@@ -2,9 +2,8 @@
 title: 电子邮件图像组件
 description: 电子邮件图像组件是一个自适应图像组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '1683'
 ht-degree: 100%
