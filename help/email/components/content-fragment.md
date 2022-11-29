@@ -2,9 +2,8 @@
 title: 电子邮件内容片段组件
 description: 利用电子邮件内容片段组件，可以在您的内容中显示内容片段。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '668'
 ht-degree: 100%
