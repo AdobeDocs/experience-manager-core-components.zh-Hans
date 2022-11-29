@@ -2,9 +2,8 @@
 title: 电子邮件表单文本组件
 description: 电子邮件文本组件是一种富文本编辑和撰写组件，具有就地编辑功能。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '2328'
 ht-degree: 100%
