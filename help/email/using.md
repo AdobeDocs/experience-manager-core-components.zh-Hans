@@ -2,12 +2,11 @@
 title: 使用电子邮件核心组件
 description: 了解电子邮件核心组件的基本安装、配置和使用。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
-workflow-type: ht
-source-wordcount: '672'
-ht-degree: 100%
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 ### 安装核心组件 {#core-components}
 
-电子邮件核心组件基于 AEM 核心组件构建。 由于 AEM 未随附核心组件，因此您必须先安装 AEM 核心组件，然后再安装电子邮件核心组件。
+电子邮件核心组件基于 AEM 核心组件构建。 由于核心组件未随AEM 6.5一起提供，因此您必须先安装AEM核心组件，然后再安装电子邮件核心组件。
 
 有关如何安装核心组件的详细信息，请参阅文档使用核心组件的[下载和安装](/help/get-started/using.md#download-and-install)部分。
 
@@ -80,6 +79,4 @@ ht-degree: 100%
 
 有关在 AEM 中创建电子邮件内容并在 Adobe Campaign 中投放的示例，请参阅以下资源。
 
-* AEM as a Cloud Service：[使用 AEM 创建 Campaign 新闻稿](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5：[使用 Adobe Campaign Classic 和 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-

@@ -4,7 +4,7 @@ description: 电子邮件文本组件是一种富文本编辑和撰写组件，�
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 100%
 

@@ -2,12 +2,11 @@
 title: 电子邮件核心组件简介
 description: 使用电子邮件核心组件的灵活性创建吸引人的电子邮件内容，并利用 Adobe Campaign 的强大功能进行交付。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
-workflow-type: ht
-source-wordcount: '414'
-ht-degree: 100%
+exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 88%
 
 ---
 
@@ -31,9 +30,9 @@ ht-degree: 100%
 
 * 核心电子邮件组件基于[核心组件](/help/introduction.md)，因此还支持[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)和[样式系统。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hans)
 * 有[十个电子邮件优化的生产就绪组件](#components)创作电子邮件内容。
-* 由于在大多数对话框字段中插入了 Adobe Campaign 变量，核心电子邮件组件提供了高级个性化。
-* 灵活的分段组件允许对您的内容进行高级分段。
-* 由于[CSS 样式内联、](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner)[HTML 属性内联、](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner)和 [HTML 清理器，](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizer)核心电子邮件组件提供了最佳的电子邮件友好型 HTML 输出。
+* 由于插入了 [Adobe Campaign变量](campaign-variables.md) 在大多数对话框字段中。
+* 灵活 [分段组件](/help/email/components/segmentation.md) 允许对内容进行高级分段。
+* 由于[CSS 样式内联、](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner: — 技术文档)[HTML 属性内联、](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner)和 [HTML 清理器，](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)核心电子邮件组件提供了最佳的电子邮件友好型 HTML 输出。
 * 您可以在 `/content` 以下的任何位置创建电子邮件内容。
 * 电子邮件核心组件是[开源的。](https://github.com/adobe/aem-core-email-components)
 
@@ -43,7 +42,7 @@ ht-degree: 100%
 
 | AEM | Adobe Campaign | 核心组件 |
 |---|---|---|
-| AEM 6.5.x.y（内部部署或 AMS） | Adobe Campaign Classic vX<br>或<br>Adobe Campaign Standard | [版本 x](/help/versions.md)或更高 |
+| AEM 6.5.14.0+<br>内部部署或AMS。 | Adobe Campaign Classic<br>Adobe Campaign Standard | [版本2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >
