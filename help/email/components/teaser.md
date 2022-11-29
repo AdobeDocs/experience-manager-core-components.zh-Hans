@@ -2,9 +2,8 @@
 title: 电子邮件 Teaser 组件
 description: 电子邮件 Teaser 组件可以显示图像、标题、富文本并可以选择链接到更多内容。
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: d6123b22-7cba-406c-986d-b6f00322d135
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: ht
 source-wordcount: '1056'
 ht-degree: 100%
@@ -92,7 +91,7 @@ Teaser 标题、描述和图像可以从链接的内容或第一个号召性用�
 >
 >[Dynamic Media 功能](image.md#dynamic-media)当前在 Teaser 组件中不可用。
 
-### “样式”选项卡 {#styles-tab-edit}
+### 样式选项卡 {#styles-tab-edit}
 
 电子邮件 Teaser 组件支持 AEM [样式系统。](/help/get-started/authoring.md#component-styling)
 
