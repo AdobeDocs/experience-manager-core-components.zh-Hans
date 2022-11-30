@@ -4,9 +4,9 @@ description: 了解电子邮件核心组件的基本安装、配置和使用。
 role: Architect, Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 ### 安装核心组件 {#core-components}
 
-电子邮件核心组件基于 AEM 核心组件构建。 由于核心组件未随AEM 6.5一起提供，因此您必须先安装AEM核心组件，然后再安装电子邮件核心组件。
+电子邮件核心组件基于 AEM 核心组件构建。 由于 AEM 6.5 未随附核心组件，因此您必须先安装 AEM 核心组件，然后再安装电子邮件核心组件。
 
 有关如何安装核心组件的详细信息，请参阅文档使用核心组件的[下载和安装](/help/get-started/using.md#download-and-install)部分。
 
