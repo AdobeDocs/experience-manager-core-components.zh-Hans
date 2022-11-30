@@ -4,9 +4,9 @@ description: 核心电子邮件组件作为版本发布。
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 95%
 
 | 发行版本 | 描述 | AEM 6.5 | 核心组件 | Java | 发布日期 |
 |---|---|---|---|---|---|
-| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 首次公开发行，请参阅发行说明以了解详细信息 | 6.5.14.0+ | [2.21.2](/help/versions.md) | 8, 11 | 2022年11月29日 |
-| [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | 修复 | 6.5.13.0+ |  | 8, 11 | 2022 年 9 月 30 日 |
-| [0.17.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.17.0) | 修复 | 6.5.13.0+ |  | 8, 11 | 2022 年 9 月 27 日 |
-| [0.16.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.16.0) | 修复 | 6.5.13.0+ |  | 8, 11 | 2022 年 9 月 14 日 |
-| [0.14.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.14.0) | 在 iOS 上修复 Outlook 的媒体查询 | 6.5.13.0+ |  | 8, 11 | 2022 年 8 月 8 日 |
-| [0.13.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.13.0) | Wrapper DIV 性能修复，修复了富文本中的处理链接 | 6.5.13.0+ |  | 8, 11 | 2022 年 27 月 7 日 |
-| [0.11.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.11.0) | 对分段组件、HTML 内联、修复的自定义区段支持 | 6.5.13.0+ |  | 8, 11 | 2022 年 6 月 7 日 |
-| [0.10.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.10.0) | 为页面组件列设置启用页面策略，更新分段组件，改进代码覆盖率 | 6.5.13.0+ |  | 8, 11 | 2022 年 6 月 15 日 |
-| [0.9.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.9.0) | 标题和容器组件的修复和更新 | 6.5.13.0+ |  | 8, 11 | 2022 年 6 月 1 日 |
-| [0.8.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.8.0) | 添加了 Teaser 组件、修复和代码覆盖率改进 | 6.5.13.0+ |  | 8, 11 | 2022 年 5 月 19 日 |
-| [0.7.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.7.0) | 修复 | 6.5.13.0+ |  | 8, 11 | 2022 年 5 月 4 日 |
-| [0.6.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.6.0) | 添加了标题、按钮和体验片段组件，添加了 ContextHub 支持 | 6.5.13.0+ |  | 8, 11 | 2022 年 4 月 20 日 |
-| [0.5.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.5.0) | 添加了样式内联和内容片段组件 | 6.5.13.0+ |  | 8, 11 | 2022 年 4 月 7 日 |
-| [0.4.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.4.0) | 添加了 URL 外化器、个性化和分段组件 | 6.5.13.0+ |  | 8, 11 | 2022 年 23 月 |
-| [0.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.3.0) | 添加了文本和容器组件，添加了创作 UI、修复 | 6.5.13.0+ |  | 8, 11 | 2022 年 9 月 |
-| [0.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.2.0) | 带有页面组件和各种 POC 的初始预发布 | 6.5.13.0+ |  | 8, 11 | 2022 年 2 月 24 日 |
+| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 首次公开发布，详见发行说明 | 6.5.14.0+ | [2.21.2](/help/versions.md) | 8, 11 | 2022 年 11 月 29 日 |
+| [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | 修复 | 6.5.13.0+ |  | 8、11 | 2022 年 9 月 30 日 |
+| [0.17.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.17.0) | 修复 | 6.5.13.0+ |  | 8、11 | 2022 年 9 月 27 日 |
+| [0.16.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.16.0) | 修复 | 6.5.13.0+ |  | 8、11 | 2022 年 9 月 14 日 |
+| [0.14.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.14.0) | 在 iOS 上修复 Outlook 的媒体查询 | 6.5.13.0+ |  | 8、11 | 2022 年 8 月 8 日 |
+| [0.13.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.13.0) | Wrapper DIV 性能修复，修复了富文本中的处理链接 | 6.5.13.0+ |  | 8、11 | 2022 年 27 月 7 日 |
+| [0.11.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.11.0) | 对分段组件、HTML 内联、修复的自定义区段支持 | 6.5.13.0+ |  | 8、11 | 2022 年 6 月 7 日 |
+| [0.10.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.10.0) | 为页面组件列设置启用页面策略，更新分段组件，改进代码覆盖率 | 6.5.13.0+ |  | 8、11 | 2022 年 6 月 15 日 |
+| [0.9.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.9.0) | 标题和容器组件的修复和更新 | 6.5.13.0+ |  | 8、11 | 2022 年 6 月 1 日 |
+| [0.8.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.8.0) | 添加了 Teaser 组件、修复和代码覆盖率改进 | 6.5.13.0+ |  | 8、11 | 2022 年 5 月 19 日 |
+| [0.7.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.7.0) | 修复 | 6.5.13.0+ |  | 8、11 | 2022 年 5 月 4 日 |
+| [0.6.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.6.0) | 添加了标题、按钮和体验片段组件，添加了 ContextHub 支持 | 6.5.13.0+ |  | 8、11 | 2022 年 4 月 20 日 |
+| [0.5.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.5.0) | 添加了样式内联和内容片段组件 | 6.5.13.0+ |  | 8、11 | 2022 年 4 月 7 日 |
+| [0.4.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.4.0) | 添加了 URL 外化器、个性化和分段组件 | 6.5.13.0+ |  | 8、11 | 2022 年 23 月 |
+| [0.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.3.0) | 添加了文本和容器组件，添加了创作 UI、修复 | 6.5.13.0+ |  | 8、11 | 2022 年 9 月 |
+| [0.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.2.0) | 带有页面组件和各种 POC 的初始预发布 | 6.5.13.0+ |  | 8、11 | 2022 年 2 月 24 日 |
