@@ -5,9 +5,9 @@ breadcrumb-title: 核心组件指南
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
    + [通过核心组件创作](get-started/authoring.md)
    + [使用核心组件](get-started/using.md)
    + [本地化功能](get-started/localization.md)
-+ WCM组件 {#wcm-components}
++ WCM 组件 {#wcm-components}
    + [折叠](components/accordion.md)
    + [痕迹导航](components/breadcrumb.md)
    + [按钮](components/button.md)
