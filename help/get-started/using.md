@@ -3,10 +3,10 @@ title: 使用核心组件
 description: “要在您自己的项目中启动并运行核心组件，需要执行四个步骤：下载并安装、创建代理组件、加载核心样式和在模板上启用组件。”
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+workflow-type: tm+mt
+source-wordcount: '1008'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!TIP]
 >
 >要更详细地了解如何从头开始使用项目设置、核心组件、可编辑模板、客户端库和组件开发，以下包含多个部分的教程可能会对您有所帮助：\
->[《AEM Sites 快速入门》 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[《AEM Sites 快速入门》 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)
 
 >[!TIP]
 >
@@ -45,6 +45,8 @@ ht-degree: 100%
    * 在即将发布的版本中，再次包含核心组件将导致管道构建失败。
 * 如果项目之前已将核心组件包含在 `/apps` 中，[您可能需要调整您的项目。](/help/developing/overview.md#via-aemaacs)
 * 即使核心组件现在位于 `/libs` 中，也建议不要在 `/apps` 中创建同一路径的任何叠加。如果需要自定义组件的任何方面，则应改用[代理组件模式](/help/developing/guidelines.md#proxy-component-pattern)。
+* 为了 [目录组件](/help/components/tableofcontents.md) 要渲染其内容，需要在OSGi中配置过滤器。
+   * [请参阅组件的GitHub文档](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_cn) 以了解更多信息。
 
 ### AEM 6.5 及之前的版本 {#aem-65}
 

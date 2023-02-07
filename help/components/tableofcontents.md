@@ -3,10 +3,10 @@ title: 目录组件
 description: 目录组件根据页面内容中的标题创建目录，以便读者快速浏览页面。
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 95%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 100%
 | v1 | 兼容 | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+
+>[!NOTE]
+>
+>在AEMas a Cloud Service上，您的管理员需要为组件启用过滤器，以便其呈现组件的内容。
+>
+>[请参阅组件的GitHub文档](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_cn) 以了解更多信息。
 
 ### 技术详细信息 {#technical-details}
 
