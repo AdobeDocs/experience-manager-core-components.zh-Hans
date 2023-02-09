@@ -4,10 +4,10 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: 核心组件指南
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+source-git-commit: 534b4f0f8a298772de0f2f899dd4cfbaa3db4e74
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 79%
 
 ---
 
@@ -98,6 +98,30 @@ ht-degree: 100%
       + [体验片段](/help/email/components/experience-fragment.md)
       + [内容片段](/help/email/components/content-fragment.md)
       + [分段](/help/email/components/segmentation.md)
++ 自适应表单 {#adaptive-forms}
+   + [简介](/help/adaptive-forms/introduction.md)
+   + 自适应Forms组件 {#adaptive-forms-components}
+      + [自适应Forms折叠面板](/help/adaptive-forms/components/accordion.md)
+      + [自适应Forms按钮](/help/adaptive-forms/components/button.md)
+      + [自适应Forms复选框组](/help/adaptive-forms/components/checkbox-group.md)
+      + [自适应Forms日期选取器](/help/adaptive-forms/components/date-picker.md)
+      + [自适应Forms下拉列表](/help/adaptive-forms/components/drop-down.md)
+      + [自适应Forms电子邮件输入](/help/adaptive-forms/components/email-input.md)
+      + [自适应Forms文件附件](/help/adaptive-forms/components/file-attachment.md)
+      + [自适应Forms水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [自适应Forms图像](/help/adaptive-forms/components/image.md)
+      + [自适应Forms数字输入](/help/adaptive-forms/components/number-input.md)
+      + [自适应Forms面板](/help/adaptive-forms/components/panel-container.md)
+      + [自适应Forms单选按钮](/help/adaptive-forms/components/radio-button.md)
+      + [自适应Forms重置按钮](/help/adaptive-forms/components/reset-button.md)
+      + [自适应Forms提交按钮](/help/adaptive-forms/components/submit-button.md)
+      + [自适应Forms电话输入](/help/adaptive-forms/components/telephone-input.md)
+      + [自适应Forms文本](/help/adaptive-forms/components/text.md)
+      + [自适应Forms文本框](/help/adaptive-forms/components/text-input.md)
+      + [自适应Forms标题](/help/adaptive-forms/components/title.md)
+      + [自适应Forms向导布局](/help/adaptive-forms/components/wizard.md)
+      + [标题](/help/adaptive-forms/components/header.md)
+      + [页脚](/help/adaptive-forms/components/footer.md)
 + 开发 {#developing}
    + [开发核心组件](developing/overview.md)
    + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
