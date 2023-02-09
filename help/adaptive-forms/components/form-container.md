@@ -2,9 +2,9 @@
 title: 自适应Forms核心组件 — 表单容器
 description: 向网页中添加自适应表单。
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Forms允许网站访客通过提供有价值的信息与网站进行交互，从
 
 * **事件注册**:Forms可用于活动注册，从而允许网站访客注册活动或网络研讨会。
 
-* **订阅**:Forms可用于网站订阅，允许访客注册新闻稿或其他常规通信。
+* **订阅**:Forms可用于网站订阅，允许访客注册新闻通讯或其他常规通信。
 
 * **用户身份验证**:Forms可用于用户身份验证，从而允许网站访客创建帐户并登录以访问专有内容或功能。
 
@@ -41,8 +41,10 @@ Forms允许网站访客通过提供有价值的信息与网站进行交互，从
 
 自适应Forms容器核心组件作为核心组件2.0.4的一部分于2023年2月发布。下面是一个表格，其中显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
 
+|  |  |
+|---|---|
 | 组件版本 | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 兼容 with<br>[版本2.0.4](/help/versions.md) 及更高版本 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的信息，请参阅 [核心组件版本](/help/versions.md) 文档。
@@ -72,6 +74,7 @@ To experience the Accordion Component as well as see examples of its configurati
 ![“提交”选项卡](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 用户可以为自适应表单提交配置不同的操作。
+
 * **重定向URL/路径**  — 此选项允许用户为每个表单配置一个页面，在提交自适应表单后，表单用户将被重定向到该页面。 单击此处了解有关 [如何配置重定向页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![“显示消息”选项卡](/help/adaptive-forms/assets/formconatiner_showmessage.png)
@@ -80,7 +83,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **提交操作**  — 当用户单击自适应表单上的“提交”按钮时，会触发“提交操作”。 用户可以从支持的下拉列表中选择提交操作。 了解如何 [在“提交”选项卡中配置提交操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
-## “设计”对话框 {#design-dialog}
 
 
 

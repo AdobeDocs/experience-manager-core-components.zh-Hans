@@ -2,10 +2,10 @@
 title: 自适应表单折叠面板
 description: 使用可折叠面板将长形式或复杂形式拆分为更小、更易于管理的部分，从而对其进行组织和简化。
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 3%
+source-wordcount: '1768'
+ht-degree: 4%
 
 ---
 
@@ -40,8 +40,10 @@ ht-degree: 3%
 
 自适应Forms折叠核心组件作为核心组件2.0.4的一部分于2023年2月发布。此处有一个表格，其中显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
 
+|  |  |
+|---|---|
 | 组件版本 | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 兼容 with<br>[版本2.0.4](/help/versions.md) 及更高版本 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的信息，请参阅 [核心组件版本](/help/versions.md) 文档。
@@ -101,7 +103,16 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/accordion_accessibility.png)
 
+在 **辅助功能** 选项卡，为 [ARIA辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/) 组件的标签。 可使用屏幕阅读器的文本选项有多种：
+
 * **屏幕阅读器的文本**  — 屏幕阅读器的文本是指专门用于由视觉障碍个人使用的屏幕阅读器等辅助技术阅读的其他文本。 此文本提供表单字段用途的音频描述，并可包含有关字段标题、描述、名称和任何相关消息的信息（自定义文本）。 屏幕阅读器文本有助于确保所有用户（包括患有视觉障碍的用户）都可以访问表单，并为他们提供对表单字段及其要求的完整了解。
+
+
+   * **自定义文本**:选择此选项可将自定义文本用于ARIA辅助功能标签。 选择此选项将显示“自定义文本”对话框。 您可以在“自定义文本”(Custom Text)对话框中添加相关信息。
+   * **描述**:选择此选项可使用ARIA辅助功能标签的描述。
+   * **标题**:选择此选项可使用ARIA辅助功能标签的标题。
+   * **名称**:选择此选项可使用ARIA辅助功能标签的名称。
+   * **无**:如果不想为ARIA辅助功能标签添加，请选择此选项。
 
 <!--
 

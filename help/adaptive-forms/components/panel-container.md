@@ -2,10 +2,10 @@
 title: 自适应Forms核心组件 — 面板容器
 description: 使用或自定义自适应Forms面板容器核心组件。
 role: Architect, Developer, Admin, User
-source-git-commit: 77ff7425be1e591b8f5b973a344d7def8191c033
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,10 @@ ht-degree: 2%
 
 自适应Forms面板容器核心组件作为核心组件2.0.4的一部分于2023年2月发布。下表显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
 
+|  |  |
+|---|---|
 | 组件版本 | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 兼容 with<br>[版本2.0.4](/help/versions.md) 及更高版本 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的信息，请参阅 [核心组件版本](/help/versions.md) 文档。
@@ -92,7 +94,6 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **HTML屏幕阅读器的发布角色** -HTML角色是一种属性，用于为屏幕阅读器等辅助技术指定HTML元素的用途。 角色属性用于为元素提供附加的上下文和语义，从而使屏幕阅读器更容易理解内容并将内容读出给用户。 例如，在AEM Forms中，表单字段的标签可能具有“label”角色，其输入字段可能具有“textbox”角色。 这有助于屏幕阅读器了解标签和输入字段之间的关系，并正确地将它们通知给用户。
 
-## “设计”对话框 {#design-dialog}
 
 
 

@@ -2,7 +2,7 @@
 title: 自适应Forms核心组件 — 数字输入
 description: 使用或自定义自适应Forms编号输入核心组件。
 role: Architect, Developer, Admin, User
-source-git-commit: 6ea000f9259e9478ee3c0923ac35af7814e184d9
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 1%
@@ -39,8 +39,10 @@ ht-degree: 1%
 
 自适应Forms编号输入核心组件作为核心组件2.0.4的一部分于2023年2月发布。下表显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
 
+|  |  |
+|---|---|
 | 组件版本 | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 兼容 with<br>[版本2.0.4](/help/versions.md) 及更高版本 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的信息，请参阅 [核心组件版本](/help/versions.md) 文档。
@@ -93,6 +95,7 @@ To experience the Accordion Component as well as see examples of its configurati
 * **排除最小值**  — 如果您不希望在 **最小数字/最小数字** 值范围中要输入的&#x200B;选项。
 
 * **最大数/最大数**  — 使用此选项选择允许在表单字段中输入的最大数字。 如果数字大于 **最大数/最大数** 选项时，会显示错误消息。
+
 * **最大错误消息数**  — 利用此选项，可输入当用户输入的值大于 **最大数/最大数** 选项。
 
 * **排除最大值**  — 如果您不希望在 **最大数/最大数** 选项。

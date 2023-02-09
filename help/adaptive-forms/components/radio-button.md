@@ -2,7 +2,7 @@
 title: 自适应Forms核心组件 — 单选按钮
 description: 使用或自定义自适应Forms单选按钮核心组件。
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -44,8 +44,10 @@ ht-degree: 1%
 
 自适应Forms单选按钮核心组件作为核心组件2.0.4的一部分于2023年2月发布。下表显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
 
+|  |  |
+|---|---|
 | 组件版本 | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | 兼容 with<br>[版本2.0.4](/help/versions.md) 及更高版本 | 兼容 | 兼容 |
 
 有关核心组件版本和版本的信息，请参阅 [核心组件版本](/help/versions.md) 文档。
@@ -80,6 +82,7 @@ To experience the Accordion Component as well as see examples of its configurati
 * **绑定引用**  — 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。 绑定引用允许您将数据动态绑定到表单字段，以便表单可以显示来自数据源的最新数据。 例如，可以使用绑定引用根据在表单中输入的客户ID在表单中显示客户的名称和地址。 绑定引用还可用于使用输入到表单中的数据更新数据源。 通过这种方式，AEM Forms使您能够创建与外部数据源交互的表单，从而为数据收集和管理提供无缝的用户体验。
 
 * **提交值的数据类型**  — 此选项指定选择任意选项时发送的值的数据类型。 如果 **提交值的数据类型** 设置为 `Number` 然后将字符串数据添加到 **数据值** &#x200B;&#x200B;在 **选项** 选项卡，屏幕上会显示 `Value type mismatch` 错误消息。
+
 * **默认选项**  — 利用此选项，可在表单加载时添加预选的默认值。 如果 **提交值的数据类型** 设置为 `Number` 然后将字符串数据添加到 **默认选项**，则屏幕会显示 `Value type mismatch` 错误消息。
 
 * **显示选项**  — 此选项用于在自适应表单中设置单选按钮的可视对齐方式。 支持的两个选项包括：
@@ -128,3 +131,4 @@ To experience the Accordion Component as well as see examples of its configurati
 **默认CSS类**:您可以为自适应Forms单选按钮核心组件提供默认CSS类。
 
 **允许的样式**:您可以通过提供名称和表示样式的CSS类来定义样式。 例如，您可以创建名为“粗体文本”的样式，并提供CSS类“font-weight:粗体”。 您可以在自适应Forms编辑器中将这些样式用于自适应表单或将其应用于自适应表单。 要应用样式，请在自适应Forms编辑器中，选择要应用该样式的组件，导航到属性对话框，然后从 **样式** 下拉列表。 如果需要更新或修改样式，只需返回到“设计”对话框，更新“样式”选项卡中的样式，然后保存更改即可。
+
