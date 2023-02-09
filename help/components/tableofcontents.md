@@ -4,9 +4,9 @@ description: 目录组件根据页面内容中的标题创建目录，以便读�
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->在AEMas a Cloud Service上，您的管理员需要为组件启用过滤器，以便其呈现组件的内容。
+>在 AEM as a Cloud Service 上，您的管理员需要为组件启用过滤器，以使其呈现组件的内容。
 >
->[请参阅组件的GitHub文档](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_cn) 以了解更多信息。
+>[有关更多信息，请参阅该组件的 GitHub 文档](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_cn)。
 
 ### 技术详细信息 {#technical-details}
 
