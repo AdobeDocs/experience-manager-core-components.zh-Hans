@@ -2,7 +2,7 @@
 title: 自适应Forms核心组件 — 单选按钮
 description: 使用或自定义自适应Forms单选按钮核心组件。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
