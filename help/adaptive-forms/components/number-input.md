@@ -2,7 +2,7 @@
 title: 自适应Forms核心组件 — 数字输入
 description: 使用或自定义自适应Forms编号输入核心组件。
 role: Architect, Developer, Admin, User
-source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
+source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 1%
