@@ -3,10 +3,10 @@ title: 列表组件
 description: 利用核心组件列表组件，可以轻松地创建动态和静态列表。
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
+workflow-type: tm+mt
+source-wordcount: '1208'
+ht-degree: 94%
 
 ---
 
@@ -20,15 +20,16 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-列表组件的当前版本是 v3，此版本随 2022 年 2 月的核心组件发行版 2.18.0 的发布引入，具体说明见本文。
+列表组件的当前版本是 v4，此版本随 2023 年 2 月的核心组件发行版 2.22.0 的发布引入，具体说明见本文。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v3 | - | 兼容 | 兼容 |
-| [v2](v2/list.md) | 兼容 | 兼容 | 兼容 |
-| [v1](v1/list-v1.md) | 兼容 | 兼容 | 兼容 |
+| v4 | - | 兼容 | 兼容 |
+| [v3](/help/components/v3/list.md) | - | 兼容 | 兼容 |
+| [v2](/help/components/v2/list.md) | 兼容 | 兼容 | 兼容 |
+| [v1](/help/components/v1/list-v1.md) | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
@@ -93,7 +94,15 @@ ht-degree: 100%
 
 点击或单击添加&#x200B;**按钮**&#x200B;可在列表中插入新项。
 
-* 在列表中为项输入文本，或者使用&#x200B;**“选择”对话框**&#x200B;从 AEM 中选择项。
+* 在 **链接** 输入
+   * 完全限定的URL
+   * 现有AEM内容的相对URL
+      * 您可以使用 **选择对话框** 从AEM中选择项目。
+* 在 **文本** 字段，输入将在列表中为链接显示的文本。
+* 如果链接应在新的浏览器选项卡中打开，请勾选此复选框
+
+为列表创建多个项目后，即可排列列表。
+
 * 使用拖动手柄重新排列列表中的项。
 * 使用垃圾桶图标可删除列表中的项。
 
@@ -154,7 +163,7 @@ ht-degree: 100%
 
 使用“项设置”选项卡，可以配置列表元素的格式化。
 
-![项设置](/help/assets/list-edit-items.png)
+![项设置](/help/assets/list-edit-item-settings.png)
 
 * **链接项** - 将项链接到对应的页面
 * **显示描述** - 显示链接项的描述
