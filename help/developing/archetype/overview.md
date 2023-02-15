@@ -4,8 +4,8 @@ description: 基于 AEM 的应用程序的项目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 2557a72b6bc9ea3f1fd0f73e53b5880f9b6d3ce7
-workflow-type: ht
+source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
+workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 | 原型 | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [39](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-39) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [40](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-40) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 为 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hans) 或[旧版本的 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) 设置本地开发环境。
 
