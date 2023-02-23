@@ -1,34 +1,34 @@
 ---
-title: AEM自适应Forms核心组件简介
-description: 使用自适应Forms核心组件的灵活性创建引人入胜的注册体验（表单），并借助Adobe Experience Manager的强大功能提供。
+title: AEM 自适应表单核心组件简介
+description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
+source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 13%
+ht-degree: 58%
 
 ---
 
+# 自适应表单核心组件简介 {#adaptive-forms-core-components-introduction}
 
-# 自适应Forms核心组件简介 {#adaptive-forms-core-components-introduction}
-
-使用Adobe Experience Manager中的自适应Forms核心组件，您可以利用可用的灵活性和自定义选项，创建引人入胜的注册体验。
+使用 Adobe Experience Manager 中的自适应表单核心组件，您可以利用灵活性和可用的自定义选项创建引人入胜的注册体验。
 
 ## 核心组件  {#overview}
 
-在Adobe Experience Manager(AEM)中，组件是用于创建页面和表单的构建基块。 它们为作者提供了创建和管理内容的简单而强大的方式，同时也为开发人员提供了创建自定义组件所需的灵活性和可扩展性。 这些功能旨在加快开发时间并降低网站和表单的维护成本，灵活且易于定制，以满足网站和表单的特定需求。
+在 Adobe Experience Manager (AEM) 中，组件是用于创建页面和表单的构建基块。它们使作者能够通过一种简单而强大的方式创建和管理内容，并为开发人员提供了创建自定义组件所需的灵活性和可扩展性。这些功能旨在加快开发时间并降低网站和表单的维护成本，灵活且易于定制，以满足网站和表单的特定需求。
 
-核心组件还旨在提供响应性，并支持多种设备，包括台式机、平板电脑和智能手机。 它们还遵循最新的Web标准和最佳实践，使其成为用于创建Web内容的可靠解决方案。
+此外，核心组件经过设计，具有响应能力并支持一系列广泛的设备，包括台式机、平板电脑和智能手机。它们还遵循最新的 Web 标准和最佳实践，这使其成为用于创建 Web 内容的强大且可靠的解决方案。
 
-总的说来，核心组件是在AEM中创建和管理Web内容的必不可少的工具，它提供了一个功能强大且灵活的解决方案，有助于减少开发时间和维护成本，同时也为网站访客提供了绝佳的用户体验。
+总的来说，核心组件是用于在 AEM 中创建和管理 Web 内容的重要工具，它提供了强大而灵活的解决方案，可帮助减少开发时间和维护成本，同时还为网站访客提供出色的用户体验。
 
-## 自适应Forms核心组件
+## 自适应表单核心组件
 
-自适应Forms核心组件是一组24个符合BEM规范的开源组件，这些组件是在Adobe Experience Manager WCM核心组件的基础上构建的。 它们专门用于创建自适应Forms，自适应Adaptive Manager是根据用户的设备、浏览器和屏幕大小而调整的表单。
+自适应表单核心组件是一组（24 个）开源且与 BEM 兼容的组件，它们基于 Adobe Experience Manager WCM 核心组件而构建。它们专门设计用于创建自适应表单，后者是能够适应用户的设备、浏览器和屏幕大小的表单。
 
-这些组件可用于通过提供各种表单字段选项（包括文本字段、复选框、下拉菜单等）来创建出众的数据捕获和注册体验。 这些功能还包括验证、条件逻辑和响应式设计等功能，可用于创建用户友好且易于使用的表单。
+利用这些组件，可提供一系列广泛的表单字段选项（包括文本字段、复选框、下拉菜单等）来创建卓越的数据捕获和注册体验。它们还包括验证、条件逻辑和响应式设计等功能，可用于创建用户友好且易用的表单。
 
-此外，由于这些组件是开源的，开发人员能够轻松自定义和扩展组件，以满足其组织的特定需求。 此外，这些组件是基于边界元方法构建的，可确保它们具有可扩展性和可维护性。
+此外，由于这些组件是开源的，因此，开发人员能够轻松定制和扩展组件以满足其组织的特定需求。而且，这些组件基于 BEM 方法而构建，这确保了它们可扩展且可维护。
 
 ![](assets/sample-adaptive-form.png)
 
@@ -36,22 +36,22 @@ ht-degree: 13%
 
 |  |  |
 |---|---|
-| 可以即刻投入使用 | 自适应Forms核心组件是24个强大的WCM组件。 |
-| 云就绪 | 可用  [AEM Formsas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
-| 可以通用 | 这些组件表示通用概念，Forms作者可以使用这些概念来组合几乎任何布局。 |
-| 可配置 | 模板级别 [内容策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=zh-Hans#content-policies) 定义允许使用或不使用的功能。 |
+| 可以即刻投入使用 | 自适应表单核心组件是 24 个功能强大的 WCM 组件。 |
+| 云就绪 | 适用于 [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html)。 |
+| 可以通用 | 这些组件代表了表单作者可用来设计几乎任何布局的通用概念。 |
+| 可配置 | 模板级[内容策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)定义了可以使用或无法使用的功能。 |
 | 可访问 | 它们提供ARIA标签，支持键盘导航([已知问题](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))，以及用于屏幕阅读器等辅助技术的文本。 |
-| 主题表 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hans)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
+| 主题表 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
 | 可自定义 | 可利用几种模式来轻松进行自定义设置（从调整 HTML 到高级功能重用）。 |
 | 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可确保核心组件在改进可能影响您的内容时不会中断您的网站。 |
-| 开源 | 如果某件事不如应有，请贡献您的改进。 |
+| 开源 | 如果有出错的地方，请做出您的改进。 |
 
 <!-- comply with [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), -->
 
 
 ## 好处 {#benefits}
 
-数据捕获体验对于潜在客户生成和注册至关重要，而自适应Forms核心组件为创建针对数据捕获进行优化的表单提供了功能强大的解决方案。 使用核心组件创建这些体验与基础组件相关的一些原因包括：
+数据捕获体验对于商机开发和注册至关重要，自适应表单核心组件提供了功能强大的解决方案来创建针对数据捕获优化的表单。使用核心组件创建这些体验与基础组件相关的一些原因包括：
 
 * **GitHub上的可用性和全面的文档**:AEM自适应Forms核心组件是开源组件，可在GitHub上获取，同时还提供了完整的文档。 这样，开发人员便可以更轻松地了解组件及其工作方式，并为开发做出贡献。 的 [aemcomponents.dev](https://www.aemcomponents.dev/) 网站也是一个宝贵的资源，开发人员可以在其中查看各个组件的实际操作情况并访问详细文档。
 
@@ -86,14 +86,14 @@ ht-degree: 13%
 
 ## 要求 {#requirements}
 
-自适应Forms核心组件具有以下要求。
+自适应表单核心组件具有以下要求。
 
-| AEM | AEM Forms附加组件 | 核心组件 |
+| AEM | AEM Forms 附加组件 | 核心组件 |
 |---|---|---|
-| AEM as a Cloud Service | Forms — 数字注册 | [2.20.8](/help/versions.md) 和更高版本 |
+| AEM as a Cloud Service | 表单 - 数字注册 | [版本 2.20.8](/help/versions.md) 以上 |
 
 
-## 自适应Forms核心组件 {#components}
+## 自适应表单核心组件 {#components}
 
 您可以使用 [自适应Forms编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) 创建基于核心组件的自适应Forms。 自适应Forms核心组件的当前版本具有以下列出的组件。
 
@@ -106,17 +106,16 @@ ht-degree: 13%
 * 表单容器
 * 文件附件
 * 页脚
-* 标题
+* 页眉
 * 水平选项卡
 * 图像
-* 数字输入
-* 窗格容器
+* 数值输入
+* 面板容器
 * 单选按钮
-* 重置按钮
-* 提交按钮
-* 电话输入
+* “重置”按钮
+* “提交”按钮
+* 电话号码输入
 * 文本输入
 * 文本
 * 标题
 * 向导
-

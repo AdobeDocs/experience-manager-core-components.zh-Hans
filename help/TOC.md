@@ -7,7 +7,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 199cd9e1e49a1f7b939aa9cc3a62dcb3e0db96cd
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -102,27 +102,27 @@ ht-degree: 79%
       + [分段](/help/email/components/segmentation.md)
 + 自适应表单 {#adaptive-forms}
    + [简介](/help/adaptive-forms/introduction.md)
-   + 自适应Forms组件 {#adaptive-forms-components}
-      + [自适应Forms折叠面板](/help/adaptive-forms/components/accordion.md)
-      + [自适应Forms按钮](/help/adaptive-forms/components/button.md)
-      + [自适应Forms复选框组](/help/adaptive-forms/components/checkbox-group.md)
-      + [自适应Forms日期选取器](/help/adaptive-forms/components/date-picker.md)
-      + [自适应Forms下拉列表](/help/adaptive-forms/components/drop-down.md)
-      + [自适应Forms电子邮件输入](/help/adaptive-forms/components/email-input.md)
-      + [自适应Forms文件附件](/help/adaptive-forms/components/file-attachment.md)
-      + [自适应Forms水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
-      + [自适应Forms图像](/help/adaptive-forms/components/image.md)
-      + [自适应Forms数字输入](/help/adaptive-forms/components/number-input.md)
-      + [自适应Forms面板](/help/adaptive-forms/components/panel-container.md)
-      + [自适应Forms单选按钮](/help/adaptive-forms/components/radio-button.md)
-      + [自适应Forms重置按钮](/help/adaptive-forms/components/reset-button.md)
-      + [自适应Forms提交按钮](/help/adaptive-forms/components/submit-button.md)
-      + [自适应Forms电话输入](/help/adaptive-forms/components/telephone-input.md)
-      + [自适应Forms文本](/help/adaptive-forms/components/text.md)
-      + [自适应Forms文本框](/help/adaptive-forms/components/text-input.md)
-      + [自适应Forms标题](/help/adaptive-forms/components/title.md)
-      + [自适应Forms向导布局](/help/adaptive-forms/components/wizard.md)
-      + [标题](/help/adaptive-forms/components/header.md)
+   + 自适应表单组件 {#adaptive-forms-components}
+      + [自适应表单折叠](/help/adaptive-forms/components/accordion.md)
+      + [自适应表单按钮](/help/adaptive-forms/components/button.md)
+      + [自适应表单复选框组](/help/adaptive-forms/components/checkbox-group.md)
+      + [自适应表单日期选取器](/help/adaptive-forms/components/date-picker.md)
+      + [自适应表单下拉列表](/help/adaptive-forms/components/drop-down.md)
+      + [自适应表单电子邮件输入](/help/adaptive-forms/components/email-input.md)
+      + [自适应表单文件附件](/help/adaptive-forms/components/file-attachment.md)
+      + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [自适应表单图像](/help/adaptive-forms/components/image.md)
+      + [自适应表单数值输入](/help/adaptive-forms/components/number-input.md)
+      + [自适应表单面板](/help/adaptive-forms/components/panel-container.md)
+      + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
+      + [自适应表单重置按钮](/help/adaptive-forms/components/reset-button.md)
+      + [自适应表单提交按钮](/help/adaptive-forms/components/submit-button.md)
+      + [自适应表单电话号码输入](/help/adaptive-forms/components/telephone-input.md)
+      + [自适应表单文本](/help/adaptive-forms/components/text.md)
+      + [自适应表单文本框](/help/adaptive-forms/components/text-input.md)
+      + [自适应表单标题](/help/adaptive-forms/components/title.md)
+      + [自适应表单向导布局](/help/adaptive-forms/components/wizard.md)
+      + [页眉](/help/adaptive-forms/components/header.md)
       + [页脚](/help/adaptive-forms/components/footer.md)
 + 开发 {#developing}
    + [开发核心组件](developing/overview.md)
