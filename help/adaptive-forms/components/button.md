@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
 ht-degree: 100%
 
