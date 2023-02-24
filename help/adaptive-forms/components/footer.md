@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单页脚核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -62,9 +62,9 @@ To experience the Accordion Component as well as see examples of its configurati
 * **“编辑”对话框**
 “编辑”对话框提供多种标准的富文本格式化工具，通过这些工具，用户可为页脚创建文本。
 
-* **粗体** - 此选项可将粗体格式应用于所选的文本或为在光标后输入的文本设置粗体格式。该快捷键为 `Ctrl+B`。
+* **粗体** - 此选项可将粗体格式应用于所选的文本或为在光标后输入的文本设置粗体格式。`Ctrl+B` 为键盘快捷键。
 
-* **斜体** - 此选项将斜体格式应用于所选的文本或为在光标后输入的文本设置斜体格式。该快捷键为 `Ctrl+I`。
+* **斜体** - 此选项将斜体格式应用于所选的文本或为在光标后输入的文本设置斜体格式。`Ctrl+I` 为键盘快捷键。
 
 ![项目符号选项](/help/adaptive-forms/assets/footer_bullet.png)
 
@@ -101,7 +101,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 
 
-* **ID**:利用此选项，可控制HTML和数据层中组件的唯一标识符。
+* **ID**：通过此选项，可控制组件在 HTML 和数据层中的唯一标识符。
 
    * 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
