@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 表单容器
 description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
 source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '698'
 ht-degree: 100%
 
