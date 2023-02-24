@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单页眉核心组件。
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
 ht-degree: 100%
 
