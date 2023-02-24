@@ -4,9 +4,9 @@ description: 借助自适应表单核心组件的灵活性创建引人入胜的�
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 58%
 
 ## 核心组件  {#overview}
 
-在 Adobe Experience Manager (AEM) 中，组件是用于创建页面和表单的构建基块。它们使作者能够通过一种简单而强大的方式创建和管理内容，并为开发人员提供了创建自定义组件所需的灵活性和可扩展性。这些功能旨在加快开发时间并降低网站和表单的维护成本，灵活且易于定制，以满足网站和表单的特定需求。
+在 Adobe Experience Manager (AEM) 中，组件是用于创建页面和表单的构建基块。它们使作者能够通过一种简单而强大的方式创建和管理内容，并为开发人员提供了创建自定义组件所需的灵活性和可扩展性。它们旨在加快开发时间并降低网站和表单的维护成本，其操作灵活并且可以轻松定制，以满足网站和表单的特定需求。
 
 此外，核心组件经过设计，具有响应能力并支持一系列广泛的设备，包括台式机、平板电脑和智能手机。它们还遵循最新的 Web 标准和最佳实践，这使其成为用于创建 Web 内容的强大且可靠的解决方案。
 
@@ -40,8 +40,8 @@ ht-degree: 58%
 | 云就绪 | 适用于 [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html)。 |
 | 可以通用 | 这些组件代表了表单作者可用来设计几乎任何布局的通用概念。 |
 | 可配置 | 模板级[内容策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)定义了可以使用或无法使用的功能。 |
-| 可访问 | 它们提供ARIA标签，支持键盘导航([已知问题](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle))，以及用于屏幕阅读器等辅助技术的文本。 |
-| 主题表 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
+| 可访问 | 它们提供 ARIA 标签，支持键盘导航（[已知问题](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)）以及用于屏幕阅读器等辅助技术的文本。 |
+| 可主题化 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
 | 可自定义 | 可利用几种模式来轻松进行自定义设置（从调整 HTML 到高级功能重用）。 |
 | 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可确保核心组件在改进可能影响您的内容时不会中断您的网站。 |
 | 开源 | 如果有出错的地方，请做出您的改进。 |
@@ -51,21 +51,21 @@ ht-degree: 58%
 
 ## 好处 {#benefits}
 
-数据捕获体验对于商机开发和注册至关重要，自适应表单核心组件提供了功能强大的解决方案来创建针对数据捕获优化的表单。使用核心组件创建这些体验与基础组件相关的一些原因包括：
+数据捕获体验对于商机开发和注册至关重要，自适应表单核心组件提供了功能强大的解决方案来创建针对数据捕获优化的表单。使用核心组件在基础组件上创建这些体验的一些益处包括：
 
-* **GitHub上的可用性和全面的文档**:AEM自适应Forms核心组件是开源组件，可在GitHub上获取，同时还提供了完整的文档。 这样，开发人员便可以更轻松地了解组件及其工作方式，并为开发做出贡献。 的 [aemcomponents.dev](https://www.aemcomponents.dev/) 网站也是一个宝贵的资源，开发人员可以在其中查看各个组件的实际操作情况并访问详细文档。
+* **可在 GitHub 上获得并提供内容全面的文档**：AEM Adaptive Forms 核心组件是开源的，可在 GitHub 上获得，并提供全面的文档。这使开发人员能够更容易理解相关组件及其工作方式，并为其开发做出贡献。[Aemcomponents.dev](https://www.aemcomponents.dev/) 网站也是一项宝贵的资源，开发人员可以在其中查看正在运行的组件并访问详细的文档。
 
-* **BEM造型模型**:核心组件遵循BEM（块元素修饰符）模型来进行样式设置，该模型是一种建立良好且广泛使用的CSS组织方法。 这样，开发人员就可以更轻松地了解样式的组织方式，以及如何根据自己的特定需求对样式进行修改。
+* **样式的 BEM 模型**：核心组件遵循 BEM（块元素修饰符）样式模型，这是一种行之有效且广泛使用的 CSS 组织方法。这使开发人员更容易理解相关样式的组织方式，以及如何修改它们，以满足其特定需求。
 
-* **不依赖第三方库**:核心组件的一个优势是它们不依赖于第三方JavaScript库，包括JQuery和下划线。 这样可以更快、更轻巧地集成组件，并更轻松地集成到现有AEM实施中。
+* **不依赖第三方库**：核心组件的优势之一是它们不依赖于第三方 JavaScript 库，包括 JQuery 和 Underscore。这使得组件能够更快、更轻巧，并且更容易集成到现有的 AEM 实施中。
 
-* **将重点放在性能和辅助功能上**:核心组件构建时考虑了性能和辅助功能，这反映在其高Google灯塔和Web生命体系得分中。 这样，开发人员便于创建无障碍且高性能的网页，在当今的数字环境中，这越来越重要。
+* **专注于性能和可访问性**：核心组件在构建时考虑到了性能和可访问性，这反映在其较高的 Google Lighthouse 和 Web Vitals 得分中。这使开发人员可以更轻松地创建可访问且高性能的网页，而这在当今的数字环境中越来越重要。
 
-* **站点30模板和主题中的表单组件**:核心组件支持站点30模板和主题中的表单组件，从而更便于开发人员在AEM中创建和自定义表单。
+* **Sites 30 模板和主题中的表单组件**：核心组件为 Sites 30 模板和主题中的表单组件提供支持，使开发人员可以更轻松地在 AEM 中创建和自定义表单。
 
-* **更易于设置样式**:与基础组件相比，核心组件的样式更简单。 主题创建过程与站点类似，能够从父站点页面继承相同的主题/CSS。 此外，样式的BEM模型使您更容易理解和修改样式。
+* **更容易设计样式**：与对应的基础组件相比，核心组件更容易设计样式。 主题创建过程类似于 Sites，并且能够从父 Sites 页面继承相同的主题/CSS。此外，用于样式的 BEM 模型使理解和修改各个样式变得更加容易。
 
-* **辅助功能**:自适应Forms核心组件支持无障碍标准和准则，以确保残障人士（包括使用屏幕阅读器等辅助技术的残障人士）可以使用表单
+* **辅助功能**：自适应表单核心组件支持辅助功能标准和指南，以确保残障人士（包括那些使用屏幕阅读器等辅助技术的人员）能够使用表单。
 
 
 <!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
@@ -95,7 +95,7 @@ ht-degree: 58%
 
 ## 自适应表单核心组件 {#components}
 
-您可以使用 [自适应Forms编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) 创建基于核心组件的自适应Forms。 自适应Forms核心组件的当前版本具有以下列出的组件。
+您可以使用[自适应表单编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)创建基于 Adaptive Forms 的核心组件。当前版本的自适应表单核心组件具有以下所列组件。
 
 * 折叠
 * 按钮
