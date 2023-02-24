@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1776'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **最小字符数** - 通过此选项，可指定字段中允许的最小字符数。如果您输入的字符数小于在&#x200B;**最小字符数**&#x200B;中指定的值，则屏幕上显示一条错误消息。通过&#x200B;**最小字符数错误消息**&#x200B;对话框，可添加自定义错误消息。
 
-* **最小字符数错误消息** - 通过&#x200B;**最小字符数错误消息**&#x200B;对话框，可添加如果您输入的字符数小于在&#x200B;**最小字符数**&#x200B;选项中指定的值，所显示的自定义错误消息。
+* **最小字符数错误消息** - 如果您输入的字符数小于在&#x200B;**最小字符数**&#x200B;选项中指定的值，**最小字符数错误消息**&#x200B;对话框允许您添加自定义错误消息。
 
 <br>
 
