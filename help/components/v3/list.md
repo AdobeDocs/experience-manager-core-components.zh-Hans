@@ -1,26 +1,26 @@
 ---
 title: 列表组件 (v3)
-description: 核心组件列表组件(v3)允许轻松创建动态和静态列表。
+description: 利用核心组件列表组件 (v3)，可以轻松地创建动态和静态列表。
 role: Architect, Developer, Admin, User
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
-workflow-type: tm+mt
+exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
+source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+workflow-type: ht
 source-wordcount: '1176'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-
 # 列表组件 (v3) {#list-component}
 
-核心组件列表组件(v3)允许轻松创建动态和静态列表。
+利用核心组件列表组件 (v3)，可以轻松地创建动态和静态列表。
 
 ## 用途 {#usage}
 
-列表组件(v3)可用于创建子页面的动态列表或任意定义项目的静态列表。 可用的列表类型以及格式化选项可以由模板作者在[“设计”对话框](#design-dialog)中定义。内容编辑者可在[“编辑”对话框](#edit-dialog)中从可用列表类型以及如何格式化列表元素中选择。
+列表组件 (v3) 可用于创建子页面的动态列表或者任意定义项的静态列表。可用的列表类型以及格式化选项可以由模板作者在[“设计”对话框](#design-dialog)中定义。内容编辑者可在[“编辑”对话框](#edit-dialog)中从可用列表类型以及如何格式化列表元素中选择。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-本文档介绍列表组件v3，该版本于2022年2月随核心组件2.18.0版引入。
+本文档介绍了列表组件 v3，此版本在 2022 年 2 月发行核心组件 2.18.0 版本时引入。
 
 >[!CAUTION]
 >
