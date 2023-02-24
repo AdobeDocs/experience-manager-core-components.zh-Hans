@@ -4,9 +4,9 @@ description: 核心组件作为发行版本发布，发行版本可能包含相�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2874'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入了 [列表组件](/help/components/list.md) 以及 [Teaser](/help/components/teaser.md) 及更新 [PDF查看器。](/help/components/pdf-viewer.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 2 月 9 日 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入了新版本的[列表组件](/help/components/list.md)、对[ Teaser ](/help/components/teaser.md)进行了改进，并对 [PDF 查看器进行了更新。](/help/components/pdf-viewer.md | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 2 月 9 日 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 这是一个补丁版本，它修复了 v1 和 v2 中 [Teaser 组件](/help/components/teaser.md)的问题。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包括许多增强功能，其中包括发布了 LinkHandler API、改进了[图像组件](/help/components/image.md)和[数据层](/help/developing/data-layer/overview.md)以及改进了多面板组件。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 此版本修复了通过 AdaptiveImageServlet 传送 SVG 图像的问题。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 8 月 4 日 |
@@ -91,7 +91,7 @@ ht-degree: 99%
 
 下表详细列出了哪些组件的哪些版本包括在核心组件的哪些发行版本中。
 
-|  | 发行版本 1.0.0 – 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 – 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 – 2.2.0 | 发行版本 2.3.0 – 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 – 2.8.0 | 发行版本 2.9.0 – 2.17.14 | 发行版本 2.18.0 | 发行版本 2.19.0 | 版本2.20.0-2.21.2 | 版本2.22.0+ |
+|  | 发行版本 1.0.0 – 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 – 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 – 2.2.0 | 发行版本 2.3.0 – 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 – 2.8.0 | 发行版本 2.9.0 – 2.17.14 | 发行版本 2.18.0 | 发行版本 2.19.0 | 发行版本 2.20.0-2.21.2 | 发行版本 2.22.0 以上 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **[页面](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
 | **[标题](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
