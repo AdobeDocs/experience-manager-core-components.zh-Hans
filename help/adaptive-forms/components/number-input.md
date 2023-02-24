@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单数值输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1780'
 ht-degree: 100%
 
