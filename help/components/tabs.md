@@ -3,10 +3,10 @@ title: 选项卡组件
 description: 利用选项卡组件，可以创建多个选项卡来在页面上排列内容。
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ## 深度链接到面板 {#deep-linking}
 
-选项卡和[折叠组件](accordion.md)支持直接链接到组件中的面板。
+选项卡， [轮播，](carousel.md) 和 [折叠组件](accordion.md) 支持直接链接到组件中的面板。
 
 要执行此操作：
 

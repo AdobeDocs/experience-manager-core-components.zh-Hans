@@ -3,10 +3,10 @@ title: 轮盘组件
 description: 使用轮盘组件，内容作者可在旋转轮盘中展示内容。
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 88%
 
 ---
 
@@ -42,6 +42,20 @@ ht-degree: 100%
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
+## 深度链接到面板 {#deep-linking}
+
+轮播， [选项卡，](tabs.md) 和 [折叠组件](accordion.md) 支持直接链接到组件中的面板。
+
+要执行此操作：
+
+1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项查看带有组件的页面。
+1. 检查页面的内容并确定面板的 ID。
+   * 例如 `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
+1. ID 成为您可以使用哈希 (`#`) 附加到 URL 的锚点。
+   * 例如 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
+
+导航到将面板 ID 作为锚点的 URL，浏览器将直接滚动到特定组件并显示指定的面板。如果面板配置为默认不显示，则会自动滚动到。
+
 ## “编辑”对话框 {#edit-dialog}
 
 内容作者可以使用“编辑”对话框添加、重命名和重新排列幻灯片，以及定义自动过渡设置。
@@ -67,6 +81,7 @@ ht-degree: 100%
 
 在&#x200B;**属性**&#x200B;选项卡上，内容作者可以设置幻灯片自动过渡。
 
+* **活动项** - 内容作者可以定义在加载页面时处于活动状态的选项卡。
 * **自动过渡幻灯片** - 在激活时，组件将在指定的延迟之后进入下一张幻灯片。
 * **过渡延迟** - 选择了自动过渡幻灯片时，此值用于定义过渡之间的延迟（以毫秒为单位）。
 * **禁止在光标悬停时自动暂停** - 选择了&#x200B;**自动过渡幻灯片**&#x200B;时，只要光标悬停在轮盘上时，轮盘过渡将自动暂停。选择此选项可不暂停过渡。
@@ -87,7 +102,13 @@ ht-degree: 100%
 
 在&#x200B;**辅助功能**&#x200B;选项卡上，可以为组件的 [ARIA 辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/)标签设置值。
 
-* **标签** - 组件的 ARIA 标签属性的值
+* **标签**  — 轮播的aria-label属性的值，用于描述轮播的内容
+* **上一个**  — 轮播导航的上一个按钮标签的aria-label属性的值
+* **下一个**  — 轮播导航的下一个按钮标签的aria-label属性的值
+* **播放**  — 轮播导航的播放按钮标签的aria-label属性的值
+* **暂停**  — 轮播导航的暂停按钮标签的aria-label属性的值
+* **标签列表**  — 轮播导航的项目列表标签的aria-label属性的值
+* **将项目的aria标签设置为其标题**  — 如果选中，此选项会自动将轮播项目标题设置为其aria-label描述。
 
 ## 选择面板 {#select-panel}
 
@@ -116,8 +137,7 @@ ht-degree: 100%
 ![轮盘组件“设计”对话框](/help/assets/carousel-design.png)
 
 * **自动过渡幻灯片** - 定义默认情况下，当内容作者添加轮盘组件到页面时，默认选项是否自动将轮盘前进到下一张幻灯片。
-* **过渡延迟** - 定义当内容作者将轮盘组件添加到页面时，两个幻灯片之间过渡延迟的默认值（以毫秒为单位）。
-* **禁止在光标悬停时自动暂停** - 定义当内容作者选择了&#x200B;**自动过渡幻灯片**&#x200B;时，禁用自动幻灯片暂停的选项是否默认启用。
+* **将控制元素添加到前面**  — 选中后，控制元素将放在轮播项目的前面以提高可访问性。
 
 ### “允许的组件”选项卡 {#allowed-components-tab}
 
