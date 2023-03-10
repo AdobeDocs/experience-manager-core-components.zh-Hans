@@ -3,8 +3,8 @@ title: 核心组件简介
 description: 获取核心组件问题的解决方案，并允许其他人在 AEM 中创作元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
-workflow-type: ht
+source-git-commit: 8b922d7f6305f91337ef3c19d56eb7f192d65774
+workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 | WebApp 就绪 | [简化的 JSON 输出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=zh-Hans)允许客户端渲染，并且仍可进行[上下文内编辑](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-Hans)。 |
 | AMP 支持 | 组件已内置[对 AMP 标准的支持，](/help/developing/amp.md)可加快移动体验。 |
 | 设计套件 | 利用 [Adobe XD UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，设计人员可以创建随后可[按需样式化](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)的线框。 |
-| 可主题化 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hans)，且标记遵循 [BEM CSS 约定](http://getbem.com/)。 |
+| 可主题化 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hans)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
 | 可自定义 | 可利用几种模式来[轻松进行自定义设置](developing/customizing.md)（从调整 HTML 到高级功能重用）。 |
 | 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可确保核心组件在改进可能影响您的内容时不会中断您的网站。 |
 | 可本地化 | 智能引用解析允许特定组件自动查找和[自动渲染对应的本地化内容](get-started/localization.md)。 |

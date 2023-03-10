@@ -3,10 +3,10 @@ title: 开发核心组件
 description: 核心组件提供可靠且可扩展的基本组件，这些组件提供了丰富的功能、连续交付、组件版本控制、现代化实施、精简标记以及内容的 JSON 导出。
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
+source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1559'
+ht-degree: 100%
 
 ---
 
@@ -43,14 +43,14 @@ ht-degree: 0%
 
 对现有项目进行较大的变动（例如，品牌再造或者整体重构）通常会提供迁移到核心组件的机会。为了协助此迁移，Adobe 提供了多种迁移工具，以鼓励采用核心组件和最新的 AEM 技术。
 
-[AEM 现代化工具](http://opensource.adobe.com/aem-modernize-tools/)可以轻松地实现下列转换：
+[AEM 现代化工具](https://opensource.adobe.com/aem-modernize-tools/)可以轻松地实现下列转换：
 
 * 静态模板到可编辑模板
 * 设计配置到策略
 * 基础组件到核心组件
 * 经典 UI 到触控式 UI
 
-有关这些工具用法的更多信息，[请参阅相应文档](http://opensource.adobe.com/aem-modernize-tools/)。
+有关这些工具用法的更多信息，[请参阅相应文档](https://opensource.adobe.com/aem-modernize-tools/)。
 
 >[!NOTE]
 >
