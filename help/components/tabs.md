@@ -4,9 +4,9 @@ description: 利用选项卡组件，可以创建多个选项卡来在页面上�
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 98%
 
 ## 深度链接到面板 {#deep-linking}
 
-选项卡， [轮播，](carousel.md) 和 [折叠组件](accordion.md) 支持直接链接到组件中的面板。
+选项卡组件、[轮盘组件](carousel.md)和[折叠面板组件](accordion.md)支持直接链接到组件中的面板。
 
 要执行此操作：
 
@@ -85,7 +85,7 @@ ht-degree: 98%
 
 ![选项卡组件的“编辑”对话框中的“属性”选项卡](/help/assets/tabs-edit-properties.png)
 
-* **活动项** - 内容作者可以定义在加载页面时处于活动状态的选项卡。
+* **活动项** - 内容作者可定义在加载页面时哪个选项卡活动。
    * 对于&#x200B;**默认**&#x200B;选项，将选择第一个选项卡。
 * **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
