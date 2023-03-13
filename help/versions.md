@@ -4,9 +4,9 @@ description: 核心组件作为发行版本发布，发行版本可能包含相�
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2873'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此发行版本引入了新版本的 [列表组件](/help/components/list.md) 以及对 [Teaser](/help/components/teaser.md) 和更新 [PDF查看器](/help/components/pdf-viewer.md) 和 [轮播](/help/components/carousel.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 2 月 9 日 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入[列表组件](/help/components/list.md)的新版本以及改进 [Teaser](/help/components/teaser.md) 并更新 [PDF 查看器](/help/components/pdf-viewer.md)和[轮盘](/help/components/carousel.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 2 月 9 日 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 这是一个补丁版本，它修复了 v1 和 v2 中 [Teaser 组件](/help/components/teaser.md)的问题。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包括许多增强功能，其中包括发布了 LinkHandler API、改进了[图像组件](/help/components/image.md)和[数据层](/help/developing/data-layer/overview.md)以及改进了多面板组件。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 此版本修复了通过 AdaptiveImageServlet 传送 SVG 图像的问题。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 8 月 4 日 |
