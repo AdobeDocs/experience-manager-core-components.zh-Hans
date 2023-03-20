@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 水平选项卡
 description: 使用或自定义自适应表单水平选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: ht
-source-wordcount: '1584'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '1609'
+ht-degree: 91%
 
 ---
 
@@ -30,15 +30,13 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单水平选项卡核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
+自适应Forms折叠核心组件是作为适用于AEM 6.5.16.0 Forms或更高版本的核心组件2.0.4的一部分于2023年2月发布的，该组件适用于Cloud Service和核心组件1.1.12或更高版本。 下表显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
 
-|  |  |
-|---|---|
-| 组件版本 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 兼容<br>[版本 2.0.4](/help/versions.md) 和更高版本 | 兼容 | 兼容 |
+| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更高版本 |
+|---|---|---|
+| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 与兼容<br>[版本1.1.12](/help/adaptive-forms/version.md) 但低于2.0.0。 |
 
-有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
+有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -80,7 +78,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **图标** - 图标在列表中标识面板的组件。将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
 * **描述** - 用作面板文本的描述。默认情况下，为面板选择组件的名称。
-* **删除** - 点按或单击可从折叠组件中删除面板。
+* **删除**  — 点按或单击以从水平选项卡组件中删除面板。
 * **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
 
 ### “帮助内容”选项卡 {#help-content}
@@ -103,10 +101,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## “设计”对话框 {#design-dialog}
 
-通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应表单折叠面板组件，可设置以下各项：
+通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应Forms组件，您可以设置以下内容：
 
-* 表单创建者可添加到自适应表单编辑器中的折叠面板的核心组件
-* 可在自适应表单编辑器的折叠面板组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
+* 表单创建者可以添加到自适应Forms编辑器中水平选项卡的核心组件
+* 样式（CSS类）的简单名称，可在自适应Forms编辑器中水平选项卡组件的属性对话框中应用。
 
 这有助于使创建和自定义表单的过程更加简便和高效。
 
@@ -114,10 +112,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
 通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器中的水平选项卡组件面板的组件。
 
+![水平选项卡](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
+
 ### “样式”选项卡 {#styles-tab}
 
-“设计”对话框用于定义和管理组件的 CSS 样式。自适应表单水平选项卡核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+选项卡用于定义和管理组件的CSS样式。 自适应表单水平选项卡核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-**默认 CSS 类**：可为自适应表单水平选项卡核心组件提供默认 CSS 类。
+![样式选项卡](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
 
-**允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+* **默认 CSS 类**：可为自适应表单水平选项卡核心组件提供默认 CSS 类。
+
+* **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。

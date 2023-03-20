@@ -2,10 +2,10 @@
 title: 自适应表单核心组件 - 表单容器
 description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
-workflow-type: ht
-source-wordcount: '698'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 89%
 
 ---
 
@@ -39,16 +39,13 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单容器核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
+自适应Forms折叠核心组件是作为适用于AEM 6.5.16.0 Forms或更高版本的核心组件2.0.4的一部分于2023年2月发布的，该组件适用于Cloud Service和核心组件1.1.12或更高版本。 下表显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
 
-|  |  |
-|---|---|
-| 组件版本 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 兼容<br>[版本 2.0.4](/help/versions.md) 和更高版本 | 兼容 | 兼容 |
+| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更高版本 |
+|---|---|---|
+| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 与兼容<br>[版本1.1.12](/help/adaptive-forms/version.md) 但低于2.0.0。 |
 
-有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
-
+有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
@@ -65,7 +62,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“基本”选项卡](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **预填充服务** - 通过此选项，用户可选择一项预填充服务以供在呈现自适应表单时检索数据。详细了解[如何创建和配置预填充服务](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=zh-Hans#aem-forms-custom-prefill-service)。
+* **预填充服务**  — 此选项允许用户在呈现自适应表单时选择用于检索数据的预填充服务。 详细了解[如何创建和配置预填充服务](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=zh-Hans#aem-forms-custom-prefill-service)。
 
 * **客户端库类别** - 用户可以为每个自适应表单配置自定义 JavaScript 库。建议只保留库中可重用的函数，这些函数依赖 jquery 和 underscore.js 第三方库。
 
@@ -82,7 +79,3 @@ To experience the Accordion Component as well as see examples of its configurati
 * **显示消息** - 通过此选项，用户可添加在成功提交自适应表单时显示的消息。对话框中包括预定义的文本，并且用户可修改这些文本。“显示消息”对话框支持富文本格式化工具，通过这些功能，用户可为所添加的文本设置格式。
 
 * **提交操作** - 当用户单击自适应表单上的“提交”按钮时将触发提交操作。用户可以从下拉列表中选择受支持的现有提交操作。了解如何[在“提交”选项卡中配置提交操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)。
-
-
-
-

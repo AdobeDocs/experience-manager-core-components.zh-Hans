@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 向导
 description: 使用或自定义自适应表单向导核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: ht
-source-wordcount: '1681'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '1847'
+ht-degree: 90%
 
 ---
 
@@ -51,13 +51,11 @@ ht-degree: 100%
 
 2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单向导布局核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
 
-|  |  |
-|---|---|
-| 组件版本 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 兼容<br>[版本 2.0.4](/help/versions.md) 和更高版本 | 兼容 | 兼容 |
+| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更高版本 |
+|---|---|---|
+| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 与兼容<br>[版本1.1.12](/help/adaptive-forms/version.md) 但低于2.0.0。 |
 
-有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
+有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -124,10 +122,38 @@ To experience the Accordion Component as well as see examples of its configurati
 
 通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器的向导组件中的面板的组件。
 
+![允许的组件选项卡](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+### “默认组件”选项卡 {#default-component-tab}
+
+此选项卡允许模板编辑器将可作为项目添加的组件映射到自适应Forms编辑器中向导组件的面板。
+
+![面板默认组件](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### 响应设置 {#responsive-settings}
+
+利用此选项卡，模板编辑器可设置要在响应式网格中显示的列数。
+
+![响应式网格](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### 容器设置选项卡 {#container-setting-tab}
+
+容器设置选项卡允许在自适应Forms编辑器中设置组件的位置。
+
+![容器设置](/help/adaptive-forms/assets/panel_settings.png)
+
+* **布局**:简单布局可将所有内容固定在原位置，而响应式网格允许您更改组件的位置以满足您的需求。
+* **禁用布局**:您还可以通过选择 **禁用布局** 复选框。
+* **启用背景图像**:利用此选项卡，可在模板编辑器中设置背景图像和颜色。
+* **启用背景颜色**:利用此选项卡，可在模板编辑器中设置背景颜色。
+
 ### “样式”选项卡 {#styles-tab}
 
-“设计”对话框用于定义和管理组件的 CSS 样式。自适应表单向导核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+选项卡用于定义和管理组件的CSS样式。 自适应表单向导核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-**默认 CSS 类**：可为向导组件提供默认 CSS 类。
+![样式选项卡](/help/adaptive-forms/assets/panel_style.png)
 
-**允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+* **默认 CSS 类**：可为向导组件提供默认 CSS 类。
+
+* **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+

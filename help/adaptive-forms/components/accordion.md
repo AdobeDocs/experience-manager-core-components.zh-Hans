@@ -3,10 +3,10 @@ title: 自适应表单折叠面板
 description: 使用折叠面板组件通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: ht
-source-wordcount: '1768'
-ht-degree: 100%
+source-git-commit: 0cfdc56fe5508e156eee2ae818be311748af7247
+workflow-type: tm+mt
+source-wordcount: '1677'
+ht-degree: 95%
 
 ---
 
@@ -38,16 +38,13 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
+自适应Forms折叠核心组件是作为适用于AEM 6.5.16.0 Forms或更高版本的核心组件2.0.4的一部分于2023年2月发布的，该组件适用于Cloud Service和核心组件1.1.12或更高版本。 下表显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
 
-2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单折叠面板核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
+| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更高版本 |
+|---|---|---|
+| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 与兼容<br>[版本1.1.12](/help/adaptive-forms/version.md) 但低于2.0.0。 |
 
-|  |  |
-|---|---|
-| 组件版本 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 兼容<br>[版本 2.0.4](/help/versions.md) 和更高版本 | 兼容 | 兼容 |
-
-有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
+有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -104,43 +101,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/accordion_accessibility.png)
 
-在&#x200B;**辅助功能**&#x200B;选项卡上，为组件的 [ARIA 辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/)标签设置值。使用屏幕阅读器文本时有多个选项：
-
-* **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
-
-
-   * **自定义文本**：选中此选项以将自定义文本用于 ARIA 辅助功能标签。选中此选项将显示“自定义文本”对话框。可在“自定义文本”对话框中添加相关信息。
-   * **描述**：选中此选项以将描述用于 ARIA 辅助功能标签。
-   * **标题**：选中此选项以将标题用于 ARIA 辅助功能标签。
-   * **名称**：选中此选项以将名称用于 ARIA 辅助功能标签。
-   * **无**：如果不想为 ARIA 辅助功能标签添加任何内容，请选中此选项。
-
-<!--
-
-### Properties Tab {#properties-tab}
-
-![Properties tab of the edit dialog of the Accordion Component](/help/assets/accordion-edit-properties.png)
-
-*   **Single item expansion** - When selected, this option forces a single accordion item to be expanded at a time. Expanding one item will then collapse all others.
-*   **Expanded items** - This option defines the items that are expanded by default when the page is loaded.
-    * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
-    * When **Single item expansion** is not selected, this option is a multi-select and is optional.
-*   **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
-    * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
-    * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-    * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
-
-## Select Panel Popover {#select-panel-popover}
-
-The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon.png)) on the component toolbar enables content authors to modify the panels in an accordion with ease. By selecting this option, the author can switch to a different panel for editing and rearrange the order of the panels in the accordion. The configured panels will be displayed in a drop-down menu for the author to choose from. This feature optimizes the editing process and makes it user-friendly for content authors.
-
-![Select panel popover](/help/assets/select-panel-popover.png)
-
-
-* The panels are displayed in a numbered list, reflecting the assigned arrangement.
-* Each panel is listed with its component type in bold, followed by a brief description in lighter font.
-* By clicking or tapping on a panel in the drop-down, you can easily switch the view in the editor to that specific panel.
-* To rearrange the panels, simply use the drag handles to move them into the desired order. -->
+**屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
 
 ## “设计”对话框 {#design-dialog}
 
@@ -166,39 +127,15 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器的折叠面板组件中的面板的组件。
 
+![允许的组件选项卡](/help/adaptive-forms/assets/accordion_allowedcomponents.png)
+
 ### “样式”选项卡 {#styles-tab}
 
-“设计”对话框用于定义和管理组件的 CSS 样式。自适应表单折叠面板核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+选项卡用于定义和管理组件的CSS样式。 自适应表单折叠面板核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-**默认 CSS 类**：可为折叠面板组件提供默认 CSS 类。
+![样式选项卡](/help/adaptive-forms/assets/accordion_style.png)
 
-**允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+* **默认 CSS 类**：可为折叠面板组件提供默认 CSS 类。
 
+* **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
-<!-- 
-
-The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
-
-
-### Properties Tab {#properties-tab-design}
-
-![Design dialog properties tab](/help/assets/accordion-design-properties.png)
-
-* **Allowed Heading Elements** - This multi-select drop-down defines the accordion item heading HTML elements that are allowed to be selected by an author.
-* **Default Heading Element** - This drop-down defines the default accordion item heading HTML element.
-
-### Allowed Components Tab {#allowed-components-tab}
-
-The **Allowed Components** tab is used to define which components can be added as items to panels in the Accordion Component by the content author.
-
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
-
-### Styles Tab {#styles-tab}
-
-The Accordion Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
-
-## Adobe Client Data Layer {#data-layer}
-
-The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
-
--->

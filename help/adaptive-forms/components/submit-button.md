@@ -3,10 +3,10 @@ title: 自适应表单核心组件 -“提交”按钮
 description: 使用或自定义自适应表单“提交”按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 89ffc8aece0a1a223ca3bd73364212190148077f
-workflow-type: ht
-source-wordcount: '1131'
-ht-degree: 100%
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+workflow-type: tm+mt
+source-wordcount: '1152'
+ht-degree: 94%
 
 ---
 
@@ -29,15 +29,13 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单“提交”按钮核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
+自适应Forms折叠核心组件是作为适用于AEM 6.5.16.0 Forms或更高版本的核心组件2.0.4的一部分于2023年2月发布的，该组件适用于Cloud Service和核心组件1.1.12或更高版本。 下表显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
 
-|  |  |
-|---|---|
-| 组件版本 | AEM as a Cloud Service |
-| --- | --- |
-| v1 | 兼容<br>[版本 2.0.4](/help/versions.md) 和更高版本 | 兼容 | 兼容 |
+| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更高版本 |
+|---|---|---|
+| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 与兼容<br>[版本1.1.12](/help/adaptive-forms/version.md) 但低于2.0.0。 |
 
-有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
+有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -79,7 +77,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
-* **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
+**屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
 
 ## “设计”对话框 {#design-dialog}
 
@@ -87,8 +85,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “样式”选项卡 {#styles-tab}
 
-“设计”对话框用于定义和管理组件的 CSS 样式。自适应表单“提交”按钮核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+选项卡用于定义和管理组件的CSS样式。 自适应表单“提交”按钮核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-**默认 CSS 类**：可为自适应表单“提交”按钮核心组件提供默认 CSS 类。
+![“设计”对话框](/help/adaptive-forms/assets/reset_designdialog.png)
 
-**允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+
+* **默认 CSS 类**：可为自适应表单“提交”按钮核心组件提供默认 CSS 类。
+
+* **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
