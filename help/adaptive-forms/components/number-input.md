@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单数值输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1798'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 它还可以与 min、max、step、value 等属性结合使用。这些属性可用于设置字段中允许的最小值和最大值、用于递增或递减数字的步进间隔以及字段的默认值。
 
-该组件可用于收集年龄、数量等数值数据，还可用于执行加减等数学运算。 该组件还可用于验证用户输入的数值数据。
+该组件可用于收集年龄、数量等数值数据，它也可用于执行加法和减法等数学运算。该组件还可用于验证用户输入的数值数据。
 
 对于辅助功能，请务必指定描述数值输入字段用途的“标签”，以及预期的输入类型。
 
@@ -28,20 +28,20 @@ ht-degree: 88%
 
 有若干原因使得在自适应表单中加入数值输入组件有益，这些原因包括：
 
-* **数学运算**:数字字段可用于执行数学运算，如加、减、乘和除。
+* **数学运算**：数值字段可用于执行数学运算，例如加法、减法、乘法和除法。
 
-* **数据范围**:数字字段可用于通过使用最小、最大和步骤属性来设置有效值范围。
+* **数据范围**：数值字段可用于通过 min、max 和 step 属性设置某个范围的有效值。
 
 * **动态内容**：数值组件可用于显示基于表单字段的动态数据。
 
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应Forms折叠核心组件是作为适用于AEM 6.5.16.0 Forms或更高版本的核心组件2.0.4的一部分于2023年2月发布的，该组件适用于Cloud Service和核心组件1.1.12或更高版本。 下表显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
+作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单折叠面板核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
-| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更高版本 |
+| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 与兼容<br>[版本1.1.12](/help/adaptive-forms/version.md) 但低于2.0.0。 |
+| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
@@ -112,13 +112,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-**屏幕阅读器的文本**  — 屏幕阅读器的文本是指视觉障碍人士使用的辅助技术（如屏幕阅读器）用来阅读的其他文本。 此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
+**屏幕阅读器文本** - 屏幕阅读器文本是指供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
 
 ### “格式”选项卡 {#formats-tab}
 
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-* **显示格式**  — 此选项允许您从不同的整数数字类型格式中选择用于显示的选项。 当用户从&#x200B;**类型**&#x200B;下拉菜单中选择任意选项时，**格式**&#x200B;选项将在面板中可见。您可以选择向用户显示的数字所采用的特定格式。
+* **显示格式** - 通过此选项，可从不同的整数类型格式中选择选项以供显示。当用户从&#x200B;**类型**&#x200B;下拉菜单中选择任意选项时，**格式**&#x200B;选项将在面板中可见。您可以选择向用户显示的数字所采用的特定格式。
 
 * **小数分隔符前的位数 (1234.000)** - 使用此选项可指定要在小数点前显示的位数。
 
@@ -130,15 +130,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “样式”选项卡 {#styles-tab}
 
-选项卡用于定义和管理组件的CSS样式。 自适应表单数值输入核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+该选项卡用于定义和管理组件的 CSS 样式。自适应表单数值输入核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-![Styletab](/help/adaptive-forms/assets/datepicker_styletab.png)
+![“样式”选项卡](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 **默认 CSS 类**：可为自适应表单数值输入核心组件提供默认 CSS 类。
 
-**允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。您可以在自适应Forms中将这些样式用于自适应表单或将其应用于自适应表单。 要应用样式，请在自适应Forms编辑器中，选择要将样式应用到的组件，导航到属性对话框，然后从 **样式** 下拉列表。 如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+**允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单中的自适应表单。要应用样式，请在自适应表单编辑器中，选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
 ### “格式”选项卡 {#format-tab}
 
-“格式”选项卡用于指定默认日期格式和自定义数字格式。![“设计”选项卡](/help/adaptive-forms/assets/emailinput_designformattab.png)
+通过“格式”选项卡，可指定默认和自定义数字格式。![“设计”选项卡](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
