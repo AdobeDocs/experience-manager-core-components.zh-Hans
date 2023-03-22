@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1683'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应Forms折叠核心组件是作为适用于AEM 6.5.16.0 Forms或更高版本的核心组件2.0.4的一部分于2023年2月发布的，该组件适用于Cloud Service和核心组件1.1.12或更高版本。 下表显示了所有受支持的版本、AEM兼容性以及指向相应文档的链接：
+作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单折叠面板核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
-| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更高版本 |
+| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 与兼容<br>[版本1.1.12](/help/adaptive-forms/version.md) 但低于2.0.0。 |
+| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
@@ -118,9 +118,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “样式”选项卡 {#styles-tab}
 
-选项卡用于定义和管理组件的CSS样式。 自适应表单电子邮件输入核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+该选项卡用于定义和管理组件的 CSS 样式。自适应表单电子邮件输入核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-![样式选项卡](/help/adaptive-forms/assets/email_designdialog.png)
+![“样式”选项卡](/help/adaptive-forms/assets/email_designdialog.png)
 
 * **默认 CSS 类**：可为自适应表单电子邮件输入核心组件提供默认 CSS 类。
 
