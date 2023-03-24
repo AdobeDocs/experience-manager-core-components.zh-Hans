@@ -3,8 +3,8 @@ title: AEM Forms 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 source-git-commit: 85d6efce6f661db2812f80a7815fd6902e77b440
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
