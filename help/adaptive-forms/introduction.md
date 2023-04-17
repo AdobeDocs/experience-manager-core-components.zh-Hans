@@ -3,10 +3,10 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 86%
 
 ---
 
@@ -90,32 +90,41 @@ ht-degree: 100%
 
 | AEM | AEM Forms 附加组件 | 核心组件 |
 |---|---|---|
-| AEM as a Cloud Service | 表单 - 数字注册 | [版本 2.20.8](/help/versions.md) 以上 |
+| AEM as a Cloud Service | 表单 - 数字注册 | [版本 2.20.8](version.md) 以上 |
+| AEM 6.5 | Forms附加组件 | [版本 1.1.12](version.md) 以上 |
+
+## 设置和创建基于核心组件的自适应表单
+
+**AEM Formsas a Cloud Service**:创建新的AEM Formsas a Cloud Service程序时，您的环境中已启用自适应Forms核心组件。 如果您有基于Archetype 39或更早版本的Formsas a Cloud Service环境， [为环境启用自适应Forms核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+在为环境启用核心组件时， **自适应Forms（核心组件）** 模板和画布主题会添加到您的环境中。 如果您的AEM SDK版本低于2023.02.0, [确保 `prerelease` 环境中已启用的标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) 因为自适应Forms核心组件在2023.02.0版之前是预先购买的一部分。
+
+要使用自适应Forms向导和自适应表单编辑器创建自适应表单，请参阅创建自适应表单([核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?))。
 
 
 ## 自适应表单核心组件 {#components}
 
-您可以使用[自适应表单编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)创建基于 Adaptive Forms 的核心组件。当前版本的自适应表单核心组件具有以下所列组件。
+当前版本的自适应表单核心组件具有以下所列组件。
 
-* 折叠
-* 按钮
-* 复选框组
-* 日期选取器
-* 下拉列表
-* 电子邮件输入
-* 表单容器
-* 文件附件
-* 页脚
-* 页眉
-* 水平选项卡
-* 图像
-* 数值输入
-* 面板容器
-* 单选按钮
-* “重置”按钮
-* “提交”按钮
-* 电话号码输入
-* 文本输入
-* 文本
-* 标题
-* 向导
+* [折叠](/help/adaptive-forms/components/accordion.md)
+* [按钮](/help/adaptive-forms/components/button.md)
+* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
+* [日期选取器](/help/adaptive-forms/components/date-picker.md)
+* [下拉列表](/help/adaptive-forms/components/drop-down.md)
+* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
+* [表单容器](/help/adaptive-forms/components/form-container.md)
+* [文件附件](/help/adaptive-forms/components/file-attachment.md)
+* [页脚](/help/adaptive-forms/components/footer.md)
+* [页眉](/help/adaptive-forms/components/header.md)
+* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
+* [图像](/help/adaptive-forms/components/image.md)
+* [数值输入](/help/adaptive-forms/components/number-input.md)
+* [面板容器](/help/adaptive-forms/components/panel-container.md)
+* [单选按钮](/help/adaptive-forms/components/radio-button.md)
+* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
+* [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
+* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
+* [文本输入](/help/adaptive-forms/components/text-input.md)
+* [文本](/help/adaptive-forms/components/text.md)
+* [标题](/help/adaptive-forms/components/title.md)
+* [向导](/help/adaptive-forms/components/wizard.md)
