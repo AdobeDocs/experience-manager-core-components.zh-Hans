@@ -3,20 +3,20 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
-workflow-type: ht
-source-wordcount: '2873'
-ht-degree: 100%
+source-git-commit: 468078da4d31d7eedf9bd73cbcf2d71107bfe3f4
+workflow-type: tm+mt
+source-wordcount: '2924'
+ht-degree: 98%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前发行版本是 2.22.0，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 安装兼容。
+核心组件的当前发行版本是 2.22.4，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 安装兼容。
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
-核心组件设计为灵活且与支持的所有 AEM 版本兼容。因此，组件的一个发行版本可以包含同一组件的多个版本。
+核心组件设计为灵活且与支持的所有 AEM 版本兼容。因此，一个版本的组件可以包含同一组件©的多个版本。
 
 以下各表说明了核心组件发行版本的兼容性，以及哪些发行版本中包含了哪些组件版本。
 
@@ -26,6 +26,8 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | 这是一个修补程序版本，用于修复 [内容片段列表组件。](/help/components/content-fragment-list.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023年4月5日 |
+| [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | 这是一个维护版本，用于解决2.22.0中引入的两个问题 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 3 月 31 日 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入[列表组件](/help/components/list.md)的新版本以及改进 [Teaser](/help/components/teaser.md) 并更新 [PDF 查看器](/help/components/pdf-viewer.md)和[轮盘](/help/components/carousel.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 2 月 9 日 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 这是一个补丁版本，它修复了 v1 和 v2 中 [Teaser 组件](/help/components/teaser.md)的问题。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包括许多增强功能，其中包括发布了 LinkHandler API、改进了[图像组件](/help/components/image.md)和[数据层](/help/developing/data-layer/overview.md)以及改进了多面板组件。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
