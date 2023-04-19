@@ -3,9 +3,9 @@ title: 电子邮件按钮组件
 description: 利用电子邮件按钮组件，可在您的内容中配置和显示按钮项。
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
@@ -30,13 +30,9 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 兼容 | 兼容 |
+| v1 | 兼容 | - |
 
 有关核心组件版本的更多信息，请参阅文档[电子邮件核心组件版本。](/help/email/versions.md)
-
-## 示例组件输出 {#sample-component-output}
-
-要体验电子邮件按钮组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库。](https://adobe.com/go/aem_cmp_library_email_button_cn)
 
 ## 技术详细信息 {#technical-details}
 

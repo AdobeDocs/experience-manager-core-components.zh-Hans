@@ -3,9 +3,9 @@ title: 电子邮件内容片段组件
 description: 利用电子邮件内容片段组件，可以在您的内容中显示内容片段。
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -31,13 +31,9 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 兼容 | 兼容 |
+| v1 | 兼容 | - |
 
 有关电子邮件核心组件版本的更多信息，请参阅文档[电子邮件核心组件版本。](/help/email/versions.md)
-
-## 示例组件输出 {#sample-component-output}
-
-要体验电子邮件内容片段组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库。](https://adobe.com/go/aem_cmp_library_email_cf_cn)
 
 ## 技术详细信息 {#technical-details}
 

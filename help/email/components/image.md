@@ -3,9 +3,9 @@ title: 电子邮件图像组件
 description: 电子邮件图像组件是一个自适应图像组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1645'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 兼容 | 兼容 |
+| v1 | 兼容 | - |
 
 有关核心组件版本的更多信息，请参阅文档[电子邮件核心组件版本](/help/email/versions.md)。
 
@@ -61,10 +61,6 @@ ht-degree: 100%
 ### 安全性 {#security}
 
 为安全起见，图像编辑器从不直接调用原始 SVG。通过 `<img src=“path-to-component”>` 调用它。这可以防止浏览器执行在 SVG 文件中嵌入的任何脚本。
-
-## 示例组件输出 {#sample-component-output}
-
-要体验电子邮件图像组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库。](https://adobe.com/go/aem_cmp_library_email_image_cn)
 
 ### 技术详细信息 {#technical-details}
 
@@ -113,7 +109,7 @@ ht-degree: 100%
    * 如果未链接到 AEM 资源，请输入绝对 URL。非绝对 URL 将解释为相对于 AEM。
    * **在新标签页中打开链接** – 此选项在一个新的浏览器窗口中打开链接。
 * **ID** - 此选项允许控制 HTML 中组件的唯一标识符。
-   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
+   * 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改 ID 会对 CSS 产生影响。
 * **固定为** – 此选项定义图像的宽度（以像素为单位）。

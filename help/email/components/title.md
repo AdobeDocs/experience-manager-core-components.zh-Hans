@@ -3,9 +3,9 @@ title: 电子邮件标题组件
 description: 电子邮件标题组件是您的电子邮件的分区标题组件，具有就地编辑功能。
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '599'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,9 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 兼容 | 兼容 |
+| v1 | 兼容 | - |
 
 有关核心组件版本的更多信息，请参阅文档[核心电子邮件组件版本](/help/versions.md)。
-
-## 示例组件输出 {#sample-component-output}
-
-要体验标题组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库。](https://adobe.com/go/aem_cmp_library_email_title_cn)
 
 ### 技术详细信息 {#technical-details}
 
@@ -56,7 +52,7 @@ ht-degree: 100%
 * **链接** - 定义标题将链接到的内容。这可以是内容页面的路径、外部 URL 或页面锚点。
    * 单击 Campaign 图标，打开[选择 Adobe Campaign 变量](/help/email/campaign-variables.md)对话框并插入来自 Adobe Campaign 的动态内容。
 * **ID** – 此选项允许控制 HTML 中组件的唯一标识符。
-   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
+   * 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改 ID 会对 CSS 产生影响。
 

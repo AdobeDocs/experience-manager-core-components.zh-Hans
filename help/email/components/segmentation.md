@@ -3,9 +3,9 @@ title: 电子邮件分段组件
 description: 电子邮件分段组件
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1133'
 ht-degree: 100%
 
 ---
@@ -32,11 +32,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | 兼容 | 兼容 |
-
-## 示例组件输出 {#sample-component-output}
-
-要体验电子邮件分段组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_email_segmentation_cn)。
+| v1 | 兼容 | - |
 
 ### 技术详细信息 {#technical-details}
 
