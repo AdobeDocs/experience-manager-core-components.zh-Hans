@@ -6,7 +6,7 @@ exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
 workflow-type: tm+mt
 source-wordcount: '1169'
-ht-degree: 86%
+ht-degree: 96%
 
 ---
 
@@ -102,15 +102,15 @@ ht-degree: 86%
 | AEM | AEM Forms 附加组件 | 核心组件 |
 |---|---|---|
 | AEM as a Cloud Service | 表单 - 数字注册 | [版本 2.20.8](version.md) 以上 |
-| AEM 6.5 | Forms附加组件 | [版本 1.1.12](version.md) 以上 |
+| AEM 6.5 | Forms 附加组件 | [版本 1.1.12](version.md) 以上 |
 
 ### 基于核心组件创建自适应表单
 
-**AEM Formsas a Cloud Service:** 创建新的AEM Formsas a Cloud Service程序时，您的环境中已启用自适应Forms核心组件。 如果您有基于Archetype 39或更早版本的Formsas a Cloud Service环境， [为环境启用自适应Forms核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+**AEM Formsas a Cloud Service:** 创建新的AEM Formsas a Cloud Service程序时，您的环境中已启用自适应Forms核心组件。 如果您有基于 Archetype 39 或更早版本的 Forms as a Cloud Service 环境，请[为您的环境启用自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project)。
 
-在为环境启用核心组件时， **自适应Forms（核心组件）** 模板和画布主题会添加到您的环境中。 如果您的AEM SDK版本低于2023.02.0, [确保 `prerelease` 环境中已启用的标记](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) 因为自适应Forms核心组件在2023.02.0版之前是预先购买的一部分。
+在为您的环境启用核心组件时，即将&#x200B;**自适应表单（核心组件）**&#x200B;模板和画布主题添加到您的环境。如果您的 AEM SDK 版本低于 2023.02.0，请[确保在您的环境上启用 `prerelease` 标志](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)，因为自适应表单核心组件是 2023.02.0 发布之前预发布的一部分。
 
-要使用自适应Forms向导和自适应表单编辑器创建自适应表单，请参阅创建自适应表单([核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?))。
+要使用自适应表单向导和自适应表单编辑器创建自适应表单，请参阅“创建自适应表单（[核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)）”。
 
 
 
