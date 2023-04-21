@@ -4,7 +4,7 @@ description: 电子邮件页面组件
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 source-git-commit: c16dd8696e89f89c7b178ece11f57a565d73588b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
 ht-degree: 100%
 
