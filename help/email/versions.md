@@ -4,7 +4,7 @@ description: 核心电子邮件组件作为版本发布。
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
 

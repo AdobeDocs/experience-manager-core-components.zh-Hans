@@ -2,13 +2,13 @@
 title: 自适应表单核心组件 - 表单容器
 description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
+source-git-commit: 64536dc607c6e8da0b424b4a1502fa64ed8abbd0
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
 ---
-
 
 # 表单容器 {#form-container-adaptive-forms-core-component}
 

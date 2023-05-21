@@ -4,7 +4,7 @@ description: 使用轮盘组件，内容作者可在旋转轮盘中展示内容�
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 100%
 

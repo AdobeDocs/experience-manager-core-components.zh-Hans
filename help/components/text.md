@@ -4,7 +4,7 @@ description: 文本组件是一种富文本编辑和撰写组件，具有就地�
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2210'
 ht-degree: 100%
 
@@ -308,7 +308,7 @@ ht-degree: 100%
 
 * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
 * 如果指定一个 ID，作者有责任确保它是唯一的。
-* 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
+* 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 

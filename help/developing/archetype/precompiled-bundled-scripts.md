@@ -3,7 +3,7 @@ title: 预编译的捆绑脚本
 description: 了解如何通过 OSGi 捆绑包将组件脚本部署到 Adobe Experience Manager Cloud Service。
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 source-git-commit: 767f83fbad11a108aab25be2b77759af3c08b864
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
 

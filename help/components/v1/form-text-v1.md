@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->从核心组件执行 JSON 导出需要版本 1.1.0 的核心组件。有关更多信息，请参阅[核心组件 v1 的兼容性信息](/help/versions.md)。
+>从核心组件执行 JSON 导出需要版本 1.1.0 的核心组件。 有关更多信息，请参阅[核心组件 v1 的兼容性信息](/help/versions.md)。
 
 ## “配置”对话框 {#configure-dialog}
 

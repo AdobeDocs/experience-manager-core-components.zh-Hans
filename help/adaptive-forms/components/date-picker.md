@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单日期选取器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: 使用嵌入组件可以在 AEM 内容页面中嵌入外部内容�
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 100%
 

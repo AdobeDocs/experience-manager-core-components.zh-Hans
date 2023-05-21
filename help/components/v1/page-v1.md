@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -678,7 +678,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->从核心组件执行 JSON 导出需要版本 1.1.0 的核心组件。有关更多信息，请参阅[核心组件 v1 的兼容性信息](/help/versions.md)。
+>从核心组件执行 JSON 导出需要版本 1.1.0 的核心组件。 有关更多信息，请参阅[核心组件 v1 的兼容性信息](/help/versions.md)。
 
 ## “编辑”对话框 {#edit-dialog}
 

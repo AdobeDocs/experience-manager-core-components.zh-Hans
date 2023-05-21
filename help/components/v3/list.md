@@ -4,7 +4,7 @@ description: 利用核心组件列表组件 (v3)，可以轻松地创建动态�
 role: Architect, Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
 source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 100%
 

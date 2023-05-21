@@ -4,7 +4,7 @@ description: 使用核心组件折叠组件，可在页面上创建一系列以�
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 100%
 

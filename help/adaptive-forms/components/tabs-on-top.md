@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 顶部选项卡
 description: 使用或自定义自适应表单选项卡顶部选项卡核心组件。
 role: Architect, Developer, Admin, User
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 

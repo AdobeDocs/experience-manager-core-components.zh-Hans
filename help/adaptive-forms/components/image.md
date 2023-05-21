@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单图像核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ To experience the Accordion Component as well as see examples of its configurati
 * **描述** - 描述是简短的文本说明，提供了有关特定图像的用途的附加信息或说明。
 
 * **在此处放置资源或浏览找到要上传的文件** - 此选项可让使用鼠标拖放操作来放置图像等资源。您还可以使用 **浏览**&#x200B;按钮从本地文件系统上传文件。添加图像后，图像底部会出现三个按钮：
-   * **编辑** - 点击或单击&#x200B;**编辑**&#x200B;可在资源编辑器中管理资源的再现。
+   * **编辑** - 点击或单击&#x200B;**编辑**&#x200B;可在资源中管理资源的再现。
    * **清除** - 点击或单击&#x200B;**清除**&#x200B;可取消选择当前选定的图像。
    * **选取** - 点击或单击&#x200B;**选取**&#x200B;选项可从 Assets 文件夹中选择另一个图像。
 

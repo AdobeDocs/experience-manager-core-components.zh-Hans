@@ -4,7 +4,7 @@ description: 利用核心组件表单选项组件可从各种格式的预定义�
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 * **ID** - 利用此选项，可以控制 HTML 和[ Data Layer ](/help/developing/data-layer/overview.md)中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
+   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 

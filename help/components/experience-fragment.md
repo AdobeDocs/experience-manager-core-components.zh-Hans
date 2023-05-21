@@ -4,7 +4,7 @@ description: 使用体验片段组件，内容作者可以向页面添加体验�
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 100%
 

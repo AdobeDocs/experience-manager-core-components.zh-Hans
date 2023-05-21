@@ -4,7 +4,7 @@ description: 借助自适应表单核心组件的灵活性创建引人入胜的�
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 100%
 

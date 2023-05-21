@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单下拉列表核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 100%
 

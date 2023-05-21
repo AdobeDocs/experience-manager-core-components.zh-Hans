@@ -4,7 +4,7 @@ description: 进度条组件以可视化形式展示向目标的进展
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 * **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
+   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 

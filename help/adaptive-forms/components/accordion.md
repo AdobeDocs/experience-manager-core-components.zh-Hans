@@ -4,7 +4,7 @@ description: 使用折叠面板组件通过将表单拆分为更小、更易于�
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 0cfdc56fe5508e156eee2ae818be311748af7247
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 100%
 
