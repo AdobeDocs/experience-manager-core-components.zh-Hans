@@ -3,16 +3,16 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 468078da4d31d7eedf9bd73cbcf2d71107bfe3f4
+source-git-commit: 1b419d6f340f8062945f96b1605a67620d5f79af
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 100%
+source-wordcount: '2988'
+ht-degree: 98%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前发行版本是 2.22.4，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 安装兼容。
+核心组件的当前发行版本是 2.22.10，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 安装兼容。
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
@@ -26,6 +26,9 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 此补丁发行版本修复了两个回归。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023年5月11日 |
+| [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 此补丁发行版本恢复了以前版本中意外删除的功能。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023年5月9日 |
+| [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | 此补丁发行版本修复了 [容器组件。](/help/components/container.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 4 月 21 日 |
 | [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | 这是一个补丁发行版本，用于修复[内容片段列表组件](/help/components/content-fragment-list.md)中的问题。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 4 月 5 日 |
 | [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | 这是一个维护版本，用于解决 2.22.0 中引入的两个问题 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 3 月 31 日 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入[列表组件](/help/components/list.md)的新版本以及改进 [Teaser](/help/components/teaser.md) 并更新 [PDF 查看器](/help/components/pdf-viewer.md)和[轮盘](/help/components/carousel.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 2 月 9 日 |

@@ -3,17 +3,17 @@ title: 核心电子邮件组件版本
 description: 核心电子邮件组件作为版本发布。
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 7ab19cb73493121282e90e752b38c445fd0962f0
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 96%
 
 ---
 
 
 # 核心电子邮件组件版本 {#core-components-versions}
 
-电子邮件核心组件的当前版本为 1.0.0，与 AEM 6.5 兼容。
+电子邮件核心组件的当前版本为 1.2.0，与 AEM 6.5 兼容。
 
 有关要求和安装的更多信息，请参阅电子邮件核心组件介绍文档的[要求部分](/help/email/introduction.md#requirements)和使用电子邮件核心组件文档的[安装部分](/help/email/using.md#installing-the-email-core-components)。
 
@@ -23,7 +23,8 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM 6.5 | 核心组件 | Java | 发布日期 |
 |---|---|---|---|---|---|
-| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 首次公开发布，详见发行说明 | 6.5.14.0+ | [2.21.2](/help/versions.md) | 8, 11 | 2022 年 11 月 29 日 |
+| [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | 此发行版本引入了Selenium e2e测试，并包括许多错误修复。 | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 2022 年 11 月 29 日 |
+| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 首次公开发布，详见发行说明 | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 2022 年 11 月 29 日 |
 | [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | 修复 | 6.5.13.0+ |  | 8、11 | 2022 年 9 月 30 日 |
 | [0.17.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.17.0) | 修复 | 6.5.13.0+ |  | 8、11 | 2022 年 9 月 27 日 |
 | [0.16.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.16.0) | 修复 | 6.5.13.0+ |  | 8、11 | 2022 年 9 月 14 日 |
