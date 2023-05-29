@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 1b419d6f340f8062945f96b1605a67620d5f79af
 workflow-type: tm+mt
 source-wordcount: '2988'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 98%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 此补丁发行版本修复了两个回归。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023年5月11日 |
-| [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 此补丁发行版本恢复了以前版本中意外删除的功能。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023年5月9日 |
-| [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | 此补丁发行版本修复了 [容器组件。](/help/components/container.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 4 月 21 日 |
+| [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 此补丁版本修复了两个回归。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 5 月 11 日 |
+| [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 此补丁版本恢复了在上一版本中意外删除的功能。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 5 月 9 日 |
+| [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | 此补丁版本修复了[容器组件](/help/components/container.md)中的某个回归。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 4 月 21 日 |
 | [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | 这是一个补丁发行版本，用于修复[内容片段列表组件](/help/components/content-fragment-list.md)中的问题。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 4 月 5 日 |
 | [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | 这是一个维护版本，用于解决 2.22.0 中引入的两个问题 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 3 月 31 日 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入[列表组件](/help/components/list.md)的新版本以及改进 [Teaser](/help/components/teaser.md) 并更新 [PDF 查看器](/help/components/pdf-viewer.md)和[轮盘](/help/components/carousel.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 2 月 9 日 |
