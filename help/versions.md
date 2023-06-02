@@ -3,16 +3,16 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 1b419d6f340f8062945f96b1605a67620d5f79af
+source-git-commit: b7b06b5760e233756a0e8906251fa3b8ab401908
 workflow-type: tm+mt
-source-wordcount: '2988'
-ht-degree: 100%
+source-wordcount: '3006'
+ht-degree: 99%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前发行版本是 2.22.10，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 安装兼容。
+核心组件的当前发行版本是 2.22.12，与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 安装兼容。
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | 此补丁发行版本修复了两个问题。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 5 月 25 日 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 此补丁版本修复了两个回归。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 5 月 11 日 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 此补丁版本恢复了在上一版本中意外删除的功能。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 5 月 9 日 |
 | [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | 此补丁版本修复了[容器组件](/help/components/container.md)中的某个回归。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 4 月 21 日 |
