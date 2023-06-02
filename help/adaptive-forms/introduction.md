@@ -3,10 +3,10 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
+source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 100%
+source-wordcount: '1163'
+ht-degree: 89%
 
 ---
 
@@ -94,23 +94,23 @@ ht-degree: 100%
 * [标题](/help/adaptive-forms/components/title.md)
 * [向导](/help/adaptive-forms/components/wizard.md)
 
-## 设置核心组件
+## 设置自适应Forms核心组件
 
+在AEM Formsas a Cloud Service上启用自适应Forms核心组件，允许您使用AEM FormsCloud Service实例向多个渠道开始创建、发布和交付基于核心组件的自适应Forms和Headless Forms。 有关启用自适应表单核心组件的详细说明，请参阅 [在AEM Formsas a Cloud Service和本地开发环境中启用自适应Forms核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
 自适应表单核心组件具有以下要求。
 
-| AEM | AEM Forms 附加组件 | 核心组件 |
+| AEM | AEM Forms 附加组件 | 自适应表单核心组件 |
 |---|---|---|
-| AEM as a Cloud Service | 表单 - 数字注册 | [版本 2.20.8](version.md) 以上 |
+| AEM as a Cloud Service | 表单 - 数字注册 | [版本 2.0.10](version.md) 以上 |
 | AEM 6.5 | Forms 附加组件 | [版本 1.1.12](version.md) 以上 |
+
+如果您的AEM Cloud Service SDK版本低于2023.02.0， [确保您拥有 `prerelease` 标记已在您的环境中启用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features) 在2023.02.0版之前，自适应Forms核心组件是预租赁的一部分。
+
 
 ### 基于核心组件创建自适应表单
 
-**AEM Forms as a Cloud Service**：当您创建新的 AEM Forms as a Cloud Service 程序时，即为您的环境启用自适应表单核心组件。如果您有基于 Archetype 39 或更早版本的 Forms as a Cloud Service 环境，请[为您的环境启用自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project)。
-
-在为您的环境启用核心组件时，即将&#x200B;**自适应表单（核心组件）**&#x200B;模板和画布主题添加到您的环境。如果您的 AEM SDK 版本低于 2023.02.0，请[确保在您的环境上启用 `prerelease` 标志](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)，因为自适应表单核心组件是 2023.02.0 发布之前预发布的一部分。
-
-要使用自适应表单向导和自适应表单编辑器创建自适应表单，请参阅“创建自适应表单（[核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)）”。
+要在AEM Formsas a Cloud Service上创建自适应表单，请参阅 [创建自适应表单（核心组件）](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?).
 
 
 
