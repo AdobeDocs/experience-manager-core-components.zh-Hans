@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 按钮
 description: 使用或自定义自适应表单按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 90a48e6203ce611679c2a7269ffb5d48912e3d71
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 100%
+source-wordcount: '1406'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 通过自适应表单规则编辑器，用户可为按钮组件设置多种操作。这些操作包括打开网站、显示或隐藏表单组件、添加面板或组件的实例、提交或重置表单等等。
 
-自适应表单还提供单独的按钮组件用于提交或重置表单，但在需要时，也可以将按钮组件配置为执行这些操作。
+自适应Forms为提供了单独的组件 [“提交”按钮](/help/adaptive-forms/components/submit-button.md) 和 [“重置”按钮](/help/adaptive-forms/components/reset-button.md)，可让用户方便地提交或重置表单。 可以灵活地配置Button组件以根据特定需求执行这些动作。
 
 用户可以使用自适应表单规则编辑器访问按钮组件支持的完整操作列表。通过规则编辑器，用户可创建由单击按钮时、加载表单时或字段值更改时等多种事件触发的规则。然后，可使用这些规则执行多种操作，如显示或隐藏组件、设置字段值或提交表单。
 
