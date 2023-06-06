@@ -5,8 +5,8 @@ breadcrumb-title: 核心组件指南
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 945ca958481f86d166c4d78d63ecd5011bc15f97
-workflow-type: tm+mt
-source-wordcount: '369'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
