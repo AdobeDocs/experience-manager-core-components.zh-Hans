@@ -3,10 +3,10 @@ title: 电子邮件体验片段组件
 description: 电子邮件体验片段组件允许内容作者在其内容中放置体验片段变体，同时支持本地化的内容结构。
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 
 ## 技术详细信息 {#technical-details}
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_email_tech_xf_v1_cn)有关体验片段组件的最新技术文档。
+阅读最新信息 [有关体验片段组件的技术文档](https://www.adobe.com/go/aem_cmp_xf_v1).
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
