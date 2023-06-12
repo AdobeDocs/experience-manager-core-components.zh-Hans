@@ -96,7 +96,7 @@ ht-degree: 98%
 
 ## 设置自适应表单核心组件
 
-在 AEM Forms as a Cloud Service 上启用自适应表单核心组件后，您可以使用 AEM Forms Cloud Service 实例为多个渠道创建、发布和交付基于核心组件的自适应表单和 Headless Forms。有关启用自适应表单核心组件的详细说明，请参阅[在 AEM Forms as a Cloud Service 和本地开发环境启用自适应表单核心组件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
+通过在 AEM Forms as a Cloud Service 上启用自适应表单核心组件，您可以使用 AEM Forms Cloud Service 实例为多个渠道创建、发布和投放基于核心组件的自适应表单和 Headless 表单。有关启用自适应表单核心组件的详细说明，请参阅[在 AEM Forms as a Cloud Service 和本地开发环境上启用自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)。
 
 自适应表单核心组件具有以下要求。
 
@@ -105,12 +105,12 @@ ht-degree: 98%
 | AEM as a Cloud Service | 表单 - 数字注册 | [版本 2.0.10](version.md) 以上 |
 | AEM 6.5 | Forms 附加组件 | [版本 1.1.12](version.md) 以上 |
 
-如果您的 AEM Cloud Service SDK 版本低于 2023.02.0，请[确保在您的环境上启用 `prerelease` 标志](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)，因为自适应表单核心组件是 2023.02.0 发布之前预发布的一部分。
+如果您的 AEM Cloud Service SDK 版本低于 2023.02.0，请[确保在您的环境上启用 `prerelease` 标志](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)，因为自适应表单核心组件是低于 2023.02.0 版本的预发行版本的一部分。
 
 
-### 基于核心组件创建自适应表单
+### 创建基于核心组件的自适应表单
 
-要在 AEM Forms as a Cloud Service 上创建自适应表单，请参阅[创建自适应表单（核心组件）。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)
+要在 AEM Forms as a Cloud Service 上创建自适应表单，请参阅[创建自适应表单（核心组件）](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)。
 
 
 
