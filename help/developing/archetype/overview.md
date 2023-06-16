@@ -4,7 +4,7 @@ description: 基于 AEM 的应用程序的项目模板
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: fac7c40919d2c31a8004bd1f47500ac44f99fb61
+source-git-commit: d25e659828becc0d9285297d00c53530bb33785a
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 100%
@@ -62,7 +62,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 * 将 `XX` 替换为最新的[原型版本号。](#requirements)
 * 为 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 设置 `aemVersion=cloud`；\
-   为 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署设置 `aemVersion=6.5.0`。
+  为 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署设置 `aemVersion=6.5.0`。
 仅为非云 AEM 版本添加核心组件依赖项，因为核心组件是针对 AEM as a Cloud Service 提供的 OOTB。
 * 调整 `appTitle="My Site"` 以定义网站标题和组件组。
 * 调整 `appId="mysite"` 以定义 Maven artifactId、组件、配置和内容文件夹名称以及客户端库名称。
@@ -73,10 +73,10 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 | 名称 | 默认 | 描述 |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | 应用程序标题，将用于网站标题和组件组（例如 `"My Site"`）。 |
-| `appId` |  | 技术名称，将用于组件、配置和内容文件夹名称以及客户端库名称（例如，`"mysite"`）。 |
+| `appTitle` |                | 应用程序标题，将用于网站标题和组件组（例如 `"My Site"`）。 |
+| `appId` |                | 技术名称，将用于组件、配置和内容文件夹名称以及客户端库名称（例如，`"mysite"`）。 |
 | `artifactId` | *`${appId}`* | 基本 Maven 构件 ID（例如 `"mysite"`）。 |
-| `groupId` |  | 基本 Maven 组 ID（例如 `"com.mysite"`）。此值必须是[有效的 Java 包名称。](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
+| `groupId` |                | 基本 Maven 组 ID（例如 `"com.mysite"`）。此值必须是[有效的 Java 包名称。](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7) |
 | `package` | *`${groupId}`* | Java 源程序包（例如 `"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | 项目版本（例如 `1.0-SNAPSHOT`）。 |
 | `aemVersion` | `cloud` | 目标 AEM 版本（可以是 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 的 `cloud`；或 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署的 `6.5.0` 或 `6.4.4`）。 |
@@ -89,7 +89,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 | `includeExamples` | `n` | 包含[组件库](https://www.aemcomponents.dev/)示例站点（可以是 `y` 或 `n`）。 |
 | `includeErrorHandler` | `n` | 包含将为整个实例全局设置的自定义 404 响应页面（可以是 `y` 或 `n`）。 |
 | `includeCommerce` | `n` | 包含 [CIF 核心组件](https://github.com/adobe/aem-core-cif-components)依赖项并生成相应的构件。 |
-| `commerceEndpoint` |  | 仅对于 CIF 是必需的。要使用的商务系统 GraphQL 服务的可选端点（例如 `https://hostname.com/grapql`）。 |
+| `commerceEndpoint` |                | 仅对于 CIF 是必需的。要使用的商务系统 GraphQL 服务的可选端点（例如 `https://hostname.com/grapql`）。 |
 | `includeFormscommunications` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 通信程序生成相应的伪像。 |
 | `includeFormsenrollment` | `n` | 包括 [Forms 核心组件](https://github.com/adobe/aem-core-forms-components)依赖项、模板、表单数据模型、主题，并为 Forms 注册程序生成相应的伪像。 |
 | `sdkFormsVersion` | `latest` | 当 `aemVersion=cloud` 并且 `includeFormsenrollment=y` 或 `includeFormscommunications=y` 其中之一时，可指定 Forms SDK 版本（例如 `2020.12.17.02`）。 |
@@ -104,7 +104,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 | 原型 | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [41](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-41) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [42](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-42) | 连续 | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 为 [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-Hans) 或[旧版本的 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) 设置本地开发环境。
 
