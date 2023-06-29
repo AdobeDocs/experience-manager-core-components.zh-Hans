@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 水平选项卡
 description: 使用或自定义自适应表单水平选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 100%
+source-wordcount: '1733'
+ht-degree: 88%
 
 ---
 
@@ -30,18 +30,20 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单折叠面板核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单水平选项卡核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
 
-| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
-|---|---|---|
-| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
+|  |  |
+|---|---|
+| 组件版本 | AEM as a Cloud Service |
+| --- | --- |
+| v1 | 兼容<br>[版本 2.0.4](/help/versions.md) 和更高版本 | 兼容 | 兼容 |
 
-有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
+有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
 
 
 ## 技术详细信息 {#technical-details}
@@ -54,7 +56,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “基本”选项卡 {#basic-tab}
 
-![“基本”选项卡](/help/adaptive-forms/assets/tabsontop_basictab.png)
+![“基本”选项卡](/help/adaptive-forms/assets/tabs-on-top-basic.png)
 
 * **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
@@ -70,20 +72,32 @@ To experience the Accordion Component as well as see examples of its configurati
 * **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 * **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
+### 重复顶部选项卡 {#repeat-tabs-on-top}
+
+![“辅助功能”选项卡](/help/adaptive-forms/assets/repeat-tabsontop.png)
+
+您可以使用可重复性选项来复制水平选项卡组件及其子组件，定义最小和最大重复计数，并简化表单中类似部分的复制。 与水平选项卡组件交互并访问其设置时，将显示以下选项：
+
+* **使水平选项卡可重复**：允许用户启用或禁用重复性功能的切换功能。
+* **最小重复次数**：建立水平选项卡组件可重复的最小次数。 如果值为零，则表示不重复水平制表符组件；默认值为0。
+* **最大重复次数**：设置水平选项卡组件可重复的最大次数。 默认情况下，此值不受限制。
+
+要有效地管理“水平”选项卡中的可重复部分，请按照 [创建包含可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 文章。
+
 ### “项”选项卡 {#items-tab}
 
-![“项”选项卡](/help/adaptive-forms/assets/tabsontop_itemstab.png)
+![“项”选项卡](/help/adaptive-forms/assets/items-tabs-on-top.png)
 
 通过&#x200B;**添加**&#x200B;按钮，可从组件选择窗口中选择要作为面板添加的组件。添加该组件后，可看到以下选项：
 
 * **图标** - 图标在列表中标识面板的组件。将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
 * **描述** - 用作面板文本的描述。默认情况下，为面板选择组件的名称。
-* **删除** - 点按或单击以从水平选项卡组件中删除该面板。
+* **删除**  — 点击或单击可从水平选项卡组件中删除面板。
 * **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
 
 ### “帮助内容”选项卡 {#help-content}
 
-![“帮助内容”选项卡](/help/adaptive-forms/assets/tabsontop_helptab.png)
+![“帮助内容”选项卡](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
 
 * **简短描述** - 简短描述是一段简短的文字说明，其中提供关于特定表单字段的用途的其他信息或阐述。它帮助用户了解应将什么类型的数据输入到字段中，并可提供准则或示例以帮助确保所输入的信息有效且符合预期的标准。默认情况下，简短描述保持隐藏状态。启用&#x200B;**始终显示简短描述**&#x200B;选项以在组件下方显示它。
 
@@ -93,7 +107,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “辅助功能”选项卡 {#accessibility}
 
-![“辅助功能”选项卡](/help/adaptive-forms/assets/tabsontop_accessibilitytab.png)
+![“辅助功能”选项卡](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
 
 * **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
 
@@ -101,25 +115,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## “设计”对话框 {#design-dialog}
 
-通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应表单组件，可设置以下各项：
+通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应Forms水平选项卡组件，您可以设置以下内容：
 
-* 表单创建者可添加到自适应表单编辑器中的水平选项卡的核心组件
-* 可在自适应表单编辑器的水平选项卡组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
+* 表单创建者可以添加到自适应Forms编辑器中的水平选项卡的核心组件
+* 样式（CSS类）的简单名称，这些名称可在自适应Forms编辑器中的水平选项卡组件的“属性”对话框中应用。
 
 这有助于使创建和自定义表单的过程更加简便和高效。
 
 ### “允许使用的组件”选项卡 {#allowed-components-tab}
 
-通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑器可设置可作为项添加到自适应表单编辑器中的水平选项卡组件面板的组件。
-
-![水平选项卡](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
+通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器中的水平选项卡组件面板的组件。
 
 ### “样式”选项卡 {#styles-tab}
 
-该选项卡用于定义和管理组件的 CSS 样式。自适应表单水平选项卡核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+“设计”对话框用于定义和管理组件的 CSS 样式。自适应表单水平选项卡核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-![“样式”选项卡](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
+**默认 CSS 类**：可为自适应表单水平选项卡核心组件提供默认 CSS 类。
 
-* **默认 CSS 类**：可为自适应表单水平选项卡核心组件提供默认 CSS 类。
-
-* **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+**允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
