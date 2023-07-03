@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 表单容器
 description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
 exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
-source-git-commit: 64536dc607c6e8da0b424b4a1502fa64ed8abbd0
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 96%
 
 ---
 
@@ -79,3 +79,9 @@ To experience the Accordion Component as well as see examples of its configurati
 * **显示消息** - 通过此选项，用户可添加在成功提交自适应表单时显示的消息。对话框中包括预定义的文本，并且用户可修改这些文本。“显示消息”对话框支持富文本格式化工具，通过这些功能，用户可为所添加的文本设置格式。
 
 * **提交操作** - 当用户单击自适应表单上的“提交”按钮时将触发提交操作。用户可以从下拉列表中选择受支持的现有提交操作。了解如何[在“提交”选项卡中配置提交操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)。
+
+## 相关文章 {#related-article}
+
+* [在AEM Sites页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

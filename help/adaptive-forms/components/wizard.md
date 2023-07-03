@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 向导
 description: 使用或自定义自适应表单向导核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 91%
+source-wordcount: '1865'
+ht-degree: 98%
 
 ---
 
@@ -91,17 +91,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
-### “重复向导”选项卡 {#repeat-wizard-tab}
+### 重复向导选项卡 {#repeat-wizard-tab}
 
 ![重复向导](/help/adaptive-forms/assets/wizard-repeat.png)
 
-您可以使用可重复性选项来复制向导及其子组件，定义最小和最大重复计数，并简化表单中类似部分的复制。 与向导组件交互并访问其设置时，将显示以下选项：
+您可以使用重复选项来复制向导及其子组件，定义最小和最大重复计数，并便于在表单内复制类似部分。当与向导组件交互并访问其设置时，会出现以下选项：
 
-* **使向导可重复**：允许用户启用或禁用重复性功能的切换功能。
-* **最小重复次数**：建立向导面板可重复执行的最小次数。 值为零表示不重复“向导”面板；默认值为零。
-* **最大重复次数**：设置向导面板可重复的最大次数。 默认情况下，此值不受限制。
+* **使向导可重复**：切换功能，允许用户启用或禁用重复功能。
+* **最少重复次数**：确定向导面板可以重复的最小次数。值为零表示向导面板不重复；默认值为零。
+* **最多重复次数**：设置向导面板可以重复的最多次数。默认情况下，此值无限制。
 
-要有效地管理向导中的可重复部分，请按照 [创建包含可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 文章。
+要有效管理向导中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “帮助”选项卡 {#help-tab}
 
@@ -143,4 +143,11 @@ To experience the Accordion Component as well as see examples of its configurati
 **默认 CSS 类**：可为向导组件提供默认 CSS 类。
 
 **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+
+## 相关文章 {#related-article}
+
+* [在AEM Sites页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
 

@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 单选按钮
 description: 使用或自定义自适应表单单选按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 100%
+source-wordcount: '1703'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **隐藏标题** - 选中此选项以隐藏该组件的标题。
 
-   在&#x200B;**选项**&#x200B;选项卡中，您可以使用&#x200B;**添加**&#x200B;按钮添加数据值和显示文本对。添加新选项后，可以执行以下操作：
+  在&#x200B;**选项**&#x200B;选项卡中，您可以使用&#x200B;**添加**&#x200B;按钮添加数据值和显示文本对。添加新选项后，可以执行以下操作：
 
    * **数据值** - 通过此选项，可输入在选择某个选项时要提交的内容。
    * **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
@@ -131,3 +131,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
+## 相关文章 {#related-article}
+
+* [在AEM Sites页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

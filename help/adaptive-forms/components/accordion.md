@@ -3,10 +3,10 @@ title: 自适应表单折叠面板
 description: 使用折叠面板组件通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 92%
+source-wordcount: '1950'
+ht-degree: 98%
 
 ---
 
@@ -79,17 +79,17 @@ To experience the Accordion Component as well as see examples of its configurati
 * **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 * **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
-### 重复可折叠项 {#repeat-accordion}
+### 重复折叠 {#repeat-accordion}
 
-![repeat-accordion](/help/adaptive-forms/assets/repeat-accordion.png)
+![重复折叠](/help/adaptive-forms/assets/repeat-accordion.png)
 
-您可以使用可重复性选项来复制折叠面板及其子组件，定义最小和最大重复计数，并简化表单中类似部分的复制。 与折叠组件交互并访问其设置时，将显示以下选项：
+您可以使用重复选项来复制折叠面板及其子组件，定义最小和最大重复计数，并便于在表单内复制类似部分。当与折叠组件交互并访问其设置时，会出现以下选项：
 
-* **将折叠设置为可重复**：允许用户启用或禁用重复性功能的切换功能。
-* **最小重复次数**：建立折叠面板可重复的最小次数。 值为零表示不重复折叠面板；默认值为0。
-* **最大重复次数**：设置折叠面板可重复的最大次数。 默认情况下，此值不受限制。
+* **使折叠可重复**：切换功能，允许用户启用或禁用重复功能。
+* **最少重复次数**：确定折叠面板可以重复的最小次数。值为零表示折叠面板不重复；默认值为零。
+* **最多重复次数**：设置折叠面板可以重复的最多次数。默认情况下，此值无限制。
 
-要有效地管理折叠中的可重复部分，请按照 [创建包含可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 文章。
+要有效管理折叠中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “项”选项卡 {#items-tab}
 
@@ -187,7 +187,7 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
 
-<!-- 
+<!--- 
 
 The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
 
@@ -211,6 +211,14 @@ The Accordion Component supports the AEM [Style System](/help/get-started/author
 
 ## Adobe Client Data Layer {#data-layer}
 
-The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md) 
+
 
 -->
+
+## 相关文章 {#related-article}
+
+* [在AEM Sites页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+

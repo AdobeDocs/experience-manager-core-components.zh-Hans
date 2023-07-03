@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 水平选项卡
 description: 使用或自定义自适应表单水平选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 88%
+source-wordcount: '1769'
+ht-degree: 98%
 
 ---
 
@@ -76,13 +76,13 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/repeat-tabsontop.png)
 
-您可以使用可重复性选项来复制水平选项卡组件及其子组件，定义最小和最大重复计数，并简化表单中类似部分的复制。 与水平选项卡组件交互并访问其设置时，将显示以下选项：
+您可以使用重复选项来复制“水平”选项卡组件及其子组件，定义最小和最大重复计数，并便于在表单内复制类似部分。当与“水平”选项卡组件交互并访问其设置时，会出现以下选项：
 
-* **使水平选项卡可重复**：允许用户启用或禁用重复性功能的切换功能。
-* **最小重复次数**：建立水平选项卡组件可重复的最小次数。 如果值为零，则表示不重复水平制表符组件；默认值为0。
-* **最大重复次数**：设置水平选项卡组件可重复的最大次数。 默认情况下，此值不受限制。
+* **使“水平”选项卡可重复**：切换功能，允许用户启用或禁用重复功能。
+* **最少重复次数**：确定“水平”选项卡组件面板可以重复的最小次数。值为零表示“水平”选项卡组件不重复；默认值为零。
+* **最多重复次数**：设置“水平”选项卡组件面板可以重复的最大次数。默认情况下，此值无限制。
 
-要有效地管理“水平”选项卡中的可重复部分，请按照 [创建包含可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 文章。
+要有效管理“水平”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “项”选项卡 {#items-tab}
 
@@ -92,7 +92,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 * **图标** - 图标在列表中标识面板的组件。将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
 * **描述** - 用作面板文本的描述。默认情况下，为面板选择组件的名称。
-* **删除**  — 点击或单击可从水平选项卡组件中删除面板。
+* **删除** - 点按或单击以从水平选项卡组件中删除该面板。
 * **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
 
 ### “帮助内容”选项卡 {#help-content}
@@ -115,10 +115,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## “设计”对话框 {#design-dialog}
 
-通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应Forms水平选项卡组件，您可以设置以下内容：
+通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应表单“水平”选项卡组件，可设置以下各项：
 
-* 表单创建者可以添加到自适应Forms编辑器中的水平选项卡的核心组件
-* 样式（CSS类）的简单名称，这些名称可在自适应Forms编辑器中的水平选项卡组件的“属性”对话框中应用。
+* 表单创建者可添加到自适应表单编辑器中的水平选项卡的核心组件
+* 可在自适应表单编辑器的水平选项卡组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
 
 这有助于使创建和自定义表单的过程更加简便和高效。
 
@@ -132,4 +132,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 **默认 CSS 类**：可为自适应表单水平选项卡核心组件提供默认 CSS 类。
 
-**允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+* **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+
+## 相关文章 {#related-article}
+
+* [在AEM Sites页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

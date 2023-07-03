@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 页脚
 description: 使用或自定义自适应表单页脚核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '806'
+ht-degree: 96%
 
 ---
 
@@ -85,6 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
       1. 使用“打开所选内容”对话框在 AEM 中选择某个路径。
       1. 如果链接不在 AEM 中，请输入绝对 URL。
       1. 非绝对路径被解释为相对于 AEM 的路径。
+
    * **替换文本** - 输入链接的替换描述文本。
 
    * **目标** - 选择链接行为
@@ -93,11 +94,10 @@ To experience the Accordion Component as well as see examples of its configurati
       * 新选项卡
       * 父框架
       * 顶层框架
+
    * **“取消链接”图标** - 此选项删除已应用于所选文本的链接。只有已选择了链接，才激活此选项。
 
    * **“段落格式”图标** - 通过此选项，可将段落格式应用于所选的文本。它还帮助您为在光标后插入的文本设置格式。它定义标题的标题级别。
-
-
 
 * **ID**：通过此选项，可控制组件在 HTML 和数据层中的唯一标识符。
 
@@ -105,3 +105,8 @@ To experience the Accordion Component as well as see examples of its configurati
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
+## 相关文章 {#related-article}
+
+* [在AEM Sites页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)

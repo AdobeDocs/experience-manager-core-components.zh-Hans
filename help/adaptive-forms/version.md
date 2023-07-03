@@ -3,8 +3,8 @@ title: AEM Forms 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
-workflow-type: ht
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 100%
 
@@ -32,3 +32,4 @@ ht-degree: 100%
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | Java | 发布日期 |
 |---|---|---|---|---|---|
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | 此版本中引入了对内部部署 AEM Forms 和 AMS 核心组件的支持。 | - | 6.5.16.0+ | 8, 11 | 2023 年 2 月 8 日 |
+

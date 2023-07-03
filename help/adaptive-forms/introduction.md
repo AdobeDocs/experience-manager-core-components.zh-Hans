@@ -3,10 +3,10 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
-workflow-type: ht
-source-wordcount: '1147'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '1262'
+ht-degree: 88%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 自适应表单核心组件具有以下要求。
 
-| AEM | AEM Forms 附加组件 | 自适应表单核心组件 |
+| AEM 版本 | AEM Forms 附加组件 | 自适应表单核心组件 |
 |---|---|---|
 | AEM as a Cloud Service | 表单 - 数字注册 | [版本 2.0.10](version.md) 以上 |
 | AEM 6.5 | Forms 附加组件 | [版本 1.1.12](version.md) 以上 |
@@ -108,9 +108,16 @@ ht-degree: 100%
 如果您的 AEM Cloud Service SDK 版本低于 2023.02.0，请[确保在您的环境上启用 `prerelease` 标志](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)，因为自适应表单核心组件是低于 2023.02.0 版本的预发行版本的一部分。
 
 
-### 创建基于核心组件的自适应表单
+## 创建基于核心组件的自适应表单
 
-要在 AEM Forms as a Cloud Service 上创建自适应表单，请参阅[创建自适应表单（核心组件）](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)。
+您可以在AEM Formsas a Cloud Service或AEM 6.5 Forms环境中执行以下操作：
+
+| 操作 | AEM Forms版本 |
+|--------|------------------|
+| 创建独立的自适应表单 | [AEM Forms作为Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) |
+| 在AEM Sites中创建自适应表单页面 | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-sites-editor-or-experience-fragment)， [AEM Forms作为Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-sites-editor-or-experience-fragment) |
+| 在AEM Experience Fragment中创建自适应表单 | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-experience-fragment)， [AEM Forms作为Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-experience-fragment) |
+| 将自适应表单转换为体验片段 | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment)， [AEM Forms作为Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment) |
 
 
 
