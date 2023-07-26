@@ -4,10 +4,10 @@ description: AEM 项目原型的详细使用说明
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
+source-git-commit: e0dff3b15c9637292eb2bb89836215afc0fcf8f9
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 100%
+source-wordcount: '2201'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ AEM 项目原型包含以下模块：
 * **all**：此模块是单内容包，它嵌入了所有已编译的模块（捆绑包和内容包），其中包括任何供应商依赖项。
 * **analyse**：此模块对项目运行分析，这为部署到 AEM as a Cloud Service 提供了额外的验证。
 
-![](/help/assets/archetype-structure.png)
+![内容包组织](/help/assets/content-package-organization.png)
 
 Maven 中表示的 AEM 原型模块作为表示应用程序、内容和必要的 OSGi 捆绑包的内容包部署到 AEM。
 
@@ -76,7 +76,7 @@ mvn -B archetype:generate \
 
 * 将 `XX` 设置为最新的 AEM 项目原型的[版本号](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)。
 * 为 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 设置 `aemVersion=cloud`；\
-   为 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署设置 `aemVersion=6.5.0`。
+  为 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署设置 `aemVersion=6.5.0`。
 仅为非云 AEM 版本添加核心组件依赖项，因为核心组件是针对 AEM as a Cloud Service 提供的
 OOTB。
 * 调整 `appTitle="My Site"` 以定义网站标题和组件组。
@@ -96,10 +96,10 @@ OOTB。
 
 | 名称 | 默认 | 描述 |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | 应用程序标题，将用于网站标题和组件组（例如 `"My Site"`）。 |
-| `appId` |  | 技术名称，将用于组件、配置和内容文件夹名称以及客户端库名称（例如，`"mysite"`）。 |
+| `appTitle` |                | 应用程序标题，将用于网站标题和组件组（例如 `"My Site"`）。 |
+| `appId` |                | 技术名称，将用于组件、配置和内容文件夹名称以及客户端库名称（例如，`"mysite"`）。 |
 | `artifactId` | *`${appId}`* | 基本 Maven 构件 ID（例如 `"mysite"`）。 |
-| `groupId` |  | 基本 Maven 组 ID（例如 `"com.mysite"`）。 |
+| `groupId` |                | 基本 Maven 组 ID（例如 `"com.mysite"`）。 |
 | `package` | *`${groupId}`* | Java 源程序包（例如 `"com.mysite"`）。 |
 | `version` | `1.0-SNAPSHOT` | 项目版本（例如 `1.0-SNAPSHOT`）。 |
 | `aemVersion` | `cloud` | 目标 AEM 版本（可以是 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 的 `cloud`；或 [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 或内部部署的 `6.5.0` 或 `6.4.4`）。 |
@@ -112,7 +112,7 @@ OOTB。
 | `includeExamples` | `n` | 包含[组件库](https://www.aemcomponents.dev/)示例站点（可以是 `y` 或 `n`）。 |
 | `includeErrorHandler` | `n` | 包含将为整个实例全局设置的自定义 404 响应页面（可以是 `y` 或 `n`）。 |
 | `includeCommerce` | `n` | 包含 [CIF 核心组件](https://github.com/adobe/aem-core-cif-components)依赖项并生成相应的构件。 |
-| `commerceEndpoint` |  | 仅对于 CIF 是必需的。要使用的商务系统 GraphQL 服务的可选端点（例如 `https://hostname.com/grapql`）。 |
+| `commerceEndpoint` |                | 仅对于 CIF 是必需的。要使用的商务系统 GraphQL 服务的可选端点（例如 `https://hostname.com/grapql`）。 |
 | `datalayer` | `y` | 激活与 [Adobe Client Data Layer](/help/developing/data-layer/overview.md) 的集成。 |
 | `amp` | `n` | 为生成的项目模板启用 [AMP](/help/developing/amp.md) 支持。 |
 | `enableDynamicMedia` | `n` | 在项目策略设置中启用基础 DynamicMedia 组件，并在核心图像组件的策略中激活 Dynamic Media 功能。 |
