@@ -1,6 +1,6 @@
 ---
-title: 如何获取AEM Forms的示例主题和模板？
-description: AEM Forms 核心组件提供了示例自适应表单主题、模板和表单数据模型
+title: 如何获取 AEM Forms 主题和模板的示例？
+description: AEM Forms 核心组件提供自适应表单主题、模板和表单数据模型的示例
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
@@ -8,14 +8,14 @@ hide: true
 hidefromtoc: true
 level: Intermediate
 source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# 示例主题、模板和表单数据模型 {#sample-themes-templates-and-data-models}
+# 主题、模板和表单数据模型的示例 {#sample-themes-templates-and-data-models}
 
 [!DNL AEM Forms] 核心组件提供了随时可用的示例主题、模板和表单数据模型，以快速创建通用的自适应表单。这些组件还可帮助表单作者了解 [AEM Forms 核心组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)的可扩展性、适应性和响应性，以便立即创建简单的表单，轻松创建复杂的表单，同时与数据库无缝连接。
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 * 要获取 **Forms as a Cloud Service** 环境中的这些主题，请[启用自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)并使用[前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)部署这些主题。
 * 要获取 **AEM 6.5 Forms** 环境中的这些主题，请[启用自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)并使用[包管理器](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components)部署这些主题。
 
-此 **开箱即用** [自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 主题包括：
+**现成的**[自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)主题为：
 
 ![OOTB 主题](/help/adaptive-forms/assets/OOTB-themes.png)
 
@@ -75,7 +75,7 @@ WKND 主题体现了生动、富有想象力和引人入胜的设计，为您的
 **如何获取这些模板？**
 可以通过将[基于 AEM Archetype 43 或更高版本的项目](https://github.com/adobe/aem-project-archetype)部署到 **AEM Forms as a Cloud Service** 或 **AEM 6.5** Forms 环境来获取模板。
 
-此 **开箱即用** [自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) 模板包括：
+**现成的**[自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)模板为：
 
 ![参考模板](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
