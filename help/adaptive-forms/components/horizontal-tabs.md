@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单水平选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1870'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -65,9 +65,9 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **隐藏标题** - 选中此选项以隐藏该组件的标题。
 
 
-- **在表单提交时分组子组件的数据（将数据包装在对象中）**  — 选中选项后，其子组件的数据将嵌套在父组件的JSON对象中。 但是，如果未选中选项，则提交的JSON数据将具有扁平结构，父组件没有对象。 例如：
+- **表单提交时对子组件的数据进行分组（将数据包装在对象中）** - 选择该选项后，子组件中的数据将嵌套在父组件的 JSON 对象中。但是，如果未选择该选项，则提交的 JSON 数据具有扁平结构，没有父组件的对象。例如：
 
-   - 选择选项后，子组件（例如，街道、城市和邮政编码）中的数据将作为JSON对象嵌套在父组件（地址）中。 这将创建一个层次结构，并在父组件下组织数据。
+   - 选择该选项后，子组件中的数据（例如，街道、城市和邮政编码）将作为 JSON 对象嵌套在父组件（地址）中。这将创建一个层次结构，并且数据组织在父组件下。
 
      提交数据的结构：
 
@@ -79,7 +79,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
      }
      ```
 
-   - 未选中选项时，提交的JSON数据将具有扁平结构，父组件（地址）没有对象。 所有数据都位于同一级别，没有任何分层组织。
+   - 当未选择该选项时，提交的 JSON 数据具有扁平结构，没有父组件（地址）的对象。所有数据都处于同一级别，没有任何层级组织。
 
 
      提交数据的结构：
