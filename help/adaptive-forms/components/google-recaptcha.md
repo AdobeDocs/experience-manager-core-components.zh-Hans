@@ -5,35 +5,35 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 
-# Google reCPATCHA {#google-recaptcha}
+# Google reCAPTCHA {#google-recaptcha}
 
-CAPTCHA（完全自动化公共图灵测试，用于区分计算机和人类）是一种在线交易中常用的程序，用于区分人类和自动化程序或机器人。 它会提出挑战，并评估用户响应以确定是人类还是机器人与网站交互。 它可防止用户在测试失败时继续操作，并通过防止机器人发送垃圾邮件或恶意目的而确保在线交易的安全。
+CAPTCHA（区分计算机和人类的完全自动化公共图灵测试）是一种在线交易中常用的程序，用于区分人类和自动化程序或机器人。它提出了一个挑战，并评估用户响应以确定是人还是机器人与网站交互。如果测试失败，它会阻止用户继续操作，并通过阻止机器人发布垃圾邮件或恶意目的来帮助确保在线交易的安全。
 
-AEM Formsas a Cloud Service支持自适应Forms中的Google reCAPTCHA v2。 您可以用它来对表单提交提出验证码质询
+AEM Forms as a Cloud Service 支持自适应表单中的 Google reCAPTCHA v2。您可以使用它在表单提交时提出验证码挑战
 
 ## 用途 {#reasons-to-use-google-recaptcha}
 
 
-- **垃圾邮件和机器人预防**：使用reCAPTCHA的主要原因之一是防止垃圾邮件提交和恶意机器人泛滥您的表单。 reCAPTCHA的高级算法可以检测自动提交表单的尝试，从而确保只有合法用户才能与表单进行交互。
+- **垃圾邮件和机器人程序预防**：使用 reCAPTCHA 的主要原因之一是防止垃圾邮件提交和恶意机器人淹没您的表单。reCAPTCHA 的高级算法可以检测提交表单的自动尝试，从而确保只有合法用户才能与之交互。
 
-- **增强的安全性**：通过实施reCAPTCHA，可为自适应表单添加额外的安全层。 这有助于保护敏感信息并防止恶意用户利用漏洞。
+- **增强安全性**：通过实施 reCAPTCHA，您可以为自适应表单添加额外的安全层。这有助于保护敏感信息并防止恶意用户利用漏洞。
 
-- **用户体验**：虽然CAPTCHA有时被视为不便，但reCAPTCHA的自适应方法意味着大多数用户可获得简化的、用户友好的体验，并且只需很少的交互。 这有助于在仍然阻止机器人的同时保持积极的用户体验。
+- **用户体验**：虽然验证码有时会被视为不便，但 reCAPTCHA 的自适应方法意味着大多数用户都会获得简化的、用户友好的体验，并且需要最少的交互。这可以帮助保持积极的用户体验，同时仍然阻止机器人。
 
-- **适应性**： reCAPTCHA的自适应机制分析用户行为和交互以确定他们是否为人类。 这意味着根据用户成为机器人的可能性，他们所面临的挑战可能会有所不同。 这种适应性在保持强大安全性的同时，减少了真实用户的摩擦力。
+- **适应性**：reCAPTCHA 的自适应机制分析用户行为和交互，以确定他们是否是人类。这意味着向用户呈现的挑战级别可能会根据他们是机器人的可能性而有所不同。这种适应性减少了真正用户的摩擦，同时保持了强大的安全性。
 
-- **减少手动审核**：通过显着减少垃圾邮件提交和机器人生成内容的数量，reCAPTCHA可以节省原本用于手动审核和清理的时间和资源。
+- **减少手动审核**：通过显着减少垃圾邮件提交和机器人生成内容的数量，reCAPTCHA 可以节省用于手动审核和清理的时间和资源。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应Forms Google reCAPTCHA核心组件作为核心组件“版本”的一部分于2023年8月发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应表单 Google reCAPTCHA 核心组件于 2023 年 8 月发布，作为核心组件“版本”的一部分。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
@@ -45,11 +45,11 @@ AEM Formsas a Cloud Service支持自适应Forms中的Google reCAPTCHA v2。 您�
 
 ## 技术详细信息 {#technical-details}
 
-在以下位置的技术文档中获取有关自适应Forms Google reCAPTCHA核心组件的最新信息： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha) 上的技术文档中获得关于自适应表单 Google reCAPTCHA 核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，您可以轻松自定义访客的Google reCAPTCHA体验。 您还可以轻松地定义Google reCAPTCHA选项，以实现无缝用户体验。
+通过“配置”对话框，可轻松地自定义您为访客提供的 Google reCAPTCHA 体验。还可轻松地定义 Google reCAPTCHA 选项，从而营造一种无缝的用户体验。
 
 ### “基本”选项卡 {#basic-tab}
 
@@ -65,7 +65,7 @@ AEM Formsas a Cloud Service支持自适应Forms中的Google reCAPTCHA v2。 您�
 
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 
-- **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。未提交禁用组件的数据。用户可以看到字段的值，但无法修改它。 仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
+- **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。禁用组件的数据未提交用户可以看到该字段的值，但无法修改。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
 - **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
