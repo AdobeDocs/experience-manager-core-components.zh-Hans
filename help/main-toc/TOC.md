@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 97%
       + [自适应表单向导布局](/help/adaptive-forms/components/wizard.md)
       + [页眉](/help/adaptive-forms/components/header.md)
       + [页脚](/help/adaptive-forms/components/footer.md)
-   + [自定义自适应Forms核心组件](/help/developing/customize-adaptive-forms-core-components.md)
+   + [自定义自适应表单核心组件](/help/developing/customize-adaptive-forms-core-components.md)
    + [示例主题和模板](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 开发 {#developing}
    + [开发核心组件](/help/developing/overview.md)
