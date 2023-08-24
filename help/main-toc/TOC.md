@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 99%
       + [自适应表单图像](/help/adaptive-forms/components/image.md)
       + [自适应表单数值输入](/help/adaptive-forms/components/number-input.md)
       + [自适应表单面板](/help/adaptive-forms/components/panel-container.md)
-      + [自适应Forms验证码](/help/adaptive-forms/components/captcha.md)
+      + [自适应表单验证码](/help/adaptive-forms/components/captcha.md)
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
       + [自适应表单重置按钮](/help/adaptive-forms/components/reset-button.md)
       + [自适应表单提交按钮](/help/adaptive-forms/components/submit-button.md)
