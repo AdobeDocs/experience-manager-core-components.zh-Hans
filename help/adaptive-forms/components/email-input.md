@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 电子邮件输入
 description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
-source-wordcount: '1719'
-ht-degree: 100%
+source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
+workflow-type: tm+mt
+source-wordcount: '1756'
+ht-degree: 99%
 
 ---
 
@@ -136,3 +136,27 @@ To experience the Accordion Component as well as see examples of its configurati
 * [在 AEM Sites 页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
 
 * [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+## 另请参阅 {#see-also}
+
+* [折叠](/help/adaptive-forms/components/accordion.md)
+* [按钮](/help/adaptive-forms/components/button.md)
+* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
+* [日期选取器](/help/adaptive-forms/components/date-picker.md)
+* [下拉列表](/help/adaptive-forms/components/drop-down.md)
+* [表单容器](/help/adaptive-forms/components/form-container.md)
+* [文件附件](/help/adaptive-forms/components/file-attachment.md)
+* [页脚](/help/adaptive-forms/components/footer.md)
+* [页眉](/help/adaptive-forms/components/header.md)
+* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
+* [图像](/help/adaptive-forms/components/image.md)
+* [数值输入](/help/adaptive-forms/components/number-input.md)
+* [面板容器](/help/adaptive-forms/components/panel-container.md)
+* [单选按钮](/help/adaptive-forms/components/radio-button.md)
+* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
+* [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
+* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
+* [文本输入](/help/adaptive-forms/components/text-input.md)
+* [文本](/help/adaptive-forms/components/text.md)
+* [标题](/help/adaptive-forms/components/title.md)
+* [向导](/help/adaptive-forms/components/wizard.md)
