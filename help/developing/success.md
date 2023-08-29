@@ -3,12 +3,13 @@ title: 使用核心组件获得成功的途径
 description: 如何成功实施带核心组件的项目
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '565'
+ht-degree: 92%
 
 ---
+
 
 # 使用核心组件获得成功的途径 {#paths-to-success}
 
@@ -40,7 +41,7 @@ ht-degree: 100%
 
 ### 使用 Adobe XD UI 套件 {#ui-kit}
 
-一旦证明需要自定义组件，就使用 [Adobe XD UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，以便设计人员能够将核心组件用作构建块来开始构建线框和设计。
+一旦证明需要自定义组件，就使用Adobe XD UI套件， [可以在这里下载，](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) 这样设计人员就可以开始使用核心组件作为构建块来构建线框和设计。
 
 ## 不要忽视强大的功能 {#powerful-features}
 
