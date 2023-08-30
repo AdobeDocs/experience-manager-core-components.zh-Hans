@@ -3,9 +3,9 @@ title: 自适应表单核心组件 - 面板容器
 description: 使用或自定义自适应表单面板容器核心组件。
 role: Architect, Developer, Admin, User
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1539'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
