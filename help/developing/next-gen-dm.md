@@ -2,7 +2,7 @@
 title: 下一代Dynamic Media支持
 description: 了解如何配置核心组件图像和Teaser组件以支持远程新一代Dynamic Media资源。
 role: Architect, Developer, Admin, User
-source-git-commit: 57307b75bd33fd538a1eb704cc37822847c896de
+source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -70,7 +70,7 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 1. 一旦通过身份验证，将打开远程服务的资产浏览器。 选择所需的资产，然后点按或单击 **选择**.
 
-   ![选择远程资产](/help/assets/remote-asset-selection.png)
+   ![选择远程资产](/help/assets/remote-asset-picker.png)
 
 远程资产将会添加到本地AEM页面，并且您已验证该功能是否已正确配置。
 
