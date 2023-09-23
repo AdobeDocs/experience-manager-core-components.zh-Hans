@@ -3,16 +3,16 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: b7b06b5760e233756a0e8906251fa3b8ab401908
-workflow-type: ht
-source-wordcount: '3006'
-ht-degree: 100%
+source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
+workflow-type: tm+mt
+source-wordcount: '3044'
+ht-degree: 98%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为 2.22.12，与所安装的 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 兼容。
+核心组件的当前版本为 2.23.4，与所安装的 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 兼容。
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
@@ -26,43 +26,46 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | 此补丁版本修复了两个问题。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 5 月 25 日 |
-| [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 此补丁版本修复了两个回归。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 5 月 11 日 |
-| [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 此补丁版本恢复了在上一版本中意外删除的功能。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 5 月 9 日 |
-| [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | 此补丁版本修复了[容器组件](/help/components/container.md)中的某个回归。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 4 月 21 日 |
-| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | 这是一个补丁发行版本，用于修复[内容片段列表组件](/help/components/content-fragment-list.md)中的问题。 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 4 月 5 日 |
-| [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | 这是一个维护版本，用于解决 2.22.0 中引入的两个问题 | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 3 月 31 日 |
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入[列表组件](/help/components/list.md)的新版本以及改进 [Teaser](/help/components/teaser.md) 并更新 [PDF 查看器](/help/components/pdf-viewer.md)和[轮盘](/help/components/carousel.md) | - | 6.5.14.0+ * | 连续 | 8, 11 | 2023 年 2 月 9 日 |
-| [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 这是一个补丁版本，它修复了 v1 和 v2 中 [Teaser 组件](/help/components/teaser.md)的问题。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
-| [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包括许多增强功能，其中包括发布了 LinkHandler API、改进了[图像组件](/help/components/image.md)和[数据层](/help/developing/data-layer/overview.md)以及改进了多面板组件。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 9 月 12 日 |
-| [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 此版本修复了通过 AdaptiveImageServlet 传送 SVG 图像的问题。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 8 月 4 日 |
-| [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 此补丁版本修复了新的[目录组件的问题。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 7 月 7 日 |
-| [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | 此补丁版本修复了新的[目录组件的问题。](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 6 月 29 日 |
-| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 这是一个修补程序版本，修复了新的 AEMaaCS [网络优化资产投放服务中的问题。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 6 月 20 日 |
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本添加了一个新的[目录组件](/help/components/tableofcontents.md)，增加了对 AEMaaCS [网络优化资产投放服务](/help/developing/web-optimized-image-delivery.md)的支持，并包括错误修复。 | - | 6.5.13.0+ * | 连续 | 8, 11 | 2022 年 6 月 9 日 |
-| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 这一发行版本引入了[搜索组件](/help/components/quick-search.md)的一个新版本、[按钮组件](/help/components/button.md)的一些新功能，以及多项辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8、11 | 2022 年 4 月 7 日 |
-| [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 此版本修复了 AEMaaCS 的一个问题。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 3 月 17 日 |
-| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 这是一个补丁发行版本。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 3 月 |
+| [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | 此补丁发行版本包括各种错误修复。 | - | 6.5.17.0+ | 连续 | 8, 11 | 2023年9月15日 |
+| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 该修补程序将远程资产的Dynamic Media智能裁剪添加到 [图像](/help/components/image.md) 和 [Teaser组件](/help/components/teaser.md) 并修复了一些错误。 | - | 6.5.17.0+ | 连续 | 8, 11 | 2023 年 4 月 8 日 |
+| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 此版本添加了对的支持 [新一代Dynamic Media远程资源。](/help/developing/next-gen-dm.md) | - | 6.5.17.0+ | 连续 | 8, 11 | 2023 年 6 月 6 日 |
+| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | 此补丁版本修复了两个问题。 | - | 6.5.14.0+ | 连续 | 8, 11 | 2023 年 5 月 25 日 |
+| [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 此补丁版本修复了两个回归。 | - | 6.5.14.0+ | 连续 | 8, 11 | 2023 年 5 月 11 日 |
+| [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 此补丁版本恢复了在上一版本中意外删除的功能。 | - | 6.5.14.0+ | 连续 | 8, 11 | 2023 年 5 月 9 日 |
+| [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | 此补丁版本修复了[容器组件](/help/components/container.md)中的某个回归。 | - | 6.5.14.0+ | 连续 | 8, 11 | 2023 年 4 月 21 日 |
+| [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | 这是一个补丁发行版本，用于修复[内容片段列表组件](/help/components/content-fragment-list.md)中的问题。 | - | 6.5.14.0+ | 连续 | 8, 11 | 2023 年 4 月 5 日 |
+| [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | 这是一个维护版本，用于解决 2.22.0 中引入的两个问题 | - | 6.5.14.0+ | 连续 | 8, 11 | 2023 年 3 月 31 日 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入[列表组件](/help/components/list.md)的新版本以及改进 [Teaser](/help/components/teaser.md) 并更新 [PDF 查看器](/help/components/pdf-viewer.md)和[轮盘](/help/components/carousel.md) | - | 6.5.14.0+ | 连续 | 8, 11 | 2023 年 2 月 9 日 |
+| [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 这是一个补丁版本，它修复了 v1 和 v2 中 [Teaser 组件](/help/components/teaser.md)的问题。 | - | 6.5.13.0+ | 连续 | 8, 11 | 2022 年 9 月 12 日 |
+| [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包括许多增强功能，其中包括发布了 LinkHandler API、改进了[图像组件](/help/components/image.md)和[数据层](/help/developing/data-layer/overview.md)以及改进了多面板组件。 | - | 6.5.13.0+ | 连续 | 8, 11 | 2022 年 9 月 12 日 |
+| [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 此版本修复了通过 AdaptiveImageServlet 传送 SVG 图像的问题。 | - | 6.5.13.0+ | 连续 | 8, 11 | 2022 年 8 月 4 日 |
+| [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | 此补丁版本修复了新的[目录组件的问题。](/help/components/tableofcontents.md) | - | 6.5.13.0+ | 连续 | 8, 11 | 2022 年 7 月 7 日 |
+| [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | 此补丁版本修复了新的[目录组件的问题。](/help/components/tableofcontents.md) | - | 6.5.13.0+ | 连续 | 8, 11 | 2022 年 6 月 29 日 |
+| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | 这是一个修补程序版本，修复了新的 AEMaaCS [网络优化资产投放服务中的问题。](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0+ | 连续 | 8, 11 | 2022 年 6 月 20 日 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | 此版本添加了一个新的[目录组件](/help/components/tableofcontents.md)，增加了对 AEMaaCS [网络优化资产投放服务](/help/developing/web-optimized-image-delivery.md)的支持，并包括错误修复。 | - | 6.5.13.0+ | 连续 | 8, 11 | 2022 年 6 月 9 日 |
+| [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | 这一发行版本引入了[搜索组件](/help/components/quick-search.md)的一个新版本、[按钮组件](/help/components/button.md)的一些新功能，以及多项辅助功能改进和错误修复。 | - | 6.5.10.0+ | 连续 | 8、11 | 2022 年 4 月 7 日 |
+| [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | 此版本修复了 AEMaaCS 的一个问题。 | - | 6.5.10.0+ | 连续 | 8, 11 | 2022 年 3 月 17 日 |
+| [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | 这是一个补丁发行版本。 | - | 6.5.10.0+ | 连续 | 8, 11 | 2022 年 3 月 |
 | [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | 核心组件的这个主要发行版本引入了新链接处理程序，它跨多个组件的新版本，以及许多辅助功能改进和错误修复。 | - | 6.5.10.0+ * | 连续 | 8, 11 | 2022 年 2 月 16 日 |
-| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 12 月 13 日 |
-| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本，修复了上一个版本引入的回归。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 10 月 1 日 |
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此补丁增强了[列表](/help/components/list.md)和[导航](/help/components/navigation.md)组件以显示重定向目标的外部 URL，支持即将发布的 v2 的 [Teaser](/help/components/teaser.md) 组件的页面图像继承以及包含其他错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 8 月 31 日 |
-| [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 这是一个补丁发行版本，用于修复之前引入的无法向后兼容的更改。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 8 月 2 日 |
-| [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此补丁发行版本添加了对页面的站点地图的支持，并包括各种辅助功能改进。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 7 月 29 日 |
-| [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此补丁发行版本包括对[数据层](/help/developing/data-layer/overview.md)不可用于 AEMaaCS 的修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 7 月 8 日 |
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此发行版本包括许多支持链接处理程序功能的新组件版本的技术预览版，以及精选图像功能的技术预览版，该图像功能适用于[页面组件。](/help/components/page.md)其中还包括了多个错误修复。 | 6.4.8.4+ * | 6.5.6.0+ * | 连续 | 8, 11 | 2021 年 6 月 16 日 |
-| [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 此补丁发行版用于修复新的链接处理程序的问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 5 月 19 日 |
-| [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 此补丁发行版本主要修复了新的链接处理程序的问题，并增加了对 [PWA](/help/components/page.md#pwa-support) 多页应用程序的支持。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 5 月 15 日 |
-| [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 此发行版本重点提供了可访问性改进以及向现有组件引入了新的链接处理程序。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 4 月 22 日 |
-| [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | 此补丁发行版本主要修复了[数据层](/help/developing/data-layer/overview.md)的向后兼容性问题以及特定情况下的 IT 测试失败。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 3 月 16 日 |
-| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 此发行版本包括了对[页面组件中的渐进式 Web 应用程序 (PWA)](/help/components/page.md#pwa-support) 的支持，并支持 [Adobe 数据层](/help/developing/data-layer/overview.md)版本 2.0.0。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 2 月 23 日 |
-| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 此发行版本包括了用于[嵌入组件](/help/components/embed.md)的新选项，并在[页面](/help/components/page.md)级别引入了 Brand Slug 且解决了许多问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2021 年 2 月 9 日 |
-| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 此补丁发行版本解决了在 AEMaaCS 上使用时 RTE 出现的问题。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 12 月 16 日 |
-| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 此发行版本包括用于[图像组件](/help/components/image.md)的新 Dynamic Media 功能。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 12 月 4 日 |
-| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 这是 2.12.0 的补丁发行版本，包含小修复。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 11 月 11 日 |
-| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 这是 2.12.0 的补丁发行版本，修复了[图像组件](/help/components/image.md)中的重大错误。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 11 月 5 日 |
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 此发行版本引入了[新的 POST 表单处理程序、](/help/components/forms/form-container.md#post-data)通过上下文感知配置[包括自定义 CSS、JavaScript 和元数据标记的能力](/help/developing/including-clientlibs.md#context-aware-loading)以及`DataLayerBuilder`[在自定义组件中简化数据层集成](/help/developing/data-layer/integrations.md#enabling-custom-components)的实用程序。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 10 月 29 日 |
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此发行版本引入了 [AMP 支持](/help/developing/amp.md)。 | 6.4.8.1+ * | 6.5.5.0+ * | 连续 | 8, 11 | 2020 年 7 月 20 日 |
+| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本。 | 6.4.8.4+ | 6.5.6.0+ | 连续 | 8, 11 | 2021 年 12 月 13 日 |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | 这是一个补丁发行版本，修复了上一个版本引入的回归。 | 6.4.8.4+ | 6.5.6.0+ | 连续 | 8, 11 | 2021 年 10 月 1 日 |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | 此补丁增强了[列表](/help/components/list.md)和[导航](/help/components/navigation.md)组件以显示重定向目标的外部 URL，支持即将发布的 v2 的 [Teaser](/help/components/teaser.md) 组件的页面图像继承以及包含其他错误修复。 | 6.4.8.4+ | 6.5.6.0+ | 连续 | 8, 11 | 2021 年 8 月 31 日 |
+| [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 这是一个补丁发行版本，用于修复之前引入的无法向后兼容的更改。 | 6.4.8.4+ | 6.5.6.0+ | 连续 | 8, 11 | 2021 年 8 月 2 日 |
+| [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此补丁发行版本添加了对页面的站点地图的支持，并包括各种辅助功能改进。 | 6.4.8.4+ | 6.5.6.0+ | 连续 | 8, 11 | 2021 年 7 月 29 日 |
+| [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此补丁发行版本包括对[数据层](/help/developing/data-layer/overview.md)不可用于 AEMaaCS 的修复。 | 6.4.8.4+ | 6.5.6.0+ | 连续 | 8, 11 | 2021 年 7 月 8 日 |
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此发行版本包括许多支持链接处理程序功能的新组件版本的技术预览版，以及精选图像功能的技术预览版，该图像功能适用于[页面组件。](/help/components/page.md)其中还包括了多个错误修复。 | 6.4.8.4+ | 6.5.6.0+ | 连续 | 8, 11 | 2021 年 6 月 16 日 |
+| [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 此补丁发行版用于修复新的链接处理程序的问题。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2021 年 5 月 19 日 |
+| [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 此补丁发行版本主要修复了新的链接处理程序的问题，并增加了对 [PWA](/help/components/page.md#pwa-support) 多页应用程序的支持。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2021 年 5 月 15 日 |
+| [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 此发行版本重点提供了可访问性改进以及向现有组件引入了新的链接处理程序。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2021 年 4 月 22 日 |
+| [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | 此补丁发行版本主要修复了[数据层](/help/developing/data-layer/overview.md)的向后兼容性问题以及特定情况下的 IT 测试失败。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2021 年 3 月 16 日 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | 此发行版本包括了对[页面组件中的渐进式 Web 应用程序 (PWA)](/help/components/page.md#pwa-support) 的支持，并支持 [Adobe 数据层](/help/developing/data-layer/overview.md)版本 2.0.0。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2021 年 2 月 23 日 |
+| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | 此发行版本包括了用于[嵌入组件](/help/components/embed.md)的新选项，并在[页面](/help/components/page.md)级别引入了 Brand Slug 且解决了许多问题。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2021 年 2 月 9 日 |
+| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | 此补丁发行版本解决了在 AEMaaCS 上使用时 RTE 出现的问题。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2020 年 12 月 16 日 |
+| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | 此发行版本包括用于[图像组件](/help/components/image.md)的新 Dynamic Media 功能。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2020 年 12 月 4 日 |
+| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | 这是 2.12.0 的补丁发行版本，包含小修复。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2020 年 11 月 11 日 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | 这是 2.12.0 的补丁发行版本，修复了[图像组件](/help/components/image.md)中的重大错误。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2020 年 11 月 5 日 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | 此发行版本引入了[新的 POST 表单处理程序、](/help/components/forms/form-container.md#post-data)通过上下文感知配置[包括自定义 CSS、JavaScript 和元数据标记的能力](/help/developing/including-clientlibs.md#context-aware-loading)以及`DataLayerBuilder`[在自定义组件中简化数据层集成](/help/developing/data-layer/integrations.md#enabling-custom-components)的实用程序。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2020 年 10 月 29 日 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | 此发行版本引入了 [AMP 支持](/help/developing/amp.md)。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2020 年 7 月 20 日 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | 此发行版本引入了 [PDF 查看器组件](/help/components/pdf-viewer.md)。 | 6.4.8.1+ | 6.5.5.0+ | 连续 | 8, 11 | 2020 年 6 月 17 日 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | 此发行版本启用了与 [Adobe 客户端数据层](/help/developing/data-layer/overview.md)的集成并引入了[进度条组件](/help/components/progress-bar.md)。 | 6.4.8.0+ | 6.5.4.0+ | 连续 | 8, 11 | 2020 年 5 月 29 日 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | 此发行版本重点进行了修复并包括一些小的增强功能。 | 6.4.4.0+ | 6.5.0.0+ | 连续 | 8, 11 | 2019 年 12 月 5 日 |
@@ -84,10 +87,6 @@ ht-degree: 100%
 | [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | 此发行版本添加了对[页面组件](/help/components/page.md)、[图像组件](/help/components/image.md)的修复，以及各种全局修复和改进。 | 6.4.0.0+ | - | - | 8 | 2017 年 4 月 26 日 |
 | [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | 此发行版本添加了对[图像组件](/help/components/image.md)的动画 GIF 图像的修复。 | 6.4.0.0+ | - | - | 7 | 2017 年 3 月 22 日 |
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | 核心组件的初始发行版本 | 6.4.0.0+ | - | - | 7 | 2017 年 3 月 20 日 |
-
->[!NOTE]
->
->(*) 自版本 2.11.0 开始，需要 `org.apache.sling.models.impl` 版本 1.4.12 或更高版本（由于 [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)）。这会在将来的服务包中为 AEM 6.4 和 6.5 提供。在此之前，Sling 模型捆绑包将包含在 `core.wcm.components.all` 包中。
 
 >[!TIP]
 >
