@@ -4,9 +4,9 @@ description: 核心组件图像组件是自适应图像组件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2084'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 图像组件具有自适应图像选择和响应式行为，页面访客可以延迟加载，内容作者可以轻松放置图像。
 
-内容作者可以使用 [“编辑”对话框](#edit-dialog) 编辑图像资源，如应用裁切或旋转图像。
+内容作者可使用[“编辑”对话框](#edit-dialog)编辑图像资源，如应用裁切或旋转图像。
 
 模板作者可以在[“设计”对话框](#design-dialog)中定义图像宽度以及其他设置。内容编辑者可以在[“配置”对话框](#configure-dialog)中上传或选择资源。
 
@@ -53,11 +53,11 @@ ht-degree: 85%
 
 使用核心组件构建的 Web 体验现在具备丰富、支持 Sensei、可靠、高性能、跨平台的 Dynamic Media 图像功能。
 
-## 下一代Dynamic Media支持 {#next-gen-dm}
+## 支持新一代 Dynamic Media {#next-gen-dm}
 
-图像组件(截至 [发行版本2.23.2](/help/versions.md))支持新一代Dynamic Media远程资源。
+图像组件（从[版本 2.23.2](/help/versions.md) 起）支持新一代 Dynamic Media 远程资源。
 
-[配置完毕后，](/help/developing/next-gen-dm.md) 您可以从远程的新一代Dynamic Media服务中为图像组件选择资源。
+[配置后，](/help/developing/next-gen-dm.md)即可从远程新一代 Dynamic Media 服务为您的图像组件选择资源。
 
 ## SVG 支持 {#svg-support}
 
@@ -87,11 +87,11 @@ ht-degree: 85%
 
 利用“编辑”对话框，内容作者可以裁切和缩放图像。
 
-取决于您是否拥有 [Dynamic Media](#dynamic-media) 已启用或 [新一代Dynamic Media](#next-gen-dm) 功能启用后，可用于编辑图像的选项将有所不同。
+根据是否启用了 [Dynamic Media](#dynamic-media) 或[新一代 Dynamic Media](#next-gen-dm) 功能，对于编辑图像可用的选项将有所不同。
 
-### 标准资产编辑 {#standard-assets}
+### 编辑标准资源 {#standard-assets}
 
-如果您正在编辑标准AEM资源，则可以单击 **编辑** 图标（在图像组件的上下文菜单中）。
+如果编辑标准 AEM 资源，可在图像组件的上下文菜单中单击&#x200B;**编辑**&#x200B;图标。
 
 ![图像组件的“编辑”对话框](/help/assets/image-edit.png)
 
@@ -133,25 +133,25 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->GIF图像不支持图像编辑操作。 在编辑模式下对 GIF 所做的任何此类更改都不会保留。
+>GIF 图像不支持编辑图像的操作。将不保留在编辑模式下对 GIF 作出的任何此类更改。
 
-### Dynamic Media资源编辑 {#dynamic-media-assets}
+### 编辑 Dynamic Media 资源 {#dynamic-media-assets}
 
-如果您拥有 [已启用Dynamic Media功能，](#dynamic-media) 必须在资源控制台中编辑图像本身。
+如果启用了 [Dynamic Media 功能](#dynamic-media)，则必须在资源控制台中执行对图像本身的编辑。
 
-### 新一代Dynamic Media资源编辑 {#next-gen-dm-assets}
+### 编辑新一代 Dynamic Media 资源 {#next-gen-dm-assets}
 
-如果您拥有 [新一代Dynamic Media已配置，](#next-gen-dm) 该 **智能裁剪** 选项在组件的上下文菜单中可用。
+如果配置了[新一代 Dynamic Media](#next-gen-dm)，则在组件的上下文菜单中有&#x200B;**智能裁切**&#x200B;选项可用。
 
-![智能裁剪](/help/assets/image-smart-crop.png)
+![智能裁切](/help/assets/image-smart-crop.png)
 
-使用此对话框可调整智能裁切。
+使用对话框调整智能裁切。
 
-![“智能裁剪”对话框](/help/assets/image-smart-crop-dialog.png)
+![“智能裁切”对话框](/help/assets/image-smart-crop-dialog.png)
 
 >[!TIP]
 >
->有关智能裁切的详细信息，请参阅 [此视频介绍了该功能。](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
+>有关智能裁切的详细信息，请观看[这段关于该功能的视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)。
 
 ## “配置”对话框 {#configure-dialog}
 
@@ -163,15 +163,15 @@ ht-degree: 85%
 
 * **从页面继承精选图像** – 此选项使用[链接页面的精选图像](page.md)或当前页面的精选图像（如果未链接图像）。
 
-* **图像资源**  — 在以下情况下自动填充此值： **从页面继承精选图像** 已选中。 取消选择可通过设置以下选项来手动定义图像。
+* **图像资源** - 如果选中了&#x200B;**从页面继承特色图像**，则自动填充此项。取消选中可通过设置以下选项而手动定义图像。
 
    * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
    * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击 **选取** 以打开 [资产浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 以选择图像。
-      * 如果 [新一代Dynamic Media功能](#next-gen-dm) 启用后，您有多个选项可用于选择资产：
-         * **本地** 从本地AEM资产库中进行选择。
-         * **远程** 从AEM实例外的Dynamic Media库中进行选择。
-   * 点按或单击&#x200B;**编辑**&#x200B;以在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
+   * 点击或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)以选择图像。
+      * 如果启用了[新一代 Dynamic Media 功能](#next-gen-dm)，则有多种方式可选取资源：
+         * **本地**&#x200B;从本地 AEM 资源库选择。
+         * **远程**&#x200B;从您的 AEM 实例之外的 Dynamic Media 库选择。
+   * 点击或单击&#x200B;**编辑**&#x200B;以在资源编辑器中[管理资源的演绎版](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 * **用于辅助功能的替换文本** - 此字段允许您为视障用户定义图像的描述。
 
@@ -185,7 +185,7 @@ ht-degree: 85%
 
 * **预设类型** – 这定义了可用图像预设的类型，可以是&#x200B;**图像预设**&#x200B;或&#x200B;**智能裁切**，并且仅在启用了 [Dynamic Media 功能](#dynamic-meida)的情况下可用。
    * **图像预设** – 选中了&#x200B;**预设类型**&#x200B;的&#x200B;**图像预设**&#x200B;时，下拉菜单&#x200B;**图像预设**&#x200B;可用，并允许从可用的 Dynamic Media 预设中选择。此项只有在为所选资源定义了预设时才可用。
-   * **智能裁剪**  — 时间 **预设类型** 之 **智能裁剪** 已选中，下拉菜单 **节目** 可用，并允许从所选资源的可用演绎版中进行选择。 此项只有在为所选资源定义了再现时才可用。
+   * **智能裁切** - 选中&#x200B;**智能裁切**&#x200B;的&#x200B;**预设类型**&#x200B;时，有&#x200B;**演绎版**&#x200B;下拉菜单可用，使得可从所选资源的可用演绎版中选择。只有为所选资源定义了演绎版，才有此项可用。
    * **图像修饰符** – 在这里可以定义其他 Dynamic Media 图像服务命令，不论选择了什么&#x200B;**预设类型**，都使用 `&` 分隔。
 * **题注** – 有关图像的附加信息，默认显示在图像的下方。
    * **从 DAM 获取题注** – 选中时，将使用 DAM 中 `dc:title` 元数据的值填充图像的题注文本。
@@ -201,7 +201,7 @@ ht-degree: 85%
 
 >[!TIP]
 >
->**智能裁切**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。如果作者需要使用图像预设以及智能裁切再现，该作者必须使用&#x200B;**图像修饰符**&#x200B;来手动添加预设。
+>**智能裁切**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。如果作者需要使用图像预设配合智能裁切演绎版，则作者必须使用&#x200B;**图像修饰符**&#x200B;手动添加预设。
 
 ### “样式”选项卡 {#styles-tab-edit}
 
