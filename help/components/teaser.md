@@ -4,9 +4,9 @@ description: Teaser 组件可以显示图像、标题、富文本并可以选择
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1081'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ Teaser 组件的当前版本是 v2，此版本随 2022 年 2 月的核心组件�
 | v2 | - | 兼容 | 兼容 |
 | [v1](v1/teaser.md) | 兼容 | 兼容 | 兼容 |
 
-## 下一代Dynamic Media支持 {#next-gen-dm}
+## 支持新一代 Dynamic Media {#next-gen-dm}
 
-Teaser组件(截至 [发行版本2.23.2](/help/versions.md))支持新一代Dynamic Media远程资源。
+Teaser 组件（从[版本 2.23.2](/help/versions.md) 起）支持新一代 Dynamic Media 远程资源。
 
-[配置完毕后，](/help/developing/next-gen-dm.md) 您可以从远程的新一代Dynamic Media服务中为Teaser组件选择资源。
+[配置后，](/help/developing/next-gen-dm.md)即可从远程新一代 Dynamic Media 服务为您的 Teaser 组件选择资源。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -83,11 +83,11 @@ Teaser组件(截至 [发行版本2.23.2](/help/versions.md))支持新一代Dynam
 * **从页面继承精选图像** - 使用链接页面的页面属性中定义的图像，如果没有找到，则使用当前页面。
 * **图像资源** - 在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)中放置资源或点击&#x200B;**浏览**&#x200B;选项以从本地文件系统上传。
    * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击 **选取** 以打开 [资产浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) 以选择图像。
-      * 如果 [新一代Dynamic Media功能](#next-gen-dm) 启用后，您有多个选项可用于选择资产：
-         * **本地** 从本地AEM资产库中进行选择。
-         * **远程** 从AEM实例外的Dynamic Media库中进行选择。
-   * 点按或单击&#x200B;**编辑**&#x200B;以在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
+   * 点击或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)以选择图像。
+      * 如果启用了[新一代 Dynamic Media 功能](#next-gen-dm)，则有多种方式可选取资源：
+         * **本地**&#x200B;从本地 AEM 资源库选择。
+         * **远程**&#x200B;从您的 AEM 实例之外的 Dynamic Media 库选择。
+   * 点击或单击&#x200B;**编辑**&#x200B;以在资源编辑器中[管理资源的演绎版](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 * **用于辅助功能的替换文本** - 此字段允许您为视障用户定义图像的描述。
    * **从页面继承替换文本** - 此选项使用 DAM 中 `dc:description` 元数据的链接资源值的替代描述或当前页面的替代描述（如果未链接资源）。
 * **不提供替换文本** - 此选项将图像标记为被屏幕阅读器等辅助技术忽略，以用于图像纯粹起装饰作用或不向页面传达额外信息的情况。
