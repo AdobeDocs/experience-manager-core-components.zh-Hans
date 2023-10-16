@@ -2,13 +2,13 @@
 title: 支持新一代 Dynamic Media
 description: 了解如何配置核心组件图像和 Teaser 组件以支持远程新一代 Dynamic Media 资源。
 role: Architect, Developer, Admin, User
-source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
-workflow-type: tm+mt
+exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
+source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+workflow-type: ht
 source-wordcount: '470'
 ht-degree: 100%
 
 ---
-
 
 # 支持新一代 Dynamic Media {#next-gen-dm-support}
 
