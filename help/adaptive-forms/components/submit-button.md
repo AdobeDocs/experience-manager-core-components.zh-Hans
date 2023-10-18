@@ -3,8 +3,8 @@ title: 自适应表单核心组件 -“提交”按钮
 description: 使用或自定义自适应表单“提交”按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: ht
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 100%
 
@@ -101,26 +101,30 @@ To experience the Accordion Component as well as see examples of its configurati
 * [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 
+>[!MORELIKETHIS]
+>
+>* [折叠](/help/adaptive-forms/components/accordion.md)
+>* [按钮](/help/adaptive-forms/components/button.md)
+>* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
+>* [日期选取器](/help/adaptive-forms/components/date-picker.md)
+>* [下拉列表](/help/adaptive-forms/components/drop-down.md)
+>* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
+>* [表单容器](/help/adaptive-forms/components/form-container.md)
+>* [文件附件](/help/adaptive-forms/components/file-attachment.md)
+>* [页脚](/help/adaptive-forms/components/footer.md)
+>* [页眉](/help/adaptive-forms/components/header.md)
+>* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [图像](/help/adaptive-forms/components/image.md)
+>* [数值输入](/help/adaptive-forms/components/number-input.md)
+>* [面板容器](/help/adaptive-forms/components/panel-container.md)
+>* [单选按钮](/help/adaptive-forms/components/radio-button.md)
+>* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
+>* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
+>* [文本输入](/help/adaptive-forms/components/text-input.md)
+>* [文本](/help/adaptive-forms/components/text.md)
+>* [标题](/help/adaptive-forms/components/title.md)
+>* [向导](/help/adaptive-forms/components/wizard.md)
+
 ## 另请参阅 {#see-also}
 
-* [折叠](/help/adaptive-forms/components/accordion.md)
-* [按钮](/help/adaptive-forms/components/button.md)
-* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
-* [日期选取器](/help/adaptive-forms/components/date-picker.md)
-* [下拉列表](/help/adaptive-forms/components/drop-down.md)
-* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
-* [表单容器](/help/adaptive-forms/components/form-container.md)
-* [文件附件](/help/adaptive-forms/components/file-attachment.md)
-* [页脚](/help/adaptive-forms/components/footer.md)
-* [页眉](/help/adaptive-forms/components/header.md)
-* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
-* [图像](/help/adaptive-forms/components/image.md)
-* [数值输入](/help/adaptive-forms/components/number-input.md)
-* [面板容器](/help/adaptive-forms/components/panel-container.md)
-* [单选按钮](/help/adaptive-forms/components/radio-button.md)
-* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
-* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
-* [文本输入](/help/adaptive-forms/components/text-input.md)
-* [文本](/help/adaptive-forms/components/text.md)
-* [标题](/help/adaptive-forms/components/title.md)
-* [向导](/help/adaptive-forms/components/wizard.md)
+{{see-also}}
