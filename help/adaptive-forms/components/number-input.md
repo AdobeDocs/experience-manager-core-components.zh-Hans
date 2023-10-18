@@ -3,9 +3,9 @@ title: 自适应表单核心组件 - 数值输入
 description: 使用或自定义自适应表单数值输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1834'
 ht-degree: 100%
 
 ---
@@ -142,11 +142,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 通过“格式”选项卡，可指定默认和自定义数字格式。![“设计”选项卡](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
-## 相关文章 {#related-article}
+<!--
 
-* [在 AEM Sites 页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -172,6 +174,7 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [文本](/help/adaptive-forms/components/text.md)
 >* [标题](/help/adaptive-forms/components/title.md)
 >* [向导](/help/adaptive-forms/components/wizard.md)
+
 
 ## 另请参阅 {#see-also}
 

@@ -3,9 +3,9 @@ title: 自适应表单核心组件 - 页脚
 description: 使用或自定义自适应表单页脚核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -105,11 +105,13 @@ To experience the Accordion Component as well as see examples of its configurati
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
-## 相关文章 {#related-article}
+<!--
 
-* [在 AEM Sites 页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -135,6 +137,7 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [文本](/help/adaptive-forms/components/text.md)
 >* [标题](/help/adaptive-forms/components/title.md)
 >* [向导](/help/adaptive-forms/components/wizard.md)
+
 
 ## 另请参阅 {#see-also}
 

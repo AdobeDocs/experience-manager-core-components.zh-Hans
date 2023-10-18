@@ -3,9 +3,9 @@ title: 自适应表单核心组件 - 电话号码输入
 description: 使用或自定义自适应表单电话号码输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1791'
 ht-degree: 100%
 
 ---
@@ -128,12 +128,38 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“格式”选项卡](/help/adaptive-forms/assets/telephoneinput_format.png)
 
-## 相关文章 {#related-article}
+<!--
 
-* [在 AEM Sites 页面或体验片段中创建自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
-* [创建独立的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
+-->
+
+
+>[!MORELIKETHIS]
+>
+>* [折叠](/help/adaptive-forms/components/accordion.md)
+>* [按钮](/help/adaptive-forms/components/button.md)
+>* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
+>* [日期选取器](/help/adaptive-forms/components/date-picker.md)
+>* [下拉列表](/help/adaptive-forms/components/drop-down.md)
+>* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
+>* [表单容器](/help/adaptive-forms/components/form-container.md)
+>* [文件附件](/help/adaptive-forms/components/file-attachment.md)
+>* [页脚](/help/adaptive-forms/components/footer.md)
+>* [页眉](/help/adaptive-forms/components/header.md)
+>* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [图像](/help/adaptive-forms/components/image.md)
+>* [数值输入](/help/adaptive-forms/components/number-input.md)
+>* [面板容器](/help/adaptive-forms/components/panel-container.md)
+>* [单选按钮](/help/adaptive-forms/components/radio-button.md)
+>* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
+>* [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
+>* [文本输入](/help/adaptive-forms/components/text-input.md)
+>* [文本](/help/adaptive-forms/components/text.md)
+>* [标题](/help/adaptive-forms/components/title.md)
+>* [向导](/help/adaptive-forms/components/wizard.md)
 
 >[!MORELIKETHIS]
 >
