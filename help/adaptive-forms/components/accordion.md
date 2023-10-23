@@ -1,36 +1,36 @@
 ---
-title: 自适应表单折叠面板
-description: 使用折叠面板组件通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。
+title: 自适应表单可折叠项面板
+description: 使用可折叠项面板组件通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2052'
 ht-degree: 100%
 
 ---
 
-# 折叠面板组件 {#accordion-component-adaptive-forms-core-component}
+# 可折叠项面板组件 {#accordion-component-adaptive-forms-core-component}
 
-利用折叠面板核心组件，用户可在自适应表单中创建可展开和可折叠的部分。它一般用于通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。一般通过标题表示折叠面板的每个部分，用户单击标题即可展开或折叠相应的内容。该内容可为任意核心组件。
+利用可折叠项面板核心组件，用户可在自适应表单中创建可展开和可可折叠项的部分。它一般用于通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。一般通过标题表示可折叠项面板的每个部分，用户单击标题即可展开或可折叠项相应的内容。该内容可为任意核心组件。
 
 ## 用途 {#usage}
 
-有若干原因使得在自适应表单中加入折叠面板组件有益，这些原因包括：
+有若干原因使得在自适应表单中加入可折叠项面板组件有益，这些原因包括：
 
-* **节省空间**：通过折叠面板组件，用户可展开和折叠表单的各部分，从而减少同时显示所有表单字段所需的空间量。
+* **节省空间**：通过可折叠项面板组件，用户可展开和可折叠项表单的各部分，从而减少同时显示所有表单字段所需的空间量。
 
-* **导航**：可使用折叠面板组件创建一个分层的导航结构，使得用户更容易找到所需的表单字段。
+* **导航**：可使用可折叠项面板组件创建一个分层的导航结构，使得用户更容易找到所需的表单字段。
 
-* **用户体验**：可使用折叠面板组件为用户提供一种清晰而直观的方式以访问和填写表单字段，使得表单更方便用户使用。
+* **用户体验**：可使用可折叠项面板组件为用户提供一种清晰而直观的方式以访问和填写表单字段，使得表单更方便用户使用。
 
-* **长表单**：折叠面板是一个处理长表单的理想组件，因为它使用户可集中精力一次处理一个部分，而非尝试同时处理大量信息。
+* **长表单**：可折叠项面板是一个处理长表单的理想组件，因为它使用户可集中精力一次处理一个部分，而非尝试同时处理大量信息。
 
 您可以使用：
 
-* [“配置”对话框](#configure-dialog)指定折叠面板组件的属性。
+* [“配置”对话框](#configure-dialog)指定可折叠项面板组件的属性。
 
-* [“选择面板”弹出框](#select-panel-popover)定义折叠面板组件中各个面板的顺序。这样，作者即可将面板排列为其应出现的顺序。
+* [“选择面板”弹出框](#select-panel-popover)定义可折叠项面板组件中各个面板的顺序。这样，作者即可将面板排列为其应出现的顺序。
 
 * [“设计”对话框](#design-dialog)中的选项以使表单作者启用或禁用某些功能。例如，作者可以选择禁用表单的某些字段或部分。通过这些选项，作者可更精确地控制表单的设计和功能，从而更轻松地创建为组织的特定需求量身定制的表单。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 ## 版本和兼容性 {#version-and-compatibility}
 
 
-2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单折叠面板核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
+2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单可折叠项面板核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
 
 |  |  |
 |---|---|
@@ -55,11 +55,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技术详细信息 {#technical-details}
 
-可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/accordion/v1/accordion) 上的技术文档中获得关于折叠面板组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/accordion/v1/accordion) 上的技术文档中获得关于可折叠项面板组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，可轻松地自定义您为访客提供的折叠面板体验。还可轻松地定义折叠面板项、面板、行为和外观，从而营造一种无缝的用户体验。
+通过“配置”对话框，可轻松地自定义您为访客提供的可折叠项面板体验。还可轻松地定义可折叠项面板项、面板、行为和外观，从而营造一种无缝的用户体验。
 
 ### “基本”选项卡 {#basic-tab}
 
@@ -102,17 +102,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
-### 重复折叠 {#repeat-accordion}
+### 重复可折叠项 {#repeat-accordion}
 
-![重复折叠](/help/adaptive-forms/assets/repeat-accordion.png)
+![重复可折叠项](/help/adaptive-forms/assets/repeat-accordion.png)
 
-您可以使用重复选项来复制折叠面板及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。当与折叠组件交互并访问其设置时，会出现以下选项：
+您可以使用重复选项来复制可折叠项面板及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。当与可折叠项组件交互并访问其设置时，会出现以下选项：
 
-* **使折叠可重复**：切换功能，允许用户启用或禁用重复功能。
-* **最少重复次数**：确定折叠面板可以重复的最小次数。值为零表示折叠面板不重复；默认值为零。
-* **最多重复次数**：设置折叠面板可以重复的最多次数。默认情况下，此值无限制。
+* **使可折叠项可重复**：切换功能，允许用户启用或禁用重复功能。
+* **最少重复次数**：确定可折叠项面板可以重复的最小次数。值为零表示可折叠项面板不重复；默认值为零。
+* **最多重复次数**：设置可折叠项面板可以重复的最多次数。默认情况下，此值无限制。
 
-要有效管理折叠中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
+要有效管理可折叠项中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “项”选项卡 {#items-tab}
 
@@ -122,7 +122,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 * **图标** - 图标在列表中标识面板的组件。将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
 * **描述** - 用作面板文本的描述。默认情况下，为面板选择该组件的名称。
-* **删除** - 点按或单击可从折叠组件中删除面板。
+* **删除** - 点按或单击可从可折叠项组件中删除面板。
 * **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
 
 ### “帮助内容”选项卡 {#help-content}
@@ -179,11 +179,11 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 ## “设计”对话框 {#design-dialog}
 
-通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应表单折叠面板组件，可设置以下各项：
+通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应表单可折叠项面板组件，可设置以下各项：
 
 * 允许使用并设置为默认值的 HTML 标题元素的类型（如 H1、H2、H3 等）
-* 表单创建者可添加到自适应表单编辑器中的折叠面板的核心组件
-* 可在自适应表单编辑器的折叠面板组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
+* 表单创建者可添加到自适应表单编辑器中的可折叠项面板的核心组件
+* 可在自适应表单编辑器的可折叠项面板组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
 
 这有助于使创建和自定义表单的过程更加简便和高效。
 
@@ -193,19 +193,19 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 ![“设计”对话框“属性”选项卡](/help/assets/accordion-design-properties.png)
 
-* **允许使用的标题元素**：一个下拉列表，其中含有多个选项，通过它，模板作者可选择表单作者可将哪些标题元素用于折叠面板组件。
+* **允许使用的标题元素**：一个下拉列表，其中含有多个选项，通过它，模板作者可选择表单作者可将哪些标题元素用于可折叠项面板组件。
 
-* **默认标题元素** - 一个下拉列表，它设置折叠面板组件的默认标题元素。
+* **默认标题元素** - 一个下拉列表，它设置可折叠项面板组件的默认标题元素。
 
 ### “允许使用的组件”选项卡 {#allowed-components-tab}
 
-通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器的折叠面板组件中的面板的组件。
+通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器的可折叠项面板组件中的面板的组件。
 
 ### “样式”选项卡 {#styles-tab}
 
-“设计”对话框用于定义和管理组件的 CSS 样式。自适应表单折叠面板核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+“设计”对话框用于定义和管理组件的 CSS 样式。自适应表单可折叠项面板核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-**默认 CSS 类**：可为折叠面板组件提供默认 CSS 类。
+**默认 CSS 类**：可为可折叠项面板组件提供默认 CSS 类。
 
 **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
@@ -258,7 +258,7 @@ The Accordion Component supports the [Adobe Client Data Layer.](/help/developing
 >* [页眉](/help/adaptive-forms/components/header.md)
 >* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
 >* [图像](/help/adaptive-forms/components/image.md)
->* [数值输入](/help/adaptive-forms/components/number-input.md)
+>* [数字输入](/help/adaptive-forms/components/number-input.md)
 >* [面板容器](/help/adaptive-forms/components/panel-container.md)
 >* [单选按钮](/help/adaptive-forms/components/radio-button.md)
 >* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
