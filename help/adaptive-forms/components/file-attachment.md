@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单文件附件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单折叠面板核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单可折叠项面板核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
@@ -140,7 +140,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 >[!MORELIKETHIS]
 >
->* [折叠](/help/adaptive-forms/components/accordion.md)
+>* [可折叠项](/help/adaptive-forms/components/accordion.md)
 >* [按钮](/help/adaptive-forms/components/button.md)
 >* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 >* [日期选取器](/help/adaptive-forms/components/date-picker.md)
@@ -151,7 +151,7 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [页眉](/help/adaptive-forms/components/header.md)
 >* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
 >* [图像](/help/adaptive-forms/components/image.md)
->* [数值输入](/help/adaptive-forms/components/number-input.md)
+>* [数字输入](/help/adaptive-forms/components/number-input.md)
 >* [面板容器](/help/adaptive-forms/components/panel-container.md)
 >* [单选按钮](/help/adaptive-forms/components/radio-button.md)
 >* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
