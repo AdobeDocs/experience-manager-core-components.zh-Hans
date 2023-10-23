@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单复选框组核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 100%
 

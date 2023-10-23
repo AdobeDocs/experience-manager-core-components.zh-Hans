@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 100%
 

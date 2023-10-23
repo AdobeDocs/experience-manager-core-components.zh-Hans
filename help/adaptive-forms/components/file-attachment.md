@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单文件附件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 100%
 
