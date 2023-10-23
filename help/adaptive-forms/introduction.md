@@ -4,7 +4,7 @@ description: 借助自适应表单核心组件的灵活性创建引人入胜的�
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 当前版本的自适应表单核心组件具有以下所列组件。
 
-* [折叠](/help/adaptive-forms/components/accordion.md)
+* [可折叠项](/help/adaptive-forms/components/accordion.md)
 * [按钮](/help/adaptive-forms/components/button.md)
 * [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 * [日期选取器](/help/adaptive-forms/components/date-picker.md)
@@ -83,7 +83,7 @@ ht-degree: 100%
 * [页眉](/help/adaptive-forms/components/header.md)
 * [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
 * [图像](/help/adaptive-forms/components/image.md)
-* [数值输入](/help/adaptive-forms/components/number-input.md)
+* [数字输入](/help/adaptive-forms/components/number-input.md)
 * [面板容器](/help/adaptive-forms/components/panel-container.md)
 * [单选按钮](/help/adaptive-forms/components/radio-button.md)
 * [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
