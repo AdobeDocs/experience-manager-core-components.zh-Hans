@@ -158,7 +158,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 相关文章 {#related-articles}
 
-- [折叠](/help/adaptive-forms/components/accordion.md)
+- [可折叠项](/help/adaptive-forms/components/accordion.md)
 - [按钮](/help/adaptive-forms/components/button.md)
 - [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 - [日期选取器](/help/adaptive-forms/components/date-picker.md)
@@ -169,7 +169,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - [页脚](/help/adaptive-forms/components/footer.md)
 - [页眉](/help/adaptive-forms/components/header.md)
 - [图像](/help/adaptive-forms/components/image.md)
-- [数值输入](/help/adaptive-forms/components/number-input.md)
+- [数字输入](/help/adaptive-forms/components/number-input.md)
 - [面板容器](/help/adaptive-forms/components/panel-container.md)
 - [单选按钮](/help/adaptive-forms/components/radio-button.md)
 - [“重置”按钮](/help/adaptive-forms/components/reset-button.md)

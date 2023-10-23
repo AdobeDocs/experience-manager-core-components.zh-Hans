@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单页脚核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 100%
 

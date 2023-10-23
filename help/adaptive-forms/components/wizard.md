@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单向导核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 100%
 

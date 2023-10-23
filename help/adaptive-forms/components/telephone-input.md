@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单电话号码输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 100%
 

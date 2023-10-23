@@ -14,7 +14,7 @@ ht-degree: 90%
 
 在自适应表单中，面板是一个容器元素，可用于将相关表单元素组合在一起。它可让您以一种符合逻辑且有意义的方式对不同的表单元素进行分组和整理。这有助于改善表单的整体结构和可读性，使用户能够更轻松地理解和导航。
 
-面板也可用于创建可折叠部分，这对于隐藏复杂或不常用的表单字段来说很有用，可以使表单简单易用。它还可让您包含其他组件，如文本、复选框、按钮等。
+面板也可用于创建可可折叠项部分，这对于隐藏复杂或不常用的表单字段来说很有用，可以使表单简单易用。它还可让您包含其他组件，如文本、复选框、按钮等。
 
 它还可用于设置各种基于规则的操作，如提交表单、打开网站、显示/隐藏组件或添加面板实例。
 
@@ -30,7 +30,7 @@ ht-degree: 90%
 
 - **改善表单结构**：通过将表单元素分组到面板中，可以改善表单的整体结构和可读性，使其更易于理解。
 
-- **创建可折叠部分**：面板可用于创建可折叠部分，这对于隐藏复杂或不常用的表单字段来说很有用，可以使表单简单易用。
+- **创建可可折叠项部分**：面板可用于创建可可折叠项部分，这对于隐藏复杂或不常用的表单字段来说很有用，可以使表单简单易用。
 
 - **增强可用性**：通过使用面板整理表单元素，可使得表单变得更方便用户使用，从而提高完成率。
 
@@ -131,7 +131,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 相关文章 {#related-articles}
 
-- [折叠](/help/adaptive-forms/components/accordion.md)
+- [可折叠项](/help/adaptive-forms/components/accordion.md)
 - [按钮](/help/adaptive-forms/components/button.md)
 - [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 - [日期选取器](/help/adaptive-forms/components/date-picker.md)
@@ -143,7 +143,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - [页眉](/help/adaptive-forms/components/header.md)
 - [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
 - [图像](/help/adaptive-forms/components/image.md)
-- [数值输入](/help/adaptive-forms/components/number-input.md)
+- [数字输入](/help/adaptive-forms/components/number-input.md)
 - [单选按钮](/help/adaptive-forms/components/radio-button.md)
 - [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
 - [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
