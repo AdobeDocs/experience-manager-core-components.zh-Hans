@@ -1,24 +1,24 @@
 ---
 title: 自适应表单核心组件 - 数值输入
-description: 使用或自定义自适应表单数值输入核心组件。
+description: 使用或自定义自适应表单数字输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1834'
 ht-degree: 100%
 
 ---
 
-# 数值输入 {#number-input-adaptive-forms-core-component}
+# 数字输入 {#number-input-adaptive-forms-core-component}
 
-自适应表单中的数值输入组件是一类允许用户输入数值的表单字段。该组件通常由一个文本字段表示，此字段带有分别用于递增和递减数字的向上和向下箭头。
+自适应表单中的数字输入组件是一类允许用户输入数值的表单字段。该组件通常由一个文本字段表示，此字段带有分别用于递增和递减数字的向上和向下箭头。
 
 它还可以与 min、max、step、value 等属性结合使用。这些属性可用于设置字段中允许的最小值和最大值、用于递增或递减数字的步进间隔以及字段的默认值。
 
 该组件可用于收集年龄、数量等数值数据，它也可用于执行加法和减法等数学运算。该组件还可用于验证用户输入的数值数据。
 
-对于辅助功能，请务必指定描述数值输入字段用途的“标签”，以及预期的输入类型。
+对于辅助功能，请务必指定描述数字输入字段用途的“标签”，以及预期的输入类型。
 
 **示例**
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## 用途 {#reasons-to-use-number-input-numeric-stepper}
 
-有若干原因使得在自适应表单中加入数值输入组件有益，这些原因包括：
+有若干原因使得在自适应表单中加入数字输入组件有益，这些原因包括：
 
 * **数学运算**：数值字段可用于执行数学运算，例如加法、减法、乘法和除法。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单折叠面板核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单可折叠项面板核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
@@ -52,11 +52,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技术详细信息 {#technical-details}
 
-可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput) 上的技术文档中获得关于自适应表单数值输入核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput) 上的技术文档中获得关于自适应表单数字输入核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，可轻松地自定义您为访客提供的数值输入体验。还可轻松地定义数值输入选项，从而营造一种无缝的用户体验。
+通过“配置”对话框，可轻松地自定义您为访客提供的数字输入体验。还可轻松地定义数字输入选项，从而营造一种无缝的用户体验。
 
 ### “基本”选项卡 {#basic-tab}
 
@@ -126,15 +126,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于定义和管理数值输入组件的 CSS 样式。
+“设计”对话框用于定义和管理数字输入组件的 CSS 样式。
 
 ### “样式”选项卡 {#styles-tab}
 
-该选项卡用于定义和管理组件的 CSS 样式。自适应表单数值输入核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+该选项卡用于定义和管理组件的 CSS 样式。自适应表单数字输入核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
 ![“样式”选项卡](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-**默认 CSS 类**：可为自适应表单数值输入核心组件提供默认 CSS 类。
+**默认 CSS 类**：可为自适应表单数字输入核心组件提供默认 CSS 类。
 
 **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单中的自适应表单。要应用样式，请在自适应表单编辑器中，选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
@@ -153,7 +153,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 >[!MORELIKETHIS]
 >
->* [折叠](/help/adaptive-forms/components/accordion.md)
+>* [可折叠项](/help/adaptive-forms/components/accordion.md)
 >* [按钮](/help/adaptive-forms/components/button.md)
 >* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 >* [日期选取器](/help/adaptive-forms/components/date-picker.md)
