@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单向导核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1866'
 ht-degree: 100%
 
@@ -154,7 +154,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 >[!MORELIKETHIS]
 >
->* [折叠](/help/adaptive-forms/components/accordion.md)
+>* [可折叠项](/help/adaptive-forms/components/accordion.md)
 >* [按钮](/help/adaptive-forms/components/button.md)
 >* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 >* [日期选取器](/help/adaptive-forms/components/date-picker.md)
@@ -166,7 +166,7 @@ To experience the Accordion Component as well as see examples of its configurati
 >* [页眉](/help/adaptive-forms/components/header.md)
 >* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
 >* [图像](/help/adaptive-forms/components/image.md)
->* [数值输入](/help/adaptive-forms/components/number-input.md)
+>* [数字输入](/help/adaptive-forms/components/number-input.md)
 >* [面板容器](/help/adaptive-forms/components/panel-container.md)
 >* [单选按钮](/help/adaptive-forms/components/radio-button.md)
 >* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
