@@ -3,10 +3,10 @@ title: 自适应图像 Servlet
 description: 了解核心组件如何使用自适应图像 Servlet 来投放图像，以及如何优化其使用。
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 了解核心组件如何使用自适应图像 Servlet 来投放图像，以及如何优化其使用。
 
-## 自适应图像 Servelt 还是 Web 优化图像投放？ {#options}
+## 自适应图像 Servlet 或Web优化图像交付？ {#options}
 
-图像核心组件可以使用两种方法来传送图像。
+图像核心组件可以使用两种方法来交付图像。
 
 * 默认为自适应图像 Servlet。
 * [优化了 Web 的图像投放](/help/developing/web-optimized-image-delivery.md)可供 AEMaaCS 使用，并平均将下载大小减少 25%。
