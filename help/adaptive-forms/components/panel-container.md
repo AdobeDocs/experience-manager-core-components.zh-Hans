@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 面板容器
 description: 使用或自定义自适应表单面板容器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1828'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 **示例**
 
-![](/help/adaptive-forms/assets/panel-container.png)
+![示例](/help/adaptive-forms/assets/panel-container.png)
 
 ## 用途 {#reasons-to-use-panel-container}
 
@@ -91,8 +91,6 @@ To experience the Accordion Component as well as see examples of its configurati
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **布局** - 可为向导采用固定布局（“简单”）或灵活布局（“响应式网格”）。“简单”布局将所有内容固定在原位，而通过“响应式网格”，可调整组件的位置以满足您的需要。例如，使用响应式网格将表单中的“名字”、“中间名”和“姓氏”排成一行。
-
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 - **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
@@ -129,50 +127,76 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **用于读出内容的屏幕阅读器的 HTML 角色** - HTML 角色是一个属性，用于向屏幕阅读器等辅助技术指定 HTML 元素的用途。角色属性用于为元素提供额外的上下文和语义，使屏幕阅读器更容易向用户解释和读出内容。例如，在 AEM Forms 中，表单字段的标签可能具有“标签”的作用，其输入字段可能具有“文本框”的作用。这有助于屏幕阅读器理解标签和输入字段之间的关系，并正确地向用户读出内容。
 
+## “设计”对话框 {#design-dialog}
+
+“设计”对话框用于为表单容器组件定义和管理CSS样式。
+
+### “允许使用的组件”选项卡 {#allowed-components-tab}
+
+![“设计”对话框允许的组件选项卡](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+
+此 **允许的组件** 选项卡允许模板编辑器设置组件，这些组件可以在自适应Forms编辑器的组件中作为项目添加到面板。
+
+### “默认组件”选项卡 {#default-components-tab}
+
+![“设计”对话框的默认组件选项卡](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+此 **默认组件** 选项卡允许模板编辑器指定在自适应Forms编辑器中作为表单容器组件中的项目默认显示的组件。
+
+### “响应式设置”选项卡 {#responsive-tab}
+
+![“设计”对话框响应式设置选项卡](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+此 **响应设置** 选项卡允许模板编辑器在自适应Forms编辑器中指定表单容器组件内网格中的列数。
+
+### “容器设置”选项卡
+
+![“容器设置”选项卡](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **布局** - 可为向导采用固定布局（“简单”）或灵活布局（“响应式网格”）。“简单”布局将所有内容固定在原位，而通过“响应式网格”，可调整组件的位置以满足您的需要。例如，使用响应式网格将表单中的“名字”、“中间名”和“姓氏”排成一行。
+
+- **禁用布局**：选择此选项可禁用组件的“编辑”对话框中的布局选择。
+
+- **启用背景图像**：此选项允许用户将面板设置配置为包含视觉背景以增强视觉吸引力。
+
+- **启用背景颜色**：利用此选项可设置或更改面板的背景颜色。 此功能通常用于用户界面设计，以自定义较大界面中面板的外观。 当您选择 **启用背景颜色** 选项，则 **仅限色板** 选项。 此 **仅限色板** 选项允许您使用指定或选择面板中背景、文本或其他可视化元素的颜色 **添加** 按钮
+
+### “样式”选项卡 {#styles-tab}
+
+自适应表单文件附件核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+
+![“设计”对话框](/help/adaptive-forms/assets/panel-container-styles-tab.png)
+
+- **默认 CSS 类**：可为自适应表单复选框组核心组件提供默认 CSS 类。
+
+- **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+
+### “自定义属性”选项卡
+
+![自定义属性对话框](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+
+通过自定义属性，可使用表单模板将自定义属性（键值对）与自适应表单核心组件关联。 自定义属性反映在组件headless演绎版的属性部分中。 它允许创建根据自定义属性值调整的动态表单行为。 例如，开发人员可以为移动、桌面或Web平台设计Headless Forms组件的各种演绎版，从而显着提升各种设备上的用户体验。
+
+- **组名称**：您可以提供一个名称来标识自定义资产组。 您可以添加、删除或重新排列多个自定义属性组。 添加自定义属性组后，您可以看到以下选项：
+
+   - **键值对**：通过单击 **添加** 每个自定义属性组的按钮。
+
+   - **删除**：点击或单击以删除自定义属性名称和自定义属性值。
+
+   - **重新排列**：点击或单击并拖动以重新排列自定义属性名称和自定义属性值的顺序。
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 ## 相关文章 {#related-articles}
 
-- [可折叠项](/help/adaptive-forms/components/accordion.md)
-- [按钮](/help/adaptive-forms/components/button.md)
-- [复选框组](/help/adaptive-forms/components/checkbox-group.md)
-- [日期选取器](/help/adaptive-forms/components/date-picker.md)
-- [下拉列表](/help/adaptive-forms/components/drop-down.md)
-- [电子邮件输入](/help/adaptive-forms/components/email-input.md)
-- [表单容器](/help/adaptive-forms/components/form-container.md)
-- [文件附件](/help/adaptive-forms/components/file-attachment.md)
-- [页脚](/help/adaptive-forms/components/footer.md)
-- [页眉](/help/adaptive-forms/components/header.md)
-- [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
-- [图像](/help/adaptive-forms/components/image.md)
-- [数字输入](/help/adaptive-forms/components/number-input.md)
-- [单选按钮](/help/adaptive-forms/components/radio-button.md)
-- [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
-- [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
-- [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
-- [文本输入](/help/adaptive-forms/components/text-input.md)
-- [文本](/help/adaptive-forms/components/text.md)
-- [标题](/help/adaptive-forms/components/title.md)
-- [向导](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## 另请参阅 {#see-also}
 
-- [创建 AEM 自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-- [将 AEM 自适应表单添加到 AEM Sites 页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
-- [将主题应用于 AEM 自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)
-- [将组件添加到 AEM 自适应表单](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-- [以 AEM 自适应表单的形式使用 reCAPTCHA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html)
-- [生成 AEM 自适应表单的 PDF 版本 (DoR)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html)
-- [翻译 AEM 自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html)
-- [为自适应表单启用 Adobe Analytics 以跟踪表单使用情况](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html)
-- [将自适应表单连接到 Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#create-sharepoint-configuration)
-- [将自适应表单连接到 Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#microsoft-power-automate)
-- [将自适应表单连接到 Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-onedrive)
-- [将自适应表单连接到 Microsoft Azure Blob 存储](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-azure-blob-storage)
-- [将自适应表单连接到 Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html)
-- [在 AEM 自适应表单中使用 Adobe Sign](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html)
-- [为自适应表单添加新区域设置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html)
-- [将自适应表单数据发送到数据库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html)
-- [将自适应表单数据发送到 REST 端点](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint)
-- [将自适应表单数据发送到 AEM 工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
-- [使用 Forms 门户在 AEM 网站上列出 AEM 自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)
-
+{{see-also}}

@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 标题
 description: 使用或自定义自适应表单标题核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 100%
 
 **示例**
 
-![](/help/adaptive-forms/assets/title.png)
+![示例](/help/adaptive-forms/assets/title.png)
 
 ## 用途 {#reasons-to-use-title-in-an-adaptive-form}
 
 有若干原因使得在表单中使用标题是一个好的做法：
 
-* **清晰度**：标题清楚地标识了表单的用途，可帮助用户了解他们需要提供哪些信息。
+- **清晰度**：标题清楚地标识了表单的用途，可帮助用户了解他们需要提供哪些信息。
 
-* **编排**：标题可以帮助按主题或用途编排表单，使用户能够更轻松地找到他们需要的表单。
+- **编排**：标题可以帮助按主题或用途编排表单，使用户能够更轻松地找到他们需要的表单。
 
-* **辅助功能**：标题是具有辅助功能需求的用户的关键元素，因为屏幕阅读器会大声读出标题，帮助用户理解表单的上下文。
+- **辅助功能**：标题是具有辅助功能需求的用户的关键元素，因为屏幕阅读器会大声读出标题，帮助用户理解表单的上下文。
 
-* **品牌化**：标题也可用于显示公司或组织的名称，这有助于为用户建立信任感和熟悉感。
+- **品牌化**：标题也可用于显示公司或组织的名称，这有助于为用户建立信任感和熟悉感。
 
-* **导航**：标题对于在表单中导航也很有用，尤其是在表单较长或较复杂时。
+- **导航**：标题对于在表单中导航也很有用，尤其是在表单较长或较复杂时。
 
-* **搜索引擎优化 (SEO)**：为表单创建标题在 SEO 中也很有用，因为搜索引擎可使用标题来确定网页与搜索查询的相关性。
+- **搜索引擎优化 (SEO)**：为表单创建标题在 SEO 中也很有用，因为搜索引擎可使用标题来确定网页与搜索查询的相关性。
 
 总的来说，表单标题是用户体验的一个重要方面，它应用来为表单提供清晰简洁的标签，从而帮助用户了解表单的上下文和用途。
 
@@ -63,12 +63,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 内容作者可以使用“编辑”对话框定义标题文本以及选择标题级别。
 
-* **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
-* **类型/大小** - 定义标题的标题级别。
-* **ID** - 通过此选项，可控制组件在 HTML 和数据层中的唯一标识符。
-   * 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
-   * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
+- **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
+- **类型/大小** - 定义标题的标题级别。
+- **ID** - 通过此选项，可控制组件在 HTML 和数据层中的唯一标识符。
+   - 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
+   - 如果指定一个 ID，作者有责任确保它是唯一的。
+   - 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 
@@ -80,9 +80,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“设计”对话框“标题”选项卡](/help/adaptive-forms/assets/title_heading.png)
 
-* **允许的标题元素**：包含多个选项的列表，供模板作者选择允许表单作者在标题中使用哪些标题元素。
+- **允许的标题元素**：包含多个选项的列表，供模板作者选择允许表单作者在标题中使用哪些标题元素。
 
-* **默认标题元素** - 下拉列表，设置标题组件的默认标题元素。
+- **默认标题元素** - 下拉列表，设置标题组件的默认标题元素。
 
 ### “样式”选项卡 {#styles-tab}
 
@@ -90,9 +90,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“设计”对话框“标题”选项卡](/help/adaptive-forms/assets/title_styles.png)
 
-* **默认 CSS 类**：可为自适应表单日期选取器核心组件提供默认 CSS 类。
+- **默认 CSS 类**：可为自适应表单日期选取器核心组件提供默认 CSS 类。
 
-* **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+- **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
 ### “格式”选项卡 {#format-tab}
 
@@ -108,30 +108,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 -->
 
+## 相关文章 {#related-articles}
 
->[!MORELIKETHIS]
->
->* [可折叠项](/help/adaptive-forms/components/accordion.md)
->* [按钮](/help/adaptive-forms/components/button.md)
->* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
->* [日期选取器](/help/adaptive-forms/components/date-picker.md)
->* [下拉列表](/help/adaptive-forms/components/drop-down.md)
->* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
->* [表单容器](/help/adaptive-forms/components/form-container.md)
->* [文件附件](/help/adaptive-forms/components/file-attachment.md)
->* [页脚](/help/adaptive-forms/components/footer.md)
->* [页眉](/help/adaptive-forms/components/header.md)
->* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
->* [图像](/help/adaptive-forms/components/image.md)
->* [数字输入](/help/adaptive-forms/components/number-input.md)
->* [面板容器](/help/adaptive-forms/components/panel-container.md)
->* [单选按钮](/help/adaptive-forms/components/radio-button.md)
->* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
->* [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
->* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
->* [文本输入](/help/adaptive-forms/components/text-input.md)
->* [文本](/help/adaptive-forms/components/text.md)
->* [向导](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## 另请参阅 {#see-also}
 

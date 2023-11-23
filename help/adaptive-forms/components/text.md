@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 文本
 description: 使用或自定义自适应表单文本核心组件。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 100%
 
 **示例**
 
-![](/help/adaptive-forms/assets/text.png)
+![示例](/help/adaptive-forms/assets/text.png)
 
 ## 用途 {#reasons-to-use-text-label}
 
 有若干原因要在表单中使用文本：
 
-* **提供说明**：文本可用于提供有关如何填写表单或需要哪些信息的说明。
+- **提供说明**：文本可用于提供有关如何填写表单或需要哪些信息的说明。
 
-* **提供上下文**：文本可用于为表单提供上下文，例如说明表单的用途或收集信息的组织。
+- **提供上下文**：文本可用于为表单提供上下文，例如说明表单的用途或收集信息的组织。
 
-* **将表单划分为逻辑部分**：可以使用文本将表单划分为多个逻辑部分，以便用户更轻松地理解和填写表单。
+- **将表单划分为逻辑部分**：可以使用文本将表单划分为多个逻辑部分，以便用户更轻松地理解和填写表单。
 
-* **品牌化和标识**：文本可用于品牌化和标识目的，例如在表单中包含组织的名称。
+- **品牌化和标识**：文本可用于品牌化和标识目的，例如在表单中包含组织的名称。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -56,11 +56,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“基本”选项卡](/help/adaptive-forms/assets/text_properties.png)
 
-* **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
+- **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
-* **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
-* **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
-* **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
+- **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
+- **标记为未绑定表单元素**：选择选项以配置未链接到任何架构的表单字段。 此选项允许您在不更新数据源的情况下保存数据。 它还允许您以自定义方式处理数据，而不是通过标准数据库集成。
+- **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
+- **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
 
 ## “设计”对话框 {#design-dialog}
@@ -71,44 +72,29 @@ To experience the Accordion Component as well as see examples of its configurati
 
 该选项卡用于定义和管理组件的 CSS 样式。自适应表单文本核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-![“设计”对话框](/help/adaptive-forms/assets/reset_designdialog.png)
+![“设计”对话框](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **默认 CSS 类**：可为自适应表单文本核心组件提供默认 CSS 类。
+- **默认 CSS 类**：可为自适应表单复选框组核心组件提供默认 CSS 类。
 
-* **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+- **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
-<!--
+### 自订属性
 
-## Related article {#related-article}
+![自定义属性对话框](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+通过自定义属性，可使用表单模板将自定义属性（键值对）与自适应表单核心组件关联。 自定义属性反映在组件headless演绎版的属性部分中。 它允许创建根据自定义属性值调整的动态表单行为。 例如，开发人员可以为移动、桌面或Web平台设计Headless Forms组件的各种演绎版，从而显着提升各种设备上的用户体验。
 
--->
+- **组名称**：您可以提供一个名称来标识自定义资产组。 您可以添加、删除或重新排列多个自定义属性组。 添加自定义属性组后，您可以看到以下选项：
 
+   - **键值对**：通过单击 **添加** 每个自定义属性组的按钮。
 
->[!MORELIKETHIS]
->
->* [可折叠项](/help/adaptive-forms/components/accordion.md)
->* [按钮](/help/adaptive-forms/components/button.md)
->* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
->* [日期选取器](/help/adaptive-forms/components/date-picker.md)
->* [下拉列表](/help/adaptive-forms/components/drop-down.md)
->* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
->* [表单容器](/help/adaptive-forms/components/form-container.md)
->* [文件附件](/help/adaptive-forms/components/file-attachment.md)
->* [页脚](/help/adaptive-forms/components/footer.md)
->* [页眉](/help/adaptive-forms/components/header.md)
->* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
->* [图像](/help/adaptive-forms/components/image.md)
->* [数字输入](/help/adaptive-forms/components/number-input.md)
->* [面板容器](/help/adaptive-forms/components/panel-container.md)
->* [单选按钮](/help/adaptive-forms/components/radio-button.md)
->* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
->* [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
->* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
->* [文本输入](/help/adaptive-forms/components/text-input.md)
->* [标题](/help/adaptive-forms/components/title.md)
->* [向导](/help/adaptive-forms/components/wizard.md)
+   - **删除**：点击或单击以删除自定义属性名称和自定义属性值。
+
+   - **重新排列**：点击或单击并拖动以重新排列自定义属性名称和自定义属性值的顺序。
+
+## 相关文章 {#related-articles}
+
+{{more-like-this}}
 
 ## 另请参阅 {#see-also}
 

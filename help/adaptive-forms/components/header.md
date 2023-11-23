@@ -3,9 +3,9 @@ title: 自适应表单核心组件 - 页眉
 description: 使用或自定义自适应表单页眉核心组件。
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 100%
 
 ## 用途 {#reasons-to-use-header}
 
-* **品牌化**：页眉可用于显示创建表单的组织的徽标或名称，从而帮助建立品牌知名度和可信度。
+- **品牌化**：页眉可用于显示创建表单的组织的徽标或名称，从而帮助建立品牌知名度和可信度。
 
-* **上下文**：页眉可以提供表单用途的简短描述，帮助用户了解表单的使用上下文。
+- **上下文**：页眉可以提供表单用途的简短描述，帮助用户了解表单的使用上下文。
 
-* **导航**：页眉可以包含允许用户导航到网站或应用程序的其他部分的链接或按钮。
+- **导航**：页眉可以包含允许用户导航到网站或应用程序的其他部分的链接或按钮。
 
-* **信息**：页眉可以包含联系信息或指向帮助资源的链接，使用户能够在需要时更轻松地获得帮助。
+- **信息**：页眉可以包含联系信息或指向帮助资源的链接，使用户能够在需要时更轻松地获得帮助。
 
-* **用户体验**：可使用页眉为用户提供一种清晰而直观的方式以访问和填写表单字段，使得表单更方便用户使用。
+- **用户体验**：可使用页眉为用户提供一种清晰而直观的方式以访问和填写表单字段，使得表单更方便用户使用。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -60,21 +60,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“图像”选项卡](/help/adaptive-forms/assets/header_image.png)
 
-* **图像资源** - 此选项可使用鼠标拖放操作来放置图像等资源。您还可以使用 **浏览**&#x200B;按钮从本地文件系统上传文件。添加图像后，图像底部会出现三个按钮。添加图像后，图像底部会出现三个按钮：
-   * **编辑** - 点击或单击&#x200B;**编辑**&#x200B;可在资源中管理资源的再现。
-   * **清除** - 点击或单击&#x200B;**清除**&#x200B;可取消选择当前选定的图像。
-   * **选取** - 点击或单击&#x200B;**选取**&#x200B;选项可从 Assets 文件夹中选择另一个图像。
+- **图像资源** - 此选项可使用鼠标拖放操作来放置图像等资源。您还可以使用 **浏览**&#x200B;按钮从本地文件系统上传文件。添加图像后，图像底部会出现三个按钮。添加图像后，图像底部会出现三个按钮：
+   - **编辑** - 点击或单击&#x200B;**编辑**&#x200B;可在资源中管理资源的再现。
+   - **清除** - 点击或单击&#x200B;**清除**&#x200B;可取消选择当前选定的图像。
+   - **选取** - 点击或单击&#x200B;**选取**&#x200B;选项可从 Assets 文件夹中选择另一个图像。
 
-* **标题** - 此选项用于将标题添加到页眉。对话框中包括预定义的文本，并且用户可修改这些文本。
-* **链接到** - 您可以使用&#x200B;**浏览**&#x200B;图标将标题链接到文件夹。
-* **描述** - 描述是简短的文本说明，提供了有关特定图像的用途的附加信息或说明。
-* **大小 (px)** - 此选项可通过增加或减少像素来帮助调整图像的长度和宽度。
+- **标题** - 此选项用于将标题添加到页眉。对话框中包括预定义的文本，并且用户可修改这些文本。
+- **链接到** - 您可以使用&#x200B;**浏览**&#x200B;图标将标题链接到文件夹。
+- **描述** - 描述是简短的文本说明，提供了有关特定图像的用途的附加信息或说明。
+- **大小 (px)** - 此选项可通过增加或减少像素来帮助调整图像的长度和宽度。
 
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **替换文本** - 此选项用于输入简短描述了图像的替换文本，从而为有视觉障碍的用户描述图像。
+- **替换文本** - 此选项用于输入简短描述了图像的替换文本，从而为有视觉障碍的用户描述图像。
 
-* **图像是装饰性的** – 检查图像是否应被辅助技术忽略，因此不需要替换文本。这仅适用于装饰性图像。
+- **图像是装饰性的** – 检查图像是否应被辅助技术忽略，因此不需要替换文本。这仅适用于装饰性图像。
 
 ### “文本”选项卡 {#text-tab}
 
@@ -88,30 +88,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 -->
 
+## 相关文章 {#related-articles}
 
->[!MORELIKETHIS]
->
->* [可折叠项](/help/adaptive-forms/components/accordion.md)
->* [按钮](/help/adaptive-forms/components/button.md)
->* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
->* [日期选取器](/help/adaptive-forms/components/date-picker.md)
->* [下拉列表](/help/adaptive-forms/components/drop-down.md)
->* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
->* [表单容器](/help/adaptive-forms/components/form-container.md)
->* [文件附件](/help/adaptive-forms/components/file-attachment.md)
->* [页脚](/help/adaptive-forms/components/footer.md)
->* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
->* [图像](/help/adaptive-forms/components/image.md)
->* [数字输入](/help/adaptive-forms/components/number-input.md)
->* [面板容器](/help/adaptive-forms/components/panel-container.md)
->* [单选按钮](/help/adaptive-forms/components/radio-button.md)
->* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
->* [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
->* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
->* [文本输入](/help/adaptive-forms/components/text-input.md)
->* [文本](/help/adaptive-forms/components/text.md)
->* [标题](/help/adaptive-forms/components/title.md)
->* [向导](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## 另请参阅 {#see-also}
 

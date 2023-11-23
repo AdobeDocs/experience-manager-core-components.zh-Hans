@@ -1,38 +1,40 @@
 ---
-title: 自适应表单核心组件 - 水平选项卡
-description: 使用或自定义自适应表单水平选项卡核心组件。
+title: 自适应Forms核心组件 — 垂直选项卡
+description: 使用或自定义自适应Forms垂直选项卡核心组件。
 role: Architect, Developer, Admin, User
-exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+hide: true
+hidefromtoc: true
+source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 水平选项卡 {#horizontal-tabs-adaptive-forms-core-component}
 
-自适应表单中的水平选项卡是指一种设计模式，其中表单的多个部分组合在一起并显示为水平对齐的单独选项卡。用户可以在各个选项卡之间切换来访问表单的不同部分。每个选项卡均充当显示和隐藏相关表单内容的触发器。水平选项卡可帮助将较长的表单整理成可管理的部分并改善用户体验。选项卡使残障用户能够更轻松地访问表单，因为他们可以使用键盘导航在各个部分之间切换。
+# 垂直选项卡 {#vertical-tabs-adaptive-forms-core-component}
 
-选项卡通常作为一系列链接或按钮创建，每个链接或按钮均对应表单的一个部分。当用户单击选项卡时，表单内容会动态更新以显示相应部分。
+自适应表单中的垂直选项卡是指一种设计模式，在该模式中，表单的多个部分组合在一起，并以垂直对齐的单独选项卡形式显示。 用户可以在各个选项卡之间切换来访问表单的不同部分。每个选项卡均充当显示和隐藏相关表单内容的触发器。垂直选项卡有助于将较长的表单整理到可管理的部分中，并改善用户体验。 选项卡使残障用户能够更轻松地访问表单，因为他们可以使用键盘导航在各个部分之间切换。
 
-![示例](/help/adaptive-forms/assets/horizontal-example-new.png)
+当用户单击选项卡时，表单内容会动态更新以显示相应部分。
 
-## 用途 {#reasons-to-use-horizontal-tabs}
+![示例](/help/adaptive-forms/assets/horizontal-example.png)
 
-在自适应表单中使用水平选项卡的常见原因是：
+## 用途 {#reasons-to-use-vertical-tabs}
 
-- **改进了可用性**：水平选项卡使用户能够更轻松地浏览表单，尤其是在表单具有多个部分或大量字段时。
+在自适应表单中使用垂直选项卡的常见原因包括：
 
-- **空间管理**：水平选项卡可将相关的表单部分分组到选项卡中，并一次只显示一个部分，从而帮助节省屏幕空间。
+- **提高了可用性**：垂直选项卡使用户更容易在表单中导航，尤其是在表单有多个部分或大量字段的情况下。
+
+- **空间管理**：垂直选项卡通过将相关表单区域分组到选项卡中并一次仅显示一个区域，有助于节省屏幕空间。
 
 - **更好的组织结构**：选项卡为表单提供了清晰有序的组织结构，使用户更容易理解和填写表单。
 
-- **提高了用户参与度**：水平选项卡可以使表单具有更吸引人的外观并吸引用户，从而提高表单完成率。
+- **提高用户参与度**：垂直选项卡可以让表单更具有视觉吸引力，并且更易于用户使用，从而提高表单完成率。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单水平选项卡核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
+自适应Forms垂直选项卡核心组件于2023年2月发布，作为核心组件2.0.4的一部分。下表显示了所有支持的版本、AEM兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
@@ -42,30 +44,24 @@ ht-degree: 0%
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
 
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
-
-
 ## 技术详细信息 {#technical-details}
 
-可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs) 上的技术文档中获得关于自适应表单水平选项卡核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在以下位置的技术文档中获取有关自适应Forms垂直选项卡核心组件的最新信息： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，可轻松地自定义您为访客提供的水平选项卡体验。还可轻松地定义水平选项卡选项，从而营造一种无缝的用户体验。
+通过“配置”对话框，您可以轻松自定义访客的垂直选项卡体验。 您还可以轻松定义垂直选项卡选项，以实现无缝用户体验。
 
 ### “基本”选项卡 {#basic-tab}
 
-![“基本”选项卡](/help/adaptive-forms/assets/tabs-on-top-basic.png)
+![“基本”选项卡](/help/adaptive-forms/assets/vertical-tab-basic.png)
 
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
 
 - **隐藏标题** - 选中此选项以隐藏该组件的标题。
-
 
 - **表单提交时对子组件的数据进行分组（将数据包装在对象中）** - 选择该选项后，子组件中的数据将嵌套在父组件的 JSON 对象中。但是，如果未选择该选项，则提交的 JSON 数据具有扁平结构，没有父组件的对象。例如：
 
@@ -90,38 +86,36 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **布局** - 可为向导采用固定布局（“简单”）或灵活布局（“响应式网格”）。“简单”布局将所有内容固定在原位，而通过“响应式网格”，可调整组件的位置以满足您的需要。例如，使用响应式网格将表单中的“名字”、“中间名”和“姓氏”排成一行。
-
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 - **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
-### 重复顶部选项卡 {#repeat-tabs-on-top}
+### “重复垂直”选项卡 {#repeat-tabs-on-top}
 
-![“辅助功能”选项卡](/help/adaptive-forms/assets/repeat-tabsontop.png)
+![“重复”选项卡](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
 
-您可以使用重复选项来复制“水平”选项卡组件及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。当与“水平”选项卡组件交互并访问其设置时，会出现以下选项：
+您可以使用可重复性选项来复制垂直选项卡组件及其子组件，定义最小和最大重复计数，并简化表单中类似部分的复制。 与垂直选项卡组件交互并访问其设置时，将显示以下选项：
 
-- **使“水平”选项卡可重复**：切换功能，允许用户启用或禁用重复功能。
-- **最少重复次数**：确定“水平”选项卡组件面板可以重复的最小次数。值为零表示“水平”选项卡组件不重复；默认值为零。
-- **最多重复次数**：设置“水平”选项卡组件面板可以重复的最大次数。默认情况下，此值无限制。
+- **使垂直选项卡可重复**：允许用户启用或禁用重复性功能的切换功能。
+- **最小重复次数**：建立垂直选项卡组件可重复使用的最小次数。 如果值为零，则表示不重复垂直制表符组件；默认值为零。
+- **最大重复次数**：设置垂直选项卡组件可重复的最大次数。 默认情况下，此值无限制。
 
-要有效管理“水平”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
+要有效地管理垂直选项卡中的可重复部分，请按照 [创建包含可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 文章。
 
 ### “项”选项卡 {#items-tab}
 
-![“项”选项卡](/help/adaptive-forms/assets/items-tabs-on-top.png)
+![“项”选项卡](/help/adaptive-forms/assets/vertical-tab-items.png)
 
 通过&#x200B;**添加**&#x200B;按钮，可从组件选择窗口中选择要作为面板添加的组件。添加该组件后，可看到以下选项：
 
 - **图标** - 图标在列表中标识面板的组件。将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
 - **描述** - 用作面板文本的描述。默认情况下，为面板选择组件的名称。
-- **删除** – 点按或单击，即可从“水平”选项卡组件中删除该面板。
+- **删除**  — 点击或单击可从垂直选项卡组件中删除面板。
 - **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
 
 ### “帮助内容”选项卡 {#help-content}
 
-![“帮助内容”选项卡](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
+![“帮助内容”选项卡](/help/adaptive-forms/assets/vertical-tab-help.png)
 
 - **简短描述** - 简短描述是一段简短的文字说明，其中提供关于特定表单字段的用途的其他信息或阐述。它帮助用户了解应将什么类型的数据输入到字段中，并可提供准则或示例以帮助确保所输入的信息有效且符合预期的标准。默认情况下，简短描述保持隐藏状态。启用&#x200B;**始终显示简短描述**&#x200B;选项以在组件下方显示它。
 
@@ -131,7 +125,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ### “辅助功能”选项卡 {#accessibility}
 
-![“辅助功能”选项卡](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
+![“辅助功能”选项卡](/help/adaptive-forms/assets/vertical-tab-accessibility.png)
 
 - **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
 
@@ -139,10 +133,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## “设计”对话框 {#design-dialog}
 
-通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应表单“水平”选项卡组件，可设置以下各项：
+通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应Forms垂直选项卡组件，您可以设置以下内容：
 
-- 表单创建者可添加到自适应表单编辑器中的“水平”选项卡的核心组件
-- 可在自适应表单编辑器的“水平”选项卡组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
+- 表单创建者可以添加到自适应Forms编辑器中的垂直选项卡的核心组件
+- 样式（CSS类）的简单名称，这些名称可在自适应Forms编辑器中的垂直选项卡组件的“属性”对话框中应用。
 
 这有助于使创建和自定义表单的过程更加简便和高效。
 
@@ -150,15 +144,15 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ![“允许使用的组件”选项卡](/help/adaptive-forms/assets/tabs-allowed-component.png)
 
-通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器中的水平选项卡组件面板的组件。
+此 **允许的组件** 使用选项卡，模板编辑器可以设置组件，这些组件可以在自适应Forms编辑器的垂直选项卡组件中作为项目添加到面板。
 
 ### “样式”选项卡 {#styles-tab}
 
-“设计”对话框用于定义和管理组件的 CSS 样式。自适应表单水平选项卡核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
-
 ![“样式”选项卡](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
-- **默认 CSS 类**：可为自适应表单水平选项卡核心组件提供默认 CSS 类。
+“设计”对话框用于定义和管理组件的 CSS 样式。自适应Forms垂直选项卡核心组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling).
+
+- **默认CSS类**：您可以为自适应Forms垂直选项卡核心组件提供默认的CSS类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 

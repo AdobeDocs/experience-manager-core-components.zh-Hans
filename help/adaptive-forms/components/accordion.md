@@ -3,10 +3,10 @@ title: 自适应表单可折叠项面板
 description: 使用可折叠项面板组件通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,25 +14,27 @@ ht-degree: 100%
 
 利用可折叠项面板核心组件，用户可在自适应表单中创建可展开和可可折叠项的部分。它一般用于通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。一般通过标题表示可折叠项面板的每个部分，用户单击标题即可展开或可折叠项相应的内容。该内容可为任意核心组件。
 
+![示例](/help/adaptive-forms/assets/example-accordion.png)
+
 ## 用途 {#usage}
 
 有若干原因使得在自适应表单中加入可折叠项面板组件有益，这些原因包括：
 
-* **节省空间**：通过可折叠项面板组件，用户可展开和可折叠项表单的各部分，从而减少同时显示所有表单字段所需的空间量。
+- **节省空间**：通过可折叠项面板组件，用户可展开和可折叠项表单的各部分，从而减少同时显示所有表单字段所需的空间量。
 
-* **导航**：可使用可折叠项面板组件创建一个分层的导航结构，使得用户更容易找到所需的表单字段。
+- **导航**：可使用可折叠项面板组件创建一个分层的导航结构，使得用户更容易找到所需的表单字段。
 
-* **用户体验**：可使用可折叠项面板组件为用户提供一种清晰而直观的方式以访问和填写表单字段，使得表单更方便用户使用。
+- **用户体验**：可使用可折叠项面板组件为用户提供一种清晰而直观的方式以访问和填写表单字段，使得表单更方便用户使用。
 
-* **长表单**：可折叠项面板是一个处理长表单的理想组件，因为它使用户可集中精力一次处理一个部分，而非尝试同时处理大量信息。
+- **长表单**：可折叠项面板是一个处理长表单的理想组件，因为它使用户可集中精力一次处理一个部分，而非尝试同时处理大量信息。
 
 您可以使用：
 
-* [“配置”对话框](#configure-dialog)指定可折叠项面板组件的属性。
+- [“配置”对话框](#configure-dialog)指定可折叠项面板组件的属性。
 
-* [“选择面板”弹出框](#select-panel-popover)定义可折叠项面板组件中各个面板的顺序。这样，作者即可将面板排列为其应出现的顺序。
+- [“选择面板”弹出框](#select-panel-popover)定义可折叠项面板组件中各个面板的顺序。这样，作者即可将面板排列为其应出现的顺序。
 
-* [“设计”对话框](#design-dialog)中的选项以使表单作者启用或禁用某些功能。例如，作者可以选择禁用表单的某些字段或部分。通过这些选项，作者可更精确地控制表单的设计和功能，从而更轻松地创建为组织的特定需求量身定制的表单。
+- [“设计”对话框](#design-dialog)中的选项以使表单作者启用或禁用某些功能。例如，作者可以选择禁用表单的某些字段或部分。通过这些选项，作者可更精确地控制表单的设计和功能，从而更轻松地创建为组织的特定需求量身定制的表单。
 
 “配置”对话框、“选择面板”弹出框和“设计”对话框都是核心组件的一部分，它们旨在简化表单创作，并提供一种创建复杂表单的高效方法。
 
@@ -65,15 +67,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“基本”选项卡](/help/adaptive-forms/assets/acc-basic.png)
 
-* **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
+- **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
-* **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
+- **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
 
-* **隐藏标题** - 选中此选项以隐藏该组件的标题。
+- **隐藏标题** - 选中此选项以隐藏该组件的标题。
 
-* **表单提交时对子组件的数据进行分组（将数据包装在对象中）** - 选择该选项后，子组件中的数据将嵌套在父组件的 JSON 对象中。但是，如果未选择该选项，则提交的 JSON 数据具有扁平结构，没有父组件的对象。例如：
+- **表单提交时对子组件的数据进行分组（将数据包装在对象中）** - 选择该选项后，子组件中的数据将嵌套在父组件的 JSON 对象中。但是，如果未选择该选项，则提交的 JSON 数据具有扁平结构，没有父组件的对象。例如：
 
-   * 选择该选项后，子组件中的数据（例如，街道、城市和邮政编码）将作为 JSON 对象嵌套在父组件（地址）中。这将创建一个层次结构，并且数据组织在父组件下。
+   - 选择该选项后，子组件中的数据（例如，街道、城市和邮政编码）将作为 JSON 对象嵌套在父组件（地址）中。这将创建一个层次结构，并且数据组织在父组件下。
 
      提交数据的结构：
 
@@ -85,7 +87,7 @@ To experience the Accordion Component as well as see examples of its configurati
      }
      ```
 
-   * 当未选择该选项时，提交的 JSON 数据具有扁平结构，没有父组件（地址）的对象。所有数据都处于同一级别，没有任何层级组织。
+   - 当未选择该选项时，提交的 JSON 数据具有扁平结构，没有父组件（地址）的对象。所有数据都处于同一级别，没有任何层级组织。
 
 
      提交数据的结构：
@@ -94,13 +96,13 @@ To experience the Accordion Component as well as see examples of its configurati
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-* **布局** - 可为向导采用固定布局（“简单”）或灵活布局（“响应式网格”）。“简单”布局将所有内容固定在原位，而通过“响应式网格”，可调整组件的位置以满足您的需要。例如，使用响应式网格将表单中的“名字”、“中间名”和“姓氏”排成一行。
+- **布局** - 可为向导采用固定布局（“简单”）或灵活布局（“响应式网格”）。“简单”布局将所有内容固定在原位，而通过“响应式网格”，可调整组件的位置以满足您的需要。例如，使用响应式网格将表单中的“名字”、“中间名”和“姓氏”排成一行。
 
-* **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
+- **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 
-* **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
+- **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 
-* **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
+- **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
 ### 重复可折叠项 {#repeat-accordion}
 
@@ -108,9 +110,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 您可以使用重复选项来复制可折叠项面板及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。当与可折叠项组件交互并访问其设置时，会出现以下选项：
 
-* **使可折叠项可重复**：切换功能，允许用户启用或禁用重复功能。
-* **最少重复次数**：确定可折叠项面板可以重复的最小次数。值为零表示可折叠项面板不重复；默认值为零。
-* **最多重复次数**：设置可折叠项面板可以重复的最多次数。默认情况下，此值无限制。
+- **使可折叠项可重复**：切换功能，允许用户启用或禁用重复功能。
+- **最少重复次数**：确定可折叠项面板可以重复的最小次数。值为零表示可折叠项面板不重复；默认值为零。
+- **最多重复次数**：设置可折叠项面板可以重复的最多次数。默认情况下，此值无限制。
 
 要有效管理可折叠项中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
@@ -120,20 +122,20 @@ To experience the Accordion Component as well as see examples of its configurati
 
 通过“添加”按钮，可从组件选择窗口中选择要作为面板添加的组件。添加该组件后，可看到以下选项：
 
-* **图标** - 图标在列表中标识面板的组件。将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
-* **描述** - 用作面板文本的描述。默认情况下，为面板选择该组件的名称。
-* **删除** - 点按或单击可从可折叠项组件中删除面板。
-* **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
+- **图标** - 图标在列表中标识面板的组件。将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
+- **描述** - 用作面板文本的描述。默认情况下，为面板选择该组件的名称。
+- **删除** - 点按或单击可从可折叠项组件中删除面板。
+- **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
 
 ### “帮助内容”选项卡 {#help-content}
 
 ![“帮助内容”选项卡](/help/adaptive-forms/assets/acc-helpcontent.png)
 
-* **简短描述** - 简短描述是一段简短的文字说明，其中提供关于特定表单字段的用途的其他信息或阐述。它帮助用户了解应将什么类型的数据输入到字段中，并可提供准则或示例以帮助确保所输入的信息有效且符合预期的标准。默认情况下，简短描述保持隐藏状态。启用&#x200B;**始终显示简短描述**&#x200B;选项以在组件下方显示它。
+- **简短描述** - 简短描述是一段简短的文字说明，其中提供关于特定表单字段的用途的其他信息或阐述。它帮助用户了解应将什么类型的数据输入到字段中，并可提供准则或示例以帮助确保所输入的信息有效且符合预期的标准。默认情况下，简短描述保持隐藏状态。启用&#x200B;**始终显示简短描述**&#x200B;选项以在组件下方显示它。
 
-* **始终显示简短描述** - 启用该选项以在组件下方显示简短描述。
+- **始终显示简短描述** - 启用该选项以在组件下方显示简短描述。
 
-* **帮助文本** - 帮助文本是指提供给用户以帮助其正确填写表单字段的其他信息或指导。当用户单击组件旁的“帮助”图标 (i) 时显示它。帮助文本提供比表单字段的标签或占位符文本更详细的信息，旨在帮助用户了解该字段的要求或限制。它还可提供建议或示例，以使填写表单更轻松且更准确。
+- **帮助文本** - 帮助文本是指提供给用户以帮助其正确填写表单字段的其他信息或指导。当用户单击组件旁的“帮助”图标 (i) 时显示它。帮助文本提供比表单字段的标签或占位符文本更详细的信息，旨在帮助用户了解该字段的要求或限制。它还可提供建议或示例，以使填写表单更轻松且更准确。
 
 ### “辅助功能”选项卡 {#accessibility}
 
@@ -141,14 +143,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
 在&#x200B;**辅助功能**&#x200B;选项卡上，为组件的 [ARIA 辅助功能](https://www.w3.org/WAI/standards-guidelines/aria/)标签设置值。使用屏幕阅读器文本时有多个选项：
 
-* **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
+- **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
 
 
-   * **自定义文本**：选中此选项以将自定义文本用于 ARIA 辅助功能标签。选中此选项将显示“自定义文本”对话框。可在“自定义文本”对话框中添加相关信息。
-   * **描述**：选中此选项以将描述用于 ARIA 辅助功能标签。
-   * **标题**：选中此选项以将标题用于 ARIA 辅助功能标签。
-   * **名称**：选中此选项以将名称用于 ARIA 辅助功能标签。
-   * **无**：如果不想为 ARIA 辅助功能标签添加任何内容，请选中此选项。
+   - **自定义文本**：选中此选项以将自定义文本用于 ARIA 辅助功能标签。选中此选项将显示“自定义文本”对话框。可在“自定义文本”对话框中添加相关信息。
+   - **描述**：选中此选项以将描述用于 ARIA 辅助功能标签。
+   - **标题**：选中此选项以将标题用于 ARIA 辅助功能标签。
+   - **名称**：选中此选项以将名称用于 ARIA 辅助功能标签。
+   - **无**：如果不想为 ARIA 辅助功能标签添加任何内容，请选中此选项。
 
 <!--
 
@@ -181,9 +183,9 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应表单可折叠项面板组件，可设置以下各项：
 
-* 允许使用并设置为默认值的 HTML 标题元素的类型（如 H1、H2、H3 等）
-* 表单创建者可添加到自适应表单编辑器中的可折叠项面板的核心组件
-* 可在自适应表单编辑器的可折叠项面板组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
+- 允许使用并设置为默认值的 HTML 标题元素的类型（如 H1、H2、H3 等）
+- 表单创建者可添加到自适应表单编辑器中的可折叠项面板的核心组件
+- 可在自适应表单编辑器的可折叠项面板组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
 
 这有助于使创建和自定义表单的过程更加简便和高效。
 
@@ -191,83 +193,45 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 通过“属性”选项卡，模板作者可为表单作者设置默认和允许使用的 HTML 标题元素：
 
-![“设计”对话框“属性”选项卡](/help/assets/accordion-design-properties.png)
+![“设计”对话框“属性”选项卡](/help//adaptive-forms/assets/accordion-design-properties.png)
 
-* **允许使用的标题元素**：一个下拉列表，其中含有多个选项，通过它，模板作者可选择表单作者可将哪些标题元素用于可折叠项面板组件。
+- **允许使用的标题元素**：一个下拉列表，其中含有多个选项，通过它，模板作者可选择表单作者可将哪些标题元素用于可折叠项面板组件。
 
-* **默认标题元素** - 一个下拉列表，它设置可折叠项面板组件的默认标题元素。
+- **默认标题元素** - 一个下拉列表，它设置可折叠项面板组件的默认标题元素。
 
 ### “允许使用的组件”选项卡 {#allowed-components-tab}
+
+![“设计”对话框允许的组件选项卡](/help//adaptive-forms/assets/accordion-allowed-components.png)
 
 通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器的可折叠项面板组件中的面板的组件。
 
 ### “样式”选项卡 {#styles-tab}
 
+![“设计”对话框“样式”选项卡](/help/adaptive-forms/assets/accordion-styles-tab.png)
+
 “设计”对话框用于定义和管理组件的 CSS 样式。自适应表单可折叠项面板核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-**默认 CSS 类**：可为可折叠项面板组件提供默认 CSS 类。
+- **默认 CSS 类**：可为可折叠项面板组件提供默认 CSS 类。
 
-**允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+- **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
+### 自订属性
 
-<!--- 
+![折叠面板 — 自定义 — 属性 — 选项卡](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
 
-The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
+通过自定义属性，可使用表单模板将自定义属性（键值对）与自适应表单核心组件关联。 自定义属性反映在组件headless演绎版的属性部分中。 它允许创建根据自定义属性值调整的动态表单行为。 例如，开发人员可以为移动、桌面或Web平台设计Headless Forms组件的各种演绎版，从而显着提升各种设备上的用户体验。
 
+- **组名称**：您可以提供一个名称来标识自定义资产组。 您可以添加、删除或重新排列多个自定义属性组。 添加自定义属性组后，您可以看到以下选项：
 
-### Properties Tab {#properties-tab-design}
+   - **键值对**：通过单击 **添加** 每个自定义属性组的按钮。
 
-![Design dialog properties tab](/help/assets/accordion-design-properties.png)
+   - **删除**：点击或单击以删除自定义属性名称和自定义属性值。
 
-* **Allowed Heading Elements** - This multi-select drop-down defines the accordion item heading HTML elements that are allowed to be selected by an author.
-* **Default Heading Element** - This drop-down defines the default accordion item heading HTML element.
+   - **重新排列**：点击或单击并拖动以重新排列自定义属性名称和自定义属性值的顺序。
 
-### Allowed Components Tab {#allowed-components-tab}
+## 相关文章 {#related-articles}
 
-The **Allowed Components** tab is used to define which components can be added as items to panels in the Accordion Component by the content author.
-
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
-
-### Styles Tab {#styles-tab}
-
-The Accordion Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
-
-## Adobe Client Data Layer {#data-layer}
-
-The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md) 
-
-
-<!--
-
-## Related article {#related-article}
-
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-
--->
-
->[!MORELIKETHIS]
->
->* [按钮](/help/adaptive-forms/components/button.md)
->* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
->* [日期选取器](/help/adaptive-forms/components/date-picker.md)
->* [下拉列表](/help/adaptive-forms/components/drop-down.md)
->* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
->* [表单容器](/help/adaptive-forms/components/form-container.md)
->* [文件附件](/help/adaptive-forms/components/file-attachment.md)
->* [页脚](/help/adaptive-forms/components/footer.md)
->* [页眉](/help/adaptive-forms/components/header.md)
->* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
->* [图像](/help/adaptive-forms/components/image.md)
->* [数字输入](/help/adaptive-forms/components/number-input.md)
->* [面板容器](/help/adaptive-forms/components/panel-container.md)
->* [单选按钮](/help/adaptive-forms/components/radio-button.md)
->* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
->* [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
->* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
->* [文本输入](/help/adaptive-forms/components/text-input.md)
->* [文本](/help/adaptive-forms/components/text.md)
->* [标题](/help/adaptive-forms/components/title.md)
->* [向导](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## 另请参阅 {#see-also}
 

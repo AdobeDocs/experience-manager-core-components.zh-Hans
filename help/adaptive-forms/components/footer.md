@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 页脚
 description: 使用或自定义自适应表单页脚核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 99%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 100%
 
 **示例**
 
-![](/help/adaptive-forms/assets/footer.png)
+![示例](/help/adaptive-forms/assets/footer.png)
 
 ## 用途 {#reasons-to-use-footer}
 
 有若干原因使得在自适应表单中加入页脚组件有益，这些原因包括：
 
-* **法律要求**：某些表单可能必须加入免责声明、版权声明或其他法律信息。可在页脚中方便地加入此信息。
+- **法律要求**：某些表单可能必须加入免责声明、版权声明或其他法律信息。可在页脚中方便地加入此信息。
 
-* **导航**：页脚可以提供指向网站上的其他重要页面的链接，例如隐私政策、服务条款或联系页面。
+- **导航**：页脚可以提供指向网站上的其他重要页面的链接，例如隐私政策、服务条款或联系页面。
 
-* **品牌化**：可使用页脚加入徽标或其他品牌化元素，帮助加强受众对组织或网站的认同感。
+- **品牌化**：可使用页脚加入徽标或其他品牌化元素，帮助加强受众对组织或网站的认同感。
 
-* **一致性**：页脚使表单的设计和布局保持一致，令其变得更加直观，并且用户可轻松地导航。
+- **一致性**：页脚使表单的设计和布局保持一致，令其变得更加直观，并且用户可轻松地导航。
 
-* **附加上下文**：页脚可以为表单提供附加上下文，例如描述表单的文本或指向相关资源的链接，从而使表单包含更多信息并对用户更加友好。
+- **附加上下文**：页脚可以为表单提供附加上下文，例如描述表单的文本或指向相关资源的链接，从而使表单包含更多信息并对用户更加友好。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -57,53 +57,53 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“属性”选项卡](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-* **“编辑”对话框**
+- **“编辑”对话框**
 “编辑”对话框提供多种标准的富文本格式化工具，通过这些工具，用户可为页脚创建文本。
 
-* **粗体** - 此选项可将粗体格式应用于所选的文本或为在光标后输入的文本设置粗体格式。`Ctrl+B` 为键盘快捷键。
+- **粗体** - 此选项可将粗体格式应用于所选的文本或为在光标后输入的文本设置粗体格式。`Ctrl+B` 为键盘快捷键。
 
-* **斜体** - 此选项将斜体格式应用于所选的文本或为在光标后输入的文本设置斜体格式。`Ctrl+I` 为键盘快捷键。
+- **斜体** - 此选项将斜体格式应用于所选的文本或为在光标后输入的文本设置斜体格式。`Ctrl+I` 为键盘快捷键。
 
 ![项目符号选项](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-* **项目符号**
+- **项目符号**
 
-   * **“项目符号”图标** - 它将所选的文本设置为带项目符号的列表格式或在光标后开始插入带项目符号的列表。要结束带项目符号的列表，请再次点击或单击“项目符号”按钮或输入两个回车符。
+   - **“项目符号”图标** - 它将所选的文本设置为带项目符号的列表格式或在光标后开始插入带项目符号的列表。要结束带项目符号的列表，请再次点击或单击“项目符号”按钮或输入两个回车符。
 
-   * **“带编号的列表”图标** - 它将所选的文本设置为带编号的列表格式或在光标后开始插入带编号的列表。要结束带编号的列表，请再次点击或单击“编号”按钮或输入两个回车符。
+   - **“带编号的列表”图标** - 它将所选的文本设置为带编号的列表格式或在光标后开始插入带编号的列表。要结束带编号的列表，请再次点击或单击“编号”按钮或输入两个回车符。
 
-   * **“减少缩进”图标** - 它降低所选的文本或在光标后输入的文本的缩进级别。只有已缩进了所选的文本或光标的位置，才激活此图标。
+   - **“减少缩进”图标** - 它降低所选的文本或在光标后输入的文本的缩进级别。只有已缩进了所选的文本或光标的位置，才激活此图标。
 
-   * **“缩进”图标** - 它提高所选的文本或在光标后输入的文本的缩进级别。
+   - **“缩进”图标** - 它提高所选的文本或在光标后输入的文本的缩进级别。
 
 ![超链接选项](/help/adaptive-forms/assets/footer_link.png)
 
-* **超链接**
+- **超链接**
 
-   * **路径** - 输入路径
+   - **路径** - 输入路径
       1. 使用“打开所选内容”对话框在 AEM 中选择某个路径。
       1. 如果链接不在 AEM 中，请输入绝对 URL。
       1. 非绝对路径被解释为相对于 AEM 的路径。
 
-   * **替换文本** - 输入链接的替换描述文本。
+   - **替换文本** - 输入链接的替换描述文本。
 
-   * **目标** - 选择链接行为
-      * 目标
-      * 相同选项卡
-      * 新选项卡
-      * 父框架
-      * 顶层框架
+   - **目标** - 选择链接行为
+      - 目标
+      - 相同选项卡
+      - 新选项卡
+      - 父框架
+      - 顶层框架
 
-   * **“取消链接”图标** - 此选项删除已应用于所选文本的链接。只有已选择了链接，才激活此选项。
+   - **“取消链接”图标** - 此选项删除已应用于所选文本的链接。只有已选择了链接，才激活此选项。
 
-   * **“段落格式”图标** - 通过此选项，可将段落格式应用于所选的文本。它还帮助您为在光标后插入的文本设置格式。它定义标题的标题级别。
+   - **“段落格式”图标** - 通过此选项，可将段落格式应用于所选的文本。它还帮助您为在光标后插入的文本设置格式。它定义标题的标题级别。
 
-* **ID**：通过此选项，可控制组件在 HTML 和数据层中的唯一标识符。
+- **ID**：通过此选项，可控制组件在 HTML 和数据层中的唯一标识符。
 
-   * 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
-   * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
+   - 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
+   - 如果指定一个 ID，作者有责任确保它是唯一的。
+   - 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
 <!--
 
@@ -113,31 +113,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 -->
 
+## 相关文章 {#related-articles}
 
->[!MORELIKETHIS]
->
->* [可折叠项](/help/adaptive-forms/components/accordion.md)
->* [按钮](/help/adaptive-forms/components/button.md)
->* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
->* [日期选取器](/help/adaptive-forms/components/date-picker.md)
->* [下拉列表](/help/adaptive-forms/components/drop-down.md)
->* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
->* [表单容器](/help/adaptive-forms/components/form-container.md)
->* [文件附件](/help/adaptive-forms/components/file-attachment.md)
->* [页眉](/help/adaptive-forms/components/header.md)
->* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
->* [图像](/help/adaptive-forms/components/image.md)
->* [数字输入](/help/adaptive-forms/components/number-input.md)
->* [面板容器](/help/adaptive-forms/components/panel-container.md)
->* [单选按钮](/help/adaptive-forms/components/radio-button.md)
->* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
->* [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
->* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
->* [文本输入](/help/adaptive-forms/components/text-input.md)
->* [文本](/help/adaptive-forms/components/text.md)
->* [标题](/help/adaptive-forms/components/title.md)
->* [向导](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## 另请参阅 {#see-also}
 
