@@ -2,15 +2,13 @@
 title: 自适应Forms核心组件 — 条款和条件
 description: 使用或自定义自适应Forms条款和条件核心组件。
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: c607d554-ad2d-4434-856d-91e174ef3149
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
 source-wordcount: '2639'
 ht-degree: 66%
 
 ---
-
 
 # 条款和条件组件
 
@@ -222,4 +220,3 @@ A **条款和条件** 组件是指表单中的一个部分，其中概述了用�
 ## 另请参阅 {#see-also}
 
 {{see-also}}
-

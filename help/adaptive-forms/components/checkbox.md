@@ -2,15 +2,13 @@
 title: 自适应Forms核心组件 — 复选框
 description: 使用或自定义自适应Forms复选框核心组件。
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1708'
+ht-degree: 53%
 
 ---
-
 
 # 复选框 {#checkbox-component}
 
@@ -142,5 +140,3 @@ ht-degree: 0%
 ## 另请参阅 {#see-also}
 
 {{see-also}}
-
-

@@ -2,15 +2,13 @@
 title: 自适应Forms核心组件 — 垂直选项卡
 description: 使用或自定义自适应Forms垂直选项卡核心组件。
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1929'
+ht-degree: 65%
 
 ---
-
 
 # 垂直选项卡 {#vertical-tabs-adaptive-forms-core-component}
 
