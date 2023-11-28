@@ -3,10 +3,10 @@ title: Web 优化图像投放
 description: 了解核心组件如何利用 AEM as a Cloud Service 的 Web 优化图像投放功能来更有效地投放图像。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
+source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1023'
+ht-degree: 97%
 
 ---
 
@@ -96,17 +96,7 @@ Web 优化图像服务会考虑所有 2048 像素和更小的图像呈现，并�
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-此服务将资产资源作为第一个必需参数，并且可以为要应用的所需图像转换（可选映射，其中可能包含以下参数）进行映射。
-
-* `path`  — 要投放的资产 ID 必须符合模式 `([^:\[\]\|\*\/]+)`（例如： `unicorn–1234`）
-* `seoname` – 用户定义的、以 SEO 为中心的名称，附加到图像 URL，可能包含连字符，必须是模式 `([\w-]+)`（例如：`my-friend-the-unicorn`）
-* `format` – 所需的图像格式，可以是 `gif`、`png`、`png8`、`jpg`、`pjpg`、`bjpg`、`webp`、`webpll`、`webply`（例如：`webp`）
-* `preferwebp` – 如果可能，传递 WebP 输出，忽略`format`参数（[参见关于内容协商的常见问题](#content-negotiation)），布尔值（例如：`true`）
-* `width` – 所需的图像分辨率（以像素为单位）必须大于 1（例如：`400`）
-* `quality` – 所需的压缩，在 `1` 和 `100` 之间（例如：`75`）
-* `c` – 所需的图像裁剪坐标，逗号分隔的像素值（例如：`100,100,400,200`）
-* `r` – 所需的图像旋转，可以是 `90`、`180`、`270`（例如：`90`）
-* `flip` – 所需的图像翻转，可以是 `h`、`v`、`hv`（例如：`h`）
+**请注意，并非通过在AEM Sites CS上运行的核心组件构建的直接URL嵌入体验，违反了Media Library许可条款。**
 
 ### 新图像服务投放的图像的 URL 是什么？ {#url}
 
