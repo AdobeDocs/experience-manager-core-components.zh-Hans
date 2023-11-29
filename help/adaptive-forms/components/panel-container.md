@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单面板容器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2036'
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
 
-- **隐藏标题** - 选中此选项以隐藏该组件的标题。
+- **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
 - **表单提交时对子组件的数据进行分组（将数据包装在对象中）** - 选择该选项后，子组件中的数据将嵌套在父组件的 JSON 对象中。但是，如果未选择该选项，则提交的 JSON 数据具有扁平结构，没有父组件的对象。例如：
 
@@ -129,25 +129,25 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于为表单容器组件定义和管理CSS样式。
+“设计”对话框用于定义和管理表单容器组件的 CSS 样式。
 
 ### “允许使用的组件”选项卡 {#allowed-components-tab}
 
-![“设计”对话框允许的组件选项卡](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+![“设计”对话框允许使用的组件”选项卡](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-此 **允许的组件** 选项卡允许模板编辑器设置组件，这些组件可以在自适应Forms编辑器的组件中作为项目添加到面板。
+通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑器可设置组件，这些组件可作为项添加到自适应表单编辑器组件中的面板。
 
 ### “默认组件”选项卡 {#default-components-tab}
 
-![“设计”对话框的默认组件选项卡](/help/adaptive-forms/assets/panel-container-default-component.png)
+![“设计”对话框默认组件”选项卡](/help/adaptive-forms/assets/panel-container-default-component.png)
 
-此 **默认组件** 选项卡允许模板编辑器指定在自适应Forms编辑器中作为表单容器组件中的项目默认显示的组件。
+通过&#x200B;**默认组件**&#x200B;选项卡，模板编辑器可指定默认情况下作为项显示在自适应表单编辑器中的表单容器组件中的组件。
 
 ### “响应式设置”选项卡 {#responsive-tab}
 
-![“设计”对话框响应式设置选项卡](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+![“设计”对话框响应式设置”选项卡](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
 
-此 **响应设置** 选项卡允许模板编辑器在自适应Forms编辑器中指定表单容器组件内网格中的列数。
+通过&#x200B;**响应式设置**&#x200B;选项卡，模板编辑器可指定自适应表单编辑器中的表单容器组件内的网格列数。
 
 ### “容器设置”选项卡
 
@@ -155,11 +155,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **布局** - 可为向导采用固定布局（“简单”）或灵活布局（“响应式网格”）。“简单”布局将所有内容固定在原位，而通过“响应式网格”，可调整组件的位置以满足您的需要。例如，使用响应式网格将表单中的“名字”、“中间名”和“姓氏”排成一行。
 
-- **禁用布局**：选择此选项可禁用组件的“编辑”对话框中的布局选择。
+- **禁用布局**：选中此选项可禁用组件编辑对话框中的布局选择。
 
-- **启用背景图像**：此选项允许用户将面板设置配置为包含视觉背景以增强视觉吸引力。
+- **启用背景图像**：利用此选项，用户可以配置面板设置以包括可视化背景来增大视觉吸引力。
 
-- **启用背景颜色**：利用此选项可设置或更改面板的背景颜色。 此功能通常用于用户界面设计，以自定义较大界面中面板的外观。 当您选择 **启用背景颜色** 选项，则 **仅限色板** 选项。 此 **仅限色板** 选项允许您使用指定或选择面板中背景、文本或其他可视化元素的颜色 **添加** 按钮
+- **启用背景颜色**：利用此选项，您可以设置或更改面板的背景颜色。此功能通常在用户界面设计中用于自定义较大界面中的面板外观。在选中&#x200B;**启用背景颜色**&#x200B;选项时，将显示&#x200B;**仅色板**&#x200B;选项。利用&#x200B;**仅色板**&#x200B;选项，可使用&#x200B;**添加**&#x200B;按钮来指定或选择面板内的背景、文本或其他可视元素的颜色
 
 ### “样式”选项卡 {#styles-tab}
 
@@ -173,17 +173,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “自定义属性”选项卡
 
-![自定义属性对话框](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+![“自定义属性”对话框](/help/adaptive-forms/assets/panel-container-custom-properties.png)
 
-通过自定义属性，可使用表单模板将自定义属性（键值对）与自适应表单核心组件关联。 自定义属性反映在组件headless演绎版的属性部分中。 它允许创建根据自定义属性值调整的动态表单行为。 例如，开发人员可以为移动、桌面或Web平台设计Headless Forms组件的各种演绎版，从而显着提升各种设备上的用户体验。
+通过自定义属性，您可使用表单模板将自定义属性（键值对）关联到自适应表单核心组件。自定义属性反映在组件 Headless 演绎版的属性部分中。它可让您创建根据自定义属性值进行调整的动态表单行为。例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
 
-- **组名称**：您可以提供一个名称来标识自定义资产组。 您可以添加、删除或重新排列多个自定义属性组。 添加自定义属性组后，您可以看到以下选项：
+- **组名称**：您可以提供名称来标识自定义属性组。您可以添加、删除或重新排列多个自定义属性组。添加自定义属性组后，可看到以下选项：
 
-   - **键值对**：通过单击 **添加** 每个自定义属性组的按钮。
+   - **键值对**：您可以通过单击“**添加**”按钮，为每个自定义属性组添加多个自定义属性名称和自定义属性值。
 
-   - **删除**：点击或单击以删除自定义属性名称和自定义属性值。
+   - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
 
-   - **重新排列**：点击或单击并拖动以重新排列自定义属性名称和自定义属性值的顺序。
+   - **重新排列**：点按或单击并拖动可重新排列自定义属性名称和自定义属性值的顺序。
 
 <!--
 
