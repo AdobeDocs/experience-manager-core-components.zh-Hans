@@ -4,9 +4,9 @@ description: 使用可折叠项面板组件通过将表单拆分为更小、更�
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2202'
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
 
-- **隐藏标题** - 选中此选项以隐藏该组件的标题。
+- **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
 - **表单提交时对子组件的数据进行分组（将数据包装在对象中）** - 选择该选项后，子组件中的数据将嵌套在父组件的 JSON 对象中。但是，如果未选择该选项，则提交的 JSON 数据具有扁平结构，没有父组件的对象。例如：
 
@@ -201,13 +201,13 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 ### “允许使用的组件”选项卡 {#allowed-components-tab}
 
-![“设计”对话框允许的组件选项卡](/help//adaptive-forms/assets/accordion-allowed-components.png)
+![“设计”对话框允许使用的组件选项卡](/help//adaptive-forms/assets/accordion-allowed-components.png)
 
 通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器的可折叠项面板组件中的面板的组件。
 
 ### “样式”选项卡 {#styles-tab}
 
-![“设计”对话框“样式”选项卡](/help/adaptive-forms/assets/accordion-styles-tab.png)
+![“设计”对话框样式选项卡](/help/adaptive-forms/assets/accordion-styles-tab.png)
 
 “设计”对话框用于定义和管理组件的 CSS 样式。自适应表单可折叠项面板核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
@@ -215,19 +215,19 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
-### 自订属性
+### 自定义属性
 
-![折叠面板 — 自定义 — 属性 — 选项卡](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
+![accordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
 
-通过自定义属性，可使用表单模板将自定义属性（键值对）与自适应表单核心组件关联。 自定义属性反映在组件headless演绎版的属性部分中。 它允许创建根据自定义属性值调整的动态表单行为。 例如，开发人员可以为移动、桌面或Web平台设计Headless Forms组件的各种演绎版，从而显着提升各种设备上的用户体验。
+通过自定义属性，您可使用表单模板将自定义属性（键值对）关联到自适应表单核心组件。自定义属性反映在组件 Headless 演绎版的属性部分中。它可让您创建根据自定义属性值进行调整的动态表单行为。例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
 
-- **组名称**：您可以提供一个名称来标识自定义资产组。 您可以添加、删除或重新排列多个自定义属性组。 添加自定义属性组后，您可以看到以下选项：
+- **组名称**：您可以提供名称来标识自定义属性组。您可以添加、删除或重新排列多个自定义属性组。添加自定义属性组后，可看到以下选项：
 
-   - **键值对**：通过单击 **添加** 每个自定义属性组的按钮。
+   - **键值对**：您可以通过单击“**添加**”按钮，为每个自定义属性组添加多个自定义属性名称和自定义属性值。
 
-   - **删除**：点击或单击以删除自定义属性名称和自定义属性值。
+   - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
 
-   - **重新排列**：点击或单击并拖动以重新排列自定义属性名称和自定义属性值的顺序。
+   - **重新排列**：点按或单击并拖动可重新排列自定义属性名称和自定义属性值的顺序。
 
 ## 相关文章 {#related-articles}
 
