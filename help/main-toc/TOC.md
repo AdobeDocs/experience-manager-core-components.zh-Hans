@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '398'
+ht-degree: 100%
 
 ---
 
@@ -107,14 +107,14 @@ ht-degree: 0%
    + 自适应表单组件 {#adaptive-forms-components}
       + [自适应表单折叠](/help/adaptive-forms/components/accordion.md)
       + [自适应表单按钮](/help/adaptive-forms/components/button.md)
-      + [自适应Forms复选框](/help/adaptive-forms/components/checkbox.md)
+      + [自适应表单复选框](/help/adaptive-forms/components/checkbox.md)
       + [自适应表单复选框组](/help/adaptive-forms/components/checkbox-group.md)
       + [自适应表单容器](/help/adaptive-forms/components/form-container.md)
       + [自适应表单日期选取器](/help/adaptive-forms/components/date-picker.md)
       + [自适应表单下拉列表](/help/adaptive-forms/components/drop-down.md)
       + [自适应表单电子邮件输入](/help/adaptive-forms/components/email-input.md)
       + [自适应表单文件附件](/help/adaptive-forms/components/file-attachment.md)
-      + [自适应Forms垂直选项卡](/help/adaptive-forms/components/vertical-tabs.md)
+      + [自适应表单垂直选项卡](/help/adaptive-forms/components/vertical-tabs.md)
       + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
       + [自适应表单图像](/help/adaptive-forms/components/image.md)
       + [自适应表单数值输入](/help/adaptive-forms/components/number-input.md)
@@ -128,7 +128,7 @@ ht-degree: 0%
       + [自适应表单文本框](/help/adaptive-forms/components/text-input.md)
       + [自适应表单标题](/help/adaptive-forms/components/title.md)
       + [自适应表单向导布局](/help/adaptive-forms/components/wizard.md)
-      + [自适应Forms条款和条件](/help/adaptive-forms/components/terms-and-conditions.md)
+      + [自适应表单条款和条件](/help/adaptive-forms/components/terms-and-conditions.md)
       + [页眉](/help/adaptive-forms/components/header.md)
       + [页脚](/help/adaptive-forms/components/footer.md)
    + [自定义自适应表单核心组件](/help/developing/customize-adaptive-forms-core-components.md)
