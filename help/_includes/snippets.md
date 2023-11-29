@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # 代码片段 {#snippets}
@@ -54,7 +54,7 @@ ht-degree: 97%
 - [将自适应表单数据发送到 AEM 工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
 - [使用 Forms 门户在 AEM 网站上列出 AEM 自适应表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)
 
-## 更多此类内容 {#more-like-this}
+## 更多与此类似的内容 {#more-like-this}
 
 - [可折叠项](/help/adaptive-forms/components/accordion.md)
 - [按钮](/help/adaptive-forms/components/button.md)
@@ -71,7 +71,7 @@ ht-degree: 97%
 - [数字输入](/help/adaptive-forms/components/number-input.md)
 - [面板容器](/help/adaptive-forms/components/panel-container.md)
 - [“水平”选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
-- [垂直选项卡](/help/adaptive-forms/components/vertical-tabs.md)
+- [“垂直”选项卡](/help/adaptive-forms/components/vertical-tabs.md)
 - [单选按钮](/help/adaptive-forms/components/radio-button.md)
 - [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
 - [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
@@ -79,6 +79,6 @@ ht-degree: 97%
 - [文本输入](/help/adaptive-forms/components/text-input.md)
 - [文本](/help/adaptive-forms/components/text.md)
 - [标题](/help/adaptive-forms/components/title.md)
-- [条款和条件选项卡](/help/adaptive-forms/components/terms-and-conditions.md)
+- [“条款和条件”选项卡](/help/adaptive-forms/components/terms-and-conditions.md)
 - [向导](/help/adaptive-forms/components/wizard.md)
 
