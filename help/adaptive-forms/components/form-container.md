@@ -4,9 +4,9 @@ description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -70,8 +70,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“提交”选项卡](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
 
-您可以使用表单数据模型将表单连接到数据源，以根据用户操作发送和接收数据。 您还可以将表单连接到JSON架构，以预定义格式接收提交的数据。 根据要求，将表单连接到JSON架构或表单数据模型：
-- 创建JSON架构并上传到您的环境
+您可以使用表单数据模型将表单连接到数据源，以根据用户操作来发送和接收数据。您还可以将表单连接到 JSON 架构，以接收预定义格式的提交数据。根据要求，将表单连接到 JSON 架构或表单数据模型：
+- 创建 JSON 架构并上传到您的环境
 - 创建表单数据模型
 
 ### “提交”选项卡 {#submission-tab}
@@ -90,25 +90,25 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于为表单容器组件定义和管理CSS样式。
+“设计”对话框用于定义和管理表单容器组件的 CSS 样式。
 
 ### “允许使用的组件”选项卡 {#allowed-components-tab}
 
-![“设计”对话框允许的组件选项卡](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
+![“设计”对话框允许使用的组件选项卡](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-此 **允许的组件** 选项卡允许模板编辑器设置组件，这些组件可以在自适应Forms编辑器的组件中作为项目添加到面板。
+通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑器可设置组件，这些组件可作为项添加到自适应表单编辑器组件中的面板。
 
 ### “默认组件”选项卡 {#default-components-tab}
 
-![“设计”对话框的默认组件选项卡](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
+![“设计”对话框默认组件选项卡](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
 
-此 **默认组件** 选项卡允许模板编辑器指定在自适应Forms编辑器中作为表单容器组件中的项目默认显示的组件。
+通过&#x200B;**默认组件**&#x200B;选项卡，模板编辑器可指定默认情况下作为项显示在自适应表单编辑器中的表单容器组件中的组件。
 
 ### “响应式设置”选项卡 {#responsive-tab}
 
 ![“设计”对话框响应式设置选项卡](/help/adaptive-forms/assets/formcontainer-responsivestyle.png)
 
-此 **响应设置** 选项卡允许模板编辑器在自适应Forms编辑器中指定表单容器组件内网格中的列数。
+通过&#x200B;**响应式设置**&#x200B;选项卡，模板编辑器可指定自适应表单编辑器中的表单容器组件内的网格列数。
 
 ### “样式”选项卡 {#styles-tab}
 
@@ -122,17 +122,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “自定义属性”选项卡
 
-![自定义属性对话框](/help/adaptive-forms/assets/formcontainer-custompropertiestab.png)
+![“自定义属性”对话框](/help/adaptive-forms/assets/formcontainer-custompropertiestab.png)
 
-通过自定义属性，可使用表单模板将自定义属性（键值对）与自适应表单核心组件关联。 自定义属性反映在组件headless演绎版的属性部分中。 它允许创建根据自定义属性值调整的动态表单行为。 例如，开发人员可以为移动、桌面或Web平台设计Headless Forms组件的各种演绎版，从而显着提升各种设备上的用户体验。
+通过自定义属性，您可使用表单模板将自定义属性（键值对）关联到自适应表单核心组件。自定义属性反映在组件 Headless 演绎版的属性部分中。它可让您创建根据自定义属性值进行调整的动态表单行为。例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
 
-- **组名称**：您可以提供一个名称来标识自定义资产组。 您可以添加、删除或重新排列多个自定义属性组。 添加自定义属性组后，您可以看到以下选项：
+- **组名称**：您可以提供名称来标识自定义属性组。您可以添加、删除或重新排列多个自定义属性组。添加自定义属性组后，可看到以下选项：
 
-   - **键值对**：通过单击 **添加** 每个自定义属性组的按钮。
+   - **键值对**：您可以通过单击“**添加**”按钮，为每个自定义属性组添加多个自定义属性名称和自定义属性值。
 
-   - **删除**：点击或单击以删除自定义属性名称和自定义属性值。
+   - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
 
-   - **重新排列**：点击或单击并拖动以重新排列自定义属性名称和自定义属性值的顺序。
+   - **重新排列**：点按或单击并拖动可重新排列自定义属性名称和自定义属性值的顺序。
 
 <!--
 
