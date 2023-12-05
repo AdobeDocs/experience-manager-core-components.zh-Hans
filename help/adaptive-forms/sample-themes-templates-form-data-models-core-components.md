@@ -6,10 +6,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
-workflow-type: ht
-source-wordcount: '1304'
-ht-degree: 100%
+source-git-commit: ef86dfa62df0ac7f34ec1c4c4175e8a8132c8aed
+workflow-type: tm+mt
+source-wordcount: '1239'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 按照下方为 **AEM as a Cloud Service** 环境给出的以下步骤获取这些主题：
 
 1. [启用自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
-1. [将 AEM Archetype 45 项目部署到您的环境](https://github.com/adobe/aem-project-archetype)
+1. [将AEM Archetype 47项目或更高版本部署到您的环境](https://github.com/adobe/aem-project-archetype)
 
 
 在部署 AEM Archetype 时，您只能在表单中使用 OOTB 主题。要根据您的要求自定义这些主题，请[使用前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)部署这些主题。
@@ -56,7 +56,7 @@ ht-degree: 100%
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -66,9 +66,9 @@ ht-degree: 100%
 
 <!--
 
-### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -124,7 +124,7 @@ FSI 主题强调让您的表单看起来简洁实用。在应用 FSI 主题时�
 模板定义初始表单结构、内容和要在表单中重复执行的操作，或使用与表单类似的模板结构，例如同意表单、福利登记表单等。
 
 **如何获取这些模板？**
-通过将 [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) 部署到您的 **AEM Forms as a Cloud Service** 环境或 **AEM 6.5 Forms** 环境即可获取这些模板。
+您可以通过部署 [AEM Archetype 45或更高版本](https://github.com/adobe/aem-project-archetype) 敬您的 **AEM Formsas a Cloud Service** 环境或 **AEM 6.5 Forms** 环境。
 
 <!--
 
