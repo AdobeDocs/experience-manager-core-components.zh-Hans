@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 0f0c20c9fba6f062021721d6f48a42cc830b5a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 按照下方为 **AEM as a Cloud Service** 环境给出的以下步骤获取这些主题：
 
 1. [启用自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
-1. [将AEM Archetype 47项目或更高版本部署到您的环境](https://github.com/adobe/aem-project-archetype)
+1. [将 AEM Archetype 47 项目或更高版本部署到您的环境](https://github.com/adobe/aem-project-archetype)
 
 
 在部署 AEM Archetype 时，您只能在表单中使用 OOTB 主题。要根据您的要求自定义这些主题，请[使用前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)部署这些主题。
@@ -125,7 +125,7 @@ FSI 主题强调让您的表单看起来简洁实用。在应用 FSI 主题时�
 
 **如何获取这些模板？**
 
-您可以通过部署 [AEM Archetype 47或更高版本](https://github.com/adobe/aem-project-archetype) 敬您的 **AEM Formsas a Cloud Service** 环境或 **AEM 6.5 Forms** 环境。
+通过将 [AEM Archetype 47 或更高版本](https://github.com/adobe/aem-project-archetype)部署到您的 **AEM Forms as a Cloud Service** 环境或 **AEM 6.5 Forms** 环境即可获取这些模板。
 
 <!--
 
