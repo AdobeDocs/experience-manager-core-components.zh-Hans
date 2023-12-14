@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单条款和条件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2633'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 99%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.62 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.28 的一部分，自适应表单可折叠项面板核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+2023 年 2 月作为 Cloud Service 核心组件 2.0.62 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.28 的一部分发布了自适应表单可折叠项面板核心组件。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 兼容<br>[发行版本2.0.62](/help/adaptive-forms/version.md) 及更高版本 | 兼容<br>[版本 1.1.28](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
+| v1 | 与<br>[版本 2.0.62](/help/adaptive-forms/version.md) 和更高版本兼容 | 与<br>[版本 1.1.28](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本兼容。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
