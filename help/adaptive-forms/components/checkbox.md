@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单复选框核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 97%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应Forms复选框核心组件作为核心组件2.0.52的一部分发布。下表显示了所有支持的版本、AEM兼容性以及相应文档的链接：
+作为核心组件 2.0.52 的一部分发布了自适应表单复选框核心组件。下表展示了所有支持的版本、AEM 兼容性和相应文档的链接：
 
 |  |  |
 |---|---|
 | 组件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 兼容<br>[发行版本2.0.52](/help/versions.md) 及更高版本 | 兼容 | 兼容 |
+| v1 | 与<br>[版本 2.0.52](/help/versions.md) 和更高版本兼容 | 兼容 | 兼容 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
 
