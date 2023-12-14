@@ -1,12 +1,12 @@
 ---
 title: AEM Forms 核心组件版本
-description: AEM核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。 本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
+description: 作为可包含同一核心组件的多个版本的发行版发布 AEM 核心组件。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,25 +20,25 @@ ht-degree: 85%
 
 | 发行版本 | 描述 | AEM as a Cloud Service | Java™ | 发布日期 |
 |---|---|---|---|---|
-| [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | 在此版本中，AEM Forms中的提交操作会更新提交错误。 | 连续 | 8, 11 | 2023 年 11 月 15 日 |
+| [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | 此版本更新了 AEM Forms 中“提交”操作的提交错误。 | 连续 | 8, 11 | 2023 年 11 月 15 日 |
 | [2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70) | 此版本添加了对处理表单容器中的站点页面语言的支持。 | 连续 | 8, 11 | 2023 年 11 月 10 日 |
 | [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | 支持单选/复选框组件的标签的富文本。此版本还包含对条款和条件组件的修复。 | 连续 | 8, 11 | 2023 年 11 月 6 日 |
-| [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | 在此版本中，添加了对“条款和条件”组件的支持。 还添加了对核心组件中的限定名称的支持。 | 连续 | 8, 11 | 2023 年 10 月 16 日 |
-| [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | 此版本包括与自定义属性功能、向导和日期选取器组件相关的修复。 | 连续 | 8, 11 | 2023 年 9 月 12 日 |
-| [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | 在此版本中，添加了对于所有核心组件的自定义属性的支持。 | 连续 | 8, 11 | 2023 年 9 月 12 日 |
+| [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | 此版本添加了对条款和条件组件的支持。还添加了对核心组件中的限定名称的支持。 | 连续 | 8, 11 | 2023 年 10 月 16 日 |
+| [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | 此版本包含与自定义属性功能、向导和日期选取器组件相关的修复。 | 连续 | 8, 11 | 2023 年 9 月 12 日 |
+| [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | 此版本添加了对所有核心组件的自定义属性的支持。 | 连续 | 8, 11 | 2023 年 9 月 12 日 |
 | [2.0.54](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.54) | 此版本修复了与日期选取器组件的本地化相关的问题。 | 连续 | 8, 11 | 2023 年 8 月 30 日 |
 | [2.0.52](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.52) | 支持在自适应表单中使用复选框组件。 | 连续 | 8, 11 | 2023 年 8 月 25 日 |
 | [2.0.50](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.50) | 此版本添加了对自适应表单中的表单片段的支持。 | 连续 | 8, 11 | 2023 年 4 月 8 日 |
-| [2.0.48](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.48) | 此版本中的主要改进与Lighthouse性能有关。 | 连续 | 8, 11 | 2023 年 7 月 25 日 |
+| [2.0.48](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.48) | 此版本的主要改进与 Lighthouse 性能有关。 | 连续 | 8, 11 | 2023 年 7 月 25 日 |
 | [2.0.42](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.42) | 此版本包含了编程端的改进。 | 连续 | 8, 11 | 2023 年 7 月 18 日 |
 | [2.0.38](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.38) | 此版本改进了辅助功能。 | 连续 | 8, 11 | 2023 年 7 月 17 日 |
 | [2.0.36](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.36) | 在此版本中，您可以通过规则编辑器的调用服务来使用自定义错误处理程序。 | 连续 | 8, 11 | 2023 年 7 月 3 日 |
 | [2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | 添加了对默认错误消息的本地化支持以及可重复组件的“添加/删除”按钮。 | 连续 | 8, 11 | 2023 年 6 月 28 日 |
 | [2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | 此版本添加了对自适应表单的验证码的支持。 | 连续 | 8, 11 | 2023 年 6 月 15 日 |
 | [2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | 支持在 AEM Sites 上添加自适应表单。 | 连续 | 8, 11 | 2023 年 6 月 7 日 |
-| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | 通过该发行版本，支持折叠组件的重复性。 还添加了一个新组件作为垂直选项卡。 | 连续 | 8, 11 | 2023 年 6 月 5 日 |
+| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | 此版本支持可折叠项组件的可重复性。还添加了一个垂直选项卡形式的新组件。 | 连续 | 8, 11 | 2023 年 6 月 5 日 |
 | [2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | 在此版本中，Sites 编辑器中引入了对自适应表单容器组件的支持。 | 连续 | 8, 11 | 2023 年 3 月 17 日 |
-| [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | 此发行版本引入了向导组件的重复特性。 | 连续 | 8, 11 | 2023 年 3 月 3 日 |
+| [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | 此版本中引入了向导组件的可重复性功能。 | 连续 | 8, 11 | 2023 年 3 月 3 日 |
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | 此版本中引入了数字输入核心组件的多种格式。 | 连续 | 8, 11 | 2023 年 2 月 8 日 |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | 此版本中引入了对 AEM as a Cloud Service 核心组件的支持。 | 连续 | 8, 11 | 2023 月 1 月 30 日 |
 
