@@ -4,9 +4,9 @@ description: 了解核心组件如何利用 AEM as a Cloud Service 的 Web 优�
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
-workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1022'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Web 优化图像服务会考虑所有 2048 像素和更小的图像呈现，并�
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-**请注意，并非通过在AEM Sites CS上运行的核心组件构建的直接URL嵌入体验，违反了Media Library许可条款。**
+**请注意，将 URL 直接嵌入到并非通过在 AEM Sites CS 上运行的核心组件构建的体验中违反媒体库许可条款。**
 
 ### 新图像服务投放的图像的 URL 是什么？ {#url}
 
