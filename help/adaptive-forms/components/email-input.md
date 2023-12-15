@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 电子邮件输入
 description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
@@ -96,9 +96,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最小字符数错误消息** - 如果您输入的字符数小于在&#x200B;**最小字符数**&#x200B;选项中指定的值，**最小字符数错误消息**&#x200B;对话框允许您添加自定义错误消息。
 <br>
 
-    通过“**验证模式**”选项，可输入某种模式以验证所输入的电子邮件 ID。如果通过在“**模式**”选项中输入的值无法验证电子邮件 ID，则屏幕上显示错误消息。
-    - **模式** - 通过此选项，可输入允许用于电子邮件的验证模式。也可以使用正则表达式。
-    - **错误消息** - 通过此选项，可输入如果通过在“**模式**”选项中输入的值无法验证电子邮件 ID，则屏幕上显示的错误消息。
+此 **验证模式** 选项允许您输入模式来验证输入的电子邮件ID。 如果电子邮件ID无法通过中输入的值进行验证 **图案** 选项，屏幕上将显示错误消息。
+
+- **图案**  — 此选项允许您为电子邮件输入允许的验证模式。 也可以使用正则表达式。
+- **错误消息**  — 利用此选项，可输入在电子邮件ID无法通过中输入的值进行验证时在屏幕上显示的消息。 **图案** option
 
 ### “帮助内容”选项卡 {#help-content-tab}
 
