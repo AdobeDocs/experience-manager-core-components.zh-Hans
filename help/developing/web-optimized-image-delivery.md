@@ -4,9 +4,9 @@ description: 了解核心组件如何利用 AEM as a Cloud Service 的 Web 优�
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -88,9 +88,9 @@ Web 优化图像服务会考虑所有 2048 像素和更小的图像呈现，并�
 
 ### 我能否将 Web 优化图像投放与我自己的组件结合使用？
 
-可以，由构建的自定义组件可以使用Web优化图像投放服务 [扩展图像组件，](/help/developing/customizing.md)
+可以，自定义组件可使用 Web 优化的图像投放服务（通过[扩展图像组件](/help/developing/customizing.md)构建这些自定义组件）。
 
-以下是一个服务界面，可用于帮助生成资产 URL。
+以下是可用于帮助生成资源 URL 的服务借口。
 
 ```
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
@@ -98,7 +98,7 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->直接URL嵌入的体验不是通过在AEM Sites CS上运行的核心组件构建的，这违反了Media Library许可条款。
+>将 URL 直接嵌入到并非通过在 AEM Sites CS 上运行的核心组件构建的体验中违反媒体库许可条款。
 
 ### 新图像服务投放的图像的 URL 是什么？ {#url}
 
