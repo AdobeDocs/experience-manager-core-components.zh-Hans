@@ -1,0 +1,161 @@
+---
+title: 自适应表单片段
+description: 使用表单片段创建表单片段或字段组，并在自适应Forms中重复使用，以提高效率和可重复使用性。
+role: Architect, Developer, Admin, User
+source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
+workflow-type: tm+mt
+source-wordcount: '1675'
+ht-degree: 66%
+
+---
+
+
+# 表单片段组件 {#form-fragment-component-adaptive-forms-core-component}
+
+自适应Forms提供了一种创建表单区段（如面板或字段组）的简便方法，以便它们可以在不同的自适应Forms中重复使用。 这些可重复使用的独立区段称为 [自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
+
+您可以 [将片段多次添加到文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) 并使用其组件的数据绑定属性将其绑定到不同的数据源或架构。 例如，您可以将相同的地址片段用于永久地址、通信地址和账单地址，并将其连接到数据源或架构的不同字段。
+
+![示例](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
+
+
+您也可以使用 [重复性选项](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 要复制表单片段组件及其子组件，请定义最小和最大重复计数，并便于表单内类似部分的复制。
+
+>[!NOTE]
+>
+> 您可以 [创建自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) 从头开始或将现有自适应表单中的面板另存为片段。
+
+## 用途 {#usage}
+
+- **可重用性**：能够在多个自适应Forms中重用表单片段是使用表单片段的主要优势。 它有助于保持设计和功能的一致性，因为对片段所做的更改会反映在使用片段的所有实例中。
+
+- **一致的用户体验**：将表单片段用于常见元素，例如页眉或页脚，可确保一致且一致的用户体验。
+
+- **轻松维护**：对表单片段所做的更改或修改会反映在使用表单片段的所有实例中。 它简化了维护，减少了出错的机会。
+
+- **效率**：设计人员和开发人员只需构建和测试表单片段一次，从而节省时间。 然后，这些表单片段可以轻松合并到多个自适应Forms中，而无需进行冗余工作。
+
+## 版本和兼容性 {#version-and-compatibility}
+
+自适应Forms片段核心组件作为核心组件2.0.50 (适用于Cloud Service)和核心组件1.1.26 (适用于AEM 6.5.16.0 Forms或更高版本)的一部分发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+
+| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
+|---|---|---|
+| v1 | 与<br>[版本 2.0.50](/help/adaptive-forms/version.md) 和更高版本兼容 | 与<br>[版本 1.1.26](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本兼容。 |
+
+有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
+
+## 技术详细信息 {#technical-details}
+
+在以下位置的技术文档中获取有关自适应Forms片段核心组件的最新信息： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+
+## “配置”对话框 {#configure-dialog}
+
+通过“配置”对话框，您可以轻松自定义访客的片段体验。 您还可以轻松定义片段属性，以实现无缝用户体验。
+
+### “基本”选项卡 {#basic-tab}
+
+![“基本”选项卡](/help/adaptive-forms/assets/fragment-basictab.png)
+
+- **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
+
+- **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
+
+- **隐藏标题** - 选中此选项可隐藏该组件的标题。
+
+- **表单提交时对子组件的数据进行分组（将数据包装在对象中）** - 选择该选项后，子组件中的数据将嵌套在父组件的 JSON 对象中。但是，如果未选择该选项，则提交的 JSON 数据具有扁平结构，没有父组件的对象。例如：
+
+   - 选择该选项后，子组件中的数据（例如，街道、城市和邮政编码）将作为 JSON 对象嵌套在父组件（地址）中。这将创建一个层次结构，并且数据组织在父组件下。
+
+     提交数据的结构：
+
+     ```JSON
+     { "Address":
+     
+     { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     
+     }
+     ```
+
+   - 当未选择该选项时，提交的 JSON 数据具有扁平结构，没有父组件（地址）的对象。所有数据都处于同一级别，没有任何层级组织。
+
+
+     提交数据的结构：
+
+     ```JSON
+        { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     ```
+
+- **片段引用**  — 片段引用是对存储在外部数据源中并在表单中使用的表单片段的引用。 片段引用允许您动态地将表单片段绑定到表单。
+
+- **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
+
+- **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
+- **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
+- **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
+
+### “重复片段”选项卡 {#repeat-tab}
+
+![“重复片段”选项卡](/help/adaptive-forms/assets/fragment-repeattab.png)
+
+- **使片段可重复**：允许用户启用或禁用重复性功能的切换功能。
+- **最小重复次数**：建立片段组件可重复的最小次数。 值为零表示不重复片段组件；默认值为0。
+- **最大重复次数**：设置片段组件可重复的最大次数。 默认情况下，此值无限制。
+
+### “帮助内容”选项卡 {#help-content}
+
+![“帮助内容”选项卡](/help/adaptive-forms/assets/fragment-helptab.png)
+
+- **简短描述** - 简短描述是一段简短的文字说明，其中提供关于特定表单字段的用途的其他信息或阐述。它帮助用户了解应将什么类型的数据输入到字段中，并可提供准则或示例以帮助确保所输入的信息有效且符合预期的标准。默认情况下，简短描述保持隐藏状态。启用&#x200B;**始终显示简短描述**&#x200B;选项以在组件下方显示它。
+
+- **始终显示简短描述** - 启用该选项以在组件下方显示简短描述。
+
+- **帮助文本** - 帮助文本是指提供给用户以帮助其正确填写表单字段的其他信息或指导。当用户单击组件旁的“帮助”图标 (i) 时显示它。帮助文本提供比表单字段的标签或占位符文本更详细的信息，旨在帮助用户了解该字段的要求或限制。它还可提供建议或示例，以使填写表单更轻松且更准确。
+
+### 辅助功能 {#accessibility}
+
+![“辅助功能”选项卡](/help/adaptive-forms/assets/fragment-accessibilitytab.png)
+
+- **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
+
+## “设计”对话框 {#design-dialog}
+
+“设计”对话框用于定义和管理表单片段组件的CSS样式。
+
+### “样式”选项卡 {#styles-tab}
+
+自适应表单片段核心组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling).
+
+![“设计”对话框](/help/adaptive-forms/assets/checkbox-style.png)
+
+- **默认CSS类**：您可以为自适应表单片段核心组件提供默认CSS类。
+
+- **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+
+### 自定义属性
+
+![“自定义属性”对话框](/help/adaptive-forms/assets/checkbox-customproperties.png)
+
+通过自定义属性，可使用表单模板将自定义属性（键值对）与自适应表单核心组件关联。 自定义属性反映在组件 Headless 演绎版的属性部分中。它可让您创建根据自定义属性值进行调整的动态表单行为。例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
+
+- **组名称**：您可以提供名称来标识自定义属性组。您可以添加、删除或重新排列多个自定义属性组。添加自定义属性组后，可看到以下选项：
+
+   - **键值对**：您可以通过单击“**添加**”按钮，为每个自定义属性组添加多个自定义属性名称和自定义属性值。
+
+   - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
+
+   - **重新排列**：点击或单击并拖动以重新排列自定义属性名称和自定义属性值。
+
+## 相关文章 {#related-articles}
+
+{{more-like-this}}
+
+## 另请参阅 {#see-also}
+
+{{see-also}}
+
+
+
+
+
+
