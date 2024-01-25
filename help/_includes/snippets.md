@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 99%
 
 ---
 # 代码片段 {#snippets}
@@ -65,6 +65,7 @@ ht-degree: 100%
 - [电子邮件输入](/help/adaptive-forms/components/email-input.md)
 - [表单容器](/help/adaptive-forms/components/form-container.md)
 - [文件附件](/help/adaptive-forms/components/file-attachment.md)
+- [表单片段](/help/adaptive-forms/components/form-fragment.md)
 - [页脚](/help/adaptive-forms/components/footer.md)
 - [页眉](/help/adaptive-forms/components/header.md)
 - [图像](/help/adaptive-forms/components/image.md)
@@ -75,6 +76,7 @@ ht-degree: 100%
 - [单选按钮](/help/adaptive-forms/components/radio-button.md)
 - [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
 - [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
+- [开关](/help/adaptive-forms/components/switch.md)
 - [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
 - [文本输入](/help/adaptive-forms/components/text-input.md)
 - [文本](/help/adaptive-forms/components/text.md)

@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 复选框
 description: 使用或自定义自适应表单复选框核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: ht
-source-wordcount: '1692'
-ht-degree: 100%
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '1691'
+ht-degree: 98%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 100%
 |---|---|
 | 组件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 与<br>[版本 2.0.52](/help/versions.md) 和更高版本兼容 | 兼容 | 兼容 |
+| v1 | 与<br>[版本 2.0.52](/help/adaptive-forms/version.md) 和更高版本兼容 | 兼容 | 兼容 |
 
-有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
+有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
 ## 技术详细信息 {#technical-details}
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 ![“设计”对话框](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **默认 CSS 类**：可为自适应表单复选框组核心组件提供默认 CSS 类。
+- **默认CSS类**：您可以为自适应Forms复选框核心组件提供默认的CSS类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 

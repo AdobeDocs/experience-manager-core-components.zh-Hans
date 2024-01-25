@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 条款和条件
 description: 使用或自定义自适应表单条款和条件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: ht
-source-wordcount: '2633'
-ht-degree: 100%
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '2635'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ## 技术详细信息 {#technical-details}
 
-可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup) 上的技术文档中获得关于自适应表单复选框组核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在以下位置的技术文档中获取有关自适应Forms条款和条件核心组件的最新信息： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
 ![“设计”对话框](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **默认 CSS 类**：可为自适应表单复选框组核心组件提供默认 CSS 类。
+- **默认CSS类**：您可以为自适应Forms条款和条件核心组件提供默认CSS类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
