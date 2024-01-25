@@ -3,9 +3,9 @@ title: 自适应表单可折叠项面板
 description: 使用可折叠项面板组件通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
-source-wordcount: '2202'
+source-wordcount: '2174'
 ht-degree: 100%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 100%
 |---|---|
 | 组件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 兼容<br>[版本 2.0.4](/help/versions.md) 和更高版本 | 兼容 | 兼容 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 兼容 | 兼容 |
 
-有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
+有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
 <!-- ## Sample Component Output {#sample-component-output}
 
