@@ -5,10 +5,10 @@ breadcrumb-title: 核心组件指南
 feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 97%
 
 ---
 
@@ -113,6 +113,7 @@ ht-degree: 100%
       + [自适应表单日期选取器](/help/adaptive-forms/components/date-picker.md)
       + [自适应表单下拉列表](/help/adaptive-forms/components/drop-down.md)
       + [自适应表单电子邮件输入](/help/adaptive-forms/components/email-input.md)
+      + [自适应Forms表单片段](/help/adaptive-forms/components/form-fragment.md)
       + [自适应表单文件附件](/help/adaptive-forms/components/file-attachment.md)
       + [自适应表单垂直选项卡](/help/adaptive-forms/components/vertical-tabs.md)
       + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -123,6 +124,7 @@ ht-degree: 100%
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
       + [自适应表单重置按钮](/help/adaptive-forms/components/reset-button.md)
       + [自适应表单提交按钮](/help/adaptive-forms/components/submit-button.md)
+      + [自适应Forms交换机](/help/adaptive-forms/components/switch.md)
       + [自适应表单电话号码输入](/help/adaptive-forms/components/telephone-input.md)
       + [自适应表单文本](/help/adaptive-forms/components/text.md)
       + [自适应表单文本框](/help/adaptive-forms/components/text-input.md)
@@ -152,13 +154,6 @@ ht-degree: 100%
    + AEM 项目原型 {#archetype}
       + [原型概述](/help/developing/archetype/overview.md)
       + [使用原型](/help/developing/archetype/using.md)
-      + [核心模块](/help/developing/archetype/core.md)
-      + [ui.apps 模块](/help/developing/archetype/uiapps.md)
+      + [前端开发](/help/developing/archetype/front-end.md)
       + [预编译的捆绑脚本](/help/developing/archetype/precompiled-bundled-scripts.md)
-      + [ui.content 模块](/help/developing/archetype/uicontent.md)
-      + [ui.frontend.general 模块](/help/developing/archetype/uifrontend.md)
-      + [ui.frontend.react 模块](/help/developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular 模块](/help/developing/archetype/uifrontend-angular.md)
-      + [ui.tests 模块](/help/developing/archetype/uitests.md)
-      + [it.tests 模块](/help/developing/archetype/ittests.md)
       + [构建分析器 Maven 插件](/help/developing/archetype/build-analyzer-maven-plugin.md)
