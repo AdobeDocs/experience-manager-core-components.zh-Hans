@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 表单容器
 description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: ht
-source-wordcount: '1243'
-ht-degree: 100%
+source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
+workflow-type: tm+mt
+source-wordcount: '1297'
+ht-degree: 91%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 <!-- ## Sample Component Output {#sample-component-output}
@@ -64,7 +64,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **预填充服务** - 通过此选项，用户可选择一项预填充服务以供在呈现自适应表单时检索数据。详细了解[如何创建和配置预填充服务](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=zh-Hans#aem-forms-custom-prefill-service)。
 
-- **客户端库类别** - 用户可以为每个自适应表单配置自定义 JavaScript 库。建议只保留库中可重用的函数，这些函数依赖 jquery 和 underscore.js 第三方库。
+- **客户端库类别** - 用户可以为每个自适应表单配置自定义 JavaScript 库。建议在库中仅保留可重用的函数，这些函数依赖于jquery和underscore.js第三方库。
+有时候，如果有 **复杂验证规则**，则精确验证脚本驻留在自定义函数中，用户从字段验证表达式中调用这些自定义函数。 要使此自定义函数库在执行服务器端验证时已知且可用，表单用户可以在下配置AEM客户端库的名称 **[!UICONTROL 基本]** 自适应表单容器属性的选项卡，如下所示。
+
+用户可以根据自适应表单配置自定义JavaScript库。 该库中只保留可重用的函数，这些函数依赖 jquery 和 underscore.js 第三方库。
 
 ### “数据模型”选项卡 {#data-model-tab}
 
@@ -116,7 +119,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“设计”对话框](/help/adaptive-forms/assets/formcontainer-styletab.png)
 
-- **默认 CSS 类**：可为自适应表单复选框组核心组件提供默认 CSS 类。
+- **默认CSS类**：您可以为自适应Forms表单容器核心组件提供默认的CSS类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 

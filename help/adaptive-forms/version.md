@@ -3,10 +3,10 @@ title: AEM Forms 核心组件版本
 description: 作为可包含同一核心组件的多个版本的发行版发布 AEM 核心组件。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 5ba402a0f781f73fe7eb5afc9b4beb47ba28851e
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 91%
 
 ---
 
@@ -20,9 +20,10 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM as a Cloud Service | Java™ | 发布日期 |
 |---|---|---|---|---|
+| [2.0.76](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.76) | 在此版本中，条款和条件组件的样式选项卡和自定义属性选项卡已修复。 此发行版本还修复了单选按钮组件，用于保存第一次单击的布尔值。 | 连续 | 8, 11 | 2023 年 11 月 15 日 |
 | [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | 此版本更新了 AEM Forms 中“提交”操作的提交错误。 | 连续 | 8, 11 | 2023 年 11 月 15 日 |
 | [2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70) | 此版本添加了对处理表单容器中的站点页面语言的支持。 | 连续 | 8, 11 | 2023 年 11 月 10 日 |
-| [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | 支持单选/复选框组件的标签的富文本。此版本还包含对条款和条件组件的修复。 | 连续 | 8, 11 | 2023 年 11 月 6 日 |
+| [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | 支持单选/复选框组件的标签的富文本。在此版本中，还增加了对Switch组件的支持。 此版本还包含对条款和条件组件的修复。 | 连续 | 8, 11 | 2023 年 11 月 6 日 |
 | [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | 此版本添加了对条款和条件组件的支持。还添加了对核心组件中的限定名称的支持。 | 连续 | 8, 11 | 2023 年 10 月 16 日 |
 | [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | 此版本包含与自定义属性功能、向导和日期选取器组件相关的修复。 | 连续 | 8, 11 | 2023 年 9 月 12 日 |
 | [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | 此版本添加了对所有核心组件的自定义属性的支持。 | 连续 | 8, 11 | 2023 年 9 月 12 日 |
@@ -49,8 +50,8 @@ ht-degree: 100%
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | Java™ | 发布日期 |
 |---|---|---|---|---|---|
 | [1.1.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.32) | 此版本更新了 AEM Service Pack 6.5.18.0 的包信息。 | - | 6.5.16.0+ | 8, 11 | 2023 年 10 月 15 日 |
-| [1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | 支持单选/复选框组件的标签的富文本。此版本还包含对条款和条件组件的支持。 | - | 6.5.16.0+ | 8, 11 | 2023 年 10 月 15 日 |
-| [1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | 此版本添加了对自适应表单的复选框组件的支持。它还包含 Lighthouse 性能改进。使用规则编辑器的调用服务的自定义错误处理程序也包含在此版本中。 | - | 6.5.16.0+ | 8, 11 | 2023 年 10 月 15 日 |
+| [1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | 支持单选/复选框组件的标签的富文本。此发行版本还包含对条款和条件组件以及交换机组件的支持。 | - | 6.5.16.0+ | 8, 11 | 2023 年 10 月 15 日 |
+| [1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | 在此版本中，添加了对自适应表单和表单片段的复选框组件的支持。 它还包含 Lighthouse 性能改进。使用规则编辑器的调用服务的自定义错误处理程序也包含在此版本中。 | - | 6.5.16.0+ | 8, 11 | 2023 年 10 月 15 日 |
 | [1.1.24](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.24) | 添加了对默认错误消息的本地化支持以及可重复组件的“添加/删除”按钮。还添加了对自适应表单中的验证码的支持。 | - | 6.5.16.0+ | 8, 11 | 2023 年 6 月 29 日 |
 | [1.1.22](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.22) | 支持在 AEM Sites 上添加自适应表单。在向导和垂直选项卡组件的“编辑”对话框中添加了“项目”选项卡。 | - | 6.5.16.0+ | 8, 11 | 2023 年 6 月 7 日 |
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | 此版本中引入了对内部部署 AEM Forms 和 AMS 核心组件的支持。 | - | 6.5.16.0+ | 8, 11 | 2023 年 2 月 8 日 |
