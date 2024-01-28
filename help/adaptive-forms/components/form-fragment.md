@@ -1,43 +1,43 @@
 ---
 title: 自适应表单片段
-description: 使用表单片段创建表单片段或字段组，并在自适应Forms中重复使用，以提高效率和可重复使用性。
+description: 使用表单片段创建表单区段或字段组，并在自适应表单中重复使用它们以提高效率和可重用性。
 role: Architect, Developer, Admin, User
 source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 表单片段组件 {#form-fragment-component-adaptive-forms-core-component}
 
-自适应Forms提供了一种创建表单区段（如面板或字段组）的简便方法，以便它们可以在不同的自适应Forms中重复使用。 这些可重复使用的独立区段称为 [自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
+自适应表单提供了一种创建表单区段（例如面板或字段组）的方便方法，以便在不同的自适应表单中重复使用它们。这些可重用的独立区段称为[自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)。
 
-您可以 [将片段多次添加到文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) 并使用其组件的数据绑定属性将其绑定到不同的数据源或架构。 例如，您可以将相同的地址片段用于永久地址、通信地址和账单地址，并将其连接到数据源或架构的不同字段。
+您可以[将片段多次添加到文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form)，并使用其组件的数据绑定属性将其绑定到不同的数据源或架构。例如，您可以将相同的地址片段用于永久地址、通信地址和账单地址，并将它连接到数据源或架构的其他字段。
 
 ![示例](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-您也可以使用 [重复性选项](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) 要复制表单片段组件及其子组件，请定义最小和最大重复计数，并便于表单内类似部分的复制。
+您还可以使用[重复选项](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)来复制表单片段组件及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。
 
 >[!NOTE]
 >
-> 您可以 [创建自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) 从头开始或将现有自适应表单中的面板另存为片段。
+> 您可以从头开始[创建自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment)，或将现有自适应表单中的面板另存为片段。
 
 ## 用途 {#usage}
 
-- **可重用性**：能够在多个自适应Forms中重用表单片段是使用表单片段的主要优势。 它有助于保持设计和功能的一致性，因为对片段所做的更改会反映在使用片段的所有实例中。
+- **可重用性**：使用表单片段可获得的主要好处是，能够跨多个自适应表单重用表单片段。它有助于保持设计和功能的一致性，因为对片段所做的更改将反映在所有使用片段的实例中。
 
-- **一致的用户体验**：将表单片段用于常见元素，例如页眉或页脚，可确保一致且一致的用户体验。
+- **一致的用户体验**：通过对常见元素（例如页眉或页脚）使用表单片段，可确保一致且有凝聚力的用户体验。
 
-- **轻松维护**：对表单片段所做的更改或修改会反映在使用表单片段的所有实例中。 它简化了维护，减少了出错的机会。
+- **轻松维护**：对表单片段所做的更改或修改将反映在所有使用表单片段的实例中。这简化了维护工作并降低了错误率。
 
-- **效率**：设计人员和开发人员只需构建和测试表单片段一次，从而节省时间。 然后，这些表单片段可以轻松合并到多个自适应Forms中，而无需进行冗余工作。
+- **效率**：设计人员和开发人员只需构建并测试表单片段一次，从而节省了时间。之后，可以将表单片段轻松合并到多个自适应表单中，而无需进行多余的工作。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应Forms片段核心组件作为核心组件2.0.50 (适用于Cloud Service)和核心组件1.1.26 (适用于AEM 6.5.16.0 Forms或更高版本)的一部分发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+作为 Cloud Service 核心组件 2.0.50 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.26 的一部分发布了自适应表单片段核心组件。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
@@ -47,11 +47,11 @@ ht-degree: 66%
 
 ## 技术详细信息 {#technical-details}
 
-在以下位置的技术文档中获取有关自适应Forms片段核心组件的最新信息： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment) 上的技术文档中获得关于自适应表单片段核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，您可以轻松自定义访客的片段体验。 您还可以轻松定义片段属性，以实现无缝用户体验。
+通过“配置”对话框，可轻松地自定义您为访客提供的片段体验。还可轻松地定义片段属性，从而营造一种无缝的用户体验。
 
 ### “基本”选项卡 {#basic-tab}
 
@@ -86,7 +86,7 @@ ht-degree: 66%
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **片段引用**  — 片段引用是对存储在外部数据源中并在表单中使用的表单片段的引用。 片段引用允许您动态地将表单片段绑定到表单。
+- **片段引用** - 片段引用是对存储在外部数据源中并在表单中使用的表单片段的引用。片段引用可让您将表单片段动态绑定到表单。
 
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 
@@ -98,9 +98,9 @@ ht-degree: 66%
 
 ![“重复片段”选项卡](/help/adaptive-forms/assets/fragment-repeattab.png)
 
-- **使片段可重复**：允许用户启用或禁用重复性功能的切换功能。
-- **最小重复次数**：建立片段组件可重复的最小次数。 值为零表示不重复片段组件；默认值为0。
-- **最大重复次数**：设置片段组件可重复的最大次数。 默认情况下，此值无限制。
+- **使片段可重复**：切换功能，允许用户启用或禁用重复功能。
+- **最少重复次数**：确定片段组件可以重复的最小次数。值为零表示片段组件不重复；默认值为零。
+- **最多重复次数**：设置片段组件可以重复的最多次数。默认情况下，此值无限制。
 
 ### “帮助内容”选项卡 {#help-content}
 
@@ -120,15 +120,15 @@ ht-degree: 66%
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于定义和管理表单片段组件的CSS样式。
+“设计”对话框用于定义和管理表单片段组件的 CSS 样式。
 
 ### “样式”选项卡 {#styles-tab}
 
-自适应表单片段核心组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling).
+自适应表单表单片段核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
 ![“设计”对话框](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **默认CSS类**：您可以为自适应表单片段核心组件提供默认CSS类。
+- **默认 CSS 类**：可为自适应表单表单片段核心组件提供默认 CSS 类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
@@ -136,7 +136,7 @@ ht-degree: 66%
 
 ![“自定义属性”对话框](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-通过自定义属性，可使用表单模板将自定义属性（键值对）与自适应表单核心组件关联。 自定义属性反映在组件 Headless 演绎版的属性部分中。它可让您创建根据自定义属性值进行调整的动态表单行为。例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
+通过自定义属性，您可使用表单模板将自定义属性（键值对）关联到自适应表单核心组件。自定义属性反映在组件 Headless 演绎版的属性部分中。它可让您创建根据自定义属性值进行调整的动态表单行为。例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
 
 - **组名称**：您可以提供名称来标识自定义属性组。您可以添加、删除或重新排列多个自定义属性组。添加自定义属性组后，可看到以下选项：
 
@@ -144,7 +144,7 @@ ht-degree: 66%
 
    - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
 
-   - **重新排列**：点击或单击并拖动以重新排列自定义属性名称和自定义属性值。
+   - **重新排列**：点按或单击并拖动可重新排列自定义属性名称和自定义属性值。
 
 ## 相关文章 {#related-articles}
 
