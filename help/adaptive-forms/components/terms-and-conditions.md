@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 条款和条件
 description: 使用或自定义自适应表单条款和条件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 98%
+source-wordcount: '2690'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 98%
 **条款和条件**&#x200B;组件是指表单中的一个概述用户在使用服务或访问内容时必须同意或遵守的条款、规则和条件的部分。
 
 **条款和条件**&#x200B;组件是一个复合组件，由文本、复选框和链接组件构成。文本组件包含标题以及条款和条件的用途和范围的简要概述。它还包括用于征得用户明确同意的复选框。您也可以将同意文本替换为链接。
+
+>[!NOTE]
+>
+> 对于AEM 6.5 Forms，此组件随AEM 6.5 Forms Service Pack 19 (6.5.19.0)引入。 要启用此组件，请确保安装了Forms核心组件和WCM核心组件的必需版本。 有关自适应Forms核心组件版本的详细信息，请参阅 [自适应Forms核心组件版本](/help/adaptive-forms/version.md)
 
 **示例**
 
@@ -46,7 +50,7 @@ ht-degree: 98%
 
 ## 技术详细信息 {#technical-details}
 
-在以下位置的技术文档中获取有关自适应Forms条款和条件核心组件的最新信息： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup) 上的技术文档中获得关于自适应表单条款和条件核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
@@ -123,7 +127,7 @@ ht-degree: 98%
 
 ![“设计”对话框](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **默认CSS类**：您可以为自适应Forms条款和条件核心组件提供默认CSS类。
+- **默认 CSS 类**：可为自适应表单条款和条件核心组件提供默认 CSS 类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 

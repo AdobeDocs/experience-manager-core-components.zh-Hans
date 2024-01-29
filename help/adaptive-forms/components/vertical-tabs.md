@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 垂直选项卡
 description: 使用或自定义自适应表单垂直选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 100%
+source-wordcount: '1959'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 自适应表单中的垂直选项卡是指一种设计模式，其中表单的多个部分组合在一起并显示为垂直对齐的单独选项卡。用户可以在各个选项卡之间切换来访问表单的不同部分。每个选项卡均充当显示和隐藏相关表单内容的触发器。垂直选项卡可帮助将较长的表单整理成可管理的部分并改善用户体验。选项卡使残障用户能够更轻松地访问表单，因为他们可以使用键盘导航在各个部分之间切换。
 
 当用户单击选项卡时，表单内容会动态更新以显示相应部分。
+
+>[!NOTE]
+>
+> 对于AEM 6.5 Forms，此组件随AEM 6.5 Forms Service Pack 19 (6.5.19.0)引入。 要启用此组件，请确保安装了Forms核心组件和WCM核心组件的必需版本。 有关自适应Forms核心组件版本的详细信息，请参阅 [自适应Forms核心组件版本](/help/adaptive-forms/version.md)
 
 ![示例](/help/adaptive-forms/assets/horizontal-example.png)
 
