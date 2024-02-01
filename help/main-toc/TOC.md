@@ -5,10 +5,10 @@ breadcrumb-title: 核心组件指南
 feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
+source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 97%
+source-wordcount: '378'
+ht-degree: 98%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 97%
 # AEM 核心组件帮助 {#using}
 
 + [核心组件简介](/help/introduction.md)
++ [响应式设计](/help/responsive.md)
 + [获得成功的途径](/help/developing/success.md)
 + [组件库](https://adobe.com/go/aem_cmp_library_cn)
 + [版本](/help/versions.md)
@@ -113,7 +114,7 @@ ht-degree: 97%
       + [自适应表单日期选取器](/help/adaptive-forms/components/date-picker.md)
       + [自适应表单下拉列表](/help/adaptive-forms/components/drop-down.md)
       + [自适应表单电子邮件输入](/help/adaptive-forms/components/email-input.md)
-      + [自适应Forms表单片段](/help/adaptive-forms/components/form-fragment.md)
+      + [自适应表单表单片段](/help/adaptive-forms/components/form-fragment.md)
       + [自适应表单文件附件](/help/adaptive-forms/components/file-attachment.md)
       + [自适应表单垂直选项卡](/help/adaptive-forms/components/vertical-tabs.md)
       + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -124,7 +125,7 @@ ht-degree: 97%
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
       + [自适应表单重置按钮](/help/adaptive-forms/components/reset-button.md)
       + [自适应表单提交按钮](/help/adaptive-forms/components/submit-button.md)
-      + [自适应Forms交换机](/help/adaptive-forms/components/switch.md)
+      + [自适应表单开关](/help/adaptive-forms/components/switch.md)
       + [自适应表单电话号码输入](/help/adaptive-forms/components/telephone-input.md)
       + [自适应表单文本](/help/adaptive-forms/components/text.md)
       + [自适应表单文本框](/help/adaptive-forms/components/text-input.md)

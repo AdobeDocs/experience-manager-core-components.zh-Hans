@@ -3,12 +3,13 @@ title: 轮盘组件
 description: 使用轮盘组件，内容作者可在旋转轮盘中展示内容。
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1313'
+ht-degree: 94%
 
 ---
+
 
 # 轮盘组件{#carousel-component}
 
@@ -28,7 +29,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | 兼容<br>[版本 2.17.4](/help/versions.md) 和更低版本 | 兼容 | 兼容 |
+| v1 | 兼容<br>[发行版本2.17.4](/help/versions.md) 和先前的 | 兼容 | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
@@ -55,6 +56,12 @@ ht-degree: 100%
    * 例如 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
 导航到将面板 ID 作为锚点的 URL，浏览器将直接滚动到特定组件并显示指定的面板。如果将面板配置为默认不显示，则将自动滚动它。
+
+## 轮播和响应式设计 {#responsive-design}
+
+所有核心组件均设计用于完全响应，确保跨设备无缝体验。
+
+为了在所有情况下保持响应性，一些高级组件（如轮盘组件）可能需要在实施项目的上下文中进行特定考虑。 请参阅文档 [核心组件的响应式设计](/help/responsive.md) 以了解更多信息。
 
 ## “编辑”对话框 {#edit-dialog}
 
