@@ -3,9 +3,9 @@ title: Web 优化图像投放
 description: 了解核心组件如何利用 AEM as a Cloud Service 的 Web 优化图像投放功能来更有效地投放图像。
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 7325751541d463eb9744b1e4a72fd64611f74d55
+source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 54%
 
 ---
@@ -95,4 +95,5 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 * 在HTML中，启用Web优化图像时，标记不会更改，只会更改 `src` 图像元素上的属性发生更改。
 * 每当新的图像服务不可用或无法处理所需的图像时，生成的 URL 将[回退到自适应图像 Servlet。](#fallback)
-* Dispatcher规则可能会阻止Web优化的图像投放服务。 图像投放服务的URL开头为 `/adobe`，并检查 [已拒绝请求的Dispatcher日志](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 应该有助于排除在将图像交付给浏览器时遇到的任何故障。
+
+但是，Dispatcher规则可能会阻止Web优化的图像投放服务。 图像投放服务的URL开头为 `/adobe`，并检查Dispatcher日志中拒绝的请求 [此处说明](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 应该有助于排除在将图像交付给浏览器时遇到的任何故障。
