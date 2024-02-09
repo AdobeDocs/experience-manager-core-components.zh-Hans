@@ -4,9 +4,9 @@ description: 获取核心组件问题的解决方案，并允许其他人在 AEM
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 | 云就绪 | 无论是在 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 上还是内部部署，这些组件都能运行。 |
 | 可以通用 | 这些组件代表了作者可用来设计几乎任何布局的通用概念。 |
 | 可配置 | 模板级[内存策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=zh-Hans#content-policies)定义页面作者可以使用或无法使用的功能。 |
-| [响应式](responsive.md) | 所有核心组件均设计用于完全响应，确保跨设备无缝体验 |
+| [响应式](responsive.md) | 所有核心组件均设计为完全响应式，确保跨设备的无缝体验。 |
 | 可跟踪 | [Adobe 客户端数据层集成](/help/developing/data-layer/overview.md)允许全方位跟踪访客体验。 |
 | 可访问 | 它们符合 [WCAG 2.1 标准](https://www.w3.org/TR/WCAG21/)，提供 ARIA 标签，并支持键盘导航（[已知问题](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)）。 |
 | SEO 友好 | HTML 输出是语义的，并提供 [schema.org](https://schema.org) 微数据注释。 |
