@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单垂直选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1959'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
-> 对于AEM 6.5 Forms，此组件随AEM 6.5 Forms Service Pack 19 (6.5.19.0)引入。 要启用此组件，请确保安装了Forms核心组件和WCM核心组件的必需版本。 有关自适应Forms核心组件版本的详细信息，请参阅 [自适应Forms核心组件版本](/help/adaptive-forms/version.md)
+> 对于 AEM 6.5 Forms，此组件是随 AEM 6.5 Forms 服务包 19 (6.5.19.0) 引入的。要启用此组件，请确保安装了 Forms 核心组件和 WCM 核心组件的必要版本。有关自适应表单核心组件版本的详细信息，请参阅[自适应表单核心组件版本](/help/adaptive-forms/version.md)
 
 ![示例](/help/adaptive-forms/assets/horizontal-example.png)
 
