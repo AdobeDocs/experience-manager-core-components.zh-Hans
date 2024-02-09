@@ -1,34 +1,34 @@
 ---
 title: 客户端库和核心组件
-description: 核心组件附带许多客户端库，并提供包含您自己的库的功能。
+description: 核心组件附带了许多客户端库，并能够包含您自己的客户端库。
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
 # 客户端库和核心组件 {#client-libraries}
 
-核心组件附带许多客户端库，并提供包含您自己的库的功能。
+核心组件附带了许多客户端库，并能够包含您自己的客户端库。
 
-## 提供的客户端库 {#provided}
+## 提供了客户端库 {#provided}
 
-核心组件提供了以下现成的客户端库。
+核心组件提供以下开箱即用的客户端库。
 
-* 此 **站点** clientlibs提供要应用于站点的组件的简单功能行为。
-   * 它们可作为加快项目的起点，并鼓励扩展和实施 [自定义它们](/help/developing/customizing.md) 以获得所需的外观和功能。
-* 此 **编辑者** clientlibs将应用于“创作”对话框，以确保其预期功能和外观。
-* 此 **editorhook** 在编辑模式下加载时，clientlibs将应用于站点。
-   * 它们包含针对编辑器触发的事件执行的JavaScript代码，有助于初始化动态功能。
-* 某些组件可能具有特定的附加clientlibs，这些库设计用于特定情况，例如与一起使用时 [Dynamic Media](/help/components/image.md#dynamic-media) 例如。
+* 该&#x200B;**站点** Clientlib 提供要应用于站点的组件的简约功能行为。
+   * 它们作为实现项目加速的起点，鼓励使用其实施来扩展和[定制这些库](/help/developing/customizing.md)，从而实现所需的外观和功能。
+* **编辑器** Clientlib 应用于创作对话框以确保其预期的功能和外观。
+* **编辑器钩子** clientlib 在编辑模式下加载时，将应用于站点。
+   * 它们包含在编辑器触发的事件上执行的 JavaScript 代码，可促进动态功能的初始化。
+* 某些组件可能具有专为在特定情况下使用而设计的特定附加 Clientlib，例如与 [Dynamic Media](/help/components/image.md#dynamic-media) 一起使用时。
 
 ## 包含客户端库 {#including}
 
-可通过多种不同的方式来包含[客户端库](/help/developing/archetype/front-end.md#clientlibs)，具体取决于您的使用案例。以下是示例示例 [HTL代码片段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) 每一个。
+可通过多种不同的方式来包含[客户端库](/help/developing/archetype/front-end.md#clientlibs)，具体取决于您的使用案例。以下是每个例子的示例 [HTL 代码段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)。
 
 ### 推荐的默认使用 {#recommended-default-usage}
 
