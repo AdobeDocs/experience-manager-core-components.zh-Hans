@@ -4,9 +4,9 @@ description: 了解核心组件如何利用 AEM as a Cloud Service 的 Web 优�
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -30,22 +30,22 @@ AEM as a Cloud service 的 Web 优化图像投放功能以 [WebP 格式从 DAM �
 
 就是这样！图像现在由图像组件以 WebP 格式投放。
 
-激活Web优化图像投放后，您可能需要检查Dispatcher配置以验证它是否不会阻止对图像投放服务的请求。 请参阅 [此常见问题解答条目](#failure-to-deliver) 以了解更多信息。
+激活 Web 优化图像投放后，您可能希望检查调度程序配置以验证它是否不会阻止对图像投放服务的请求。有关详细信息，请参阅[本常见问题条目](#failure-to-deliver)。
 
 ## 验证 WebP 投放 {#verifying}
 
-网络优化图像投放对内容的消费者是透明的。 最终用户只会注意到加载时间变快。 因此，要观察行为的任何实际变化，您必须检查浏览器中渲染图像的内容类型。 所有现代浏览器都支持WebP。 您可以引用 [此网站](https://caniuse.com/webp) 以了解有关浏览器支持的详细信息。
+Web 优化的图像投放对于内容的消费者来说是透明的。最终用户只会注意到加载时间更短。因此，要观察行为的任何实际变化，您必须检查浏览器中所渲染图像的内容类型。所有现代浏览器都支持 WebP。您可以参考[本网站](https://caniuse.com/webp)，了解有关浏览器支持的详细信息。
 
 1. 在 AEM 中，编辑基于模板的页面，您在该模板中为图像组件[激活了 Web 优化图像投放](#activating)。
 1. 在页面编辑器中，选择左上角的&#x200B;**页面信息**&#x200B;按钮，然后选择&#x200B;**查看已发布**。
-1. 打开浏览器的开发人员工具，然后选择“网络”选项卡。
-1. 重新加载页面，并查找加载图像的HTTP请求，然后检查浏览器收到的图像的内容类型。
+1. 打开浏览器的开发人员工具并选择网络选项卡。
+1. 重新加载页面并查找加载图像的 HTTP 请求，然后检查浏览器收到的图像的内容类型。
 
 ## 当 Web 优化图像投放不可用时 {#fallback}
 
 Web 优化图像投放仅在 AEM as a Cloud Service 中可用。 如果无法使用该功能(例如在内部部署或在本地开发实例上运行 AEM 6.5)，则图像投放将回退到使用[自适应图像 Servlet。](/help/developing/adaptive-image-servlet.md)
 
-回退到自适应图像Servlet会更改 `src` 的属性 `img` 页面源中的元素。
+回退到自适应图像 Servlet 会更改页面源中 `img` 元素的 `src` 属性。
 
 ## 常见问题解答 {#faq}
 
@@ -65,15 +65,15 @@ Web 优化图像投放仅在 AEM as a Cloud Service 中可用。 如果无法使
 
 ### 为什么该服务会显示质量较差的图像或限制图像的大小？ {#quality}
 
-当图像资产位于 `/content/dam` 处理，AEMas a Cloud Service的环境会生成不同维度的优化演绎版。 Web优化图像服务会分析图像核心组件请求的宽度，考虑原始图像以及所有2048像素或更小的演绎版，并选取那些图像服务可以处理的最大尺寸(在大小和尺寸限制之内，当前为50 MB， `12k`x`12k`)作为将应用所请求设置（宽度、裁切、格式、质量等）的基础。
+处理 `/content/dam` 下的图像资源时，AEM as a Cloud Service 环境会生成不同尺寸的优化呈现。Web 优化图像服务将分析图像核心组件请求的宽度，考虑原始图像和 2048 像素和更小的所有呈现，并选择其中最大的图像（在图像服务可以处理的大小和尺寸限制内，当前为 50 MB 和 `12k`x`12k`）作为基础，应用请求的设置（宽度、裁切、格式、质量等）。
 
-为了保持输出的保真度，图像服务不放大图像。 上述演绎版定义了图像服务能够投放的最佳质量。 由于您通常无法影响原始图像资源的大小和/或尺寸，因此请确保您的图像资源都具有2048像素的缩放演绎版，如果没有，则重新处理它们。
+为了保持输出的保真度，图像服务不会放大图像。上述呈现定义了图像服务能够投放的最佳质量。由于您通常无法影响原始图像资源的大小和/或尺寸，因此请确保您的图像资源都具有 2048 像素的缩放呈现，如果没有，请重新处理它们。
 
 ### 我的图片的 URL 仍然以 .JPG 或 .PNG 结尾，而不是 .WEBP，并且没有 SRCSET 属性或 PICTURE 元素。 这是否真的在使用优化的 Web 格式？ {#content-negotiation}
 
-为了提供WebP格式，Web优化图像投放服务将执行 [服务器驱动的内容协商。](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) 这有助于根据客户端广告化功能选择图像的最佳输出格式，从而使图像投放服务忽略文件扩展名。
+为了提供 WebP 格式，Web 优化图像投放服务执行[服务器驱动的内容协商。](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation)这有助于根据客户端公布的功能选择图像的最佳输出格式，从而允许图像投放服务忽略文件扩展名。
 
-利用内容协商的优势在于，不广告支持WebP的浏览器仍会获得JPG或PNG文件格式，而无需更改页面的标记。 这样可以为现有站点提供最佳兼容性，并确保以最顺畅的方式过渡到Web优化图像投放。
+利用内容协商的优点是，未声明支持 WebP 的浏览器仍将获得 JPG 或 PNG 文件格式，而无需对页面标记进行任何更改。这为现有网站提供了最佳兼容性，并保证以最顺畅的可能方式过渡到 Web 优化的图像投放。
 
 ### 我能否将 Web 优化图像投放与我自己的组件结合使用？
 
@@ -87,13 +87,13 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->未通过上述SPI构建的直接URL嵌入体验(可在AEMas a Cloud Service站点上获得)违反了 [Media Library使用条款](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library).
+>将 URL 直接嵌入到并非通过上述 SPI（在 AEM as a Cloud Service Sites 上提供）构建的体验中违反了[媒体库使用条款](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library)。
 
 ### 启用 Web 优化图像后，图像是否无法显示？ {#failure-to-deliver}
 
-不，由于以下原因，这种情况绝不应该发生。
+否，由于以下原因，这种情况绝对不应该发生。
 
-* 在HTML中，启用Web优化图像时，标记不会更改，只会更改 `src` 图像元素上的属性发生更改。
-* 每当新的图像服务不可用或无法处理所需的图像时，生成的 URL 将[回退到自适应图像 Servlet。](#fallback)
+* 在 HTML 中，启用 Web 优化图像时，标记不会更改，只有图像元素上 `src` 属性的值会更改。
+* 每当新的图像服务不可用或无法处理所需的图像时，生成的 URL 将[回退到自适应图像 Servlet](#fallback)。
 
-但是，Dispatcher规则可能会阻止Web优化的图像投放服务。 图像投放服务的URL开头为 `/adobe`，并检查Dispatcher日志中拒绝的请求 [此处说明](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) 应该有助于排除在将图像交付给浏览器时遇到的任何故障。
+但是，Dispatcher 规则可能会阻止 Web 优化的图像投放服务。图像投放服务的 URL 以 `/adobe` 开头，并检查 Dispatcher 日志中是否有被拒绝的请求，如[这里所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects)，这样应该有助于解决将图像投放到浏览器时遇到的任何故障。
