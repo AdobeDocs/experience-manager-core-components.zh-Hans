@@ -1,28 +1,28 @@
 ---
-title: 使用AEM项目原型进行前端开发
-description: 了解AEM项目原型基于Webpack的可选专用前端构建机制。
+title: 使用 AEM 项目原型进行前端开发
+description: 了解 AEM 项目原型可选的基于 Webpack 的专用前端构建机制。
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
-# 使用AEM项目原型进行前端开发 {#front-end}
+# 使用 AEM 项目原型进行前端开发 {#front-end}
 
 AEM 项目原型包括一个可选的基于 Webpack 的专用前端构建机制。因此，ui.frontend 模块成为了项目的所有前端资源（包括 JavaScript 和 CSS 文件）的中心位置。要充分利用这项有用且灵活的功能，请务必了解前端开发如何适应 AEM 项目。
 
-本文档重点介绍前端构建模块的常规使用模式及其用途。 有关详细的构建选项和技术说明，请参阅原型的GitHub存储库中的文档。
+本文档重点介绍前端构建模块的一般使用模式及其为您提供的功能。有关详细的构建选项和技术说明，请参阅原型的 GitHub 存储库中的文档。
 
 >[!TIP]
 >
->最新的AEM项目原型和相关技术文档 [在GitHub上可找到。](https://github.com/adobe/aem-project-archetype)
+>最新的 AEM 项目原型和相关技术文档[可以在 GitHub 上找到](https://github.com/adobe/aem-project-archetype)。
 
-## AEM前端和后端开发 {#front-end-back-end}
+## AEM 前端和后端开发 {#front-end-back-end}
 
 简单来说，可以将 AEM 项目视为由两个独立但相关的部分组成：
 
@@ -50,7 +50,7 @@ AEM 项目原型包括一个可选的基于 Webpack 的专用前端构建机制�
 1. 使用页面预览模式或在 URL 中传入 `wcmmode=disabled` 以在 AEM 中预览页面
 1. 查看页面源代码并在 ui.frontend 模块中另存为静态 HTML
 1. [启动 Webpack](#webpack-dev-server) 并开始样式化和生成必要的 JavaScript 和 CSS
-1. 运行 `npm run dev` 生成clientlibs
+1. 运行 `npm run dev` 可生成 Clientlib
 
 在此流程中，AEM 开发人员可以执行前两个步骤，并将静态 HTML 传递给基于 AEM HTML 输出进行开发的前端开发人员。
 
@@ -60,17 +60,17 @@ AEM 项目原型包括一个可选的基于 Webpack 的专用前端构建机制�
 
 ### 使用 Storybook {#using-storybook}
 
-利用 [Storybook](https://storybook.js.org)，您可以执行更多原子前端开发。虽然 Storybook 未包含在 AEM 项目原型中，但您可以安装它并将您的 Storybook 构件存储在 ui.frontend 模块中。准备好在AEM中进行测试时，可以通过运行将它们部署为clientlibs `npm run dev`.
+利用 [Storybook](https://storybook.js.org)，您可以执行更多原子前端开发。虽然 Storybook 未包含在 AEM 项目原型中，但您可以安装它并将您的 Storybook 构件存储在 ui.frontend 模块中。准备好在 AEM 中进行测试时，可以通过运行 `npm run dev` 将它们部署为 Clientlib。
 
 >[!NOTE]
 >
 >[Storybook](https://storybook.js.org) 未包含在 AEM 项目原型中。如果您选择使用 Storybook，则必须单独安装它。
 
-## Clientlibs概述 {#clientlibs}
+## Clientlib 概述 {#clientlibs}
 
-前端模块可使用 [AEM clientlib。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). 在执行NPM构建脚本时，将构建应用程序并且 `aem-clientlib-generator` 包获取生成的构建输出并将其转换为这样的clientlib。
+可使用 [AEM Clientlib 构建前端模块。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)。在执行 NPM 构建脚本时，将构建应用程序，并且 `aem-clientlib-generator` 包会获取生成的构建输出并将其转换为此类 Clientlib。
 
-clientlib将包含以下文件和目录：
+Clientlib 将包含以下文件和目录：
 
 * `css/`：可用 HTML 请求的 CSS 文件
 * `css.txt`：告知 AEM `css/` 中的文件的顺序和名称，以便将这些文件合并
@@ -80,4 +80,4 @@ clientlib将包含以下文件和目录：
 
 >[!TIP]
 >
->详细了解AEM如何在中处理clientlibs [AEM开发文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) 有关如何将它们包含在 [核心组件文档。](/help/developing/including-clientlibs.md)
+>在 [AEM 开发文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)中了解有关 AEM 如何处理 Clientlib 的更多信息，并在[核心组件文档](/help/developing/including-clientlibs.md)中了解如何包含 Clientlib 的更多信息。
