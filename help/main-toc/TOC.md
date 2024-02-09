@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
