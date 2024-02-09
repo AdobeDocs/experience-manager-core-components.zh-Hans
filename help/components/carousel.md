@@ -4,9 +4,9 @@ description: 使用轮盘组件，内容作者可在旋转轮盘中展示内容�
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | 兼容<br>[发行版本2.17.4](/help/versions.md) 和先前的 | 兼容 | 兼容 |
+| v1 | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容 | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
@@ -59,9 +59,9 @@ ht-degree: 94%
 
 ## 轮播和响应式设计 {#responsive-design}
 
-所有核心组件均设计用于完全响应，确保跨设备无缝体验。
+所有核心组件均设计为完全响应式，确保跨设备的无缝体验。
 
-为了在所有情况下保持响应性，一些高级组件（如轮盘组件）可能需要在实施项目的上下文中进行特定考虑。 请参阅文档 [核心组件的响应式设计](/help/responsive.md) 以了解更多信息。
+一些高级组件（例如轮播组件）可能需要在实施项目的背景下进行具体考虑，以便在所有条件下都保持响应能力。请参阅文档[核心组件的响应式设计](/help/responsive.md)，了解更多信息。
 
 ## “编辑”对话框 {#edit-dialog}
 
