@@ -3,9 +3,9 @@ title: 自定义核心组件
 description: 利用核心组件实施的多种模式，可以轻松执行从简单的样式设计到高级功能重用在内的自定义设置。
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
-source-wordcount: '1100'
+source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
+workflow-type: ht
+source-wordcount: '1041'
 ht-degree: 100%
 
 ---
@@ -59,15 +59,16 @@ ht-degree: 100%
                         <originalTab
                                 jcr:primaryType="nt:unstructured"
                                 sling:hideResource="true"/>
-                        </originalTab>
                         <myTab
                                jcr:primaryType="nt:unstructured"
                                jcr:title="My Tab"
-                               sling:resourceType="granite/ui/components/coral/foundation/container"/>
+                               sling:resourceType="granite/ui/components/coral/foundation/container">
+                                  
                                <!-- myTab content -->
+                                  
                         </myTab>
                 </items>
-            </basic>
+            </tabs>
         </items>
     </content>
 </jcr:root>
@@ -86,12 +87,16 @@ ht-degree: 100%
        adapters = Title.class,
        resourceType = "myproject/components/pageHeadline")
 public class PageHeadline implements Title {
+    
     @ScriptVariable private Page currentPage;
+    
     @Self @Via(type = ResourceSuperType.class)
+
     private Title title;
     @Override public String getText() {
         return currentPage.getTitle();
     }
+    
     @Override public String getType() {
         return title.getType();
     }
