@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 电子邮件输入
 description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1917'
-ht-degree: 100%
+source-wordcount: '1940'
+ht-degree: 98%
 
 ---
 
@@ -63,6 +63,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名称** - 名称在规则编辑器中唯一标识组件。名称字符串中不允许使用特殊字符和空格。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
@@ -76,6 +80,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **默认值** - 通过此选项，可在表单字段中添加默认值。如果选中了&#x200B;**已禁用的组件**&#x200B;或&#x200B;**只读组件**，则在屏幕上显示默认值。如果用户未在表单字段中输入值，则在提交表单时提交此值。
 
+- **自动填写属性**：利用选项，用户可输入根据存储的信息在表单字段中自动填充的值。
 
 ### “验证”选项卡 {#validation-tab}
 

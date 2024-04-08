@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 日期选取器
 description: 使用或自定义自适应表单日期选取器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 100%
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -64,10 +64,16 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名称** - 名称在规则编辑器中唯一标识组件。名称字符串中不允许使用特殊字符和空格。
 
 - **标题** - 标题是一个字符串，它显示在自适应表单中某个组件的顶部。标题在自适应表单的树结构中唯一地标识该组件。如果不添加标题，则显示该组件的名称而非标题文本。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **隐藏标题** - 选中此选项以在自适应表单中隐藏该组件类型的标题。
 
 - **占位符文本** - 表单组件中的占位符文本是指在输入字段中显示的短标签或提示，用于提示用户需要在该字段中输入什么类型的信息。当用户开始向该字段中键入时，占位符文本消失，如果将该字段留空，则占位符文本重新出现。它为用户提供视觉提示，但不充当该字段的永久标签或值。
+
+- **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 
 - **标记为未绑定表单元素**：选择此选项可配置未链接到任何架构的表单字段。利用此选项，您可以保存数据而不更新数据源。它还可让您以一种独立于标准数据库集成的自定义方式处理数据。
 
@@ -90,11 +96,13 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最早日期** - 通过此选项，可输入要求的最早日期。如果输入的日期比在“最早日期”中指定的日期更早，则在屏幕上显示一条错误消息。通过&#x200B;**最早日期错误消息**&#x200B;对话框，可添加自定义错误消息。
 
 - **最早日期错误消息** - 通过&#x200B;**最早日期错误消息**&#x200B;对话框，可添加如果输入的日期比在&#x200B;**最早日期**&#x200B;选项中指定的日期更早，则显示的自定义错误消息。
+- **排除最小日期**  — 利用此选项可忽略给定日期范围或日期集内的最小日期。
 
 - **最晚日期** - 通过此选项，可输入要求的最晚日期。如果输入的日期比在“最晚日期”中指定的日期更晚，则在屏幕上显示一条错误消息。通过&#x200B;**最晚日期错误消息**&#x200B;对话框，可添加自定义错误消息。
 
 - **最晚日期错误消息** - 通过&#x200B;**最晚日期错误消息**&#x200B;对话框，可添加如果输入的日期比在&#x200B;**最晚日期**&#x200B;选项中指定的日期更晚，则显示的自定义错误消息。
 
+- **排除最大日期**  — 利用此选项可忽略给定日期范围或日期集内的最大日期。
 
 ### “帮助内容”选项卡 {#help-content-tab}
 
@@ -120,10 +128,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **显示格式** - 它表示向用户显示的日期格式。通过&#x200B;**类型**&#x200B;选项，用户可选择日期格式。还可使用&#x200B;**类型**&#x200B;下拉菜单中的&#x200B;**自定义**&#x200B;选项自定义日期格式。
 
 - **编辑格式** - 它表示用户编辑日期时可以采用的日期格式。通过&#x200B;**类型**&#x200B;选项，用户可选择日期格式。还可使用&#x200B;**类型**&#x200B;下拉菜单中的&#x200B;**自定义**&#x200B;选项自定义日期格式。
-
-- **显示格式** - 它表示向用户显示的日期格式。通过“类型”选项，用户可选择日期格式。还可使用&#x200B;**类型**&#x200B;下拉菜单中的&#x200B;**自定义**&#x200B;选项自定义日期格式。
-
-- **编辑格式** - 它表示用户编辑日期时可以采用的日期格式。通过“类型”选项，用户可选择日期格式。还可使用&#x200B;**类型**&#x200B;下拉菜单中的&#x200B;**自定义**&#x200B;选项自定义日期格式。
 
 ## “设计”对话框 {#design-dialog}
 

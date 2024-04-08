@@ -3,9 +3,9 @@ title: 自适应表单核心组件 - 表单容器
 description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
+source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1340'
 ht-degree: 100%
 
 ---
@@ -62,6 +62,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“基本”选项卡](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
+- **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
+
 - **预填充服务** - 通过此选项，用户可选择一项预填充服务以供在呈现自适应表单时检索数据。详细了解[如何创建和配置预填充服务](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=zh-Hans#aem-forms-custom-prefill-service)。
 
 - **客户端库类别** - 用户可以为每个自适应表单配置自定义 JavaScript 库。建议只保留库中可重用的函数，这些函数依赖 jquery 和 underscore.js 第三方库。
@@ -79,15 +81,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “提交”选项卡 {#submission-tab}
 
-![“提交”选项卡](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
-
 用户可以为自适应表单提交配置不同的操作。
 
 - **重定向 URL/路径** - 通过此选项，用户可为每个表单配置一个页面，表单用户在提交自适应表单后将被重定向到该页面。单击此处以详细了解[如何配置重定向页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html)。
 
-![“显示消息”选项卡](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![“提交”选项卡](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 - **显示消息** - 通过此选项，用户可添加在成功提交自适应表单时显示的消息。对话框中包括预定义的文本，并且用户可修改这些文本。“显示消息”对话框支持富文本格式化工具，通过这些功能，用户可为所添加的文本设置格式。
+
+![“显示消息”选项卡](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **提交操作** - 当用户单击自适应表单上的“提交”按钮时将触发提交操作。用户可以从下拉列表中选择受支持的现有提交操作。了解如何[在“提交”选项卡中配置提交操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)。
 

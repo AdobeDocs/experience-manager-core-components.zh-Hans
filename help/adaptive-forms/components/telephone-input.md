@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 电话号码输入
 description: 使用或自定义自适应表单电话号码输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '2010'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '2027'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
@@ -55,6 +55,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
@@ -70,6 +74,8 @@ To experience the Accordion Component as well as see examples of its configurati
 - **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
 - **默认值** - 通过此选项，可在表单字段中添加默认值。如果选中了&#x200B;**已禁用的组件**&#x200B;或&#x200B;**只读组件**，则在屏幕上显示默认值。如果用户未在表单字段中输入值，则在提交表单时提交此值。
+
+- **自动填写属性**：利用选项，用户可输入根据存储的信息在表单字段中自动填充的值。
 
 ### “验证”选项卡 {#validation-tab}
 
@@ -87,7 +93,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **最小字符数** - 通过此选项，可指定字段中允许的最小字符数。如果您输入的字符数小于在&#x200B;**最小字符数**&#x200B;中指定的值，则屏幕上显示一条错误消息。通过&#x200B;**最小字符数错误消息**&#x200B;对话框，可添加自定义错误消息。
 
-- *最小字符数错误消息** - 如果您输入的字符数小于在&#x200B;**最小字符数**&#x200B;选项中指定的值，**最小字符数错误消息**&#x200B;对话框允许您添加自定义错误消息。
+- **最小字符数错误消息** - 通过&#x200B;**最小字符数错误消息**&#x200B;对话框，可添加如果您输入的字符数小于在&#x200B;**最小字符数**&#x200B;选项中指定的值，所显示的自定义错误消息。
 
 **验证模式**&#x200B;选项可让您输入一个模式来验证输入的电话号码。根据在&#x200B;**模式**&#x200B;选项中输入的值验证输入的电话号码。如果电话号码与&#x200B;**模式**&#x200B;选项中输入的值不一致，则屏幕上会显示错误消息。
 

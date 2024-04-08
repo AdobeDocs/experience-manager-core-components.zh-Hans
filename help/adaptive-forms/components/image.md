@@ -3,9 +3,9 @@ title: 自适应表单核心组件 - 图像
 description: 使用或自定义自适应表单图像核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 337f3b40f0a6046e4161d8365fc8ecc7d029cdcd
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **标记为未绑定表单元素**：选择此选项可配置未链接到任何架构的表单字段。利用此选项，您可以保存数据而不更新数据源。它还可让您以一种独立于标准数据库集成的自定义方式处理数据。
 
-- **记录文档绑定引用** - 此选项可让您将自适应表单字段与记录文档字段相关联。当用户在自适应表单的链接字段中输入任何值时，该值也会出现在相应记录文档的链接字段中。例如，可使用记录文档绑定引用根据输入到表单中的客户 ID，在记录文档中显示客户的名称和地址。通过这种方式，AEM Forms 使您能够生成记录文档，并为收集和管理数据提供无缝的用户体验。
+<!--   **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enable you to generate Document of Record and offers a seamless user experience for collecting and managing data.-->
 
 - **描述** - 描述是简短的文本说明，提供了有关特定图像的用途的附加信息或说明。
 
@@ -79,7 +79,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 
-- **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
+<!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+-->
 
 ## “设计”对话框 {#design-dialog}
 

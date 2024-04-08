@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 复选框
 description: 使用或自定义自适应表单复选框核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '1746'
-ht-degree: 100%
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,11 @@ ht-degree: 100%
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的旁边。如果不添加标题，则不会显示该组件。
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
@@ -73,12 +78,9 @@ ht-degree: 100%
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 
 - **禁用组件** - 选中此选项可禁用或锁定该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
-- **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **在选中时，返回值** - 选中此选项可指定在选中复选框时应与复选框关联的值。您标记或勾选复选框时会发生此操作。
-- **启用取消选中。**- 选中该选项可启用或禁用取消选中之前已选中的复选框的功能。
-   - 如果&#x200B;**启用取消选中**&#x200B;已启用或设置为 true，表示用户可以自行决定选中和取消选中该复选框。他们可以根据需要选中和取消选中该复选框。
-
-   - 如果&#x200B;**启用取消选中**&#x200B;已禁用或设置为 false，则表示一旦选中该复选框，用户便无法将其取消选中。
+- **保留取消选中状态值** — 选择此选项可指定未选中复选框组件时要返回的值。 如果 **保留取消选中状态值** 启用或设置为true， **取消选中时，返回值** 选项。
 - **在取消选中时，返回值** - 利用此选项，您可以指定复选框在处于取消选中或未选中状态时应关联的值。
 
 - **默认值**：通过此选项，可在表单字段中添加默认值。如果选中了&#x200B;**已禁用的组件**&#x200B;或&#x200B;**只读组件**，则在屏幕上显示默认值。如果用户未在表单字段中输入值，则在提交表单时提交此值。

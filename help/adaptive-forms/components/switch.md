@@ -2,15 +2,13 @@
 title: 自适应表单核心组件 - 开关组件
 description: 使用或自定义自适应表单开关核心组件。
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 100%
 
 ---
-
 
 # 开关组件{#switch-adaptive-forms-core-component}
 
@@ -59,6 +57,10 @@ ht-degree: 100%
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的旁边。如果不添加标题，则不会显示该组件。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
@@ -68,6 +70,15 @@ ht-degree: 100%
    - **启用时的显示文本** - 指定在自适应表单中启用开关时要显示为标签的文本。
    - **禁用时的数据值** - 指定未在自适应表单中启用开关时要提交的值。此选项仅在启用&#x200B;**保留“取消选中”状态值**&#x200B;开关时可见。
    - **禁用时的显示文本** - 指定未在自适应表单中启用开关时要显示为标签的文本。此选项仅在启用&#x200B;**保留“取消选中”状态值**&#x200B;开关时可见。
+
+<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+
 
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 - **标记为未绑定表单元素**：选择此选项可配置未链接到任何架构的表单字段。利用此选项，您可以保存数据而不更新数据源。它还可让您以一种独立于标准数据库集成的自定义方式处理数据。
@@ -148,12 +159,3 @@ ht-degree: 100%
 ## 另请参阅 {#see-also}
 
 {{see-also}}
-
-
-
-
-
-
-
-
-

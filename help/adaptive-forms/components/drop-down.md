@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 下拉列表
 description: 使用或自定义自适应表单下拉列表核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1930'
-ht-degree: 100%
+source-wordcount: '2011'
+ht-degree: 98%
 
 ---
 
@@ -70,10 +70,12 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
-- **标记为未绑定表单元素**：选择此选项可配置未链接到任何架构的表单字段。利用此选项，您可以保存数据而不更新数据源。它还可让您以一种独立于标准数据库集成的自定义方式处理数据。
-
-- **隐藏标题** - 选中此选项可隐藏该组件的标题。
+- **隐藏标题** - 选中此选项以隐藏该组件的标题。
 
 - **允许多选** - 选中此选项以从下拉列表中选择多个选项。
 
@@ -86,11 +88,18 @@ To experience the Accordion Component as well as see examples of its configurati
    - **删除** - 点击或单击以删除下拉菜单的选项。
    - **重新排列** - 点击或单击并拖动以重新排列下拉菜单的选项的顺序。
 
-- **默认选项** - 通过此选项，可添加默认值。使用“删除”图标删除已添加的选项。如果将&#x200B;**将值另存为**&#x200B;设置为 `Number`，而您将字符串数据添加到&#x200B;**默认选项**，则屏幕显示一条 `Value type mismatch` 错误消息。
+- **默认选项**  — 此选项允许您添加默认值。 使用“删除”图标删除已添加的选项。如果将&#x200B;**将值另存为**&#x200B;设置为 `Number`，而您将字符串数据添加到&#x200B;**默认选项**，则屏幕显示一条 `Value type mismatch` 错误消息。
 
 - **占位符文本** - 表单组件中的占位符文本是指在输入字段中显示的短标签或提示，用于提示用户需要在该字段中输入什么类型的信息。当用户开始向该字段中键入时，占位符文本消失，如果将该字段留空，则占位符文本重新出现。它为用户提供视觉提示，但不充当该字段的永久标签或值。
 
+- **选项**  — 您可以使用添加数据值并显示文本对 **添加** 按钮。  添加新选项后，可以执行以下操作：
+   - **数据值** - 通过此选项，可输入在选择某个选项时要提交的内容。
+   - **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
+   - **删除** - 点击或单击以删除复选框的选项。
+   - **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
+
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
+- **标记为未绑定表单元素**：选择此选项可配置未链接到任何架构的表单字段。利用此选项，您可以保存数据而不更新数据源。它还可让您以一种独立于标准数据库集成的自定义方式处理数据。
 
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 - **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
