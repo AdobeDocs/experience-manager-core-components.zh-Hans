@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 单选按钮
 description: 使用或自定义自适应表单单选按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 97%
@@ -72,7 +72,6 @@ To experience the Accordion Component as well as see examples of its configurati
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
 - **选项**  — 您可以使用添加数据值并显示文本对 **添加** 按钮。
@@ -85,7 +84,6 @@ To experience the Accordion Component as well as see examples of its configurati
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   添加新选项后，可以执行以下操作：
-
    - **数据值** - 通过此选项，可输入在选择某个选项时要提交的内容。
    - **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
    - **删除** - 点击或单击此选项可删除单选按钮的选项。

@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 表单容器
 description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
@@ -17,7 +17,6 @@ ht-degree: 100%
 ## 用途 {#reasons-to-use-forms-container}
 
 有若干原因可将表单添加到网站：
-
 - **数据收集**：表单可用于从网站访客收集数据作各种用途，如市场调查、用户行为分析等。
 
 - **商机开发**：表单可用于从潜在客户收集姓名和电子邮件地址等信息，以便为销售和营销工作开发商机。

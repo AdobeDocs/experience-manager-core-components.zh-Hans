@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 标题
 description: 使用或自定义自适应表单标题核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
@@ -109,6 +109,7 @@ To experience the Accordion Component as well as see examples of its configurati
 -->
 
 ## 相关文章 {#related-articles}
+
 
 {{more-like-this}}
 

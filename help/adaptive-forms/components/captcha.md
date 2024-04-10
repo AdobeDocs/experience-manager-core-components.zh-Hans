@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1048'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,6 @@ CAPTCHA（区分计算机和人类的完全自动化公共图灵测试）是一�
 AEM Forms as a Cloud Service 支持自适应表单中的 Google reCAPTCHA v2。您可以使用它在表单提交时提出验证码挑战
 
 ## 用途 {#reasons-to-use-google-recaptcha}
-
 
 - **垃圾邮件和机器人程序预防**：使用 reCAPTCHA 的主要原因之一是防止垃圾邮件提交和恶意机器人淹没您的表单。reCAPTCHA 的高级算法可以检测提交表单的自动尝试，从而确保只有合法用户才能与之交互。
 
@@ -39,7 +38,7 @@ AEM Forms as a Cloud Service 支持自适应表单中的 Google reCAPTCHA v2。�
 |---|---|
 | 组件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 兼容<br>[版本 2.0.4](/help/versions.md) 和更高版本 | 兼容 | 兼容 |
+| v1 | 与<br>[版本 2.0.4](/help/versions.md) 和更高版本兼容 | 兼容 | 兼容 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/versions.md)文档。
 
@@ -57,7 +56,7 @@ AEM Forms as a Cloud Service 支持自适应表单中的 Google reCAPTCHA v2。�
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
 
-- **隐藏标题** - 选中此选项以隐藏该组件的标题。
+- **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
 - **配置** -
 

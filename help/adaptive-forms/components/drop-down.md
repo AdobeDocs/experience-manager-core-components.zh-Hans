@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 下拉列表
 description: 使用或自定义自适应表单下拉列表核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 98%
@@ -78,7 +78,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **隐藏标题** - 选中此选项以隐藏该组件的标题。
 
 - **允许多选** - 选中此选项以从下拉列表中选择多个选项。
-
 - **将值另存为** - 此选项指定在选择任何选项时发送的值的数据类型。如果将&#x200B;**将值另存为**&#x200B;设置为 `Number`，而您在&#x200B;**选项**&#x200B;选项卡上将字符串数据添加到&#x200B;**数据值**，则屏幕显示一条 `Value type mismatch` 错误消息。
 
   在&#x200B;**选项**&#x200B;选项卡中，您可以使用&#x200B;**添加**&#x200B;按钮添加数据值和显示文本对。添加新选项后，可以执行以下操作：
