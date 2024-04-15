@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 文本
 description: 使用或自定义自适应表单文本核心组件。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '995'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 **示例**
 
-![示例](/help/adaptive-forms/assets/text.png)
+![文本示例](/help/adaptive-forms/assets/text.png)
 
 ## 用途 {#reasons-to-use-text-label}
 

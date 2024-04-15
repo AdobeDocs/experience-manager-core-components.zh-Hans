@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 标题
 description: 使用或自定义自适应表单标题核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '863'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 **示例**
 
-![示例](/help/adaptive-forms/assets/title.png)
+![标题示例](/help/adaptive-forms/assets/title.png)
 
 ## 用途 {#reasons-to-use-title-in-an-adaptive-form}
 

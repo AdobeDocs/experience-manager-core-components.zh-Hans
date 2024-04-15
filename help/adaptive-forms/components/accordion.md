@@ -3,7 +3,7 @@ title: 自适应表单可折叠项面板
 description: 使用可折叠项面板组件通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2263'
 ht-degree: 95%
@@ -52,6 +52,7 @@ ht-degree: 95%
 | v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 兼容 | 兼容 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
+
 
 <!-- ## Sample Component Output {#sample-component-output}
 

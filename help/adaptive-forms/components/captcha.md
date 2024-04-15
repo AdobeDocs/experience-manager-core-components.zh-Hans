@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
@@ -33,6 +33,7 @@ AEM Forms as a Cloud Service 支持自适应表单中的 Google reCAPTCHA v2。�
 ## 版本和兼容性 {#version-and-compatibility}
 
 自适应表单 Google reCAPTCHA 核心组件于 2023 年 8 月发布，作为核心组件“版本”的一部分。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+
 
 |  |  |
 |---|---|

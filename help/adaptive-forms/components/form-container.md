@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 表单容器
 description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
@@ -34,7 +34,6 @@ ht-degree: 100%
 - **用户身份验证**：表单可用于用户身份验证，从而使网站访客能够创建帐户并登录以访问专有内容或功能。
 
 - **提高转化率**：设计良好的表单可让用户轻松完成所需操作（例如，购买产品或注册服务），从而提高转化率。
-
 
 ## 版本和兼容性 {#version-and-compatibility}
 

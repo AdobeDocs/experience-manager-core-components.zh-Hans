@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 开关组件
 description: 使用或自定义自适应表单开关核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 90%
@@ -144,7 +144,6 @@ ht-degree: 90%
 ![“自定义属性”对话框](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 通过自定义属性，您可使用表单模板将自定义属性（键值对）关联到自适应表单核心组件。自定义属性反映在组件 Headless 演绎版的属性部分中。它可让您创建根据自定义属性值进行调整的动态表单行为。例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
-
 - **组名称**：您可以提供名称来标识自定义属性组。您可以添加、删除或重新排列多个自定义属性组。添加自定义属性组后，可看到以下选项：
 
    - **键值对**：您可以通过单击“**添加**”按钮，为每个自定义属性组添加多个自定义属性名称和自定义属性值。

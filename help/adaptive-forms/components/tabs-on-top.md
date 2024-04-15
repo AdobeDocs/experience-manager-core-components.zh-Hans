@@ -2,21 +2,20 @@
 title: 自适应表单核心组件 - 顶部选项卡
 description: 使用或自定义自适应表单选项卡顶部选项卡核心组件。
 role: Architect, Developer, Admin, User
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 93%
 
 ---
 
 
 # 顶部选项卡 {#tabs-on-top-adaptive-forms-core-component}
 
-自适应表单中的顶部选项卡布局是一种将表单的相关字段和部分组织和组合到单独的选项卡中的方法。每个选项卡都由一个选项卡标签表示，通常位于表单的顶部，并包含一组特定的表单字段和部分。这种布局使用户能够轻松导航和访问表单的不同部分，使用户更容易操作。一般在表单包含很多字段和部分，并且有必要将其分成更小、更易于管理的块时使用它。选项卡还有助于改善辅助功能，其中用户可使用快捷键在表单中导航，使得残障用户更容易访问表单。
-
+自适应表单中的顶部选项卡布局是一种将表单的相关字段和部分组织和组合到单独的选项卡中的方法。每个选项卡都由一个选项卡标签表示，通常位于表单的顶部，并包含一组特定的表单字段和部分。这种布局使用户能够轻松导航和访问表单的不同部分，使用户更容易操作。一般在表单包含很多字段和部分，并且有必要将其分成更小、更易于管理的块时使用它。通过允许用户使用键盘快捷键导航表单，使残障用户更轻松地访问表单，选项卡还有助于提高辅助功能。
 **示例**
 
-![](/help/adaptive-forms/assets/tabs.png)
+![顶部选项卡](/help/adaptive-forms/assets/tabs.png)
 
 ## 用途 {#reasons-to-use-tab-on-the-top-layout}
 

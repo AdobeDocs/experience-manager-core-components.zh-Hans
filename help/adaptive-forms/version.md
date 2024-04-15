@@ -3,7 +3,7 @@ title: AEM 自适应表单核心组件版本
 description: 作为可包含同一核心组件的多个版本的发行版发布 AEM 核心组件。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 5ddb234ee5551fa3ecd47b4df073b97bef9a882f
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 55%
@@ -20,6 +20,7 @@ ht-degree: 55%
 与AEMas a Cloud Service兼容的核心组件版本在以下位置提供： [GitHub及其版本的完整详细信息](https://github.com/adobe/aem-core-forms-components/releases).
 
 要查看AEMas a Cloud Service的核心组件版本历史记录，请执行以下操作 [单击此处](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+
 
 <!--
 | Forms Core Components | WCM Core Components | AEM Forms as a cloud service | Java  | Maven  |  

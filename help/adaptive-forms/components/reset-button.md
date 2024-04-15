@@ -3,7 +3,7 @@ title: 自适应表单核心组件 -“重置”按钮
 description: 使用或自定义自适应表单重置按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 92%
@@ -78,14 +78,12 @@ To experience the Accordion Component as well as see examples of its configurati
 ![“帮助内容”选项卡](/help/adaptive-forms/assets/button_helptab.png)
 
 - **简短描述** - 简短描述是一段简短的文字说明，其中提供关于特定表单字段的用途的其他信息或阐述。它帮助用户了解应将什么类型的数据输入到字段中，并可提供准则或示例以帮助确保所输入的信息有效且符合预期的标准。默认情况下，简短描述保持隐藏状态。启用&#x200B;**始终显示简短描述**&#x200B;选项以在组件下方显示它。
-
 - **始终显示简短描述** - 启用该选项以在组件下方显示简短描述。
 - **帮助文本** - 帮助文本是指提供给用户以帮助其正确填写表单字段的其他信息或指导。当用户单击组件旁的“帮助”图标 (i) 时显示它。帮助文本提供比表单字段的标签或占位符文本更详细的信息，旨在帮助用户了解该字段的要求或限制。它还可提供建议或示例，以使填写表单更轻松且更准确。
 
 ### 辅助功能 {#accessibility}
 
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/button_accessibilitytab.png)
-
 
 **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
 

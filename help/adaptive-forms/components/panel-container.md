@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 面板容器
 description: 使用或自定义自适应表单面板容器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 94%

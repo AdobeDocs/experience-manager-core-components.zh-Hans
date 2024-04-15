@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 向导
 description: 使用或自定义自适应表单向导核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 99%
@@ -20,7 +20,6 @@ ht-degree: 99%
 
 不过，它也会增加表单的复杂性，因为用户必须浏览多个页面才能完成表单。因此，在决定采用向导式布局之前，首先要对表单需求和用户需求进行评估。
 您可以在自适应表单中使用向导布局核心组件来创建向导布局。
-
 
 **示例**
 

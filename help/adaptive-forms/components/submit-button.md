@@ -3,7 +3,7 @@ title: 自适应表单核心组件 -“提交”按钮
 description: 使用或自定义自适应表单“提交”按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 92%
@@ -31,7 +31,6 @@ ht-degree: 92%
 - **改善了用户体验**：设计良好的“提交”按钮将提供有关表单提交过程的准确反馈并指示已成功提交表单的时间，从而改善用户体验。
 
 - **数据验证**：“提交”按钮可用于触发数据验证检查，确保表单数据在发送到服务器之前是完整且准确的。
-
 
 ## 版本和兼容性 {#version-and-compatibility}
 

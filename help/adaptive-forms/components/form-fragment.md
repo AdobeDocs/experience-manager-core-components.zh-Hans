@@ -3,7 +3,7 @@ title: 自适应表单片段
 description: 使用表单片段创建表单区段或字段组，并在自适应表单中重复使用它们以提高效率和可重用性。
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 94%
@@ -152,6 +152,7 @@ ht-degree: 94%
    - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
 
    - **重新排列**：点按或单击并拖动可重新排列自定义属性名称和自定义属性值。
+
 
 ## 相关文章 {#related-articles}
 

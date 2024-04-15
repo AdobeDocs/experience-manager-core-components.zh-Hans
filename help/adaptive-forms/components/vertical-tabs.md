@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 垂直选项卡
 description: 使用或自定义自适应表单垂直选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2112'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -14,8 +14,7 @@ ht-degree: 94%
 
 <span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
-自适应表单中的垂直选项卡是指一种设计模式，其中表单的多个部分组合在一起并显示为垂直对齐的单独选项卡。用户可以在各个选项卡之间切换来访问表单的不同部分。每个选项卡均充当显示和隐藏相关表单内容的触发器。垂直选项卡可帮助将较长的表单整理成可管理的部分并改善用户体验。选项卡使残障用户能够更轻松地访问表单，因为他们可以使用键盘导航在各个部分之间切换。
-
+自适应表单中的垂直选项卡是指一种设计模式，其中表单的多个部分组合在一起并显示为垂直对齐的单独选项卡。用户可以在各个选项卡之间切换来访问表单的不同部分。每个选项卡均充当显示和隐藏相关表单内容的触发器。垂直选项卡可帮助将较长的表单整理成可管理的部分并改善用户体验。选项卡有助于使表单更便于残障用户访问，因为他们可以使用键盘导航在部分之间切换。
 当用户单击选项卡时，表单内容会动态更新以显示相应部分。
 
 >[!NOTE]

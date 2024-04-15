@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 文本输入（文本框）
 description: 使用或自定义自适应表单文本输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 94%
@@ -15,7 +15,6 @@ ht-degree: 94%
 <span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 文本输入（文本框）组件可让用户输入和编辑单行或多行文本，具体取决于输入元素的类型属性。文本输入组件可放置在表单中，并且通常标有易于标识其用途的有用文本。这些是任意表单的基本元素，广泛用于从用户处收集不同类型的数据，它们简单、灵活且可配置为验证输入，并提高数据收集的准确性。
-
 
 **示例**
 

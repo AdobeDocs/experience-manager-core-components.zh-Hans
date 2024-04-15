@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 下拉列表
 description: 使用或自定义自适应表单下拉列表核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 94%
@@ -32,7 +32,6 @@ ht-degree: 94%
 - **用户体验**：可使用下拉列表为用户提供一种清晰而直观的方式以选择选项，使得表单更方便用户使用。
 
 - **数据分析**：下拉列表可用于从各种来源收集数据并进行分析，或将其用作进一步处理的输入。
-
 
 **“属性”对话框**
 

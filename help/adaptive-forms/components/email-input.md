@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 电子邮件输入
 description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 94%
@@ -79,7 +79,6 @@ To experience the Accordion Component as well as see examples of its configurati
 - **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
 - **默认值** - 通过此选项，可在表单字段中添加默认值。如果选中了&#x200B;**已禁用的组件**&#x200B;或&#x200B;**只读组件**，则在屏幕上显示默认值。如果用户未在表单字段中输入值，则在提交表单时提交此值。
-
 - **自动填充属性**：通过此选项，用户可输入基于存储的信息自动填充在表单字段中的值。
 
 ### “验证”选项卡 {#validation-tab}
