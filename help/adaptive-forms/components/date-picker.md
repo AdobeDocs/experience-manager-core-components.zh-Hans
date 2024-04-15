@@ -3,14 +3,16 @@ title: 自适应表单核心组件 - 日期选取器
 description: 使用或自定义自适应表单日期选取器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 98%
+source-wordcount: '2094'
+ht-degree: 94%
 
 ---
 
 # 日期选取器 {#date-picker-adaptive-forms-core-component}
+
+<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的日期选取器组件是一个用户界面元素，通过它，用户可从日历中选择日期或手动输入特定格式的日期。日期选取器组件可以配置为具有不同的格式、验证和默认值。
 
@@ -64,10 +66,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名称** - 名称在规则编辑器中唯一标识组件。名称字符串中不允许使用特殊字符和空格。
 
 - **标题** - 标题是一个字符串，它显示在自适应表单中某个组件的顶部。标题在自适应表单的树结构中唯一地标识该组件。如果不添加标题，则显示该组件的名称而非标题文本。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **允许使用富文本作为标题**  — 此功能使用户能够设置纯文本标题的格式，其中包含了粗体、斜体、带下划线的文本、各种字体、字体大小、颜色以及其他选项，从而增强视觉呈现和自定义效果。 在使标题在文档、网站或应用程序中脱颖而出方面，它提供了更大的灵活性和创造性控制。\
+  选中复选框 **允许使用富文本作为标题** 时，格式选项将变为可见，以便设置组件标题的样式。 要访问所有可用的格式选项，您可以单击 ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
+
+  ![富文本支持](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隐藏标题** - 选中此选项以在自适应表单中隐藏该组件类型的标题。
 
@@ -95,13 +97,13 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最早日期** - 通过此选项，可输入要求的最早日期。如果输入的日期比在“最早日期”中指定的日期更早，则在屏幕上显示一条错误消息。通过&#x200B;**最早日期错误消息**&#x200B;对话框，可添加自定义错误消息。
 
 - **最早日期错误消息** - 通过&#x200B;**最早日期错误消息**&#x200B;对话框，可添加如果输入的日期比在&#x200B;**最早日期**&#x200B;选项中指定的日期更早，则显示的自定义错误消息。
-- **排除最小日期**  — 利用此选项可忽略给定日期范围或日期集内的最小日期。
+- **排除最小日期** - 通过此选项，可省略给定日期范围或日期组中的最小日期。
 
 - **最晚日期** - 通过此选项，可输入要求的最晚日期。如果输入的日期比在“最晚日期”中指定的日期更晚，则在屏幕上显示一条错误消息。通过&#x200B;**最晚日期错误消息**&#x200B;对话框，可添加自定义错误消息。
 
 - **最晚日期错误消息** - 通过&#x200B;**最晚日期错误消息**&#x200B;对话框，可添加如果输入的日期比在&#x200B;**最晚日期**&#x200B;选项中指定的日期更晚，则显示的自定义错误消息。
 
-- **排除最大日期**  — 利用此选项可忽略给定日期范围或日期集内的最大日期。
+- **排除最大日期** - 通过此选项，可省略给定日期范围或日期组中的最大日期。
 
 ### “帮助内容”选项卡 {#help-content-tab}
 

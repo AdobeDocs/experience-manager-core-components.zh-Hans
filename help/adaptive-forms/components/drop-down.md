@@ -3,15 +3,16 @@ title: 自适应表单核心组件 - 下拉列表
 description: 使用或自定义自适应表单下拉列表核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 98%
+source-wordcount: '2125'
+ht-degree: 94%
 
 ---
 
-
 # 下拉列表 {#drop-down-list-adaptive-forms-core-component}
+
+<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 通过自适应表单中的下拉列表，用户可从预定义选项的列表中选择一个或多个选项。这些选项可为字符串、数字或布尔值类型。此外，还可将下拉列表组件配置为具有不同的验证和默认值。
 
@@ -70,12 +71,12 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **允许使用富文本作为标题**  — 此功能使用户能够设置纯文本标题的格式，其中包含了粗体、斜体、带下划线的文本、各种字体、字体大小、颜色以及其他选项，从而增强视觉呈现和自定义效果。 在使标题在文档、网站或应用程序中脱颖而出方面，它提供了更大的灵活性和创造性控制。\
+  选中复选框 **允许使用富文本作为标题** 时，格式选项将变为可见，以便设置组件标题的样式。 要访问所有可用的格式选项，您可以单击 ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
 
-- **隐藏标题** - 选中此选项以隐藏该组件的标题。
+  ![富文本支持](/help/adaptive-forms/assets/richtext-support-title.png)
+
+- **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
 - **允许多选** - 选中此选项以从下拉列表中选择多个选项。
 - **将值另存为** - 此选项指定在选择任何选项时发送的值的数据类型。如果将&#x200B;**将值另存为**&#x200B;设置为 `Number`，而您在&#x200B;**选项**&#x200B;选项卡上将字符串数据添加到&#x200B;**数据值**，则屏幕显示一条 `Value type mismatch` 错误消息。
@@ -87,11 +88,11 @@ To experience the Accordion Component as well as see examples of its configurati
    - **删除** - 点击或单击以删除下拉菜单的选项。
    - **重新排列** - 点击或单击并拖动以重新排列下拉菜单的选项的顺序。
 
-- **默认选项**  — 此选项允许您添加默认值。 使用“删除”图标删除已添加的选项。如果将&#x200B;**将值另存为**&#x200B;设置为 `Number`，而您将字符串数据添加到&#x200B;**默认选项**，则屏幕显示一条 `Value type mismatch` 错误消息。
+- **默认选项** - 通过此选项，可添加默认值。使用“删除”图标删除已添加的选项。如果将&#x200B;**将值另存为**&#x200B;设置为 `Number`，而您将字符串数据添加到&#x200B;**默认选项**，则屏幕显示一条 `Value type mismatch` 错误消息。
 
 - **占位符文本** - 表单组件中的占位符文本是指在输入字段中显示的短标签或提示，用于提示用户需要在该字段中输入什么类型的信息。当用户开始向该字段中键入时，占位符文本消失，如果将该字段留空，则占位符文本重新出现。它为用户提供视觉提示，但不充当该字段的永久标签或值。
 
-- **选项**  — 您可以使用添加数据值并显示文本对 **添加** 按钮。  添加新选项后，可以执行以下操作：
+- **选项** - 您可以使用&#x200B;**“添加”**&#x200B;按钮添加数据值和显示文本对。添加新选项后，可以执行以下操作：
    - **数据值** - 通过此选项，可输入在选择某个选项时要提交的内容。
    - **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
    - **删除** - 点击或单击以删除复选框的选项。

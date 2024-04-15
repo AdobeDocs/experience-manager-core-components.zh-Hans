@@ -3,15 +3,16 @@ title: 自适应表单核心组件 - 电子邮件输入
 description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 98%
+source-wordcount: '2054'
+ht-degree: 94%
 
 ---
 
-
 # 电子邮件输入 {#Email-input-adaptive-forms-core-component}
+
+<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单电子邮件输入核心组件用于收集用户的电子邮件地址。通过电子邮件输入字段，浏览器可验证所输入的数据是否为有效的电子邮件地址格式。它一般表现为文本框并进行模式验证，以便仅接受有效的电子邮件地址。可用“必需”、“占位符”和“模式”等其他属性进一步自定义电子邮件输入字段，以针对输入的数据设置验证。
 
@@ -63,10 +64,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名称** - 名称在规则编辑器中唯一标识组件。名称字符串中不允许使用特殊字符和空格。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **允许使用富文本作为标题**  — 此功能使用户能够设置纯文本标题的格式，其中包含了粗体、斜体、带下划线的文本、各种字体、字体大小、颜色以及其他选项，从而增强视觉呈现和自定义效果。 在使标题在文档、网站或应用程序中脱颖而出方面，它提供了更大的灵活性和创造性控制。\
+  选中复选框 **允许使用富文本作为标题** 时，格式选项将变为可见，以便设置组件标题的样式。 要访问所有可用的格式选项，您可以单击 ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
+
+  ![富文本支持](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
@@ -79,7 +80,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **默认值** - 通过此选项，可在表单字段中添加默认值。如果选中了&#x200B;**已禁用的组件**&#x200B;或&#x200B;**只读组件**，则在屏幕上显示默认值。如果用户未在表单字段中输入值，则在提交表单时提交此值。
 
-- **自动填写属性**：利用选项，用户可输入根据存储的信息在表单字段中自动填充的值。
+- **自动填充属性**：通过此选项，用户可输入基于存储的信息自动填充在表单字段中的值。
 
 ### “验证”选项卡 {#validation-tab}
 

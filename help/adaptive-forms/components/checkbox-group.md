@@ -3,14 +3,16 @@ title: 自适应表单核心组件 - 复选框组
 description: 使用或自定义自适应表单复选框组核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 98%
+source-wordcount: '2047'
+ht-degree: 91%
 
 ---
 
 # 复选框组 {#button-component-adaptive-forms-core-component}
+
+<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 和 **选项允许富文本**  功能，预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的复选框组是一组相关的复选框，通过这组复选框，用户可从列表中选择一个或多个选项。每个复选框都由一个数据值（用于处理复选框组的项的值）和一个显示值（每个复选框项的标签，用于描述其用途）表示
 
@@ -75,28 +77,26 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **允许使用富文本作为标题**  — 此功能使用户能够设置纯文本标题的格式，其中包含了粗体、斜体、带下划线的文本、各种字体、字体大小、颜色以及其他选项，从而增强视觉呈现和自定义效果。 在使标题在文档、网站或应用程序中脱颖而出方面，它提供了更大的灵活性和创造性控制。\
+  选中复选框 **允许使用富文本作为标题** 时，格式选项将变为可见，以便设置组件标题的样式。 要访问所有可用的格式选项，您可以单击 `Fullscreen` ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
+
+  ![富文本支持](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
-- **选项**  — 您可以使用添加数据值并显示文本对 **添加** 按钮。\
+- **选项** - 您可以使用&#x200B;**“添加”**&#x200B;按钮添加数据值和显示文本对。\
   添加新选项后，可以执行以下操作：
    - **数据值** - 通过此选项，可输入在选择某个选项时要提交的内容。
    - **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
    - **删除** - 点击或单击以删除复选框的选项。
    - **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
 
-<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
+  您还可以使用以下方式设置复选框组的选项格式 **选项允许富文本**.
 
-    Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
+  ![对选项的RTF支持](/help/adaptive-forms/assets/richtext-for-options.png)
 
-    -->
+  选中复选框 **选项允许富文本** 格式化选项将变为可见，以便为该组件的选项设置样式。 要访问所有可用的格式选项，您可以单击 `Fullscreen` ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
+  ![对选项的RTF支持](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 

@@ -3,14 +3,16 @@ title: 自适应表单核心组件 - 垂直选项卡
 description: 使用或自定义自适应表单垂直选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1998'
-ht-degree: 100%
+source-wordcount: '2112'
+ht-degree: 94%
 
 ---
 
 # 垂直选项卡组件{#vertical-tabs-adaptive-forms-core-component}
+
+<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的垂直选项卡是指一种设计模式，其中表单的多个部分组合在一起并显示为垂直对齐的单独选项卡。用户可以在各个选项卡之间切换来访问表单的不同部分。每个选项卡均充当显示和隐藏相关表单内容的触发器。垂直选项卡可帮助将较长的表单整理成可管理的部分并改善用户体验。选项卡使残障用户能够更轻松地访问表单，因为他们可以使用键盘导航在各个部分之间切换。
 
@@ -61,10 +63,10 @@ ht-degree: 100%
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **允许使用富文本作为标题**  — 此功能使用户能够设置纯文本标题的格式，其中包含了粗体、斜体、带下划线的文本、各种字体、字体大小、颜色以及其他选项，从而增强视觉呈现和自定义效果。 在使标题在文档、网站或应用程序中脱颖而出方面，它提供了更大的灵活性和创造性控制。\
+  选中复选框 **允许使用富文本作为标题** 时，格式选项将变为可见，以便设置组件标题的样式。 要访问所有可用的格式选项，您可以单击 ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
+
+  ![富文本支持](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 

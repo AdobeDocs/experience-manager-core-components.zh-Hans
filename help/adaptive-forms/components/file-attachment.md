@@ -3,14 +3,16 @@ title: 自适应表单核心组件 - 文件附件
 description: 使用或自定义自适应表单文件附件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 97%
+source-wordcount: '1851'
+ht-degree: 92%
 
 ---
 
 # 文件附件 {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 通过自适应表单中的文件附件组件，用户可从其本地计算机或设备中选择并上传文件。可配置文件附件组件以允许特定文件类型、大小限制和多个附件。
 
@@ -62,10 +64,10 @@ To experience the Accordion Component as well as see examples of its configurati
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **允许使用富文本作为标题**  — 此功能使用户能够设置纯文本标题的格式，其中包含了粗体、斜体、带下划线的文本、各种字体、字体大小、颜色以及其他选项，从而增强视觉呈现和自定义效果。 在使标题在文档、网站或应用程序中脱颖而出方面，它提供了更大的灵活性和创造性控制。\
+  选中复选框 **允许使用富文本作为标题** 时，格式选项将变为可见，以便设置组件标题的样式。 要访问所有可用的格式选项，您可以单击 ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
+
+  ![富文本支持](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
@@ -77,7 +79,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 - **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 - **允许多个附件** - 选中此选项以使用&#x200B;**文件附件**&#x200B;按钮上传多个附件。
-- **拖放文本**  — 它是显示在顶部的 **附加** 按钮提示用户附加或拖放文件。 您可以选择自定义显示在顶部的 **附加** 按钮。 <!-- Additionally, you can format the text using the rich text menu. -->
+- **拖放文本** - 这是显示在 **“附加”**&#x200B;按钮顶部的文本，用于提示用户附加或拖放文件。您可以选择自定义显示在顶部的 **附加** 按钮。 此外，您可以使用富文本菜单设置文本格式。
 
 ### “验证”选项卡 {#validation-tab}
 
