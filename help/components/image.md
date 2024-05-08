@@ -3,9 +3,9 @@ title: 图像组件
 description: 核心组件图像组件是自适应图像组件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
-workflow-type: ht
-source-wordcount: '2061'
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
+workflow-type: tm+mt
+source-wordcount: '1970'
 ht-degree: 100%
 
 ---
@@ -138,20 +138,6 @@ ht-degree: 100%
 ### 编辑 Dynamic Media 资源 {#dynamic-media-assets}
 
 如果启用了 [Dynamic Media 功能](#dynamic-media)，则必须在资源控制台中执行对图像本身的编辑。
-
-### 编辑新一代 Dynamic Media 资源 {#next-gen-dm-assets}
-
-如果配置了[新一代 Dynamic Media](#next-gen-dm)，则在组件的上下文菜单中有&#x200B;**智能裁切**&#x200B;选项可用。
-
-![智能裁切](/help/assets/image-smart-crop.png)
-
-使用对话框调整智能裁切。
-
-![“智能裁切”对话框](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->有关智能裁切的详细信息，请观看[这段关于该功能的视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)。
 
 ## “配置”对话框 {#configure-dialog}
 
