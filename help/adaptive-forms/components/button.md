@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 按钮
 description: 使用或自定义自适应表单按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 92%
@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # 按钮组件 {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的按钮是一个 UI 元素，通过它，用户在单击时可开始某个操作。按钮元素可用于提交表单、重置表单或执行其他操作，例如导航到不同的页面或触发自定义代码。可使用按钮核心组件创建按钮。
 

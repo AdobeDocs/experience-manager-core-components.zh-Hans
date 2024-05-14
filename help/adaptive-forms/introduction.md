@@ -3,9 +3,9 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
-workflow-type: ht
-source-wordcount: '1267'
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 100%
 * [按钮](/help/adaptive-forms/components/button.md)
 * [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 * [日期选取器](/help/adaptive-forms/components/date-picker.md)
-* [下拉列表](/help/adaptive-forms/components/drop-down.md)
+* [下拉列表](/help/adaptive-forms/components/drop-down-list.md)
 * [电子邮件输入](/help/adaptive-forms/components/email-input.md)
 * [表单容器](/help/adaptive-forms/components/form-container.md)
 * [文件附件](/help/adaptive-forms/components/file-attachment.md)
@@ -83,13 +83,13 @@ ht-degree: 100%
 * [页眉](/help/adaptive-forms/components/header.md)
 * [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
 * [图像](/help/adaptive-forms/components/image.md)
-* [数字输入](/help/adaptive-forms/components/number-input.md)
-* [面板容器](/help/adaptive-forms/components/panel-container.md)
+* [数值框](/help/adaptive-forms/components/numeric-box.md)
+* [面板](/help/adaptive-forms/components/panel.md)
 * [单选按钮](/help/adaptive-forms/components/radio-button.md)
 * [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
 * [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
 * [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
-* [文本输入](/help/adaptive-forms/components/text-input.md)
+* [文本框](/help/adaptive-forms/components/text-box.md)
 * [文本](/help/adaptive-forms/components/text.md)
 * [标题](/help/adaptive-forms/components/title.md)
 * [向导](/help/adaptive-forms/components/wizard.md)

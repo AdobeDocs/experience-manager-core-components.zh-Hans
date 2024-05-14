@@ -3,7 +3,9 @@ title: 自适应表单核心组件 - 开关组件
 description: 使用或自定义自适应表单开关核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+hide: true
+hidefromtoc: true
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 90%

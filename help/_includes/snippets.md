@@ -1,8 +1,8 @@
 ---
-source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 99%
 
 ---
 # 代码片段 {#snippets}
@@ -61,24 +61,23 @@ ht-degree: 100%
 - [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 - [复选框](/help/adaptive-forms/components/checkbox.md)
 - [日期选取器](/help/adaptive-forms/components/date-picker.md)
-- [下拉列表](/help/adaptive-forms/components/drop-down.md)
+- [下拉列表](/help/adaptive-forms/components/drop-down-list.md)
 - [电子邮件输入](/help/adaptive-forms/components/email-input.md)
 - [表单容器](/help/adaptive-forms/components/form-container.md)
 - [文件附件](/help/adaptive-forms/components/file-attachment.md)
-- [表单片段](/help/adaptive-forms/components/form-fragment.md)
+- [自适应表单片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [页脚](/help/adaptive-forms/components/footer.md)
 - [页眉](/help/adaptive-forms/components/header.md)
 - [图像](/help/adaptive-forms/components/image.md)
-- [数字输入](/help/adaptive-forms/components/number-input.md)
-- [面板容器](/help/adaptive-forms/components/panel-container.md)
+- [数值框](/help/adaptive-forms/components/numeric-box.md)
+- [面板](/help/adaptive-forms/components/panel.md)
 - [“水平”选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
 - [“垂直”选项卡](/help/adaptive-forms/components/vertical-tabs.md)
 - [单选按钮](/help/adaptive-forms/components/radio-button.md)
 - [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
 - [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
-- [开关](/help/adaptive-forms/components/switch.md)
-- [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
-- [文本输入](/help/adaptive-forms/components/text-input.md)
+- [电话输入](/help/adaptive-forms/components/telephone-input.md)
+- [文本框](/help/adaptive-forms/components/text-box.md)
 - [文本](/help/adaptive-forms/components/text.md)
 - [标题](/help/adaptive-forms/components/title.md)
 - [“条款和条件”选项卡](/help/adaptive-forms/components/terms-and-conditions.md)
