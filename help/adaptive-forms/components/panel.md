@@ -1,40 +1,44 @@
 ---
-title: 自适应表单核心组件 - 水平选项卡
-description: 使用或自定义自适应表单水平选项卡核心组件。
+title: 自适应表单核心组件 - 面板容器
+description: 使用或自定义自适应表单面板容器核心组件。
 role: Architect, Developer, Admin, User
-exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
+exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2166'
 ht-degree: 94%
 
 ---
 
-# 水平选项卡（顶部选项卡）组件{#horizontal-tabs-adaptive-forms-core-component}
+# 面板组件{#panel-container-adaptive-forms-core-component}
 
 <span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
-自适应表单中的水平选项卡是指一种设计模式，其中表单的多个部分组合在一起并显示为水平对齐的单独选项卡。用户可以在各个选项卡之间切换来访问表单的不同部分。每个选项卡均充当显示和隐藏相关表单内容的触发器。水平选项卡可帮助将较长的表单整理成可管理的部分并改善用户体验。选项卡使残障用户能够更轻松地访问表单，因为他们可以使用键盘导航在各个部分之间切换。
+在自适应表单中，面板是一个容器元素，可用于将相关表单元素组合在一起。它可让您以一种符合逻辑且有意义的方式对不同的表单元素进行分组和整理。这有助于改善表单的整体结构和可读性，使用户能够更轻松地理解和导航。
 
-选项卡通常作为一系列链接或按钮创建，每个链接或按钮均对应表单的一个部分。当用户单击选项卡时，表单内容会动态更新以显示相应部分。
+面板也可用于创建可可折叠项部分，这对于隐藏复杂或不常用的表单字段来说很有用，可以使表单简单易用。它还可让您包含其他组件，如文本、复选框、按钮等。
 
-![示例](/help/adaptive-forms/assets/horizontal-example-new.png)
+它还可用于设置各种基于规则的操作，如提交表单、打开网站、显示/隐藏组件或添加面板实例。
 
-## 用途 {#reasons-to-use-horizontal-tabs}
+**示例**
 
-在自适应表单中使用水平选项卡的常见原因是：
+![示例](/help/adaptive-forms/assets/panel-container.png)
 
-- **改进了可用性**：水平选项卡使用户能够更轻松地浏览表单，尤其是在表单具有多个部分或大量字段时。
+## 用途 {#reasons-to-use-panel-container}
 
-- **空间管理**：水平选项卡可将相关的表单部分分组到选项卡中，并一次只显示一个部分，从而帮助节省屏幕空间。
+有若干原因要在表单中使用面板，这些原因包括：
 
-- **更好的组织结构**：选项卡为表单提供了清晰有序的组织结构，使用户更容易理解和填写表单。
+- **整理表单元素**：面板可用于将相关的表单元素组合起来，使用户能够更轻松地理解和浏览表单。
 
-- **提高了用户参与度**：水平选项卡可以使表单具有更吸引人的外观并吸引用户，从而提高表单完成率。
+- **改善表单结构**：通过将表单元素分组到面板中，可以改善表单的整体结构和可读性，使其更易于理解。
+
+- **创建可可折叠项部分**：面板可用于创建可可折叠项部分，这对于隐藏复杂或不常用的表单字段来说很有用，可以使表单简单易用。
+
+- **增强可用性**：通过使用面板整理表单元素，可使得表单变得更方便用户使用，从而提高完成率。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单水平选项卡核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
+2023 年 2 月，作为核心组件 2.0.4 的一部分发布了自适应表单面板容器核心组件。下表展示所有支持的版本、AEM 兼容性和相应文档的链接：
 
 |  |  |
 |---|---|
@@ -44,23 +48,21 @@ ht-degree: 94%
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
-
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
-
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技术详细信息 {#technical-details}
 
-可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs) 上的技术文档中获得关于自适应表单水平选项卡核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/panelcontainer/v1/panelcontainer) 上的技术文档中获得关于自适应表单面板容器核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，可轻松地自定义您为访客提供的水平选项卡体验。还可轻松地定义水平选项卡选项，从而营造一种无缝的用户体验。
+通过“配置”对话框，可轻松地自定义您为访客提供的面板容器体验。还可轻松地定义面板容器选项，从而营造一种无缝的用户体验。
 
 ### “基本”选项卡 {#basic-tab}
 
-![“基本”选项卡](/help/adaptive-forms/assets/tabs-on-top-basic.png)
+![“基本”选项卡](/help/adaptive-forms/assets/basic-panel.png)
 
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
@@ -95,47 +97,37 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-<!-- **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. -->
-
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 - **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 - **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
-### 重复顶部选项卡 {#repeat-tabs-on-top}
+### 重复面板选项卡 {#repeat-panel}
 
-![“辅助功能”选项卡](/help/adaptive-forms/assets/repeat-tabsontop.png)
+![重复选项卡](/help/adaptive-forms/assets/repeat-panel.png)
 
-您可以使用重复选项来复制“水平”选项卡组件及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。当与“水平”选项卡组件交互并访问其设置时，会出现以下选项：
+您可以使用重复选项来复制面板容器及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。当与面板容器组件交互并访问其设置时，会出现以下选项：
 
-- **使顶部选项卡可重复**：切换功能，允许用户启用或禁用重复功能。
-- **最少重复次数**：确定“水平”选项卡组件面板可以重复的最小次数。值为零表示“水平”选项卡组件不重复；默认值为零。
-- **最多重复次数**：设置“水平”选项卡组件面板可以重复的最大次数。默认情况下，此值不受限制。
-要有效管理“水平”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
+- **使面板可重复**：切换功能，允许用户启用或禁用重复功能。
+- **最少重复次数**：确定面板容器可以重复的最小次数。值为零表示向导面板不重复；默认值为零。
+- **最多重复次数**：设置面板容器可以重复的最多次数。默认情况下，此值无限制。
 
-### “项”选项卡 {#items-tab}
-
-![“项”选项卡](/help/adaptive-forms/assets/items-tabs-on-top.png)
-
-通过&#x200B;**添加**&#x200B;按钮，可从组件选择窗口中选择要作为面板添加的组件。添加该组件后，可看到以下选项：
-
-- **图标** - 图标在列表中标识面板的组件。将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
-- **描述** - 用作面板文本的描述。默认情况下，为面板选择组件的名称。
-- **删除** – 点按或单击，即可从“水平”选项卡组件中删除该面板。
-- **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
+要有效管理面板容器中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “帮助内容”选项卡 {#help-content}
 
-![“帮助内容”选项卡](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
+![“帮助内容”选项卡](/help/adaptive-forms/assets/helpcontent-panel.png)
 
 - **简短描述** - 简短描述是一段简短的文字说明，其中提供关于特定表单字段的用途的其他信息或阐述。它帮助用户了解应将什么类型的数据输入到字段中，并可提供准则或示例以帮助确保所输入的信息有效且符合预期的标准。默认情况下，简短描述保持隐藏状态。启用&#x200B;**始终显示简短描述**&#x200B;选项以在组件下方显示它。
+
 - **始终显示简短描述** - 启用该选项以在组件下方显示简短描述。
 
 - **帮助文本** - 帮助文本是指提供给用户以帮助其正确填写表单字段的其他信息或指导。当用户单击组件旁的“帮助”图标 (i) 时显示它。帮助文本提供比表单字段的标签或占位符文本更详细的信息，旨在帮助用户了解该字段的要求或限制。它还可提供建议或示例，以使填写表单更轻松且更准确。
 
 ### “辅助功能”选项卡 {#accessibility}
 
-![“辅助功能”选项卡](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
+![“辅助功能”选项卡](/help/adaptive-forms/assets/accessibilty-panel.png)
+
 
 - **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
 
@@ -143,32 +135,51 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## “设计”对话框 {#design-dialog}
 
-通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应表单“水平”选项卡组件，可设置以下各项：
-
-- 表单创建者可添加到自适应表单编辑器中的“水平”选项卡的核心组件
-- 可在自适应表单编辑器的“水平”选项卡组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
-
-这有助于使创建和自定义表单的过程更加简便和高效。
+“设计”对话框用于定义和管理表单容器组件的 CSS 样式。
 
 ### “允许使用的组件”选项卡 {#allowed-components-tab}
 
-![“允许使用的组件”选项卡](/help/adaptive-forms/assets/tabs-allowed-component.png)
+![“设计”对话框允许使用的组件选项卡](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑者可设置可作为项添加到自适应表单编辑器中的水平选项卡组件面板的组件。
+通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑器可设置组件，这些组件可作为项添加到自适应表单编辑器组件中的面板。
+
+### “默认组件”选项卡 {#default-components-tab}
+
+![“设计”对话框默认组件选项卡](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+通过&#x200B;**默认组件**&#x200B;选项卡，模板编辑器可指定默认情况下作为项显示在自适应表单编辑器中的表单容器组件中的组件。
+
+### “响应式设置”选项卡 {#responsive-tab}
+
+![“设计”对话框响应式设置选项卡](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+通过&#x200B;**响应式设置**&#x200B;选项卡，模板编辑器可指定自适应表单编辑器中的表单容器组件内的网格列数。
+
+### “容器设置”选项卡
+
+![“容器设置”选项卡](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **布局** - 可为向导采用固定布局（“简单”）或灵活布局（“响应式网格”）。“简单”布局将所有内容固定在原位，而通过“响应式网格”，可调整组件的位置以满足您的需要。例如，使用响应式网格将表单中的“名字”、“中间名”和“姓氏”排成一行。
+
+- **禁用布局**：选中此选项可禁用组件编辑对话框中的布局选择。
+
+- **启用背景图像**：利用此选项，用户可以配置面板设置以包括可视化背景来增大视觉吸引力。
+
+- **启用背景颜色**：利用此选项，您可以设置或更改面板的背景颜色。此功能通常在用户界面设计中用于自定义较大界面中的面板外观。在选中&#x200B;**启用背景颜色**&#x200B;选项时，将显示&#x200B;**仅色板**&#x200B;选项。利用&#x200B;**仅色板**&#x200B;选项，可使用&#x200B;**添加**&#x200B;按钮来指定或选择面板内的背景、文本或其他可视元素的颜色
 
 ### “样式”选项卡 {#styles-tab}
 
-“设计”对话框用于定义和管理组件的 CSS 样式。自适应表单水平选项卡核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+自适应表单文件附件核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-![“样式”选项卡](/help/adaptive-forms/assets/tabs-styles-tab.png)
+![“设计”对话框](/help/adaptive-forms/assets/panel-container-styles-tab.png)
 
-- **默认 CSS 类**：可为自适应表单水平选项卡核心组件提供默认 CSS 类。
+- **默认 CSS 类**：可为自适应表单面板容器核心组件提供默认 CSS 类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
 ### “自定义属性”选项卡
 
-![“自定义属性”选项卡](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![“自定义属性”对话框](/help/adaptive-forms/assets/panel-container-custom-properties.png)
 
 通过自定义属性，您可使用表单模板将自定义属性（键值对）关联到自适应表单核心组件。自定义属性反映在组件 Headless 演绎版的属性部分中。它可让您创建根据自定义属性值进行调整的动态表单行为。例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
 
@@ -179,6 +190,14 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
    - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
 
    - **重新排列**：点按或单击并拖动可重新排列自定义属性名称和自定义属性值的顺序。
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 ## 相关文章 {#related-articles}
 

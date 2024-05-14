@@ -3,16 +3,16 @@ title: 自适应表单核心组件 - 单选按钮
 description: 使用或自定义自适应表单单选按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2080'
 ht-degree: 90%
 
 ---
 
-# 单选按钮 {#radio-button-adaptive-forms-core-component}
+# 单选按钮组件 {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 和 **选项允许富文本**  功能，预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  和  **选项允许富文本**   功能，预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的单选按钮是一类输入元素，可让用户从一组相关选项中选择一个选项。它由一个小的圆形按钮表示，可以填充该按钮或将其保留为空来指示是否已选中选项。当用户选择一个单选按钮时，组中的其他单选按钮将变为取消选择状态。当存在多个互斥选项且一次只能选择一个选项时，通常会使用单选按钮。
 

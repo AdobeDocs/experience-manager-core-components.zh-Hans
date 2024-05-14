@@ -3,16 +3,16 @@ title: 自适应表单核心组件 - 日期选取器
 description: 使用或自定义自适应表单日期选取器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2095'
 ht-degree: 94%
 
 ---
 
-# 日期选取器 {#date-picker-adaptive-forms-core-component}
+# 日期选取器组件{#date-picker-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的日期选取器组件是一个用户界面元素，通过它，用户可从日历中选择日期或手动输入特定格式的日期。日期选取器组件可以配置为具有不同的格式、验证和默认值。
 

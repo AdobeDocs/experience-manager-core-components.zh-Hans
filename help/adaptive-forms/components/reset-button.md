@@ -3,16 +3,16 @@ title: 自适应表单核心组件 -“重置”按钮
 description: 使用或自定义自适应表单重置按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1491'
 ht-degree: 92%
 
 ---
 
-# 重置 {#reset-button}
+# 重置按钮组件 {#reset-button}
 
-<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的“重置”按钮可让用户清除所有表单字段或将其重置为其默认值。单击“重置”按钮时，已在表单字段中输入的所有数据将被删除，字段将恢复到原始状态。“重置”按钮通常用作提交按钮的替代项，如果用户在表单中输入了错误的或不需要的数据，可使用此按钮重新开始。
 

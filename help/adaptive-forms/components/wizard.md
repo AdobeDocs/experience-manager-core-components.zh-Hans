@@ -3,14 +3,14 @@ title: 自适应表单核心组件 - 向导
 description: 使用或自定义自适应表单向导核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 99%
 
 ---
 
-# 向导 {#wizard-adaptive-forms-core-component}
+# 向导组件{#wizard-adaptive-forms-core-component}
 
 自适应表单中的向导布局是指表单被分成多个步骤或页面，用户通过这些步骤或页面完成整个表单（一次一个步骤）。此布局称作“向导”，因为它将引导用户逐步完成表单。
 

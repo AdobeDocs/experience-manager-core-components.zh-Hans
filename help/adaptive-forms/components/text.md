@@ -3,14 +3,14 @@ title: 自适应表单核心组件 - 文本
 description: 使用或自定义自适应表单文本核心组件。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 99%
 
 ---
 
-# 文本 {#text-adaptive-forms-core-component}
+# 文本组件 {#text-adaptive-forms-core-component}
 
 在自适应表单中，文本是指显示在表单上以供用户阅读的内容。这可以包括用于标记一组表单元素的文本（例如文本字段），以及提供给用户的任何附加说明或信息。
 

@@ -3,14 +3,14 @@ title: 自适应表单核心组件 - 图像
 description: 使用或自定义自适应表单图像核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1058'
 ht-degree: 100%
 
 ---
 
-# 图像 {#image-adaptive-forms-core-component}
+# 图像组件{#image-adaptive-forms-core-component}
 
 利用自适应表单中的图像组件，可以在表单中包含图像。这些图像可用于增强表单的整体设计、提供附加信息或用作视觉辅助来帮助用户理解表单的用途。图像组件可用于在表单中添加徽标、照片或图形。
 

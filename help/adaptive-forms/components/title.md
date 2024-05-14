@@ -3,14 +3,14 @@ title: 自适应表单核心组件 - 标题
 description: 使用或自定义自适应表单标题核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 99%
 
 ---
 
-# 标题 {#title-input-adaptive-forms-core-component}
+# 标题组件{#title-input-adaptive-forms-core-component}
 
 在自适应表单中，“标题”是指显示在表单顶部的文本（通常位于页眉下方）。标题是使用标题组件指定的。可以将该组件添加到表单布局中，并且可以编辑其文本以匹配表单的用途或主题。标题作为提供给用户的表单的标签或简短描述，可帮助将该表单与其他表单区分开来。
 

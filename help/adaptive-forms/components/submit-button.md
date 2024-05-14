@@ -3,16 +3,16 @@ title: 自适应表单核心组件 -“提交”按钮
 description: 使用或自定义自适应表单“提交”按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1450'
 ht-degree: 92%
 
 ---
 
-# “提交”按钮 {#submit-button}
+# 提交按钮组件 {#submit-button}
 
-<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 使用自适应表单中的“提交”按钮，用户可以将表单数据提交给服务器进行处理。单击“提交”按钮后，表单数据将发送到服务器，可在该处存储和处理数据或将其用于各种目的，例如发送电子邮件或更新数据库。
 

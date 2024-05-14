@@ -3,16 +3,16 @@ title: 自适应表单核心组件 - 复选框组
 description: 使用或自定义自适应表单复选框组核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2048'
 ht-degree: 89%
 
 ---
 
-# 复选框组 {#button-component-adaptive-forms-core-component}
+# 复选框组组件 {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 和 **选项允许富文本**  功能，预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  和  **选项允许富文本**  功能，预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的复选框组是一组相关的复选框，通过这组复选框，用户可从列表中选择一个或多个选项。每个复选框由数据值（用于处理复选框组的项目的值）和显示值（用于描述其用途的每个复选框项目的标签）表示
 **示例**
