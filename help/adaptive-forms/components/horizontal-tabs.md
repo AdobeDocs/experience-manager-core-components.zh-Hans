@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 水平选项卡
 description: 使用或自定义自适应表单水平选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 水平选项卡（顶部选项卡）组件{#horizontal-tabs-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**    功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的水平选项卡是指一种设计模式，其中表单的多个部分组合在一起并显示为水平对齐的单独选项卡。用户可以在各个选项卡之间切换来访问表单的不同部分。每个选项卡均充当显示和隐藏相关表单内容的触发器。水平选项卡可帮助将较长的表单整理成可管理的部分并改善用户体验。选项卡使残障用户能够更轻松地访问表单，因为他们可以使用键盘导航在各个部分之间切换。
 

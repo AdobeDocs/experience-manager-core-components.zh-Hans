@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 复选框
 description: 使用或自定义自适应表单复选框核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # 复选框组件{#checkbox-component}
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**    功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 复选框是软件应用程序和表单中常用的一种图形用户界面元素，可让用户在两个选项之间二选一：选中（选定）或取消选中（取消选定）。
 

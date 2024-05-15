@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 面板容器
 description: 使用或自定义自适应表单面板容器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 面板组件{#panel-container-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**    功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 在自适应表单中，面板是一个容器元素，可用于将相关表单元素组合在一起。它可让您以一种符合逻辑且有意义的方式对不同的表单元素进行分组和整理。这有助于改善表单的整体结构和可读性，使用户能够更轻松地理解和导航。
 

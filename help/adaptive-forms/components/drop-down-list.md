@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 下拉列表
 description: 使用或自定义自适应表单下拉列表核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 下拉列表组件{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**    功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 通过自适应表单中的下拉列表，用户可从预定义选项的列表中选择一个或多个选项。这些选项可为字符串、数字或布尔值类型。此外，还可将下拉列表组件配置为具有不同的验证和默认值。
 

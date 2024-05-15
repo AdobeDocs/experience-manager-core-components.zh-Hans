@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 条款和条件
 description: 使用或自定义自适应表单条款和条件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '3115'
 ht-degree: 91%
@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # 条款和条件组件
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  和  **选项允许富文本**  功能，预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**   和   **选项允许富文本**   功能，预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 **条款和条件**&#x200B;组件是指表单中的一个概述用户在使用服务或访问内容时必须同意或遵守的条款、规则和条件的部分。
 

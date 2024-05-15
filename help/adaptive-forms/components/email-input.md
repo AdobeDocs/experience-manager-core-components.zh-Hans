@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 电子邮件输入
 description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 电子邮件输入组件 {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**    功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单电子邮件输入核心组件用于收集用户的电子邮件地址。通过电子邮件输入字段，浏览器可验证所输入的数据是否为有效的电子邮件地址格式。它一般表现为文本框并进行模式验证，以便仅接受有效的电子邮件地址。可用“必需”、“占位符”和“模式”等其他属性进一步自定义电子邮件输入字段，以针对输入的数据设置验证。
 

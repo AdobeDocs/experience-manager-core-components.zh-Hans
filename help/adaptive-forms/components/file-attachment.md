@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 文件附件
 description: 使用或自定义自适应表单文件附件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1852'
 ht-degree: 92%
@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # 文件附件组件 {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**    功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 通过自适应表单中的文件附件组件，用户可从其本地计算机或设备中选择并上传文件。可配置文件附件组件以允许特定文件类型、大小限制和多个附件。
 

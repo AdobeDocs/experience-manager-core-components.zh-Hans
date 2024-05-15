@@ -3,7 +3,7 @@ title: 自适应表单可折叠项面板
 description: 使用可折叠项面板组件通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2263'
 ht-degree: 95%
@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # 可折叠项面板组件 {#accordion-component-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**    功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 利用可折叠项面板核心组件，用户可在自适应表单中创建可展开和可可折叠项的部分。它一般用于通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。一般通过标题表示可折叠项面板的每个部分，用户单击标题即可展开或可折叠项相应的内容。该内容可为任意核心组件。
 

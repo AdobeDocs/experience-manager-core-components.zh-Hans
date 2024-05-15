@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 数值输入
 description: 使用或自定义自适应表单数字输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 94%
@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 数值框组件{#number-input-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**    功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单中的数字输入组件是一类允许用户输入数值的表单字段。该组件通常由一个文本字段表示，此字段带有分别用于递增和递减数字的向上和向下箭头。
 

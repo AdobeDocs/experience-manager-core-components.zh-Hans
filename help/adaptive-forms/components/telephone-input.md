@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 电话号码输入
 description: 使用或自定义自适应表单电话号码输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2142'
 ht-degree: 94%
@@ -13,7 +13,7 @@ ht-degree: 94%
 
 # 电话输入组件{#telephone-input-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关  **允许使用富文本作为标题**  功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关   **允许使用富文本作为标题**    功能，这是预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 自适应表单电话号码输入核心组件可让用户输入电话号码。电话号码输入字段显示与电话号码相关的移动设备中的键盘。可以使用“模式”和“占位符”等附加属性对其进行自定义，从而指定电话号码的格式和描述。
 
