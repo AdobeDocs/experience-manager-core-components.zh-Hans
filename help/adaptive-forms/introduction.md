@@ -3,18 +3,18 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 23ad6de410aaf4952607d9a4aa44864b0743c479
+source-git-commit: e15254b119194e14b5719de10a00b2990264756f
 workflow-type: tm+mt
-source-wordcount: '2154'
-ht-degree: 51%
+source-wordcount: '2175'
+ht-degree: 48%
 
 ---
 
-# 自适应表单核心组件简介 {#adaptive-forms-core-components-introduction}
+# 自适应表单核心组件  {#adaptive-forms-core-components-introduction}
 
-使用 Adobe Experience Manager 中的自适应表单核心组件，您可以利用灵活性和可用的自定义选项创建引人入胜的注册体验。
+使用Adobe Experience Manager中的自适应Forms核心组件，您可以创建引人入胜的注册体验。
 
-## 核心组件  {#overview}
+## 核心组件 {#overview}
 
 在 Adobe Experience Manager (AEM) 中，组件是用于创建页面和表单的构建基块。它们使作者能够通过一种简单而强大的方式创建和管理内容，并为开发人员提供了创建自定义组件所需的灵活性和可扩展性。它们旨在加快开发时间并降低网站和表单的维护成本，其操作灵活并且可以轻松定制，以满足网站和表单的特定需求。
 
@@ -28,7 +28,7 @@ ht-degree: 51%
 
 利用这些组件，可提供一系列广泛的表单字段选项（包括文本字段、复选框、下拉菜单等）来创建卓越的数据捕获和注册体验。它们还包括验证、条件逻辑和响应式设计等功能，可用于创建用户友好且易用的表单。
 
-此外，由于这些组件是开源的，因此，开发人员能够轻松定制和扩展组件以满足其组织的特定需求。而且，这些组件基于 BEM 方法而构建，这确保了它们可扩展且可维护。
+此外，由于这些组件是开源的，因此，开发人员能够轻松定制和扩展组件以满足其组织的特定需求。而且，这些组件是基于BEM方法构建的，这确保了它们的可扩展性和可维护性。
 
 ![自适应表单图像](assets/sample-adaptive-form.png)
 
@@ -37,10 +37,10 @@ ht-degree: 51%
 |  |  |
 |---|---|
 | 可以即刻投入使用 | 自适应表单核心组件是 24 个功能强大的 WCM 组件。 |
-| 云就绪 | 适用于 [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html)。 |
+| 云就绪 | 可用于 [AEM Formsas a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html). |
 | 可以通用 | 这些组件代表了表单作者可用来设计几乎任何布局的通用概念。 |
 | 可配置 | 模板级[内容策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies)定义了可以使用或无法使用的功能。 |
-| 可访问 | 它们提供 ARIA 标签，支持键盘导航以及用于屏幕阅读器等辅助技术的文本。 |
+| 可访问 | 它们提供ARIA标签，支持键盘导航和屏幕阅读器等辅助技术的文本。 |
 | 可主题化 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
 | 可自定义 | 可利用几种模式来轻松进行自定义设置（从调整 HTML 到高级功能重用）。 |
 | 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可确保核心组件在改进可能影响您的内容时不会中断您的网站。 |
@@ -71,20 +71,20 @@ ht-degree: 51%
 
 ## 比较核心组件、基础组件和表单块组件 {#components}
 
-当前版本的AEM具有以下核心组件和基础组件。
+当前版本的AEM具有以下核心组件、基础组件和表单块组件(Edge Delivery Services)。
 
 | 组件 | 基础组件 | 核心组件 | 表单块组件 | 附加信息 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
-| Adobe Sign Block | ✔️ | | | Adobe Sign集成仅适用于基础组件。 |
-| 可折叠项 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 对于基础组件，您可以在面板组件属性中配置折叠面板布局 |
-| 自适应表单片段 | ✔️ | ✔️ | | 对于基础组件，您可以从面板组件的属性添加片段。 |
-| 自适应表单 reCAPTCHA | ✔️ | ✔️ | ✔️ | 对于基础组件，使用Captcha组件将Google reCaptcha添加到表单中。 |
+| Adobe Sign Block | ✔️ | | | [Adobe Sign集成](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) 仅适用于Foundation组件。 |
+| 可折叠项 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 对于基础组件，您可以在以下位置配置折叠面板布局： [面板组件属性](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
+| 自适应表单片段 | ✔️ | ✔️ | | 对于基础组件，您可以 [添加片段](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) 资产浏览器中的。 |
+| 自适应表单 reCAPTCHA | ✔️ | ✔️ | ✔️ | 对于基础组件，请使用Captcha组件执行以下操作 [将Google reCaptcha添加到表单](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | 按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| 验证码 | ✔️ | | | 对于基础组件，使用Captcha组件将Google reCaptcha添加到表单中。 |
+| 验证码 | ✔️ | | | 对于基础组件，请使用Captcha组件执行以下操作 [将Google reCaptcha添加到表单](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | 图表 | ✔️ | | | |
 | 复选框 | ✔️ | ✔️ | | |
 | 复选框组 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 对于基础组件，使用复选框组件添加多个复选框 |
-| 数据输入字段 | ✔️ | | | 对于核心组件，使用日期选取器或使用单独的文本框或数值框组件来捕获日、月和年。 |
+| 数据输入字段 | ✔️ | | | 对于核心组件，请使用 [日期选取器](/help/adaptive-forms/components/date-picker.md) 组件。 您还可以添加单独的 [文本框](/help/adaptive-forms/components/text-box.md) 或 [数值框](/help/adaptive-forms/components/numeric-box.md) 用于捕获日、月和年的组件。 |
 | 日期选取器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | 下拉列表 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
 | 电子邮件 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
@@ -92,19 +92,19 @@ ht-degree: 51%
 | 文件附件列表 | ✔️ | | | |
 | 页脚 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
 | 脚注占位符 | ✔️ | | | |
-| 表单容器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 对于基础组件，请使用根面板组件。 |
+| 表单容器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 对于基础组件，请使用 [根面板组件](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | 表单标题 | ✔️ | ✔️ | | 对于基础组件，请使用标题组件。 |
 | 页眉 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
-| 水平选项卡 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 对于基础组件，您可以在面板组件属性中配置顶部（水平选项卡）布局的选项卡 |
+| 水平选项卡 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 对于基础组件，您可以配置 [选项卡位于顶部（水平选项卡）布局](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) 在面板组件属性中。 |
 | 图像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
 | 图像选择 | ✔️ | | | |
-| “下一个”按钮 | ✔️ | ✔️ | | 使用向导组件在“下一个”和“上一个”按钮在多个面板之间移动。 |
+| “下一个”按钮 | ✔️ | ✔️ | | 使用 [向导组件](/help/adaptive-forms/components/wizard.md) “下一个”和“上一个”按钮在多个面板之间移动。 |
 | 数值框 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | 数值步进器 | ✔️ | | | |
 | 面板 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | 密码框 | ✔️ | | ✔️ | |
 | 电话 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
-| “上一个”按钮 | ✔️ | | | 使用向导组件在“下一个”和“上一个”按钮在多个面板之间移动。 |
+| “上一个”按钮 | ✔️ | | | 使用 [向导组件](/help/adaptive-forms/components/wizard.md) “下一个”和“上一个”按钮在多个面板之间移动。 |
 | 单选按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
 | 单选按钮群组 | | | ✔️ | |
 | “重置”按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
@@ -112,14 +112,14 @@ ht-degree: 51%
 | 分隔符 | ✔️ | | | |
 | “提交”按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 摘要步骤 | ✔️ | | | |
-| 开关 | ✔️ | ✔️ | | |
+| 开关 | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/switch.md) | | |
 | 表 | ✔️ | | | |
 | 条款和条件 | ✔️ | ✔️ | | |
 | 文本 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | 文本框 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| 标题 | ✔️ | | | 对于核心组件，使用表单标题组件。 |
-| 垂直选项卡 | ✔️ | ✔️ | | 对于基础组件，您可以在面板组件属性中配置左侧（垂直选项卡）布局的选项卡 |
-| 向导 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 对于基础组件，您可以在面板组件属性中配置向导布局 |
+| 标题 | ✔️ | | | 对于核心组件，请使用 [表单标题](/help/adaptive-forms/components/title.md) 组件。 |
+| 垂直选项卡 | ✔️ | ✔️ | | 对于基础组件，您可以配置 [左侧选项卡（垂直选项卡）布局](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) 在面板组件属性中 |
+| 向导 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 对于基础组件，您可以配置 [向导布局](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) 在面板组件属性中 |
 
 
 
@@ -127,7 +127,7 @@ ht-degree: 51%
 >[!NOTE]
 >
 >
-> * 除了上面列出的组件之外，Forms Block还支持所有有效的 [HTML5输入类型](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) 和 [文本区域](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) 作为组件。
+> * 除了上面列出的组件之外，Forms块还支持所有有效的 [HTML5输入类型](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) 和 [文本区域](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) 作为组件。
 > * 是否需要上面未列出的组件？ 请在您的官方地址发电子邮件至aem-forms-ea@adobe.com请求帮助。
 
 
@@ -162,7 +162,7 @@ ht-degree: 51%
 基于核心组件的自适应Forms的编辑器与已用于创建AEM Sites页面的编辑器类似。 以下是您获得的内容：
 
 
-* **熟悉的UI元素和设置**：配置表单组件的属性时，您会看到“属性”对话框，其外观与用于WCM核心组件的对话框类似。 这可以让您更快地找到所需的选项。 与WCM核心组件一样，对于表单组件，“属性”对话框在编辑器的中心显示，其中明确的选项卡分隔基本和高级选项、帮助文本以及辅助功能信息 — 所有这些都以选项卡格式显示，以便轻松导航。
+* **熟悉的UI元素和设置**：配置表单组件的属性时，您会看到一个属性对话框，与您用于WCM核心组件的属性对话框类似。 这可以让您更快地找到所需的选项。 与WCM核心组件一样，对于表单组件，“属性”对话框显示在编辑器的中心，其中明确的制表符分隔基本和高级选项、帮助文本和可访问性信息 — 所有这些都以制表符格式显示，以便轻松导航。
 
 * **[规则编辑器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**：您可以向表单添加逻辑和动态功能，而无需编写代码。 您可以使用内置规则编辑器执行以下操作：
    * 根据用户选择显示或隐藏字段
