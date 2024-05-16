@@ -3,10 +3,10 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+source-git-commit: 23ad6de410aaf4952607d9a4aa44864b0743c479
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 100%
+source-wordcount: '2154'
+ht-degree: 51%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 100%
 
 数据捕获体验对于商机开发和注册至关重要，自适应表单核心组件提供了功能强大的解决方案来创建针对数据捕获优化的表单。使用核心组件在基础组件上创建这些体验的一些益处包括：
 
-* **可在 GitHub 上获得并提供内容全面的文档**：AEM Adaptive Forms 核心组件是开源的，可在 GitHub 上获得，并提供全面的文档。这使开发人员能够更容易理解相关组件及其工作方式，并为其开发做出贡献。[Aemcomponents.dev](https://www.aemcomponents.dev/) 网站也是一项宝贵的资源，开发人员可以在其中查看正在运行的组件并访问详细的文档。
+* **[在GitHub上可用](https://github.com/adobe/aem-core-forms-components)**：AEM自适应Forms核心组件是开源的，在GitHub上提供，同时还提供了全面的文档。 这使开发人员能够更容易理解相关组件及其工作方式，并为其开发做出贡献。[Aemcomponents.dev](https://www.aemcomponents.dev/) 网站也是一项宝贵的资源，开发人员可以在其中查看正在运行的组件并访问详细的文档。
 
-* **样式的 BEM 模型**：核心组件遵循 BEM（块元素修饰符）样式模型，这是一种行之有效且广泛使用的 CSS 组织方法。这使开发人员更容易理解相关样式的组织方式，以及如何修改它们，以满足其特定需求。
+* **[样式的BEM模型](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**：核心组件遵循BEM（块元素修饰符）模型来设置样式，这是一种用于组织CSS的公认且广泛使用的方法。 这使开发人员更容易理解相关样式的组织方式，以及如何修改它们，以满足其特定需求。
 
 * **不依赖第三方库**：核心组件的优势之一是它们不依赖于第三方 JavaScript 库，包括 JQuery 和 Underscore。这使得组件能够更快、更轻巧，并且更容易集成到现有的 AEM 实施中。
 
@@ -63,38 +63,155 @@ ht-degree: 100%
 
 * **Sites 30 模板和主题中的表单组件**：核心组件为 Sites 30 模板和主题中的表单组件提供支持，使开发人员可以更轻松地在 AEM 中创建和自定义表单。
 
-* **更容易设计样式**：与对应的基础组件相比，核心组件更容易设计样式。 主题创建过程类似于 Sites，并且能够从父 Sites 页面继承相同的主题/CSS。此外，用于样式的 BEM 模型使理解和修改各个样式变得更加容易。
+* **[样式更简单](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**：核心组件的样式比对应的基础组件样式更简单。 主题创建过程类似于 Sites，并且能够从父 Sites 页面继承相同的主题/CSS。此外，用于样式的 BEM 模型使理解和修改各个样式变得更加容易。
 
-* **辅助功能**：自适应表单核心组件支持辅助功能标准和指南，以确保残障人士（包括那些使用屏幕阅读器等辅助技术的人员）能够使用表单。
+* **辅助功能**：自适应Forms核心组件支持无障碍标准和准则，以确保残障人士可以使用表单，包括使用屏幕阅读器等辅助技术的残障人士。
 
-## 自适应表单核心组件 {#components}
+* **[版本控制](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**：您可以创建和管理基于核心组件的自适应Forms的多个版本，通过注释参与协作讨论，并将注释附加到特定表单组件，从而增强整体表单构建体验。
 
-当前版本的自适应表单核心组件具有以下所列组件。
+## 比较核心组件、基础组件和表单块组件 {#components}
 
-* [可折叠项](/help/adaptive-forms/components/accordion.md)
-* [按钮](/help/adaptive-forms/components/button.md)
-* [复选框组](/help/adaptive-forms/components/checkbox-group.md)
-* [日期选取器](/help/adaptive-forms/components/date-picker.md)
-* [下拉列表](/help/adaptive-forms/components/drop-down-list.md)
-* [电子邮件输入](/help/adaptive-forms/components/email-input.md)
-* [表单容器](/help/adaptive-forms/components/form-container.md)
-* [文件附件](/help/adaptive-forms/components/file-attachment.md)
-* [页脚](/help/adaptive-forms/components/footer.md)
-* [页眉](/help/adaptive-forms/components/header.md)
-* [水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
-* [图像](/help/adaptive-forms/components/image.md)
-* [数值框](/help/adaptive-forms/components/numeric-box.md)
-* [面板](/help/adaptive-forms/components/panel.md)
-* [单选按钮](/help/adaptive-forms/components/radio-button.md)
-* [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
-* [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
-* [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
-* [文本框](/help/adaptive-forms/components/text-box.md)
-* [文本](/help/adaptive-forms/components/text.md)
-* [标题](/help/adaptive-forms/components/title.md)
-* [向导](/help/adaptive-forms/components/wizard.md)
+当前版本的AEM具有以下核心组件和基础组件。
 
-## 设置自适应表单核心组件
+| 组件 | 基础组件 | 核心组件 | 表单块组件 | 附加信息 |
+|------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
+| Adobe Sign Block | ✔️ | | | Adobe Sign集成仅适用于基础组件。 |
+| 可折叠项 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 对于基础组件，您可以在面板组件属性中配置折叠面板布局 |
+| 自适应表单片段 | ✔️ | ✔️ | | 对于基础组件，您可以从面板组件的属性添加片段。 |
+| 自适应表单 reCAPTCHA | ✔️ | ✔️ | ✔️ | 对于基础组件，使用Captcha组件将Google reCaptcha添加到表单中。 |
+| 按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
+| 验证码 | ✔️ | | | 对于基础组件，使用Captcha组件将Google reCaptcha添加到表单中。 |
+| 图表 | ✔️ | | | |
+| 复选框 | ✔️ | ✔️ | | |
+| 复选框组 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 对于基础组件，使用复选框组件添加多个复选框 |
+| 数据输入字段 | ✔️ | | | 对于核心组件，使用日期选取器或使用单独的文本框或数值框组件来捕获日、月和年。 |
+| 日期选取器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
+| 下拉列表 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
+| 电子邮件 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
+| 文件附件 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/file-attachment.md)</span> | ✔️ | |
+| 文件附件列表 | ✔️ | | | |
+| 页脚 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
+| 脚注占位符 | ✔️ | | | |
+| 表单容器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 对于基础组件，请使用根面板组件。 |
+| 表单标题 | ✔️ | ✔️ | | 对于基础组件，请使用标题组件。 |
+| 页眉 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
+| 水平选项卡 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 对于基础组件，您可以在面板组件属性中配置顶部（水平选项卡）布局的选项卡 |
+| 图像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
+| 图像选择 | ✔️ | | | |
+| “下一个”按钮 | ✔️ | ✔️ | | 使用向导组件在“下一个”和“上一个”按钮在多个面板之间移动。 |
+| 数值框 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
+| 数值步进器 | ✔️ | | | |
+| 面板 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
+| 密码框 | ✔️ | | ✔️ | |
+| 电话 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
+| “上一个”按钮 | ✔️ | | | 使用向导组件在“下一个”和“上一个”按钮在多个面板之间移动。 |
+| 单选按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
+| 单选按钮群组 | | | ✔️ | |
+| “重置”按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| 潦草签名 | ✔️ | | | |
+| 分隔符 | ✔️ | | | |
+| “提交”按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
+| 摘要步骤 | ✔️ | | | |
+| 开关 | ✔️ | ✔️ | | |
+| 表 | ✔️ | | | |
+| 条款和条件 | ✔️ | ✔️ | | |
+| 文本 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
+| 文本框 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
+| 标题 | ✔️ | | | 对于核心组件，使用表单标题组件。 |
+| 垂直选项卡 | ✔️ | ✔️ | | 对于基础组件，您可以在面板组件属性中配置左侧（垂直选项卡）布局的选项卡 |
+| 向导 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 对于基础组件，您可以在面板组件属性中配置向导布局 |
+
+
+
+
+>[!NOTE]
+>
+>
+> * 除了上面列出的组件之外，Forms Block还支持所有有效的 [HTML5输入类型](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) 和 [文本区域](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) 作为组件。
+> * 是否需要上面未列出的组件？ 请在您的官方地址发电子邮件至aem-forms-ea@adobe.com请求帮助。
+
+
+<!-- >
+* [Accordion](/help/adaptive-forms/components/accordion.md)
+* [Button](/help/adaptive-forms/components/button.md)
+* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
+* [Date Picker](/help/adaptive-forms/components/date-picker.md)
+* [Drop-down list](/help/adaptive-forms/components/drop-down-list.md)
+* [Email-input](/help/adaptive-forms/components/email-input.md)
+* [Form Container](/help/adaptive-forms/components/form-container.md)
+* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+* [Footer](/help/adaptive-forms/components/footer.md)
+* [Header](/help/adaptive-forms/components/header.md)
+* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Image](/help/adaptive-forms/components/image.md)
+* [Numeric Box](/help/adaptive-forms/components/numeric-box.md)
+* [Panel](/help/adaptive-forms/components/panel.md)
+* [Radio Button](/help/adaptive-forms/components/radio-button.md)
+* [Reset Button](/help/adaptive-forms/components/reset-button.md)
+* [Submit Button](/help/adaptive-forms/components/submit-button.md)
+* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+* [Text Box](/help/adaptive-forms/components/text-box.md)
+* [Text](/help/adaptive-forms/components/text.md)
+* [Title](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)
+
+-->
+
+## 易于使用的表单编辑器
+
+基于核心组件的自适应Forms的编辑器与已用于创建AEM Sites页面的编辑器类似。 以下是您获得的内容：
+
+
+* **熟悉的UI元素和设置**：配置表单组件的属性时，您会看到“属性”对话框，其外观与用于WCM核心组件的对话框类似。 这可以让您更快地找到所需的选项。 与WCM核心组件一样，对于表单组件，“属性”对话框在编辑器的中心显示，其中明确的选项卡分隔基本和高级选项、帮助文本以及辅助功能信息 — 所有这些都以选项卡格式显示，以便轻松导航。
+
+* **[规则编辑器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**：您可以向表单添加逻辑和动态功能，而无需编写代码。 您可以使用内置规则编辑器执行以下操作：
+   * 根据用户选择显示或隐藏字段
+   * 启用或禁用对象
+   * 设置对象的值
+   * 执行计算
+   * 设置对象的属性
+   * 验证数据输入
+   * 调用服务（调用外部功能）
+   * 使用内置函数（常见任务的预定义函数）
+   * 使用自定义函数（针对特定需求使用您自己的代码）
+   * 验证字段和面板（确保数据符合要求）
+   * 验证对象的值
+   * 执行函数以计算对象的值
+   * 调用表单数据模型(FDM)服务并执行操作
+   * 动态添加样式（根据条件更改外观）
+   * 创建其他规则（链操作和逻辑）
+   * 等等！
+
+  规则编辑器没有代码编辑器。 您可以使用 [自定义函数](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) 将您自己的代码添加到规则编辑器中，以满足特定需求。
+
+
+
+* **预填表单**：当用户打开表单时，您可以使用现有数据自动填充该表单中的某些字段。 这无需手动输入可能已经可用的信息，从而节省了用户的时间和精力。 核心组件编辑器提供OOTB预填充服务，以通过表单数据模型帮助填充表单字段。 您还可以为更复杂的方案创建自定义预填充服务。
+
+* **[记录文档(DoR)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**：记录文档(DoR)是指通过表单提交的数据的正式可打印表示形式。 它用作用户输入信息的永久记录，以用户友好的格式(通常为PDF文档)提供提交数据的快照。 您可以使用编辑器轻松配置自定义模板或使用OOTB模板生成DoR。
+
+* **[表单数据模型](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**：自适应Forms数据模型(FDM)充当自适应Forms与数据源之间的桥梁。 它主要定义表单所收集并与之交互的数据的结构和组织。 您可以使用编辑器轻松地将表单与Forms数据模型(FDM)连接。
+
+* **[表单提交](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you，button%20on%20an%20Adaptive%20Form)**：表单提交是指用户填写并发送表单的过程。 这会触发在表单配置中定义的一系列操作，最终导致存储或处理提交的数据。 自适应Forms编辑器提供了多种用于配置表单提交的选项。 一些常见的提交操作包括：
+
+   * [发送电子邮件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you，button%20on%20an%20Adaptive%20Form。)
+   * [调用Power Automate流](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
+   * [提交到SharePoint](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
+   * [调用Workfront Fusion](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
+   * [使用表单数据模型(FDM)提交](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)
+   * [提交到Azure Blob存储](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Submit%20to%20Azure%20Blob%20Storage)
+   * [提交到REST端点](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
+   * [提交到OneDrive](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
+   * [调用AEM工作流](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+
+
+<!-- 
+* **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
+-->
+
+
+
+## 启用自适应Forms核心组件
 
 通过在 AEM Forms as a Cloud Service 上启用自适应表单核心组件，您可以使用 AEM Forms Cloud Service 实例为多个渠道创建、发布和投放基于核心组件的自适应表单和 Headless 表单。有关启用自适应表单核心组件的详细说明，请参阅[在 AEM Forms as a Cloud Service 和本地开发环境上启用自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)。
 
