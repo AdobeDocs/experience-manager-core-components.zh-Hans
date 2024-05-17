@@ -3,16 +3,16 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: f86340f87706d5803ec58a9034ac6a15027e0e0c
+source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
 workflow-type: tm+mt
-source-wordcount: '3041'
-ht-degree: 97%
+source-wordcount: '3079'
+ht-degree: 96%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件的当前版本为 2.23.4，与所安装的 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 兼容。
+核心组件的当前版本为 2.25.4，与所安装的 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-Hans) 兼容。
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
@@ -26,6 +26,8 @@ ht-degree: 97%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|
+| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 这是一个修复某些IT故障的次要版本。 | - | 6.5.22.0+ | 连续 | 8, 11 | 2024 年 5 月 10 日 |
+| [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 这是一个修复某些IT故障的次要版本。 | - | 6.5.22.0+ | 连续 | 8, 11 | 2024 年 5 月 9 日 |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 此发行版本添加了对Dynamic Media中的命名智能裁剪的支持，包括性能和辅助功能改进以及各种错误修复。 | - | 6.5.21.0+ | 连续 | 8, 11 | 2024 年 5 月 2 日 |
 | [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | 此补丁发行版本包括数据层初始化的改进。 | - | 6.5.21.0+ | 连续 | 8, 11 | 2024年4月22日 |
 | [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 此补丁发行版本修复了Sling模型初始化。 | - | 6.5.21.0+ | 连续 | 8, 11 | 2024年4月1日 |
