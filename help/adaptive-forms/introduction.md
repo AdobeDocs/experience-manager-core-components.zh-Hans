@@ -3,7 +3,7 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 63b4b59c43ffef10a036db3a639a6d5fa75a4e89
+source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 47%
@@ -24,7 +24,7 @@ ht-degree: 47%
 
 ## 自适应表单核心组件
 
-自适应表单核心组件是一组（24 个）开源且与 BEM 兼容的组件，它们基于 Adobe Experience Manager WCM 核心组件而构建。它们专门设计用于创建自适应表单，后者是能够适应用户的设备、浏览器和屏幕大小的表单。
+自适应表单核心组件是一组（29 个）开源且与 BEM 兼容的组件，它们基于 Adobe Experience Manager WCM 核心组件而构建。它们专门设计用于创建自适应表单，后者是能够适应用户的设备、浏览器和屏幕大小的表单。
 
 利用这些组件，可提供一系列广泛的表单字段选项（包括文本字段、复选框、下拉菜单等）来创建卓越的数据捕获和注册体验。它们还包括验证、条件逻辑和响应式设计等功能，可用于创建用户友好且易用的表单。
 
