@@ -1,8 +1,8 @@
 ---
 source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # 代码片段 {#snippets}
@@ -76,7 +76,7 @@ ht-degree: 99%
 - [单选按钮](/help/adaptive-forms/components/radio-button.md)
 - [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
 - [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
-- [电话输入](/help/adaptive-forms/components/telephone-input.md)
+- [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
 - [文本框](/help/adaptive-forms/components/text-box.md)
 - [文本](/help/adaptive-forms/components/text.md)
 - [标题](/help/adaptive-forms/components/title.md)

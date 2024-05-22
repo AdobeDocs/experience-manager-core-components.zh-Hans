@@ -4,17 +4,17 @@ description: 使用或自定义自适应表单复选框组核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2048'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # 复选框组组件 {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关   **允许使用富文本作为标题**   和   **选项允许富文本**   功能，预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关&#x200B;**允许标题为富文本**&#x200B;和&#x200B;**允许选项的富文本**&#x200B;功能以及预发布功能方面的内容。该预发布功能仅可通过我们的[预发布渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)访问。</span>
 
-自适应表单中的复选框组是一组相关的复选框，通过这组复选框，用户可从列表中选择一个或多个选项。每个复选框由数据值（用于处理复选框组的项目的值）和显示值（用于描述其用途的每个复选框项目的标签）表示
+自适应表单中的复选框组是一组相关的复选框，通过这组复选框，用户可从列表中选择一个或多个选项。每个复选框都由一个数据值（用于处理复选框组的项的值）和一个显示值（每个复选框项的标签，用于描述其用途）表示
 **示例**
 
 ![复选框组示例](/help/adaptive-forms/assets/checkbox-group.png)
@@ -76,8 +76,8 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
 
-- **允许使用富文本作为标题**  — 此功能使用户能够设置纯文本标题的格式，其中包含了粗体、斜体、带下划线的文本、各种字体、字体大小、颜色以及其他选项，从而增强视觉呈现和自定义效果。 在使标题在文档、网站或应用程序中脱颖而出方面，它提供了更大的灵活性和创造性控制。\
-  选中复选框 **允许使用富文本作为标题** 时，格式选项将变为可见，以便设置组件标题的样式。 要访问所有可用的格式选项，您可以单击 `Fullscreen` ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
+- **允许标题为富文本**：此功能使用户能够格式化纯文本标题，结合粗体、斜体、下划线文本、各种字体、字体大小、颜色和附加选项等功能，以增强视觉呈现和定制效果。它提供了更大的灵活性以及对创作的控制度，使标题在文档、网站或应用程序中脱颖而出。\
+  选中&#x200B;**允许标题为富文本**&#x200B;复选框后，可以看到格式化选项，用于设置组件标题的样式。要访问所有可用的格式选项，您可以点击`Fullscreen`![全屏图标](/help/adaptive-forms/assets/fullscreen-icon.png)选项卡。
 
   ![富文本支持](/help/adaptive-forms/assets/richtext-support-title.png)
 
@@ -90,12 +90,12 @@ To experience the Accordion Component as well as see examples of its configurati
    - **删除** - 点击或单击以删除复选框的选项。
    - **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
 
-  您还可以使用以下方式设置复选框组的选项格式 **选项允许富文本**.
+  您还可以使用&#x200B;**允许选项为富文本**&#x200B;对复选框组的选项进行格式化。
 
-  ![对选项的RTF支持](/help/adaptive-forms/assets/richtext-for-options.png)
+  ![针对选项的富文本支持](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  选中复选框 **选项允许富文本** 格式化选项将变为可见，以便为该组件的选项设置样式。 要访问所有可用的格式选项，您可以单击 `Fullscreen` ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
-  ![对选项的RTF支持](/help/adaptive-forms/assets/richtextoptions-support.png)
+  选中&#x200B;**允许选项为富文本**&#x200B;复选框后，格式化选项变得可见，以设置组件选项的样式。要访问所有可用的格式选项，您可以点击`Fullscreen`![全屏图标](/help/adaptive-forms/assets/fullscreen-icon.png)选项卡。
+  ![针对选项的富文本支持](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 

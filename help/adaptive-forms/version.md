@@ -4,9 +4,9 @@ description: 作为可包含同一核心组件的多个版本的发行版发布 
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 55%
 
 ## AEM Forms as Cloud Service 版本历史 {#aem-as-cs-version-history}
 
-与AEMas a Cloud Service兼容的核心组件版本在以下位置提供： [GitHub及其版本的完整详细信息](https://github.com/adobe/aem-core-forms-components/releases).
+可在 [GitHub 上获取的与 AEM as a Cloud Service 兼容的核心组件版本及其版本的全面详细信息](https://github.com/adobe/aem-core-forms-components/releases)。
 
-要查看AEMas a Cloud Service的核心组件版本历史记录，请执行以下操作 [单击此处](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+要查看 AEM as a Cloud Service 的核心组件版本历史记录，[请单击此处](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md)。
 
 
 <!--
@@ -117,9 +117,9 @@ ht-degree: 55%
 
 ## AEM 6.5 Forms 版本历史记录 {#aem-as-form-version-history}
 
-与AEM 6.5 Form内部部署和AMS兼容的核心组件版本，可从以下位置获取： [GitHub及其版本的完整详细信息](https://github.com/adobe/aem-core-forms-components/releases).
+可在 [GitHub 上获取的与内部部署 AEM 6.5 Form 以及 AMS 兼容的核心组件版本及其版本的全面详细信息](https://github.com/adobe/aem-core-forms-components/releases)。
 
-要查看AEM 6.5 Form内部部署和AMS的核心组件版本历史记录， [单击此处](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+要查看 AEM 6.5 Form 本地版和 AMS 的核心组件版本历史记录，[请单击此处](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md)。
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

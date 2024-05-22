@@ -6,15 +6,15 @@ exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 hide: true
 hidefromtoc: true
 source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1867'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 开关组件{#switch-adaptive-forms-core-component}
 
-<span class="preview"> 本文包含有关 **允许使用富文本作为标题** 和 **选项允许富文本**  功能，预发行版功能。 预发行功能只能通过我们的 [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> 本文包含有关&#x200B;**允许标题为富文本**&#x200B;和&#x200B;**允许选项的富文本**&#x200B;功能以及预发布功能方面的内容。该预发布功能仅可通过我们的[预发布渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)访问。</span>
 
 开关组件是表单中使用的图形用户界面，允许用户在两个选项之间进行选择。它通常是两种状态开关，使用户能够在两种状态之间进行选择，从而启用或禁用特性、设置或功能。开关组件旨在直观地表示当前状态并显示特定功能是处于启用还是禁用状态。
 
@@ -61,8 +61,8 @@ ht-degree: 90%
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的旁边。如果不添加标题，则不会显示该组件。
-- **允许使用富文本作为标题**  — 此功能使用户能够设置纯文本标题的格式，其中包含了粗体、斜体、带下划线的文本、各种字体、字体大小、颜色以及其他选项，从而增强视觉呈现和自定义效果。 在使标题在文档、网站或应用程序中脱颖而出方面，它提供了更大的灵活性和创造性控制。\
-  选中复选框 **允许使用富文本作为标题** 时，格式选项将变为可见，以便设置组件标题的样式。 要访问所有可用的格式选项，您可以单击 ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
+- **允许标题为富文本**：此功能使用户能够格式化纯文本标题，结合粗体、斜体、下划线文本、各种字体、字体大小、颜色和附加选项等功能，以增强视觉呈现和定制效果。它提供了更大的灵活性以及对创作的控制度，使标题在文档、网站或应用程序中脱颖而出。\
+  选中&#x200B;**允许标题为富文本**&#x200B;复选框后，可以看到格式化选项，用于设置组件标题的样式。要访问所有可用的格式选项，您可以点击![全屏图标](/help/adaptive-forms/assets/fullscreen-icon.png)选项卡。
 
   ![富文本支持](/help/adaptive-forms/assets/richtext-support-title.png)
 
@@ -75,13 +75,13 @@ ht-degree: 90%
    - **禁用时的数据值** - 指定未在自适应表单中启用开关时要提交的值。此选项仅在启用&#x200B;**保留“取消选中”状态值**&#x200B;开关时可见。
    - **禁用时的显示文本** - 指定未在自适应表单中启用开关时要显示为标签的文本。此选项仅在启用&#x200B;**保留“取消选中”状态值**&#x200B;开关时可见。
 
-  还可以使用设置交换机组件的选项格式 **选项允许富文本**.
+  您还可以使用&#x200B;**允许选项为富文本**&#x200B;来格式化开关组件的选项。
 
-  ![对选项的RTF支持](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+  ![针对选项的富文本支持](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
 
-  选中复选框 **选项允许富文本** 格式化选项将变为可见，以便为该组件的选项设置样式。 要访问所有可用的格式选项，您可以单击 `Fullscreen` ![“全屏”图标](/help/adaptive-forms/assets/fullscreen-icon.png) 选项卡。
+  选中&#x200B;**允许选项为富文本**&#x200B;复选框后，格式化选项变得可见，以设置组件选项的样式。要访问所有可用的格式选项，您可以点击`Fullscreen`![全屏图标](/help/adaptive-forms/assets/fullscreen-icon.png)选项卡。
 
-  ![对选项的RTF支持](/help/adaptive-forms/assets/switch-richtext-for-display.png)
+  ![针对选项的富文本支持](/help/adaptive-forms/assets/switch-richtext-for-display.png)
 
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 - **标记为未绑定表单元素**：选择此选项可配置未链接到任何架构的表单字段。利用此选项，您可以保存数据而不更新数据源。它还可让您以一种独立于标准数据库集成的自定义方式处理数据。

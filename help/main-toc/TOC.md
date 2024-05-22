@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 98%
       + [自适应表单垂直选项卡](/help/adaptive-forms/components/vertical-tabs.md)
       + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
       + [自适应表单图像](/help/adaptive-forms/components/image.md)
-      + [自适应Forms数值框](/help/adaptive-forms/components/numeric-box.md)
+      + [自适应表单数值框](/help/adaptive-forms/components/numeric-box.md)
       + [自适应表单面板](/help/adaptive-forms/components/panel.md)
       + [自适应表单验证码](/help/adaptive-forms/components/captcha.md)
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [自适应表单文本](/help/adaptive-forms/components/text.md)
       + [自适应表单文本框](/help/adaptive-forms/components/text-box.md)
       + [自适应表单标题](/help/adaptive-forms/components/title.md)
-      + [自适应Forms向导](/help/adaptive-forms/components/wizard.md)
+      + [自适应表单向导](/help/adaptive-forms/components/wizard.md)
       + [自适应表单条款和条件](/help/adaptive-forms/components/terms-and-conditions.md)
       + [页眉](/help/adaptive-forms/components/header.md)
       + [页脚](/help/adaptive-forms/components/footer.md)

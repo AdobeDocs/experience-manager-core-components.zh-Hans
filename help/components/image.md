@@ -4,7 +4,7 @@ description: 核心组件图像组件是自适应图像组件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1970'
 ht-degree: 100%
 
