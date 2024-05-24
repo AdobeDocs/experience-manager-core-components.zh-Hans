@@ -3,10 +3,10 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
-workflow-type: ht
-source-wordcount: '2215'
-ht-degree: 100%
+source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
+workflow-type: tm+mt
+source-wordcount: '2214'
+ht-degree: 98%
 
 ---
 
@@ -69,9 +69,9 @@ ht-degree: 100%
 
 * **[版本控制](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**：您可以创建并管理基于核心组件的自适应表单的多个版本，通过评论参与协作讨论，并将注释附加到特定表单组件中，从而增强整体表单构建体验。
 
-## 比较核心组件、基础组件和表单块组件 {#components}
+## 可用组件：按组件类型细分
 
-AEM 的当前版本具有以下核心组件、[基础组件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar)和[表单块组件 (Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components)。
+当前版本的AEM Forms具有以下核心组件， [基础组件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar)、和 [表单块组件(Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | 组件 | Foundation 组件  | 核心组件 | 表单块组件 | 附加信息 |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
