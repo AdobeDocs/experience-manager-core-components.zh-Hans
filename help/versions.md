@@ -3,8 +3,8 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
-workflow-type: ht
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
 source-wordcount: '3079'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 | [ 2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 此版本增加了对 Google Tag Manager 数据层的支持并修复了各种错误。 | - | 6.5.21.0+ | 连续 | 8, 11 | 2024 年 2 月 14 日 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | 此补丁版本包括各种错误修复。 | - | 6.5.17.0 和更高版本 | 连续 | 8, 11 | 2023 年 9 月 15 日 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 此补丁将 Dynamic Media 远程资源智能裁切添加到[图像](/help/components/image.md)和 [Teaser 组件](/help/components/teaser.md)并修复了若干错误。 | - | 6.5.17.0 和更高版本 | 连续 | 8, 11 | 2023 年 4 月 8 日 |
-| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 此版本添加了对[新一代 Dynamic Media 远程资源](/help/developing/next-gen-dm.md)的支持。 | - | 6.5.17.0 和更高版本 | 连续 | 8, 11 | 2023 年 6 月 6 日 |
+| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 此版本添加了对[新一代 Dynamic Media 远程资源](/help/developing/remote-assets.md)的支持。 | - | 6.5.17.0 和更高版本 | 连续 | 8, 11 | 2023 年 6 月 6 日 |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | 此补丁版本修复了两个问题。 | - | 6.5.14.0 和更高版本 | 连续 | 8, 11 | 2023 年 5 月 25 日 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 此补丁版本修复了两个回归。 | - | 6.5.14.0 和更高版本 | 连续 | 8, 11 | 2023 年 5 月 11 日 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | 此补丁版本恢复了在上一版本中意外删除的功能。 | - | 6.5.14.0 和更高版本 | 连续 | 8, 11 | 2023 年 5 月 9 日 |

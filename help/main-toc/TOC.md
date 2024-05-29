@@ -5,10 +5,10 @@ breadcrumb-title: 核心组件指南
 feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 99%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 100%
    + [包含客户端库](/help/developing/including-clientlibs.md)
    + [自适应图像 Servlet](/help/developing/adaptive-image-servlet.md)
    + [Web 优化图像投放](/help/developing/web-optimized-image-delivery.md)
-   + [支持新一代 Dynamic Media](/help/developing/next-gen-dm.md)
+   + [远程资产支持](/help/developing/remote-assets.md)
    + Adobe 客户端数据层{#data-layer}
       + [Data Layer 的概述](/help/developing/data-layer/overview.md)
       + [与数据层的集成](/help/developing/data-layer/integrations.md)

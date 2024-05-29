@@ -3,10 +3,10 @@ title: 图像组件
 description: 核心组件图像组件是自适应图像组件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
-workflow-type: ht
-source-wordcount: '1970'
-ht-degree: 100%
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
+source-wordcount: '1957'
+ht-degree: 96%
 
 ---
 
@@ -53,11 +53,9 @@ ht-degree: 100%
 
 使用核心组件构建的 Web 体验现在具备丰富、支持 Sensei、可靠、高性能、跨平台的 Dynamic Media 图像功能。
 
-## 支持新一代 Dynamic Media {#next-gen-dm}
+## 远程资产支持 {#remote-assets}
 
-图像组件（从[版本 2.23.2](/help/versions.md) 起）支持新一代 Dynamic Media 远程资源。
-
-[配置后，](/help/developing/next-gen-dm.md)即可从远程新一代 Dynamic Media 服务为您的图像组件选择资源。
+图像组件(截至 [发行版本2.23.2](/help/versions.md))支持远程资产。 [配置完毕后，](/help/developing/remote-assets.md) 您可以从远程服务中为图像组件选择资源。
 
 ## SVG 支持 {#svg-support}
 
@@ -87,7 +85,7 @@ ht-degree: 100%
 
 利用“编辑”对话框，内容作者可以裁切和缩放图像。
 
-根据是否启用了 [Dynamic Media](#dynamic-media) 或[新一代 Dynamic Media](#next-gen-dm) 功能，对于编辑图像可用的选项有所不同。
+取决于您是否拥有 [Dynamic Media](#dynamic-media) 已启用或 [远程资产支持](#remote-assets) 启用时，可用于编辑图像的选项会有所不同。
 
 ### 编辑标准资源 {#standard-assets}
 
@@ -154,7 +152,7 @@ ht-degree: 100%
    * 将资源放置在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)中或点按&#x200B;**浏览**&#x200B;选项，以使您可从本地文件系统上传。
    * 点按或单击&#x200B;**清除**&#x200B;以取消选择当前选择的图像。
    * 点按或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)，以使您可选择图像。
-      * 如果启用了[新一代 Dynamic Media 功能](#next-gen-dm)，则有多种方式可选取资源：
+      * 如果 [远程声明支持](#remote-assets) 启用后，您有多个选项可用于选择资产：
          * **本地**&#x200B;从本地 AEM 资源库选择。
          * **远程**&#x200B;从您的 AEM 实例之外的 Dynamic Media 库选择。
    * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html)。

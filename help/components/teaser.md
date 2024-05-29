@@ -3,10 +3,10 @@ title: Teaser 组件
 description: Teaser 组件可以显示图像、标题、富文本并可以选择链接到更多内容。
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '1081'
-ht-degree: 100%
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 95%
 
 ---
 
@@ -31,11 +31,9 @@ Teaser 组件的当前版本是 v2，此版本随 2022 年 2 月的核心组件�
 | v2 | - | 兼容 | 兼容 |
 | [v1](v1/teaser.md) | 兼容 | 兼容 | 兼容 |
 
-## 支持新一代 Dynamic Media {#next-gen-dm}
+## 远程资产支持 {#remote-assets}
 
-Teaser 组件（从[版本 2.23.2](/help/versions.md) 起）支持新一代 Dynamic Media 远程资源。
-
-[配置后，](/help/developing/next-gen-dm.md)即可从远程新一代 Dynamic Media 服务为您的 Teaser 组件选择资源。
+Teaser组件(截至 [发行版本2.23.2](/help/versions.md))支持远程资产。 [配置完毕后，](/help/developing/remote-assets.md) 您可以从远程服务中为Teaser组件选择资源。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -84,7 +82,7 @@ Teaser 组件（从[版本 2.23.2](/help/versions.md) 起）支持新一代 Dyna
 * **图像资源** - 在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)中放置资源或点击&#x200B;**浏览**&#x200B;选项以从本地文件系统上传。
    * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
    * 点击或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)以选择图像。
-      * 如果启用了[新一代 Dynamic Media 功能](#next-gen-dm)，则有多种方式可选取资源：
+      * 如果 [远程资产支持](#remote-assets) 启用后，您有多个选项可用于选择资产：
          * **本地**&#x200B;从本地 AEM 资源库选择。
          * **远程**&#x200B;从您的 AEM 实例之外的 Dynamic Media 库选择。
    * 点击或单击&#x200B;**编辑**&#x200B;以在资源编辑器中[管理资源的演绎版](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
