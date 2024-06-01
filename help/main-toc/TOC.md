@@ -4,11 +4,11 @@ user-guide-title: AEM 核心组件
 breadcrumb-title: 核心组件指南
 feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
-feature-set: Experience Manager Sites
-source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
+feature-set: Experience Manager Sites, Experience Manager Forms
+source-git-commit: a7cf223f8799054683f135e08fb83b320dd948fa
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 99%
+source-wordcount: '378'
+ht-degree: 98%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 99%
       + [自适应表单表单片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [自适应表单文件附件](/help/adaptive-forms/components/file-attachment.md)
       + [自适应表单垂直选项卡](/help/adaptive-forms/components/vertical-tabs.md)
+      + [自适应Forms验证码](/help/adaptive-forms/components/hcaptcha.md)
       + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
       + [自适应表单图像](/help/adaptive-forms/components/image.md)
       + [自适应表单数值框](/help/adaptive-forms/components/numeric-box.md)
