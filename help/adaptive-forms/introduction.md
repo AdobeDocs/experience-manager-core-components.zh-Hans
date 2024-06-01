@@ -3,9 +3,9 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: d3a887338387b4d46c1f81c4a6ddf040a82a48b7
+source-git-commit: 1f9cef8eb448b4f5662c95827ab6575bdfeaf740
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2229'
 ht-degree: 99%
 
 ---
@@ -78,8 +78,9 @@ AEM Forms 的当前版本具有以下核心组件、[基础组件](https://exper
 | Adobe Sign Block | ✔️ | | | [Adobe Sign 集成](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government)仅适用于基础组件。 |
 | 可折叠项 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | 对于基础组件，您可以在[面板组件属性](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)中配置可折叠项版面。 |
 | 自适应表单片段 | ✔️ | ✔️ | | 对于基础组件，您可以从资产浏览器中[添加片段](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)。 |
-| reCAPTCHA | ✔️ | ✔️ | ✔️ | 对于基础组件，使用验证码组件[将 Google reCaptcha 添加到表单中](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)。 |
+| 自适应表单 reCAPTCHA | ✔️ | ✔️ | ✔️ | 对于基础组件，使用验证码组件[将 Google reCaptcha 添加到表单中](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)。 |
 | 按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
+| 验证码 | ✔️ |  |  | 对于基础组件，使用验证码组件[将 Google reCaptcha 添加到表单中](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)。 |
 | 图表 | ✔️ | | | |
 | 复选框 | ✔️ | ✔️ | | |
 | 复选框组 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 对于基础组件，使用复选框组件添加多个复选框 |
