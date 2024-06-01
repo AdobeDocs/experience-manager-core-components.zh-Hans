@@ -2,8 +2,7 @@
 title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
-exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1f9cef8eb448b4f5662c95827ab6575bdfeaf740
+source-git-commit: ae81102adafef131b013425465ad56af41f604bf
 workflow-type: tm+mt
 source-wordcount: '2229'
 ht-degree: 99%
