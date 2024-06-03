@@ -1,34 +1,34 @@
 ---
 title: 支持远程资产
-description: 了解如何配置核心组件图像和Teaser组件以支持使用带有OpenAPI的Dynamic Media的远程资源。
+description: 了解如何配置核心组件图像和 Teaser 组件以使用带有 OpenAPI 的 Dynamic Media 支持远程资产。
 role: Architect, Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
 # 支持远程资产 {#remote-assets-support}
 
-了解如何配置核心组件图像和Teaser组件以支持使用带有OpenAPI的Dynamic Media的远程资源。
+了解如何配置核心组件图像和 Teaser 组件以使用带有 OpenAPI 的 Dynamic Media 支持远程资产。
 
 >[!NOTE]
 >
->带有OpenAPI的Dynamic Media以前称为下一代Dynamic Media。 功能和用法相同。
+>具有 OpenAPI 的 Dynamic Media 以前称为 Next Generation Dynamic Media。功能和用法相同。
 
 ## 获取最新的 AEM 版本 {#latest}
 
-要支持使用带有OpenAPI的Dynamic Media的远程资源，需要：
+使用带有 OpenAPI 的 Dynamic Media 支持远程资产需要：
 
 * AEM 6.5 SP 18 和更高版本或 AEM as a Cloud Service
 * 核心组件版本 2.23.2 或更高版本
 
 ## 配置 HTTPS {#https}
 
-一般建议使用 HTTP 运行所有生产 AEM 实例。但是，可能并未这样设置您的本地开发环境。但是，将Dynamic Media与OpenAPI一起使用的远程资源需要HTTPS才能正常运行。
+一般建议使用 HTTP 运行所有生产 AEM 实例。但是，可能并未这样设置您的本地开发环境。但是，使用带有 OpenAPI 的 Dynamic Media 远程资产需要 HTTPS 才能运行。
 
 [使用本指南](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html)在您要使用远程资源的任何地方（包括开发环境）配置 HTTPS。
 
@@ -52,7 +52,7 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 ## 验证配置 {#verify}
 
-现在，您可以验证使用带有OpenAPI的Dynamic Media的远程资源功能是否正常工作。 为此，可安装 WKND 示例站点和核心组件。
+现在可验证使用带有 OpenAPI 的 Dynamic Media 远程资产功能是否发挥作用。为此，可安装 WKND 示例站点和核心组件。
 
 * 需要[核心组件](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) 2.23.2 版本或更高版本。
 * 需要 [WKND 示例站点](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) 3.2.0 版本或更高版本。
