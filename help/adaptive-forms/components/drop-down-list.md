@@ -3,16 +3,14 @@ title: 自适应表单核心组件 - 下拉列表
 description: 使用或自定义自适应表单下拉列表核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2126'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2185'
+ht-degree: 99%
 
 ---
 
 # 下拉列表组件{#drop-down-list-adaptive-forms-core-component}
-
-<span class="preview"> 本文包含有关&#x200B;**允许标题为富文本**&#x200B;功能的内容，该功能是一项预发布功能。该预发布功能仅可通过我们的[预发布渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)访问。</span>
 
 通过自适应表单中的下拉列表，用户可从预定义选项的列表中选择一个或多个选项。这些选项可为字符串、数字或布尔值类型。此外，还可将下拉列表组件配置为具有不同的验证和默认值。
 
@@ -129,8 +127,13 @@ To experience the Accordion Component as well as see examples of its configurati
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/dropdown_accessibilitytab.png)
 
 
-**屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
+- **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
 
+   - **自定义文本**：选中此选项以将自定义文本用于 ARIA 辅助功能标签。选中此选项将显示“自定义文本”对话框。可在“自定义文本”对话框中添加相关信息。
+   - **描述**：选中此选项以将描述用于 ARIA 辅助功能标签。
+   - **标题**：选中此选项以将标题用于 ARIA 辅助功能标签。
+   - **名称**：选中此选项以将名称用于 ARIA 辅助功能标签。
+   - **无**：如果不想为 ARIA 辅助功能标签添加任何内容，请选中此选项。
 
 ## “设计”对话框 {#design-dialog}
 

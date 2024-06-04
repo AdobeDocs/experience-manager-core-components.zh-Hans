@@ -3,16 +3,14 @@ title: 自适应表单核心组件 - 文本输入（文本框）
 description: 使用或自定义自适应表单文本输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2062'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2121'
+ht-degree: 99%
 
 ---
 
 # 文本框组件{#text-input-adaptive-forms-core-component}
-
-<span class="preview"> 本文包含有关&#x200B;**允许标题为富文本**&#x200B;功能的内容，该功能是一项预发布功能。该预发布功能仅可通过我们的[预发布渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)访问。</span>
 
 文本输入（文本框）组件可让用户输入和编辑单行或多行文本，具体取决于输入元素的类型属性。文本输入组件可放置在表单中，并且通常标有易于标识其用途的有用文本。这些是任意表单的基本元素，广泛用于从用户处收集不同类型的数据，它们简单、灵活且可配置为验证输入，并提高数据收集的准确性。
 
@@ -119,7 +117,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/textinput_accessibiltytab.png)
 
-**屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
+- **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
+   - **自定义文本**：选中此选项以将自定义文本用于 ARIA 辅助功能标签。选中此选项将显示“自定义文本”对话框。可在“自定义文本”对话框中添加相关信息。
+   - **描述**：选中此选项以将描述用于 ARIA 辅助功能标签。
+   - **标题**：选中此选项以将标题用于 ARIA 辅助功能标签。
+   - **名称**：选中此选项以将名称用于 ARIA 辅助功能标签。
+   - **无**：如果不想为 ARIA 辅助功能标签添加任何内容，请选中此选项。
 
 ## “设计”对话框 {#design-dialog}
 
@@ -131,7 +134,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“样式”选项卡](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **默认 CSS 类**：可为自适应表单文本输入核心组件提供默认 CSS 类。
+- **默认CSS类**：您可以为自适应Forms文本框核心组件提供默认的CSS类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 

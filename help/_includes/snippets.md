@@ -1,7 +1,7 @@
 ---
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: ht
-source-wordcount: '211'
+source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -57,29 +57,30 @@ ht-degree: 100%
 ## 更多与此类似的内容 {#more-like-this}
 
 - [可折叠项](/help/adaptive-forms/components/accordion.md)
+- [自适应表单片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
+- [自适应表单 reCAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 - [按钮](/help/adaptive-forms/components/button.md)
 - [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 - [复选框](/help/adaptive-forms/components/checkbox.md)
 - [日期选取器](/help/adaptive-forms/components/date-picker.md)
 - [下拉列表](/help/adaptive-forms/components/drop-down-list.md)
-- [电子邮件输入](/help/adaptive-forms/components/email-input.md)
+- [电子邮件](/help/adaptive-forms/components/email.md)
 - [表单容器](/help/adaptive-forms/components/form-container.md)
+- [表单标题](/help/adaptive-forms/components/form-title.md)
 - [文件附件](/help/adaptive-forms/components/file-attachment.md)
-- [自适应表单片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [页脚](/help/adaptive-forms/components/footer.md)
 - [页眉](/help/adaptive-forms/components/header.md)
 - [图像](/help/adaptive-forms/components/image.md)
 - [数值框](/help/adaptive-forms/components/numeric-box.md)
 - [面板](/help/adaptive-forms/components/panel.md)
+- [手机](/help/adaptive-forms/components/phone.md)
 - [“水平”选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
 - [“垂直”选项卡](/help/adaptive-forms/components/vertical-tabs.md)
 - [单选按钮](/help/adaptive-forms/components/radio-button.md)
 - [“重置”按钮](/help/adaptive-forms/components/reset-button.md)
 - [“提交”按钮](/help/adaptive-forms/components/submit-button.md)
-- [电话号码输入](/help/adaptive-forms/components/telephone-input.md)
 - [文本框](/help/adaptive-forms/components/text-box.md)
 - [文本](/help/adaptive-forms/components/text.md)
-- [标题](/help/adaptive-forms/components/title.md)
 - [“条款和条件”选项卡](/help/adaptive-forms/components/terms-and-conditions.md)
 - [向导](/help/adaptive-forms/components/wizard.md)
 

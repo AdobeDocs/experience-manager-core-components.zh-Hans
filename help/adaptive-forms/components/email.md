@@ -1,44 +1,37 @@
 ---
-title: 自适应表单核心组件 - 单选按钮
-description: 使用或自定义自适应表单单选按钮核心组件。
+title: 自适应表单核心组件 - 电子邮件输入
+description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
-exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
+exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
 workflow-type: tm+mt
-source-wordcount: '2134'
-ht-degree: 99%
+source-wordcount: '2113'
+ht-degree: 100%
 
 ---
 
-# 单选按钮组件 {#radio-button-adaptive-forms-core-component}
+# 电子邮件组件 {#Email-input-adaptive-forms-core-component}
 
-自适应表单中的单选按钮是一类输入元素，可让用户从一组相关选项中选择一个选项。它由一个小的圆形按钮表示，可以填充该按钮或将其保留为空来指示是否已选中选项。当用户选择一个单选按钮时，组中的其他单选按钮将变为取消选择状态。当存在多个互斥选项且一次只能选择一个选项时，通常会使用单选按钮。
+自适应表单电子邮件输入核心组件用于收集用户的电子邮件地址。通过电子邮件输入字段，浏览器可验证所输入的数据是否为有效的电子邮件地址格式。它一般表现为文本框并进行模式验证，以便仅接受有效的电子邮件地址。可用“必需”、“占位符”和“模式”等其他属性进一步自定义电子邮件输入字段，以针对输入的数据设置验证。
 
 **示例**
+![示例](/help/adaptive-forms/assets/emailid-example.png)
 
-![示例](/help/adaptive-forms/assets/radio-button.png)
+<!-- ## Sample Component Output {#sample-component-output}
 
-**“属性”对话框**
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
-![示例](/help/adaptive-forms/assets/radio-button-properties.png)
+有若干原因使得在自适应表单中加入电子邮件输入组件有益，这些原因包括：
 
-在此示例中，使用“选项”元素将单选按钮分组在一起。**显示文本**&#x200B;元素用于为项提供标签，**数据值**&#x200B;用于指定提交表单时发送到服务器的值。
+- **方便用户**：由于电子邮件输入组件清楚地指示字段中应有的数据，因此用户可更轻松地输入其电子邮件地址。
 
-每个单选按钮选项都有唯一的“数据值”和“显示文本”属性。如果用户选中“1-10”，则在提交表单时将对应的数据值发送到服务器。然后，服务器端脚本可以处理此数据以确定用户选择了哪些选项，并可使用此数据执行各种操作，例如更新表单中的其他字段或将表单数据提交给服务器端脚本进行进一步处理。
+- **个性化的通信**：通过表单从用户收集电子邮件地址可实现个性化的通信，如发送确认电子邮件或新闻稿。
 
-此外，可将每个单选按钮配置为每个选项采用不同的处理值，并可使用自适应表单规则编辑器设置此项。
+- **商机开发**：通过表单收集电子邮件地址，企业即可建立自己的电子邮件列表并将其用于商机开发。
 
-## 用途 {#reasons-to-use-radio-button}
+- **用户身份验证**：电子邮件地址可用作访问受限制内容或服务的身份验证方式。
 
-有若干原因要在表单中使用单选按钮，这些原因包括：
-
-- **有限选择**：单选按钮用于提供预定义选项列表以供用户从中选择，并且一次只能选择一个选项。当选项数量有限且互斥时，这很有用。
-
-- **清楚呈现**：单选按钮清楚且易于理解，可让用户轻松了解他们选择的内容。
-
-- **一致性**：使用单选按钮可确保以一致的标准化方式向用户呈现选项，使他们能够更轻松地理解表单并与之交互。
-
-- **更易于使用**：单选按钮易于使用，特别适合不熟悉技术或行动受限的用户。
+- **收集反馈**：通过在反馈表单中加入电子邮件输入组件，企业可与用户交流，以供进行后续处理或阐明其反馈。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -56,15 +49,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 技术详细信息 {#technical-details}
 
-可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton) 上的技术文档中获得关于自适应表单单选按钮核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput) 上的技术文档中获得关于自适应表单电子邮件输入核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，可轻松地自定义您为访客提供的单选按钮体验。还可轻松地定义单选按钮选项，从而营造一种无缝的用户体验。
+通过“配置”对话框，可轻松地自定义您为访客提供的电子邮件输入体验。还可轻松地定义电子邮件输入选项，从而营造一种无缝的用户体验。
 
-![“基本”选项卡](/help/adaptive-forms/assets/radiobutton_basictab.png)
+### “基本”选项卡 {#basic-tab}
 
-- **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
+![“基本”选项卡](/help/adaptive-forms/assets/email_basictab.png)
+
+- **名称** - 名称在规则编辑器中唯一标识组件。名称字符串中不允许使用特殊字符和空格。
 
 - **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
 - **允许标题为富文本**：此功能使用户能够格式化纯文本标题，结合粗体、斜体、下划线文本、各种字体、字体大小、颜色和附加选项等功能，以增强视觉呈现和定制效果。它提供了更大的灵活性以及对创作的控制度，使标题在文档、网站或应用程序中脱颖而出。\
@@ -74,47 +69,43 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **隐藏标题** - 选中此选项可隐藏该组件的标题。
 
-- **选项** - 您可以使用&#x200B;**“添加”**&#x200B;按钮添加数据值和显示文本对。\
-  添加新选项后，可以执行以下操作：
-   - **数据值** - 通过此选项，可输入在选择某个选项时要提交的内容。
-   - **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
-   - **删除** - 点击或单击此选项可删除单选按钮的选项。
-   - **重新排列** - 点击或单击并拖动以重新排列选项的顺序。
-您还可以使用**允许选项为富文本**&#x200B;对单选按钮组的选项进行格式化。
-
-  ![针对选项的富文本支持](/help/adaptive-forms/assets/richtext-for-options.png)
-
-  选中&#x200B;**允许选项为富文本**&#x200B;复选框后，格式化选项变得可见，以设置组件选项的样式。要访问所有可用的格式选项，您可以点击`Fullscreen`![全屏图标](/help/adaptive-forms/assets/fullscreen-icon.png)选项卡。
-
-  ![针对选项的富文本支持](/help/adaptive-forms/assets/richtextoptions-support.png)
-
+- **占位符文本** - 表单组件中的占位符文本是指在输入字段中显示的短标签或提示，用于提示用户需要在该字段中输入什么类型的信息。当用户开始向该字段中键入时，占位符文本消失，如果将该字段留空，则占位符文本重新出现。它为用户提供视觉提示，但不充当该字段的永久标签或值。
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
-
 - **标记为未绑定表单元素**：选择此选项可配置未链接到任何架构的表单字段。利用此选项，您可以保存数据而不更新数据源。它还可让您以一种独立于标准数据库集成的自定义方式处理数据。
-
-- **提交的值的数据类型** - 此选项指定在选择任何选项时发送的值的数据类型。如果将&#x200B;**提交的值的数据类型**&#x200B;设置为 `Number`，而您在&#x200B;**选项**&#x200B;选项卡上将字符串数据添加到&#x200B;**数据值**，则屏幕显示一条 `Value type mismatch` 错误消息。
-
-- **默认选项** - 通过此选项，您可添加表单加载时预先选择的默认值。如果将&#x200B;**提交的值的数据类型**&#x200B;设置为 `Number`，而您将字符串数据添加到&#x200B;**默认选项**，则屏幕显示一条 `Value type mismatch` 错误消息。
-
-- **显示选项** - 此选项用于设置自适应表单中单选按钮的视觉对齐方式。支持的两个选项为：
-   - **水平** - 选择此选项后，单选按钮在自适应表单中从左到右显示。
-   - **垂直** - 选择此选项后，单选按钮在自适应表单中从上到下显示。
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 - **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 - **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 
+- **默认值** - 通过此选项，可在表单字段中添加默认值。如果选中了&#x200B;**已禁用的组件**&#x200B;或&#x200B;**只读组件**，则在屏幕上显示默认值。如果用户未在表单字段中输入值，则在提交表单时提交此值。
+- **自动填充属性**：通过此选项，用户可输入基于存储的信息自动填充在表单字段中的值。
+
 ### “验证”选项卡 {#validation-tab}
 
-![“验证”选项卡](/help/adaptive-forms/assets/radiobutton_validationtab.png)
+![“验证”选项卡](/help/adaptive-forms/assets/email_validationtab.png)
 
-- **必需** - 如果要在自适应表单中显示该组件，请选中此选项。选择此选项后，您必须先做出选择，之后才能继续提交表单。选中此选项后，无法在&#x200B;**基本**&#x200B;选项卡中选择&#x200B;**隐藏组件**&#x200B;或&#x200B;**禁用组件**。
+- **必需** - 如果要在自适应表单中显示该组件，请选中此选项。选择此选项后，您必须先输入一个值，然后再继续提交表单。选中此选项后，无法在&#x200B;**基本**&#x200B;选项卡中选择&#x200B;**隐藏组件**&#x200B;或&#x200B;**禁用组件**。
+
 - **错误消息** - 通过此选项，可输入如果选中了&#x200B;**必需**&#x200B;复选框并将表单字段留空，所显示的消息。
 
 - **脚本验证消息** - 通过此选项，可输入如果脚本验证失败，所显示的消息。
 
-### “帮助内容”选项卡 {#helpcontent-tab}
+- **最大字符数** - 通过此选项，可指定字段中允许的最大字符数。如果您输入的字符数大于在&#x200B;**最大字符数**&#x200B;中指定的值，则屏幕上显示一条错误消息。通过&#x200B;**最大字符数错误消息**&#x200B;对话框，可添加自定义错误消息。
 
-![“帮助内容”选项卡](/help/adaptive-forms/assets/radiobutton_helptab.png)
+- **最大字符数错误消息** - 通过&#x200B;**最大字符数错误消息**&#x200B;对话框，可添加如果您输入的字符数大于在&#x200B;**最大字符数**&#x200B;选项中指定的值，所显示的自定义错误消息。
+
+- **最小字符数** - 通过此选项，可指定字段中允许的最小字符数。如果您输入的字符数小于在&#x200B;**最小字符数**&#x200B;中指定的值，则屏幕上显示一条错误消息。通过&#x200B;**最小字符数错误消息**&#x200B;对话框，可添加自定义错误消息。
+
+- **最小字符数错误消息** - 如果您输入的字符数小于在&#x200B;**最小字符数**&#x200B;选项中指定的值，**最小字符数错误消息**&#x200B;对话框允许您添加自定义错误消息。
+<br>
+
+通过&#x200B;**验证模式**&#x200B;选项，可输入某种模式以验证所输入的电子邮件 ID。如果通过在&#x200B;**模式**&#x200B;选项中输入的值无法验证电子邮件 ID，则屏幕上显示错误消息。
+
+- **模式** - 通过此选项，可输入允许用于电子邮件的验证模式。也可以使用正则表达式。
+- **错误消息** - 通过此选项，可输入如果通过在&#x200B;**模式**&#x200B;选项中输入的值无法验证电子邮件 ID，则屏幕上显示的错误消息。
+
+### “帮助内容”选项卡 {#help-content-tab}
+
+![“帮助内容”选项卡](/help/adaptive-forms/assets/email_helptab.png)
 
 - **简短描述** - 简短描述是一段简短的文字说明，其中提供关于特定表单字段的用途的其他信息或阐述。它帮助用户了解应将什么类型的数据输入到字段中，并可提供准则或示例以帮助确保所输入的信息有效且符合预期的标准。默认情况下，简短描述保持隐藏状态。启用&#x200B;**始终显示简短描述**&#x200B;选项以在组件下方显示它。
 
@@ -124,9 +115,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “辅助功能”选项卡 {#accessibility-tab}
 
-![“辅助功能”选项卡](/help/adaptive-forms/assets/radiobutton_accessibilitytab.png)
+![“辅助功能”选项卡](/help/adaptive-forms/assets/email_accessibilitytab.png)
 
 - **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
+
    - **自定义文本**：选中此选项以将自定义文本用于 ARIA 辅助功能标签。选中此选项将显示“自定义文本”对话框。可在“自定义文本”对话框中添加相关信息。
    - **描述**：选中此选项以将描述用于 ARIA 辅助功能标签。
    - **标题**：选中此选项以将标题用于 ARIA 辅助功能标签。
@@ -135,22 +127,21 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于定义和管理单选按钮组件的 CSS 样式。
-
+“设计”对话框用于定义和管理电子邮件输入组件的 CSS 样式。
 
 ### “样式”选项卡 {#styles-tab}
 
-该选项卡用于定义和管理组件的 CSS 样式。自适应表单单选按钮核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+该选项卡用于定义和管理组件的 CSS 样式。自适应表单电子邮件输入核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-![“设计”对话框](/help/adaptive-forms/assets/checkbox-style.png)
+![“样式”选项卡](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **默认 CSS 类**：可为自适应表单单选按钮核心组件提供默认 CSS 类。
+- **默认 CSS 类**：可为自适应表单电子邮件输入核心组件提供默认 CSS 类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
 ### 自定义属性
 
-![“自定义属性”对话框](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![“自定义属性”对话框](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
 通过自定义属性，您可使用表单模板将自定义属性（键值对）关联到自适应表单核心组件。自定义属性反映在组件 Headless 演绎版的属性部分中。它可让您创建根据自定义属性值进行调整的动态表单行为。例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
 
@@ -161,6 +152,20 @@ To experience the Accordion Component as well as see examples of its configurati
    - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
 
    - **重新排列**：点按或单击并拖动可重新排列自定义属性名称和自定义属性值的顺序。
+
+### “格式”选项卡 {#formats-tab}
+
+通过“格式”选项卡，可指定默认和自定义日期格式。
+
+![“格式”选项卡](/help/adaptive-forms/assets/emailinput_formattab.png)
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 ## 相关文章 {#related-articles}
 
