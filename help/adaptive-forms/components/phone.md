@@ -3,9 +3,9 @@ title: 自适应Forms核心组件 — 电话输入、电话
 description: 使用或自定义自适应表单电话号码输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2197'
 ht-degree: 97%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 # 电话组件{#telephone-input-adaptive-forms-core-component}
 
-自适应表单电话号码输入核心组件可让用户输入电话号码。电话号码输入字段显示与电话号码相关的移动设备中的键盘。可以使用“模式”和“占位符”等附加属性对其进行自定义，从而指定电话号码的格式和描述。
+自适应表单电话核心组件允许用户输入电话号码。 电话号码输入字段显示与电话号码相关的移动设备中的键盘。可以使用“模式”和“占位符”等附加属性对其进行自定义，从而指定电话号码的格式和描述。
 
 电话号码输入字段通常用于联系表单、注册表单和其他需要将电话号码作为联系方式的表单。电话号码输入字段还可用于确保用户输入有效的电话号码，因为浏览器可以根据“模式”属性来强制实施某些限制，例如电话号码的长度和格式。
 

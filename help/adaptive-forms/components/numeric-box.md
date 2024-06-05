@@ -1,18 +1,18 @@
 ---
-title: 自适应表单核心组件 - 数值输入
+title: 自适应表单核心组件 - 数字输入
 description: 使用或自定义自适应表单数字输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 98%
+source-wordcount: '2283'
+ht-degree: 92%
 
 ---
 
 # 数值框组件{#number-input-adaptive-forms-core-component}
 
-自适应表单中的数字输入组件是一类允许用户输入数值的表单字段。该组件通常由一个文本字段表示，此字段带有分别用于递增和递减数字的向上和向下箭头。
+自适应表单中的数值框组件是一种表单字段，允许用户输入数值。 该组件通常由一个文本字段表示，此字段带有分别用于递增和递减数字的向上和向下箭头。
 
 它还可以与 min、max、step、value 等属性结合使用。这些属性可用于设置字段中允许的最小值和最大值、用于递增或递减数字的步进间隔以及字段的默认值。
 
@@ -127,10 +127,21 @@ To experience the Accordion Component as well as see examples of its configurati
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **显示格式** - 通过此选项，可从不同的整数类型格式中选择选项以供显示。当用户从&#x200B;**类型**&#x200B;下拉菜单中选择任意选项时，**格式**&#x200B;选项将在面板中可见。您可以选择向用户显示的数字所采用的特定格式。
+- **语言**  — 此功能用于设置特定字段的格式。 当用户从以下内容选择任何语言选项时： **类型** 下拉菜单， **IETF BCP 47语言标记** 选项将显示在面板中。 将自适应表单翻译为特定语言时，您可以选择字段格式使用的语言。
 
-<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+默认情况下，语言集不可见，但用户可以输入自定义 **IETF BCP 47语言标记** 通过更新模板策略：
 
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
+1. 在模板编辑器中打开与自适应表单关联的相应模板。
+2. 选择现有策略为 `numberinput-default-policy` 从下拉菜单中。
+
+   ![日期选取器模板策略](/help/adaptive-forms/assets/numberinput-template-policy.png)
+
+3. 单击&#x200B;**完成**。
+
+   >[!NOTE]
+   >
+   > 有关如何将自适应表单转换为特定区域设置的更多信息， [单击此处](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+
 
 ## “设计”对话框 {#design-dialog}
 
