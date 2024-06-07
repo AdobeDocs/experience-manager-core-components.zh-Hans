@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 96%
       + [自适应表单表单片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [自适应表单文件附件](/help/adaptive-forms/components/file-attachment.md)
       + [自适应表单垂直选项卡](/help/adaptive-forms/components/vertical-tabs.md)
-      + [自适应Forms验证码](/help/adaptive-forms/components/hcaptcha.md)
+      + [自适应表单 hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
       + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
       + [自适应表单图像](/help/adaptive-forms/components/image.md)
       + [自适应表单数值框](/help/adaptive-forms/components/numeric-box.md)
