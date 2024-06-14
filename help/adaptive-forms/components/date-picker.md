@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单日期选取器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2299'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -131,21 +131,21 @@ To experience the Accordion Component as well as see examples of its configurati
 - **显示格式** - 它表示向用户显示的日期格式。通过&#x200B;**类型**&#x200B;选项，用户可选择日期格式。还可使用&#x200B;**类型**&#x200B;下拉菜单中的&#x200B;**自定义**&#x200B;选项自定义日期格式。
 
 - **编辑格式** - 它表示用户编辑日期时可以采用的日期格式。通过&#x200B;**类型**&#x200B;选项，用户可选择日期格式。还可使用&#x200B;**类型**&#x200B;下拉菜单中的&#x200B;**自定义**&#x200B;选项自定义日期格式。
-- **格式化错误消息**  — 利用此选项可输入输入日期格式不正确时在屏幕上显示的消息。
-- **语言**  — 此功能用于设置特定字段的格式。 当用户从以下内容选择任何语言选项时： **类型** 下拉菜单， **IETF BCP 47语言标记** 选项将显示在面板中。 将自适应表单翻译为特定语言时，您可以选择字段格式使用的语言。
+- **格式错误消息**：此选项允许您输入当输入的日期格式不正确时在屏幕上显示的消息。
+- **语言**：此功能用于格式化特定字段。当用户从&#x200B;**类型**&#x200B;下拉菜单中选择任何语言选项时，**IETF BCP 47 语言标记**&#x200B;选项就会出现在面板中。将自适应表单翻译成特定语言时，您可以选择字段格式的语言。
 
-默认情况下，语言集不可见，但用户可以输入自定义 **IETF BCP 47语言标记** 通过更新模板策略：
+默认情况下，语言集不可见，但用户可以通过更新模板策略输入自定义 **IETF BCP 47 语言标记** ：
 
 1. 在模板编辑器中打开与自适应表单关联的相应模板。
-2. 选择现有策略为 `datepicker-default-policy` 从下拉菜单中。
+2. 从下拉菜单中选择 `datepicker-default-policy` 为现有策略。
 
-   ![日期选取器模板策略](/help/adaptive-forms/assets/date-picker-template-policy.png)
+   ![日期选择器模板策略](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
 3. 单击&#x200B;**完成**。
 
    >[!NOTE]
    >
-   > 有关如何将自适应表单转换为特定区域设置的更多信息， [单击此处](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > 如需了解如何将自适应表单翻译至特定语言环境的更多信息，请[点击此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components)。
 
 ## “设计”对话框 {#design-dialog}
 

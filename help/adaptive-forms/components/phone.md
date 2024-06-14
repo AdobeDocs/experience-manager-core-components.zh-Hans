@@ -1,19 +1,19 @@
 ---
-title: 自适应Forms核心组件 — 电话输入、电话
+title: 自适应表单核心组件：电话号码输入，电话
 description: 使用或自定义自适应表单电话号码输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2197'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # 电话组件{#telephone-input-adaptive-forms-core-component}
 
-自适应表单电话核心组件允许用户输入电话号码。 电话号码输入字段显示与电话号码相关的移动设备中的键盘。可以使用“模式”和“占位符”等附加属性对其进行自定义，从而指定电话号码的格式和描述。
+自适应表单电话核心组件可让用户输入电话号码。电话号码输入字段显示与电话号码相关的移动设备中的键盘。可以使用“模式”和“占位符”等附加属性对其进行自定义，从而指定电话号码的格式和描述。
 
 电话号码输入字段通常用于联系表单、注册表单和其他需要将电话号码作为联系方式的表单。电话号码输入字段还可用于确保用户输入有效的电话号码，因为浏览器可以根据“模式”属性来强制实施某些限制，例如电话号码的长度和格式。
 
@@ -123,15 +123,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于定义和管理电话组件的CSS样式。
+“设计”对话框用于定义和管理电话组件的 CSS 样式。
 
 ### “样式”选项卡 {#styles-tab}
 
-该选项卡用于定义和管理组件的 CSS 样式。自适应Forms手机核心组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling).
+该选项卡用于定义和管理组件的 CSS 样式。自适应表单电话核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
 ![“设计”对话框](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
 
-- **默认CSS类**：您可以为自适应Forms手机核心组件提供默认的CSS类。
+- **默认 CSS 类**：可为自适应表单电话核心组件提供默认 CSS 类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 

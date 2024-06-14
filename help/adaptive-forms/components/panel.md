@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单面板容器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2225'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,13 +138,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于定义和管理面板组件的CSS样式。
+“设计”对话框用于定义和管理面板组件的 CSS 样式。
 
 ### “允许使用的组件”选项卡 {#allowed-components-tab}
 
 ![“设计”对话框允许使用的组件选项卡](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-此 **允许的组件** 选项卡允许模板编辑器设置组件，这些组件可以在自适应Forms编辑器中作为项添加到组件中的面板。
+通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑器可设置组件，这些组件可作为项添加到自适应表单编辑器组件中的面板。
 
 ### “默认组件”选项卡 {#default-components-tab}
 

@@ -4,15 +4,15 @@ description: 使用或自定义自适应表单数字输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2283'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 数值框组件{#number-input-adaptive-forms-core-component}
 
-自适应表单中的数值框组件是一种表单字段，允许用户输入数值。 该组件通常由一个文本字段表示，此字段带有分别用于递增和递减数字的向上和向下箭头。
+自适应表单中的数值框组件是一类允许用户输入数值的表单字段。该组件通常由一个文本字段表示，此字段带有分别用于递增和递减数字的向上和向下箭头。
 
 它还可以与 min、max、step、value 等属性结合使用。这些属性可用于设置字段中允许的最小值和最大值、用于递增或递减数字的步进间隔以及字段的默认值。
 
@@ -127,25 +127,25 @@ To experience the Accordion Component as well as see examples of its configurati
 ![“辅助功能”选项卡](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **显示格式** - 通过此选项，可从不同的整数类型格式中选择选项以供显示。当用户从&#x200B;**类型**&#x200B;下拉菜单中选择任意选项时，**格式**&#x200B;选项将在面板中可见。您可以选择向用户显示的数字所采用的特定格式。
-- **语言**  — 此功能用于设置特定字段的格式。 当用户从以下内容选择任何语言选项时： **类型** 下拉菜单， **IETF BCP 47语言标记** 选项将显示在面板中。 将自适应表单翻译为特定语言时，您可以选择字段格式使用的语言。
+- **语言**：此功能用于格式化特定字段。当用户从&#x200B;**类型**&#x200B;下拉菜单中选择任何语言选项时，**IETF BCP 47 语言标记**&#x200B;选项就会出现在面板中。将自适应表单翻译成特定语言时，您可以选择字段格式的语言。
 
-默认情况下，语言集不可见，但用户可以输入自定义 **IETF BCP 47语言标记** 通过更新模板策略：
+默认情况下，语言集不可见，但用户可以通过更新模板策略输入自定义 **IETF BCP 47 语言标记** ：
 
 1. 在模板编辑器中打开与自适应表单关联的相应模板。
-2. 选择现有策略为 `numberinput-default-policy` 从下拉菜单中。
+2. 从下拉菜单中选择 `numberinput-default-policy` 为现有策略。
 
-   ![日期选取器模板策略](/help/adaptive-forms/assets/numberinput-template-policy.png)
+   ![日期选择器模板策略](/help/adaptive-forms/assets/numberinput-template-policy.png)
 
 3. 单击&#x200B;**完成**。
 
    >[!NOTE]
    >
-   > 有关如何将自适应表单转换为特定区域设置的更多信息， [单击此处](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > 如需了解如何将自适应表单翻译至特定语言环境的更多信息，请[点击此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components)。
 
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于定义和管理数值框组件的CSS样式。
+“设计”对话框用于定义和管理数值框组件的 CSS 样式。
 
 ### “样式”选项卡 {#styles-tab}
 
@@ -153,7 +153,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“样式”选项卡](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **默认CSS类**：您可以为自适应Forms数字框核心组件提供默认的CSS类。
+- **默认 CSS 类**：可为自适应表单数值框核心组件提供默认 CSS 类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 

@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单水平选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2153'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## 技术详细信息 {#technical-details}
 
-在以下位置的技术文档中获取有关自适应Forms水平选项卡核心组件的最新信息： [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs) 上的技术文档中获得关于自适应表单水平选项卡核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
@@ -146,10 +146,10 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## “设计”对话框 {#design-dialog}
 
-通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应Forms水平选项卡组件，您可以设置以下内容：
+通过“设计”对话框，模板创建者可控制在默认情况下如何显示各种内容。对于自适应表单“水平”选项卡组件，可设置以下各项：
 
-- 表单创建者可以添加到自适应Forms编辑器中的“水平”选项卡的核心组件
-- 样式（CSS类）的简单名称，这些名称可在自适应Forms编辑器的水平选项卡组件的“属性”对话框中应用。
+- 表单创建者可添加到自适应表单编辑器中的“水平”选项卡的核心组件
+- 可在自适应表单编辑器的“水平”选项卡组件的“属性”对话框中应用的样式（CSS 类）的简单名称。
 
 这有助于使创建和自定义表单的过程更加简便和高效。
 

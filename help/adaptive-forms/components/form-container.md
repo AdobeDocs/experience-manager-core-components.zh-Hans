@@ -4,9 +4,9 @@ description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“设计”对话框允许使用的组件选项卡](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-此 **允许的组件** 选项卡允许模板编辑器设置组件，这些组件可以在自适应Forms编辑器中作为项添加到组件中的面板。
+通过&#x200B;**允许使用的组件**&#x200B;选项卡，模板编辑器可设置组件，这些组件可作为项添加到自适应表单编辑器组件中的面板。
 
 ### “默认组件”选项卡 {#default-components-tab}
 

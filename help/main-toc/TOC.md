@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
    + [使用核心组件](/help/get-started/using.md)
    + [本地化功能](/help/get-started/localization.md)
 + WCM 组件 {#wcm-components}
-   + [折叠](/help/components/accordion.md)
+   + [可折叠项](/help/components/accordion.md)
    + [痕迹导航](/help/components/breadcrumb.md)
    + [按钮](/help/components/button.md)
    + [轮盘](/help/components/carousel.md)
@@ -113,7 +113,7 @@ ht-degree: 97%
       + [自适应表单容器](/help/adaptive-forms/components/form-container.md)
       + [自适应表单日期选取器](/help/adaptive-forms/components/date-picker.md)
       + [自适应表单下拉列表](/help/adaptive-forms/components/drop-down-list.md)
-      + [自适应Forms电子邮件](/help/adaptive-forms/components/email.md)
+      + [自适应表单电子邮件](/help/adaptive-forms/components/email.md)
       + [自适应表单表单片段](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [自适应表单文件附件](/help/adaptive-forms/components/file-attachment.md)
       + [自适应表单垂直选项卡](/help/adaptive-forms/components/vertical-tabs.md)
@@ -126,11 +126,11 @@ ht-degree: 97%
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
       + [自适应表单重置按钮](/help/adaptive-forms/components/reset-button.md)
       + [自适应表单提交按钮](/help/adaptive-forms/components/submit-button.md)
-      + [自适应表单开关](/help/adaptive-forms/components/adaptive-form-switch.md)
-      + [自适应Forms手机](/help/adaptive-forms/components/phone.md)
+      + [自适应表单切换](/help/adaptive-forms/components/adaptive-form-switch.md)
+      + [自适应表单电话](/help/adaptive-forms/components/phone.md)
       + [自适应表单文本](/help/adaptive-forms/components/text.md)
       + [自适应表单文本框](/help/adaptive-forms/components/text-box.md)
-      + [自适应Forms表单标题](/help/adaptive-forms/components/form-title.md)
+      + [自适应表单表单标题](/help/adaptive-forms/components/form-title.md)
       + [自适应表单向导](/help/adaptive-forms/components/wizard.md)
       + [自适应表单条款和条件](/help/adaptive-forms/components/terms-and-conditions.md)
       + [页眉](/help/adaptive-forms/components/header.md)
