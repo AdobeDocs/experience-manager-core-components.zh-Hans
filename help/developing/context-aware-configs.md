@@ -4,9 +4,9 @@ description: 核心组件为特定功能使用 Sling 上下文感知配置
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 87%
 
 单独的配置取决于特定组件或功能。使用上下文感知配置的核心组件的功能包括：
 
-* [页面组件](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) 渲染时依赖上下文感知配置 `link`， `script` 和 `meta` 标记之间。
+* [页面组件](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) 在渲染 `link`、`script` 和 `meta` 标记时依赖于上下文感知配置。
 * [PDF 查看器组件](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 * [Adobe Client Data Layer](/help/developing/data-layer/overview.md#installation-activation)
 * [AMP 支持](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
