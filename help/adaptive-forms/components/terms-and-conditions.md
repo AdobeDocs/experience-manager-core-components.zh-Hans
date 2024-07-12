@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单条款和条件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3254'
 ht-degree: 100%
 

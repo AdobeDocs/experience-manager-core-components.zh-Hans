@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1621'
 ht-degree: 100%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->**智能裁切**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。如果作者需要使用图像预设以及智能裁切再现，该作者必须使用&#x200B;**图像修饰符**&#x200B;来手动添加预设。
+>**智能裁切**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。如果作者需要使用图像预设配合智能裁切演绎版，则作者必须使用&#x200B;**图像修饰符**&#x200B;手动添加预设。
 
 ### “样式”选项卡 {#styles-tab-edit}
 

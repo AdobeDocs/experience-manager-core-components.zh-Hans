@@ -4,7 +4,7 @@ description: 作为可包含同一核心组件的多个版本的发行版发布 
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 

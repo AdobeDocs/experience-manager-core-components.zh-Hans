@@ -29,7 +29,7 @@ ht-degree: 100%
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v2 | - | 兼容 | 兼容 |
-| [v1](/help/components/v1/quick-search.md) | 兼容<br>[版本 2.17.4](/help/versions.md) 和更低版本 | 兼容 | 兼容 |
+| [v1](/help/components/v1/quick-search.md) | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容 | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 

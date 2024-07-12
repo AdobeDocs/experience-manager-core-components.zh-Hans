@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 100%
+source-wordcount: '2048'
+ht-degree: 98%
 
 ---
 
@@ -121,48 +121,48 @@ ht-degree: 100%
 
 * 开始裁切
 
-   ![开始裁切图标](/help/assets/image-start-crop.png)
+  ![开始裁切图标](/help/assets/image-start-crop.png)
 
-   选择此选项将打开一个预定义裁切比例的下拉菜单。
+  选择此选项将打开一个预定义裁切比例的下拉菜单。
 
    * 选择&#x200B;**手动**&#x200B;选项可定义您自己的裁切。
    * 选择&#x200B;**删除裁切**&#x200B;可显示原始资源。
 
-   选择一个裁切选项后，可使用蓝色手柄调整图像上的裁切大小。
+  选择一个裁切选项后，可使用蓝色手柄调整图像上的裁切大小。
 
-   ![裁切选项](/help/assets/image-crop-options.png)
+  ![裁切选项](/help/assets/image-crop-options.png)
 
 * 向右旋转
 
-   ![向右旋转图标](/help/assets/image-rotate-right.png)
+  ![向右旋转图标](/help/assets/image-rotate-right.png)
 
-   使用此选项可将图像向右（顺时针）旋转 90°。
+  使用此选项可将图像向右（顺时针）旋转 90°。
 
 * 水平翻转
 
-   ![水平翻转图标](/help/assets/image-flip-horizontal.png)
+  ![水平翻转图标](/help/assets/image-flip-horizontal.png)
 
-   使用此选项可水平翻转图像或者将图像沿 y 轴旋转 180°。
+  使用此选项可水平翻转图像或者将图像沿 y 轴旋转 180°。
 
 * 垂直翻转
 
-   ![垂直翻转图标](/help/assets/image-flip-vertical.png)
+  ![垂直翻转图标](/help/assets/image-flip-vertical.png)
 
-   使用此选项可垂直翻转图像或者将图像沿 x 轴旋转 180°。
+  使用此选项可垂直翻转图像或者将图像沿 x 轴旋转 180°。
 
 * 重置缩放
 
-   ![重置缩放图标](/help/assets/image-reset-zoom.png)
+  ![重置缩放图标](/help/assets/image-reset-zoom.png)
 
-   如果图像已缩放，使用此选项可重置缩放级别。
+  如果图像已缩放，使用此选项可重置缩放级别。
 
 * 打开缩放滑块
 
-   ![打开缩放滑块图标](/help/assets/image-zoom.png)
+  ![打开缩放滑块图标](/help/assets/image-zoom.png)
 
-   使用此选项可显示用于控制图像的缩放级别的滑块。
+  使用此选项可显示用于控制图像的缩放级别的滑块。
 
-   ![缩放滑块控件](/help/assets/image-zoom-slider.png)
+  ![缩放滑块控件](/help/assets/image-zoom-slider.png)
 
 就地编辑器也可以用于修改图像。由于有空间限制，因此仅将基本选项排成一行。对于完整的编辑选项，请使用全屏模式。
 
@@ -212,39 +212,37 @@ ht-degree: 100%
 
 * 来源
 
-   ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-source.png)
+  ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-source.png)
 
-   选择&#x200B;**允许从文件系统上传资源**&#x200B;选项可允许内容作者从其本地计算机上传图像。要强制内容作者仅从 AEM 中选择资源，请取消选择此选项。
+  选择&#x200B;**允许从文件系统上传资源**&#x200B;选项可允许内容作者从其本地计算机上传图像。要强制内容作者仅从 AEM 中选择资源，请取消选择此选项。
 
 * 方向
 
-   ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-orientation.png)
+  ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-orientation.png)
 
 * **旋转**
-使用此选项可允许内容作者使用 
-**向右旋转**&#x200B;选项。
+使用此选项可允许内容作者使用**向右旋转**&#x200B;选项。
 * **翻转**
-使用此选项可允许内容作者使用 
-**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
+使用此选项可允许内容作者使用**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
 
-   >[!CAUTION]
-   >
-   >默认情况下已禁用&#x200B;**翻转**&#x200B;选项。启用此选项将在图像组件的“编辑”对话框中显示&#x200B;**垂直翻转**&#x200B;和&#x200B;**水平翻转**&#x200B;按钮，但 AEM 当前不支持该功能，并且不会保留使用这些选项所做的任何更改。
+  >[!CAUTION]
+  >
+  >默认情况下已禁用&#x200B;**翻转**&#x200B;选项。启用此选项将在图像组件的“编辑”对话框中显示&#x200B;**垂直翻转**&#x200B;和&#x200B;**水平翻转**&#x200B;按钮，但 AEM 当前不支持该功能，并且不会保留使用这些选项所做的任何更改。
 
 * 裁切
 
-   ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-cropping.png)
+  ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-cropping.png)
 
-   选择&#x200B;**允许裁切**&#x200B;选项可允许内容作者在“编辑”对话框中裁切组件中的图像。
+  选择&#x200B;**允许裁切**&#x200B;选项可允许内容作者在“编辑”对话框中裁切组件中的图像。
    * 单击&#x200B;**“添加”**&#x200B;可添加预定义的裁切长宽比。
    * 输入一个描述性名称，该名称将显示在&#x200B;**开始裁切**&#x200B;下拉列表中。
    * 输入长宽比的数字比率。
    * 使用拖动手柄可重新排列长宽比
    * 使用垃圾桶图标可删除长宽比。
 
-   >[!CAUTION]
-   >
-   >请注意，在 AEM 中，裁切比例被定义为&#x200B;**高宽比**。这与常见的宽高比的定义不同，这样做是出于对旧版兼容性的考虑。只要您提供明确的比率名称，内容作者就不会意识到任何差异，因为该名称显示在 UI 中，而不是比率本身。
+  >[!CAUTION]
+  >
+  >请注意，在 AEM 中，裁切比例被定义为&#x200B;**高宽比**。这与常见的宽高比的定义不同，这样做是出于对旧版兼容性的考虑。只要您提供明确的比率名称，内容作者就不会意识到任何差异，因为该名称显示在 UI 中，而不是比率本身。
 
 ### “样式”选项卡 {#styles-tab-1}
 

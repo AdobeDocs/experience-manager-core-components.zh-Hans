@@ -4,8 +4,8 @@ description: 使用或自定义自适应表单页脚核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '775'
+workflow-type: tm+mt
+source-wordcount: '769'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 兼容<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 

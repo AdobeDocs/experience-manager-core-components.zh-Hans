@@ -4,7 +4,7 @@ description: 使用 AEM Forms 轻松通过 Google reCAPTCHA 服务增强表单�
 role: Architect, Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
 source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 100%
 

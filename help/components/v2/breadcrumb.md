@@ -1,16 +1,16 @@
 ---
-title: 痕迹导航组件 (v2)
+title: 痕迹导航组件(v2)
 description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层级中的位置构建链接的痕迹导航。
 role: Architect, Developer, Admin, User
 exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
 source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 99%
 
 ---
 
-# 痕迹导航组件 (v2) {#breadcrumb-component}
+# 痕迹导航组件(v2) {#breadcrumb-component}
 
 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层级中的位置构建链接的痕迹导航。
 

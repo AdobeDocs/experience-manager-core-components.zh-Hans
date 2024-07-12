@@ -1,16 +1,16 @@
 ---
-title: 页面组件 (v2)
+title: 页面组件(v2)
 description: 页面组件是指可扩展的页面组件，设计用于模板编辑器，允许使用模板编辑器来组装页眉/页脚和结构组件。
 role: Architect, Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '618'
+ht-degree: 99%
 
 ---
 
-# 页面组件 (v2) {#page-component}
+# 页面组件(v2) {#page-component}
 
 页面组件是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，允许使用模板编辑器来组装页眉/页脚和结构组件。
 

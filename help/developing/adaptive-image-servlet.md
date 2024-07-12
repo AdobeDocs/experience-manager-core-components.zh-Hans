@@ -4,9 +4,9 @@ description: 了解核心组件如何使用自适应图像 Servlet 来投放图�
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
-workflow-type: ht
-source-wordcount: '410'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 了解核心组件如何使用自适应图像 Servlet 来投放图像，以及如何优化其使用。
 
-## 自适应图像 Servlet还是 Web 优化的图像投放？ {#options}
+## 自适应图像Servlet还是Web优化图像交付？ {#options}
 
 图像核心组件可使用两种方法投放图像。
 

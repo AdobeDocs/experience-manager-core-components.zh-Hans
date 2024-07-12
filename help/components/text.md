@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2180'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| v2 | 兼容<br>[版本 2.17.4](/help/versions.md) 和更低版本 | 兼容 | 兼容 |
+| v2 | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容 | 兼容 |
 | [v1](v1/text-v1.md) | 兼容 | 兼容 | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
@@ -133,7 +133,7 @@ ht-degree: 100%
    * 父框架
    * 顶层框架
 
-   点击或单击复选标记可应用链接，点击或单击 x 可取消。
+  点击或单击复选标记可应用链接，点击或单击 x 可取消。
 
 ### 取消链接
 

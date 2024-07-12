@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单面板容器核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 100%
 

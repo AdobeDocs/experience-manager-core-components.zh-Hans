@@ -4,7 +4,7 @@ description: 核心组件附带了许多客户端库，并能够包含您自己�
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 100%
 

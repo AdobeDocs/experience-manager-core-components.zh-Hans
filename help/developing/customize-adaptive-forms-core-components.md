@@ -2,13 +2,13 @@
 title: 自定义自适应表单核心组件
 description: 了解扩展或创建自适应表单核心组件以实现为您的组织量身定制的功能。
 role: Architect, Developer, Admin
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: ht
-source-wordcount: '707'
+exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
+source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+workflow-type: tm+mt
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
-
 
 # 自定义自适应表单核心组件
 
@@ -57,4 +57,3 @@ ht-degree: 100%
 1. **在您的生产环境中部署自定义组件**
 
    在本地开发环境中测试组件后，将组件部署到生产环境中。
-

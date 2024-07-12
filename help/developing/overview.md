@@ -5,7 +5,7 @@ role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1287'
 ht-degree: 100%
 
 ---
@@ -22,14 +22,13 @@ ht-degree: 100%
 新项目应始终尝试使用核心组件。如果核心组件无法直接使用或[扩展](customizing.md)以满足项目要求，请按照核心组件中规定的组件架构创建自定义组件。除非没有其他方法，否则请避免使用[基础组件](/help/versions.md#foundation-component-support)。
 * **现有项目**
 建议保留使用[基础组件](/help/versions.md#foundation-component-support)，除非计划了网站或组件重构。\
-   由于大部分现有项目广泛地使用了基础组件，基础组件[将继续受支持](/help/versions.md#foundation-component-support)。
+  由于大部分现有项目广泛地使用了基础组件，基础组件[将继续受支持](/help/versions.md#foundation-component-support)。
 * **新自定义组件**
 请评估是否[可以自定义现有核心组件](customizing.md)。\
-   如果不能，建议按照[组件准则](guidelines.md)构建新的自定义组件。
+  如果不能，建议按照[组件准则](guidelines.md)构建新的自定义组件。
 * **现有自定义组件**
-如果您的组件按预期工作，则请原样保留它们。
-\
-   如果不能，请参考前面的“新自定义组件”。
+如果您的组件按预期工作，则请原样保留它们。\
+  如果不能，请参考前面的“新自定义组件”。
 
 ## 如何使用核心组件获得成功 {#how-to-succeed}
 

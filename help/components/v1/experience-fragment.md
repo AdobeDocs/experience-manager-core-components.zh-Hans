@@ -1,16 +1,16 @@
 ---
-title: 体验片段组件 (v1)
+title: 体验片段组件(v1)
 description: 使用体验片段组件，内容作者可以向页面添加体验片段变体。
 role: Architect, Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
 source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 98%
 
 ---
 
-# 体验片段组件 (v1) {#experience-fragment-component}
+# 体验片段组件(v1) {#experience-fragment-component}
 
 使用核心组件体验片段组件，内容作者可以在支持本地化网站结构时，在页面上放置体验片段变体。
 

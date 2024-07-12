@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '763'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | 兼容<br>[版本 2.17.4](/help/versions.md) 和更低版本 | 兼容 | 兼容 |
+| v1 | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容 | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 

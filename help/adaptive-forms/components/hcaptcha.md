@@ -4,8 +4,9 @@ description: 使用 hCaptcha 服务轻松增强表单安全性。里面有分步
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
-source-git-commit: ddfd55259f84443e6add3ced09fd319bcd9c1677
-workflow-type: ht
+exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
+source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
+workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 100%
 

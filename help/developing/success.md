@@ -4,8 +4,8 @@ description: 如何成功实施带核心组件的项目
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
-workflow-type: ht
-source-wordcount: '565'
+workflow-type: tm+mt
+source-wordcount: '541'
 ht-degree: 100%
 
 ---

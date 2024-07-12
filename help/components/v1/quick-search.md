@@ -1,16 +1,16 @@
 ---
-title: 快速搜索组件 (v1)
+title: 快速搜索组件(v1)
 description: 快速搜索组件提供对网站的搜索功能并显示搜索结果，以便访客能够搜索网站并筛选结果。
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# 快速搜索组件 (v1) {#quick-search-component}
+# 快速搜索组件(v1) {#quick-search-component}
 
 快速搜索组件提供对网站的搜索功能并显示搜索结果，以便访客能够轻松找到匹配内容并查看结果。
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | 兼容<br>[版本 2.17.4](/help/versions.md) 和更低版本 | 兼容 | 兼容 |
+| v1 | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容 | 兼容 |
 
 >[!CAUTION]
 >
