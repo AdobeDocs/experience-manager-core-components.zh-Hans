@@ -3,10 +3,10 @@ title: 文本组件
 description: 文本组件是一种富文本编辑和撰写组件，具有就地编辑功能。
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 100%
+source-wordcount: '2181'
+ht-degree: 99%
 
 ---
 
@@ -302,11 +302,11 @@ ht-degree: 100%
 
 ![内联编辑示例](/help/assets/text-edit-inline-example.png)
 
-### 设置和 ID {#setting-id}
+### 设置 ID {#setting-id}
 
-利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
+此选项允许您控制HTML和[数据层中组件的唯一标识符。](/help/developing/data-layer/overview.md)
 
-* 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
+* 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
 * 如果指定一个 ID，作者有责任确保它是唯一的。
 * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
 
