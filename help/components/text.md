@@ -4,9 +4,9 @@ description: 文本组件是一种富文本编辑和撰写组件，具有就地�
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -304,7 +304,7 @@ ht-degree: 99%
 
 ### 设置 ID {#setting-id}
 
-此选项允许您控制HTML和[数据层中组件的唯一标识符。](/help/developing/data-layer/overview.md)
+此选项允许你控制 HTML 和 [数据层中组件的唯一标识符。](/help/developing/data-layer/overview.md)
 
 * 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
 * 如果指定一个 ID，作者有责任确保它是唯一的。
