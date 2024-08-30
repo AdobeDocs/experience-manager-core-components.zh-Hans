@@ -3,10 +3,10 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
+source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
 workflow-type: tm+mt
-source-wordcount: '2229'
-ht-degree: 100%
+source-wordcount: '2205'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,6 @@ AEM Forms 的当前版本具有以下核心组件、[基础组件](https://exper
 | 自适应表单片段 | ✔️ | ✔️ | | 对于基础组件，您可以从资产浏览器中[添加片段](https://experienceleague.adobe.com/cn/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form)。 |
 | 自适应表单 reCAPTCHA | ✔️ | ✔️ | ✔️ | 对于基础组件，使用验证码组件[将 Google reCaptcha 添加到表单中](https://experienceleague.adobe.com/cn/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)。 |
 | 按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| 验证码 | ✔️ |  |  | 对于基础组件，使用验证码组件[将 Google reCaptcha 添加到表单中](https://experienceleague.adobe.com/cn/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA)。 |
 | 图表 | ✔️ | | | |
 | 复选框 | ✔️ | ✔️ | | |
 | 复选框组 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | 对于基础组件，使用复选框组件添加多个复选框 |
@@ -105,12 +104,11 @@ AEM Forms 的当前版本具有以下核心组件、[基础组件](https://exper
 | 面板 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | 密码框 | ✔️ | | ✔️ | |
 | 电话 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| “上一个”按钮 | ✔️ | | | 使用[向导组件](/help/adaptive-forms/components/wizard.md) 的下一个和上一个按钮在多个面板之间移动。 |
-| 单选按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
-| 单选按钮群组 | | | ✔️ | |
+| “上一个”按钮 | ✔️ | ✔️ | | 使用[向导组件](/help/adaptive-forms/components/wizard.md) 的下一个和上一个按钮在多个面板之间移动。 |
+| 单选按钮群组 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | “重置”按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | 潦草签名 | ✔️ | | | |
-| 分隔符 | ✔️ | | | |
+| 分隔符 | ✔️ | | | 使用WCM [分隔符](/help/components/separator.md)组件 |
 | “提交”按钮 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | 摘要步骤 | ✔️ | | | |
 | 开关 | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
@@ -118,7 +116,6 @@ AEM Forms 的当前版本具有以下核心组件、[基础组件](https://exper
 | 条款和条件 | ✔️ | ✔️ | | |
 | 文本 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | 文本框 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| 标题 | ✔️ | | | 对于核心组件，使用[表单标题](/help/adaptive-forms/components/form-title.md)组件。 |
 | Turnstile 验证码 | ✔️ | | | [Turnstile Captcha](https://experienceleague.adobe.com/cn/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) 仅适用于 Foundation 组件。 |
 | 垂直选项卡 | ✔️ | ✔️ | | 对于基础组件，您可以在面板组件属性中配置[左侧选项卡（垂直选项卡）布局](https://experienceleague.adobe.com/cn/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) |
 | 向导 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | 对于基础组件，您可以在面板组件属性中配置[向导版面](https://experienceleague.adobe.com/cn/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)。 |
