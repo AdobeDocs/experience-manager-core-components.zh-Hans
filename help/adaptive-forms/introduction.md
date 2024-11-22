@@ -3,10 +3,10 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
+source-git-commit: b37b6315312ecee0a74d8830d96a72f8a5a04e43
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 100%
+source-wordcount: '2215'
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ AEM Forms 的当前版本具有以下核心组件、[基础组件](https://exper
 | 脚注占位符 | ✔️ | | | |
 | 表单容器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 对于基础组件，使用[根面板组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel)。 |
 | 表单标题 | ✔️ | ✔️ | | 对于基础组件，使用标题组件。 |
-| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | 对于基础组件，您可以[将自适应表单与基于基础组件的表单的hCaptcha](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html)连接。 |
 | 页眉 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | 水平选项卡 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 对于基础组件，您可以在面板组件属性中配置[顶部选项卡（水平选项卡）布局](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)。 |
 | 图像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
