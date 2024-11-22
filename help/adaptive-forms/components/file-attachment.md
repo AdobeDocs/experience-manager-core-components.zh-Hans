@@ -3,14 +3,16 @@ title: 自适应表单核心组件 - 文件附件
 description: 使用或自定义自适应表单文件附件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
 workflow-type: tm+mt
-source-wordcount: '1911'
-ht-degree: 100%
+source-wordcount: '2043'
+ht-degree: 93%
 
 ---
 
 # 文件附件组件 {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview">已提交值的&#x200B;**数据类型**&#x200B;功能在早期采用者计划下可用。 您可以使用官方电子邮件 ID 写信给 aem-forms-ea@adobe.com，加入早期采用者计划并申请使用该功能。</span>
 
 通过自适应表单中的文件附件组件，用户可从其本地计算机或设备中选择并上传文件。可配置文件附件组件以允许特定文件类型、大小限制和多个附件。
 
@@ -35,7 +37,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单可折叠项面板核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应Forms文件附件核心组件于2023年2月发布，作为适用于AEM 6.5.16.0 Forms或更高版本的Cloud Service核心组件2.0.4和核心组件1.1.12的一部分。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
@@ -57,7 +59,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “基本”选项卡 {#basic-tab}
 
-![“基本”选项卡](/help/adaptive-forms/assets/fileattachement_basictab.png)
+![“基本”选项卡](/help/adaptive-forms/assets/fileattachement_basictab1.png)
 
 - **名称** - 可在表单和规则编辑器中通过唯一名称轻松地标识表单组件，但该名称不得包含空格或特殊字符。
 
@@ -72,6 +74,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **按钮标题** - 此选项用于设置自适应表单上显示的按钮的标签。
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。还可使用绑定引用，通过输入到表单中的数据更新数据源。这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。
 - **标记为未绑定表单元素**：选择此选项可配置未链接到任何架构的表单字段。利用此选项，您可以保存数据而不更新数据源。它还可让您以一种独立于标准数据库集成的自定义方式处理数据。
+- **提交值的数据类型**：选择选项以确定如何将附加文件提交到服务器。 要将附件作为二进制数据发送，请选择`File`选项。 要将附件作为Base64编码的字符串发送，请选择`String`选项。 如果选择`String`，则二进制格式的文件将作为数据URL提交到服务器。 服务器会自动将数据URL转换为二进制格式，从而确保与现有操作（如发送电子邮件和生成记录文档）的兼容性，而无需用户进行任何更改。 默认情况下，`File`选项处于选中状态。
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 - **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 - **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。

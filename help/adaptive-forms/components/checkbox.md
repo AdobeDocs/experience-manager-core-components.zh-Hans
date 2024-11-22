@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 复选框
 description: 使用或自定义自适应表单复选框核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '1836'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 99%
 
 ---
 
@@ -55,6 +55,8 @@ ht-degree: 100%
 ## “配置”对话框 {#configure-dialog}
 
 通过“配置”对话框，可轻松地自定义您为访客提供的复选框体验。还可轻松地定义复选框选项，从而营造一种无缝的用户体验。
+
+### “基本”选项卡
 
 ![“基本”选项卡](/help/adaptive-forms/assets/checkbox-basic.png)
 

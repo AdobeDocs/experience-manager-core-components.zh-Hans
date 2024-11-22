@@ -3,10 +3,10 @@ title: 自适应表单核心组件 - 条款和条件
 description: 使用或自定义自适应表单条款和条件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '3254'
-ht-degree: 100%
+source-wordcount: '3256'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-2023 年 2 月作为 Cloud Service 核心组件 2.0.62 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.28 的一部分发布了自适应表单可折叠项面板核心组件。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应Forms条款和条件核心组件于2023年2月发布，作为AEM 6.5.16.0 Forms或更高版本的Cloud Service核心组件2.0.62和核心组件1.1.28的一部分。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|

@@ -5,10 +5,10 @@ breadcrumb-title: 核心组件指南
 feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 100%
       + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
       + [自适应表单图像](/help/adaptive-forms/components/image.md)
       + [自适应表单数值框](/help/adaptive-forms/components/numeric-box.md)
+      + [自适应Forms密码框](/help/adaptive-forms/components/password-box.md)
       + [自适应表单面板](/help/adaptive-forms/components/panel.md)
       + [自适应表单验证码](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
