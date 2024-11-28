@@ -1,37 +1,37 @@
 ---
-title: 自适应Forms核心组件 — “密码”框
-description: 使用或自定义自适应Forms密码框核心组件。
+title: 自适应表单核心组件 - 密码框
+description: 使用或自定义自适应表单密码框核心组件。
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 密码框组件
 
-<span class="preview">这是一项预发布功能，可通过我们的[预发布渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)访问。</span>
+<span class="preview">这是一项预发行功能，可通过我们的[预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)访问。</span>
 
-密码框组件允许用户输入和编辑通常为隐私而蒙版的敏感信息。 可使用各种验证规则配置密码组件以确保数据准确性。 密码字段在表单中非常简单且经常使用，可增强数据安全性。
+密码框组件允许用户输入和编辑敏感信息，这些信息通常为了保护隐私而被屏蔽。密码组件可以配置各种验证规则，以确保数据的准确性。密码字段通常用于表格中，简单易懂，可增强数据安全性。
 
 **示例**
 
 ![密码框示例](/help/adaptive-forms/assets/password.png)
 
-用户可以单击眼睛图标来切换输入密码文本的可见性。 它增强了安全性，同时允许用户准确地输入机密信息。
+用户可以点击眼睛图标来切换输入密码文本的可见性。它增强了安全性，同时允许用户准确输入保密信息。
 
 ## 用途
 
-在自适应表单中使用密码框组件有以下几个原因：
+有若干原因要在自适应表单中使用密码框组件：
 
-- **安全数据收集**：密码框字段用于收集敏感信息，如密码、PIN和其他机密条目，显示用于隐私的蒙版字符。
+- **安全数据收集**：密码框字段用于收集敏感信息，例如密码、PIN 和其他机密条目，显示屏蔽字符以保护隐私。
 
-- **用户友好**：密码框字段允许用户安全地输入和编辑信息，而无需在屏幕上显示该信息。
+- **用户友好**：密码框字段允许用户安全地输入和编辑信息，而无需在屏幕上显示它。
 
-- **灵活性**：密码框组件可以配置为符合安全要求，例如最小字符长度、特殊字符或其他自定义验证，以确保强大的数据保护能力和准确性。
+- **灵活性**：密码框组件可以配置为满足安全要求，例如最小字符长度、特殊字符或其他自定义验证，以确保强大的数据保护和准确性。
 
 <!--
 ## Version and Compatibility {#version-and-compatibility}
@@ -84,7 +84,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“验证”选项卡](/help/adaptive-forms/assets/password-validation.png)
 
-- **必需** - 如果要在自适应表单中显示该组件，请选中此选项。选择此选项后，您必须先输入一个值，然后再继续提交表单。选中此选项后，无法在&#x200B;**基本**&#x200B;选项卡中选择&#x200B;**隐藏组件**&#x200B;或&#x200B;**禁用组件**。
+- **必需** - 如果要在自适应表单中显示该组件，请选中此选项。选择此选项后，您必须先输入一个值，然后再继续提交表单。选中此选项后，无法在&#x200B;**“基本”**&#x200B;选项卡中选择&#x200B;**隐藏组件**&#x200B;或&#x200B;**禁用组件**。
 
 - **错误消息** - 通过此选项，可输入如果选中了&#x200B;**必需**&#x200B;复选框并将字段留空，所显示的消息。
 

@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单切换核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1922'
 ht-degree: 100%
 

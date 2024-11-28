@@ -4,15 +4,15 @@ description: 将自适应表单添加到网页。
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 表单容器 {#form-container-adaptive-forms-core-component}
 
-<span class="preview">本文讨论&#x200B;**草稿** <!--and **Hamburger Menu Support** -->功能，该功能是预发布功能。 该预发布功能仅可通过我们的[预发布渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)访问。</span>
+<span class="preview">本文将讨论&#x200B;**草稿** <!--and **Hamburger Menu Support** --> 功能，这是一个预发行功能。该预发行功能仅可通过我们的[预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)访问。</span>
 
 通过表单，网站访客可与网站交互，提供宝贵的信息，这样即可提高参与度和用户满意度。利用 Adobe Experience Manager (AEM) Sites 中的自适应表单容器，网站所有者可以轻松地将表单添加到其页面。这样通过一种简化的方式供访客提供反馈、进行查询和完成其他操作，有助于促进网站访客与网站所有者或组织之间的交流
 
@@ -43,7 +43,7 @@ ht-degree: 91%
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 与<br>[版本 1.1.12](/help/adaptive-forms/version.md) 和更高版本兼容，但低于版本 2.0.0。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 <!-- ## Sample Component Output {#sample-component-output}
@@ -66,11 +66,10 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **预填充服务** - 通过此选项，用户可选择一项预填充服务以供在呈现自适应表单时检索数据。详细了解[如何创建和配置预填充服务](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=zh-Hans#aem-forms-custom-prefill-service)。
 
-- **Role**： role是一个HTML属性，用于指定HTML元素对辅助技术（如屏幕阅读器）的用途。 角色属性用于为元素提供额外的上下文和语义，使屏幕阅读器更容易向用户解释和读出内容。例如，在 AEM Forms 中，表单字段的标签可能具有“标签”的作用，其输入字段可能具有“文本框”的作用。这有助于屏幕阅读器理解标签和输入字段之间的关系，并正确地向用户读出内容。
+- **角色**：角色是一个 HTML 属性，用于向屏幕阅读器等辅助技术指定 HTML 元素的用途。角色属性用于为元素提供额外的上下文和语义，使屏幕阅读器更容易向用户解释和读出内容。例如，在 AEM Forms 中，表单字段的标签可能具有“标签”的作用，其输入字段可能具有“文本框”的作用。这有助于屏幕阅读器理解标签和输入字段之间的关系，并正确地向用户读出内容。
 
 - **客户端库类别** - 用户可以为每个自适应表单配置自定义 JavaScript 库。建议只保留库中可重用的函数，这些函数依赖 jquery 和 underscore.js 第三方库。
-有时，如果存在**复杂的验证规则**，则准确的验证脚本驻留在自定义函数中，并且用户从字段验证表达式中调用这些自定义函数。若要使此自定义函数库在执行服务器端验证时已知且可用，表单用户可以在自适应表单容器属性的&#x200B;**[!UICONTROL 基本]**选项卡下配置AEM客户端库的名称。
-用户可以为每个自适应表单配置自定义 JavaScript 库。该库中只保留可重用的函数，这些函数依赖 jquery 和 underscore.js 第三方库。
+有时，如果存在**复杂的验证规则**，则准确的验证脚本驻留在自定义函数中，并且用户从字段验证表达式中调用这些自定义函数。要在执行服务器端验证时使此自定义函数库已知并可用，表单用户可以在自适应表单容器属性的&#x200B;**[!UICONTROL “基本”]**&#x200B;选项卡下配置 AEM 客户端库的名称。用户可以为每个自适应表单配置自定义 JavaScript 库。该库中只保留可重用的函数，这些函数依赖 jquery 和 underscore.js 第三方库。
 
 <!--
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. -->
@@ -88,15 +87,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“提交”选项卡](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
-- **自动保存草稿**：选中&#x200B;**自动保存草稿**&#x200B;复选框以启用将表单另存为草稿。
-- **保存首选项**：将&#x200B;**保存首选项**&#x200B;配置为&#x200B;**定期保存草稿**，以便在特定时间间隔后自动保存表单。
-  **保存间隔频率（秒）**：指定时间间隔（秒），以设置按定义的间隔触发表单自动保存的持续时间。
+- **自动保存草稿**：选择&#x200B;**自动保存草稿**&#x200B;复选框可将表单保存为草稿。
+- **保存偏好设置**：将&#x200B;**保存偏好设置**&#x200B;配置为&#x200B;**定期保存草稿**，以在特定时间间隔后自动保存表单。
+  **保存间隔频率（秒）**：指定时间间隔（以秒为单位），以设置按照定义的间隔触发表单自动保存的持续时间。
 
 ### “提交”选项卡 {#submission-tab}
 
 用户可以为自适应表单提交配置不同的操作。
 
-- **重定向 URL/路径** - 通过此选项，用户可为每个表单配置一个页面，表单用户在提交自适应表单后将被重定向到该页面。单击此处以详细了解[如何配置重定向页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html)。
+- **重定向 URL/路径** - 通过此选项，用户可为每个表单配置一个页面，表单用户在提交自适应表单后将被重定向到该页面。单击此处以详细了解[如何配置重定向页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=zh-Hans)。
 
 ![“提交”选项卡](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
@@ -104,7 +103,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“显示消息”选项卡](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-- **提交操作** - 当用户单击自适应表单上的“提交”按钮时将触发提交操作。用户可以从下拉列表中选择受支持的现有提交操作。了解如何[在“提交”选项卡中配置提交操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br)。
+- **提交操作** - 当用户单击自适应表单上的“提交”按钮时将触发提交操作。用户可以从下拉列表中选择受支持的现有提交操作。了解如何[在“提交”选项卡中配置提交操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=zh-Hans#supporting-custom-functions-in-validation-expressions-br)。
 
 ## “设计”对话框 {#design-dialog}
 

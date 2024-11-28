@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 98%
       + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
       + [自适应表单图像](/help/adaptive-forms/components/image.md)
       + [自适应表单数值框](/help/adaptive-forms/components/numeric-box.md)
-      + [自适应Forms密码框](/help/adaptive-forms/components/password-box.md)
+      + [自适应表单密码框](/help/adaptive-forms/components/password-box.md)
       + [自适应表单面板](/help/adaptive-forms/components/panel.md)
       + [自适应表单验证码](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
@@ -140,8 +140,8 @@ ht-degree: 98%
    + [示例主题和模板](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + 开发 {#developing}
    + [开发核心组件](/help/developing/overview.md)
-   + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-Hans)
+   + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)
    + [自定义核心组件](/help/developing/customizing.md)
    + [组件准则](/help/developing/guidelines.md)
    + [AMP 支持](/help/developing/amp.md)

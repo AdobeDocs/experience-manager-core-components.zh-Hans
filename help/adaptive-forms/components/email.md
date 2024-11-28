@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单电子邮件输入核心组件。
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2113'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应的Forms电子邮件核心组件于2023年2月发布，作为适用于AEM 6.5.16.0 Forms或更高版本的Cloud Service核心组件2.0.4和核心组件1.1.12的一部分。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单电子邮件核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 兼容<br>[版本 1.1.12](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本。 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 与<br>[版本 1.1.12](/help/adaptive-forms/version.md) 和更高版本兼容，但低于版本 2.0.0。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
@@ -83,7 +83,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“验证”选项卡](/help/adaptive-forms/assets/email_validationtab.png)
 
-- **必需** - 如果要在自适应表单中显示该组件，请选中此选项。选择此选项后，您必须先输入一个值，然后再继续提交表单。选中此选项后，无法在&#x200B;**基本**&#x200B;选项卡中选择&#x200B;**隐藏组件**&#x200B;或&#x200B;**禁用组件**。
+- **必需** - 如果要在自适应表单中显示该组件，请选中此选项。选择此选项后，您必须先输入一个值，然后再继续提交表单。选中此选项后，无法在&#x200B;**“基本”**&#x200B;选项卡中选择&#x200B;**隐藏组件**&#x200B;或&#x200B;**禁用组件**。
 
 - **错误消息** - 通过此选项，可输入如果选中了&#x200B;**必需**&#x200B;复选框并将表单字段留空，所显示的消息。
 
