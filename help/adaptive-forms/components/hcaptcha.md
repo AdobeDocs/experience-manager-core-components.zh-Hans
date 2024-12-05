@@ -4,8 +4,9 @@ description: 使用 hCaptcha 服务轻松增强表单安全性。里面有分步
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
-source-git-commit: 9a691fc2aa656f5a96d8cd4b6285e6bd473cdaa4
-workflow-type: tm+mt
+exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
+source-git-commit: be25eac36cafda0ff0cb745454593640cc54ceea
+workflow-type: ht
 source-wordcount: '583'
 ht-degree: 100%
 
@@ -37,12 +38,12 @@ hCaptcha® 服务项目可保护您的表单免受机器人、垃圾邮件和自
 
 可在 [GitHub](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/hCaptcha/v1/hCaptcha/README.md) 上的技术文档中获得关于 hCaptcha 组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
-通过使用 [配置对话框](#configure-dialog)指定 hCaptcha 组件的属性。配置对话框是核心组件的一部分，旨在简化表单的创作，并提供一种创建复杂表单的有效方法。
+通过使用[配置对话框](#configure-dialog)指定 hCaptcha 组件的属性。配置对话框是核心组件的一部分，旨在简化表单的创作，并提供一种创建复杂表单的有效方法。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
 
-自适应表单 hCaptcha 组件于 2024 年 5 月作为 [核心组件 3.0.20](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491) 的一部分发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应表单 hCaptcha 组件于 2024 年 5 月作为[核心组件 3.0.20](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491) 的一部分发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
@@ -61,7 +62,7 @@ hCaptcha® 服务项目可保护您的表单免受机器人、垃圾邮件和自
 - **[!UICONTROL 名称]：** 指定您的 hCaptcha 组件的名称，您可以在表单和规则编辑器中使用其唯一名称轻松识别表单组件。
 - **[!UICONTROL 标题]：** 指定您的 hCaptcha 组件的标题。
 - **[!UICONTROL 配置设置]：** 选择为 hCaptcha® 配置的云配置。
-- **验证码大小：** 您可以选择 hCaptcha® 验证对话框的显示大小。使用 **[!UICONTROL 紧凑]** 选项显示小尺寸，使用 **[!UICONTROL 正常]** 选项显示相对大尺寸的 hCaptcha® 挑战对话框。<!-- or **[!UICONTROL Invisible]** to validate hCaptcha&reg; without explicitly rendering the checkbox widget on the user interface. -->
+- **验证码大小：** 您可以选择 hCaptcha® 验证对话框的显示大小。使用 **[!UICONTROL 紧凑]**&#x200B;选项显示小尺寸，使用 **[!UICONTROL 正常]**&#x200B;选项显示相对大尺寸的 hCaptcha® 挑战对话框。<!-- or **[!UICONTROL Invisible]** to validate hCaptcha&reg; without explicitly rendering the checkbox widget on the user interface. -->
 
   ![hCaptcha 基本选项卡](/help/adaptive-forms/assets/hcaptcha-basic.png)
 
@@ -74,7 +75,7 @@ hCaptcha® 服务项目可保护您的表单免受机器人、垃圾邮件和自
 
 **hCaptcha® 是 Intuition Machines, Inc. 的注册商标。**
 
-**详细了解** 其他 **验证码组件** 及其服务，例如：
+**详细了解**&#x200B;其他&#x200B;**验证码组件**&#x200B;及其服务，例如：
 
 - [在自适应表单中使用 hCaptcha 作为核心组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
