@@ -3,16 +3,22 @@ title: 自适应图像 Servlet
 description: 了解核心组件如何使用自适应图像 Servlet 来投放图像，以及如何优化其使用。
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 98%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
 # 自适应图像 Servlet {#adaptive-image-servlet}
 
 了解核心组件如何使用自适应图像 Servlet 来投放图像，以及如何优化其使用。
+
+>[!WARNING]
+>
+>出于性能原因，强烈建议在DAM中存储图像并使用Web优化的图像交付。
+>
+>直接在组件节点下存储图像是为了临时使用。 它不利用DAM演绎版减少自适应图像Servlet中的处理，不允许利用Web优化图像投放的性能优势，这可能会导致性能问题。
 
 ## 自适应图像Servlet还是Web优化图像交付？ {#options}
 
