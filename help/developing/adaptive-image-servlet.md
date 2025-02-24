@@ -3,10 +3,10 @@ title: 自适应图像 Servlet
 description: 了解核心组件如何使用自适应图像 Servlet 来投放图像，以及如何优化其使用。
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
+source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 85%
+source-wordcount: '456'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 85%
 
 >[!WARNING]
 >
->出于性能原因，强烈建议在DAM中存储图像并使用Web优化的图像交付。
+>出于性能原因，强烈建议将图像存储在 DAM 中，并使用 Web 优化图像投放。
 >
->直接在组件节点下存储图像是为了临时使用。 它不利用DAM演绎版减少自适应图像Servlet中的处理，不允许利用Web优化图像投放的性能优势，这可能会导致性能问题。
+>将图像直接存储在组件节点下是为了偶尔使用。它不会利用 DAM 演绎版来减少自适应图像 Servlet 中的处理，也不会发挥 Web 优化图像投放的性能优势，因此可能导致性能问题。
 
-## 自适应图像Servlet还是Web优化图像交付？ {#options}
+## 自适应图像 Servlet 还是 Web 优化图像投放？ {#options}
 
 图像核心组件可使用两种方法投放图像。
 
@@ -41,9 +41,9 @@ ht-degree: 85%
 1. 它仅选择与原始引用资产具有相同 mime/类型的资产。
    * 例如，如果原始资产是 PNG，则只考虑 PNG 格式演绎版。
 1. 在这些演绎版中，会考虑尺寸，并将其与应显示图像的容器大小进行比较。
-   1. 如果演绎版 >= 容器大小，则将其添加到候选演绎版列表中。
-   1. 如果演绎版 &lt; 容器大小，则忽略该演绎版。
-   1. 这些标准确保演绎版不会被放大，这将影响图像质量。
+1. 如果演绎版 >= 容器大小，则将其添加到候选演绎版列表中。
+1. 如果演绎版 &lt; 容器大小，则忽略该演绎版。
+1. 这些标准确保演绎版不会被放大，这将影响图像质量。
 1. 然后，自适应图像 Servlet 从候选列表中选择尺寸最小的演绎版。
 
 ## 优化演绎版选择 {#optimizing-rendition-selection}
@@ -54,6 +54,6 @@ ht-degree: 85%
 
 ## 使用上次修改的标题 {#last-modified}
 
-自适应图像 Servlet 支持通过 `Last-Modified` 标头进行有条件请求，但是 `Last-Modified` 标头的缓存[需要在 Dispatcher 中启用](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-Hans#caching-http-response-headers)。
+自适应图像 Servlet 支持通过 `Last-Modified` 标头进行有条件请求，但是 `Last-Modified` 标头的缓存[需要在 Dispatcher 中启用](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-hans#caching-http-response-headers)。
 
-[AEM 项目原型](/help/developing/archetype/overview.md)的示例 Dispatcher 配置已经包含此配置。
+[AEM项目原型的](/help/developing/archetype/overview.md)示例Dispatcher配置已包含此配置。
