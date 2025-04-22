@@ -3,10 +3,10 @@ title: 电子邮件分段组件
 description: 电子邮件分段组件
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 100%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | 兼容 | - |
+| 组件版本 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | 兼容 | 兼容 | - |
 
 ### 技术详细信息 {#technical-details}
 

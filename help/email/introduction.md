@@ -3,10 +3,10 @@ title: 电子邮件核心组件简介
 description: 使用电子邮件核心组件的灵活性创建吸引人的电子邮件内容，并利用 Adobe Campaign 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 99%
+source-wordcount: '382'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 
 | AEM | Adobe Campaign | 核心组件 |
 |---|---|---|
-| AEM 6.5.14.0 和更高版本<br>内部部署或 AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [2.21.2](/help/versions.md) 和更高版本 |
+| AEM 6.5.14.0+或AEM 6.5 LTS GA<br>内部部署或AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [2.21.2](/help/versions.md) 和更高版本 |
 
 >[!NOTE]
 >

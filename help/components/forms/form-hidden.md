@@ -3,10 +3,10 @@ title: 表单隐藏组件
 description: 利用核心组件表单隐藏组件，可显示隐藏字段。
 role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 100%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容 | 兼容 |
-| [v1](/help/components/v1/form-hidden-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容 | 兼容 | 兼容 |
+| [v1](/help/components/v1/form-hidden-v1.md) | 兼容 | 兼容 | - | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 

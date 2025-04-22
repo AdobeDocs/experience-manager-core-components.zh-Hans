@@ -3,10 +3,10 @@ title: 核心组件简介
 description: 获取核心组件问题的解决方案，并允许其他人在 AEM 中创作元素。
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
-workflow-type: ht
-source-wordcount: '807'
-ht-degree: 100%
+source-git-commit: 302dc24598f892104b57cab3dd4b507975f90dad
+workflow-type: tm+mt
+source-wordcount: '811'
+ht-degree: 99%
 
 ---
 
@@ -108,9 +108,9 @@ ht-degree: 100%
 
 ## 系统要求 {#system-requirements}
 
-| 核心组件版本 | AEM as a Cloud Service | AEM 6.5 补丁级别 | Java SE 版本 | Maven 版本 |
-|---------|---------|---------|---------|---------|
-| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 连续 | 6.5.21.0+ | 8, 11 | 3.3.9 和更高版本 |
+| 核心组件版本 | AEM as a Cloud Service | AEM 6.5磅 | AEM 6.5 | Java SE 版本 | Maven 版本 |
+|---|---|---|---|---|---|
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11 | 3.3.9 和更高版本 |
 
 有关以前的核心组件版本的要求，请参阅[核心组件版本](versions.md)。
 

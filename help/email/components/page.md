@@ -3,10 +3,10 @@ title: 电子邮件页面组件
 description: 电子邮件页面组件
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: c16dd8696e89f89c7b178ece11f57a565d73588b
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 99%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | 兼容 | - |
+| 组件版本 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | 兼容 | 兼容 | - |
 
 有关电子邮件核心组件版本的更多信息，请参阅文档[电子邮件核心组件版本](/help/email/versions.md)
 

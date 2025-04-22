@@ -3,10 +3,10 @@ title: 痕迹导航组件
 description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层级中的位置构建链接的痕迹导航。
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 100%
+source-wordcount: '800'
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| v3 | - | 兼容 | 兼容 |
-| [v2](v2/breadcrumb.md) | 兼容 | 兼容 | 兼容 |
-| [v1](v1/breadcrumb-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+|--- | --- |--- |---|---|
+| v3 | - | 兼容 | 兼容 | 兼容 |
+| [v2](v2/breadcrumb.md) | 兼容 | 兼容 | - | 兼容 |
+| [v1](v1/breadcrumb-v1.md) | 兼容 | 兼容 | - | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 

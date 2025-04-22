@@ -3,10 +3,10 @@ title: 图像组件
 description: 核心组件图像组件是自适应图像组件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1957'
-ht-degree: 100%
+source-wordcount: '1961'
+ht-degree: 99%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 100%
 
 下表详述所有支持的组件版本、组件版本与其兼容的 AEM 版本以及旧版文档的链接。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | 兼容 | 兼容 |
-| [v2](v2/image.md) | 兼容 | 兼容 | 兼容 |
-| [v1](v1/image-v1.md) | 兼容 | 兼容 | 兼容 |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v3 | - | 兼容 | 兼容 | 兼容 |
+| [v2](v2/image.md) | 兼容 | 兼容 | - | 兼容 |
+| [v1](v1/image-v1.md) | 兼容 | 兼容 | - | 兼容 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 

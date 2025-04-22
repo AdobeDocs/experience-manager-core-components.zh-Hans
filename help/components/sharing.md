@@ -1,18 +1,18 @@
 ---
 title: 社交共享组件
-description: 核心组件社交共享组件是一个 Facebook 和 Pinterest 共享构件。
+description: 核心组件社交共享组件是一个 Facebook 和 Pinterest 共享小组件。
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
 # 社交共享组件{#social-sharing-component}
 
-核心组件社交共享组件是一个 Facebook 和 Pinterest 共享构件。
+核心组件社交共享组件是一个 Facebook 和 Pinterest 共享小组件。
 
 >[!NOTE]
 >
@@ -30,9 +30,9 @@ ht-degree: 100%
 
 下表详细说明了该组件的所有支持版本以及与该组件的各个版本兼容的 AEM 版本。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v1 | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容，已弃用 | 兼容，已弃用 |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容，已弃用 | 兼容，已弃用 | 兼容，已弃用 |
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 

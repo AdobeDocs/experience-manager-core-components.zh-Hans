@@ -3,10 +3,10 @@ title: 电子邮件体验片段组件
 description: 电子邮件体验片段组件允许内容作者在其内容中放置体验片段变体，同时支持本地化的内容结构。
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 100%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | 兼容 | - |
+| 组件版本 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | 兼容 | 兼容 | - |
 
 有关电子邮件核心组件版本的更多信息，请参阅文档[电子邮件核心组件版本。](/help/email/versions.md)
 
