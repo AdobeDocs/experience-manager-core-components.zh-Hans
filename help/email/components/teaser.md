@@ -3,9 +3,9 @@ title: 电子邮件 Teaser 组件
 description: 电子邮件 Teaser 组件可以显示图像、标题、富文本并可以选择链接到更多内容。
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1002'
 ht-degree: 99%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 99%
 
 | 组件版本 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 兼容 | 兼容 | - |
+| v1 | 兼容 | - | - |
 
 ### 技术详细信息 {#technical-details}
 

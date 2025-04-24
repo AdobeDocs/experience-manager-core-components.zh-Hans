@@ -3,9 +3,9 @@ title: 电子邮件页面组件
 description: 电子邮件页面组件
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '780'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 | 组件版本 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 兼容 | 兼容 | - |
+| v1 | 兼容 | - | - |
 
 有关电子邮件核心组件版本的更多信息，请参阅文档[电子邮件核心组件版本](/help/email/versions.md)
 

@@ -3,9 +3,9 @@ title: 电子邮件图像组件
 description: 电子邮件图像组件是一个自适应图像组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1624'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 | 组件版本 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 兼容 | 兼容 | - |
+| v1 | 兼容 | - | - |
 
 有关核心组件版本的更多信息，请参阅文档[电子邮件核心组件版本](/help/email/versions.md)。
 

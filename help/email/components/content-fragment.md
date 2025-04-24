@@ -3,9 +3,9 @@ title: 电子邮件内容片段组件
 description: 利用电子邮件内容片段组件，可以在您的内容中显示内容片段。
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 99%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 99%
 
 | 组件版本 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | 兼容 | 兼容 | - |
+| v1 | 兼容 | - | - |
 
 有关电子邮件核心组件版本和发布的更多信息，请参阅文档[电子邮件核心组件版本](/help/email/versions.md)。
 

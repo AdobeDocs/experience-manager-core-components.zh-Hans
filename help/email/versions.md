@@ -3,9 +3,9 @@ title: 核心电子邮件组件版本
 description: 核心电子邮件组件作为版本发布。
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 88%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 88%
 
 | 发行版本 | 描述 | AEM 6.5 | AEM 6.5磅 | 核心组件 | Java | 发布日期 |
 |---|---|---|---|---|---|---|
-| [1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | 此版本更新了嵌入的jsoup库。 | 6.5.14.0+ | 6.5 LTS GA | [2.21.2+](/help/versions.md) | 8, 11 | 2024 年 6 月 28 日 |
+| [1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | 此版本更新了嵌入的jsoup库。 | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 2024 年 6 月 28 日 |
 | [1.2.2](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2) | 此维护版本更正了选择器筛选，解决了`SelectorParseException`问题，并修复了其他错误。 | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 2023 年 5 月 24 日 |
 | [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | 此版本引入了 Selenium e2e 测试并修复了一些错误。 | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 2022 年 11 月 29 日 |
 | [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | 首次公开发布，详见发行说明 | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 2022 年 11 月 29 日 |
