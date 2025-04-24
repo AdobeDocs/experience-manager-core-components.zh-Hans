@@ -3,10 +3,10 @@ title: 图像组件
 description: 核心组件图像组件是自适应图像组件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 99%
+source-wordcount: '2062'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,14 @@ ht-degree: 99%
 >[!TIP]
 >
 >默认情况下，图像组件由自适应图像 Servlet 提供支持。 有关其工作原理的详细信息，请参阅[自适应图像 Servlet](/help/developing/adaptive-image-servlet.md)。
+
+### 与v2的差异 {#v2-differences}
+
+与图像组件的版本2不同，版本3使用浏览器本机响应。 这意味着，它将为浏览器提供一组不同宽度的图像源，浏览器将从中挑选最佳图像。
+
+大多数情况下，浏览器更喜欢在本地缩小较大的宽度以适合较小的视区，而不是从服务器获取较小的宽度图像。 这是正常情况，并且为什么不应将图像组件用于艺术方向（不同的视区有不同的图像/裁切）。
+
+[有关详细信息，请参阅图像组件](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings)的技术文档。
 
 ## Dynamic Media 支持 {#dynamic-media}
 
