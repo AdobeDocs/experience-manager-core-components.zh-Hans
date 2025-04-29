@@ -4,9 +4,9 @@ description: 页面组件是指可扩展的页面组件，设计用于模板编�
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v3 | - | 兼容 | 兼容 | 兼容 |
 | [v2](v2/page.md) | 兼容 | 兼容 | - | 兼容 |
@@ -71,7 +71,7 @@ ht-degree: 99%
 
 * **跳到主内容元素选择器** - 用作可访问性功能，以直接跳到页面的主内容。
 
-* **呈现替代语言链接** - 如果启用，则指向同一站点中页面的替代语言版本的链接将被添加到该页面的头部。
+* **呈现替代语言链接** - 如果启用，则指向同一网站中页面的替代语言版本的链接将被添加到该页面的头部。
 
 ![页面组件设计对话框](/help/assets/page-design.png)
 

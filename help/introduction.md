@@ -4,9 +4,9 @@ description: 获取核心组件问题的解决方案，并允许其他人在 AEM
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 302dc24598f892104b57cab3dd4b507975f90dad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 99%
 
 ## 资源 {#resources}
 
-* **[组件库：](https://www.adobe.com/go/aem_cmp_library_cn)**&#x200B;一组用于查看组件的各种配置的示例。
+* **[组件库：](https://www.adobe.com/cn/go/aem_cmp_library)**&#x200B;一组用于查看组件的各种配置的示例。
 * **组件文档（此文档）：**&#x200B;对于开发人员和作者，包含有关每个组件的详细信息。
 * **[核心组件 GitHub 存储库：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;对于开发人员，包含每个组件和项目下载的详细信息。
 * 开始使用：
    * **[使用核心组件获得成功：](/help/developing/success.md)**&#x200B;在任何将使用核心组件的项目开始之前要考虑的指南。
-   * **[WKND 教程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-hans)**&#x200B;有关构建新站点的两日教程。
-   * **[Summit 教程：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;有关构建新站点的两小时教程（来自 US Summit 2019 的实验室）。
+   * **[WKND 教程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-hans)**&#x200B;有关构建新网站的两日教程。
+   * **[Summit 教程：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;有关构建新网站的两小时教程（来自 US Summit 2019 的实验室）。
    * **[Gems 网络研讨会：](https://helpx.adobe.com/cn/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;核心组件导览（于 2018 年 12 月录制）。
 
 ## 功能 {#features}
@@ -108,7 +108,7 @@ ht-degree: 99%
 
 ## 系统要求 {#system-requirements}
 
-| 核心组件版本 | AEM as a Cloud Service | AEM 6.5磅 | AEM 6.5 | Java SE 版本 | Maven 版本 |
+| 核心组件版本 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 版本 | Maven 版本 |
 |---|---|---|---|---|---|
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11 | 3.3.9 和更高版本 |
 

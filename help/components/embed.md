@@ -4,9 +4,9 @@ description: 使用嵌入组件可以在 AEM 内容页面中嵌入外部内容�
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1343'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
 | v2 | - | 兼容 | 兼容 | 兼容 |
 | [v1](v1/embed.md) | 兼容 | 兼容 | - | 兼容 |
@@ -109,7 +109,7 @@ ht-degree: 99%
 
 ##### 安全性 {#security}
 
-出于安全目的，作者可以输入的 HTML 标记将筛选掉，以避免跨站点脚本攻击，例如，此类攻击可允许作者获取管理权限。
+出于安全目的，作者可以输入的 HTML 标记将筛选掉，以避免跨网站脚本攻击，例如，此类攻击可允许作者获取管理权限。
 
 一般来说，所有脚本和 `style` 元素以及 `on*` 和 `style` 属性都将从输出中删除。
 

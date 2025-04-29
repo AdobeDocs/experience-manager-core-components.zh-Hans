@@ -4,9 +4,9 @@ description: 使用导航组件，用户可轻松地在全局化网站结构中�
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v2 | - | 兼容 | 兼容 | 兼容 |
 | [v1](v1/navigation.md) | 兼容 | 兼容 | - | 兼容 |
@@ -74,7 +74,7 @@ ht-degree: 99%
 \-- wknd-shop
 ```
 
-对于站点 WKND，您可能希望将导航组件作为标头的一部分放置在页面模板上。将导航组件放到模板中之后，您可以将组件的&#x200B;**导航根**&#x200B;设置为 `/content/wknd/language-masters/en`，因为这是您网站的主内容的开始位置。您可能还希望将&#x200B;**导航结构深度**&#x200B;设置为 `2`，因为您可能不希望组件显示完整的内容树，而是只显示前两个级别，以将其用作概览。
+对于网站 WKND，您可能希望将导航组件作为标头的一部分放置在页面模板上。将导航组件放到模板中之后，您可以将组件的&#x200B;**导航根**&#x200B;设置为 `/content/wknd/language-masters/en`，因为这是您网站的主内容的开始位置。您可能还希望将&#x200B;**导航结构深度**&#x200B;设置为 `2`，因为您可能不希望组件显示完整的内容树，而是只显示前两个级别，以将其用作概览。
 
 使用&#x200B;**导航根**&#x200B;值，导航组件即可知道在 `/content/wknd/language-masters/en` 之后开始导航，并且可以向下递归网站的结构两级（如&#x200B;**导航结构深度**&#x200B;值所定义）来生成导航选项。
 

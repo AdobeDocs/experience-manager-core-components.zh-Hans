@@ -4,9 +4,9 @@ description: 核心组件痕迹导航组件是一个导航组件，它根据页�
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 ## 用途 {#usage}
 
-痕迹导航组件显示当前页面在站点层级中的位置，并允许页面访客从其当前位置导航页面层级。它通常集成到页眉或页脚中。
+痕迹导航组件显示当前页面在网站层级中的位置，并允许页面访客从其当前位置导航页面层级。它通常集成到页眉或页脚中。
 
 可用选项（例如，默认导航级别和显示当前页面或隐藏页面的能力）可由模板作者在[“设计”对话框](#design-dialog)中定义。然后，内容编辑者可以在[“编辑”对话框](#edit-dialog)中选择是否显示隐藏的页面以及组件的实际导航级别。
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- | --- |--- |---|---|
 | v3 | - | 兼容 | 兼容 | 兼容 |
 | [v2](v2/breadcrumb.md) | 兼容 | 兼容 | - | 兼容 |
