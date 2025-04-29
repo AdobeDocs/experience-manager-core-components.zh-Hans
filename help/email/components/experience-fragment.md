@@ -6,7 +6,7 @@ exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
 source-wordcount: '865'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+| 组件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
 | v1 | 兼容 | - | - |
 
@@ -107,7 +107,7 @@ ht-degree: 99%
 
 ## 技术详细信息 {#technical-details}
 
-阅读最新的[有关体验片段组件的技术文档](https://www.adobe.com/go/aem_cmp_xf_v1_cn)。
+阅读最新的[有关体验片段组件的技术文档](https://www.adobe.com/cn/go/aem_cmp_xf_v1)。
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 

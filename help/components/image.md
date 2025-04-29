@@ -6,7 +6,7 @@ exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
 source-wordcount: '2062'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 
 下表详述所有支持的组件版本、组件版本与其兼容的 AEM 版本以及旧版文档的链接。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5磅 | AEM as a Cloud Service |
+| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v3 | - | 兼容 | 兼容 | 兼容 |
 | [v2](v2/image.md) | 兼容 | 兼容 | - | 兼容 |
