@@ -26,7 +26,7 @@ ht-degree: 100%
 
 利用项目原型，可以轻松地在 AEM 上开始进行开发。您可以通过多种方式使用原型迈出第一步。
 
-* **WKND 教程** - 有关在 AEM 上进行开发的精彩介绍（包括如何利用原型），请参阅 [AEM Sites 入门 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)中的实际示例，该示例介绍如何使用原型实施简单项目。
+* **WKND 教程** - 有关在 AEM 上进行开发的精彩介绍（包括如何利用原型），请参阅 [AEM Sites 入门 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)中的实际示例，该示例介绍如何使用原型实施简单项目。
 * **WKND 事件教程** - 如果您特别想知道如何在 AEM 上开发单页面应用程序 (SPA)，请务必查看专门的 [WKND 事件教程](https://helpx.adobe.com/cn/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)。
 * **开始创建您自己的项目！** - 您可以轻松下载 [GitHub 上提供的当前项目原型](https://github.com/adobe/aem-project-archetype)，并开始创建您的第一个项目。
 
@@ -87,7 +87,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-关键依赖项之一是 [AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)这将包括所有 AEM API，并且 AEM 版本只有一个依赖项。
+关键依赖项之一是 [AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=zh-Hans)这将包括所有 AEM API，并且 AEM 版本只有一个依赖项。
 
 >[!NOTE]
 >

@@ -68,7 +68,7 @@ AEM 项目原型包括一个可选的基于 Webpack 的专用前端构建机制�
 
 ## Clientlib 概述 {#clientlibs}
 
-可使用 [AEM Clientlib 构建前端模块。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)。在执行 NPM 构建脚本时，将构建应用程序，并且 `aem-clientlib-generator` 包会获取生成的构建输出并将其转换为此类 Clientlib。
+可使用 [AEM Clientlib 构建前端模块。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hans)。在执行 NPM 构建脚本时，将构建应用程序，并且 `aem-clientlib-generator` 包会获取生成的构建输出并将其转换为此类 Clientlib。
 
 Clientlib 将包含以下文件和目录：
 
@@ -80,4 +80,4 @@ Clientlib 将包含以下文件和目录：
 
 >[!TIP]
 >
->在 [AEM 开发文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)中了解有关 AEM 如何处理 Clientlib 的更多信息，并在[核心组件文档](/help/developing/including-clientlibs.md)中了解如何包含 Clientlib 的更多信息。
+>在 [AEM 开发文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hans)中了解有关 AEM 如何处理 Clientlib 的更多信息，并在[核心组件文档](/help/developing/including-clientlibs.md)中了解如何包含 Clientlib 的更多信息。

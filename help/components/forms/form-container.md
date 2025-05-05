@@ -18,11 +18,11 @@ ht-degree: 100%
 
 利用表单容器组件，可支持简单的 WCM 表单并使用嵌套结构来允许其他表单组件，从而构建简单信息提交表单和功能。
 
-通过使用[“配置”对话框](#configure-dialog)，内容编辑者可以定义由表单提交触发的操作、将处理提交的 URl 以及是否应触发工作流。模板作者可使用[“设计”对话框](#design-dialog)定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的“设计”对话框类似。
+通过使用[“配置”对话框](#configure-dialog)，内容编辑者可以定义由表单提交触发的操作、将处理提交的 URl 以及是否应触发工作流。模板作者可使用[“设计”对话框](#design-dialog)定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的“设计”对话框类似。
 
 >[!NOTE]
 >
->核心组件表单容器组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。不支持使用核心组件表单容器中的[基础组件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)表单组件，反之亦然。
+>核心组件表单容器组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。不支持使用核心组件表单容器中的[基础组件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=zh-Hans)表单组件，反之亦然。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 ## “设计”对话框 {#design-dialog}
 
-利用“设计”对话框，模板作者可为容器定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的“设计”对话框类似。
+利用“设计”对话框，模板作者可为容器定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的“设计”对话框类似。
 
 ### “样式”选项卡 {#styles-tab}
 

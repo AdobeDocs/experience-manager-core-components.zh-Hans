@@ -40,11 +40,11 @@ ht-degree: 100%
 
 电子邮件体验片段组件适应本地化的内容结构，并根据内容的本地化呈现适当的体验片段。 为此，体验片段必须满足以下条件。
 
-* 电子邮件体验片段组件已添加到[页面模板。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)
+* 电子邮件体验片段组件已添加到[页面模板。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=zh-Hans)
 * 该模板用于创建新的内容页面，这些页面是 `/content/<site>` 以下的本地化结构的一部分。
 * 在内容页面上引用的体验片段属于 `/content/experience-fragments` 以下的本地化体验结构的一部分，遵循与以下网站 `/content/<site>` 相同的模式，包括使用相同的组件名称。
 
-在本例中，与当前页面具有相同本地化（[语言、Blueprint 或实时副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html)）的片段将作为模板的一部分渲染。
+在本例中，与当前页面具有相同本地化（[语言、Blueprint 或实时副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=zh-Hans)）的片段将作为模板的一部分渲染。
 
 此行为仅限添加到模板的电子邮件体验片段组件。 添加到单独内容页面的体验片段组件将渲染在页面中配置的准确体验片段再现。
 

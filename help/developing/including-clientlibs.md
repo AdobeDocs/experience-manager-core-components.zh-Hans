@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 包含客户端库 {#including}
 
-可通过多种不同的方式来包含[客户端库](/help/developing/archetype/front-end.md#clientlibs)，具体取决于您的使用案例。以下是每个例子的示例 [HTL 代码段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)。
+可通过多种不同的方式来包含[客户端库](/help/developing/archetype/front-end.md#clientlibs)，具体取决于您的使用案例。以下是每个例子的示例 [HTL 代码段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans)。
 
 ### 推荐的默认使用 {#recommended-default-usage}
 

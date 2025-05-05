@@ -79,13 +79,13 @@ Teaser 组件（截止 [发行版本 2.23.2](/help/versions.md)）支持远程�
 ![Teaser 组件的“编辑”对话框中的“图像”选项卡](/help/assets/teaser-edit-image.png)
 
 * **从页面继承精选图像** - 使用链接页面的页面属性中定义的图像，如果没有找到，则使用当前页面。
-* **图像资源** - 在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)中放置资源或点击&#x200B;**浏览**&#x200B;选项以从本地文件系统上传。
+* **图像资源** - 在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)中放置资源或点击&#x200B;**浏览**&#x200B;选项以从本地文件系统上传。
    * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)以选择图像。
+   * 点击或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)以选择图像。
       * 如果启用了 [远程资产支持](#remote-assets)，您有选择资产的多种选项：
          * **本地**&#x200B;从本地 AEM 资源库选择。
          * **远程**&#x200B;从您的 AEM 实例之外的 Dynamic Media 库选择。
-   * 点击或单击&#x200B;**编辑**&#x200B;以在资源编辑器中[管理资源的演绎版](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
+   * 点击或单击&#x200B;**编辑**&#x200B;以在资源编辑器中[管理资源的演绎版](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
 * **用于辅助功能的替换文本** - 此字段允许您为视障用户定义图像的描述。
    * **从页面继承替换文本** - 此选项使用 DAM 中 `dc:description` 元数据的链接资源值的替代描述或当前页面的替代描述（如果未链接资源）。
 * **不提供替换文本** - 此选项将图像标记为被屏幕阅读器等辅助技术忽略，以用于图像纯粹起装饰作用或不向页面传达额外信息的情况。

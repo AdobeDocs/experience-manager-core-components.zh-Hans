@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ### 使用 Adobe XD UI 套件 {#ui-kit}
 
-一旦证明需要自定义组件，就使用 Adobe XD UI 套件（[可在此处下载）](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，以便设计人员能够将核心组件用作构建块来开始构建线框和设计。
+一旦证明需要自定义组件，就使用 Adobe XD UI 套件（[可在此处下载）](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=zh-Hans)，以便设计人员能够将核心组件用作构建块来开始构建线框和设计。
 
 ## 不要忽视强大的功能 {#powerful-features}
 
@@ -49,13 +49,13 @@ AEM 和核心组件的功能非常强大，但却不易被察觉，设计人员�
 
 ### 内容片段 {#content-fragments}
 
-[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html)允许您创建渠道中性内容，以及各种（特定于渠道的）变量。您随后可以在创作内容页面时使用这些片段及其变量。
+[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hans)允许您创建渠道中性内容，以及各种（特定于渠道的）变量。您随后可以在创作内容页面时使用这些片段及其变量。
 
 结构化内容片段与更新的 JSON 导出程序结合使用时，还可用于通过 Content Services 将 AEM 内容传送到 AEM 页面以外的渠道。
 
 ### 体验片段模板 {#experience-fragment-templates}
 
-满足作者希望重复使用页面各个部分（体验的片段）的需求。如果没有[体验片段，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html)作者需要复制并粘贴该片段。创建并维护这些复制/粘贴体验非常费时，而且容易导致用户错误。体验片段无需复制/粘贴。
+满足作者希望重复使用页面各个部分（体验的片段）的需求。如果没有[体验片段，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html?lang=zh-Hans)作者需要复制并粘贴该片段。创建并维护这些复制/粘贴体验非常费时，而且容易导致用户错误。体验片段无需复制/粘贴。
 
 ### 嵌入组件 {#embed-component}
 

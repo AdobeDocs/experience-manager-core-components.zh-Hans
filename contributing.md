@@ -58,4 +58,4 @@ ht-degree: 100%
 
 ## 更多信息
 
-有关如何使用 GitHub 创作平台的更多详细信息，请参阅 [Adobe 文档内容贡献者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+有关如何使用 GitHub 创作平台的更多详细信息，请参阅 [Adobe 文档内容贡献者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans)。

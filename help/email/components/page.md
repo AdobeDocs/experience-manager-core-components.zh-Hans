@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## “编辑”对话框 {#edit-dialog}
 
-由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)窗口中找到。
+由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hans)窗口中找到。
 
 ### 云服务选项卡 {#cloud-services}
 

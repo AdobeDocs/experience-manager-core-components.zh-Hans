@@ -30,7 +30,7 @@ ht-degree: 100%
 
 一般建议使用 HTTP 运行所有生产 AEM 实例。但是，可能并未这样设置您的本地开发环境。但是，使用带有 OpenAPI 的 Dynamic Media 远程资产需要 HTTPS 才能运行。
 
-[使用本指南](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html)在您要使用远程资源的任何地方（包括开发环境）配置 HTTPS。
+[使用本指南](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=zh-Hans)在您要使用远程资源的任何地方（包括开发环境）配置 HTTPS。
 
 ## 配置 OSGi {#osgi}
 
@@ -47,8 +47,8 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 有关如何配置 OSGi 的详细信息，请参见以下文档：
 
-* 为 AEM as a Cloud Service [配置 Adobe Experience Manager as a Cloud Service 的 OSGi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html)
-* 为 AEM 6.5 [配置 OSGi](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html)
+* 为 AEM as a Cloud Service [配置 Adobe Experience Manager as a Cloud Service 的 OSGi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html?lang=zh-Hans)
+* 为 AEM 6.5 [配置 OSGi](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?lang=zh-Hans)
 
 ## 验证配置 {#verify}
 

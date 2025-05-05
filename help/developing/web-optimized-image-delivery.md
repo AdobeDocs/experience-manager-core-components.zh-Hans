@@ -87,7 +87,7 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->将 URL 直接嵌入到并非通过上述 SPI（在 AEM as a Cloud Service Sites 上提供）构建的体验中违反了[媒体库使用条款](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library)。
+>将 URL 直接嵌入到并非通过上述 SPI（在 AEM as a Cloud Service Sites 上提供）构建的体验中违反了[媒体库使用条款](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=zh-Hans#use-media-library)。
 
 ### 启用 Web 优化图像后，图像是否无法显示？ {#failure-to-deliver}
 
@@ -96,4 +96,4 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 * 在 HTML 中，启用 Web 优化图像时，标记不会更改，只有图像元素上 `src` 属性的值会更改。
 * 每当新的图像服务不可用或无法处理所需的图像时，生成的 URL 将[回退到自适应图像 Servlet](#fallback)。
 
-但是，Dispatcher 规则可能会阻止 Web 优化的图像投放服务。图像投放服务的 URL 以 `/adobe` 开头，并检查 Dispatcher 日志中是否有被拒绝的请求，如[这里所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects)，这样应该有助于解决将图像投放到浏览器时遇到的任何故障。
+但是，Dispatcher 规则可能会阻止 Web 优化的图像投放服务。图像投放服务的 URL 以 `/adobe` 开头，并检查 Dispatcher 日志中是否有被拒绝的请求，如[这里所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=zh-Hans#filter-rejects)，这样应该有助于解决将图像投放到浏览器时遇到的任何故障。

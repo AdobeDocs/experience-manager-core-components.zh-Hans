@@ -12,18 +12,18 @@ ht-degree: 100%
 
 # 自适应表单片段组件 {#form-fragment-component-adaptive-forms-core-component}
 
-自适应表单提供了一种创建表单区段（例如面板或字段组）的方便方法，以便在不同的自适应表单中重复使用它们。这些可重用的独立区段称为[自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)。
+自适应表单提供了一种创建表单区段（例如面板或字段组）的方便方法，以便在不同的自适应表单中重复使用它们。这些可重用的独立区段称为[自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=zh-Hans)。
 
-您可以[将片段多次添加到文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form)，并使用其组件的数据绑定属性将其绑定到不同的数据源或架构。例如，您可以将相同的地址片段用于永久地址、通信地址和账单地址，并将它连接到数据源或架构的其他字段。
+您可以[将片段多次添加到文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=zh-Hans#insert-a-fragment-in-an-adaptive-form)，并使用其组件的数据绑定属性将其绑定到不同的数据源或架构。例如，您可以将相同的地址片段用于永久地址、通信地址和账单地址，并将它连接到数据源或架构的其他字段。
 
 ![示例](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-您还可以使用[重复选项](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)来复制表单片段组件及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。
+您还可以使用[重复选项](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hans)来复制表单片段组件及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。
 
 >[!NOTE]
 >
-> 您可以从头开始[创建自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment)，或将现有自适应表单中的面板另存为片段。
+> 您可以从头开始[创建自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=zh-Hans#create-a-fragment)，或将现有自适应表单中的面板另存为片段。
 
 ## 用途 {#usage}
 

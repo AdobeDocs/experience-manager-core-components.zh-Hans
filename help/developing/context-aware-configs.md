@@ -18,7 +18,7 @@ ht-degree: 100%
 
 对于不同网站区域，您的网站可能需要不同的配置，例如，某些可能共享的参数需要集成嵌套上下文和全局回退值。AEM 利用 Sling 上下文感知配置实现了这种可能性。
 
-有关 AEM 中配置的详细信息，[请参阅配置和配置浏览器文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)。
+有关 AEM 中配置的详细信息，[请参阅配置和配置浏览器文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html?lang=zh-Hans)。
 
 ## 在核心组件中使用 {#core-components}
 
