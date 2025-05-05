@@ -32,7 +32,7 @@ ht-degree: 98%
 * 有[十个电子邮件优化的生产就绪组件](#components)创作电子邮件内容。
 * 由于在大多数对话框字段上插入了 [Adobe Campaign 变量](campaign-variables.md)，因此核心电子邮件组件提供高级个性化功能。
 * 灵活的[分段组件](/help/email/components/segmentation.md)使得可对您的内容进行高级分段。
-* 由于[CSS 样式内联、](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation)[HTML 属性内联、](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner)和 [HTML 清理器，](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)核心电子邮件组件提供了最佳的电子邮件友好型 HTML 输出。
+* 由于[CSS 样式内联、](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [HTML 属性内联、](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner)和 [HTML 清理器，](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)核心电子邮件组件提供了最佳的电子邮件友好型 HTML 输出。
 * 您可以在 `/content` 以下的任何位置创建电子邮件内容。
 * 电子邮件核心组件是[开源的。](https://github.com/adobe/aem-core-email-components)
 
