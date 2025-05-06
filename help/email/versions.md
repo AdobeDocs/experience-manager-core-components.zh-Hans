@@ -4,16 +4,16 @@ description: 核心电子邮件组件作为版本发布。
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # 核心电子邮件组件版本 {#core-components-versions}
 
-电子邮件核心组件的当前发行版本是1.3.0，与AEM 6.5（内部部署和AMS）兼容。
+电子邮件核心组件的当前版本为 1.3.0，与内部部署和 AMS 两种 AEM 6.5 兼容。
 
 有关要求和安装的更多信息，请参阅电子邮件核心组件介绍文档的[要求部分](/help/email/introduction.md#requirements)和使用电子邮件核心组件文档的[安装部分](/help/email/using.md#installing-the-email-core-components)。
 

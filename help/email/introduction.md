@@ -4,9 +4,9 @@ description: 使用电子邮件核心组件的灵活性创建吸引人的电子�
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 98%
 
 ## 功能 {#features}
 
-* 核心电子邮件组件基于[核心组件](/help/introduction.md)，因此还支持[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)和[样式系统。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hans)
+* 核心电子邮件组件基于[核心组件](/help/introduction.md)，因此还支持[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-hans)和[样式系统。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-hans)
 * 有[十个电子邮件优化的生产就绪组件](#components)创作电子邮件内容。
 * 由于在大多数对话框字段上插入了 [Adobe Campaign 变量](campaign-variables.md)，因此核心电子邮件组件提供高级个性化功能。
 * 灵活的[分段组件](/help/email/components/segmentation.md)使得可对您的内容进行高级分段。
-* 由于[CSS 样式内联、](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [HTML 属性内联、](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner)和 [HTML 清理器，](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)核心电子邮件组件提供了最佳的电子邮件友好型 HTML 输出。
+* 由于[CSS 样式内联、](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation)[HTML 属性内联、](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner)和 [HTML 清理器，](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)核心电子邮件组件提供了最佳的电子邮件友好型 HTML 输出。
 * 您可以在 `/content` 以下的任何位置创建电子邮件内容。
 * 电子邮件核心组件是[开源的。](https://github.com/adobe/aem-core-email-components)
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
 | AEM | Adobe Campaign | 核心组件 |
 |---|---|---|
-| AEM 6.5.14.0+<br>内部部署或AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [2.21.2](/help/versions.md) 和更高版本 |
+| AEM 6.5.14.0+<br>内部部署或 AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [2.21.2](/help/versions.md) 和更高版本 |
 
 >[!NOTE]
 >

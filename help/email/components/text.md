@@ -4,7 +4,7 @@ description: 电子邮件文本组件是一种富文本编辑和撰写组件，�
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2264'
 ht-degree: 100%
 
@@ -42,13 +42,13 @@ ht-degree: 100%
 
 ## 电子邮件文本组件和富文本编辑器 {#the-text-component-and-the-rich-text-editor}
 
-电子邮件文本组件利用 AEM 富文本编辑器 (RTE)。 RTE 为内容作者提供了一系列广泛的功能来编辑其文本内容。RTE 的配置灵活，并切提供了许多选项。 有关如何配置 RTE 的其他详细信息，请参阅文章[配置富文本编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=zh-Hans)和[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hans)。
+电子邮件文本组件利用 AEM 富文本编辑器 (RTE)。 RTE 为内容作者提供了一系列广泛的功能来编辑其文本内容。RTE 的配置灵活，并切提供了许多选项。 有关如何配置 RTE 的其他详细信息，请参阅文章[配置富文本编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 本文档的其余部分演示了具有现成 RTE 配置的电子邮件文本组件的标准配置。
 
 >[!NOTE]
 >
->仅由 [RTE 的 UI 配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hans)启用的选项在电子邮件文本组件中可用。
+>仅由 [RTE 的 UI 配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)启用的选项在电子邮件文本组件中可用。
 
 ## “编辑”对话框 {#edit-dialog}
 
@@ -280,7 +280,7 @@ ht-degree: 100%
 
 用于检查文本内容的拼写。为可能的拼写错误加下划线（红色虚线）。
 
-有关拼写检查和自定义拼写检查词典的更多详细信息，请参阅[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hans)文档。
+有关拼写检查和自定义拼写检查词典的更多详细信息，请参阅[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文档。
 
 #### 特殊字符 {#special-characters}
 
