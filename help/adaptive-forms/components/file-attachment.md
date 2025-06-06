@@ -3,7 +3,7 @@ title: 自适应表单核心组件 - 文件附件
 description: 使用或自定义自适应表单文件附件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: a1a274b152b3a0fe0bcc72858721ef9830487bb9
+source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 97%
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技术详细信息 {#technical-details}
 
@@ -101,12 +101,8 @@ To experience the Accordion Component as well as see examples of its configurati
    - **删除** - 点击或单击此选项以删除特定的文件类型。
    - **重新排列** - 点击或单击此选项并拖动以重新排列允许的文件类型的顺序。
 
+  通过将文件类型更改为允许的文件类型格式来提交文件，会在表单提交期间引发错误。
 - **文件类型错误消息** - 通过此选项，可输入在您上传的文件格式不是在&#x200B;**允许的文件类型**&#x200B;选项中列出的文件类型格式时所显示的错误消息。
-
->
->
-> 通过将文件类型更改为允许的文件类型格式来提交文件，会在表单提交期间引发错误。
-
 
 ### “帮助内容”选项卡 {#help-content-tab}
 
@@ -162,7 +158,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hans)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
