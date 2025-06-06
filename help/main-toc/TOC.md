@@ -5,10 +5,10 @@ breadcrumb-title: 核心组件指南
 feature: Core Components
 user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
       + [表单隐藏](/help/components/forms/form-hidden.md)
       + [表单选项](/help/components/forms/form-options.md)
       + [表单文本](/help/components/forms/form-text.md)
-   + v1 组件 {#v1-components}
+   + v1组件 {#v1-components}
       + [痕迹导航 (v1)](/help/components/v1/breadcrumb-v1.md)
       + [按钮 (v1)](/help/components/v1/button.md)
       + [内容片段列表 (v1)](/help/components/v1/content-fragment-list.md)
@@ -72,19 +72,19 @@ ht-degree: 100%
       + [快速搜索 (v1)](/help/components/v1/quick-search.md)
       + [文本 (v1)](/help/components/v1/text-v1.md)
       + [标题 (v1)](/help/components/v1/title-v1.md)
-      + v1 表单组件 {#v1-forms}
+      + v1表单组件 {#v1-forms}
          + [表单按钮 (v1)](/help/components/v1/form-button-v1.md)
          + [表单容器 (v1)](/help/components/v1/form-container-v1.md)
          + [表单隐藏 (v1)](/help/components/v1/form-hidden-v1.md)
          + [表单选项 (v1)](/help/components/v1/form-options-v1.md)
          + [表单文本 (v1)](/help/components/v1/form-text-v1.md)
-   + v2 组件 {#v2-components}
+   + v2组件 {#v2-components}
       + [痕迹导航 (v2)](/help/components/v2/breadcrumb.md)
       + [图像 (v2)](/help/components/v2/image.md)
       + [列表 (v2)](/help/components/v2/list.md)
       + [页面 (v2)](/help/components/v2/page.md)
       + [标题 (v2)](/help/components/v2/title.md)
-   + v3 组件 {#v3-components}
+   + v3组件 {#v3-components}
       + [列表 (v3)](/help/components/v3/list.md)
 + 电子邮件组件 {#email}
    + [简介](/help/email/introduction.md)
@@ -105,7 +105,7 @@ ht-degree: 100%
 + 自适应表单 {#adaptive-forms}
    + [简介](/help/adaptive-forms/introduction.md)
    + [版本历史记录](/help/adaptive-forms/version.md)
-   + 自适应表单组件 {#adaptive-forms-components}
+   + 自适应Forms组件 {#adaptive-forms-components}
       + [自适应表单折叠](/help/adaptive-forms/components/accordion.md)
       + [自适应表单按钮](/help/adaptive-forms/components/button.md)
       + [自适应表单复选框](/help/adaptive-forms/components/checkbox.md)
@@ -126,6 +126,7 @@ ht-degree: 100%
       + [自适应表单验证码](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
       + [自适应表单重置按钮](/help/adaptive-forms/components/reset-button.md)
+      + [自适应表单审查](/help/adaptive-forms/components/review.md)
       + [自适应表单提交按钮](/help/adaptive-forms/components/submit-button.md)
       + [自适应表单切换](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [自适应表单电话](/help/adaptive-forms/components/phone.md)
@@ -150,7 +151,7 @@ ht-degree: 100%
    + [自适应图像 Servlet](/help/developing/adaptive-image-servlet.md)
    + [Web 优化图像投放](/help/developing/web-optimized-image-delivery.md)
    + [远程资产支持](/help/developing/remote-assets.md)
-   + Adobe 客户端数据层{#data-layer}
+   + Adobe 客户端数据层 {#data-layer}
       + [Data Layer 的概述](/help/developing/data-layer/overview.md)
       + [与数据层的集成](/help/developing/data-layer/integrations.md)
       + [扩展数据层](/help/developing/data-layer/extending.md)
