@@ -103,7 +103,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **模式** - 此选项可让您输入允许使用的文本验证模式。也可以使用正则表达式。
 
--  **错误消息** - 如果输入的文本与&#x200B;**模式**&#x200B;选项中输入的值不一致，则您可以通过该选项输入显示在屏幕上的消息
+- **错误消息** - 如果输入的文本与&#x200B;**模式**&#x200B;选项中输入的值不一致，则您可以通过该选项输入显示在屏幕上的消息
 
 ### “帮助内容”选项卡 {#help-content-tab}
 
