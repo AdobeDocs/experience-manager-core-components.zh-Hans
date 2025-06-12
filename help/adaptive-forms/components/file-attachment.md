@@ -6,7 +6,7 @@ exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 97%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应Forms文件附件核心组件于2023年2月发布，作为Cloud Service核心组件2.0.4以及AEM 6.5.16.0 Forms或更高版本的核心组件1.1.12的一部分。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单文件附件核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
-| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms或更高版本 |
+| 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
 | v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 与<br>[版本 1.1.12](/help/adaptive-forms/version.md) 和更高版本兼容，但低于版本 2.0.0。 |
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技术详细信息 {#technical-details}
 
@@ -101,7 +101,7 @@ To experience the Accordion Component as well as see examples of its configurati
    - **删除** - 点击或单击此选项以删除特定的文件类型。
    - **重新排列** - 点击或单击此选项并拖动以重新排列允许的文件类型的顺序。
 
-  通过将文件类型更改为允许的文件类型格式来提交文件，会在表单提交期间引发错误。
+  通过将文件类型更改为允许的文件类型格式来提交该文件时，会在表单提交过程中引发错误。
 - **文件类型错误消息** - 通过此选项，可输入在您上传的文件格式不是在&#x200B;**允许的文件类型**&#x200B;选项中列出的文件类型格式时所显示的错误消息。
 
 ### “帮助内容”选项卡 {#help-content-tab}
@@ -158,7 +158,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hans)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

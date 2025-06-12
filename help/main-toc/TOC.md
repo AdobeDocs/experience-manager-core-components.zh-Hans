@@ -126,7 +126,7 @@ ht-degree: 96%
       + [自适应表单验证码](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
       + [自适应表单重置按钮](/help/adaptive-forms/components/reset-button.md)
-      + [自适应表单审查](/help/adaptive-forms/components/review.md)
+      + [自适应表单审阅](/help/adaptive-forms/components/review.md)
       + [自适应表单提交按钮](/help/adaptive-forms/components/submit-button.md)
       + [自适应表单切换](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [自适应表单电话](/help/adaptive-forms/components/phone.md)
