@@ -3,11 +3,11 @@ sub-product: AEM Core Components
 user-guide-title: AEM 核心组件
 breadcrumb-title: 核心组件指南
 feature: Core Components
-user-guide-description: 使用可扩展的核心组件让作者轻松创建内容。
+user-guide-description: 对于传统的AEM项目，请使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '388'
 ht-degree: 96%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 96%
       + [表单隐藏](/help/components/forms/form-hidden.md)
       + [表单选项](/help/components/forms/form-options.md)
       + [表单文本](/help/components/forms/form-text.md)
-   + v1组件 {#v1-components}
+   + v1 组件  {#v1-components}
       + [痕迹导航 (v1)](/help/components/v1/breadcrumb-v1.md)
       + [按钮 (v1)](/help/components/v1/button.md)
       + [内容片段列表 (v1)](/help/components/v1/content-fragment-list.md)
@@ -72,21 +72,21 @@ ht-degree: 96%
       + [快速搜索 (v1)](/help/components/v1/quick-search.md)
       + [文本 (v1)](/help/components/v1/text-v1.md)
       + [标题 (v1)](/help/components/v1/title-v1.md)
-      + v1表单组件 {#v1-forms}
+      + v1 表单组件  {#v1-forms}
          + [表单按钮 (v1)](/help/components/v1/form-button-v1.md)
          + [表单容器 (v1)](/help/components/v1/form-container-v1.md)
          + [表单隐藏 (v1)](/help/components/v1/form-hidden-v1.md)
          + [表单选项 (v1)](/help/components/v1/form-options-v1.md)
          + [表单文本 (v1)](/help/components/v1/form-text-v1.md)
-   + v2组件 {#v2-components}
+   + v2 组件  {#v2-components}
       + [痕迹导航 (v2)](/help/components/v2/breadcrumb.md)
       + [图像 (v2)](/help/components/v2/image.md)
       + [列表 (v2)](/help/components/v2/list.md)
       + [页面 (v2)](/help/components/v2/page.md)
       + [标题 (v2)](/help/components/v2/title.md)
-   + v3组件 {#v3-components}
+   + v3 组件  {#v3-components}
       + [列表 (v3)](/help/components/v3/list.md)
-+ 电子邮件组件 {#email}
++ 电子邮件组件  {#email}
    + [简介](/help/email/introduction.md)
    + [使用电子邮件核心组件](/help/email/using.md)
    + [Campaign 变量](/help/email/campaign-variables.md)
@@ -105,7 +105,7 @@ ht-degree: 96%
 + 自适应表单 {#adaptive-forms}
    + [简介](/help/adaptive-forms/introduction.md)
    + [版本历史记录](/help/adaptive-forms/version.md)
-   + 自适应Forms组件 {#adaptive-forms-components}
+   + 自适应表单组件  {#adaptive-forms-components}
       + [自适应表单折叠](/help/adaptive-forms/components/accordion.md)
       + [自适应表单按钮](/help/adaptive-forms/components/button.md)
       + [自适应表单复选框](/help/adaptive-forms/components/checkbox.md)
