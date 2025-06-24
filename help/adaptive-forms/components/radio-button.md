@@ -85,7 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
    - **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
    - **删除** - 点击或单击此选项可删除单选按钮的选项。
    - **重新排列** - 点击或单击并拖动以重新排列选项的顺序。
-您还可以使用**允许选项为富文本**&#x200B;对单选按钮组的选项进行格式化。
+您还可以使用&#x200B;**允许选项为富文本**&#x200B;对单选按钮组的选项进行格式化。
 
   ![针对选项的富文本支持](/help/adaptive-forms/assets/richtext-for-options.png)
 
