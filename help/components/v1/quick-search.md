@@ -3,12 +3,14 @@ title: 快速搜索组件(v1)
 description: 快速搜索组件提供对网站的搜索功能并显示搜索结果，以便访客能够搜索网站并筛选结果。
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
-source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 98%
 
 ---
+
 
 # 快速搜索组件(v1) {#quick-search-component}
 
@@ -33,7 +35,7 @@ ht-degree: 98%
 >[!CAUTION]
 >
 >本文档介绍了快速搜索组件 (v1)。
->有关当前版本的快速搜索组件的详细信息，请参阅[快速搜索组件](/help/components/quick-search.md)文档。
+>>有关当前版本的快速搜索组件的详细信息，请参阅[快速搜索组件](/help/components/quick-search.md)文档。
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 

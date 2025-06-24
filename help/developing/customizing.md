@@ -3,7 +3,7 @@ title: 自定义核心组件
 description: 利用核心组件实施的多种模式，可以轻松执行从简单的样式设计到高级功能重用在内的自定义设置。
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 # 自定义核心组件{#customizing-core-components}
 
 利用[核心组件](overview.md)实施的多种模式，可以轻松进行从简单的样式设计到高级功能重用的自定义设置。
+
+{{traditional-aem}}
 
 ## 灵活的架构 {#flexible-architecture}
 
@@ -117,7 +119,7 @@ public class PageHeadline implements Title {
 
 自定义设置的第一种形式是应用 CSS 样式。
 
-为了轻松实现此目标，核心组件将渲染语义标记并遵循由 [Bootstrap](https://getbootstrap.com/) 触发的标准化命名约定。此外，为了轻松地为各个组件定位和命名样式，每个核心组件都包装在一个带有“`cmp`”和“`cmp-<name>`”类的 DIV 元素中。
+为了轻松实现此目标，核心组件将渲染语义标记并遵循由 [Bootstrap](https://getbootstrap.com/) 触发的标准化命名约定。此外，为了轻松地为各个组件锁定和命名样式，每个核心组件都包装在一个带有“`cmp`”和“`cmp-<name>`”类的 DIV 元素中。
 
 例如，对于 v1 核心痕迹导航组件的 HTL 文件 [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html)，可以看到元素输出的层级为 `ol.breadcrumb > li.breadcrumb-item > a`。因此，为了确保 CSS 规则仅影响该组件的痕迹导航类，应命名所有规则，如下所示：
 
@@ -127,7 +129,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每个核心组件都利用 AEM [样式系统功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=zh-Hans)，此功能可让模板作者定义可由页面作者应用于组件的其他 CSS 类名称。这将允许为每个模板定义一个允许的组件样式列表，并定义其中的某个组件样式是否默认应用于该类型的所有组件。
+此外，每个核心组件都利用 AEM [样式系统功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html)，此功能可让模板作者定义可由页面作者应用于组件的其他 CSS 类名称。这将允许为每个模板定义一个允许的组件样式列表，并定义其中的某个组件样式是否默认应用于该类型的所有组件。
 
 ## 升级自定义设置的兼容性 {#upgrade-compatibility-of-customizations}
 
@@ -137,7 +139,7 @@ public class PageHeadline implements Title {
 * 将核心组件升级到新的次要版本
 * 将核心组件升级到主要版本
 
-通常，将 AEM 升级到新版本不会影响核心组件或已完成的自定义设置，前提是组件的版本也支持正在迁移到的新 AEM 版本，并且自定义设置不使用[已弃用或被删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hans)的 API。
+通常，将 AEM 升级到新版本不会影响核心组件或已完成的自定义设置，前提是组件的版本也支持正在迁移到的新 AEM 版本，并且自定义设置不使用[已弃用或被删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的 API。
 
 在不切换到更新的主要版本的情况下升级核心组件不会影响自定义设置，前提是使用本页所述的自定义设置模式。
 
@@ -157,7 +159,7 @@ public class PageHeadline implements Title {
 
 1. **查看已弃用和被删除的功能。**
 
-   随着每个新 AEM 版本的升级，请密切关注[已弃用和被删除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hans)页面，确保所有使用的 API 仍是常用的。
+   随着每个新 AEM 版本的升级，请密切关注[已弃用和被删除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)页面，确保所有使用的 API 仍是常用的。
 
 另请参阅[核心组件支持](overview.md#core-component-support)部分。
 

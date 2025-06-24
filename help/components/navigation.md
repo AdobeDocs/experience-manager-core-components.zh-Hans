@@ -3,16 +3,19 @@ title: 导航组件
 description: 使用导航组件，用户可轻松地在全局化网站结构中导航。
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 100%
 
 ---
 
+
 # 导航组件{#navigation-component}
 
 使用导航组件，用户可轻松地在全局化网站结构中导航。
+
+{{traditional-aem}}
 
 ## 用途 {#usage}
 
@@ -74,7 +77,7 @@ ht-degree: 100%
 \-- wknd-shop
 ```
 
-对于网站 WKND，您可能希望将导航组件作为标头的一部分放置在页面模板上。将导航组件放到模板中之后，您可以将组件的&#x200B;**导航根**&#x200B;设置为 `/content/wknd/language-masters/en`，因为这是您网站的主内容的开始位置。您可能还希望将&#x200B;**导航结构深度**&#x200B;设置为 `2`，因为您可能不希望组件显示完整的内容树，而是只显示前两个级别，以将其用作概览。
+对于网站 WKND，您可能希望将导航组件作为标头的一部分放置在页面模板上。将导航组件放到模板中之后，您可以将组件的&#x200B;**导航根**&#x200B;设置为 `/content/wknd/language-masters/en`，因为这是您网站的主内容的开始位置。您可能还希望将&#x200B;**导航结构深度**&#x200B;设置为 `2`，因为您可能不希望组件显示完整的内容树，而是只显示前两个级别，以将其用作概述。
 
 使用&#x200B;**导航根**&#x200B;值，导航组件即可知道在 `/content/wknd/language-masters/en` 之后开始导航，并且可以向下递归网站的结构两级（如&#x200B;**导航结构深度**&#x200B;值所定义）来生成导航选项。
 

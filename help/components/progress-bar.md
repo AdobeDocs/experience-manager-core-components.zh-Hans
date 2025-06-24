@@ -3,16 +3,19 @@ title: 进度条组件
 description: 进度条组件以可视化形式展示向目标的进展
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
 ---
 
+
 # 进度条组件 {#progress-bar-component}
 
 核心组件进度条组件以可视化形式展示向目标的进展。
+
+{{traditional-aem}}
 
 ## 用途 {#usage}
 

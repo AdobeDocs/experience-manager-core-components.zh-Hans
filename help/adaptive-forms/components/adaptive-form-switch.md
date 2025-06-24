@@ -3,12 +3,13 @@ title: 自适应表单核心组件 - 切换组件
 description: 使用或自定义自适应表单切换核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '1922'
 ht-degree: 100%
 
 ---
+
 
 # 自适应表单切换组件{#switch-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ ht-degree: 100%
 切换组件是一个布尔值控制元素，它可将值设置为 true 或 false。例如，它用于打开或关闭某项功能，例如静音或取消静音，或者启用或禁用蓝牙或 WiFi。
 
 ![切换组件示例](/help/adaptive-forms/assets/switch-example.png)
+
+{{traditional-aem}}
 
 ## 用途 {#reasons-to-use-switch}
 
@@ -92,7 +95,7 @@ ht-degree: 100%
 
 ![“验证”选项卡](/help/adaptive-forms/assets/switch-validation.png)
 
-- **必需** - 如果要在自适应表单中显示该组件，请选中此选项。选择此选项后，您必须先做出选择，之后才能继续提交表单。选中此选项后，无法在&#x200B;**基本**&#x200B;选项卡中选择&#x200B;**隐藏组件**&#x200B;或&#x200B;**禁用组件**。
+- **必需** - 如果要在自适应表单中显示该组件，请选中此选项。选择此选项后，您必须先做出选择，之后才能继续提交表单。选中此选项后，无法在&#x200B;**“基本”**&#x200B;选项卡中选择&#x200B;**隐藏组件**&#x200B;或&#x200B;**禁用组件**。
 
 - **错误消息** - 通过此选项，可输入如果选中了&#x200B;**必需**&#x200B;复选框并将表单字段留空，所显示的消息。
 

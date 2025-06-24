@@ -3,12 +3,14 @@ title: 图像组件 (v2)
 description: 核心组件图像组件是一个自适应图像组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 98%
 
 ---
+
 
 # 图像组件 (v2) {#image-component}
 
@@ -79,9 +81,9 @@ ht-degree: 98%
 ![图像组件“配置”对话框的“资源”选项卡](/help/assets/image-configure-asset.png)
 
 * **图像资源**
-   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
    * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点按或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 点按或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 ### “元数据”选项卡 {#metadata-tab}
 
@@ -221,9 +223,9 @@ ht-degree: 98%
   ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-orientation.png)
 
 * **旋转**
-使用此选项可允许内容作者使用&#x200B;**向右旋转**&#x200B;选项。
+使用此选项可允许内容作者使用**向右旋转**&#x200B;选项。
 * **翻转**
-使用此选项可允许内容作者使用&#x200B;**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
+使用此选项可允许内容作者使用**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
 
   >[!CAUTION]
   >

@@ -3,12 +3,13 @@ title: 自适应表单核心组件 - 按钮
 description: 使用或自定义自适应表单按钮核心组件。
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1660'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
+
 
 # 按钮组件 {#button-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ ht-degree: 100%
 自适应表单具有单独的[“提交”按钮](/help/adaptive-forms/components/submit-button.md)和[“重置”按钮](/help/adaptive-forms/components/reset-button.md)组件，用户通过它们可方便地提交或重置表单。可根据特定需求灵活地配置按钮组件以执行这些操作。
 
 用户可以使用自适应表单规则编辑器访问按钮组件支持的完整操作列表。通过规则编辑器，用户可创建由单击按钮时、加载表单时或字段值更改时等多种事件触发的规则。然后，可使用这些规则执行多种操作，如显示或隐藏组件、设置字段值或提交表单。
+
+{{traditional-aem}}
 
 **示例**
 
@@ -40,7 +43,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单按钮核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应Forms按钮核心组件于2023年2月发布，作为Cloud Service核心组件2.0.4以及AEM 6.5.16.0 Forms或更高版本的核心组件1.1.12的一部分。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
@@ -51,7 +54,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技术详细信息 {#technical-details}
 

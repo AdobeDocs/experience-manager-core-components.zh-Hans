@@ -3,16 +3,19 @@ title: 标题组件
 description: 核心组件标题组件是章节标题组件，具备就地编辑的功能。
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
 ---
 
+
 # 标题组件{#title-component}
 
 核心组件标题组件是章节标题组件，具备就地编辑的功能。
+
+{{traditional-aem}}
 
 ## 用途 {#usage}
 

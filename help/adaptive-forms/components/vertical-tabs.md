@@ -3,12 +3,13 @@ title: 自适应表单核心组件 - 垂直选项卡
 description: 使用或自定义自适应表单垂直选项卡核心组件。
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 100%
+source-wordcount: '2173'
+ht-degree: 99%
 
 ---
+
 
 # 垂直选项卡组件{#vertical-tabs-adaptive-forms-core-component}
 
@@ -16,9 +17,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 对于 AEM 6.5 Forms，此组件是随 AEM 6.5 Forms 服务包 19 (6.5.19.0) 引入的。要启用此组件，请确保安装了 Forms 核心组件和 WCM 核心组件的必要版本。有关自适应表单核心组件版本的详细信息，请参阅[自适应表单核心组件版本](/help/adaptive-forms/version.md)
+> 对于AEM 6.5 Forms，此组件随AEM 6.5 Forms Service Pack 19 (6.5.19.0)引入。 要启用此组件，请确保安装了 Forms 核心组件和 WCM 核心组件的必要版本。有关自适应表单核心组件版本的详细信息，请参阅[自适应表单核心组件版本](/help/adaptive-forms/version.md)
 
 ![示例](/help/adaptive-forms/assets/horizontal-example.png)
+
+{{traditional-aem}}
 
 ## 用途 {#reasons-to-use-vertical-tabs}
 
@@ -105,7 +108,7 @@ ht-degree: 100%
 - **最少重复次数**：确定“垂直”选项卡组件面板可以重复的最小次数。值为零表示“垂直”选项卡组件不重复；默认值为零。
 - **最多重复次数**：设置“垂直”选项卡组件面板可以重复的最大次数。默认情况下，此值无限制。
 
-要有效管理“垂直”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hans)文章。
+要有效管理“垂直”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “项”选项卡 {#items-tab}
 

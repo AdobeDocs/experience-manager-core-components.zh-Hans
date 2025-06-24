@@ -3,16 +3,19 @@ title: 快速搜索组件
 description: 快速搜索组件提供对网站的搜索功能并显示搜索结果，以便访客能够搜索网站并筛选结果。
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 100%
 
 ---
 
+
 # 快速搜索组件 {#quick-search-component}
 
 快速搜索组件提供对网站的搜索功能并显示搜索结果，以便访客能够轻松找到匹配内容并查看结果。
+
+{{traditional-aem}}
 
 ## 用途 {#usage}
 

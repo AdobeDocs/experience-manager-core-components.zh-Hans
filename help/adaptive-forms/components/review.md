@@ -4,8 +4,9 @@ description: 使用或自定义自适应表单审阅核心组件。
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
-workflow-type: ht
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 
@@ -15,6 +16,8 @@ ht-degree: 100%
 # 审阅组件
 
 自适应表单中的审阅组件允许用户在提交表单之前审阅和验证他们输入的信息。它作为摘要页面，以和用户友好的结构化格式提供所有字段及其值的只读视图。此功能可确保用户在最终提交之前识别并修改任何错误或遗漏，从而增强整体表单体验。在提交表单之前，他们可以通过点击编辑图标修改输入的信息。
+
+{{traditional-aem}}
 
 **示例**
 
@@ -76,4 +79,3 @@ ht-degree: 100%
 ## 另请参阅 {#see-also}
 
 {{see-also}}
-

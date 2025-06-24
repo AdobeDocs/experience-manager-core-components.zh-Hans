@@ -3,16 +3,19 @@ title: 按钮组件
 description: 利用核心组件按钮组件，可创建和显示按钮。
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
 
 ---
 
+
 # 按钮组件{#button-component}
 
 利用核心组件按钮组件，可在页面上配置和显示按钮。
+
+{{traditional-aem}}
 
 ## 用途 {#usage}
 

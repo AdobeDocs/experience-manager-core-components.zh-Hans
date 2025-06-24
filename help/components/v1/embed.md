@@ -3,12 +3,14 @@ title: 嵌入组件 (v1)
 description: 使用嵌入组件可以在 AEM 内容页面中嵌入外部内容。
 role: Architect, Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 100%
 
 ---
+
 
 # 嵌入组件 (v1) {#embed-component}
 
@@ -109,7 +111,7 @@ ht-degree: 100%
 
 但是，规则更复杂，因为嵌入组件遵循 AEM 的全局 HTML AntiSamy 净化框架筛选规则集，此规则集可在 `/libs/cq/xssprotection/config.xml` 中找到。如果需要，这可以由开发人员覆盖以提供项目特定的配置。
 
-其他安全信息可在[适用于内部部署安装的 AEM 开发人员文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=zh-Hans)以及 [AEM as a Cloud Service 安装](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=zh-Hans)中找到。
+其他安全信息可在[适用于内部部署安装的 AEM 开发人员文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)以及 [AEM as a Cloud Service 安装](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)中找到。
 
 >[!NOTE]
 >虽然 AntiSamy 净化框架规则可以通过覆盖 `/libs/cq/xssprotection/config.xml` 来配置，但这些更改会影响到所有 HTL 和 JSP 行为，而不只是嵌入核心组件。

@@ -3,12 +3,14 @@ title: 列表组件 (v2)
 description: 利用核心组件列表组件，可以轻松地创建动态和静态列表。
 role: Architect, Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
-source-git-commit: 241c86240377858a73f4a022368d428da9c11100
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 100%
 
 ---
+
 
 # 列表组件 (v2) {#list-component}
 

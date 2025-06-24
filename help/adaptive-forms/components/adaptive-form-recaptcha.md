@@ -3,18 +3,21 @@ title: 自适应表单核心组件：Google reCAPTCHA
 description: 使用 AEM Forms 轻松通过 Google reCAPTCHA 服务增强表单安全性。解释自适应表单 reCaptcha 的属性
 role: Architect, Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 100%
 
 ---
 
+
 # 自适应表单 reCAPTCHA {#google-recaptcha}
 
 CAPTCHA（区分计算机和人类的完全自动化公共图灵测试）是一种在线交易中常用的程序，用于区分人类和自动化程序或机器人。它提出了一个挑战，并评估用户响应以确定是人还是机器人与网站交互。如果测试失败，它会阻止用户继续操作，并通过阻止机器人发布垃圾邮件或恶意目的来帮助确保在线交易的安全。
 
 AEM Forms as a Cloud Service 支持自适应表单中的 Google reCAPTCHA v2。您可以使用它在表单提交时提出验证码挑战
+
+{{traditional-aem}}
 
 ## 用途 {#reasons-to-use-google-recaptcha}
 
@@ -70,8 +73,8 @@ AEM Forms as a Cloud Service 支持自适应表单中的 Google reCAPTCHA v2。�
   > 请参阅[在基于核心组件的 AEM 自适应表单中使用 Google reCAPTCHA](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) 的文章，了解如何为您的环境创建和配置 Google reCAPTCHA。
 
 - **类型**：选择此选项可选择 reCAPTCHA 的大小。
-   - **正常**：指的是标准、更大版本的 reCAPTCHA 构件，它可能更加明显且更易于用户交互，尤其是在屏幕更大的设备上。
-   - **精简**：指的是 reCAPTCHA 构件的较小版本。此选项适用于空间有限的情况，例如移动设备或网页紧凑的布局。
+   - **正常**：指的是标准、更大版本的 reCAPTCHA 小组件，它可能更加明显且更易于用户交互，尤其是在屏幕更大的设备上。
+   - **精简**：指的是 reCAPTCHA 小组件的较小版本。此选项适用于空间有限的情况，例如移动设备或网页紧凑的布局。
 
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 

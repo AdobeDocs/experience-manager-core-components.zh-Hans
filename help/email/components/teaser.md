@@ -3,8 +3,9 @@ title: 电子邮件 Teaser 组件
 description: 电子邮件 Teaser 组件可以显示图像、标题、富文本并可以选择链接到更多内容。
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 100%
 
@@ -76,9 +77,9 @@ Teaser 标题、描述和图像可以从链接的内容或第一个号召性用�
 ![电子邮件 Teaser 组件的“编辑”对话框中的“图像”选项卡](/help/email/assets/email-teaser-edit-image.png)
 
 * **从页面继承精选图像** - 使用链接页面的页面属性中定义的图像，如果没有找到，则使用当前页面。
-* **图像资源** - 在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)中放置资源或点击&#x200B;**浏览**&#x200B;选项以从本地文件系统上传。
+* **图像资源** - 在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)中放置资源或点击&#x200B;**浏览**&#x200B;选项以从本地文件系统上传。
    * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 * **用于辅助功能的替换文本** – 此字段允许您为视障用户定义图像的描述。
    * **从页面继承替换文本** - 此选项使用 DAM 中 `dc:description` 元数据的链接资源值的替代描述或当前页面的替代描述（如果未链接资源）。
 * **不提供替换文本** - 此选项将图像标记为被屏幕阅读器等辅助技术忽略，以用于图像纯粹起装饰作用或不向页面传达额外信息的情况。

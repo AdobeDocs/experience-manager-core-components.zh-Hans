@@ -3,12 +3,13 @@ title: 自适应表单核心组件 - 复选框
 description: 使用或自定义自适应表单复选框核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1838'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1837'
+ht-degree: 99%
 
 ---
+
 
 # 复选框组件{#checkbox-component}
 
@@ -18,7 +19,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 对于 AEM 6.5 Forms，此组件是随 AEM 6.5 Forms 服务包 19 (6.5.19.0) 引入的。要启用此组件，请确保安装了 Forms 核心组件和 WCM 核心组件的必要版本。有关自适应表单核心组件版本的详细信息，请参阅[自适应表单核心组件版本](/help/adaptive-forms/version.md)
+> 对于AEM 6.5 Forms，此组件随AEM 6.5 Forms Service Pack 19 (6.5.19.0)引入。 要启用此组件，请确保安装了 Forms 核心组件和 WCM 核心组件的必要版本。有关自适应表单核心组件版本的详细信息，请参阅[自适应表单核心组件版本](/help/adaptive-forms/version.md)
+
+{{traditional-aem}}
 
 **示例**
 

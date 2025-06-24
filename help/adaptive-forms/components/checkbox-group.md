@@ -3,16 +3,21 @@ title: 自适应表单核心组件 - 复选框组
 description: 使用或自定义自适应表单复选框组核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '2103'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '2101'
+ht-degree: 98%
 
 ---
 
+
 # 复选框组组件 {#button-component-adaptive-forms-core-component}
 
-自适应表单中的复选框组是一组相关的复选框，通过这组复选框，用户可从列表中选择一个或多个选项。每个复选框都由一个数据值（用于处理复选框组的项的值）和一个显示值（每个复选框项的标签，用于描述其用途）表示&#x200B;**示例**
+自适应表单中的复选框组是一组相关的复选框，通过这组复选框，用户可从列表中选择一个或多个选项。每个复选框都由一个数据值（用于处理复选框组的项的值）和一个显示值（每个复选框项的标签，用于描述其用途）表示
+
+{{traditional-aem}}
+
+**示例**
 
 ![复选框组示例](/help/adaptive-forms/assets/checkbox-group.png)
 
@@ -44,7 +49,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单复选框组核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应Forms复选框组核心组件于2023年2月发布，作为Cloud Service核心组件2.0.4以及AEM 6.5.16.0 Forms或更高版本的核心组件1.1.12的一部分。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
@@ -54,7 +59,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技术详细信息 {#technical-details}
 

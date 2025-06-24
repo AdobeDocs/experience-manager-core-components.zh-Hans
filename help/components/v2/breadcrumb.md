@@ -3,12 +3,14 @@ title: 痕迹导航组件(v2)
 description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层级中的位置构建链接的痕迹导航。
 role: Architect, Developer, Admin, User
 exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 99%
 
 ---
+
 
 # 痕迹导航组件(v2) {#breadcrumb-component}
 
@@ -16,7 +18,7 @@ ht-degree: 99%
 
 ## 用途 {#usage}
 
-痕迹导航组件显示当前页面在站点层级中的位置，并允许页面访客从其当前位置导航页面层级。它通常集成到页眉或页脚中。
+痕迹导航组件显示当前页面在网站层级中的位置，并允许页面访客从其当前位置导航页面层级。它通常集成到页眉或页脚中。
 
 可用选项（例如，默认导航级别和显示当前页面或隐藏页面的能力）可由模板作者在[“设计”对话框](#design-dialog)中定义。然后，内容编辑者可以在[“编辑”对话框](#edit-dialog)中选择是否显示隐藏的页面以及组件的实际导航级别。
 

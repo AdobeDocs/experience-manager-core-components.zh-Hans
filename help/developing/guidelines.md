@@ -1,20 +1,22 @@
 ---
 title: 组件准则
-description: 核心组件遵循的现代实施模式与基础组件大为不同。
+description: 核心组件遵循的实施模式与基础组件大为不同。
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 100%
+source-wordcount: '1225'
+ht-degree: 97%
 
 ---
 
 # 组件准则 {#component-guidelines}
 
-[核心组件](overview.md)遵循的现代实施模式与基础组件大为不同。
+[核心组件](overview.md)遵循的实施模式与基础组件大为不同。
 
 此页面说明了这些模式，以及何时使用这些模式来构建自己的可创作组件。第一部分[常规组件模式](#general-component-patterns)适用于任何类型的组件，第二部分[可重用组件模式](#reusable-component-patterns)适用于要跨网站或项目重用的组件，例如核心组件。
+
+{{traditional-aem}}
 
 ## 常规组件模式 {#general-component-patterns}
 
@@ -30,7 +32,7 @@ ht-degree: 100%
 
 ### 分离关注点 {#separation-of-concerns}
 
-通常，将组件的逻辑（或模型）与标记模板（或视图）分离开是一种好的做法。有多种方法可以做到这一点，但是，建议的方法是为逻辑使用 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)，为标记使用 [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans) (HTL)，就像核心组件这样。
+通常，将组件的逻辑（或模型）与标记模板（或视图）分离开是一种好的做法。有多种方法可以做到这一点，但是，建议的方法是为逻辑使用 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)，为标记使用 [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL)，就像核心组件这样。
 
 Sling 模型是一组 Java 注释，可从 POJO 轻松地访问所需的变量，因此这种模型提供了简单、强大且高效的方法为组件实施 Java 逻辑。
 
@@ -42,7 +44,7 @@ HTL 设计作为针对 AEM 定制的简单安全的模板语言。它可以调�
 
 ### 可预配置功能 {#pre-configurable-capabilities}
 
-除了由页面作者使用的“编辑”对话框之外，组件还有“设计”对话框，供模板作者预配置组件。使用[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)可以设置这些称为“策略”的预配置。
+除了由页面作者使用的“编辑”对话框之外，组件还有“设计”对话框，供模板作者预配置组件。使用[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)可以设置这些称为“策略”的预配置。
 
 要使组件尽可能地可重用，应该向它们提供有意义的选项来预配置。这将允许启用或禁用组件的功能，以匹配不同网站的特定需求。
 
@@ -85,11 +87,11 @@ HTL 设计作为针对 AEM 定制的简单安全的模板语言。它可以调�
 
 ## 融于一起 {#putting-it-all-together}
 
-下文以标题核心组件为例，概述了完整资源类型绑定结构。它说明了网站特定的代理组件如何允许解析组件版本控制，以避免内容资源包含任何版本号。然后，它显示了当实施通过 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)注释绑定到组件的特定版本时，组件的 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans) 文件如何使用模型接口。
+下文以标题核心组件为例，概述了完整资源类型绑定结构。它说明了网站特定的代理组件如何允许解析组件版本控制，以避免内容资源包含任何版本号。然后，它显示了当实施通过 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)注释绑定到组件的特定版本时，组件的 `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) 文件如何使用模型接口。
 
-![资源绑定概览](/help/assets/chlimage_1-32.png)
+![资源绑定概述](/help/assets/chlimage_1-32.png)
 
-下面是其他概述，其中并未显示实施 POJO 的详细信息，而是揭示了如何引用关联的[模板和策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=zh-Hans)。
+下面是其他概述，其中并未显示实施 POJO 的详细信息，而是揭示了如何引用关联的[模板和策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html)。
 
 `cq:allowedTemplates` 属性说明哪些模板可以用于网站，`cq:template` 说明关联模板的对应页面。每个模板由以下三个部分组成：
 

@@ -3,18 +3,21 @@ title: 自适应表单核心组件 - 文本
 description: 使用或自定义自适应表单文本核心组件。
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '998'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 96%
 
 ---
+
 
 # 文本组件 {#text-adaptive-forms-core-component}
 
 在自适应表单中，文本是指显示在表单上以供用户阅读的内容。这可以包括用于标记一组表单元素的文本（例如文本字段），以及提供给用户的任何附加说明或信息。
 
 这也有助于将表单的结构划分为多个逻辑部分，以便用户更轻松地理解和填写表单。此外，它还可作为辅助功能，用于简要描述与其关联的元素。此类文本字段通常显示在表单组件附近，例如表单组件之前或之后。
+
+{{traditional-aem}}
 
 **示例**
 
@@ -34,7 +37,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单文本核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应的Forms文本核心组件于2023年2月发布，作为Cloud Service核心组件2.0.4以及AEM 6.5.16.0 Forms或更高版本的核心组件1.1.12的一部分。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
@@ -44,7 +47,7 @@ ht-degree: 100%
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## 技术详细信息 {#technical-details}
 

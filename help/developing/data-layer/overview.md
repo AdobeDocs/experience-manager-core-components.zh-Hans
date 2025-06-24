@@ -4,12 +4,13 @@ description: 将 Adobe Client Data Layer 与核心组件配合使用
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
 ---
+
 
 # 将 Adobe Client Data Layer 与核心组件配合使用 {#data-layer-core-components}
 
@@ -24,6 +25,8 @@ Adobe Client Data Layer 与平台无关，而是与核心组件完全集成以�
 >有关 Adobe Client Data Layer 的更多信息，[请参阅其 GitHub 存储库中的资源](https://github.com/adobe/adobe-client-data-layer)。
 >
 >有关 Adobe Client Data Layer 与核心组件集成的其他技术详细信息，请参阅核心组件存储库中的 [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) 文件。
+
+{{traditional-aem}}
 
 ## 安装和激活 {#installation-activation}
 
@@ -306,7 +309,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教程
 
-希望更详细地探讨 Data Layer 和核心组件？[请查看此实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=zh-Hans)。
+希望更详细地探讨 Data Layer 和核心组件？[请查看此实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
 
 >[!TIP]
 >

@@ -3,32 +3,18 @@ title: 开发核心组件
 description: 核心组件提供可靠且可扩展的基本组件，这些组件提供了丰富的功能、连续交付、组件版本控制、现代化实施、精简标记以及内容的 JSON 导出。
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1130'
 ht-degree: 100%
 
 ---
 
 # 开发核心组件 {#developing-core-components}
 
-## 何时使用核心组件？ {#when-to-use-the-core-components}
+核心组件提供可靠且可扩展的基本组件，这些组件提供了丰富的功能、连续交付、组件版本控制、现代化实施、精简标记以及内容的 JSON 导出。
 
-由于核心组件是全新的，并且具备多种优势，因此建议新的 AEM 项目使用这些组件。对于现有项目，可以考虑在进行更大型项目工作期间进行迁移，例如在重新品牌化或整体重构工作期间。
-
-因此，Adobe 提供了以下建议：
-
-* **新项目**
-新项目应始终尝试使用核心组件。如果核心组件无法直接使用或[扩展](customizing.md)以满足项目要求，请按照核心组件中规定的组件架构创建自定义组件。除非没有其他方法，否则请避免使用[基础组件](/help/versions.md#foundation-component-support)。
-* **现有项目**
-建议保留使用[基础组件](/help/versions.md#foundation-component-support)，除非计划了网站或组件重构。\
-  由于大部分现有项目广泛地使用了基础组件，基础组件[将继续受支持](/help/versions.md#foundation-component-support)。
-* **新自定义组件**
-请评估是否[可以自定义现有核心组件](customizing.md)。\
-  如果不能，建议按照[组件准则](guidelines.md)构建新的自定义组件。
-* **现有自定义组件**
-如果您的组件按预期工作，则请原样保留它们。\
-  如果不能，请参考前面的“新自定义组件”。
+{{traditional-aem}}
 
 ## 如何使用核心组件获得成功 {#how-to-succeed}
 
@@ -70,7 +56,7 @@ ht-degree: 100%
 </dependency>
 ```
 
-有关 AEMaaCS 项目的更多信息，请参阅文档 [AEM 项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hans)。
+有关 AEMaaCS 项目的更多信息，请参阅文档 [AEM 项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)。
 
 ## 核心组件支持 {#core-component-support}
 
@@ -92,7 +78,7 @@ ht-degree: 100%
 | **功能** | **核心组件** | **基础组件** |
 |-----|---|---|
 | 逻辑实施 | Java POJO 和 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)注释 | JSP 代码 |
-| 标记定义 | [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans) (HTL) 语法 | JSP 代码 |
+| 标记定义 | [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL) 语法 | JSP 代码 |
 | XSS 净化 | 由 HTL 自动执行 | 大部分手动 |
 | CSS 类命名 | 基于 [Block Element Modifier](https://getbem.com/) (BEM) 表示法（截止到发行版本 2.0.0）的标准化命名约定 | 自定义架构 |
 | 对话框定义 | [Coral 3](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + 经典 UI |
@@ -102,7 +88,7 @@ ht-degree: 100%
 | 交付 | [通过公开 GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过 Quickstart |
 | 许可 | [Apache 许可](https://www.apache.org/licenses/LICENSE-2.0) | Adobe 专有 |
 | 参与 | 通过拉取请求 | 不可能 |
-| 辅助功能 | 与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=zh-Hans)完全兼容 | 仅与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=zh-Hans)部分兼容 |
+| 辅助功能 | 与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)完全兼容 | 仅与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)部分兼容 |
 
 ## 组件列表 {#component-list}
 
@@ -116,7 +102,7 @@ ht-degree: 100%
 | [文本](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | 富文本 | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
 | [图像](https://adobe.com/go/aem_cmp_tech_image_v2_cn) | 智能和延迟加载优化再现大小 | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
 | [列表](https://adobe.com/go/aem_cmp_tech_list_v2_cn) | 页面的列表 | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [社交媒体共享](https://adobe.com/go/aem_cmp_tech_sharing_v1_cn) | Facebook 和 Pinterest 共享构件 | `-` |
+| [社交媒体共享](https://adobe.com/go/aem_cmp_tech_sharing_v1_cn) | Facebook 和 Pinterest 共享小组件 | `-` |
 | [表单容器](https://adobe.com/go/aem_cmp_tech_form_container_v2_cn) | 响应式表单段落系统 | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
 | [表单文本](https://adobe.com/go/aem_cmp_tech_form_text_v2_cn) | 文本输入字段 | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
 | [表单选项](https://adobe.com/go/aem_cmp_tech_form_options_v2_cn) | 多选输入字段 | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
@@ -144,6 +130,6 @@ ht-degree: 100%
 
 版本化组件的一个优点是，它允许将迁移到新 AEM 版本与迁移到新组件版本分隔开。此外，如果有新组件版本可用，它允许单独地将各个组件迁移到新版本。
 
-迁移到新 AEM 版本不会影响核心组件的工作方式，前提是其版本也支持正在迁移到的新 AEM 版本。提供给核心组件使用的自定义项，只要不使用已经[弃用或删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hans)的 API，也不应受影响。
+迁移到新 AEM 版本不会影响核心组件的工作方式，前提是其版本也支持正在迁移到的新 AEM 版本。提供给核心组件使用的自定义项，只要不使用已经[弃用或删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的 API，也不应受影响。
 
 迁移到核心组件的新版本也不会影响组件的工作方式，但是可能会向页面作者引入新功能，在默认行为不符合需要时，可能需要模板编辑者进行一些配置。但是可能需要适应自定义项，有关详细信息，请参阅[自定义核心组件](customizing.md#upgrade-compatibility-of-customizations)页面。

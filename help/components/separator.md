@@ -3,16 +3,19 @@ title: 分隔符组件
 description: 分隔符组件在页面上的组件之间创建隔断
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
 ---
 
+
 # 分隔符组件 {#separator-component}
 
 核心组件分隔符组件显示分隔内容的水平规则。
+
+{{traditional-aem}}
 
 ## 用途 {#usage}
 

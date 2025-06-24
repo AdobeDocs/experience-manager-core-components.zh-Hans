@@ -3,16 +3,19 @@ title: PDF 查看器组件
 description: 利用 PDF 查看器组件可显示 PDF 文档。
 role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 100%
 
 ---
 
+
 # PDF 查看器组件 {#pdf-viewer-component}
 
 利用核心组件 PDF 查看器组件，可以在页面上包含 PDF 文档。
+
+{{traditional-aem}}
 
 ## 用途 {#usage}
 
