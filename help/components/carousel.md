@@ -51,7 +51,7 @@ ht-degree: 100%
 
 要执行此操作：
 
-1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项查看带有组件的页面。
+1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项查看带有组件的页面。
 1. 检查页面的内容并确定面板的 ID。
    * 例如 `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
 1. ID 成为您可以使用哈希 (`#`) 附加到 URL 的锚点。
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。组件仍可以通过[从组件浏览器拖动并放置在页面编辑器的轮盘组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)来添加到轮盘组件中。
+>如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。组件仍可以通过[从组件浏览器拖动并放置在页面编辑器的轮盘组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#inserting-a-component-from-the-components-browser)来添加到轮盘组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -101,9 +101,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->在&#x200B;**“编辑”**&#x200B;模式下不会启用幻灯片前进控件。使用&#x200B;[**预览**&#x200B;模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)或&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样与轮盘交互。
+>在&#x200B;**“编辑”**&#x200B;模式下不会启用幻灯片前进控件。使用&#x200B;[**预览**&#x200B;模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#preview-mode)或&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样与轮盘交互。
 >
->在&#x200B;**“编辑”**&#x200B;模式下不会启用自动前进功能。使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样查看自动前进功能。
+>在&#x200B;**“编辑”**&#x200B;模式下不会启用自动前进功能。使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样查看自动前进功能。
 
 ### “辅助功能”选项卡 {#accessibility-tab}
 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
 **“允许的组件”**&#x200B;选项卡用于定义哪些组件可以由内容作者作为幻灯片添加到轮盘组件。
 
-“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的同名选项卡的功能相同。
+“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的同名选项卡的功能相同。
 
 ### “样式”选项卡 {#styles-tab}
 

@@ -27,7 +27,7 @@ ht-degree: 100%
 >
 >支持嵌套选项卡组件（选项卡中的选项卡）。
 >
->可以使用[内容树](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)定位/选择简单（非嵌套）选项卡组件，但无法对嵌套选项卡执行此操作。
+>可以使用[内容树](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans#content-tree)定位/选择简单（非嵌套）选项卡组件，但无法对嵌套选项卡执行此操作。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 要执行此操作：
 
-1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项查看带有组件的页面。
+1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项查看带有组件的页面。
 1. 检查页面的内容并确定面板的 ID。
    * 例如 `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID 成为您可以使用哈希 (`#`) 附加到 URL 的锚点。
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。仍可通过将组件[从组件浏览器中拖动并放置到页面编辑器的选项卡组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)来将其添加到选项卡组件中。
+>如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。仍可通过将组件[从组件浏览器中拖动并放置到页面编辑器的选项卡组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#inserting-a-component)来将其添加到选项卡组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->在&#x200B;**编辑**&#x200B;模式中，作者无法选择选项卡。使用&#x200B;**[预览](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**&#x200B;模式或&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样与选项卡进行交互。
+>在&#x200B;**编辑**&#x200B;模式中，作者无法选择选项卡。使用&#x200B;**[预览](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#preview-mode)**&#x200B;模式或&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样与选项卡进行交互。
 
 ## “设计”对话框 {#design-dialog}
 
@@ -137,7 +137,7 @@ ht-degree: 100%
 
 **“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为项添加到选项卡组件。
 
-“允许的组件”选项卡的功能与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的同名选项卡的功能相同。
+“允许的组件”选项卡的功能与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的同名选项卡的功能相同。
 
 ### “样式”选项卡 {#styles-tab}
 
