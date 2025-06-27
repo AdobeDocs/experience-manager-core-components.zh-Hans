@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单条款和条件核心组件。
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3253'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
-> 对于AEM 6.5 Forms，此组件随AEM 6.5 Forms Service Pack 19 (6.5.19.0)引入。 要启用此组件，请确保安装了 Forms 核心组件和 WCM 核心组件的必要版本。有关自适应表单核心组件版本的详细信息，请参阅[自适应表单核心组件版本](/help/adaptive-forms/version.md)
+> 对于 AEM 6.5 Forms，此组件是随 AEM 6.5 Forms 服务包 19 (6.5.19.0) 引入的。要启用此组件，请确保安装了 Forms 核心组件和 WCM 核心组件的必要版本。有关自适应表单核心组件版本的详细信息，请参阅[自适应表单核心组件版本](/help/adaptive-forms/version.md)
 
 {{traditional-aem}}
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应的Forms条款和条件核心组件于2023年2月发布，作为Cloud Service核心组件2.0.62以及AEM 6.5.16.0 Forms或更高版本的核心组件1.1.28的一部分。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+作为 Cloud Service 核心组件 2.0.62 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.28 的一部分，自适应表单条款和条件核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
@@ -154,9 +154,9 @@ ht-degree: 98%
 
    - **键值对**：您可以通过单击“**添加**”按钮，为每个自定义属性组添加多个自定义属性名称和自定义属性值。
 
-   - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
+   - **删除**：点击或单击此项可删除自定义属性名称和自定义属性值。
 
-   - **重新排列**：点按或单击并拖动可重新排列自定义属性名称和自定义属性值的顺序。
+   - **重新排列**：点击或单击并拖动可重新排列自定义属性名称和自定义属性值的顺序。
 
 ## 条款和条件组件的子组件 {#sub-component}
 

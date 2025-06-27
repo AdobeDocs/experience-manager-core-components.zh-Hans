@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 index: false
 source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
 ht-degree: 100%
 
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 # 电子邮件内容片段组件 {#email-content-fragment-component}
 
-利用电子邮件内容片段组件，可以在您的内容中显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)。
+利用电子邮件内容片段组件，可以在您的内容中显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 ## 用途 {#usage}
 
-利用电子邮件内容片段组件，可以在您的电子邮件内容中包含[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)。 内容片段是多渠道结构化内容，可以集中创作并轻松重用。
+利用电子邮件内容片段组件，可以在您的电子邮件内容中包含[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。 内容片段是多渠道结构化内容，可以集中创作并轻松重用。
 
 * 可[“配置”对话框](#configure-dialog)中选择片段及其属性。
 * 可[“设计”对话框](#design-dialog)中定义用于处理特定图像的资源类型。
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 ![电子邮件的内容片段编辑器](/help/email/assets/email-content-fragment-editor.png)
 
-有关编辑和创作内容片段的更多信息，请参阅文档[创作片段内容。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html?lang=zh-Hans)
+有关编辑和创作内容片段的更多信息，请参阅文档[创作片段内容。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
 
 ## “设计”对话框 {#design-dialog}
 

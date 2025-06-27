@@ -5,9 +5,9 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -84,8 +84,8 @@ ht-degree: 98%
 
 * **图像资源**
    * 通过[资源浏览器](https://helpx.adobe.com/cn/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
-   * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点按或单击&#x200B;**编辑**&#x200B;可在资产编辑器中[管理资产的再现](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)。
+   * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
+   * 点击或单击&#x200B;**编辑**&#x200B;可在资产编辑器中[管理资产的再现](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19)。
 
 * **图像是装饰性的** – 检查图像是否应被辅助技术忽略，因此不需要替换文本。这仅适用于装饰性图像。
 * **替换文本** – 用于替代该图像含义或功能的文字内容，适用于视障读者。
@@ -152,7 +152,7 @@ ht-degree: 98%
          * **父框架**
          * **顶层框架**
 
-  点按或单击蓝色复选标记可保存，点按或单击黑色 x 可取消，点按或单击红色垃圾桶可删除地图。
+  点击或单击蓝色复选标记可保存，点击或单击黑色 x 可取消，点击或单击红色垃圾桶可删除地图。
 
   ![](/help/assets/chlimage_1-14.png)
 
@@ -188,7 +188,7 @@ ht-degree: 98%
 
 ![](/help/assets/chlimage_1-51.png)
 
-点按或单击“添加”按钮可添加其他大小。
+点击或单击“添加”按钮可添加其他大小。
 
 * 使用抓取手柄可重新排列大小。
 * 使用删除图标可删除宽度。
@@ -219,7 +219,7 @@ ht-degree: 98%
 
    * **旋转** – 使用此选项可允许内容作者使用&#x200B;**向右旋转**&#x200B;选项。
    * **翻转**
-使用此选项可允许内容作者使用&#x200B;**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
+使用此选项可允许内容作者使用**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
 
   >[!CAUTION]
   >

@@ -1,18 +1,18 @@
 ---
-title: 语言导航组件(v1)
+title: 语言导航组件 (v1)
 description: 语言导航组件提供对网站的语言/国家或地区导航，以便访客能够导航到采用不同区域设置的相同页面。
 role: Architect, Developer, Admin, User
 exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 语言导航组件(v1) {#language-navigation-component}
+# 语言导航组件 (v1) {#language-navigation-component}
 
 语言导航组件提供对网站的语言/国家或地区导航，以便访客能够导航到采用不同区域设置的相同页面。
 

@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2048'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,9 +81,9 @@ ht-degree: 98%
 ![图像组件“配置”对话框的“资源”选项卡](/help/assets/image-configure-asset.png)
 
 * **图像资源**
-   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
-   * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点按或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
+   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 ### “元数据”选项卡 {#metadata-tab}
 
@@ -102,10 +102,10 @@ ht-degree: 98%
 * **链接** – 将图像链接到其他资源。
    * 使用“选择”对话框可链接到其他 AEM 资源。
    * 如果未链接到 AEM 资源，请输入绝对 URL。非绝对 URL 将解释为相对于 AEM。
-* **ID** – 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中组件的唯一标识符。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
+   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 >[!TIP]
 >
@@ -197,7 +197,7 @@ ht-degree: 98%
 * **以弹出窗口显示题注** – 定义在将图像组件添加到页面时，是否自动启用以弹出窗口显示图像题注的选项。
 * **禁用 UUID 跟踪** – 选中此项可禁用图像资源的 UUID。
 * **宽度** – 定义图像的宽度（以像素为单位），组件将根据浏览器的大小自动加载最合适的宽度。
-   * 点按或单击&#x200B;**“添加”**&#x200B;按钮可添加其他大小。
+   * 点击或单击&#x200B;**“添加”**&#x200B;按钮可添加其他大小。
       * 使用抓取手柄可重新排列大小。
       * 使用&#x200B;**“删除”**&#x200B;图标可删除宽度。
    * 默认情况下，图像加载会被延迟，直到图像变得可见。
@@ -223,9 +223,9 @@ ht-degree: 98%
   ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-orientation.png)
 
 * **旋转**
-使用此选项可允许内容作者使用&#x200B;**向右旋转**&#x200B;选项。
+使用此选项可允许内容作者使用**向右旋转**&#x200B;选项。
 * **翻转**
-使用此选项可允许内容作者使用&#x200B;**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
+使用此选项可允许内容作者使用**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
 
   >[!CAUTION]
   >
@@ -250,6 +250,6 @@ ht-degree: 98%
 
 图像组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## Adobe 客户端数据层 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 图像组件支持 [Adobe 客户端数据层](/help/developing/data-layer/overview.md)。

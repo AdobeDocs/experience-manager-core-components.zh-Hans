@@ -4,7 +4,7 @@ description: 核心组件提供可靠且可扩展的基本组件，这些组件�
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 </dependency>
 ```
 
-有关 AEMaaCS 项目的更多信息，请参阅文档 [AEM 项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hans)。
+有关 AEMaaCS 项目的更多信息，请参阅文档 [AEM 项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)。
 
 ## 核心组件支持 {#core-component-support}
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 | **功能** | **核心组件** | **基础组件** |
 |-----|---|---|
 | 逻辑实施 | Java POJO 和 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)注释 | JSP 代码 |
-| 标记定义 | [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans) (HTL) 语法 | JSP 代码 |
+| 标记定义 | [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL) 语法 | JSP 代码 |
 | XSS 净化 | 由 HTL 自动执行 | 大部分手动 |
 | CSS 类命名 | 基于 [Block Element Modifier](https://getbem.com/) (BEM) 表示法（截止到发行版本 2.0.0）的标准化命名约定 | 自定义架构 |
 | 对话框定义 | [Coral 3](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + 经典 UI |
@@ -88,7 +88,7 @@ ht-degree: 100%
 | 交付 | [通过公开 GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过 Quickstart |
 | 许可 | [Apache 许可](https://www.apache.org/licenses/LICENSE-2.0) | Adobe 专有 |
 | 参与 | 通过拉取请求 | 不可能 |
-| 辅助功能 | 与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=zh-Hans)完全兼容 | 仅与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=zh-Hans)部分兼容 |
+| 辅助功能 | 与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)完全兼容 | 仅与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)部分兼容 |
 
 ## 组件列表 {#component-list}
 
@@ -130,6 +130,6 @@ ht-degree: 100%
 
 版本化组件的一个优点是，它允许将迁移到新 AEM 版本与迁移到新组件版本分隔开。此外，如果有新组件版本可用，它允许单独地将各个组件迁移到新版本。
 
-迁移到新 AEM 版本不会影响核心组件的工作方式，前提是其版本也支持正在迁移到的新 AEM 版本。提供给核心组件使用的自定义项，只要不使用已经[弃用或删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hans)的 API，也不应受影响。
+迁移到新 AEM 版本不会影响核心组件的工作方式，前提是其版本也支持正在迁移到的新 AEM 版本。提供给核心组件使用的自定义项，只要不使用已经[弃用或删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的 API，也不应受影响。
 
 迁移到核心组件的新版本也不会影响组件的工作方式，但是可能会向页面作者引入新功能，在默认行为不符合需要时，可能需要模板编辑者进行一些配置。但是可能需要适应自定义项，有关详细信息，请参阅[自定义核心组件](customizing.md#upgrade-compatibility-of-customizations)页面。

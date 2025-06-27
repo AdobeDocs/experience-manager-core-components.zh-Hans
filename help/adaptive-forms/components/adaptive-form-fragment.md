@@ -4,27 +4,27 @@ description: 使用表单片段创建表单区段或字段组，并在自适应�
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1952'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # 自适应表单片段组件 {#form-fragment-component-adaptive-forms-core-component}
 
-自适应表单提供了一种创建表单区段（例如面板或字段组）的方便方法，以便在不同的自适应表单中重复使用它们。这些可重用的独立区段称为[自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=zh-Hans)。
+自适应表单提供了一种创建表单区段（例如面板或字段组）的方便方法，以便在不同的自适应表单中重复使用它们。这些可重用的独立区段称为[自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html)。
 
-您可以[将片段多次添加到文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=zh-Hans#insert-a-fragment-in-an-adaptive-form)，并使用其组件的数据绑定属性将其绑定到不同的数据源或架构。例如，您可以将相同的地址片段用于永久地址、通信地址和账单地址，并将它连接到数据源或架构的其他字段。
+您可以[将片段多次添加到文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form)，并使用其组件的数据绑定属性将其绑定到不同的数据源或架构。例如，您可以将相同的地址片段用于永久地址、通信地址和账单地址，并将它连接到数据源或架构的其他字段。
 
 ![示例](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-您还可以使用[重复选项](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hans)来复制表单片段组件及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。
+您还可以使用[重复选项](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)来复制表单片段组件及其子组件，定义最小和最大重复计数，并促进在表单内复制类似部分。
 
 >[!NOTE]
 >
-> 您可以从头开始[创建自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=zh-Hans#create-a-fragment)，或将现有自适应表单中的面板另存为片段。
+> 您可以从头开始[创建自适应表单片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment)，或将现有自适应表单中的面板另存为片段。
 
 {{traditional-aem}}
 
@@ -40,11 +40,11 @@ ht-degree: 98%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-Adaptive Forms片段核心组件作为Cloud Service核心组件2.0.50以及AEM 6.5.16.0 Forms或更高版本的核心组件1.1.26的一部分发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+作为 Cloud Service 核心组件 2.0.50 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.26 的一部分发布了自适应表单片段核心组件。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 与<br>[版本 2.0.50](/help/adaptive-forms/version.md) 和更高版本兼容 | 与<br>[版本 1.1.26](/help/adaptive-forms/version.md) 及更高但低于 2.0.0 的版本兼容。 |
+| v1 | 与<br>[版本 2.0.50](/help/adaptive-forms/version.md) 和更高版本兼容 | 与<br>[版本 1.1.26](/help/adaptive-forms/version.md) 和更高版本兼容，但低于版本 2.0.0。 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
@@ -155,9 +155,9 @@ Adaptive Forms片段核心组件作为Cloud Service核心组件2.0.50以及AEM 6
 
    - **键值对**：您可以通过单击“**添加**”按钮，为每个自定义属性组添加多个自定义属性名称和自定义属性值。
 
-   - **删除**：点按或单击此项可删除自定义属性名称和自定义属性值。
+   - **删除**：点击或单击此项可删除自定义属性名称和自定义属性值。
 
-   - **重新排列**：点按或单击并拖动可重新排列自定义属性名称和自定义属性值。
+   - **重新排列**：点击或单击并拖动可重新排列自定义属性名称和自定义属性值。
 
 
 ## 相关文章 {#related-articles}

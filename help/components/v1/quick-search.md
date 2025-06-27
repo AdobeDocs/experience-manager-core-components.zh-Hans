@@ -1,18 +1,18 @@
 ---
-title: 快速搜索组件(v1)
+title: 快速搜索组件 (v1)
 description: 快速搜索组件提供对网站的搜索功能并显示搜索结果，以便访客能够搜索网站并筛选结果。
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# 快速搜索组件(v1) {#quick-search-component}
+# 快速搜索组件 (v1) {#quick-search-component}
 
 快速搜索组件提供对网站的搜索功能并显示搜索结果，以便访客能够轻松找到匹配内容并查看结果。
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 >[!CAUTION]
 >
 >本文档介绍了快速搜索组件 (v1)。
->&#x200B;>有关当前版本的快速搜索组件的详细信息，请参阅[快速搜索组件](/help/components/quick-search.md)文档。
+>>有关当前版本的快速搜索组件的详细信息，请参阅[快速搜索组件](/help/components/quick-search.md)文档。
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 >
 >应对搜索组件或任何基于 AEM 的应用程序实施更高级别的保护以使其免受 DOS 攻击，例如，通过使用 Dispatcher 上的 `mod_security`。
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v1_cn)有关快速搜索组件的最新技术文档。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v1)有关快速搜索组件的最新技术文档。
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
