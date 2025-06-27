@@ -57,14 +57,14 @@ ht-degree: 100%
    * **默认** – 定义默认段以显示是否不满足其他条件
    * **自定义** – 允许作者定义条件
       * 条件基于 Adobe Campaign 个性化变量
-      * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-      * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+      * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hans&)
+      * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hans)
 * **删除** – 点击或单击以从电子邮件分段组件中删除区段。
 * **重新排列** - 点击或单击并拖动以重新排列区段。
 
 >[!TIP]
 >
->如果减小内容视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**添加**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在内容编辑器的电子邮件分段组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)来添加到电子邮件分段组件中。
+>如果减小内容视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**添加**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在内容编辑器的电子邮件分段组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#inserting-a-component)来添加到电子邮件分段组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 **“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为区段添加到电子邮件分段组件。
 
-**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)
 
 ### 样式选项卡 {#styles-tab}
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 * **区段条件名称** – 条件描述
 * **区段条件** – 必须满足的实际条件，基于 Adobe Campaign 个性化变量
-   * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-   * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。]（https://experienceleague.adobe.com/docs/
+   * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hans&)
+   * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。]（https://experienceleague.adobe.com/docs/?lang=zh-Hans
 * **移除** – 点击以移除条件
 * **重新排列** – 点击或单击并拖动以重新排列条件。
