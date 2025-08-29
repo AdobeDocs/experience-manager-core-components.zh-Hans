@@ -2,15 +2,17 @@
 title: 自适应Forms核心组件 — 涂写签名
 description: 使用或自定义自适应Forms涂写签名核心组件。
 role: Architect, Developer, Admin, User
-source-git-commit: 4218af42d947e19a65efe8839ccd4eb102fe2f21
+source-git-commit: 246a608e4c23a9075813a64691d583584164578c
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 76%
+source-wordcount: '1761'
+ht-degree: 75%
 
 ---
 
 
 # 涂写签名组件
+
+<span>涂写签名组件在早期采用程序下。 您可以从官方电子邮件ID写入`aem-forms-ea@adobe.com`以加入早期采用者计划并请求访问功能。</span>
 
 自适应表单中的涂写签名组件是一个用户界面元素，它允许用户使用鼠标、手写笔或触摸屏直接在表单中绘制其&#x200B;**签名**。 它确保在数字工作流中准确捕获手写同意、批准或验证。
 
