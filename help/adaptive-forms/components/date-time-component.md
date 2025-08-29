@@ -1,65 +1,55 @@
 ---
-title: 自适应表单核心组件 - 日期选取器
-description: 使用或自定义自适应表单日期选取器核心组件。
+title: 自适应Forms核心组件 — 日期和时间
+description: 使用或自定义自适应Forms日期和时间核心组件。
 role: Architect, Developer, Admin, User
-exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 100%
+source-wordcount: '1898'
+ht-degree: 74%
 
 ---
 
 
-# 日期选取器组件{#date-picker-adaptive-forms-core-component}
+# 日期和时间组件
 
-自适应表单中的日期选取器组件是一个用户界面元素，通过它，用户可从日历中选择日期或手动输入特定格式的日期。日期选取器组件可以配置为具有不同的格式、验证和默认值。
+自适应表单中的日期和时间组件是一个用户界面元素，它允许用户使用日历和时钟界面或通过以特定格式手动输入值来选择&#x200B;**日期和时间**。 它确保为日期和时间都至关重要的用例提供准确、标准化的输入。
 
 **示例**
 
-![示例](/help/adaptive-forms/assets/date-picker.png)
+![示例](/help/adaptive-forms/assets/date-time-picker.png)
 
-## 用途 {#reasons-to-use-drop-date-picker}
+## 用途 {#reasons-to-use-date-time-picker}
 
-有若干原因使得在自适应表单中加入日期选取器有益，这些原因包括：
+在表单中包含日期和时间选取器有多种好处，包括：
 
-- **方便**：通过日期选取器组件，用户可轻松地从日历中选择日期，而无需在文本字段中手动输入日期。这可以节省时间并减少错误。
-
-- **用户体验**：可使用日期选取器组件为用户提供一种清晰而直观的方式以选择日期，使得表单更方便用户使用。
-
-- **数据分析**：日期选取器组件可用于从各种来源收集数据并进行分析，或将其用作进一步处理的输入。
-
-- **事件管理**：日期选取器组件可在事件管理网站中用于选择事件日期。
-
-- **预订和预约**：日期选取器组件可在预订和预约网站中用于选择入住和退房日期。
-
-- **日期格式**：日期选取器组件可用于固定显示和输入日期的格式。这可确保日期格式在整个表单中保持一致，以确保一致的用户体验。
+- **方便**：允许用户轻松选择日期和时间，而无需手动键入值。
+- **一致性**：强制对表单中的日期和时间输入使用标准格式。
+- **改进的用户体验**：提供带日历和时间选择器的直观UI。
+- **活动计划**：在约会预订、面试或会议计划表单中很有用。
+- **旅行和预订**：允许用户选择签到/签出日期和时间。
+- **数据准确性**：与自由文本输入相比，减少了输入错误。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单日期选择器核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应Forms日期和时间核心组件于2025年8月&#x200B;**发布**，作为Cloud Service及更高版本的&#x200B;**核心组件2.24.6**&#x200B;的一部分。
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 与<br>[版本 1.1.12](/help/adaptive-forms/version.md) 和更高版本兼容，但低于版本 2.0.0。 |
+| v1 | 与<br>[版本 2.24.6](/help/adaptive-forms/version.md) 和更高版本兼容 | |
 
-有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+有关版本的详细信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)。
 
 ## 技术详细信息 {#technical-details}
 
-可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker) 上的技术文档中获得关于自适应表单日期选取器核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在[GitHub](https://github.com/adobe/aem-core-forms-components)上获取有关自适应Forms日期和时间核心组件的最新技术详细信息。 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，可轻松地自定义您为访客提供的日期选取器体验。还可轻松地定义日期选取器选项，从而营造一种无缝的用户体验。
+利用“配置”对话框，可以自定义日期和时间。
 
 ### “基本”选项卡 {#basic-tab}
 
-![“基本”选项卡](/help/adaptive-forms/assets/datepicker_basictab.png)
+![“基本”选项卡](/help/adaptive-forms/assets/datetime_basictab.png)
 
 - **名称** - 名称在规则编辑器中唯一标识组件。名称字符串中不允许使用特殊字符和空格。
 
@@ -79,12 +69,11 @@ To experience the Accordion Component as well as see examples of its configurati
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 - **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 - **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
-- **默认日期** - 通过此选项，可将日期添加到表单字段。输入的日期默认显示在组件的位置。如果用户没有输入日期，则在提交表单时提交此值。如果选中了&#x200B;**已禁用的组件**&#x200B;或&#x200B;**只读组件**，则在屏幕上显示默认日期，并在提交表单时提交默认日期。
-
+- **默认日期和时间** — 此选项允许您向表单字段添加日期和时间。 输入的日期默认显示在组件的位置。如果用户未输入日期或时间，则在提交表单时提交此值。 如果选择&#x200B;**已禁用的组件**&#x200B;或&#x200B;**只读组件**，则屏幕上将显示默认日期和时间，并在提交表单时提交该日期和时间。
 
 ### “验证”选项卡 {#validation-tab}
 
-![“验证”选项卡](/help/adaptive-forms/assets/datepicker_validation.png)
+![“验证”选项卡](/help/adaptive-forms/assets/datetime_validation.png)
 
 - **必需** - 如果要在自适应表单中显示该组件，请选中此选项。选择此选项后，您必须先做出选择，之后才能继续提交表单。选中此选项后，无法在&#x200B;**“基本”**&#x200B;选项卡中选择&#x200B;**隐藏组件**&#x200B;或&#x200B;**禁用组件**。
 
@@ -92,20 +81,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **脚本验证消息** - 通过此选项，可输入如果脚本验证失败，所显示的消息。
 
-- **最早日期** - 通过此选项，可输入要求的最早日期。如果输入的日期比在“最早日期”中指定的日期更早，则在屏幕上显示一条错误消息。通过&#x200B;**最早日期错误消息**&#x200B;对话框，可添加自定义错误消息。
+- **最早日期** - 通过此选项，可输入要求的最早日期。如果输入的日期早于在最小日期和时间中指定的日期，则屏幕上将显示一条错误消息。 通过&#x200B;**最早日期错误消息**&#x200B;对话框，可添加自定义错误消息。
 
-- **最早日期错误消息** - 通过&#x200B;**最早日期错误消息**&#x200B;对话框，可添加如果输入的日期比在&#x200B;**最早日期**&#x200B;选项中指定的日期更早，则显示的自定义错误消息。
-- **排除最小日期** - 通过此选项，可省略给定日期范围或日期组中的最小日期。
+- **最小错误消息** - **最小错误消息**&#x200B;对话框允许您添加要显示的自定义错误消息，如果您输入的日期或时间早于&#x200B;**最小日期**&#x200B;选项中指定的日期或时间。
 
-- **最晚日期** - 通过此选项，可输入要求的最晚日期。如果输入的日期比在“最晚日期”中指定的日期更晚，则在屏幕上显示一条错误消息。通过&#x200B;**最晚日期错误消息**&#x200B;对话框，可添加自定义错误消息。
+- **最大日期** — 此选项允许您输入所需的最长日期和时间。 如果输入的日期或时间晚于在“最大日期”中指定的日期或时间，屏幕上将显示一条错误消息。 通过&#x200B;**最晚日期错误消息**&#x200B;对话框，可添加自定义错误消息。
 
-- **最晚日期错误消息** - 通过&#x200B;**最晚日期错误消息**&#x200B;对话框，可添加如果输入的日期比在&#x200B;**最晚日期**&#x200B;选项中指定的日期更晚，则显示的自定义错误消息。
-
-- **排除最大日期** - 通过此选项，可省略给定日期范围或日期组中的最大日期。
+- **最大错误消息** - **最大错误消息**&#x200B;对话框允许您添加要显示的自定义错误消息，如果您输入的日期或时间晚于&#x200B;**最大日期**&#x200B;选项中指定的日期或时间。
 
 ### “帮助内容”选项卡 {#help-content-tab}
 
-![“帮助内容”选项卡](/help/adaptive-forms/assets/datepicker_helptab.png)
+![“帮助内容”选项卡](/help/adaptive-forms/assets/datetime_helptab.png)
 
 - **简短描述** - 简短描述是一段简短的文字说明，其中提供关于特定表单字段的用途的其他信息或阐述。它帮助用户了解应将什么类型的数据输入到字段中，并可提供准则或示例以帮助确保所输入的信息有效且符合预期的标准。默认情况下，简短描述保持隐藏状态。启用&#x200B;**始终显示简短描述**&#x200B;选项以在组件下方显示它。
 
@@ -116,7 +102,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “辅助功能”选项卡 {#accessibility-tab}
 
-![“辅助功能”选项卡](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![“辅助功能”选项卡](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
 
 - **屏幕阅读器文本** - 屏幕阅读器文本是指专供由视障人士使用的屏幕阅读器等辅助技术读取的附加文本。此文本提供表单字段用途的音频描述，并可包括关于字段的标题、描述、名称和任何相关消息（自定义文本）的信息。屏幕阅读器文本帮助确保包括视障用户在内的所有用户均可访问表单，并使其完整地了解表单字段及其要求。
    - **自定义文本**：选中此选项以将自定义文本用于 ARIA 辅助功能标签。选中此选项将显示“自定义文本”对话框。可在“自定义文本”对话框中添加相关信息。
@@ -125,40 +111,42 @@ To experience the Accordion Component as well as see examples of its configurati
    - **名称**：选中此选项以将名称用于 ARIA 辅助功能标签。
    - **无**：如果不想为 ARIA 辅助功能标签添加任何内容，请选中此选项。
 
-### “格式”选项卡 {#format-tab}
+<!--
+### Formats Tab {#format-tab}
 
-![“格式”选项卡](/help/adaptive-forms/assets/datepicker_formattab.png)
+![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-- **显示格式** - 它表示向用户显示的日期格式。通过&#x200B;**类型**&#x200B;选项，用户可选择日期格式。还可使用&#x200B;**类型**&#x200B;下拉菜单中的&#x200B;**自定义**&#x200B;选项自定义日期格式。
+-   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
-- **编辑格式** - 它表示用户编辑日期时可以采用的日期格式。通过&#x200B;**类型**&#x200B;选项，用户可选择日期格式。还可使用&#x200B;**类型**&#x200B;下拉菜单中的&#x200B;**自定义**&#x200B;选项自定义日期格式。
-- **格式错误消息**：此选项允许您输入当输入的日期格式不正确时在屏幕上显示的消息。
-- **语言**：此功能用于格式化特定字段。当用户从&#x200B;**类型**&#x200B;下拉菜单中选择任何语言选项时，**IETF BCP 47 语言标记**&#x200B;选项就会出现在面板中。将自适应表单翻译成特定语言时，您可以选择字段格式的语言。
+-   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+-  **Format error message** - This option allows you to enter the message displayed on the screen when the entered date is not in the correct format.
+- **Language** - This feature is used for formatting the specific field. When a user selects any language option from the **Type** drop-down menu, the **IETF BCP 47 language tag** option appears in the panel. You can choose the language for field formatting when translating an Adaptive Form into a specific language.
+  
+The set of languages is not visible by default, but users can input a custom **IETF BCP 47 language tag** by updating the template policy:
 
-默认情况下，语言集不可见，但用户可以通过更新模板策略输入自定义 **IETF BCP 47 语言标记** ：
+  1. Open the corresponding template associated with an Adaptive Form in the template editor.
+  2. Select the existing policy as `datepicker-default-policy` from the drop-down menu.
+   
+        ![Date Picker template Policy](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
-1. 在模板编辑器中打开与自适应表单关联的相应模板。
-2. 从下拉菜单中选择 `datepicker-default-policy` 为现有策略。
+  3. Click **Done**.
 
-   ![日期选择器模板策略](/help/adaptive-forms/assets/date-picker-template-policy.png)
-
-3. 单击&#x200B;**完成**。
-
-   >[!NOTE]
-   >
-   > 如需了解如何将自适应表单翻译至特定语言环境的更多信息，请[点击此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components)。
+        >[!NOTE]
+        >
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+-->
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于定义和管理日期选取器组件的 CSS 样式。
+“设计”对话框用于定义和管理日期和时间组件的CSS样式。
 
 ### “样式”选项卡 {#styles-tab}
 
-该选项卡用于定义和管理组件的 CSS 样式。自适应表单日期选取器核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+该选项卡用于定义和管理组件的 CSS 样式。自适应Forms日期和时间核心组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
 ![“样式”选项卡](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **默认 CSS 类**：可为自适应表单日期选取器核心组件提供默认 CSS 类。
+- **默认CSS类**：可以为自适应Forms日期和时间核心组件提供默认CSS类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
@@ -176,13 +164,14 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **重新排列**：点击或单击并拖动可重新排列自定义属性名称和自定义属性值的顺序。
 
-### “格式”选项卡 {#formats-tab}
-
-通过“格式”选项卡，可指定默认和自定义日期格式。
-
-![“格式”选项卡](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
-
 <!--
+### Formats Tab {#formats-tab}
+
+The formats tab allows you to specify default and custom date formats.
+
+![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+
 
 ## Related article {#related-article}
 

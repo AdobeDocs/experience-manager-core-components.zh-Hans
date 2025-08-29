@@ -1,7 +1,7 @@
 ---
-source-git-commit: 775e81f11e22316b4e5b4d48b920307f033c880e
-workflow-type: ht
-source-wordcount: '249'
+source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -11,25 +11,25 @@ ht-degree: 100%
 
 ## See Also {#see-also}
 
-* [Create an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hans)
-* [Add an AEM Adaptive Form to AEM Sites page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=zh-Hans)
-* [Apply themes to an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=zh-Hans)
+* [Create an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [Add an AEM Adaptive Form to AEM Sites page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [Apply themes to an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)
 * [Add components to an AEM Adaptive Form](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-* [Use reCAPTCHA in an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html?lang=zh-Hans)
-* [Generate PDF version (DoR) of an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html?lang=zh-Hans)
-* [Translate an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html?lang=zh-Hans)
-* [Enable Adobe Analytics for an Adaptive Form to track form usage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html?lang=zh-Hans)
-* [Connect Adaptive Form to Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hans#create-sharepoint-configuration)
-* [Connect Adaptive Form to Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hans#microsoft-power-automate)
-* [Connect Adaptive Form to Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hans#submit-to-onedrive)
-* [Connect Adaptive Form to Microsoft Azure Blob Storage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hans#submit-to-azure-blob-storage)
-* [Connect Adaptive Form to Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html?lang=zh-Hans)
-* [Use Adobe Sign in an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html?lang=zh-Hans)
-* [Add a new locale for an Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html?lang=zh-Hans)
-* [Send Adaptive Form data to a database](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html?lang=zh-Hans)
-* [Send Adaptive Form data to a REST endpoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hans#submit-to-rest-endpoint)
-* [Send Adaptive Form data to AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=zh-Hans#invoke-an-aem-workflow)
-* [Use Forms Portal to list AEM Adaptive Forms on an AEM website](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=zh-Hans)
+* [Use reCAPTCHA in an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html)
+* [Generate PDF version (DoR) of an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html)
+* [Translate an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html)
+* [Enable Adobe Analytics for an Adaptive Form to track form usage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html)
+* [Connect Adaptive Form to Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#create-sharepoint-configuration)
+* [Connect Adaptive Form to Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#microsoft-power-automate)
+* [Connect Adaptive Form to Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-onedrive)
+* [Connect Adaptive Form to Microsoft Azure Blob Storage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-azure-blob-storage)
+* [Connect Adaptive Form to Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html)
+* [Use Adobe Sign in an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html)
+* [Add a new locale for an Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html)
+* [Send Adaptive Form data to a database](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html)
+* [Send Adaptive Form data to a REST endpoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint)
+* [Send Adaptive Form data to AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
+* [Use Forms Portal to list AEM Adaptive Forms on an AEM website](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)
 -->
 
 ## 另请参阅 {#see-also}
@@ -62,6 +62,7 @@ ht-degree: 100%
 - [按钮](/help/adaptive-forms/components/button.md)
 - [复选框组](/help/adaptive-forms/components/checkbox-group.md)
 - [复选框](/help/adaptive-forms/components/checkbox.md)
+- [日期和时间](/help/adaptive-forms/components/date-time-component.md)
 - [日期选取器](/help/adaptive-forms/components/date-picker.md)
 - [下拉列表](/help/adaptive-forms/components/drop-down-list.md)
 - [电子邮件](/help/adaptive-forms/components/email.md)
@@ -79,7 +80,8 @@ ht-degree: 100%
 - [“垂直”选项卡](/help/adaptive-forms/components/vertical-tabs.md)
 - [单选按钮](/help/adaptive-forms/components/radio-button.md)
 - [重置按钮](/help/adaptive-forms/components/reset-button.md)
-- [审阅](/help/adaptive-forms/components/review.md)
+- [审查](/help/adaptive-forms/components/review.md)
+- [潦草签名](/help/adaptive-forms/components/scribble-signature.md)
 - [提交按钮](/help/adaptive-forms/components/submit-button.md)
 - [文本框](/help/adaptive-forms/components/text-box.md)
 - [文本](/help/adaptive-forms/components/text.md)
