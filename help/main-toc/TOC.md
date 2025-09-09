@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 对于传统的 AEM 项目，使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 97%
       + [自适应表单复选框](/help/adaptive-forms/components/checkbox.md)
       + [自适应表单复选框组](/help/adaptive-forms/components/checkbox-group.md)
       + [自适应表单容器](/help/adaptive-forms/components/form-container.md)
-      + [自适应Forms日期和时间](/help/adaptive-forms/components/date-time-component.md)
+      + [自适应表单日期和时间](/help/adaptive-forms/components/date-time-component.md)
       + [自适应表单日期选取器](/help/adaptive-forms/components/date-picker.md)
       + [自适应表单下拉列表](/help/adaptive-forms/components/drop-down-list.md)
       + [自适应表单电子邮件](/help/adaptive-forms/components/email.md)
@@ -128,7 +128,7 @@ ht-degree: 97%
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
       + [自适应表单重置按钮](/help/adaptive-forms/components/reset-button.md)
       + [自适应表单审阅](/help/adaptive-forms/components/review.md)
-      + [自适应Forms涂写签名](/help/adaptive-forms/components/scribble-signature.md)
+      + [自适应表单潦草签名](/help/adaptive-forms/components/scribble-signature.md)
       + [自适应表单提交按钮](/help/adaptive-forms/components/submit-button.md)
       + [自适应表单切换](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [自适应表单电话](/help/adaptive-forms/components/phone.md)

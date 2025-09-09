@@ -1,18 +1,18 @@
 ---
-title: 自适应Forms核心组件 — 日期和时间
-description: 使用或自定义自适应Forms日期和时间核心组件。
+title: 自适应表单核心组件 - 日期和时间
+description: 使用或自定义自适应表单日期和时间核心组件。
 role: Architect, Developer, Admin, User
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1898'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # 日期和时间组件
 
-自适应表单中的日期和时间组件是一个用户界面元素，它允许用户使用日历和时钟界面或通过以特定格式手动输入值来选择&#x200B;**日期和时间**。 它确保为日期和时间都至关重要的用例提供准确、标准化的输入。
+自适应表单中的日期和时间组件是一个用户界面元素，允许用户使用日程表和时钟界面选择&#x200B;**日期和时间**，或者手动输入特定格式的值。它可确保在日期和时间都非常重要的用例中进行准确的标准化输入。
 
 **示例**
 
@@ -20,32 +20,32 @@ ht-degree: 74%
 
 ## 用途 {#reasons-to-use-date-time-picker}
 
-在表单中包含日期和时间选取器有多种好处，包括：
+在自适应表单中加入日期和时间选取器很有好处，这可能有若干原因，包括：
 
-- **方便**：允许用户轻松选择日期和时间，而无需手动键入值。
-- **一致性**：强制对表单中的日期和时间输入使用标准格式。
-- **改进的用户体验**：提供带日历和时间选择器的直观UI。
-- **活动计划**：在约会预订、面试或会议计划表单中很有用。
-- **旅行和预订**：允许用户选择签到/签出日期和时间。
-- **数据准确性**：与自由文本输入相比，减少了输入错误。
+- **便利**：允许用户轻松选择日期和时间，无需手动输入数值。
+- **一致性**：在整个表单中强制日期和时间的标准格式输入。
+- **改进用户体验**：通过日程表和时间选择器提供直观的用户界面。
+- **事件计划**：在预约、面谈或会议计划表格中十分有用。
+- **旅行和预订**：使用户能够选择入住/退房日期和时间。
+- **数据准确性**：与自由文本输入相比，减少输入错误。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应Forms日期和时间核心组件于2025年8月&#x200B;**发布**，作为Cloud Service及更高版本的&#x200B;**核心组件2.24.6**&#x200B;的一部分。
+自适应表单日期和时间核心组件于 **2025 年 8 月**&#x200B;作为 Cloud Service 的&#x200B;**核心组件 2.24.6** 及更高版本的一部分发布。
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v1 | 与<br>[版本 2.24.6](/help/adaptive-forms/version.md) 和更高版本兼容 | |
+| v1 | 兼容<br>[版本 2.24.6](/help/adaptive-forms/version.md) 和更高版本 | |
 
-有关版本的详细信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)。
+有关各版本的详细信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)。
 
 ## 技术详细信息 {#technical-details}
 
-在[GitHub](https://github.com/adobe/aem-core-forms-components)上获取有关自适应Forms日期和时间核心组件的最新技术详细信息。 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+在 [GitHub](https://github.com/adobe/aem-core-forms-components) 上获取有关自适应表单日期和时间核心组件的最新技术详细信息。有关核心组件开发的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
-利用“配置”对话框，可以自定义日期和时间。
+配置对话框允许自定义日期和时间。
 
 ### “基本”选项卡 {#basic-tab}
 
@@ -69,7 +69,7 @@ ht-degree: 74%
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。当需要存储用户无需看到或直接更改的信息时，此项很有用。
 - **禁用组件** - 选中此选项以禁用该组件。被禁用的组件不再活跃或最终用户无法编辑它。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
 - **只读** - 选中此选项以使组件不可编辑。用户可看到但无法修改字段的值。仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
-- **默认日期和时间** — 此选项允许您向表单字段添加日期和时间。 输入的日期默认显示在组件的位置。如果用户未输入日期或时间，则在提交表单时提交此值。 如果选择&#x200B;**已禁用的组件**&#x200B;或&#x200B;**只读组件**，则屏幕上将显示默认日期和时间，并在提交表单时提交该日期和时间。
+- **默认日期和时间** - 通过此选项可在表单字段中添加日期和时间。输入的日期默认显示在组件的位置。如果用户没有输入日期和时间，这个值就采用表单提交的时间。如果选择了&#x200B;**被禁用的组件**&#x200B;或&#x200B;**只读组件**，屏幕上就会显示默认日期和时间，并在提交表单时提交默认值。
 
 ### “验证”选项卡 {#validation-tab}
 
@@ -81,13 +81,13 @@ ht-degree: 74%
 
 - **脚本验证消息** - 通过此选项，可输入如果脚本验证失败，所显示的消息。
 
-- **最早日期** - 通过此选项，可输入要求的最早日期。如果输入的日期早于在最小日期和时间中指定的日期，则屏幕上将显示一条错误消息。 通过&#x200B;**最早日期错误消息**&#x200B;对话框，可添加自定义错误消息。
+- **最早日期** - 通过此选项，可输入要求的最早日期。如果输入的日期早于“最早日期和时间”中指定的值，屏幕上就会显示一条错误消息。通过&#x200B;**最早日期错误消息**&#x200B;对话框，可添加自定义错误消息。
 
-- **最小错误消息** - **最小错误消息**&#x200B;对话框允许您添加要显示的自定义错误消息，如果您输入的日期或时间早于&#x200B;**最小日期**&#x200B;选项中指定的日期或时间。
+- **最早日期错误消息** - 您可以在&#x200B;**最早日期错误消息**&#x200B;对话框中添加在输入的日期早于&#x200B;**最早日期**&#x200B;选项中指定日期和时间的情况下应显示的自定义错误消息。
 
-- **最大日期** — 此选项允许您输入所需的最长日期和时间。 如果输入的日期或时间晚于在“最大日期”中指定的日期或时间，屏幕上将显示一条错误消息。 通过&#x200B;**最晚日期错误消息**&#x200B;对话框，可添加自定义错误消息。
+- **最晚日期** - 您可以通过此选项输入要求的最晚日期和时间。如果输入的日期或时间晚于“最晚日期”中指定的日期或时间，屏幕上就会显示一条错误消息。通过&#x200B;**最晚日期错误消息**&#x200B;对话框，可添加自定义错误消息。
 
-- **最大错误消息** - **最大错误消息**&#x200B;对话框允许您添加要显示的自定义错误消息，如果您输入的日期或时间晚于&#x200B;**最大日期**&#x200B;选项中指定的日期或时间。
+- **最晚日期错误消息** - 您可以在&#x200B;**最晚日期错误消息**&#x200B;对话框中添加在输入的日期或时间晚于&#x200B;**最晚日期**&#x200B;选项中指定的日期或时间的情况下应显示的自定义错误消息。
 
 ### “帮助内容”选项卡 {#help-content-tab}
 
@@ -133,20 +133,20 @@ The set of languages is not visible by default, but users can input a custom **I
 
         >[!NOTE]
         >
-        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 -->
 
 ## “设计”对话框 {#design-dialog}
 
-“设计”对话框用于定义和管理日期和时间组件的CSS样式。
+“设计”对话框用于定义和管理日期和时间组件的 CSS 样式。
 
 ### “样式”选项卡 {#styles-tab}
 
-该选项卡用于定义和管理组件的 CSS 样式。自适应Forms日期和时间核心组件支持AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+该选项卡用于定义和管理组件的 CSS 样式。自适应表单日期和时间核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
 ![“样式”选项卡](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **默认CSS类**：可以为自适应Forms日期和时间核心组件提供默认CSS类。
+- **默认 CSS 类**：您可以为自适应表单日期和时间核心组件提供一个默认 CSS 类。
 
 - **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
@@ -175,7 +175,7 @@ The formats tab allows you to specify default and custom date formats.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hans)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
