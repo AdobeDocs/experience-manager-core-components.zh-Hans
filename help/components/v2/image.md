@@ -4,8 +4,8 @@ description: 核心组件图像组件是一个自适应图像组件，具备就�
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
+source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
+workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->图像组件由自适应图像 Servlet 提供支持。 有关其工作原理的详细信息，请参阅[自适应图像 Servlet](#adaptive-image-servlet)。
+>图像组件由自适应图像 Servlet 提供支持。 有关其工作原理的详细信息，请参阅[自适应图像 Servlet](/help/developing/adaptive-image-servlet.md)。
 
 ## Dynamic Media 支持 {#dynamic-media}
 
@@ -81,9 +81,9 @@ ht-degree: 100%
 ![图像组件“配置”对话框的“资源”选项卡](/help/assets/image-configure-asset.png)
 
 * **图像资源**
-   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
    * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 ### “元数据”选项卡 {#metadata-tab}
 
@@ -206,7 +206,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->查看文档[自适应图像 Servlet](#adaptive-image-servlet) 以了解通过仔细定义宽度来优化演绎版选择的提示。
+>查看文档[自适应图像 Servlet](/help/developing/adaptive-image-servlet.md) 以了解通过仔细定义宽度来优化演绎版选择的提示。
 
 ### “功能”选项卡 {#features-tab}
 
