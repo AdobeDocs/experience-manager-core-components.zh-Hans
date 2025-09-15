@@ -4,15 +4,15 @@ description: 使用或自定义自适应表单潦草签名核心组件。
 role: Architect, Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
 source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 潦草签名组件
 
-<span>涂写签名组件在早期采用程序下。 您可以从官方电子邮件ID写入`aem-forms-ea@adobe.com`以加入早期采用者计划并请求访问功能。</span>
+<span>潦草签名组件目前处于早期采用者计划阶段。您可以通过您的官方电子邮件 ID 向 `aem-forms-ea@adobe.com` 发送电子邮件，以加入早期采用者计划并请求对该功能的访问权限。</span>
 
 自适应表单中的潦草签名组件是一个用户界面元素，允许用户使用鼠标、触控笔或触摸屏直接在表单中绘制他们的&#x200B;**签名**。它可确保在数字工作流中准确捕获手写的同意、审批或验证。
 
