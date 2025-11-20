@@ -6,7 +6,7 @@ feature: Core Components
 user-guide-description: 对于传统的 AEM 项目，使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
    + [可折叠项](/help/components/accordion.md)
    + [痕迹导航](/help/components/breadcrumb.md)
    + [按钮](/help/components/button.md)
-   + [轮盘](/help/components/carousel.md)
+   + [轮播](/help/components/carousel.md)
    + [容器](/help/components/container.md)
    + [内容片段](/help/components/content-fragment-component.md)
    + [内容片段列表](/help/components/content-fragment-list.md)
