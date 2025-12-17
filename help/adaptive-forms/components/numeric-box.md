@@ -189,10 +189,10 @@ To experience the Accordion Component as well as see examples of its configurati
 要将格式添加到模板策略，请执行以下操作：
 
 1. 在模板编辑器中打开与一个或多个自适应表单关联的相应模板。
-2. 在&#x200B;**允许的组件**&#x200B;部分中，选择&#x200B;**[!UICONTROL Number Input]**组件。
+2. 在&#x200B;**允许的组件**&#x200B;部分中，选择&#x200B;**[!UICONTROL Number Input]**&#x200B;组件。
    ![日期选取器范本原则](/help/adaptive-forms/assets/number-input-policy.png)
 3. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;图标以为Number Input组件创建新策略。
-4. 输入策略的名称，然后在&#x200B;**格式**选项卡下选择所有必需的格式。
+4. 输入策略的名称，然后在&#x200B;**格式**&#x200B;选项卡下选择所有必需的格式。
    ![创建策略](/help/adaptive-forms/assets/date-picker-format-policy.png)
 5. 单击&#x200B;**[!UICONTROL 完成]**。
 
