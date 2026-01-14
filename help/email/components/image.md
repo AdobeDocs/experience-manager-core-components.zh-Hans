@@ -4,10 +4,10 @@ description: 电子邮件图像组件是一个自适应图像组件，具备就�
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1624'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '1626'
+ht-degree: 98%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 100%
 
 ## Dynamic Media 支持 {#dynamic-media}
 
-电子邮件图像组件支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans#dynamicmedia) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁切。
+电子邮件图像组件支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁剪。
 
-使用电子邮件核心组件构建的电子邮件体验现在具备丰富、支持 Sensei、可靠、高性能、跨平台的 Dynamic Media 图像功能。
+使用电子邮件核心组件构建的电子邮件体验现在具备丰富、支持Adobe AI、可靠、高性能、跨平台的Dynamic Media图像功能。
 
 ## SVG 支持 {#svg-support}
 
@@ -86,9 +86,9 @@ ht-degree: 100%
    * **从页面继承替换文本** – 此选项使用 DAM 中 `dc:description` 元数据的链接资源值的替代描述或当前页面的替代描述（如果未链接资源）。
 
 * **图像资源**
-   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
-   * 点按或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
+   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 * **不提供替换文本** – 此选项将图像标记为被屏幕阅读器等辅助技术忽略，以用于图像纯粹起装饰作用或不向页面传达额外信息的情况。
 
@@ -98,9 +98,9 @@ ht-degree: 100%
 
 ![图像组件“配置”对话框的“元数据”选项卡](/help/email/assets/email-image-configure-metadata.png)
 
-* **预设类型** – 这定义了可用图像预设的类型，可以是&#x200B;**图像预设**&#x200B;或&#x200B;**智能裁切**，并且仅在启用了 [Dynamic Media 功能](#dynamic-meida)的情况下可用。
+* **预设类型** – 这定义了可用图像预设的类型，可以是&#x200B;**图像预设**&#x200B;或&#x200B;**智能裁剪**，并且仅在启用了 [Dynamic Media 功能](#dynamic-meida)的情况下可用。
    * **图像预设** - 选中了&#x200B;**图像预设**&#x200B;的&#x200B;**预设类型**&#x200B;时，下拉菜单&#x200B;**图像预设**&#x200B;可用，并允许从可用的 Dynamic Media 预设中选择。 此项只有在为所选资源定义了预设时才可用。
-   * **智能裁切** - 选中了&#x200B;**智能裁切**&#x200B;的&#x200B;**预设类型**&#x200B;时，下拉菜单&#x200B;**再现**&#x200B;可用，并允许从所选资源的可用再现中选择。 此项只有在为所选资源定义了再现时才可用。
+   * **智能裁剪** - 选中了&#x200B;**智能裁剪**&#x200B;的&#x200B;**预设类型**&#x200B;时，下拉菜单&#x200B;**演绎版**&#x200B;可用，并允许从所选资源的可用演绎版中选择。 此项只有在为所选资源定义了再现时才可用。
    * **图像修饰符** - 在这里可以定义其他 Dynamic Media 图像服务命令，不论选择了什么&#x200B;**预设类型**，都使用 `&` 分隔。
 * **题注** – 有关图像的附加信息，默认显示在图像的下方。
    * **从 DAM 获取题注** – 选中时，将使用 DAM 中 `dc:title` 元数据的值填充图像的题注文本。仅在从 DAM 中选择资产时可用。
@@ -110,7 +110,7 @@ ht-degree: 100%
    * 如果未链接到 AEM 资源，请输入绝对 URL。非绝对 URL 将解释为相对于 AEM。
    * **在新标签页中打开链接** – 此选项在一个新的浏览器窗口中打开链接。
 * **ID** - 此选项允许控制 HTML 中组件的唯一标识符。
-   * 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
+   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改 ID 会对 CSS 产生影响。
 * **固定为** – 此选项定义图像的宽度（以像素为单位）。
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->**智能裁切**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。如果作者需要使用图像预设配合智能裁切演绎版，则作者必须使用&#x200B;**图像修饰符**&#x200B;手动添加预设。
+>**智能裁剪**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。如果作者需要使用图像预设配合智能裁剪演绎版，则作者必须使用&#x200B;**图像修饰符**&#x200B;手动添加预设。
 
 ### “样式”选项卡 {#styles-tab-edit}
 
@@ -153,7 +153,7 @@ ht-degree: 100%
 您可以定义图像的宽度（以像素为单位），组件将根据浏览器的大小自动加载最合适的宽度。这是电子邮件图像组件的[响应式功能](#responsive-features)的重要组成部分。
 
 * **宽度** – 定义图像的宽度（以像素为单位），组件将根据浏览器的大小自动加载最合适的宽度。
-   * 点按或单击&#x200B;**“添加”**&#x200B;按钮可添加其他大小。
+   * 点击或单击&#x200B;**“添加”**&#x200B;按钮可添加其他大小。
       * 使用抓取手柄可重新排列大小。
       * 使用&#x200B;**“删除”**&#x200B;图标可删除宽度。
    * 默认情况下，图像加载会被延迟，直到图像变得可见。

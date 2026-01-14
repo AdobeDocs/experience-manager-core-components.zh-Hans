@@ -3,10 +3,10 @@ title: 图像组件
 description: 核心组件图像组件是自适应图像组件。
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '2062'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -59,9 +59,9 @@ ht-degree: 100%
 
 ## Dynamic Media 支持 {#dynamic-media}
 
-图像组件（截止 [发行版本 2.13.0](/help/versions.md)）支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans) 资源。[在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁切。
+图像组件（截止 [发行版本 2.13.0](/help/versions.md)）支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) 资源。[在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁剪。
 
-使用核心组件构建的 Web 体验现在具备丰富、支持 Sensei、可靠、高性能、跨平台的 Dynamic Media 图像功能。
+使用核心组件构建的Web体验现在具备丰富、支持Adobe AI、可靠、高性能、跨平台的Dynamic Media图像功能。
 
 ## 远程资产支持 {#remote-assets}
 
@@ -159,13 +159,13 @@ ht-degree: 100%
 
 * **图像资源** - 如果选中了&#x200B;**从页面继承特色图像**，则自动填充此项。取消选中可通过设置以下选项而手动定义图像。
 
-   * 将资源放置在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)中或点按&#x200B;**浏览**&#x200B;选项，以使您可从本地文件系统上传。
+   * 将资源放置在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)中或点按&#x200B;**浏览**&#x200B;选项，以使您可从本地文件系统上传。
    * 点按或单击&#x200B;**清除**&#x200B;以取消选择当前选择的图像。
-   * 点按或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)，以使您可选择图像。
+   * 点按或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)，以使您可选择图像。
       * 如果启用了 [远程资产支持](#remote-assets)，您有选择资产的多种选项：
          * **本地**&#x200B;从本地 AEM 资源库选择。
          * **远程**&#x200B;从您的 AEM 实例之外的 Dynamic Media 库选择。
-   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html)。
 
 * **用于辅助功能的替换文本** – 此字段允许您为视障用户定义图像的描述。
 
@@ -177,7 +177,7 @@ ht-degree: 100%
 
 ![图像组件“配置”对话框的“元数据”选项卡](/help/assets/image-configure-metadata.png)
 
-* **预设类型** – 这定义了可用图像预设的类型，可以是&#x200B;**图像预设**&#x200B;或&#x200B;**智能裁切**，并且仅在启用了 [Dynamic Media 功能](#dynamic-meida)的情况下可用。
+* **预设类型** – 这定义了可用图像预设的类型，可以是&#x200B;**图像预设**&#x200B;或&#x200B;**智能裁剪**，并且仅在启用了 [Dynamic Media 功能](#dynamic-meida)的情况下可用。
    * **图像预设** - 选中了&#x200B;**图像预设**&#x200B;的&#x200B;**预设类型**&#x200B;时，下拉菜单&#x200B;**图像预设**&#x200B;可用，并允许从可用的 Dynamic Media 预设中选择。 此项只有在为所选资源定义了预设时才可用。
    * **智能裁剪** - 选中&#x200B;**智能裁剪**&#x200B;的&#x200B;**预设类型**&#x200B;时，将有&#x200B;**演绎版**&#x200B;下拉菜单可用，可从中选择所选资源的可用演绎版。只有为所选资源定义了演绎版，才有此项可用。
    * **图像修饰符** – 在这里可以定义其他 Dynamic Media 图像服务命令，不论选择了什么&#x200B;**预设类型**，都使用 `&` 分隔。
@@ -189,7 +189,7 @@ ht-degree: 100%
    * 如果未链接到 AEM 资源，请输入绝对 URL。无法解析的 URL 被解释为相对于 AEM。
    * **在新标签页中打开链接** - 此选项在新浏览器窗口中打开链接。
 * **ID** - 通过此选项，可控制组件在 HTML 和[数据层](/help/developing/data-layer/overview.md)中的唯一标识符。
-   * 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
+   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改 ID 可能会影响 CSS、JS 和数据层跟踪。
 
@@ -231,7 +231,7 @@ ht-degree: 100%
 可为图像定义以像素为单位的宽度的列表，而组件根据浏览器大小自动加载最合适的宽度。这是图像组件的[响应式功能](#responsive-features)的重要组成部分。
 
 * **宽度** – 定义图像的宽度（以像素为单位），组件将根据浏览器的大小自动加载最合适的宽度。
-   * 点按或单击&#x200B;**“添加”**&#x200B;按钮可添加其他大小。
+   * 点击或单击&#x200B;**“添加”**&#x200B;按钮可添加其他大小。
       * 使用抓取手柄重新排列大小顺序。
       * 使用&#x200B;**“删除”**&#x200B;图标可删除宽度。
    * 默认情况下，图像加载会被延迟，直到图像变得可见。
@@ -246,6 +246,6 @@ ht-degree: 100%
 
 图像组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-## Adobe 客户端数据层 {#data-layer}
+## Adobe Client Data Layer {#data-layer}
 
 图像组件支持 [Adobe 客户端数据层](/help/developing/data-layer/overview.md)。

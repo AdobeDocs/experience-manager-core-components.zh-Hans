@@ -4,10 +4,10 @@ description: 核心组件图像组件是一个自适应图像组件，具备就�
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '2050'
+ht-degree: 98%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 100%
 
 ## Dynamic Media 支持 {#dynamic-media}
 
-图像组件（截止 [发行版本 2.13.0](/help/versions.md)）支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans#dynamicmedia) 资源。[在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁切。
+图像组件（截止 [发行版本 2.13.0](/help/versions.md)）支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans#dynamicmedia) 资源。[在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁剪。
 
-使用核心组件构建的 Web 体验现在具备丰富、支持 Sensei、可靠、高性能、跨平台的 Dynamic Media 图像功能。
+使用核心组件构建的Web体验现在具备丰富、支持Adobe AI、可靠、高性能、跨平台的Dynamic Media图像功能。
 
 ## SVG 支持 {#svg-support}
 
@@ -81,17 +81,17 @@ ht-degree: 100%
 ![图像组件“配置”对话框的“资源”选项卡](/help/assets/image-configure-asset.png)
 
 * **图像资源**
-   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
    * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 ### “元数据”选项卡 {#metadata-tab}
 
 ![图像组件“配置”对话框的“元数据”选项卡](/help/assets/image-configure-metadata.png)
 
-* **预设类型** – 这定义了可用图像预设的类型，可以是&#x200B;**图像预设**&#x200B;或&#x200B;**智能裁切**，并且仅在启用了 [Dynamic Media 功能](#dynamic-meida)的情况下可用。
+* **预设类型** – 这定义了可用图像预设的类型，可以是&#x200B;**图像预设**&#x200B;或&#x200B;**智能裁剪**，并且仅在启用了 [Dynamic Media 功能](#dynamic-meida)的情况下可用。
    * **图像预设** – 选中了&#x200B;**预设类型**&#x200B;的&#x200B;**图像预设**&#x200B;时，下拉菜单&#x200B;**图像预设**&#x200B;可用，并允许从可用的 Dynamic Media 预设中选择。此项只有在为所选资源定义了预设时才可用。
-   * **智能裁切** – 选中了&#x200B;**预设类型**&#x200B;的&#x200B;**智能裁切**&#x200B;时，下拉菜单&#x200B;**再现**&#x200B;可用，并允许从所选资源的可用再现中选择。此项只有在为所选资源定义了再现时才可用。
+   * **智能裁剪** – 选中了&#x200B;**预设类型**&#x200B;的&#x200B;**智能裁剪**&#x200B;时，下拉菜单&#x200B;**演绎版**&#x200B;可用，并允许从所选资源的可用再现中选择。此项只有在为所选资源定义了再现时才可用。
    * **图像修饰符** – 在这里可以定义其他 Dynamic Media 图像服务命令，不论选择了什么&#x200B;**预设类型**，都使用 `&` 分隔。
 * **图像是装饰性的** – 检查图像是否应被辅助技术忽略，因此不需要替换文本。这仅适用于装饰性图像。
 * **替换文本** – 用于替代该图像含义或功能的文字内容，适用于视障读者。
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->**智能裁切**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。如果作者需要使用图像预设以及智能裁切再现，该作者必须使用&#x200B;**图像修饰符**&#x200B;来手动添加预设。
+>**智能裁剪**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。如果作者需要使用图像预设配合智能裁剪演绎版，则作者必须使用&#x200B;**图像修饰符**&#x200B;来手动添加预设。
 
 ## “编辑”对话框 {#edit-dialog}
 
