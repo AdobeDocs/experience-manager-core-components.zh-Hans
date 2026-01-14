@@ -47,7 +47,7 @@ ht-degree: 98%
 
 ## Dynamic Media 支持 {#dynamic-media}
 
-电子邮件图像组件支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁剪。
+电子邮件图像组件支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans#dynamicmedia) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁剪。
 
 使用电子邮件核心组件构建的电子邮件体验现在具备丰富、支持Adobe AI、可靠、高性能、跨平台的Dynamic Media图像功能。
 
@@ -86,9 +86,9 @@ ht-degree: 98%
    * **从页面继承替换文本** – 此选项使用 DAM 中 `dc:description` 元数据的链接资源值的替代描述或当前页面的替代描述（如果未链接资源）。
 
 * **图像资源**
-   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
    * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
+   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
 
 * **不提供替换文本** – 此选项将图像标记为被屏幕阅读器等辅助技术忽略，以用于图像纯粹起装饰作用或不向页面传达额外信息的情况。
 
