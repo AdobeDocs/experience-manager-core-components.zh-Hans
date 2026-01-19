@@ -3,10 +3,10 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: ht
-source-wordcount: '3087'
-ht-degree: 100%
+source-git-commit: 684bdb4168be00f02bb306dd7ab183e8c439b9e7
+workflow-type: tm+mt
+source-wordcount: '3110'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|---|
+| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | 此版本更正了与PDF查看器相关的非本地化字符串。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025年10月23日 |
 | [ 2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 本次发布解决了多个资产和 Dynamic Media 相关问题，明确了 LTS 支持，并修复了大量错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025 年 9 月 4 日 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | 此版本增加了对在网站核心组件中创作资产预览版本的支持，并解决了许多错误修复。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025 年 4 月 21 日 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 此版本修复了大量错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025 年 3 月 17 日 |
@@ -39,7 +40,7 @@ ht-degree: 100%
 | [ 2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | 此补丁版本提高了集成测试的稳定性。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 22 日 |
 | [ 2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 此版本增加了对 Google Tag Manager 数据层的支持并修复了各种错误。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 14 日 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | 此补丁版本包括各种错误修复。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 9 月 15 日 |
-| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 此补丁将 Dynamic Media 远程资源智能裁切添加到[图像](/help/components/image.md)和 [Teaser 组件](/help/components/teaser.md)并修复了若干错误。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 4 月 8 日 |
+| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 此补丁将 Dynamic Media 远程资源智能裁剪添加到[图像](/help/components/image.md)和 [Teaser 组件](/help/components/teaser.md)并修复了若干错误。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 4 月 8 日 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 此版本添加了对[新一代 Dynamic Media 远程资源](/help/developing/remote-assets.md)的支持。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 6 月 6 日 |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | 此补丁版本修复了两个问题。 | - | 6.5.14.0+ | - | 连续 | 8, 11 | 2023 年 5 月 25 日 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | 此补丁版本修复了两个回归。 | - | 6.5.14.0+ | - | 连续 | 8, 11 | 2023 年 5 月 11 日 |
@@ -47,7 +48,7 @@ ht-degree: 100%
 | [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | 此补丁版本修复了[容器组件](/help/components/container.md)中的某个回归。 | - | 6.5.14.0+ | - | 连续 | 8, 11 | 2023 年 4 月 21 日 |
 | [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | 这是一个补丁发行版本，用于修复[内容片段列表组件](/help/components/content-fragment-list.md)中的问题。 | - | 6.5.14.0+ | - | 连续 | 8, 11 | 2023 年 4 月 5 日 |
 | [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | 这是一个维护版本，用于解决 2.22.0 中引入的两个问题 | - | 6.5.14.0+ | - | 连续 | 8, 11 | 2023 年 3 月 31 日 |
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入[列表组件](/help/components/list.md)的新版本以及改进 [Teaser](/help/components/teaser.md) 并更新 [PDF 查看器](/help/components/pdf-viewer.md)和[轮盘](/help/components/carousel.md) | - | 6.5.14.0+ | - | 连续 | 8, 11 | 2023 年 2 月 9 日 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | 此版本引入[列表组件](/help/components/list.md)的新版本以及改进 [Teaser](/help/components/teaser.md) 并更新 [PDF 查看器](/help/components/pdf-viewer.md)和[轮播](/help/components/carousel.md) | - | 6.5.14.0+ | - | 连续 | 8, 11 | 2023 年 2 月 9 日 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | 这是一个补丁版本，它修复了 v1 和 v2 中 [Teaser 组件](/help/components/teaser.md)的问题。 | - | 6.5.13.0+ | - | 连续 | 8, 11 | 2022 年 9 月 12 日 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | 此版本包括许多增强功能，其中包括发布了 LinkHandler API、改进了[图像组件](/help/components/image.md)和[数据层](/help/developing/data-layer/overview.md)以及改进了多面板组件。 | - | 6.5.13.0+ | - | 连续 | 8, 11 | 2022 年 9 月 12 日 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | 此版本修复了通过 AdaptiveImageServlet 传送 SVG 图像的问题。 | - | 6.5.13.0+ | - | 连续 | 8, 11 | 2022 年 8 月 4 日 |
@@ -87,8 +88,8 @@ ht-degree: 100%
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | 此发行版本引入了[内容片段列表组件](/help/components/content-fragment-list.md)。 | 6.4.2.0+ | 6.5.0.0+ | - | 连续 | 8, 11 | 2019 年 5 月 7 日 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | 此发行版本重点对[组件库](https://aemcomponents.dev)进行了改良，但还包括了一些针对[分隔符组件](/help/components/separator.md)的功能增强。 | 6.4.2.0+ | 6.5.0.0+ | - | 连续 | 8 | 2019 年 3 月 14 日 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | 此发行版本重点针对[组件库](https://aemcomponents.dev)进行了改进，以及引入了新的[分隔符组件](/help/components/separator.md)，但还包括了一些针对[图像组件](/help/components/image.md)的功能增强。 | 6.4.2.0+ | - | - | - | 8 | 2019 年 2 月 11 日 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此发行版本主要针对错误修复，但还包括了一些针对[轮盘组件](/help/components/carousel.md)的功能增强。 | 6.4.2.0+ | - | - | - | 8 | 2018 年 11 月 27 日 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 此发行版本引入了[选项卡组件](/help/components/tabs.md)和[轮盘组件](/help/components/carousel.md)，还包括对[图像组件](/help/components/image.md)、[页面组件](/help/components/page.md)和[标题组件](/help/components/title.md)的改进，并增强了跟踪功能。 | 6.4.2.0+ | -- |  | - | 8 | 2018 年 10 月 16 日 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | 此发行版本主要针对错误修复，但还包括了一些针对[轮播组件](/help/components/carousel.md)的功能增强。 | 6.4.2.0+ | - | - | - | 8 | 2018 年 11 月 27 日 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | 此发行版本引入了[选项卡组件](/help/components/tabs.md)和[轮播组件](/help/components/carousel.md)，还包括对[图像组件](/help/components/image.md)、[页面组件](/help/components/page.md)和[标题组件](/help/components/title.md)的改进，并增强了跟踪功能。 | 6.4.2.0+ | -- |  | - | 8 | 2018 年 10 月 16 日 |
 | [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | 此发行版本引入了 [Teaser 组件](/help/components/teaser.md)以及对[图像组件](/help/components/image.md)的改进，并修复了多个错误。 | 6.4.2.0+ | -- |  | - | 8 | 2018 年 7 月 13 日 |
 | [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | 这是错误修复发行版本。 | 6.4.0.0+ | -- |  | - | 8 | 2018 年 6 月 12 日 |
 | [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | 此发行版本添加了底层改进、错误修复以及小改进，包括支持[图像组件](/help/components/image.md)中的图像翻转。 | 6.4.0.0+ | - | - | - | 8 | 2018 年 4 月 11 日 |
@@ -127,7 +128,7 @@ ht-degree: 100%
 | **[快速搜索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 |
 | **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[选项卡](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[轮盘](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[轮播](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[分隔符](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[内容片段列表](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[折叠](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |

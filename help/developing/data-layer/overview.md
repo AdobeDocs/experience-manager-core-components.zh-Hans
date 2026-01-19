@@ -4,10 +4,10 @@ description: 将 Adobe Client Data Layer 与核心组件配合使用
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '952'
-ht-degree: 100%
+source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 96%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Client Data Layer 与平台无关，而是与核心组件完全集成以�
 * [折叠](/help/components/accordion.md)
 * [痕迹导航](/help/components/breadcrumb.md)
 * [按钮](/help/components/button.md)
-* [轮盘](/help/components/carousel.md)
+* [轮播](/help/components/carousel.md)
 * [内容片段](/help/components/content-fragment-component.md)
 * [图像](/help/components/image.md)
 * [语言导航](/help/components/language-navigation.md)
@@ -120,6 +120,10 @@ id: {                   // component ID
 }
 ```
 
+>[!NOTE]
+>
+>此架构是用作多个核心组件的基本模式的通用组件项架构。 这并不保证每个列出的组件都会填充每个项目上的所有这些字段。
+
 以下[事件](#events)与组件/容器项目架构相关：
 
 * `cmp:click`
@@ -156,7 +160,7 @@ id: {
 
 * [折叠](/help/components/accordion.md)
 * [选项卡](/help/components/tabs.md)
-* [轮盘](/help/components/carousel.md)
+* [轮播](/help/components/carousel.md)
 
 容器架构的定义如下。
 
@@ -259,7 +263,7 @@ id: {
 以下是 AEM 核心组件提供的现成事件。
 
 * **`cmp:click`** - 单击一个可单击元素（具有 `data-cmp-clickable` 属性的元素）会导致 Data Layer 触发 `cmp:click` 事件。
-* **`cmp:show`** 和 **`cmp:hide`** - 处理折叠（展开/折叠）、轮盘（下一页/上一页按钮）和选项卡（选项卡选择）组件会导致 Data Layer 分别触发 `cmp:show` 和 `cmp:hide` 事件。`cmp:show` 事件还会在页面加载时分发，并且预期成为第一个事件。
+* **`cmp:show`** 和 **`cmp:hide`** - 处理折叠（展开/折叠）、轮播（下一页/上一页按钮）和选项卡（选项卡选择）组件会导致数据层分别触发 `cmp:show` 和 `cmp:hide` 事件。`cmp:show` 事件还会在页面加载时分发，并且预期成为第一个事件。
 * **`cmp:loaded`** - 使用页面上的核心组件填充 Data Layer 之后，Data Layer 马上触发 `cmp:loaded` 事件。
 
 ### 组件触发的事件 {#events-components}
@@ -271,7 +275,7 @@ id: {
 | [折叠](/help/components/accordion.md) | `cmp:show` 和 `cmp:hide` |
 | [按钮](/help/components/button.md) | `cmp:click` |
 | [痕迹导航](/help/components/breadcrumb.md) | `cmp:click` |
-| [轮盘](/help/components/carousel.md) | `cmp:show` 和 `cmp:hide` |
+| [轮播](/help/components/carousel.md) | `cmp:show` 和 `cmp:hide` |
 | [语言导航](/help/components/language-navigation.md) | `cmp:click` |
 | [导航](/help/components/navigation.md) | `cmp:click` |
 | [页面](/help/components/page.md) | `cmp:show` |
@@ -309,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教程
 
-希望更详细地探讨 Data Layer 和核心组件？[请查看此实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=zh-Hans)。
+希望更详细地探讨 Data Layer 和核心组件？[请查看此实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
 
 >[!TIP]
 >
