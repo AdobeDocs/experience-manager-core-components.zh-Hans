@@ -3,10 +3,10 @@ title: AEM 自适应表单核心组件简介
 description: 借助自适应表单核心组件的灵活性创建引人入胜的注册体验（表单），并利用 Adobe Experience Manager 的强大功能进行交付。
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2123'
-ht-degree: 100%
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 |  |  |
 |---|---|
-| 可以即刻投入使用 | 自适应表单核心组件是 24 个功能强大的 WCM 组件。 |
+| 可用于生产 | 自适应表单核心组件是 24 个功能强大的 WCM 组件。 |
 | 云就绪 | 适用于 [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html?lang=zh-Hans)。 |
 | 可以通用 | 这些组件代表了表单作者可用来设计几乎任何布局的通用概念。 |
 | 可配置 | 模板级[内容策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=zh-Hans#content-policies)定义了可以使用或无法使用的功能。 |
@@ -96,7 +96,7 @@ AEM Forms 的当前版本具有以下核心组件、[基础组件](https://exper
 | 脚注占位符 | ✔️ | | | |
 | 表单容器 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | 对于基础组件，使用[根面板组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel)。 |
 | 表单标题 | ✔️ | ✔️ | | 对于基础组件，使用标题组件。 |
-| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | 对于基础组件，您可以[将自适应表单与 hCaptcha](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html?lang=zh-Hans) 连接起来，以获得基于基础组件的表单。 |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | 对于基础组件，您可以[将自适应表单与 hCaptcha](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html) 连接起来，以获得基于基础组件的表单。 |
 | 页眉 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | 水平选项卡 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | 对于基础组件，您可以在面板组件属性中配置[顶部选项卡（水平选项卡）布局](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout)。 |
 | 图像 | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
@@ -211,30 +211,31 @@ AEM Forms 的当前版本具有以下核心组件、[基础组件](https://exper
    * [调用 AEM 工作流](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
 
 
-* [Sites 页面编辑器中的自适应表单核心组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page)：您可以在 AEM 页面编辑器和 AEM 体验片段中启用和使用自适应表单核心组件，以直接创建数据捕获体验以及构建 Sites 页面。
+* [Sites页面编辑器中的自适应Forms核心组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page)：您可以使用AEM页面编辑器中的自适应Forms核心组件和AEM体验片段，在构建Sites页面的同时直接创建数据捕获体验。
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
 * **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
--->
 
 
 
-## 启用自适应表单核心组件
 
-通过在 AEM Forms as a Cloud Service 上启用自适应表单核心组件，您可以使用 AEM Forms Cloud Service 实例为多个渠道创建、发布和投放基于核心组件的自适应表单和 Headless 表单。有关启用自适应表单核心组件的详细说明，请参阅[在 AEM Forms as a Cloud Service 和本地开发环境上启用自适应表单核心组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=zh-Hans)。
+## Enable Adaptive Forms Core Components
 
-自适应表单核心组件具有以下要求。
+Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
-| AEM 版本 | AEM Forms 附加组件 | 自适应表单核心组件 |
+The Adaptive Forms Core Components have the following requirements.
+
+|AEM Version|AEM Forms add-on|Adaptive Forms Core Components|
 |---|---|---|
-| AEM as a Cloud Service | 表单 - 数字注册 | [版本 2.0.10](version.md) 以上 |
-| AEM 6.5 | Forms 附加组件 | [版本 1.1.12](version.md) 以上 |
+|AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.0.10](version.md)+|
+|AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
 
-如果您的 AEM Cloud Service SDK 版本低于 2023.02.0，请[确保在您的环境上启用 `prerelease` 标志](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)，因为自适应表单核心组件是低于 2023.02.0 版本的预发行版本的一部分。
+If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
 
+-->
 
 ## 创建基于核心组件的自适应表单
 
