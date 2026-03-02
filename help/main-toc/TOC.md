@@ -5,10 +5,10 @@ breadcrumb-title: 核心组件指南
 feature: Core Components
 user-guide-description: 对于传统的 AEM 项目，使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
    + [使用核心组件](/help/get-started/using.md)
    + [本地化功能](/help/get-started/localization.md)
 + WCM 组件 {#wcm-components}
-   + [可折叠项](/help/components/accordion.md)
+   + [折叠](/help/components/accordion.md)
    + [痕迹导航](/help/components/breadcrumb.md)
    + [按钮](/help/components/button.md)
    + [轮播](/help/components/carousel.md)
@@ -56,7 +56,7 @@ ht-degree: 100%
       + [表单隐藏](/help/components/forms/form-hidden.md)
       + [表单选项](/help/components/forms/form-options.md)
       + [表单文本](/help/components/forms/form-text.md)
-   + v1 组件  {#v1-components}
+   + v1 组件 {#v1-components}
       + [痕迹导航 (v1)](/help/components/v1/breadcrumb-v1.md)
       + [按钮 (v1)](/help/components/v1/button.md)
       + [内容片段列表 (v1)](/help/components/v1/content-fragment-list.md)
@@ -72,21 +72,21 @@ ht-degree: 100%
       + [快速搜索 (v1)](/help/components/v1/quick-search.md)
       + [文本 (v1)](/help/components/v1/text-v1.md)
       + [标题 (v1)](/help/components/v1/title-v1.md)
-      + v1 表单组件  {#v1-forms}
+      + v1 表单组件 {#v1-forms}
          + [表单按钮 (v1)](/help/components/v1/form-button-v1.md)
          + [表单容器 (v1)](/help/components/v1/form-container-v1.md)
          + [表单隐藏 (v1)](/help/components/v1/form-hidden-v1.md)
          + [表单选项 (v1)](/help/components/v1/form-options-v1.md)
          + [表单文本 (v1)](/help/components/v1/form-text-v1.md)
-   + v2 组件  {#v2-components}
+   + v2 组件 {#v2-components}
       + [痕迹导航 (v2)](/help/components/v2/breadcrumb.md)
       + [图像 (v2)](/help/components/v2/image.md)
       + [列表 (v2)](/help/components/v2/list.md)
       + [页面 (v2)](/help/components/v2/page.md)
       + [标题 (v2)](/help/components/v2/title.md)
-   + v3 组件  {#v3-components}
+   + v3 组件 {#v3-components}
       + [列表 (v3)](/help/components/v3/list.md)
-+ 电子邮件组件  {#email}
++ 电子邮件组件 {#email}
    + [简介](/help/email/introduction.md)
    + [使用电子邮件核心组件](/help/email/using.md)
    + [Campaign 变量](/help/email/campaign-variables.md)
@@ -105,7 +105,7 @@ ht-degree: 100%
 + 自适应表单 {#adaptive-forms}
    + [简介](/help/adaptive-forms/introduction.md)
    + [版本历史记录](/help/adaptive-forms/version.md)
-   + 自适应表单组件  {#adaptive-forms-components}
+   + 自适应表单组件 {#adaptive-forms-components}
       + [自适应表单折叠](/help/adaptive-forms/components/accordion.md)
       + [自适应表单按钮](/help/adaptive-forms/components/button.md)
       + [自适应表单复选框](/help/adaptive-forms/components/checkbox.md)
@@ -141,10 +141,11 @@ ht-degree: 100%
       + [页脚](/help/adaptive-forms/components/footer.md)
    + [自定义自适应表单核心组件](/help/developing/customize-adaptive-forms-core-components.md)
    + [示例主题和模板](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [启用文本输入验证模式](/help/adaptive-forms/enable-validation-patterns.md)
 + 开发 {#developing}
    + [开发核心组件](/help/developing/overview.md)
    + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-Hans)
-   + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)
+   + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自定义核心组件](/help/developing/customizing.md)
    + [组件准则](/help/developing/guidelines.md)
    + [AMP 支持](/help/developing/amp.md)
