@@ -1,22 +1,22 @@
 ---
 title: 核心组件版本
-description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
+description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。 本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 684bdb4168be00f02bb306dd7ab183e8c439b9e7
+source-git-commit: 94341eb0f9caf1764aed71f152e75d27ccec0f5a
 workflow-type: tm+mt
-source-wordcount: '3110'
-ht-degree: 99%
+source-wordcount: '3875'
+ht-degree: 96%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-hans) 安装程序兼容。
+核心组件与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-hans) 安装程序兼容。
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
-核心组件设计为灵活且与支持的所有 AEM 版本兼容。因此，组件的一个发行版本可以包含同一组件的多个版本。
+核心组件设计为灵活且与支持的所有 AEM 版本兼容。 因此，组件的一个发行版本可以包含同一组件的多个版本。
 
 以下各表说明了核心组件发行版本的兼容性，以及哪些发行版本中包含了哪些组件版本。
 
@@ -26,19 +26,21 @@ ht-degree: 99%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|---|
+| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | 此版本更正了路径验证问题。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2026年1月30日 |
+| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | 此版本纠正了标题组件策略对话框中的回归。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025年12月5日 |
 | [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | 此版本更正了与PDF查看器相关的非本地化字符串。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025年10月23日 |
-| [&#x200B; 2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 本次发布解决了多个资产和 Dynamic Media 相关问题，明确了 LTS 支持，并修复了大量错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025 年 9 月 4 日 |
+| [ 2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 本次发布解决了多个资产和 Dynamic Media 相关问题，明确了 LTS 支持，并修复了大量错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025 年 9 月 4 日 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | 此版本增加了对在网站核心组件中创作资产预览版本的支持，并解决了许多错误修复。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025 年 4 月 21 日 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 此版本修复了大量错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11 | 2025 年 3 月 17 日 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | 此版本修复了大量错误。 | - | 6.5.21.0+ | - | 连续 | 11 | 2024 年 9 月 10 日 |
-| [&#x200B; 2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | 此版本修复了大量错误。 | - | 6.5.21.0+ | - | 连续 | 11 | 2024 年 7 月 31 日 |
-| [&#x200B; 2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 这是一个次要版本，其中纠正了一些 IT 故障。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 10 日 |
-| [&#x200B; 2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 这是一个次要版本，其中纠正了一些 IT 故障。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 9 日 |
-| [&#x200B; 2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 此版本增加了对 Dynamic Media 中命名智能裁剪的支持，包括在性能和可访问性方面的改进，以及各种错误修复。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 2 日 |
-| [&#x200B; 2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | 此补丁版本包括对数据层初始化的改进。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 4 月 22 日 |
-| [&#x200B; 2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 此补丁版本修复了 Sling 模型初始化。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 4 月 1 日 |
-| [&#x200B; 2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | 此补丁版本提高了集成测试的稳定性。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 22 日 |
-| [&#x200B; 2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 此版本增加了对 Google Tag Manager 数据层的支持并修复了各种错误。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 14 日 |
+| [ 2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | 此版本修复了大量错误。 | - | 6.5.21.0+ | - | 连续 | 11 | 2024 年 7 月 31 日 |
+| [ 2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 这是一个次要版本，其中纠正了一些 IT 故障。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 10 日 |
+| [ 2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 这是一个次要版本，其中纠正了一些 IT 故障。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 9 日 |
+| [ 2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 此版本增加了对 Dynamic Media 中命名智能裁剪的支持，包括在性能和可访问性方面的改进，以及各种错误修复。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 2 日 |
+| [ 2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | 此补丁版本包括对数据层初始化的改进。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 4 月 22 日 |
+| [ 2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 此补丁版本修复了 Sling 模型初始化。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 4 月 1 日 |
+| [ 2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | 此补丁版本提高了集成测试的稳定性。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 22 日 |
+| [ 2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 此版本增加了对 Google Tag Manager 数据层的支持并修复了各种错误。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 14 日 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | 此补丁版本包括各种错误修复。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 9 月 15 日 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 此补丁将 Dynamic Media 远程资源智能裁剪添加到[图像](/help/components/image.md)和 [Teaser 组件](/help/components/teaser.md)并修复了若干错误。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 4 月 8 日 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 此版本添加了对[新一代 Dynamic Media 远程资源](/help/developing/remote-assets.md)的支持。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 6 月 6 日 |
@@ -66,7 +68,7 @@ ht-degree: 99%
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 这是一个补丁发行版本，用于修复之前引入的无法向后兼容的更改。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 8 月 2 日 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此补丁发行版本添加了对页面的网站地图的支持，并包括各种辅助功能改进。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 7 月 29 日 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此补丁发行版本包括对[数据层](/help/developing/data-layer/overview.md)不可用于 AEMaaCS 的修复。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 7 月 8 日 |
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此发行版本包括许多支持链接处理程序功能的新组件版本的技术预览版，以及精选图像功能的技术预览版，该图像功能适用于[页面组件。](/help/components/page.md)其中还包括了多个错误修复。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 6 月 16 日 |
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此发行版本包括许多支持链接处理程序功能的新组件版本的技术预览版，以及精选图像功能的技术预览版，该图像功能适用于[页面组件。](/help/components/page.md) 其中还包括了多个错误修复。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 6 月 16 日 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 此补丁发行版用于修复新的链接处理程序的问题。 | 6.4.8.1+ | 6.5.5.0+ | - | 连续 | 8, 11 | 2021 年 5 月 19 日 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 此补丁发行版本主要修复了新的链接处理程序的问题，并增加了对 [PWA](/help/components/page.md#pwa-support) 多页应用程序的支持。 | 6.4.8.1+ | 6.5.5.0+ | - | 连续 | 8, 11 | 2021 年 5 月 15 日 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 此发行版本重点提供了可访问性改进以及向现有组件引入了新的链接处理程序。 | 6.4.8.1+ | 6.5.5.0+ | - | 连续 | 8, 11 | 2021 年 4 月 22 日 |
@@ -143,25 +145,25 @@ ht-degree: 99%
 
 ## 版本和发行版本 {#versions-and-releases}
 
-核心组件通过 GitHub 分发。这使得 Adobe 可以更快地向组件添加功能，还可以允许社区在 AEM 发行版本周期之外输入内容。
+核心组件通过 GitHub 分发。 这使得 Adobe 可以更快地向组件添加功能，还可以允许社区在 AEM 发行版本周期之外输入内容。
 
-核心组件与定义的兼容 AEM 版本一起提供。这意味着一个 AEM 版本可以支持核心组件的多个版本或发行版本。
+核心组件与定义的兼容 AEM 版本一起提供。 这意味着一个 AEM 版本可以支持核心组件的多个版本或发行版本。
 
 ### 版本 {#versions}
 
-核心组件的主要迭代就是&#x200B;**版本**。每个组件有一个版本。版本使用 **v** 加上非零正整数表示，例如 v1 和 v2。只有进行了不向后兼容的更改时才增加版本，这通常是引入了新的特性和功能。
+核心组件的主要迭代就是&#x200B;**版本**。 每个组件有一个版本。 版本使用 **v** 加上非零正整数表示，例如 v1 和 v2。 只有进行了不向后兼容的更改时才增加版本，这通常是引入了新的特性和功能。
 
-开发人员和管理员可以按照其资源类型路径中的数字以及其实施中的完全限定 Java 类名，来识别核心组件的版本。此版本数字表示按照[语义版本控制指南](https://semver.org/)定义的主版本。
+开发人员和管理员可以按照其资源类型路径中的数字以及其实施中的完全限定 Java 类名，来识别核心组件的版本。 此版本数字表示按照[语义版本控制指南](https://semver.org/)定义的主版本。
 
 有关核心组件版本的详细信息，请参阅[核心组件开发人员文档](developing/guidelines.md)。
 
 ### 发行版本 {#releases}
 
-通过&#x200B;**发行版**&#x200B;提供核心组件，并且核心组件[表示可在 GitHub 上找到的真实发布的构件。](https://github.com/adobe/aem-core-wcm-components/releases)用 `X.Y.Z` 格式的小数表示发行版，并且发行版将所有核心组件收集在一起作为可交付的包。
+核心组件通过&#x200B;**发行版**&#x200B;提供，而[代表GitHu上实际发布的工件。](https://github.com/adobe/aem-core-wcm-components/releases) 发行版本使用格式为`X.Y.Z`的小数表示，将所有核心组件收集在一起作为可交付程序包。
 
-* **主要发行版本**&#x200B;引入了全新组件、对现有组件版本的改进以及标准错误修复。这由发行版本编号中 `X` 部分的增加来表示。
-* **次要发行版本**&#x200B;引入了新组件、现有组件版本的新功能以及错误修复。这由发行版本编号中 `Y` 部分的增加来表示。
-* **补丁发行版本**&#x200B;仅包含错误修复。这由发行版本编号中 `Z` 部分的增加来表示。
+* **主要发行版本**&#x200B;引入了全新组件、对现有组件版本的改进以及标准错误修复。 这由发行版本编号中 `X` 部分的增加来表示。
+* **次要发行版本**&#x200B;引入了新组件、现有组件版本的新功能以及错误修复。 这由发行版本编号中 `Y` 部分的增加来表示。
+* **补丁发行版本**&#x200B;仅包含错误修复。 这由发行版本编号中 `Z` 部分的增加来表示。
 
 >[!NOTE]
 >
@@ -180,7 +182,7 @@ ht-degree: 99%
 
 这为客户提供了至少一个发布周期，以便在支持结束前转移到组件的新版本。
 
-每个组件的版本都清楚地声明了其支持的 AEM 版本。当某个 AEM 版本不再受到支持时，该版本 AEM 的核心组件也不再受到支持。
+每个组件的版本都清楚地声明了其支持的 AEM 版本。 当某个 AEM 版本不再受到支持时，该版本 AEM 的核心组件也不再受到支持。
 
 有关组件自定义支持的详细信息，请参阅相关核心组件版本的[自定义核心组件](developing/customizing.md)页面。
 

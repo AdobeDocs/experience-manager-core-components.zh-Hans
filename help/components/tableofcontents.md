@@ -3,10 +3,10 @@ title: 目录组件
 description: 目录组件根据页面内容中的标题创建目录，以便读者快速浏览页面。
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 * 调度程序已完全缓存该缓存，以便快速投放。
 * 它适用于页面上的所有组件，而不仅仅是核心组件。
 
-[编辑对话框](#edit-dialog)允许内容作者定义要在目录中使用的标题范围。通过[设计对话框](#design-dialog)，模板作者可以在内容作者向页面添加目录组件时设置标题的默认值，并根据类名限制目录中包含的标题。
+[编辑对话框](#edit-dialog)允许内容作者定义要在目录中使用的标题范围。 通过[设计对话框](#design-dialog)，模板作者可以在内容作者向页面添加目录组件时设置标题的默认值，并根据类名限制目录中包含的标题。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -60,10 +60,10 @@ ht-degree: 100%
 **列表类型** – 此选项定义列表是项目符号列表还是编号列表。
 * **标题开始级别** – 此选项定义目录组件应呈现的标题的最高级别。
 * **标题停止级别** – 此选项定义目录组件应呈现的标题的最低级别。
-* **ID** – 利用此选项，可以控制 HTML 和[数据层](/help/developing/data-layer/overview.md)中组件的唯一标识符。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
+   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 ![快速搜索组件的“设计”对话框](/help/assets/tableofcontents-design.png)
 
-* **限制列表类型** – 此选项定义组件将生成的列表类型。选择此选项将限制内容作者选择其他列表类型的能力。
+* **限制列表类型** – 此选项定义组件将生成的列表类型。 选择此选项将限制内容作者选择其他列表类型的能力。
 * **限制开始级别** – 此选项定义了内容作者可以选择用于定义目录的最高标题级别。
 * **限制停止级别** – 此选项定义了内容作者可以选择用于定义目录的最低标题级别。
 * **包括类名** – 如果设置了此选项，目录组件只会考虑具有指定类名或包含在指定类名元素中的标题。
@@ -85,8 +85,4 @@ ht-degree: 100%
 
 ### 样式选项卡 {#styles-tab}
 
-目录组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
-
-## Adobe 客户端数据层 {#data-layer}
-
-目录组件支持 [Adobe 客户端数据层](/help/developing/data-layer/overview.md)。
+目录组件支持AEM [样式系统。](/help/get-started/authoring.md#component-styling)。
