@@ -1,11 +1,11 @@
 ---
 title: 内容片段列表组件
 description: 利用核心组件内容片段列表组件，可显示内容片段的列表。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '806'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 100%
 
 # 内容片段列表组件{#content-fragment-list-component}
 
-利用核心组件内容片段列表组件，可显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)的列表。
+利用核心组件内容片段列表组件，可显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的列表。
 
 {{traditional-aem}}
 
 ## 用途 {#usage}
 
-利用核心组件内容片段列表组件，可包含基于内容片段模型的页面上的[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)的列表。这对于创建可由其他应用程序轻松使用的[无头内容](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特别有用。
+利用核心组件内容片段列表组件，可包含基于内容片段模型的页面上的[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的列表。 这对于创建可由其他应用程序轻松使用的[无头内容](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特别有用。
 
 * 可在[“配置”对话框](#configure-dialog)中选择此列表及其属性。
 * 样式可应用于[“设计”对话框](#design-dialog)中的组件。
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 ### “属性”选项卡
 
-**属性**&#x200B;选项卡定义列表中包含的内容片段。这主要基于选定的内容片段模型，但提供了其他过滤器选项。
+**属性**&#x200B;选项卡定义列表中包含的内容片段。 这主要基于选定的内容片段模型，但提供了其他过滤器选项。
 
 ![内容片段列表组件的“编辑”对话框的“属性”选项卡](/help/assets/content-fragment-list-properties.png)
 
@@ -71,7 +71,7 @@ ht-degree: 100%
    * 升序或降序
 * **最大项数** - 列表中要显示的项的最大数量
    * 无值将返回所有项。
-* **ID** - 利用此选项，可以控制 HTML 和[ Data Layer ](/help/developing/data-layer/overview.md)中的组件的唯一标识符。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 ### “元素”选项卡
 
-默认情况下，内容片段模型的所有元素将包含在列表中（除非受&#x200B;**最大项数**&#x200B;字段限制）。利用&#x200B;**元素**&#x200B;选项卡，您可以仅指定要包含的特定元素。
+默认情况下，内容片段模型的所有元素将包含在列表中（除非受&#x200B;**最大项数**&#x200B;字段限制）。 利用&#x200B;**元素**&#x200B;选项卡，您可以仅指定要包含的特定元素。
 
 ![内容片段列表组件的“编辑”对话框的“元素”选项卡](/help/assets/content-fragment-list-elements.png)
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
 内容片段列表组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
+使用下拉菜单选择要应用于该组件的样式。 在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
 必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便下拉菜单可用。
 

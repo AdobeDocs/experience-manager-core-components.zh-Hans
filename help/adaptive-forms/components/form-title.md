@@ -1,11 +1,11 @@
 ---
 title: 自适应表单核心组件 - 标题
 description: 使用或自定义自适应表单标题核心组件。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '864'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '882'
 ht-degree: 100%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 表单标题组件{#title-input-adaptive-forms-core-component}
 
-在自适应表单中，“标题”是指显示在表单顶部的文本（通常位于页眉下方）。标题是使用标题组件指定的。可以将该组件添加到表单布局中，并且可以编辑其文本以匹配表单的用途或主题。标题作为提供给用户的表单的标签或简短描述，可帮助将该表单与其他表单区分开来。
+在自适应表单中，“标题”是指显示在表单顶部的文本（通常位于页眉下方）。 标题是使用标题组件指定的。 可以将该组件添加到表单布局中，并且可以编辑其文本以匹配表单的用途或主题。 标题作为提供给用户的表单的标签或简短描述，可帮助将该表单与其他表单区分开来。
 
 {{traditional-aem}}
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单标题核心组件于 2023 年 2 月发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+作为 Cloud Service 核心组件 2.0.4 和 AEM 6.5.16.0 Forms 或更高版本核心组件 1.1.12 的一部分，自适应表单标题核心组件于 2023 年 2 月发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
@@ -49,24 +49,26 @@ ht-degree: 100%
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 
 ## 技术详细信息 {#technical-details}
 
-可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title) 上的技术文档中获得关于自适应表单标题核心组件的最新信息。有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
+可在 [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title) 上的技术文档中获得关于自适应表单标题核心组件的最新信息。 有关开发核心组件的更多信息，请参阅[核心组件开发人员文档](/help/developing/overview.md)。
 
 ## “配置”对话框 {#configure-dialog}
 
-通过“配置”对话框，可轻松地自定义您为访客提供的标题体验。还可轻松地定义标题选项，从而营造一种无缝的用户体验。
+通过“配置”对话框，可轻松地自定义您为访客提供的标题体验。 还可轻松地定义标题选项，从而营造一种无缝的用户体验。
 
 ![“基本”选项卡](/help/adaptive-forms/assets/title_properties.png)
 
 内容作者可以使用“编辑”对话框定义标题文本以及选择标题级别。
 
-- **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。如果不添加标题，则显示该组件的名称而非标题文本。
+- **标题** - 通过组件的标题，可轻松地标识表单中的组件，默认情况下，标题显示在该组件的顶部。 如果不添加标题，则显示该组件的名称而非标题文本。
 - **类型/大小** - 定义标题的标题级别。
 - **ID** - 通过此选项，可控制组件在 HTML 和数据层中的唯一标识符。
    - 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
@@ -89,13 +91,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “样式”选项卡 {#styles-tab}
 
-该选项卡用于定义和管理组件的 CSS 样式。自适应表单日期选取器核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
+该选项卡用于定义和管理组件的 CSS 样式。 自适应表单日期选取器核心组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
 ![“设计”对话框“标题”选项卡](/help/adaptive-forms/assets/title_styles.png)
 
 - **默认 CSS 类**：可为自适应表单标题核心组件提供默认 CSS 类。
 
-- **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
+- **允许使用的样式**：可通过提供名称和表示样式的 CSS 类而定义样式。 例如，您可以创建一个名为“bold text”的样式，并提供 CSS 类“font-weight: bold”。 可使用这些样式或将其应用于自适应表单编辑器中的自适应表单。 要应用样式，请在自适应表单编辑器中选择要将样式应用于的组件，导航到“属性”对话框，然后从&#x200B;**样式**&#x200B;下拉列表中选择所需的样式。 如果您需要更新或修改样式，只需返回“设计”对话框，在“样式”选项卡中更新样式，然后保存更改。
 
 ### “格式”选项卡 {#format-tab}
 
@@ -107,7 +109,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hans)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

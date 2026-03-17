@@ -1,12 +1,12 @@
 ---
 title: 页面组件 (v1)
 description: 页面组件是旨在用于模板编辑器的可扩展的页面组件，允许使用模板编辑器来组合页眉/页脚和结构组件。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '454'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '513'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-页面组件构成了使用核心组件以及可编辑模板设计的所有页面的基础。利用页面组件，可以使用其他核心组件将页眉、页脚和页面结构定义为模板。
+页面组件构成了使用核心组件以及可编辑模板设计的所有页面的基础。 利用页面组件，可以使用其他核心组件将页眉、页脚和页面结构定义为模板。
 
-使用[“设计”对话框](#design-dialog)，可以为页面定义自定义客户端库。与具有可从组件直接访问“编辑”对话框的其他组件不同，由于组件是页面本身，页面组件的[“编辑”对话框](#edit-dialog)是页面属性窗口。
+使用[“设计”对话框](#design-dialog)，可以为页面定义自定义客户端库。 与具有可从组件直接访问“编辑”对话框的其他组件不同，由于组件是页面本身，页面组件的[“编辑”对话框](#edit-dialog)是页面属性窗口。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->页面组件 v1 不支持页面重定向。请使用[当前版本的页面组件](/help/components/page.md)以支持页面重定向。
+>页面组件 v1 不支持页面重定向。 请使用[当前版本的页面组件](/help/components/page.md)以支持页面重定向。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -693,7 +693,7 @@ ht-degree: 100%
 
 利用“页面设计”窗口，您可以定义应与页面一起加载的客户端库。
 
-* 要添加新字段，请单击或点击字段下的&#x200B;**添加**&#x200B;按钮。
+* 要添加新字段，请单击或点击字段下的&#x200B;**“添加”**&#x200B;按钮。
 * 要删除字段，请单击或点击要删除的字段旁边的垃圾桶图标。
 * 要重新设置加载顺序，请单击或点击要移动的字段并拖动旁边的手柄。
 

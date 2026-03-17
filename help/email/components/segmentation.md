@@ -1,13 +1,13 @@
 ---
 title: 电子邮件分段组件
 description: 电子邮件分段组件
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '1089'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 96%
 
 ---
 
@@ -49,22 +49,22 @@ ht-degree: 100%
 
 ![电子邮件分段组件的配置对话框项选项卡](/help/email/assets/email-segmentation-configure-items.png)
 
-使用&#x200B;**“添加区段”**&#x200B;按钮可打开组件选择器，来选择要作为区段添加的组件。在添加之后，一个条目将添加到列表中，包含以下元素：
+使用&#x200B;**“添加区段”**&#x200B;按钮可打开组件选择器，来选择要作为区段添加的组件。 在添加之后，一个条目将添加到列表中，包含以下元素：
 
-* **图标** – 区段的组件类型的图标，用于方便在列表中识别。将鼠标悬停在上面时将显示完整的组件名称作为工具提示。
+* **图标** – 区段的组件类型的图标，用于方便在列表中识别。 将鼠标悬停在上面时将显示完整的组件名称作为工具提示。
 * **条件** – 该段必须满足的条件才能显示给内容的接收者。
    * 可用的条件定义在[设计对话框。](#design-dialog)
    * **默认** – 定义默认段以显示是否不满足其他条件
    * **自定义** – 允许作者定义条件
       * 条件基于 Adobe Campaign 个性化变量
-      * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hans&)
-      * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hans)
+      * [有关Adobe Campaign Standard个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+      * [有关Adobe Campaign Classic个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * **删除** – 点击或单击以从电子邮件分段组件中删除区段。
 * **重新排列** - 点击或单击并拖动以重新排列区段。
 
 >[!TIP]
 >
->如果减小内容视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**添加**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在内容编辑器的电子邮件分段组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#inserting-a-component)来添加到电子邮件分段组件中。
+>如果减小内容视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**添加**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在内容编辑器的电子邮件分段组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)来添加到电子邮件分段组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -83,11 +83,11 @@ ht-degree: 100%
 
 * **标签** - 组件的 ARIA 标签属性的值
 
-### 样式选项卡 {#styles-tab-edit}
+### “样式”选项卡 {#styles-tab-edit}
 
 电子邮件分段组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
+使用下拉菜单选择要应用于该组件的样式。 在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
 必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便选项卡可用。
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 **“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为区段添加到电子邮件分段组件。
 
-**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)
+**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 样式选项卡 {#styles-tab}
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 * **区段条件名称** – 条件描述
 * **区段条件** – 必须满足的实际条件，基于 Adobe Campaign 个性化变量
-   * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hans&)
-   * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。]（https://experienceleague.adobe.com/docs/?lang=zh-Hans
+   * [有关Adobe Campaign Standard个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+   * [有关Adobe Campaign Classic个性化资源的信息，请参阅此处。]&#x200B;(https://experienceleague.adobe.com/docs/)
 * **移除** – 点击以移除条件
 * **重新排列** – 点击或单击并拖动以重新排列条件。

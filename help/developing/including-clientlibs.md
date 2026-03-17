@@ -1,12 +1,12 @@
 ---
 title: 客户端库和核心组件
 description: 核心组件附带了许多客户端库，并能够包含您自己的客户端库。
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 包含客户端库 {#including}
 
-可通过多种不同的方式来包含[客户端库](/help/developing/archetype/front-end.md#clientlibs)，具体取决于您的使用案例。以下是每个例子的示例 [HTL 代码段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans)。
+可通过多种不同的方式来包含[客户端库](/help/developing/archetype/front-end.md#clientlibs)，具体取决于您的使用案例。 以下是每个例子的示例 [HTL 代码段](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans)。
 
 ### 推荐的默认使用 {#recommended-default-usage}
 

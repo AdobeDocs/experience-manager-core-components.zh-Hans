@@ -1,9 +1,9 @@
 ---
 title: 目录组件
 description: 目录组件根据页面内容中的标题创建目录，以便读者快速浏览页面。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 98%

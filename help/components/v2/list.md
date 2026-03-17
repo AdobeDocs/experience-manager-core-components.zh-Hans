@@ -1,12 +1,12 @@
 ---
 title: 列表组件 (v2)
 description: 利用核心组件列表组件，可以轻松地创建动态和静态列表。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1012'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-列表组件可用于创建子页面的动态列表或者任意定义项的静态列表。可用的列表类型以及格式化选项可以由模板作者在[“设计”对话框](#design-dialog)中定义。内容编辑者可在[“编辑”对话框](#edit-dialog)中从可用列表类型以及如何格式化列表元素中选择。
+列表组件可用于创建子页面的动态列表或者任意定义项的静态列表。 可用的列表类型以及格式化选项可以由模板作者在[“设计”对话框](#design-dialog)中定义。 内容编辑者可在[“编辑”对话框](#edit-dialog)中从可用列表类型以及如何格式化列表元素中选择。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -143,7 +143,7 @@ ht-degree: 100%
 * **最大项数**
 列表中显示的项的最大数量。
    * 留空可返回所有项。
-* **ID** - 利用此选项，可以控制 HTML 和[ Data Layer ](/help/developing/data-layer/overview.md)中的组件的唯一标识符。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。

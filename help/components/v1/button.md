@@ -1,12 +1,12 @@
 ---
 title: 按钮组件 (v1)
 description: 利用核心组件按钮组件，可创建和显示按钮。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '397'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '408'
 ht-degree: 100%
 
 ---

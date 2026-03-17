@@ -1,11 +1,11 @@
 ---
 title: 标题组件
 description: 核心组件标题组件是章节标题组件，具备就地编辑的功能。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '623'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-标题组件旨在用作内容章节的标题。可用的标题级别可由模板作者在[“设计”对话框](#design-dialog)中定义。内容编辑者可以在[“编辑”对话框](#edit-dialog)中从可用标题级别选择。为了增加便利性，可以简单地就地编辑标题文本。
+标题组件旨在用作内容章节的标题。 可用的标题级别可由模板作者在[“设计”对话框](#design-dialog)中定义。 内容编辑者可以在[“编辑”对话框](#edit-dialog)中从可用标题级别选择。 为了增加便利性，可以简单地就地编辑标题文本。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -51,9 +51,9 @@ ht-degree: 100%
 
 * **标题** - 如果为空，则使用页面标题
 * **类型/大小** - 定义标题的标题级别
-* **链接** - 定义标题将链接到的内容。这可以是内容页面的路径、外部 URL 或页面锚点。
+* **链接** - 定义标题将链接到的内容。 这可以是内容页面的路径、外部 URL 或页面锚点。
 * **在新标签页中打开链接** - 在选中时，将在一个新的浏览器标签页中打开链接。
-* **ID** – 利用此选项，可以控制 HTML 和[数据层](/help/developing/data-layer/overview.md)中组件的唯一标识符。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 标题组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
+使用下拉菜单选择要应用于该组件的样式。 在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
 必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便下拉菜单可用。
 

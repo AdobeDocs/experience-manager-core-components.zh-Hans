@@ -2,11 +2,11 @@
 title: 扩展 Adobe Client Data Layer
 description: Adobe Client Data Layer 可以按照一些基本模式进行扩展
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 因此，您的自定义 Sling 模型可能具有 `getData` 方法，该方法返回扩展 `ComponentData` 以返回更多字段的对象。
 
-这样做会将 `data-cmp-data-layer` 属性添加到组件的 HTML 元素，还会添加将填充到 Data Layer 的数据 JSON。此时，您可以实施监听此数据或相关事件的脚本。
+这样做会将 `data-cmp-data-layer` 属性添加到组件的 HTML 元素，还会添加将填充到 Data Layer 的数据 JSON。 此时，您可以实施监听此数据或相关事件的脚本。
 
 >[!TIP]
 >

@@ -1,12 +1,12 @@
 ---
 title: 表单容器组件
 description: 利用核心组件表单容器组件，可以创建简单提交表单。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 利用表单容器组件，可支持简单的 WCM 表单并使用嵌套结构来允许其他表单组件，从而构建简单信息提交表单和功能。
 
-通过使用[“配置”对话框](#configure-dialog)，内容编辑者可以定义由表单提交触发的操作、将处理提交的 URl 以及是否应触发工作流。模板作者可使用[“设计”对话框](#design-dialog)定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的“设计”对话框类似。
+通过使用[“配置”对话框](#configure-dialog)，内容编辑者可以定义由表单提交触发的操作、将处理提交的 URl 以及是否应触发工作流。 模板作者可使用[“设计”对话框](#design-dialog)定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的“设计”对话框类似。
 
 >[!NOTE]
 >
->核心组件表单容器组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。不支持使用核心组件表单容器中的[基础组件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=zh-Hans)表单组件，反之亦然。
+>核心组件表单容器组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。 不支持使用核心组件表单容器中的[基础组件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)表单组件，反之亦然。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 利用“配置”对话框，内容作者可以定义在提交组件时执行的操作。
 
-容器中的可用选项因选定的&#x200B;**操作类型**&#x200B;而异。可用的操作类型为：
+容器中的可用选项因选定的&#x200B;**操作类型**&#x200B;而异。 可用的操作类型为：
 
 * [发布表单数据](#post-data)
 * [邮件](#mail)
@@ -69,7 +69,7 @@ ht-degree: 100%
 * **错误消息** - 提交失败时显示的消息
 
 >[!TIP]
->提供了一些额外的超时选项，系统管理员可以调整这些选项来处理转发的表单数据。[有关更多信息，请参阅 GitHub 上的技术文档。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>提供了一些额外的超时选项，系统管理员可以调整这些选项来处理转发的表单数据。[有关详细信息，请参阅GitHub上的技术文档。](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### 邮件 {#mail}
 
@@ -110,16 +110,16 @@ ht-degree: 100%
 
 * **感谢页面** - 在提交完表单后，用户将被重定向到指定的页面。
    * 使用“选择”对话框可在 AEM 中选择资源。
-   * 如果感谢页面未在 AEM 中，请指定绝对 URL。非绝对 URL 将解释为相对于 AEM。
+   * 如果感谢页面未在 AEM 中，请指定绝对 URL。 非绝对 URL 将解释为相对于 AEM。
    * 留空可在提交后重新显示表单。
-* **ID** - 利用此选项，可以控制 HTML 和[ Data Layer ](/help/developing/data-layer/overview.md)中的组件的唯一标识符。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
+   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 
-利用“设计”对话框，模板作者可为容器定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的“设计”对话框类似。
+利用“设计”对话框，模板作者可为容器定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的“设计”对话框类似。
 
 ### “样式”选项卡 {#styles-tab}
 

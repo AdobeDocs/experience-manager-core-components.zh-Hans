@@ -1,12 +1,12 @@
 ---
 title: 电子邮件容器组件
 description: 使用电子邮件容器组件，可在您的电子邮件内容上为多个其他组件创建容器。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '780'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 电子邮件容器组件支持 AEM [样式系统。](/help/get-started/authoring.md#component-styling)
 
-使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
+使用下拉菜单选择要应用于该组件的样式。 在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
 必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便选项卡可用。
 
@@ -78,11 +78,11 @@ ht-degree: 100%
 
 **“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为项目添加到电子邮件容器组件。
 
-**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)
+**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### “默认组件”选项卡 {#default-components-tab}
 
-**“默认组件”**&#x200B;选项卡用于定义在特定资源类型放到容器上时，要向组件中添加哪些组件，类似于[如何在页面模板上定义默认组件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)
+**“默认组件”**&#x200B;选项卡用于定义在特定资源类型放到容器上时，要向组件中添加哪些组件，类似于[如何在页面模板上定义默认组件。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### 容器设置选项卡 {#container-settings-tab}
 
@@ -97,7 +97,7 @@ ht-degree: 100%
    * **仅色板** - 选择此选项可仅允许内容作者从预定义的色板中选择容器的背景颜色。
       * 仅在选择了&#x200B;**“启用背景颜色”**&#x200B;时可用
 * **允许的色板** - 定义内容作者可从中选择容器背景颜色的预定义颜色
-   * 使用&#x200B;**“添加”**&#x200B;按钮可添加预定义的色板。在添加之后，一个条目将添加到列表中，包含以下列：
+   * 使用&#x200B;**“添加”**&#x200B;按钮可添加预定义的色板。 在添加之后，一个条目将添加到列表中，包含以下列：
    * **值** - 通过 RGB 值手动定义颜色
       * 点击或单击拾色器，以通过调整单独的 RGB 值或定义十六进制值，更轻松地选择颜色。
    * **删除** - 点击或单击以删除色板。

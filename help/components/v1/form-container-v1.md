@@ -1,12 +1,12 @@
 ---
 title: 表单容器组件 (v1)
 description: 利用核心组件表单容器组件，可以创建简单提交表单。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '609'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 利用表单容器组件，可支持简单的 WCM 表单并使用嵌套结构来允许其他表单组件，从而构建简单信息提交表单和功能。
 
-通过使用[“设置”对话框](#settings-dialog)，内容编辑者可以定义由表单提交触发的操作的类型、提交的内容的存储位置以及是否应触发工作流。模板作者可使用[“设计”对话框](#design-dialog)定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://helpx.adobe.com/cn/experience-manager/6-4/sites/authoring/using/templates.html)的“设计”对话框类似。
+通过使用[“设置”对话框](#settings-dialog)，内容编辑者可以定义由表单提交触发的操作的类型、提交的内容的存储位置以及是否应触发工作流。 模板作者可使用[“设计”对话框](#design-dialog)定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://helpx.adobe.com/cn/experience-manager/6-4/sites/authoring/using/templates.html)的“设计”对话框类似。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ![](/help/assets/chlimage_1.png)
 
-容器中的可用选项因选定的&#x200B;**操作类型**&#x200B;而异。可用的操作类型为：
+容器中的可用选项因选定的&#x200B;**操作类型**&#x200B;而异。 可用的操作类型为：
 
 * [邮件](#mail)
 * [存储内容](#store-content)
@@ -100,7 +100,7 @@ ht-degree: 100%
 在提交完表单后，用户将被重定向到指定的页面。
 
 * 使用“选择”对话框可在 AEM 中选择资源。
-* 如果感谢页面未在 AEM 中，请指定绝对 URL。非绝对 URL 将解释为相对于 AEM。
+* 如果感谢页面未在 AEM 中，请指定绝对 URL。 非绝对 URL 将解释为相对于 AEM。
 * 留空可在提交后重新显示表单。
 
 ## “设计”对话框 {#design-dialog}

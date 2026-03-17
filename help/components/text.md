@@ -1,11 +1,11 @@
 ---
 title: 文本组件
 description: 文本组件是一种富文本编辑和撰写组件，具有就地编辑功能。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '2185'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2265'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 文本组件提供了一个强大的富文本编辑器，允许在简化的内联编辑器中以全屏格式轻松编辑文本。
 
-[“编辑”对话框](#edit-dialog)具有带有限选项的内联编辑功能，可在全屏编辑对话框中实现完整功能。利用[“设计”对话框](#design-dialog)，可以为内容作者配置模板的文本格式选项，例如标题、特殊字符和段落样式。
+[“编辑”对话框](#edit-dialog)具有带有限选项的内联编辑功能，可在全屏编辑对话框中实现完整功能。 利用[“设计”对话框](#design-dialog)，可以为内容作者配置模板的文本格式选项，例如标题、特殊字符和段落样式。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -48,13 +48,13 @@ ht-degree: 100%
 
 ## 文本组件和富文本编辑器 {#the-text-component-and-the-rich-text-editor}
 
-核心组件文本组件利用 AEM 富文本编辑器 (RTE)。RTE 为内容作者提供了一系列广泛的功能来编辑其文本内容。RTE 的配置非常灵活，并切提供了许多选项。有关如何配置 RTE 的其他详细信息，请参阅文章[配置富文本编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=zh-Hans)和[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hans)。
+核心组件文本组件利用 AEM 富文本编辑器 (RTE)。 RTE 为内容作者提供了一系列广泛的功能来编辑其文本内容。 RTE 的配置非常灵活，并切提供了许多选项。 有关如何配置 RTE 的其他详细信息，请参阅文章[配置富文本编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html)和[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)。
 
 本文章的其余部分演示了带现成的 RTE 配置的核心组件文本组件的标准配置。
 
 >[!NOTE]
 >
->仅由 [RTE 的 UI 配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hans)启用的选项在文本组件中可用。
+>仅由 [RTE 的 UI 配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)启用的选项在文本组件中可用。
 
 ## “编辑”对话框 {#edit-dialog}
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 将任何复制的文本粘贴为纯文本，而不设置任何格式。
 
-当选择此选项时，将打开一个窗口，其中的文本可以粘贴为无格式的纯文本，作为插入文本中之前的预览。通过点击或单击复选标记可接受，通过点击或单击 x 可取消。
+当选择此选项时，将打开一个窗口，其中的文本可以粘贴为无格式的纯文本，作为插入文本中之前的预览。 通过点击或单击复选标记可接受，通过点击或单击 x 可取消。
 
 ![粘贴为文本示例](/help/assets/text-paste-text-example.png)
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 
 ![“从 Word 粘贴”图标](/help/assets/text-paste-word.png)
 
-当选择此选项时，将打开一个窗口，其中的文本可粘贴并保留其格式，作为插入文本中之前的预览。通过点击或单击复选标记可接受，通过点击或单击 x 可取消。
+当选择此选项时，将打开一个窗口，其中的文本可粘贴并保留其格式，作为插入文本中之前的预览。 通过点击或单击复选标记可接受，通过点击或单击 x 可取消。
 
 ![从 Word 粘贴示例](/help/assets/text-paste-word-example.png)
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 ![“超链接”图标](/help/assets/text-hyperlink.png)
 
-使用此选项可将所选文本转换为超链接或修改已定义的链接。此选项仅在已选择文本并打开一个窗口（其中包含用于设置链接的附加选项）时处于活动状态。
+使用此选项可将所选文本转换为超链接或修改已定义的链接。 此选项仅在已选择文本并打开一个窗口（其中包含用于设置链接的附加选项）时处于活动状态。
 
 ![超链接示例](/help/assets/text-hyperlink-example.png)
 
@@ -142,19 +142,19 @@ ht-degree: 100%
 
 ![“取消链接”图标](/help/assets/text-unlink.png)
 
-使用此选项可删除已应用于所选文本的链接。此选项仅在已选择链接时处于活动状态。
+使用此选项可删除已应用于所选文本的链接。 此选项仅在已选择链接时处于活动状态。
 
 ### 查找
 
 ![“查找”图标](/help/assets/text-find.png)
 
-使用此选项可搜索文本以确定指定文本字符串的匹配项。选择此选项将打开一个用于指定搜索选项的窗口。
+使用此选项可搜索文本以确定指定文本字符串的匹配项。 选择此选项将打开一个用于指定搜索选项的窗口。
 
 ![查找示例](/help/assets/text-find-example.png)
 
-输入要搜索的文本并点击或单击&#x200B;**“查找”**以开始搜索。点击或单击 x 可取消。
+输入要搜索的文本并点击或单击&#x200B;**“查找”**以开始搜索。 点击或单击 x 可取消。
 如果您希望根据大小写进行精确匹配，请选择选项**匹配大小写**，然后再开始搜索。
-如果找到一个匹配项，则将突出显示该匹配项，并且搜索对话框将灰显。在灰显的对话框中再次点击或单击**查找**&#x200B;按钮可搜索下一个匹配项。
+如果找到一个匹配项，则将突出显示该匹配项，并且搜索对话框将灰显。 在灰显的对话框中再次点击或单击**查找**&#x200B;按钮可搜索下一个匹配项。
 
 ![查找示例 - 已找到](/help/assets/text-find-example-found.png)
 
@@ -166,23 +166,23 @@ ht-degree: 100%
 
 ![“替换”图标](/help/assets/text-replace.png)
 
-使用此选项可搜索文本以确定指定文本字符串的匹配项，并将匹配项替换为其他字符串。选择此选项将打开一个用于指定搜索和替换选项的窗口。
+使用此选项可搜索文本以确定指定文本字符串的匹配项，并将匹配项替换为其他字符串。 选择此选项将打开一个用于指定搜索和替换选项的窗口。
 
 ![替换示例](/help/assets/text-replace-example.png)
 
 输入要搜索的文本以及应替换为的文本。
 
-* 点击或单击&#x200B;**查找**&#x200B;可开始搜索。单击或点击 x 可取消。
+* 点击或单击&#x200B;**查找**&#x200B;可开始搜索。 单击或点击 x 可取消。
 * 如果您希望根据大小写进行精确匹配，请选择选项&#x200B;**匹配大小写**，然后再开始搜索。
 * 选择&#x200B;**全部替换**&#x200B;可一次性替换文本的所有匹配项。
 
-如果找到一个匹配项，则将突出显示该匹配项，并且搜索对话框将灰显。在灰显对话框中再次单击&#x200B;**查找**&#x200B;按钮可搜索下一个匹配项，选择&#x200B;**替换**&#x200B;按钮可替换突出显示的匹配文本。请注意，**替换**&#x200B;按钮仅在进行匹配后处于活动状态。
+如果找到一个匹配项，则将突出显示该匹配项，并且搜索对话框将灰显。 在灰显对话框中再次单击&#x200B;**查找**&#x200B;按钮可搜索下一个匹配项，选择&#x200B;**替换**&#x200B;按钮可替换突出显示的匹配文本。 请注意，**替换**&#x200B;按钮仅在进行匹配后处于活动状态。
 
-在单击“查找”时，“查找和替换”对话框变为透明；在单击“替换”时，此对话框变为不透明。这允许作者审查自己将替换的文本。
+在单击“查找”时，“查找和替换”对话框变为透明；在单击“替换”时，此对话框变为不透明。 这允许作者审查自己将替换的文本。
 
 >[!NOTE]
 >
->在使用替换功能时，要替换的替换字符串应与查找字符串同时输入。不过，您仍可以在替换字符串之前单击“查找”来搜索它。如果在单击“查找”后输入替换字符串，则搜索将重置到文本的开头。
+>在使用替换功能时，要替换的替换字符串应与查找字符串同时输入。 不过，您仍可以在替换字符串之前单击“查找”来搜索它。 如果在单击“查找”后输入替换字符串，则搜索将重置到文本的开头。
 
 
 ### 左对齐文本
@@ -237,7 +237,7 @@ ht-degree: 100%
 
 ![“表”图标](/help/assets/text-table.png)
 
-用于将表插入文本中。选择此选项将打开一个用于指定表的详细信息的窗口。
+用于将表插入文本中。 选择此选项将打开一个用于指定表的详细信息的窗口。
 
 ![表示例](/help/assets/text-table-example.png)
 
@@ -259,19 +259,19 @@ ht-degree: 100%
 
 ![“检查拼写”图标](/help/assets/text-spellcheck.png)
 
-用于检查文本内容的拼写。为可能的拼写错误加下划线（红色虚线）。
+用于检查文本内容的拼写。 为可能的拼写错误加下划线（红色虚线）。
 
-有关拼写检查和自定义拼写检查词典的更多详细信息，请参阅[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=zh-Hans)文档。
+有关拼写检查和自定义拼写检查词典的更多详细信息，请参阅[配置富文本编辑器插件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)文档。
 
 ### 特殊字符 {#special-characters}
 
 ![“特殊字符”图标](/help/assets/text-special-characters.png)
 
-用于将特殊字符插入文本中。选择此选项将打开一个用于显示可用字符的窗口。
+用于将特殊字符插入文本中。 选择此选项将打开一个用于显示可用字符的窗口。
 
 ![特殊字符示例](/help/assets/text-special-characters-example.png)
 
-点击或单击所需字符以将其插入光标后的文本中。可插入多个字符。点击或单击 x 可关闭选择窗口。
+点击或单击所需字符以将其插入光标后的文本中。 可插入多个字符。 点击或单击 x 可关闭选择窗口。
 
 ### 编辑源文件
 
@@ -279,29 +279,29 @@ ht-degree: 100%
 
 用于查看和修改文本的 HTML 源。
 
-点击或单击&#x200B;**“编辑源文件”**&#x200B;图标可从格式化视图更改文本内容以查看原始 HTML。在此模式中，将禁用所有其他格式选项。再次点击或单击&#x200B;**“编辑源文件”**&#x200B;图标可返回格式化视图。
+点击或单击&#x200B;**“编辑源文件”**&#x200B;图标可从格式化视图更改文本内容以查看原始 HTML。 在此模式中，将禁用所有其他格式选项。 再次点击或单击&#x200B;**“编辑源文件”**&#x200B;图标可返回格式化视图。
 
 >[!CAUTION]
 >
 >与访问原始 HTML 的情况一样，使用&#x200B;**编辑源文件**&#x200B;选项时必须小心！
 >
->将扫描通过&#x200B;**编辑源文件**&#x200B;输入的 HTML 以确定是否存在 XSS 风险，插入的任何脚本将被删除且不会显示在结果页上。不过，在&#x200B;**编辑源文件**&#x200B;中输入的格式错误的 HTML 可能会破坏页面的模板，从而导致意外的格式设置或表明生成的页面不可用。
+>将扫描通过&#x200B;**编辑源文件**&#x200B;输入的 HTML 以确定是否存在 XSS 风险，插入的任何脚本将被删除且不会显示在结果页上。 不过，在&#x200B;**编辑源文件**&#x200B;中输入的格式错误的 HTML 可能会破坏页面的模板，从而导致意外的格式设置或表明生成的页面不可用。
 
 >[!NOTE]
 >
->由于将扫描通过&#x200B;**编辑源文件**&#x200B;输入的 HTML 以确定是否存在 XSS 风险和任何脚本，并且会自动删除找到的脚本，因此保留的实际内容可能会因在&#x200B;**编辑源文件**&#x200B;中输入的内容而异。因此，要保存使用&#x200B;**编辑源文件夹**&#x200B;所做的更改，您必须先退出&#x200B;**编辑源文件**&#x200B;以在保存之前在常用编辑器中查看文本。
+>由于将扫描通过&#x200B;**编辑源文件**&#x200B;输入的 HTML 以确定是否存在 XSS 风险和任何脚本，并且会自动删除找到的脚本，因此保留的实际内容可能会因在&#x200B;**编辑源文件**&#x200B;中输入的内容而异。 因此，要保存使用&#x200B;**编辑源文件夹**&#x200B;所做的更改，您必须先退出&#x200B;**编辑源文件**&#x200B;以在保存之前在常用编辑器中查看文本。
 
 ### 段落格式
 
 ![“段落格式”图标](/help/assets/text-paragraph.png)
 
-用于对所选文本或在光标后插入的文本应用段落格式。选择此选项将打开一个下拉菜单，可从中选择段落格式。
+用于对所选文本或在光标后插入的文本应用段落格式。 选择此选项将打开一个下拉菜单，可从中选择段落格式。
 
 ![段落格式示例](/help/assets/text-paragraph-example.png)
 
 ### 内联编辑 {#in-line-editing}
 
-也可以对文本组件进行内联编辑，但由于空间限制，无法对所有格式选项进行内联编辑。要查看所有选项，请切换到全屏模式。
+也可以对文本组件进行内联编辑，但由于空间限制，无法对所有格式选项进行内联编辑。 要查看所有选项，请切换到全屏模式。
 
 ![内联编辑示例](/help/assets/text-edit-inline-example.png)
 
@@ -309,9 +309,9 @@ ht-degree: 100%
 
 此选项允许你控制 HTML 和 [数据层中组件的唯一标识符。](/help/developing/data-layer/overview.md)
 
-* 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
+* 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
 * 如果指定一个 ID，作者有责任确保它是唯一的。
-* 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
+* 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 
@@ -351,7 +351,7 @@ ht-degree: 100%
 
 ![“设计”对话框 - 段落样式](/help/assets/text-design-paragraph.png)
 
-可以为组件激活或停用段落样式。在激活时，可以定义允许的格式。
+可以为组件激活或停用段落样式。 在激活时，可以定义允许的格式。
 
 * 点击或单击&#x200B;**“添加”**&#x200B;按钮可插入新样式。
 * 输入将在“编辑”对话框中显示的样式代码和描述。
@@ -362,7 +362,7 @@ ht-degree: 100%
 
 ![“设计”对话框 - 特殊字符](/help/assets/text-design-special-characters.png)
 
-可以为组件激活或停用用于插入特殊字符的选项。在激活时，可以定义允许的字符。
+可以为组件激活或停用用于插入特殊字符的选项。 在激活时，可以定义允许的字符。
 
 * 点击或单击&#x200B;**“添加”**&#x200B;按钮可插入新字符。
 * 输入将在“编辑”对话框中显示的字符的 HTML 代码和描述。

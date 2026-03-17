@@ -1,12 +1,12 @@
 ---
 title: AEM 自适应表单核心组件版本
-description: 作为可包含同一核心组件的多个版本的发行版发布 AEM 核心组件。本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
-role: Architect, Developer, Admin, User
+description: 作为可包含同一核心组件的多个版本的发行版发布 AEM 核心组件。 本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
+role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 92%
+source-wordcount: '213'
+ht-degree: 93%
 
 ---
 

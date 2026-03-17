@@ -1,12 +1,12 @@
 ---
 title: 电子邮件按钮组件
 description: 利用电子邮件按钮组件，可在您的内容中配置和显示按钮项。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 电子邮件按钮组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 
-使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
+使用下拉菜单选择要应用于该组件的样式。 在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
 必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便选项卡可用。
 

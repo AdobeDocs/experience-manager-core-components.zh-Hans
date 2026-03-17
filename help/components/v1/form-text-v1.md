@@ -1,12 +1,12 @@
 ---
 title: 表单文本组件 (v1)
 description: 利用核心组件表单文本组件，可以输入表单文本供提交。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '472'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '501'
 ht-degree: 100%
 
 ---

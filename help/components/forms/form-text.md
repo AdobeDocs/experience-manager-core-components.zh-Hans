@@ -1,11 +1,11 @@
 ---
 title: 表单文本组件
 description: 利用核心组件表单文本组件，可以输入表单文本供提交。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '578'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-使用表单文本组件可提交不同类型的文本，此组件旨在与[表单容器组件](form-container.md)结合使用。文本验证的类型、标签和帮助消息可由内容编辑者在[“配置”对话框](#configure-dialog)中定义。
+使用表单文本组件可提交不同类型的文本，此组件旨在与[表单容器组件](form-container.md)结合使用。 文本验证的类型、标签和帮助消息可由内容编辑者在[“配置”对话框](#configure-dialog)中定义。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 * **隐藏标签以不被显示** - 在标签仅用于辅助功能且不影响有关字段的任何其他可视信息时需要
 * **元素名称** - 随表单数据一起提交的字段的名称
 * **值** - 在字段中预填充的默认值
-* **ID** - 利用此选项，可以控制 HTML 和[ Data Layer ](/help/developing/data-layer/overview.md)中的组件的唯一标识符。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。

@@ -1,12 +1,12 @@
 ---
 title: 自适应图像 Servlet
 description: 了解核心组件如何使用自适应图像 Servlet 来投放图像，以及如何优化其使用。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >
 >出于性能原因，强烈建议将图像存储在 DAM 中，并使用 Web 优化图像投放。
 >
->将图像直接存储在组件节点下是为了偶尔使用。它既不使用 DAM 演绎版来减少自适应图像 Servlet 中的处理，也不发挥 Web 优化图像投放的性能优势，因此可能导致性能问题。
+>将图像直接存储在组件节点下是为了偶尔使用。 它既不使用 DAM 演绎版来减少自适应图像 Servlet 中的处理，也不发挥 Web 优化图像投放的性能优势，因此可能导致性能问题。
 
 ## 自适应图像 Servlet 还是 Web 优化图像投放？ {#options}
 
@@ -31,15 +31,15 @@ ht-degree: 100%
 
 ## 概述 {#overview}
 
-默认情况下，图像组件使用核心组件的自适应图像 Servlet 来传送图像。 [自适应图像 Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) 负责图像处理和流式传输，可由开发人员在其[核心组件的自定义设置](/help/developing/customizing.md)中使用。
+默认情况下，图像组件使用核心组件的自适应图像Servlet来传送图像。[自适应图像Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet)负责图像处理和流式传输，可由开发人员在其[核心组件的自定义设置](/help/developing/customizing.md)中使用。
 
 ## 演绎版选择 {#rendition-selection}
 
-自适应图像 Servlet 将根据显示该图像的容器的大小，自动选择要显示的最合适的演绎版。演绎版选择过程如下：
+自适应图像 Servlet 将根据显示该图像的容器的大小，自动选择要显示的最合适的演绎版。 演绎版选择过程如下：
 
 1. 自适应图像 Servlet 审阅图像资产的所有可用演绎版。
 1. 它仅选择与原始引用资产具有相同 mime/类型的资产。
-   * 例如，如果原始资产是 PNG，则只考虑 PNG 格式演绎版。
+   * E.g. 如果原始资产是PNG，则只考虑PNG演绎版。
 1. 在这些演绎版中，会考虑尺寸，并将其与应显示图像的容器大小进行比较。
 1. 如果演绎版 >= 容器大小，则将其添加到候选演绎版列表中。
 1. 如果演绎版 &lt; 容器大小，则忽略该演绎版。
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ## 优化演绎版选择 {#optimizing-rendition-selection}
 
-自适应图像 Servlet 将尝试针对请求的图像大小和类型选择最佳演绎版。建议同步定义 DAM 演绎版和图像组件所允许的宽度，以便自适应图像 Servlet 执行尽可能少的处理。
+自适应图像 Servlet 将尝试针对请求的图像大小和类型选择最佳演绎版。 建议同步定义 DAM 演绎版和图像组件所允许的宽度，以便自适应图像 Servlet 执行尽可能少的处理。
 
 这将提高性能并避免底层图像处理库无法正确处理某些图像。
 

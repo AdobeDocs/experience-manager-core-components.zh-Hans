@@ -1,11 +1,11 @@
 ---
 title: 表单选项组件
 description: 利用核心组件表单选项组件可从各种格式的预定义选项中进行选择。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '546'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '554'
 ht-degree: 100%
 
 ---
@@ -69,10 +69,10 @@ ht-degree: 100%
    * **数据源** - 数据源用于选项
       * **数据源** - 数据源的资源类型
 * **帮助消息** - 关于用户可在字段中输入的内容的提示
-* **ID** - 利用此选项，可以控制 HTML 和[ Data Layer ](/help/developing/data-layer/overview.md)中的组件的唯一标识符。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
+   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 

@@ -1,12 +1,12 @@
 ---
 title: 列表组件 (v1)
 description: 利用核心组件列表组件，可以轻松地创建动态和静态列表。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '836'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 列表组件可用于创建子页面的动态列表或者任意定义项的静态列表。
 
-可用的列表类型以及格式化选项可以由模板作者在[“设计”对话框](#design-dialog)中定义。内容编辑者可在[“编辑”对话框](#edit-dialog)中从可用列表类型以及如何格式化列表元素中选择。
+可用的列表类型以及格式化选项可以由模板作者在[“设计”对话框](#design-dialog)中定义。 内容编辑者可在[“编辑”对话框](#edit-dialog)中从可用列表类型以及如何格式化列表元素中选择。
 
 ## 版本和兼容性 {#version-and-compatibility}
 

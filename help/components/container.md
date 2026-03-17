@@ -1,11 +1,11 @@
 ---
 title: 容器组件
 description: 使用核心组件容器组件，可在页面上为多个其他组件创建容器。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '767'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '805'
 ht-degree: 100%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 100%
 
 * **布局** - 此选项定义容器组件的行为或布局行为。
    * **简单** - 将容器定义为简单的组件集合
-   * **响应式网格** - 将容器定义为 [AEM 响应式布局](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=zh-Hans)
+   * **响应式网格** - 将容器定义为 [AEM 响应式布局](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **背景颜色** - 定义为自由格式的 RGB 值，或者使用拾色器，[具体取决于配置](#background-tab)
 * **背景图像** - 定义容器的背景颜色，[具体取决于配置](#background-tab)
 * **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
-   * 更改此 ID 会对 CSS、JS 和数据层跟踪产生影响。
+   * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
 ## “设计”对话框 {#design-dialog}
 
@@ -70,11 +70,11 @@ ht-degree: 100%
 
 **“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为项目添加到容器组件。
 
-“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的同名选项卡的功能相同。
+“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的同名选项卡的功能相同。
 
 ### “默认组件”选项卡 {#default-components-tab}
 
-“默认组件”选项卡用于定义在特定资源类型放到容器上时，要向组件中添加哪些组件，类似于[如何在页面模板上定义默认组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)。
+“默认组件”选项卡用于定义在特定资源类型放到容器上时，要向组件中添加哪些组件，类似于[如何在页面模板上定义默认组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 ### “响应式设置”选项卡 {#responsive-settings-tab}
 
@@ -93,7 +93,7 @@ ht-degree: 100%
    * **仅色板** - 选择此选项可仅允许内容作者从预定义的色板中选择容器的背景颜色。
       * 仅在选择了&#x200B;**“启用背景颜色”**&#x200B;时可用
 * **允许的色板** - 定义内容作者可从中选择容器背景颜色的预定义颜色
-   * 使用&#x200B;**“添加”**&#x200B;按钮可添加预定义的色板。在添加之后，一个条目将添加到列表中，包含以下列：
+   * 使用&#x200B;**“添加”**&#x200B;按钮可添加预定义的色板。 在添加之后，一个条目将添加到列表中，包含以下列：
    * **值** - 通过 RGB 值手动定义颜色
       * 点击或单击拾色器，以通过调整单独的 RGB 值或定义十六进制值，更轻松地选择颜色。
    * **删除** - 点击或单击以删除色板。

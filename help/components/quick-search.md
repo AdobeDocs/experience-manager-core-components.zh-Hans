@@ -1,11 +1,11 @@
 ---
 title: 快速搜索组件
 description: 快速搜索组件提供对网站的搜索功能并显示搜索结果，以便访客能够搜索网站并筛选结果。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '625'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-利用快速搜索组件，网站访客能够搜索内容、就地查看结果和轻松导航到匹配页面。在用户滚动浏览搜索结果时，将动态获取新结果。
+利用快速搜索组件，网站访客能够搜索内容、就地查看结果和轻松导航到匹配页面。 在用户滚动浏览搜索结果时，将动态获取新结果。
 
-利用[“编辑”对话框](#edit-dialog)，内容作者可以定义内容树中开始搜索的位置。利用[“设计”对话框](#design-dialog)，模板作者可以设置内容树中开始搜索的位置的默认值，以及最大结果集大小和最小搜索词长度。
+利用[“编辑”对话框](#edit-dialog)，内容作者可以定义内容树中开始搜索的位置。 利用[“设计”对话框](#design-dialog)，模板作者可以设置内容树中开始搜索的位置的默认值，以及最大结果集大小和最小搜索词长度。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ![快速搜索组件的“编辑”对话框](/help/assets/quick-search-edit.png)
 
-**搜索根** - 要从其开始搜索的根页面。搜索根可以是 Blueprint 母版页、语言母版页或常规页。
+**搜索根** - 要从其开始搜索的根页面。 搜索根可以是 Blueprint 母版页、语言母版页或常规页。
 * **ID** - 利用此选项，可以控制 HTML 和[Data Layer 中的组件的唯一标识符。](/help/developing/data-layer/overview.md)
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。

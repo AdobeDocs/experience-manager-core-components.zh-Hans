@@ -1,12 +1,12 @@
 ---
 title: 标题组件 (v1)
 description: 核心组件标题组件是章节标题组件，具备就地编辑的功能。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '320'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 标题组件旨在用作内容章节的标题。
 
-可用的标题级别可由模板作者在[“设计”对话框](#design-dialog)中定义。内容编辑者可以在[“编辑”对话框](#edit-dialog)中从可用标题级别选择。为了增加便利性，可以简单地就地编辑标题文本。
+可用的标题级别可由模板作者在[“设计”对话框](#design-dialog)中定义。 内容编辑者可以在[“编辑”对话框](#edit-dialog)中从可用标题级别选择。 为了增加便利性，可以简单地就地编辑标题文本。
 
 ## 版本和兼容性 {#version-and-compatibility}
 

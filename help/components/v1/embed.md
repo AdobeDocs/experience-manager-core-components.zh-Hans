@@ -1,12 +1,12 @@
 ---
 title: 嵌入组件 (v1)
 description: 使用嵌入组件可以在 AEM 内容页面中嵌入外部内容。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1240'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1317'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-利用核心组件嵌入组件，内容作者可以将所选外部内容定义为嵌入到 AEM 内容页面中。此外，还有一个选择，即定义嵌入的自由格式的 HTML。
+利用核心组件嵌入组件，内容作者可以将所选外部内容定义为嵌入到 AEM 内容页面中。 此外，还有一个选择，即定义嵌入的自由格式的 HTML。
 
 * 组件的属性可在[“配置”对话框](#configure-dialog)中定义。
 * 将组件添加到页面时的组件默认值可以在[“设计”对话框](#design-dialog)中定义。
@@ -45,13 +45,13 @@ ht-degree: 100%
 
 ## “配置”对话框 {#configure-dialog}
 
-利用“配置”对话框，内容作者可以定义要在页面上嵌入的外部资源。首先选择要嵌入什么类型的资源：
+利用“配置”对话框，内容作者可以定义要在页面上嵌入的外部资源。 首先选择要嵌入什么类型的资源：
 
 * [URL](#url)
 * [可嵌入内容](#embeddable)
 * [HTML](#html)
 
-对于每种可嵌入的类型，您可以定义 ad **ID**。利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
+对于每种可嵌入的类型，您可以定义 ad **ID**。 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
 
 * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
 * 如果指定一个 ID，作者有责任确保它是唯一的。
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 ### URL {#url}
 
-最简单的嵌入是 URL。只需将待嵌入资源的 URL 粘贴到 **URL** 字段中。组件将尝试访问资源，如果它可以由处理程序之一渲染，则会在 **URL** 字段下显示确认消息。如果不能，该字段将标记为出错。
+最简单的嵌入是 URL。 只需将待嵌入资源的 URL 粘贴到 **URL** 字段中。 组件将尝试访问资源，如果它可以由处理程序之一渲染，则会在 **URL** 字段下显示确认消息。 如果不能，该字段将标记为出错。
 
 嵌入组件附带了用于以下资源类型的处理程序：
 
@@ -72,16 +72,16 @@ ht-degree: 100%
 
 ### 可嵌入内容 {#embeddable}
 
-可嵌入内容允许对嵌入的资源进行更多的自定义，这些自定义可以参数化并包括额外信息。作者能够从 YouTube 提供的现成可嵌入内容中，选择预配置的可信可嵌入内容。
+可嵌入内容允许对嵌入的资源进行更多的自定义，这些自定义可以参数化并包括额外信息。 作者能够从 YouTube 提供的现成可嵌入内容中，选择预配置的可信可嵌入内容。
 
-**可嵌入内容**&#x200B;字段定义所要使用的处理程序的类型。在使用 YouTube 可嵌入内容时，您可以定义：
+**可嵌入内容**&#x200B;字段定义所要使用的处理程序的类型。 在使用 YouTube 可嵌入内容时，您可以定义：
 
 * **视频 ID** - YouTube 中待嵌入资源的唯一视频 ID
 * **宽度** - 所嵌入视频的宽度
 * **高度** - 所嵌入视频的高度
-* **启用静音** - 此参数指定默认情况下播放的视频是否静音。启用此项会增加自动播放在现代浏览器中工作的可能性。
-* **启用自动播放** - 此参数指定在加载了播放器时，是否自动开始播放初始视频。这仅在发布实例上或者在创作实例上使用&#x200B;**以发布的形式查看**&#x200B;选项时有效。
-* **启用自动循环** - 在单个视频的情况下，此参数指定播放器是否应重复播放初始视频。在有播放列表的情况下，播放器播放整个播放列表，然后从第一个视频从头开始。
+* **启用静音** - 此参数指定默认情况下播放的视频是否静音。 启用此项会增加自动播放在现代浏览器中工作的可能性。
+* **启用自动播放** - 此参数指定在加载了播放器时，是否自动开始播放初始视频。 这仅在发布实例上或者在创作实例上使用&#x200B;**以发布的形式查看**&#x200B;选项时有效。
+* **启用自动循环** - 在单个视频的情况下，此参数指定播放器是否应重复播放初始视频。 在有播放列表的情况下，播放器播放整个播放列表，然后从第一个视频从头开始。
 * **启用内联播放 (iOS)** - 此参数控制在 iOS 上的 HTML5 播放器中，是内联播放（打开）还是全屏播放（关闭）。
 * **不受限相关视频** - 如果禁用此选项，则相关视频将来自与刚播放的视频相同的频道，否则来自任何频道。
 
@@ -109,9 +109,9 @@ ht-degree: 100%
 
 *一般来说，*&#x200B;所有脚本和 `style` 元素以及 `on*` 和 `style` 属性，都将从输出中删除。
 
-但是，规则更复杂，因为嵌入组件遵循 AEM 的全局 HTML AntiSamy 净化框架筛选规则集，此规则集可在 `/libs/cq/xssprotection/config.xml` 中找到。如果需要，这可以由开发人员覆盖以提供项目特定的配置。
+但是，规则更复杂，因为嵌入组件遵循 AEM 的全局 HTML AntiSamy 净化框架筛选规则集，此规则集可在 `/libs/cq/xssprotection/config.xml` 中找到。 如果需要，这可以由开发人员覆盖以提供项目特定的配置。
 
-其他安全信息可在[适用于内部部署安装的 AEM 开发人员文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=zh-Hans)以及 [AEM as a Cloud Service 安装](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=zh-Hans)中找到。
+其他安全信息可在[适用于内部部署安装的 AEM 开发人员文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)以及 [AEM as a Cloud Service 安装](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)中找到。
 
 >[!NOTE]
 >虽然 AntiSamy 净化框架规则可以通过覆盖 `/libs/cq/xssprotection/config.xml` 来配置，但这些更改会影响到所有 HTL 和 JSP 行为，而不只是嵌入核心组件。

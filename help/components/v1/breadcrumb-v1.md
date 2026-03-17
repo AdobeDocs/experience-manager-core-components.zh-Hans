@@ -1,12 +1,12 @@
 ---
 title: 痕迹导航组件 (v1)
 description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层级中的位置构建链接的痕迹导航。
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '530'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-痕迹导航组件显示当前页面在网站层级中的位置，并允许页面访客从其当前位置导航页面层级。它通常集成到页眉或页脚中。
+痕迹导航组件显示当前页面在网站层级中的位置，并允许页面访客从其当前位置导航页面层级。 它通常集成到页眉或页脚中。
 
-可用选项（例如，默认导航级别和显示当前页面或隐藏页面的能力）可由模板作者在[“设计”对话框](#design-dialog)中定义。然后，内容编辑者可以在[“编辑”对话框](#edit-dialog)中选择是否显示隐藏的页面以及组件的实际导航级别。
+可用选项（例如，默认导航级别和显示当前页面或隐藏页面的能力）可由模板作者在[“设计”对话框](#design-dialog)中定义。 然后，内容编辑者可以在[“编辑”对话框](#edit-dialog)中选择是否显示隐藏的页面以及组件的实际导航级别。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >本文档介绍了痕迹导航组件 (v1)。
->>有关当前版本的痕迹导航组件的详细信息，请参阅[痕迹导航组件](/help/components/breadcrumb.md)文档。
+>有关当前版本的痕迹导航组件的详细信息，请参阅[痕迹导航组件](/help/components/breadcrumb.md)文档。
 
 ## 示例组件输出 {#sample-component-output}
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 ![](/help/assets/chlimage_1-34.png)
 
-* **导航级别中的开始位置** - 层级中的位置，痕迹导航组件从该位置开始向下导航到当前页面。例如，在 We.Retail 中：
+* **导航级别中的开始位置** - 层级中的位置，痕迹导航组件从该位置开始向下导航到当前页面。 例如，在 We.Retail 中：
 
    * 1 在 `/content/we-retail` 开始
    * 2 在 `/content/we-retail/<country>` 开始
@@ -110,11 +110,11 @@ ht-degree: 100%
 * **导航级别中的开始位置** - 定义层级中位置的默认值，在将痕迹导航组件添加到页面后，它会从该位置开始向下导航到当前页面。
 * **显示隐藏页面** - 在向页面添加痕迹导航组件时，定义&#x200B;**显示隐藏页面**&#x200B;选项的默认值。
 
-   * 它不会为作者启用或禁用该选项。它仅设置默认值。
+   * 它不会为作者启用或禁用该选项。 它仅设置默认值。
 
 * **显示当前页面** - 在向页面添加痕迹导航组件时，定义&#x200B;**隐藏当前页面**&#x200B;选项的默认值。
 
-   * 它不会为作者启用或禁用该选项。它仅设置默认值。
+   * 它不会为作者启用或禁用该选项。 它仅设置默认值。
 
 ## 技术详细信息 {#technical-details}
 

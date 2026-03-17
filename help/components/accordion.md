@@ -1,11 +1,11 @@
 ---
 title: 折叠组件
 description: 使用核心组件折叠组件，可在页面上创建一系列以折叠形式排列的面板。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1102'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -49,52 +49,52 @@ ht-degree: 100%
 
 ## 深度链接到面板 {#deep-linking}
 
-折叠面板组件、[轮盘组件](carousel.md)和[选项卡组件](tabs.md)支持直接链接到组件中的面板。
+可折叠项组件、[轮播组件](carousel.md)和[选项卡组件](tabs.md)支持直接链接到组件中的面板。
 
 要执行此操作：
 
-1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项查看带有组件的页面。
+1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项查看带有组件的页面。
 1. 检查页面的内容并确定面板的 ID。
    * 例如 `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID 成为您可以使用哈希 (`#`) 附加到 URL 的锚点。
    * 例如 `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
-导航到将面板 ID 作为锚点的 URL，浏览器将直接滚动到特定组件并显示指定的面板。如果面板配置为默认情况下不展开，则会自动展开。
+导航到将面板 ID 作为锚点的 URL，浏览器将直接滚动到特定组件并显示指定的面板。 如果面板配置为默认情况下不展开，则会自动展开。
 
 ## 折叠和响应式设计 {#responsive-design}
 
 所有核心组件均设计为完全响应式，确保跨设备的无缝体验。
 
-一些高级组件（例如折叠组件）可能需要在实施项目的背景下进行具体考虑，以便在所有条件下都保持响应能力。请参阅文档[核心组件的响应式设计](/help/responsive.md)，了解更多信息。
+一些高级组件（例如折叠组件）可能需要在实施项目的背景下进行具体考虑，以便在所有条件下都保持响应能力。 请参阅文档[核心组件的响应式设计](/help/responsive.md)，了解更多信息。
 
 ## “配置”对话框 {#configure-dialog}
 
-利用“配置”对话框，内容作者可以定义折叠项，以及对于页面的访客它会如何表现和显示。
+利用“配置”对话框，内容作者可以定义折叠项、其面板以及对于页面的访客它会如何表现和显示。
 
 ### “项”选项卡 {#items-tab}
 
 ![折叠组件“编辑”对话框的“项”选项卡](/help/assets/accordion-edit-items.png)
 
-使用&#x200B;**“添加”**&#x200B;按钮可打开组件选择器，来选择要作为面板添加的组件。在添加之后，一个条目将添加到列表中，包含以下列：
+使用&#x200B;**“添加”**&#x200B;按钮可打开组件选择器，来选择要作为面板添加的组件。 在添加之后，一个条目将添加到列表中，包含以下列：
 
-* **图标** - 面板的组件类型的图标，用于方便在列表中识别。将鼠标悬停在上面时将显示完整的组件名称作为工具提示。
+* **图标** - 面板的组件类型的图标，用于方便在列表中识别。 将鼠标悬停在上面时将显示完整的组件名称作为工具提示。
 * **描述** - 用作面板的文本的描述，默认情况下是为面板选择的组件的名称。
 * **删除** - 点击或单击可从折叠组件中删除面板。
 * **重新排列** - 点击或单击并拖动以重新排列面板。
 
 >[!TIP]
 >
->如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。组件仍可以通过[从组件浏览器拖动并放置在页面编辑器的折叠组件上](https://helpx.adobe.com/cn/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)来添加到折叠组件中。
+>如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在页面编辑器的折叠组件上](https://helpx.adobe.com/cn/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)来添加到折叠组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
 ![折叠组件“编辑”对话框的“属性”选项卡](/help/assets/accordion-edit-properties.png)
 
-* **单项展开** - 在选中时，此选项强制一次展开单个折叠项。展开一项将折叠所有其他项。
+* **单项展开** - 在选中时，此选项强制一次展开单个折叠项。 展开一项将折叠所有其他项。
 * **展开项** - 此选项定义加载页面时默认展开的项。
-   * 在选中了&#x200B;**“单项展开”**&#x200B;时，必须选择一个面板。不过默认情况下选择第一个面板。
+   * 在选中了&#x200B;**“单项展开”**&#x200B;时，必须选择一个面板。 不过默认情况下选择第一个面板。
    * 未选中&#x200B;**“单项展开”**&#x200B;时，此选项为多选并且是可选的。
-* **ID** - 利用此选项，可以控制 HTML 和[ Data Layer ](/help/developing/data-layer/overview.md)中的组件的唯一标识符。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 **“允许的组件”**&#x200B;选项卡用于定义哪些项可以由内容作者作为面板添加到折叠组件。
 
-“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans#editing-a-template-layout-template-author)的同名选项卡的功能相同。
+“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)的同名选项卡的功能相同。
 
 ### “样式”选项卡 {#styles-tab}
 

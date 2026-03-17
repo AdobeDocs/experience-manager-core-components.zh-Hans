@@ -1,12 +1,12 @@
 ---
 title: Campaign 变量
 description: 使用 Campaign 变量作为占位符来撰写个性化的电子邮件内容。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '294'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-电子邮件核心组件可通过常用文本字段旁边的个性化按钮轻松访问 Campaign 变量。按下时，会出现一个对话框，您可以从中选择个性化字段。
+电子邮件核心组件可通过常用文本字段旁边的个性化按钮轻松访问 Campaign 变量。 按下时，会出现一个对话框，您可以从中选择个性化字段。
 
-可用个性化字段列表与您的 Adobe Campaign 实例同步。 这些字段在 Adobe Campaign 中的架构 `nms:seedMember` 中进行管理。`nms:seedMember` 中的所有字段也必须出现在您的收件人表中。
+可用个性化字段列表与您的 Adobe Campaign 实例同步。 这些字段在 Adobe Campaign 中的架构 `nms:seedMember` 中进行管理。 `nms:seedMember` 中的所有字段也必须出现在您的收件人表中。
 
 ## 选择 Adobe Campaign 变量对话框 {#dialog}
 

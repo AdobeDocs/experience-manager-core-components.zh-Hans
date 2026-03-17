@@ -1,12 +1,12 @@
 ---
 title: Teaser 组件 (v1)
 description: Teaser 组件可以显示图像、标题、富文本并可以选择链接到更多内容。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '722'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 使用 Teaser 组件，内容作者可以轻松地创建 Teaser，以便让更多内容使用图像、标题或富文本，并将其链接到更多内容或其他操作。
 
-模板作者可以使用[“设计”对话框](#design-dialog)定义创建行动号召和添加链接的选项是否可用，以及禁用各种显示选项。内容作者可以使用[“配置”对话框](#configure-dialog)来设置图像、定义 CTA、设置标题和描述，以及配置指向个别 Teaser 的链接。可以访问[图像组件](image-v1.md)的[“编辑”对话框](image-v1.md#edit-dialog)来修改 Teaser 图像。
+模板作者可以使用[“设计”对话框](#design-dialog)定义创建行动号召和添加链接的选项是否可用，以及禁用各种显示选项。 内容作者可以使用[“配置”对话框](#configure-dialog)来设置图像、定义 CTA、设置标题和描述，以及配置指向个别 Teaser 的链接。 可以访问[图像组件](image-v1.md)的[“编辑”对话框](image-v1.md#edit-dialog)来修改 Teaser 图像。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -44,16 +44,16 @@ ht-degree: 100%
 
 ## “配置”对话框 {#configure-dialog}
 
-内容作者可以使用“配置”对话框定义个别 Teaser 的属性。在选中时，还有[“编辑”对话框](#edit-dialog)可修改 Teaser 图像。
+内容作者可以使用“配置”对话框定义个别 Teaser 的属性。 在选中时，还有[“编辑”对话框](#edit-dialog)可修改 Teaser 图像。
 
 ### 图像 {#image}
 
 ![Teaser 组件的“编辑”对话框中的“图像”选项卡](/help/assets/teaser-edit-image.png)
 
 * **图像资源**
-   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
    * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 >[!NOTE]
 >
@@ -77,12 +77,12 @@ ht-degree: 100%
 
 ![Teaser 组件的“编辑”对话框中的“链接”选项卡](/help/assets/teaser-edit-link.png)
 
-* **链接** - 应用到 Teaser 的链接。使用路径浏览器选择链接目标。
-* **启用行动号召** - 选中时，启用行动号召的定义。列表中的第一个行动号召链接用作其他 Teaser 元素的链接。
+* **链接** - 应用到 Teaser 的链接。 使用路径浏览器选择链接目标。
+* **启用行动号召** - 选中时，启用行动号召的定义。 列表中的第一个行动号召链接用作其他 Teaser 元素的链接。
 
 ## “编辑”对话框 {#edit-dialog}
 
-Teaser 组件将图像渲染委派给[图像组件](image-v1.md)。因此，内容作者可以使用图像组件的[“编辑”对话框](image-v1.md#edit-dialog)来处理 Teaser 图像。
+Teaser 组件将图像渲染委派给[图像组件](image-v1.md)。 因此，内容作者可以使用图像组件的[“编辑”对话框](image-v1.md#edit-dialog)来处理 Teaser 图像。
 
 ## “设计”对话框 {#design-dialog}
 

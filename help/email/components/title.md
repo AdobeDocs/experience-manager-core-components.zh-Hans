@@ -1,12 +1,12 @@
 ---
 title: 电子邮件标题组件
 description: 电子邮件标题组件是您的电子邮件的分区标题组件，具有就地编辑功能。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '596'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '606'
 ht-degree: 100%
 
 ---
@@ -50,10 +50,10 @@ ht-degree: 100%
 * **标题** - 如果为空，则使用页面标题
    * 单击 Campaign 图标，打开[选择 Adobe Campaign 变量](/help/email/campaign-variables.md)对话框并插入来自 Adobe Campaign 的动态内容。
 * **类型/大小** - 定义标题的标题级别
-* **链接** - 定义标题将链接到的内容。这可以是内容页面的路径、外部 URL 或页面锚点。
+* **链接** - 定义标题将链接到的内容。 这可以是内容页面的路径、外部 URL 或页面锚点。
    * 单击 Campaign 图标，打开[选择 Adobe Campaign 变量](/help/email/campaign-variables.md)对话框并插入来自 Adobe Campaign 的动态内容。
-* **ID** – 此选项允许控制 HTML 中组件的唯一标识符。
-   * 如果留空，则自动为您生成一个唯一 ID，通过检查所得页面即可找到该 ID。
+* **ID** - 此选项允许控制 HTML 中组件的唯一标识符。
+   * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改 ID 会对 CSS 产生影响。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 电子邮件标题组件支持 AEM [样式系统。](/help/get-started/authoring.md#component-styling)
 
-使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
+使用下拉菜单选择要应用于该组件的样式。 在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
 必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便下拉菜单可用。
 

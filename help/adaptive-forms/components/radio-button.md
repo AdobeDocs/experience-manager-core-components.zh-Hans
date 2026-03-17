@@ -1,9 +1,9 @@
 ---
 title: 自适应表单核心组件 - 单选按钮
 description: 使用或自定义自适应表单单选按钮核心组件。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 91%
@@ -59,9 +59,11 @@ ht-degree: 91%
 >
 > v1版本的复选框组核心组件支持WCAG 2.1，WCAG的重点是通过遵循最佳实践访问内容以提高可用性和可读性。 v2版本支持WCAG 2.2，更进一步强调通过逻辑和语义分组相关字段的清晰、可预测和明确的可访问性，使其成为包容表单设计的关键要求。
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## 技术详细信息 {#technical-details}
 
@@ -91,7 +93,7 @@ To experience the Accordion Component as well as see examples of its configurati
    - **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
    - **删除** - 点击或单击此选项可删除单选按钮的选项。
    - **重新排列** - 点击或单击并拖动以重新排列选项的顺序。
-您还可以使用&#x200B;**允许选项为富文本**&#x200B;对单选按钮组的选项进行格式化。
+您还可以使用**允许选项为富文本**&#x200B;对单选按钮组的选项进行格式化。
 
   ![针对选项的富文本支持](/help/adaptive-forms/assets/richtext-for-options.png)
 

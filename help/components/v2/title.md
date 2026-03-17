@@ -1,12 +1,12 @@
 ---
 title: 标题组件 (v2)
 description: 核心组件标题组件是章节标题组件，具备就地编辑的功能。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f853ec46-19fd-4569-a9d3-5c376d2a2101
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '521'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '529'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-标题组件旨在用作内容章节的标题。可用的标题级别可由模板作者在[“设计”对话框](#design-dialog)中定义。内容编辑者可以在[“编辑”对话框](#edit-dialog)中从可用标题级别选择。为了增加便利性，可以简单地就地编辑标题文本。
+标题组件旨在用作内容章节的标题。 可用的标题级别可由模板作者在[“设计”对话框](#design-dialog)中定义。 内容编辑者可以在[“编辑”对话框](#edit-dialog)中从可用标题级别选择。 为了增加便利性，可以简单地就地编辑标题文本。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -46,8 +46,8 @@ ht-degree: 100%
 
 * **标题** - 如果为空，则使用页面标题
 * **类型/大小** - 定义标题的标题级别
-* **链接** - 定义标题将链接到的内容。这可以是内容页面的路径、外部 URL 或页面锚点。
-* **ID** - 利用此选项，可以控制 HTML 和[ Data Layer ](/help/developing/data-layer/overview.md)中的组件的唯一标识符。
+* **链接** - 定义标题将链接到的内容。 这可以是内容页面的路径、外部 URL 或页面锚点。
+* **ID** - 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。

@@ -1,13 +1,13 @@
 ---
 title: 电子邮件图像组件
 description: 电子邮件图像组件是一个自适应图像组件，具备就地编辑的功能。
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 98%
+source-wordcount: '1685'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 ## 响应式功能 {#responsive-features}
 
-电子邮件图像组件提供了可靠的响应式功能，可以直接使用。 在页面模板级别，可以使用[“设计”对话框](#design-dialog)来定义图像资源的默认宽度。然后，电子邮件图像组件将自动加载正确的宽度，可根据浏览器窗口的大小进行显示。 在窗口调整大小时，电子邮件图像组件即时动态加载正确的图像大小。 组件开发人员无需担心自定义媒体查询的定义方式，因为电子邮件图像组件已经针对加载内容进行了优化。
+电子邮件图像组件提供了可靠的响应式功能，可以直接使用。 在页面模板级别，可以使用[“设计”对话框](#design-dialog)来定义图像资源的默认宽度。 然后，电子邮件图像组件将自动加载正确的宽度，可根据浏览器窗口的大小进行显示。 在窗口调整大小时，电子邮件图像组件即时动态加载正确的图像大小。 组件开发人员无需担心自定义媒体查询的定义方式，因为电子邮件图像组件已经针对加载内容进行了优化。
 
 此外，电子邮件图像组件支持延迟加载，可以将实际图像资源的加载推迟到在浏览器中可见时，从而提升了内容的响应能力。
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 ## Dynamic Media 支持 {#dynamic-media}
 
-电子邮件图像组件支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans#dynamicmedia) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。此外还支持图像修饰符、图像预设和智能裁剪。
+电子邮件图像组件支持[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia)资源。[启用后，](#design-dialog)这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样添加Dynamic Media图像资源。 此外还支持图像修饰符、图像预设和智能裁剪。
 
 使用电子邮件核心组件构建的电子邮件体验现在具备丰富、支持Adobe AI、可靠、高性能、跨平台的Dynamic Media图像功能。
 
@@ -61,7 +61,7 @@ ht-degree: 98%
 
 ### 安全性 {#security}
 
-为安全起见，图像编辑器从不直接调用原始 SVG。通过 `<img src=“path-to-component”>` 调用它。这可以防止浏览器执行在 SVG 文件中嵌入的任何脚本。
+为安全起见，图像编辑器从不直接调用原始 SVG。 通过 `<img src=“path-to-component”>` 调用它。 这可以防止浏览器执行在 SVG 文件中嵌入的任何脚本。
 
 ### 技术详细信息 {#technical-details}
 
@@ -83,12 +83,12 @@ ht-degree: 98%
 
 * **用于辅助功能的替换文本** – 此字段允许您为视障用户定义图像的描述。
 
-   * **从页面继承替换文本** – 此选项使用 DAM 中 `dc:description` 元数据的链接资源值的替代描述或当前页面的替代描述（如果未链接资源）。
+   * **从页面继承替换文本** - 此选项使用 DAM 中 `dc:description` 元数据的链接资源值的替代描述或当前页面的替代描述（如果未链接资源）。
 
 * **图像资源**
-   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
    * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 * **不提供替换文本** – 此选项将图像标记为被屏幕阅读器等辅助技术忽略，以用于图像纯粹起装饰作用或不向页面传达额外信息的情况。
 
@@ -103,11 +103,11 @@ ht-degree: 98%
    * **智能裁剪** - 选中了&#x200B;**智能裁剪**&#x200B;的&#x200B;**预设类型**&#x200B;时，下拉菜单&#x200B;**演绎版**&#x200B;可用，并允许从所选资源的可用演绎版中选择。 此项只有在为所选资源定义了再现时才可用。
    * **图像修饰符** - 在这里可以定义其他 Dynamic Media 图像服务命令，不论选择了什么&#x200B;**预设类型**，都使用 `&` 分隔。
 * **题注** – 有关图像的附加信息，默认显示在图像的下方。
-   * **从 DAM 获取题注** – 选中时，将使用 DAM 中 `dc:title` 元数据的值填充图像的题注文本。仅在从 DAM 中选择资产时可用。
+   * **从 DAM 获取题注** – 选中时，将使用 DAM 中 `dc:title` 元数据的值填充图像的题注文本。 仅在从 DAM 中选择资产时可用。
    * **以弹出窗口显示题注** – 选中后，不会在图像下方显示题注，但在某些浏览器中，将鼠标悬停于图像上方时，会以弹出信息形式显示题注。
 * **链接** – 将图像链接到其他资源。
    * 使用“选择”对话框可链接到其他 AEM 资源。
-   * 如果未链接到 AEM 资源，请输入绝对 URL。非绝对 URL 将解释为相对于 AEM。
+   * 如果未链接到 AEM 资源，请输入绝对 URL。 非绝对 URL 将解释为相对于 AEM。
    * **在新标签页中打开链接** – 此选项在一个新的浏览器窗口中打开链接。
 * **ID** - 此选项允许控制 HTML 中组件的唯一标识符。
    * 如果留空，系统会自动为您生成一个唯一 ID，可以通过检查结果页面找到该 ID。
@@ -118,7 +118,7 @@ ht-degree: 98%
 
 >[!TIP]
 >
->**智能裁剪**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。如果作者需要使用图像预设配合智能裁剪演绎版，则作者必须使用&#x200B;**图像修饰符**&#x200B;手动添加预设。
+>**智能裁剪**&#x200B;和&#x200B;**图像预设**&#x200B;为互斥选项。 如果作者需要使用图像预设配合智能裁剪演绎版，则作者必须使用&#x200B;**图像修饰符**&#x200B;手动添加预设。
 
 ### “样式”选项卡 {#styles-tab-edit}
 
@@ -126,7 +126,7 @@ ht-degree: 98%
 
 电子邮件图像组件支持 AEM [样式系统。](/help/get-started/authoring.md#component-styling)
 
-使用下拉菜单选择要应用于该组件的样式。在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
+使用下拉菜单选择要应用于该组件的样式。 在“编辑”对话框中所做的选择与从组件工具栏中选择的操作效果相同。
 
 必须在[“设计”对话框](#design-dialog)中为此组件配置样式，以便选项卡可用。
 
@@ -150,7 +150,7 @@ ht-degree: 98%
    * 如果该值大于图像的实际宽度，则该值无效。
    * 该值对 SVG 图像没有影响。
 
-您可以定义图像的宽度（以像素为单位），组件将根据浏览器的大小自动加载最合适的宽度。这是电子邮件图像组件的[响应式功能](#responsive-features)的重要组成部分。
+您可以定义图像的宽度（以像素为单位），组件将根据浏览器的大小自动加载最合适的宽度。 这是电子邮件图像组件的[响应式功能](#responsive-features)的重要组成部分。
 
 * **宽度** – 定义图像的宽度（以像素为单位），组件将根据浏览器的大小自动加载最合适的宽度。
    * 点击或单击&#x200B;**“添加”**&#x200B;按钮可添加其他大小。

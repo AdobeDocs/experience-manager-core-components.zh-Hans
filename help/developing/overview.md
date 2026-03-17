@@ -1,12 +1,12 @@
 ---
 title: 开发核心组件
 description: 核心组件提供可靠且可扩展的基本组件，这些组件提供了丰富的功能、连续交付、组件版本控制、现代化实施、精简标记以及内容的 JSON 导出。
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '1130'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1339'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 ## 迁移到核心组件
 
-任何新项目应该使用核心组件实施。但是，现有组件通常具有广泛的基础组件实施。
+任何新项目应该使用核心组件实施。 但是，现有组件通常具有广泛的基础组件实施。
 
 ### 从基础组件迁移 {#from-foundation}
 
-对现有项目进行较大的变动（例如，品牌再造或者整体重构）通常会提供迁移到核心组件的机会。为了协助此迁移，Adobe 提供了多种迁移工具，以鼓励采用核心组件和最新的 AEM 技术。
+对现有项目进行较大的变动（例如，品牌再造或者整体重构）通常会提供迁移到核心组件的机会。 为了协助此迁移，Adobe 提供了多种迁移工具，以鼓励采用核心组件和最新的 AEM 技术。
 
 [AEM 现代化工具](https://opensource.adobe.com/aem-modernize-tools/)可以轻松地实现下列转换：
 
@@ -45,9 +45,9 @@ ht-degree: 100%
 
 由于 AEM as a Cloud Service 自动随最新版本的核心组件提供，在您从内部部署 AEM 安装迁移时，您需要在项目 `pom.xml` 文件中删除与核心组件的任何依赖关系。
 
-您的代理组件仍然像以前一样工作，因为代理指向必需的超类型，而超类型路径中有版本。通过这种方法，只需要删除依赖关系，就可以使核心组件像内部部署一样在 AEMaaCS 中工作。
+您的代理组件仍然像以前一样工作，因为代理指向必需的超类型，而超类型路径中有版本。 通过这种方法，只需要删除依赖关系，就可以使核心组件像内部部署一样在 AEMaaCS 中工作。
 
-与任何其他 AEMaaCS 项目一样，您还需要将依赖关系添加到 AEM SDK jar。这并非特定于核心组件，但是必需的。
+与任何其他 AEMaaCS 项目一样，您还需要将依赖关系添加到 AEM SDK jar。 这并非特定于核心组件，但是必需的。
 
 ```xml
 <dependency>
@@ -56,15 +56,15 @@ ht-degree: 100%
 </dependency>
 ```
 
-有关 AEMaaCS 项目的更多信息，请参阅文档 [AEM 项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hans)。
+有关 AEMaaCS 项目的更多信息，请参阅文档 [AEM 项目结构](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)。
 
 ## 核心组件支持 {#core-component-support}
 
 核心组件是 AEM 的一个组成部分，依原样提供支持，并作为“快速入门”的一部分提供，须遵循相同的条款和条件。
 
-与其他 AEM 产品功能一样，一般规则是：首先宣布组件将弃用，并且最早从以下 AEM 发行版本中删除。这为客户提供了至少一个发行周期的时间，在停止支持之前移到组件的新版本。
+与其他 AEM 产品功能一样，一般规则是：首先宣布组件将弃用，并且最早从以下 AEM 发行版本中删除。 这为客户提供了至少一个发行周期的时间，在停止支持之前移到组件的新版本。
 
-每个组件的版本都清楚地声明了其支持的 AEM 版本。当某个 AEM 版本不再受到支持时，该版本 AEM 的核心组件也不再受到支持。
+每个组件的版本都清楚地声明了其支持的 AEM 版本。 当某个 AEM 版本不再受到支持时，该版本 AEM 的核心组件也不再受到支持。
 
 有关组件自定义项支持的详细信息，请参阅[自定义核心组件](customizing.md)页面。
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 | **功能** | **核心组件** | **基础组件** |
 |-----|---|---|
 | 逻辑实施 | Java POJO 和 [Sling 模型](https://sling.apache.org/documentation/bundles/models.html)注释 | JSP 代码 |
-| 标记定义 | [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=zh-Hans) (HTL) 语法 | JSP 代码 |
+| 标记定义 | [HTML 模板语言](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL) 语法 | JSP 代码 |
 | XSS 净化 | 由 HTL 自动执行 | 大部分手动 |
 | CSS 类命名 | 基于 [Block Element Modifier](https://getbem.com/) (BEM) 表示法（截止到发行版本 2.0.0）的标准化命名约定 | 自定义架构 |
 | 对话框定义 | [Coral 3](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + 经典 UI |
@@ -88,7 +88,7 @@ ht-degree: 100%
 | 交付 | [通过公开 GitHub](https://github.com/adobe/aem-core-wcm-components) | 通过 Quickstart |
 | 许可 | [Apache 许可](https://www.apache.org/licenses/LICENSE-2.0) | Adobe 专有 |
 | 参与 | 通过拉取请求 | 不可能 |
-| 辅助功能 | 与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=zh-Hans)完全兼容 | 仅与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=zh-Hans)部分兼容 |
+| 辅助功能 | 与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)完全兼容 | 仅与 [WCAG 2.0 AA 标准](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)部分兼容 |
 
 ## 组件列表 {#component-list}
 
@@ -113,7 +113,7 @@ ht-degree: 100%
 | [快速搜索](https://adobe.com/go/aem_cmp_tech_search_v1_cn) | 在下拉菜单中将结果显示为就地建议的搜索组件 | `/libs/foundation/components/search` |
 | [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1_cn) | 允许内容作者轻松地创建 Teaser 以进一步让内容使用图像、标题或富文本，并将其链接到进一步的内容或其他操作 | `-` |
 | [选项卡](https://adobe.com/go/aem_cmp_tech_tabs_v1_cn) | 允许内容作者在多个选项卡中整理页面内容 | `-` |
-| [轮盘](https://adobe.com/go/aem_cmp_tech_carousel_v1_cn) | 允许内容作者将内容排列在旋转的幻灯片轮盘中 | `/libs/foundation/components/carousel` |
+| [轮播](https://adobe.com/go/aem_cmp_tech_carousel_v1_cn) | 允许内容作者将内容排列在旋转的幻灯片轮播中 | `/libs/foundation/components/carousel` |
 | [内容片段](https://adobe.com/go/aem_cmp_tech_cf_v1_cn) | 允许显示内容片段 | `-` |
 | [内容片段列表](https://adobe.com/go/aem_cmp_tech_cflist_v1_cn) | 允许显示内容片段列表 | `-` |
 | [分隔符](https://adobe.com/go/aem_cmp_tech_separator_v1_cn) | 分隔页面上的内容 | `-` |
@@ -128,8 +128,8 @@ ht-degree: 100%
 
 ## 核心组件升级 {#upgrade-of-core-components}
 
-版本化组件的一个优点是，它允许将迁移到新 AEM 版本与迁移到新组件版本分隔开。此外，如果有新组件版本可用，它允许单独地将各个组件迁移到新版本。
+版本化组件的一个优点是，它允许将迁移到新 AEM 版本与迁移到新组件版本分隔开。 此外，如果有新组件版本可用，它允许单独地将各个组件迁移到新版本。
 
-迁移到新 AEM 版本不会影响核心组件的工作方式，前提是其版本也支持正在迁移到的新 AEM 版本。提供给核心组件使用的自定义项，只要不使用已经[弃用或删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hans)的 API，也不应受影响。
+迁移到新 AEM 版本不会影响核心组件的工作方式，前提是其版本也支持正在迁移到的新 AEM 版本。 提供给核心组件使用的自定义项，只要不使用已经[弃用或删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的 API，也不应受影响。
 
-迁移到核心组件的新版本也不会影响组件的工作方式，但是可能会向页面作者引入新功能，在默认行为不符合需要时，可能需要模板编辑者进行一些配置。但是可能需要适应自定义项，有关详细信息，请参阅[自定义核心组件](customizing.md#upgrade-compatibility-of-customizations)页面。
+迁移到核心组件的新版本也不会影响组件的工作方式，但是可能会向页面作者引入新功能，在默认行为不符合需要时，可能需要模板编辑者进行一些配置。 但是可能需要适应自定义项，有关详细信息，请参阅[自定义核心组件](customizing.md#upgrade-compatibility-of-customizations)页面。
