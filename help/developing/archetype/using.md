@@ -28,7 +28,7 @@ ht-degree: 92%
 
 * **WKND 教程** - 有关在 AEM 上进行开发的精彩介绍（包括如何利用原型），请参阅 [AEM Sites 入门 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)中的实际示例，该示例介绍如何使用原型实施简单项目。
 * **WKND 事件教程** - 如果您特别想知道如何在 AEM 上开发单页面应用程序 (SPA)，请务必查看专门的 [WKND 事件教程](https://helpx.adobe.com/cn/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)。
-* **自己开始！**  — 您可以轻松下载GitHub](https://github.com/adobe/aem-project-archetype)上可用的[当前项目原型，并自行创建第一个项目。
+* **自己开始！**  — 您可以轻松下载GitHub[&#128279;](https://github.com/adobe/aem-project-archetype)上可用的当前项目原型，并自行创建第一个项目。
 
 ## 如何使用原型 {#how-to-use-the-archetype}
 
@@ -50,8 +50,8 @@ ht-degree: 92%
 * **[ui.content](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.content)**：此模块包含使用 ui.apps 模块中的组件的示例内容。
 * **[ui.config](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.config)**：此模块包含项目的特定于 runmode 的 OSGi 配置。
 * **[ui.frontend.general](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.general)**：（可选）此模块包含使用通用型基于 Webpack 的前端构建模块所需的构件。
-* **[ui.frontend.react](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)****：（可选）**&#x200B;此模块包含使用原型创建基于 React 的 SPA 项目时所需的构件（是否使用取决于构建参数）。
-* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)****：（可选）**&#x200B;此模块包含使用原型创建基于 Angular 的 SPA 项目时所需的构件（是否使用取决于构建参数）。
+* **[ui.frontend.react](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)**&#x200B;**：（可选）**&#x200B;此模块包含使用原型创建基于 React 的 SPA 项目时所需的构件（是否使用取决于构建参数）。
+* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)**&#x200B;**：（可选）**&#x200B;此模块包含使用原型创建基于 Angular 的 SPA 项目时所需的构件（是否使用取决于构建参数）。
 * **[ui.tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)**：此模块包含基于 Selenium 的 UI 测试。
 * **[all](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/all)**：此模块是单内容包，它嵌入了所有已编译的模块（捆绑包和内容包），其中包括任何供应商依赖项。
 * **[dispatcher.ams](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.ams)**：此模块包含 AMS/内部部署项目的基本 Dispatcher 配置（是否使用取决于构建参数）。

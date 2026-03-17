@@ -51,7 +51,7 @@ Web 优化图像投放仅在 AEM as a Cloud Service 中可用。 如果无法使
 
 ### 为什么在我的环境中未启用 Web 优化图像的此类选项？ {#missing-option}
 
-该功能仅在 AEM as a Cloud Service 上可用。 在本地运行或内部部署 AEM，图像组件[ 回退](#fallback)以使用自适应图像 Servlet。
+该功能仅在 AEM as a Cloud Service 上可用。 在本地运行或内部部署 AEM，图像组件[&#x200B; 回退](#fallback)以使用自适应图像 Servlet。
 
 ### 为何该服务不与本地 SDK 一起使用？ {#local-sdk}
 

@@ -18,7 +18,7 @@ ht-degree: 96%
 
 ## 安装电子邮件核心组件 {#installation}
 
-电子邮件核心组件可与AEM 6.5一起使用。 有关详细信息，请参阅电子邮件核心组件介绍文档](introduction.md#requirements)的[要求部分。
+电子邮件核心组件可与AEM 6.5一起使用。 有关详细信息，请参阅电子邮件核心组件介绍文档[&#128279;](introduction.md#requirements)的要求部分。
 
 ### 安装核心组件 {#core-components}
 
