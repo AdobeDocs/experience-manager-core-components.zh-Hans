@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## 功能 {#features}
 
-* 核心电子邮件组件基于[核心组件](/help/introduction.md)，因此还支持[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)和[样式系统。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-hans)
+* 核心电子邮件组件基于[核心组件](/help/introduction.md)，因此还支持[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)和[样式系统。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-hans)
 * 有[十个电子邮件优化的生产就绪组件](#components)创作电子邮件内容。
 * 由于在大多数对话框字段上插入了 [Adobe Campaign 变量](campaign-variables.md)，因此核心电子邮件组件提供高级个性化功能。
 * 灵活的[分段组件](/help/email/components/segmentation.md)使得可对您的内容进行高级分段。

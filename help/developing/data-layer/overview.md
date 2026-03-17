@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## 教程
 
-想要更详细地探讨Data Layer和核心组件？[查看此实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)。
+想要更详细地探讨Data Layer和核心组件？[查看此实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=zh-Hans)。
 
 >[!TIP]
 >

@@ -13,7 +13,7 @@ ht-degree: 95%
 
 # 页面组件{#page-component}
 
-页面组件是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，允许使用模板编辑器来组装页眉/页脚和结构组件。
+页面组件是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)，允许使用模板编辑器来组装页眉/页脚和结构组件。
 
 {{traditional-aem}}
 
@@ -39,7 +39,7 @@ ht-degree: 95%
 
 ## 渐进式 Web 应用程序支持 {#pwa-support}
 
-核心组件的发行版本2.15.0引入了对AEM as a Cloud Service的内置[渐进式Web应用程序(PWA)功能的支持。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) 只需在网站级别进行简单的配置，即可将您的AEM体验转换为PWA！
+核心组件的发行版本2.15.0引入了对AEM as a Cloud Service的内置[渐进式Web应用程序(PWA)功能的支持。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hans) 只需在网站级别进行简单的配置，即可将您的AEM体验转换为PWA！
 
 ### 技术详细信息 {#technical-details}
 
@@ -49,7 +49,7 @@ ht-degree: 95%
 
 ## “编辑”对话框 {#edit-dialog}
 
-由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)窗口中找到。
+由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hans)窗口中找到。
 
 ## “设计”对话框 {#design-dialog}
 

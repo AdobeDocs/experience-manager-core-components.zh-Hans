@@ -41,7 +41,7 @@ AMP 支持提供了很大的灵活性，快速开始使用 AMP 只需执行几�
 
 ### 为页面启用 AMP {#enabling-amp}
 
-要为页面启用 AMP，必须在[页面策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)中选择&#x200B;**“AMP 模式”**。
+要为页面启用 AMP，必须在[页面策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans#editing-a-template-page-policy-template-author-developer)中选择&#x200B;**“AMP 模式”**。
 
 ![AMP 页面策略选项](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ AMP 支持提供了很大的灵活性，快速开始使用 AMP 只需执行几�
 * **成对 AMP** - 以 AMP 和 HTML 形式提供页面。
 * **仅 AMP** - 仅以 AMP 形式提供页面。
 
-也可在单个页面的[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)中覆盖页面的 AMP 设置。
+也可在单个页面的[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hans)中覆盖页面的 AMP 设置。
 
 ![AMP 页面属性](/help/assets/amp-page-properties.png)
 
