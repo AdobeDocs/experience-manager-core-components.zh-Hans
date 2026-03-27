@@ -3,7 +3,7 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。 本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+source-git-commit: 4119923c2c7d256f46b3bf80cf620d8f114fae6f
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 96%
