@@ -2,14 +2,13 @@
 title: 在Adobe Experience Manager自适应Forms中启用和使用文本输入验证模式
 description: 了解如何配置模板策略以公开电话号码、社会保险号码和邮政编码等验证模式，然后在自适应Forms中使用它们。
 hide: true
-hidefromtoc: true
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+exl-id: e4500666-1346-4558-861d-da9541dcef51
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
 
 ---
-
 
 # 在Adobe Experience Manager自适应Forms中启用和使用文本输入验证模式
 
