@@ -4,7 +4,7 @@ description: 使用或自定义自适应表单密码框核心组件。
 role: Developer, Admin, User
 hide: true
 exl-id: 7e70d9e9-b066-4ba3-b7ed-e4aad026c5e0
-source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
+source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
 workflow-type: tm+mt
 source-wordcount: '1958'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 密码框组件
 
-<span class="preview">这是一项预发行功能，可通过我们的[预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)访问。</span>
+<span class="preview">这是一项预发行功能，可通过我们的[预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)访问。</span>
 
 密码框组件允许用户输入和编辑敏感信息，这些信息通常为了保护隐私而被屏蔽。 密码组件可以配置各种验证规则，以确保数据的准确性。 密码字段通常用于表格中，简单易懂，可增强数据安全性。
 
@@ -50,7 +50,7 @@ For information on Core Component versions and releases, refer to the [Core Comp
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技术详细信息 {#technical-details}
@@ -168,7 +168,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hans)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
