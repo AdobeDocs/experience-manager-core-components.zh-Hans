@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ AEM as a Cloud Service 支持将 [`ui.apps`](https://experienceleague.adobe.com/
 
 OSGi 框架提供了一种强大的方式来定义[需求和功能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies)，以表达不同组件之间的契约。 它们通过元数据进行描述，并在运行时强制执行。 捆绑脚本使用此机制来表达它们的继承关系 (`sling:resourceSuperType`) 以及委托（包括渲染过程中的其他资源类型）。
 
-[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html)项目中的`bnd`插件可用于提取与[`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hans#code-packages-%2F-osgi-bundles)提供的脚本对应的需求和功能 内容包
+[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) 项目中的 `bnd` 插件可用于提取与 [`ui.apps` 所提供的脚本对应的要求和功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hans#code-packages-%2F-osgi-bundles)内容包
 
 ## AEM 项目原型支持 {#support}
 

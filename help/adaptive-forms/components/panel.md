@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单面板容器核心组件。
 role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2331'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 96%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应Forms面板容器核心组件作为核心组件2.0.4的一部分于2023年2月发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应表单面板容器核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
 | 组件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 与<br>[版本2.0.4](/help/adaptive-forms/version.md)及更高版本兼容\|兼容\|兼容 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md)及更高版本兼容\|兼容\|兼容 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
@@ -100,7 +100,7 @@ To experience the Accordion Component as well as see examples of its configurati
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **对章节标题下的字段进行分组**：选择此选项可在通用章节标题下组织相关表单字段。 此分组确保辅助技术（如屏幕阅读器）能够将分组字段识别并作为单个有凝聚力的单元进行公告，从而改进所有用户的表单辅助功能和导航。
+- **在分区标题下将字段分组**：选择此选项可在一个常见的分区标题下组织相关的表单字段。此分组操作可确保辅助技术（如屏幕阅读器）能够将分组的字段识别为一个内聚的单元进行公告，为所有用户改进表单的无障碍性和导航功能。
 
   ![面板组字段](/help/adaptive-forms/assets/panel-fieldset.png)
 

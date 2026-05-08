@@ -4,16 +4,16 @@ description: 作为可包含同一核心组件的多个版本的发行版发布 
 role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # 自适应表单核心组件版本 {#core-components-versions}
 
-识别Forms核心组件和WCM核心组件依赖项的精确版本。 此外，应熟悉自适应表单核心组件每个版本中启用的组件和功能。
+识别表单核心组件和 WCM 核心组件依赖项的准确版本。此外，应熟悉自适应表单核心组件每个版本中启用的组件和功能。
 
 ## AEM Forms as Cloud Service 版本历史 {#aem-as-cs-version-history}
 

@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1435'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 导航组件列出页面树，这样网站的用户可以轻松地在网站结构中导航。
 
-导航组件可以自动检测网站的全局化网站结构，并[自动适应本地化的页面。](#localized-site-structure) 此外，通过使用[影子重定向页面](#shadow-structure)来表示主内容结构以外的其他结构，它可以支持任意网站结构。
+导航组件可以自动检测您网站的全局化网站结构，[并自动适应本地化的页面。](#localized-site-structure)此外，它可以使用[影子重定向页面](#shadow-structure)支持任意网站结构，以展示与您的主要内容结构不同的其他结构。
 
 利用[“编辑”对话框](#edit-dialog)，内容作者可以定义导航根页面以及导航深度。 利用[“设计”对话框](#design-dialog)，模板作者可以定义导航根和深度的默认值。
 

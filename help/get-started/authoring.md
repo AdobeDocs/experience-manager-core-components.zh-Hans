@@ -4,7 +4,7 @@ description: 在 AEM 中，组件是结构化元素，用于构成所创作的�
 role: Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
 ht-degree: 100%
 

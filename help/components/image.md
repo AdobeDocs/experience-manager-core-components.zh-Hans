@@ -4,9 +4,9 @@ description: 核心组件图像组件是自适应图像组件。
 role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,13 +59,13 @@ ht-degree: 95%
 
 ## Dynamic Media 支持 {#dynamic-media}
 
-图像组件（截至[版本2.13.0](/help/versions.md)）支持[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans)资源。[启用后，](#design-dialog)这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样添加Dynamic Media图像资源。 此外还支持图像修饰符、图像预设和智能裁剪。
+图像组件（截止 [发行版本 2.13.0](/help/versions.md)）支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。 此外还支持图像修饰符、图像预设和智能裁剪。
 
-使用核心组件构建的Web体验现在具备丰富、支持Adobe AI、可靠、高性能、跨平台的Dynamic Media图像功能。
+使用核心组件构建的 Web 体验现在具备丰富、Adobe AI 驱动的、可靠、高性能、跨平台的 Dynamic Media 图像功能。
 
 ## 远程资产支持 {#remote-assets}
 
-图像组件（截至[发行版2.23.2](/help/versions.md)）支持远程资产。[配置完毕后，](/help/developing/remote-assets.md)您可以从远程服务中为图像组件选择资源。
+图像组件（截止 [发行版本 2.23.2](/help/versions.md)）支持远程资产。 [配置后，](/help/developing/remote-assets.md) 您可以从远程服务中为您的图像组件选择资产。
 
 ## SVG 支持 {#svg-support}
 

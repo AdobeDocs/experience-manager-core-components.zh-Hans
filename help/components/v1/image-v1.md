@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ ht-degree: 100%
       * 如果路径未在 AEM 中，请使用绝对 URL。 非绝对路径将解释为相对于 AEM。
 
       * **替换文本**
-路径目标的替代描述
+路径目标的替换描述
       * **目标**
          * **相同选项卡**
          * **新选项卡**

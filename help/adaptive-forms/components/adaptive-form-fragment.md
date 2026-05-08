@@ -4,7 +4,7 @@ description: 使用表单片段创建表单区段或字段组，并在自适应�
 role: Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2093'
 ht-degree: 100%
 

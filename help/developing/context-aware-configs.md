@@ -4,7 +4,7 @@ description: 核心组件为特定功能使用 Sling 上下文感知配置
 role: Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
@@ -30,5 +30,5 @@ ht-degree: 100%
 
 * [页面组件](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) 在渲染 `link`、`script` 和 `meta` 标记时依赖于上下文感知配置。
 * [PDF 查看器组件](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
-* [Adobe 客户端数据层](/help/developing/data-layer/overview.md#installation-activation)
+* [Adobe Client Data Layer](/help/developing/data-layer/overview.md#installation-activation)
 * [AMP 支持](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)

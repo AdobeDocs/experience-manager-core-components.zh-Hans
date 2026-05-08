@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
-电子邮件核心组件设计为灵活且与支持的所有 AEM 版本兼容。 电子邮件核心组件[版本历史的完整详细信息可以在GitHub上找到。](https://github.com/adobe/aem-core-email-components/releases) 但是，下表概述了电子邮件核心组件的版本及其与AEM版本和Java版本的兼容性。
+电子邮件核心组件设计为灵活且与支持的所有 AEM 版本兼容。 电子邮件核心组件版本历史记录的完整详细信息[可以在 GitHub 上找到。](https://github.com/adobe/aem-core-email-components/releases) 但是，下表概述了电子邮件核心组件的版本及其与 AEM 版本和 Java 版本的兼容性。
 
 | 发行版本 | 描述 | AEM 6.5 | AEM 6.5 LTS | 核心组件 | Java | 发布日期 |
 |---|---|---|---|---|---|---|

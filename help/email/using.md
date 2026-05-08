@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 ## 安装电子邮件核心组件 {#installation}
 
-电子邮件核心组件可与AEM 6.5一起使用。 有关详细信息，请参阅电子邮件核心组件介绍文档[&#128279;](introduction.md#requirements)的要求部分。
+电子邮件核心组件可与 AEM 6.5 一起使用。有关更多信息，请参阅[电子邮件核心组件简介文档的要求部分](introduction.md#requirements)。
 
 ### 安装核心组件 {#core-components}
 
@@ -71,7 +71,7 @@ ht-degree: 96%
 | 步骤 | 描述 | 解决方案 |
 |---|---|---|
 | 1 | 作者将文件夹和电子邮件内容创建为页面的自由格式层次结构。 | AEM |
-| 2 | 通过[模板编辑器，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)作者可配置电子邮件页眉和/或页脚，该页眉和页脚将在此页面模板生成的所有电子邮件页面之间共享。 | AEM |
+| 2 | 通过[模板编辑器，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-hans)作者可配置电子邮件页眉和/或页脚，该页眉和页脚将在此页面模板生成的所有电子邮件页面之间共享。 | AEM |
 | 3 | 作者使用[页面编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans)中的文本编辑器创建电子邮件内容，在文本编辑器中，作者可以在其中选择 Adobe Campaign 变量，并使用分段组件在收件人满足特定条件时有条件地显示信息。 | AEM |
 | 4 | 电子邮件内容完成后，[运行工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html?lang=zh-Hans)以审批内容并发送到 Campaign。 | AEM |
 | 5 | 创建投放，定义收件人列表。 | 营销活动 |

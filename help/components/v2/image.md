@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2119'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 96%
 
 ## Dynamic Media 支持 {#dynamic-media}
 
-图像组件（截至[版本2.13.0](/help/versions.md)）支持[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans#dynamicmedia)资源。[启用后，](#design-dialog)这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样添加Dynamic Media图像资源。 此外还支持图像修饰符、图像预设和智能裁剪。
+图像组件（截止 [发行版本 2.13.0](/help/versions.md)）支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-hans#dynamicmedia) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。 此外还支持图像修饰符、图像预设和智能裁剪。
 
-使用核心组件构建的Web体验现在具备丰富、支持Adobe AI、可靠、高性能、跨平台的Dynamic Media图像功能。
+使用核心组件构建的 Web 体验现在具备丰富、Adobe AI 驱动的、可靠、高性能、跨平台的 Dynamic Media 图像功能。
 
 ## SVG 支持 {#svg-support}
 
@@ -223,9 +223,9 @@ ht-degree: 96%
   ![图像组件“设计”对话框的“功能”选项卡](/help/assets/image-design-features-orientation.png)
 
 * **旋转**
-使用此选项可允许内容作者使用&#x200B;**向右旋转**&#x200B;选项。
+使用此选项可允许内容作者使用**向右旋转**&#x200B;选项。
 * **翻转**
-使用此选项可允许内容作者使用&#x200B;**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
+使用此选项可允许内容作者使用**水平翻转**&#x200B;和&#x200B;**垂直翻转**&#x200B;选项。
 
   >[!CAUTION]
   >

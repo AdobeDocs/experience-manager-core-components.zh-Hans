@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单页脚核心组件。
 role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -62,12 +62,12 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ![“属性”选项卡](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-- **“编辑”对话框**
-“编辑”对话框提供多种标准的富文本格式化工具，通过这些工具，用户可为页脚创建文本。
+- **编辑对话框**
+编辑对话框提供了标准富文本格式设置工具，允许用户为页脚创建文本。
 
-- **粗体** — 此选项将粗体格式应用于所选文本或粗体   格式化光标后输入的文本。`Ctrl+B` 是键盘快捷键。
+- **粗体** - 此选项可将粗体格式应用于所选的文本或为在光标后输入的文本设置粗体格式。 `Ctrl+B` 为键盘快捷键。
 
-- **斜体** — 此选项将斜体格式应用于所选文本或   将光标后输入的文本变为斜体。`Ctrl+I` 是键盘快捷键。
+- **斜体** - 此选项将斜体格式应用于所选的文本或为在光标后输入的文本设置斜体格式。 `Ctrl+I` 为键盘快捷键。
 
 ![项目符号选项](/help/adaptive-forms/assets/footer_bullet.png)
 

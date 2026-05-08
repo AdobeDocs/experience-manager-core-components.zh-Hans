@@ -4,7 +4,7 @@ description: 语言导航组件提供对网站的语言/国家或地区导航，
 role: Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '959'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单向导核心组件。
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2246'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 98%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应Forms向导布局核心组件于2023年2月发布，作为核心组件2.0.4的一部分。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应表单向导布局核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
 | 组件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 与<br>[版本2.0.4](/help/adaptive-forms/version.md)及更高版本兼容\|兼容\|兼容 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md)及更高版本兼容\|兼容\|兼容 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 

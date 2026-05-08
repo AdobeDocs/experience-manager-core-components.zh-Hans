@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1685'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 96%
 
 ## Dynamic Media 支持 {#dynamic-media}
 
-电子邮件图像组件支持[Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans#dynamicmedia)资源。[启用后，](#design-dialog)这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样添加Dynamic Media图像资源。 此外还支持图像修饰符、图像预设和智能裁剪。
+电子邮件图像组件支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans#dynamicmedia) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。 此外还支持图像修饰符、图像预设和智能裁剪。
 
-使用电子邮件核心组件构建的电子邮件体验现在具备丰富、支持Adobe AI、可靠、高性能、跨平台的Dynamic Media图像功能。
+使用电子邮件核心组件构建的电子邮件体验现在具备丰富、Adobe AI 驱动的、可靠、高性能、跨平台的 Dynamic Media 图像功能。
 
 ## SVG 支持 {#svg-support}
 

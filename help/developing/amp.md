@@ -4,9 +4,9 @@ description: 核心组件支持 AMP - 移动页面加速
 role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 ## 核心组件中的 AMP {#amp-in-core-components}
 
-对核心组件中的AMP的支持是[完全可配置的。](#enabling-amp) AMP版本的页面可单独提供、与标准HTML版本一起提供，或根本不提供。
+对核心组件中的 AMP 的支持是[完全可配置的。](#enabling-amp)AMP 页面版本可单独提供、与标准 HTML 版本一起提供，或根本不提供。
 
 核心组件使用 `amp` 作为 Sling 选择器来渲染 AMP 页面。 例如，`example.html` 将渲染一般页面，`example.amp.html` 将为 AMP 版本。
 

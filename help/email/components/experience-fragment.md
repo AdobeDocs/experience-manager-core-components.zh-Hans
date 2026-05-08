@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 94%
 
 使用&#x200B;**打开选择对话框**&#x200B;按钮可打开组件选择器，来选择要添加到内容页面中的体验片段组件变体。
 
-如果您将电子邮件体验片段组件添加到模板，如果体验片段已本地化，则它会自动本地化，因此根据您明确选择的组件，页面上渲染的内容会变化。[有关详细信息，请参阅以上示例](#example)。
+如果您将电子邮件体验片段组件添加到模板，如果体验片段已本地化，则它会自动本地化，因此根据您明确选择的组件，页面上渲染的内容会变化。 有关更多信息，[请参阅以上示例](#example)。
 
 您还可以定义 **ID**。 此选项允许控制 HTM 中组件的唯一标识符。
 

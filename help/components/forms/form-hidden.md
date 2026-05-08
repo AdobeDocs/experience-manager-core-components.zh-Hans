@@ -4,7 +4,7 @@ description: 利用核心组件表单隐藏组件，可显示隐藏字段。
 role: Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 

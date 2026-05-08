@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单单选按钮核心组件。
 role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2349'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 91%
 
 | 组件版本 | AEM as a Cloud Service | AEM 6.5.16.0 Forms 或更高版本 |
 |---|---|---|
-| v2 | 与<br>[版本3.0.142](/help/adaptive-forms/version.md)及更高版本兼容 | |
+| v2 | 与<br>[版本 3.0.142](/help/adaptive-forms/version.md) 和更高版本兼容 | |
 | v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md) 和更高版本兼容 | 与<br>[版本 1.1.12](/help/adaptive-forms/version.md) 和更高版本兼容，但低于版本 2.0.0。 |
 
 
@@ -57,7 +57,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
-> v1版本的复选框组核心组件支持WCAG 2.1，WCAG的重点是通过遵循最佳实践访问内容以提高可用性和可读性。 v2版本支持WCAG 2.2，更进一步强调通过逻辑和语义分组相关字段的清晰、可预测和明确的可访问性，使其成为包容表单设计的关键要求。
+> 复选框组核心组件的 v1 版本支持 WCAG 2.1，此标准的重点是遵循可用性和可读性的最佳做法，从而确保无障碍访问内容。v2 版本支持 WCAG 2.2，此标准进一步强调通过对相关字段进行逻辑和语义分组来确保清晰、可预测、明确的无障碍可访问性，使其成为包容性表单设计的关键要求。
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -93,7 +93,7 @@ To experience the Accordion Component as well as see examples of its configurati
    - **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
    - **删除** - 点击或单击此选项可删除单选按钮的选项。
    - **重新排列** - 点击或单击并拖动以重新排列选项的顺序。
-您还可以使用&#x200B;**允许选项为富文本**&#x200B;对单选按钮组的选项进行格式化。
+您还可以使用**允许选项为富文本**&#x200B;对单选按钮组的选项进行格式化。
 
   ![针对选项的富文本支持](/help/adaptive-forms/assets/richtext-for-options.png)
 
@@ -175,13 +175,13 @@ To experience the Accordion Component as well as see examples of its configurati
 
    - **重新排列**：点击或单击并拖动可重新排列自定义属性名称和自定义属性值的顺序。
 
-## 单选按钮的字段集和图例支持(v2)
+## 单选按钮的字段集和图例支持 (v2)
 
-<span class="preview">此功能可通过提前访问计划获得。 若要请求访问，请将您的官方地址中的电子邮件发送至[aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
+<span class="preview"> 此功能通过早期访问计划提供。要申请访问权限，请使用您的正式地址发送电子邮件至 [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
 
-自适应Forms核心组件使用语义`<fieldset>`和`<legend>` HTML元素来改进单选按钮组的辅助功能。 这些元素使屏幕阅读器能够准确地解释表单结构，并传达组标签及其选项之间的关系。
+自适应表单核心组件使用语义 `<fieldset>` 和 `<legend>` HTML 元素来改进单选按钮组的无障碍性。这些元素使屏幕阅读器能够准确解读表单结构，准确传递组标签与其选项之间的关系。
 
-单选按钮(v2)组件在`<fieldset>`元素中渲染，并将组标签封装在`<legend>`中作为其第一个子项。 删除多余或无效的ARIA属性，并且各个标签正确地与其各自的输入相关联。 这可确保屏幕阅读器清晰地阅读每个单选按钮标签及其组上下文。
+单选按钮 (v2) 组件在 `<fieldset>` 元素中渲染，将组标签作为其第一个子项包含在 `<legend>` 中。移除了冗余或无效的 ARIA 属性，各个标签与其各自的输入正确关联。这可确保屏幕阅读器清晰地读出每个单选按钮标签及其组上下文。
 
 ![单选按钮](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 

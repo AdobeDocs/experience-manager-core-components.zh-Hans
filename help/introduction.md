@@ -4,9 +4,9 @@ description: 获取核心组件问题的解决方案，并允许其他人在 AEM
 role: Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1076'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ## 资源 {#resources}
 
-* **[组件库：](https://www.adobe.com/cn/go/aem_cmp_library)**&#x200B;一组用于查看组件的各种配置的示例。
+* **[组件库：](https://www.adobe.com/go/aem_cmp_library_cn)**&#x200B;一组用于查看组件的各种配置的示例。
 * **组件文档（此文档）：**&#x200B;对于开发人员和作者，包含有关每个组件的详细信息。
 * **[核心组件 GitHub 存储库：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;对于开发人员，包含每个组件和项目下载的详细信息。
 * 开始使用：
@@ -45,7 +45,7 @@ ht-degree: 98%
 | WebApp 就绪 | [简化的 JSON 输出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=zh-hans)允许客户端渲染，并且仍可进行[上下文内编辑](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-hans)。 |
 | AMP 支持 | 组件已内置[对 AMP 标准的支持，](/help/developing/amp.md)可加快移动体验。 |
 | 设计套件 | 利用 [Adobe XD UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=zh-Hans)，设计人员可以创建随后可[按需样式化](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)的线框。 |
-| 可主题化 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-Hans)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
+| 可主题化 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-hans)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
 | 可自定义 | 可利用几种模式来[轻松进行自定义设置](developing/customizing.md)（从调整 HTML 到高级功能重用）。 |
 | 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可确保核心组件在改进可能影响您的内容时不会中断您的网站。 |
 | 可本地化 | 智能引用解析允许特定组件自动查找和[自动渲染对应的本地化内容](get-started/localization.md)。 |

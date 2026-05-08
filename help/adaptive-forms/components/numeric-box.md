@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单数字输入核心组件。
 role: Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -190,11 +190,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 要将格式添加到模板策略，请执行以下操作：
 
-1. 在模板编辑器中打开与一个或多个自适应表单关联的相应模板。
-2. 在&#x200B;**允许的组件**&#x200B;部分中，选择&#x200B;**[!UICONTROL Number Input]**&#x200B;组件。
-   ![日期选取器范本原则](/help/adaptive-forms/assets/number-input-policy.png)
-3. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;图标以为Number Input组件创建新策略。
-4. 输入策略的名称，然后在&#x200B;**格式**&#x200B;选项卡下选择所有必需的格式。
+1. 在模板编辑器中打开与自适应表单或 Sites 相关联的相应模板。
+2. 在&#x200B;**允许的组件**&#x200B;部分中，选择&#x200B;**[!UICONTROL 数字输入]**组件。
+   ![日期选取器模板策略](/help/adaptive-forms/assets/number-input-policy.png)
+3. 点击&#x200B;**[!UICONTROL 添加]**&#x200B;图标，为数字输入组件创建一个新策略。
+4. 输入策略的名称，然后在&#x200B;**格式**选项卡中选择所有必需的格式。
    ![创建策略](/help/adaptive-forms/assets/date-picker-format-policy.png)
 5. 单击&#x200B;**[!UICONTROL 完成]**。
 

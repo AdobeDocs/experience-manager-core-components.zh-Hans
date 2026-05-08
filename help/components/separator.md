@@ -4,7 +4,7 @@ description: 分隔符组件在页面上的组件之间创建隔断
 role: Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
 ht-degree: 100%
 

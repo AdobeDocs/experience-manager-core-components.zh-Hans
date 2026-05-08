@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: 对于传统的 AEM 项目，使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 96%
       + [自适应表单水平选项卡](/help/adaptive-forms/components/horizontal-tabs.md)
       + [自适应表单图像](/help/adaptive-forms/components/image.md)
       + [自适应表单数值框](/help/adaptive-forms/components/numeric-box.md)
-      + {hide-from-toc}[自适应Forms密码框](/help/adaptive-forms/components/password-box.md)
+      + {hide-from-toc}[自适应表单密码框](/help/adaptive-forms/components/password-box.md)
       + [自适应表单面板](/help/adaptive-forms/components/panel.md)
       + [自适应表单验证码](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [自适应表单单选按钮](/help/adaptive-forms/components/radio-button.md)
       + [自适应表单重置按钮](/help/adaptive-forms/components/reset-button.md)
-      + {hide-from-toc}[自适应表单审核](/help/adaptive-forms/components/review.md)
+      + {hide-from-toc}[自适应表单审阅](/help/adaptive-forms/components/review.md)
       + [自适应表单潦草签名](/help/adaptive-forms/components/scribble-signature.md)
       + [自适应表单提交按钮](/help/adaptive-forms/components/submit-button.md)
       + [自适应表单切换](/help/adaptive-forms/components/adaptive-form-switch.md)
@@ -144,7 +144,7 @@ ht-degree: 96%
    + {hide-from-toc}[启用文本输入验证模式](/help/adaptive-forms/enable-validation-patterns.md)
 + 开发 {#developing}
    + [开发核心组件](/help/developing/overview.md)
-   + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-Hans)
+   + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-hans)
    + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)
    + [自定义核心组件](/help/developing/customizing.md)
    + [组件准则](/help/developing/guidelines.md)
