@@ -4,7 +4,7 @@ description: 核心组件的本地化功能
 role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: f3a3cfcadf76058eb0c927424fe41f03a55a58c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 同样，导航组件通常必须跨所有页面显示。 但它还需要反映本地化页面的内容。
 
-通过将[导航核心组件](/help/components/navigation.md)和[体验片段核心组件](/help/components/experience-fragment.md)的本地化功能与 [AEM 的可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)结合使用，可轻松完成此任务。 也可以进一步扩展此示例以使用[语言导航组件](/help/components/language-navigation.md)。
+通过将[导航核心组件](/help/components/navigation.md)和[体验片段核心组件](/help/components/experience-fragment.md)的本地化功能与 [AEM 的可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)结合使用，可轻松完成此任务。 也可以进一步扩展此示例以使用[语言导航组件](/help/components/language-navigation.md)。
 
 ## 内容结构 {#content-structure}
 

@@ -5,8 +5,8 @@ role: Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '647'
+workflow-type: ht
+source-wordcount: '648'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 100%
 >
 >应对搜索组件或任何基于 AEM 的应用程序实施更高级别的保护以使其免受 DOS 攻击，例如，通过使用 Dispatcher 上的 `mod_security`。
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v1_cn)有关快速搜索组件的最新技术文档。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v1)有关快速搜索组件的最新技术文档。
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 ## “设计”对话框 {#design-dialog}
 
-利用“设计”对话框，模板作者可以设置内容树中开始搜索的位置的默认值以及最大结果集大小和最小搜索词长度。“设计”对话框允许模板作者定义哪些文本格式选项可供内容作者使用。
+利用“设计”对话框，模板作者可以设置内容树中开始搜索的位置的默认值，以及最大结果集大小和最小搜索词长度。利用“设计”对话框，模板作者可以定义哪些文本格式选项可供内容作者使用。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -75,10 +75,10 @@ ht-degree: 100%
 
 * **搜索根**
 内容作者在内容页面上放置快速搜索组件时搜索根的默认值
-* **结果大小**
-搜索请求获取的结果的最大数目
+* **结果数量**
+搜索请求可获得的最大结果数量
 * **搜索词最小长度**
-用于开始搜索的搜索词的最小长度
+用于启动搜索的搜索词最小长度
 
 >[!NOTE]
 >

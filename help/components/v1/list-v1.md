@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -227,11 +227,11 @@ ht-degree: 100%
 ![](/help/assets/chlimage_1-44.png)
 
 * **链接项**
-将项链接到对应的页面
+将各项链接到相应的页面
 * **显示描述**
 显示链接项的描述
 * **显示日期**
-显示链接项的修改日期
+显示链接项的更改日期
 
 ## “设计”对话框 {#design-dialog}
 

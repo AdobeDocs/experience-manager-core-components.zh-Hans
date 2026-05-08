@@ -4,9 +4,9 @@ description: 使用或自定义自适应表单电话号码输入核心组件。
 role: Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2232'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技术详细信息 {#technical-details}
@@ -157,7 +157,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ### “格式”选项卡 {#format-tab}
 
-“格式”选项卡允许您指定默认和自定义的数字格式。此外，您可以通过单击&#x200B;**添加**&#x200B;按钮来添加自定义的numebr格式。
+“格式”选项卡允许您指定默认的和自定义的数字格式。此外，您可以点击&#x200B;**添加**&#x200B;按钮来添加自定义的数字格式。
 
 ![“格式”选项卡](/help/adaptive-forms/assets/telephoneinput_format.png)
 
@@ -171,7 +171,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hans)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

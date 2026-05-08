@@ -1,12 +1,12 @@
 ---
 title: 使用核心组件
-description: 要在您自己的项目中启动并运行核心组件，需要执行三个步骤：下载并安装、创建代理组件、加载核心样式以及在模板上允许组件。
+description: 要在您自己的项目中启动并运行核心组件，需要执行四个步骤：下载并安装、创建代理组件、加载核心样式、在您的模板上启用组件。
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 >[!TIP]
 >
 >要更详细地了解如何从头开始使用项目设置、核心组件、可编辑模板、客户端库和组件开发，以下包含多个部分的教程可能会对您有所帮助：\
->[《AEM Sites 快速入门》 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)
+>[《AEM Sites 快速入门》 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
@@ -44,7 +44,7 @@ ht-degree: 92%
 * 如果项目构建管道再次将核心组件包含为 `/apps` 的一部分，则会在日志中生成警告，并且将忽略作为项目的一部分嵌入的版本。
    * 在即将发布的版本中，再次包含核心组件将导致管道构建失败。
 * 如果项目之前已将核心组件包含在 `/apps` 中，[您可能需要调整您的项目。](/help/developing/overview.md#via-aemaacs)
-* 即使核心组件现在位于`/libs`中，也不建议在`/apps`中创建同一路径的任何叠加。[如果需要自定义组件的任何方面，则应改用代理组件模式](/help/developing/guidelines.md#proxy-component-pattern)。
+* 即使核心组件现在位于 `/libs` 中，也建议不要在 `/apps` 中创建同一路径的任何叠加。 如果需要自定义组件的任何方面，则应改用[代理组件模式](/help/developing/guidelines.md#proxy-component-pattern)。
 * 为了让[目录组件](/help/components/tableofcontents.md)呈现其内容，需要在 OSGi 中配置过滤器。
    * [有关更多信息，请参阅该组件的 GitHub 文档](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_cn)。
 
@@ -52,7 +52,7 @@ ht-degree: 92%
 
 在生产模式（没有示例内容）下启动时，核心组件不是快速入门的一部分。 因此，您首先要[从 GitHub 下载最新发布的内容包](https://github.com/adobe/aem-core-wcm-components/releases/latest)并在 AEM 环境中安装此包。
 
-虽然可通过多种方法自动执行此操作，但使用包管理器可最轻松地在实例上快速安装内容包；请参阅[安装包](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans#installing-packages)。 此外，一旦您还运行了发布实例，您就需要将该包复制到发布者；请参阅[复制包](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans#replicating-packages)。
+虽然可通过多种方法自动执行此操作，但使用包管理器可最轻松地在实例上快速安装内容包；请参阅[安装包](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages)。 此外，一旦您还运行了发布实例，您就需要将该包复制到发布者；请参阅[复制包](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages)。
 
 ## 创建代理组件 {#create-proxy-components}
 
@@ -88,7 +88,7 @@ ht-degree: 92%
 
 ## 加载核心样式 {#load-the-core-styles}
 
-1. 如果尚未这样做，请创建一个[客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=zh-Hans)，该库包含站点所需的所有 CSS 和 JS 文件。
+1. 如果尚未这样做，请创建一个[客户端库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html)，该库包含站点所需的所有 CSS 和 JS 文件。
 1. 在站点的客户端库上，将依赖项添加到可能需要的核心组件。 可添加 `embed` 属性来完成此操作。
 
    例如，要包含所有 v1 核心组件的客户端库，则要添加的属性为：
@@ -107,7 +107,7 @@ ht-degree: 92%
 
 ## 允许组件 {#allow-the-components}
 
-在[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)中执行以下步骤。
+在[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)中执行以下步骤。
 
 1. 在模板编辑器中，选择“布局容器”，然后打开其策略。
 1. 在“允许的组件”列表中，选择之前创建的代理组件，这些组件应显示在为其分配的组件组的下方。 完成后，应用更改。

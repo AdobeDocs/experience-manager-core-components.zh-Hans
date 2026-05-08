@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 电子邮件页面组件 {#email-page-component}
 
-电子邮件页面组件是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)，允许使用模板编辑器来组装页眉/页脚和结构组件，为创建 Adobe Campaign 内容量身定制。
+电子邮件页面组件是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，允许使用模板编辑器来组装页眉/页脚和结构组件，为创建 Adobe Campaign 内容量身定制。
 
 ## 用途 {#usage}
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## “编辑”对话框 {#edit-dialog}
 
-由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hans)窗口中找到。
+由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)窗口中找到。
 
 ### 云服务选项卡 {#cloud-services}
 

@@ -1,14 +1,14 @@
 ---
-title: AEM 自适应表单 hCaptcha
-description: 使用hCaptcha&reg；服务轻松增强表单安全性。 里面有分步指南！
+title: AEM 自适应表单中的 hCaptcha
+description: 使用 hCaptcha&reg; 服务轻松增强表单安全性。里面有分步指南！
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ hCaptcha® 服务项目可保护您的表单免受机器人、垃圾邮件和自
 |---|---|
 | 组件版本 | AEM as a Cloud Service |
 | --- | --- |
-| v1 | 与<br>[版本2.0.4](/help/adaptive-forms/version.md)及更高版本兼容\|兼容\|兼容 |
+| v1 | 与<br>[版本 2.0.4](/help/adaptive-forms/version.md)及更高版本兼容\|兼容\|兼容 |
 
 有关核心组件版本的信息，请参阅[核心组件版本](/help/adaptive-forms/version.md)文档。
 
@@ -80,13 +80,13 @@ hCaptcha® 服务项目可保护您的表单免受机器人、垃圾邮件和自
 
 **详细了解**&#x200B;其他&#x200B;**验证码组件**&#x200B;及其服务，例如：
 
-- [在核心组件的自适应表单中使用Captcha](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
+- [在自适应表单中使用 hCaptcha 作为核心组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
-- [在适用于Foundation组件的自适应表单中使用Captcha](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [在自适应表单中使用 hCaptcha 作为基础组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [在适用于Foundation组件的自适应表单中使用Turnstile CAPTCHA](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [在自适应表单中使用 Turnstile CAPTCHA 作为基础组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
-- [在适用于Foundation组件的自适应表单中使用Google reCAPTCHA](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+- [在自适应表单中使用 Google reCAPTCHA 作为基础组件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## 相关文章 {#related-articles}
 

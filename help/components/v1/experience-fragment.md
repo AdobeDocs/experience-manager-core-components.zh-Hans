@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 94%
 
 使用&#x200B;**打开选择对话框**&#x200B;按钮可打开组件选择器，来选择要添加到内容页面中的体验片段组件变体。
 
-如果您将体验片段组件添加到模板，请注意，如果体验片段已本地化，则它会自动本地化，因此根据您明确选择的组件，页面上渲染的内容会变化。[有关详细信息，请参阅以上示例](#example)。
+如果您将体验片段组件添加到模板，请注意，如果体验片段已本地化，则它会自动本地化，因此根据您明确选择的组件，页面上渲染的内容会变化。 有关更多信息，[请参阅以上示例](#example)。
 
 您还可以定义 **ID**。 利用此选项，可以控制 HTML 和 [Data Layer](/help/developing/data-layer/overview.md) 中的组件的唯一标识符。
 

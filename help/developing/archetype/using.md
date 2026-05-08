@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 92%
 
 利用项目原型，可以轻松地在 AEM 上开始进行开发。 您可以通过多种方式使用原型迈出第一步。
 
-* **WKND 教程** - 有关在 AEM 上进行开发的精彩介绍（包括如何利用原型），请参阅 [AEM Sites 入门 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)中的实际示例，该示例介绍如何使用原型实施简单项目。
+* **WKND 教程** - 有关在 AEM 上进行开发的精彩介绍（包括如何利用原型），请参阅 [AEM Sites 入门 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)中的实际示例，该示例介绍如何使用原型实施简单项目。
 * **WKND 事件教程** - 如果您特别想知道如何在 AEM 上开发单页面应用程序 (SPA)，请务必查看专门的 [WKND 事件教程](https://helpx.adobe.com/cn/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)。
-* **自己开始！**  — 您可以轻松下载GitHub[&#128279;](https://github.com/adobe/aem-project-archetype)上可用的当前项目原型，并自行创建第一个项目。
+* **开始创建您自己的项目！**- 您可以轻松下载 [GitHub 上提供的当前项目原型](https://github.com/adobe/aem-project-archetype)，开始创建您的第一个项目。
 
 ## 如何使用原型 {#how-to-use-the-archetype}
 
@@ -50,8 +50,8 @@ ht-degree: 92%
 * **[ui.content](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.content)**：此模块包含使用 ui.apps 模块中的组件的示例内容。
 * **[ui.config](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.config)**：此模块包含项目的特定于 runmode 的 OSGi 配置。
 * **[ui.frontend.general](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.general)**：（可选）此模块包含使用通用型基于 Webpack 的前端构建模块所需的构件。
-* **[ui.frontend.react](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)**&#x200B;**：（可选）**&#x200B;此模块包含使用原型创建基于 React 的 SPA 项目时所需的构件（是否使用取决于构建参数）。
-* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)**&#x200B;**：（可选）**&#x200B;此模块包含使用原型创建基于 Angular 的 SPA 项目时所需的构件（是否使用取决于构建参数）。
+* **[ui.frontend.react](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)****：（可选）**&#x200B;此模块包含使用原型创建基于 React 的 SPA 项目时所需的构件（是否使用取决于构建参数）。
+* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)****：（可选）**&#x200B;此模块包含使用原型创建基于 Angular 的 SPA 项目时所需的构件（是否使用取决于构建参数）。
 * **[ui.tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)**：此模块包含基于 Selenium 的 UI 测试。
 * **[all](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/all)**：此模块是单内容包，它嵌入了所有已编译的模块（捆绑包和内容包），其中包括任何供应商依赖项。
 * **[dispatcher.ams](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.ams)**：此模块包含 AMS/内部部署项目的基本 Dispatcher 配置（是否使用取决于构建参数）。
@@ -79,7 +79,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### 模块结构 {#module-structure}
 
-父级 POM 的 `<modules>` 部分定义项目将构建的模块。 默认情况下，项目生成[以前定义的标准模块。](#what-you-get) 随着项目的发展，始终可以添加更多模块。
+父级 POM 的 `<modules>` 部分定义项目将构建的模块。 默认情况下，项目会构建[之前定义的标准模块。](#what-you-get)随着项目的发展，始终可以添加更多模块。
 
 ### 依赖项 {#dependencies}
 
@@ -87,7 +87,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-关键依赖项之一是[AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=zh-Hans) 这将包括所有AEM API，并且AEM版本只有一个依赖项。
+关键依赖项之一是 [AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)这将包括所有 AEM API，并且 AEM 版本只有一个依赖项。
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### 核心组件 {#core-components}
 
-原型当然会利用[核心组件。](/help/introduction.md) 因此，要在所有部署中利用核心组件，最佳实践是将它们作为Maven项目的一部分包含在内。
+当然，原型会使用[核心组件。](/help/introduction.md)因此，要在所有部署中利用核心组件，最佳做法是将它们作为 Maven 项目的一部分包含在内。
 
 core.wcm.components.examples 是一组示例页面，用于说明核心组件的示例。 作为最佳实践，在部署项目以供生产使用时，您应删除此依赖项和子包包含。
 
