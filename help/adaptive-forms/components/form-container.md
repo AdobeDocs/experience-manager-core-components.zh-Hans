@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 表单容器 {#form-container-adaptive-forms-core-component}
 
-<span class="preview">本文将讨论&#x200B;**草稿** <!--and **Hamburger Menu Support** -->功能，这是一个预发行功能。 该预发行功能仅可通过我们的[预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)访问。</span>
+<span class="preview">本文将讨论&#x200B;**草稿** <!--and **Hamburger Menu Support** -->功能，这是一个预发行功能。 该预发行功能仅可通过我们的[预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)访问。</span>
 
 通过表单，网站访客可与网站交互，提供宝贵的信息，这样即可提高参与度和用户满意度。 利用 Adobe Experience Manager (AEM) Sites 中的自适应表单容器，网站所有者可以轻松地将表单添加到其页面。 这样通过一种简化的方式供访客提供反馈、进行查询和完成其他操作，有助于促进网站访客与网站所有者或组织之间的交流
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). 
 -->
 
 ## 技术详细信息 {#technical-details}
