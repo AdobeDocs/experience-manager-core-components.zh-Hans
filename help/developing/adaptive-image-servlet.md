@@ -4,8 +4,13 @@ description: 了解核心组件如何使用自适应图像 Servlet 来投放图�
 role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 TQID: https://experienceleague.adobe.com/zfjxGeTjON5PKCAp63gcBb76rDEmIPewkGcLFvsNb0c
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: null
 workflow-type: tm+mt
 source-wordcount: 487
