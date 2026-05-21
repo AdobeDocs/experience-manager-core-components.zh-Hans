@@ -3,17 +3,26 @@ title: AEM 自适应表单核心组件版本
 description: 作为可包含同一核心组件的多个版本的发行版发布 AEM 核心组件。 本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '213'
+TQID: https://experienceleague.adobe.com/kR6oSgXN8ITcTqmGZyqyhfcpj8IU8l2ueKo6mt37Pic
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 213
 ht-degree: 100%
 
 ---
 
-
 # 自适应表单核心组件版本 {#core-components-versions}
 
-识别表单核心组件和 WCM 核心组件依赖项的准确版本。此外，应熟悉自适应表单核心组件每个版本中启用的组件和功能。
+识别表单核心组件和 WCM 核心组件依赖项的准确版本。 此外，应熟悉自适应表单核心组件每个版本中启用的组件和功能。
 
 ## AEM Forms as Cloud Service 版本历史 {#aem-as-cs-version-history}
 

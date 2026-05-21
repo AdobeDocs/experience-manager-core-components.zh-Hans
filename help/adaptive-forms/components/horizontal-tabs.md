@@ -3,13 +3,24 @@ title: 自适应表单核心组件 - 水平选项卡
 description: 使用或自定义自适应表单水平选项卡核心组件。
 role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2213'
+TQID: https://experienceleague.adobe.com/E8NSb3GcPauGGJgcsEaxr-rbG2HVy96fCelp17EZ9n4
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 2213
 ht-degree: 100%
 
 ---
-
 
 # 水平选项卡组件（顶部选项卡）组件{#horizontal-tabs-adaptive-forms-core-component}
 
@@ -35,7 +46,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应表单水平选项卡核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应表单水平选项卡核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
@@ -125,7 +136,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 - **图标** - 图标在列表中标识面板的组件。 将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
 - **描述** - 用作面板文本的描述。 默认情况下，为面板选择组件的名称。
 - **删除** – 点按或单击，即可从“水平”选项卡组件中删除该面板。
-- **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
+- **重新排列** - 点击或单击并拖动以重新排列面板。
 
 ### “帮助内容”选项卡 {#help-content}
 

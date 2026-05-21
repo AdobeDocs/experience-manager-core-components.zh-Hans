@@ -4,13 +4,22 @@ description: 语言导航组件提供对网站的语言/国家或地区导航，
 role: Developer, Admin, User
 exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '805'
+TQID: https://experienceleague.adobe.com/Ej-QJ6rjC6GoQJ1bwBAnDIC-8-oIQIwkosV0-lAmAug
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 805
 ht-degree: 100%
 
 ---
-
 
 # 语言导航组件 (v1) {#language-navigation-component}
 

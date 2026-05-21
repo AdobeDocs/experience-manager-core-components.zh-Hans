@@ -3,13 +3,24 @@ title: 自适应表单核心组件 - 单选按钮
 description: 使用或自定义自适应表单单选按钮核心组件。
 role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '2349'
+TQID: https://experienceleague.adobe.com/kvlbGpsO7ibocEO09hDHvpUDjxcSlJaAfmfFuff4mD4
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 2349
 ht-degree: 100%
 
 ---
-
 
 # 单选按钮组件 {#radio-button-adaptive-forms-core-component}
 
@@ -57,7 +68,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 复选框组核心组件的 v1 版本支持 WCAG 2.1，此标准的重点是遵循可用性和可读性的最佳做法，从而确保无障碍访问内容。v2 版本支持 WCAG 2.2，此标准进一步强调通过对相关字段进行逻辑和语义分组来确保清晰、可预测、明确的无障碍可访问性，使其成为包容性表单设计的关键要求。
+> 复选框组核心组件的 v1 版本支持 WCAG 2.1，此标准的重点是遵循可用性和可读性的最佳做法，从而确保无障碍访问内容。 v2 版本支持 WCAG 2.2，此标准进一步强调通过对相关字段进行逻辑和语义分组来确保清晰、可预测、明确的无障碍可访问性，使其成为包容性表单设计的关键要求。
 
 <!--
 ## Sample Component Output {#sample-component-output}
@@ -177,11 +188,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## 单选按钮的字段集和图例支持 (v2)
 
-<span class="preview"> 此功能通过早期访问计划提供。要申请访问权限，请使用您的正式地址发送电子邮件至 [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
+<span class="preview"> 此功能通过早期访问计划提供。 要申请访问权限，请使用您的正式地址发送电子邮件至 [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com)。</span>
 
-自适应表单核心组件使用语义 `<fieldset>` 和 `<legend>` HTML 元素来改进单选按钮组的无障碍性。这些元素使屏幕阅读器能够准确解读表单结构，准确传递组标签与其选项之间的关系。
+自适应表单核心组件使用语义 `<fieldset>` 和 `<legend>` HTML 元素来改进单选按钮组的无障碍性。 这些元素使屏幕阅读器能够准确解读表单结构，准确传递组标签与其选项之间的关系。
 
-单选按钮 (v2) 组件在 `<fieldset>` 元素中渲染，将组标签作为其第一个子项包含在 `<legend>` 中。移除了冗余或无效的 ARIA 属性，各个标签与其各自的输入正确关联。这可确保屏幕阅读器清晰地读出每个单选按钮标签及其组上下文。
+单选按钮 (v2) 组件在 `<fieldset>` 元素中渲染，将组标签作为其第一个子项包含在 `<legend>` 中。 移除了冗余或无效的 ARIA 属性，各个标签与其各自的输入正确关联。 这可确保屏幕阅读器清晰地读出每个单选按钮标签及其组上下文。
 
 ![单选按钮](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 

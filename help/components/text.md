@@ -3,13 +3,22 @@ title: 文本组件
 description: 文本组件是一种富文本编辑和撰写组件，具有就地编辑功能。
 role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '2265'
+TQID: https://experienceleague.adobe.com/K--Dbh0QmllM2oy7EBVsQ8f-eMV32-f9bL16tcTyoiU
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 2265
 ht-degree: 100%
 
 ---
-
 
 # 文本组件{#text-component}
 
@@ -152,7 +161,7 @@ ht-degree: 100%
 
 ![查找示例](/help/assets/text-find-example.png)
 
-输入要搜索的文本并点击或单击&#x200B;**“查找”**以开始搜索。 点击或单击 x 可取消。
+输入要搜索的文本并点击或单击&#x200B;**查找**以开始搜索。 点击或单击 x 可取消。
 如果您希望根据大小写进行精确匹配，请选择选项**匹配大小写**，然后再开始搜索。
 如果找到一个匹配项，则将突出显示该匹配项，并且搜索对话框将灰显。 在灰显的对话框中再次点击或单击**查找**&#x200B;按钮可搜索下一个匹配项。
 

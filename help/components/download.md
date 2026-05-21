@@ -3,13 +3,22 @@ title: 下载组件
 description: 利用核心组件下载组件，可在页面上创建下载选项。
 role: Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '770'
+TQID: https://experienceleague.adobe.com/76bcM5gBp5F-6Va3ChbowPwmDZ-icOkn0biazWgmCbs
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 770
 ht-degree: 100%
 
 ---
-
 
 # 下载组件{#download-component}
 
@@ -107,6 +116,6 @@ ht-degree: 100%
 * **显示文件名** - 在选中时，资源的文件名将显示在下载组件中。
    * 默认值为选中。
 
-### “样式”选项卡 {#styles-tab}
+### 样式选项卡 {#styles-tab}
 
 图像组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。

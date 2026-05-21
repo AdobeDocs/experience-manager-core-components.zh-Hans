@@ -4,9 +4,23 @@ description: 了解 Adobe 客户端数据层如何与您的自定义组件集成
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '424'
+TQID: https://experienceleague.adobe.com/xncfOtz1FNyeH6CjQjg7cSeIonIg2mkBIPUgZvMI7Ww
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+subfeature_v2:
+  - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 424
 ht-degree: 100%
 
 ---
@@ -22,7 +36,7 @@ Adobe 客户端数据层可与您的自定义组件集成，并且与 Adobe Anal
 自动将自定义组件添加到 Data Layer：
 
 1. 定义需要跟踪的自定义组件模型的属性。
-1. 将 `data-cmp-data-layer` 属性添加到自定义组件 HTL。例如`data-cmp-data-layer="${mycomponent.data.json}"`.
+1. 将 `data-cmp-data-layer` 属性添加到自定义组件 HTL。例如 `data-cmp-data-layer="${mycomponent.data.json}"`.
 
 要自动使 Data Layer 在每次单击自定义组件的特定元素时触发 `cmp:click` 事件，可将 `data-cmp-clickable` 属性添加到要在自定义组件 HTL 中跟踪的元素。
 

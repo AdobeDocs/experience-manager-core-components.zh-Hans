@@ -3,13 +3,24 @@ title: 自适应表单核心组件 - 面板容器
 description: 使用或自定义自适应表单面板容器核心组件。
 role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2331'
+TQID: https://experienceleague.adobe.com/F7yVQnFlW4kR1zNfRprVfzks6jm0BJLtCPyuDmzbjY4
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 2331
 ht-degree: 100%
 
 ---
-
 
 # 面板组件{#panel-container-adaptive-forms-core-component}
 
@@ -39,7 +50,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应表单面板容器核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应表单面板容器核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
@@ -100,7 +111,7 @@ To experience the Accordion Component as well as see examples of its configurati
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **在分区标题下将字段分组**：选择此选项可在一个常见的分区标题下组织相关的表单字段。此分组操作可确保辅助技术（如屏幕阅读器）能够将分组的字段识别为一个内聚的单元进行公告，为所有用户改进表单的无障碍性和导航功能。
+- **在分区标题下将字段分组**：选择此选项可在一个常见的分区标题下组织相关的表单字段。 此分组操作可确保辅助技术（如屏幕阅读器）能够将分组的字段识别为一个内聚的单元进行公告，为所有用户改进表单的无障碍性和导航功能。
 
   ![面板组字段](/help/adaptive-forms/assets/panel-fieldset.png)
 

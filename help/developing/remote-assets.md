@@ -3,13 +3,22 @@ title: 支持远程资产
 description: 了解如何配置核心组件图像和 Teaser 组件以使用带有 OpenAPI 的 Dynamic Media 支持远程资产。
 role: Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '523'
+TQID: https://experienceleague.adobe.com/LT7Iak-RxjbEG8r4njFVn3pwqP67vHi3lva3Mj3MjFQ
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 523
 ht-degree: 100%
 
 ---
-
 
 # 支持远程资产 {#remote-assets-support}
 

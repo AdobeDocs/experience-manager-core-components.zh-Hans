@@ -3,13 +3,20 @@ title: 内容片段组件
 description: 利用核心组件内容片段组件，可以显示内容片段。
 role: Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '693'
+TQID: https://experienceleague.adobe.com/0DtXdVGWrkNjQrgW9Vye-g21IlySz4fjYpZLQ5twQrM
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 693
 ht-degree: 100%
 
 ---
-
 
 # 内容片段组件{#content-fragment-component}
 
