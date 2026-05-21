@@ -3,13 +3,16 @@ title: 进度条组件
 description: 进度条组件以可视化形式展示向目标的进展
 role: Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '343'
+TQID: https://experienceleague.adobe.com/Ovas6znS8-Pimv0hU5zPCnPuugjg2YyucQJbn1r6m8g
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 343
 ht-degree: 100%
 
 ---
-
 
 # 进度条组件 {#progress-bar-component}
 

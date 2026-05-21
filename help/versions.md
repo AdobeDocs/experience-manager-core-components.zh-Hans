@@ -3,16 +3,22 @@ title: 核心组件版本
 description: 核心组件作为发行版本发布，发行版本可能包含相同核心组件的多个版本。 本文档介绍了什么是发行版本和版本，以及如何了解核心组件与 AEM 的兼容性。
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 4119923c2c7d256f46b3bf80cf620d8f114fae6f
-workflow-type: ht
-source-wordcount: '3887'
+TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: d429a63e-ade4-4117-b04e-9b996d1c94efid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 3887
 ht-degree: 100%
 
 ---
 
 # 核心组件版本 {#core-components-versions}
 
-核心组件与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-hans) 安装程序兼容。
+核心组件与 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) 和[内部部署 AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=zh-hans) 安装程序兼容。
 
 ## 发行版本历史记录和兼容性 {#release-history-and-compatibility}
 
@@ -68,7 +74,7 @@ ht-degree: 100%
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | 这是一个补丁发行版本，用于修复之前引入的无法向后兼容的更改。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 8 月 2 日 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | 此补丁发行版本添加了对页面的网站地图的支持，并包括各种辅助功能改进。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 7 月 29 日 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | 此补丁发行版本包括对[数据层](/help/developing/data-layer/overview.md)不可用于 AEMaaCS 的修复。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 7 月 8 日 |
-| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此发行版本包括许多支持链接处理程序功能的新组件版本的技术预览，以及[页面组件](/help/components/page.md)的精选图像功能的技术预览。其中还包括了多个错误修复。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 6 月 16 日 |
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | 此发行版本包括许多支持链接处理程序功能的新组件版本的技术预览，以及[页面组件](/help/components/page.md)的精选图像功能的技术预览。 其中还包括了多个错误修复。 | 6.4.8.4+ | 6.5.6.0+ | - | 连续 | 8, 11 | 2021 年 6 月 16 日 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | 此补丁发行版用于修复新的链接处理程序的问题。 | 6.4.8.1+ | 6.5.5.0+ | - | 连续 | 8, 11 | 2021 年 5 月 19 日 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | 此补丁发行版本主要修复了新的链接处理程序的问题，并增加了对 [PWA](/help/components/page.md#pwa-support) 多页应用程序的支持。 | 6.4.8.1+ | 6.5.5.0+ | - | 连续 | 8, 11 | 2021 年 5 月 15 日 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | 此发行版本重点提供了可访问性改进以及向现有组件引入了新的链接处理程序。 | 6.4.8.1+ | 6.5.5.0+ | - | 连续 | 8, 11 | 2021 年 4 月 22 日 |
@@ -113,31 +119,31 @@ ht-degree: 100%
 
 |  | 发行版本 1.0.0 – 1.0.6 | 发行版本 1.1.0 | 发行版本 2.0.0 – 2.0.8 | 发行版本 2.1.0 | 发行版本 2.2.0 – 2.2.0 | 发行版本 2.3.0 – 2.3.2 | 发行版本 2.4.0 | 发行版本 2.5.0 | 发行版本 2.6.0 | 发行版本 2.7.0 – 2.8.0 | 发行版本 2.9.0 – 2.17.14 | 发行版本 2.18.0 | 发行版本 2.19.0 | 发行版本 2.20.0-2.21.2 | 发行版本 2.22.0 和更高版本 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[页面](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[标题](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[图像](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
-| **[列表](components/list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1, v2, v3, v4 |
-| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[页面](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1，v2 | v1, v2 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1，v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[标题](components/title.md)** | v1 | v1 | v1, v2 | v1，v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[图像](components/image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1，v2 | v1，v2 | v1, v2 | v1, v2 | v1，v2 | v1，v2 | v1，v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
+| **[列表](components/list.md)** | v1 | v1 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1, v2, v3, v4 |
+| **[痕迹导航](components/breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1，v2 | v1，v2 | v1, v2 | v1, v2 | v1，v2 | v1，v2 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 | v1、v2、v3 |
 | **[社交媒体共享](components/sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1，已弃用 | v1，已弃用 | v1，已弃用 | v1，已弃用 |
-| **[表单容器](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[表单文本](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[表单选项](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[表单隐藏](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[表单按钮](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[内容片段](components/content-fragment-component.md)** |  | 沙盒 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[导航](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[语言导航](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[表单容器](components/forms/form-container.md)** | v1 | v1 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[表单文本](components/forms/form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1, v2 | v1，v2 | v1，v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[表单选项](components/forms/form-options.md)** | v1 | v1 | v1, v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1, v2 | v1, v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
+| **[表单隐藏](components/forms/form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 | v1，v2 | v1, v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 | v1，v2 |
+| **[表单按钮](components/forms/form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1，v2 | v1, v2 | v1, v2 | v1，v2 | v1，v2 | v1，v2 | v1, v2 | v1，v2 | v1，v2 | v1, v2 | v1，v2 |
+| **[内容片段](components/content-fragment-component.md)** |  | 沙盒 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1，v2 | v1，v2 |
+| **[导航](components/navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1，v2 | v1，v2 | v1，v2 |
+| **[语言导航](components/language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1，v2 | v1，v2 | v1，v2 |
 | **[快速搜索](components/quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1，v2 |
 | **[Teaser](components/teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
 | **[选项卡](components/tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[轮播](components/carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
 | **[分隔符](components/separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[内容片段列表](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[内容片段列表](components/content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1, v2 | v1，v2 | v1，v2 | v1，v2 |
 | **[折叠](components/accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[按钮](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[按钮](components/button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 | v1，v2 | v1，v2 | v1，v2 |
 | **[容器](components/container.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[下载](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
-| **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
+| **[下载](components/download.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1, v2 | v1，v2 | v1，v2 | v1，v2 |
+| **[体验片段](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1, v2 | v1，v2 | v1, v2 | v1，v2 |
 | **[嵌入](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1，v2 |
 | **[进度条](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
 | **[PDF 查看器](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
@@ -159,7 +165,7 @@ ht-degree: 100%
 
 ### 发行版本 {#releases}
 
-核心组件通过&#x200B;**发行版本**&#x200B;提供，[代表了 GitHub 上实际发布的工件。](https://github.com/adobe/aem-core-wcm-components/releases)发行版本使用格式为 `X.Y.Z` 的小数表示，将所有核心组件收集在一起作为可交付程序包。
+核心组件通过&#x200B;**发行版本**&#x200B;提供，[代表了 GitHub 上实际发布的工件。](https://github.com/adobe/aem-core-wcm-components/releases) 发行版本使用格式为 `X.Y.Z` 的小数表示，将所有核心组件收集在一起作为可交付程序包。
 
 * **主要发行版本**&#x200B;引入了全新组件、对现有组件版本的改进以及标准错误修复。 这由发行版本编号中 `X` 部分的增加来表示。
 * **次要发行版本**&#x200B;引入了新组件、现有组件版本的新功能以及错误修复。 这由发行版本编号中 `Y` 部分的增加来表示。

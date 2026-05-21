@@ -3,9 +3,13 @@ title: 表单容器组件
 description: 利用核心组件表单容器组件，可以创建简单提交表单。
 role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '970'
+TQID: https://experienceleague.adobe.com/Aeq0NzFiG4-5-0fjG-y460JHEGpHzLI3gVvpYVkFukg
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 970
 ht-degree: 100%
 
 ---
@@ -18,11 +22,11 @@ ht-degree: 100%
 
 利用表单容器组件，可支持简单的 WCM 表单并使用嵌套结构来允许其他表单组件，从而构建简单信息提交表单和功能。
 
-通过使用[“配置”对话框](#configure-dialog)，内容编辑者可以定义由表单提交触发的操作、将处理提交的 URl 以及是否应触发工作流。 模板作者可使用[“设计”对话框](#design-dialog)定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的“设计”对话框类似。
+通过使用[“配置”对话框](#configure-dialog)，内容编辑者可以定义由表单提交触发的操作、将处理提交的 URl 以及是否应触发工作流。 模板作者可使用[“设计”对话框](#design-dialog)定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的“设计”对话框类似。
 
 >[!NOTE]
 >
->核心组件表单容器组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。 不支持使用核心组件表单容器中的[基础组件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=zh-Hans)表单组件，反之亦然。
+>核心组件表单容器组件仅支持使用核心组件表单组件（按钮、文本、隐藏等）。 不支持使用核心组件表单容器中的[基础组件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html)表单组件，反之亦然。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -119,7 +123,7 @@ ht-degree: 100%
 
 ## “设计”对话框 {#design-dialog}
 
-利用“设计”对话框，模板作者可为容器定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的“设计”对话框类似。
+利用“设计”对话框，模板作者可为容器定义允许的组件及其映射，这与[模板编辑器中的标准布局容器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的“设计”对话框类似。
 
 ### “样式”选项卡 {#styles-tab}
 

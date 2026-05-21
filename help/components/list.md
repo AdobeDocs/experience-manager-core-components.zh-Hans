@@ -3,13 +3,16 @@ title: 列表组件
 description: 利用核心组件列表组件，可以轻松地创建动态和静态列表。
 role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '1214'
+TQID: https://experienceleague.adobe.com/z9-D-lqYzfD0Ne6m1sX-d4HV8i1Rs2I4Hpc-9oU4-1Q
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 1214
 ht-degree: 100%
 
 ---
-
 
 # 列表组件{#list-component}
 
@@ -196,7 +199,7 @@ ht-degree: 100%
 * **日期格式**
 用于显示上次更改日期的格式
 * **禁用子项**
-组件中禁用子项列表类型
+禁用组件中的子项列表类型
 * **禁用静态**
 组件中禁用静态列表类型
 * **禁用搜索**
@@ -217,7 +220,7 @@ ht-degree: 100%
 * **显示日期**
 在[编辑对话框](#edit-dialog)中启用“显示日期”选项
 
-### “样式”选项卡 {#styles-tab}
+### 样式选项卡 {#styles-tab}
 
 图像组件支持 AEM [样式系统](/help/get-started/authoring.md#component-styling)。
 

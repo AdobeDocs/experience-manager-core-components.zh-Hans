@@ -3,9 +3,13 @@ title: 自定义自适应表单核心组件
 description: 了解扩展或创建自适应表单核心组件以实现为您的组织量身定制的功能。
 role: Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '754'
+TQID: https://experienceleague.adobe.com/e5ltB0VJzoWANVEOMDlmp8v9P6Bg3lS-lgcZPegCzgA
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 754
 ht-degree: 100%
 
 ---
@@ -23,7 +27,7 @@ ht-degree: 100%
 * 了解有关[核心组件的架构](customizing.md#customizing-the-markup-customizing-the-markup)并浏览[官方 Adobe Experience Manager 核心组件文档](customizing.md)。 这些综合资源可在整个定制过程中为您提供指导。
 * 设置您的开发环境，这可以确保对核心组件进行更改的顺利工作流程。 设置开发环境时，使用基于最新 AEM Archetype 项目的 AEM Archetype 项目。 根据您的环境，您可以：
 
-   * [为 Forms as a Cloud Service 设置本地开发环境](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=zh-Hans)。
+   * [为 Forms as a Cloud Service 设置本地开发环境](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html)。
    * [为 AEM 6.5 Forms 设置本地开发环境](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=zh-Hans)
 
 ## 自定义自适应表单核心组件
@@ -54,7 +58,7 @@ ht-degree: 100%
 
 1. **在本地开发环境中部署并测试组件**
 
-   根据您当地的开发环境，使用[Maven 来构建和部署组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=zh-Hans#building-and-installing)。 部署组件后，创建一个自适应表单来测试自定义组件。
+   根据您当地的开发环境，使用[Maven 来构建和部署组件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html#building-and-installing)。 部署组件后，创建一个自适应表单来测试自定义组件。
 
 1. **在您的生产环境中部署自定义组件**
 

@@ -3,13 +3,17 @@ title: 自适应表单核心组件 - 向导
 description: 使用或自定义自适应表单向导核心组件。
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2246'
+TQID: https://experienceleague.adobe.com/F48Og-1CMLNxu-Ajxuh8V-frKVTdvIpVhR2FAaYqalA
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 2246
 ht-degree: 100%
 
 ---
-
 
 # 向导组件{#wizard-adaptive-forms-core-component}
 
@@ -50,7 +54,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应表单向导布局核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应表单向导布局核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
@@ -63,7 +67,7 @@ ht-degree: 100%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技术详细信息 {#technical-details}
@@ -131,7 +135,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最少重复次数**：确定向导面板可以重复的最小次数。 值为零表示向导面板不重复；默认值为零。
 - **最多重复次数**：设置向导面板可以重复的最多次数。 默认情况下，此值无限制。
 
-要有效管理向导中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hans)文章。
+要有效管理向导中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “项”选项卡 {#items-tab}
 

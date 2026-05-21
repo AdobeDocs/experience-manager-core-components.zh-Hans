@@ -3,9 +3,14 @@ title: 自定义核心组件
 description: 利用核心组件实施的多种模式，可以轻松执行从简单的样式设计到高级功能重用在内的自定义设置。
 role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1146'
+TQID: https://experienceleague.adobe.com/7yF-HbenJw79uzNTMkUuJstaW2-usvusa-EveTJXhNk
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 1146
 ht-degree: 100%
 
 ---
@@ -129,7 +134,7 @@ public class PageHeadline implements Title {
 .cmp-breadcrumb a {}
 ```
 
-此外，每个核心组件都利用 AEM [样式系统功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=zh-Hans)，此功能可让模板作者定义可由页面作者应用于组件的其他 CSS 类名称。 这将允许为每个模板定义一个允许的组件样式列表，并定义其中的某个组件样式是否默认应用于该类型的所有组件。
+此外，每个核心组件都利用 AEM [样式系统功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html)，此功能可让模板作者定义可由页面作者应用于组件的其他 CSS 类名称。 这将允许为每个模板定义一个允许的组件样式列表，并定义其中的某个组件样式是否默认应用于该类型的所有组件。
 
 ## 升级自定义设置的兼容性 {#upgrade-compatibility-of-customizations}
 
@@ -139,7 +144,7 @@ public class PageHeadline implements Title {
 * 将核心组件升级到新的次要版本
 * 将核心组件升级到主要版本
 
-通常，将 AEM 升级到新版本不会影响核心组件或已完成的自定义设置，前提是组件的版本也支持正在迁移到的新 AEM 版本，并且自定义设置不使用[已弃用或被删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hans)的 API。
+通常，将 AEM 升级到新版本不会影响核心组件或已完成的自定义设置，前提是组件的版本也支持正在迁移到的新 AEM 版本，并且自定义设置不使用[已弃用或被删除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)的 API。
 
 在不切换到更新的主要版本的情况下升级核心组件不会影响自定义设置，前提是使用本页所述的自定义设置模式。
 
@@ -159,7 +164,7 @@ public class PageHeadline implements Title {
 
 1. **查看已弃用和被删除的功能。**
 
-   随着每个新 AEM 版本的升级，请密切关注[已弃用和被删除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=zh-Hans)页面，确保所有使用的 API 仍是常用的。
+   随着每个新 AEM 版本的升级，请密切关注[已弃用和被删除的功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html)页面，确保所有使用的 API 仍是常用的。
 
 另请参阅[核心组件支持](overview.md#core-component-support)部分。
 

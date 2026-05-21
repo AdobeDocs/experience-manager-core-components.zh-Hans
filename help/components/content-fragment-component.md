@@ -3,17 +3,19 @@ title: 内容片段组件
 description: 利用核心组件内容片段组件，可以显示内容片段。
 role: Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '693'
+TQID: https://experienceleague.adobe.com/0DtXdVGWrkNjQrgW9Vye-g21IlySz4fjYpZLQ5twQrM
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 693
 ht-degree: 100%
 
 ---
 
-
 # 内容片段组件{#content-fragment-component}
 
-利用核心组件内容片段组件，可以显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)。
+利用核心组件内容片段组件，可以显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 >[!NOTE]
 >
@@ -23,11 +25,11 @@ ht-degree: 100%
 
 ## 用途 {#usage}
 
-利用核心组件内容片段组件，可以包含页面上的[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)。
+利用核心组件内容片段组件，可以包含页面上的[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 * 可在[“配置”对话框](#configure-dialog)中选择片段及其属性。
 * 可在[“设计”对话框](#design-dialog)中定义用于处理特定图像的资源类型。
-* 编辑选项将在[内容片段编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html?lang=zh-Hans)中打开选定的片段。
+* 编辑选项将在[内容片段编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)中打开选定的片段。
 
 ## 版本和兼容性 {#version-and-compatibility}
 

@@ -4,13 +4,18 @@ description: 使用电子邮件核心组件的灵活性创建吸引人的电子�
 role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '439'
+TQID: https://experienceleague.adobe.com/PLDfeItW57FUgvSUO7kHgeNP8KogBwVA2AeEd-srbwg
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: d429a63e-ade4-4117-b04e-9b996d1c94efid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 439
 ht-degree: 100%
 
 ---
-
 
 # 电子邮件核心组件简介 {#email-core-components-introduction}
 
@@ -29,7 +34,7 @@ ht-degree: 100%
 
 ## 功能 {#features}
 
-* 核心电子邮件组件基于[核心组件](/help/introduction.md)，因此还支持[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)和[样式系统。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-hans)
+* 核心电子邮件组件基于[核心组件](/help/introduction.md)，因此还支持[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)和[样式系统。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-hans)
 * 有[十个电子邮件优化的生产就绪组件](#components)创作电子邮件内容。
 * 由于在大多数对话框字段上插入了 [Adobe Campaign 变量](campaign-variables.md)，因此核心电子邮件组件提供高级个性化功能。
 * 灵活的[分段组件](/help/email/components/segmentation.md)使得可对您的内容进行高级分段。

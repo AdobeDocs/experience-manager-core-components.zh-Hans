@@ -3,13 +3,17 @@ title: 折叠组件
 description: 使用核心组件折叠组件，可在页面上创建一系列以折叠形式排列的面板。
 role: Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1152'
+TQID: https://experienceleague.adobe.com/EiKmBqJ2O90YFfv4OglBZMvk2qY-sZVNSWsOFFUK9WQ
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 1152
 ht-degree: 100%
 
 ---
-
 
 # 折叠组件{#accordion-component}
 
@@ -53,7 +57,7 @@ ht-degree: 100%
 
 要执行此操作：
 
-1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项查看带有组件的页面。
+1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项查看带有组件的页面。
 1. 检查页面的内容并确定面板的 ID。
    * 例如 `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. ID 成为您可以使用哈希 (`#`) 附加到 URL 的锚点。
@@ -129,7 +133,7 @@ ht-degree: 100%
 
 **“允许的组件”**&#x200B;选项卡用于定义哪些项可以由内容作者作为面板添加到折叠组件。
 
-“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans#editing-a-template-layout-template-author)的同名选项卡的功能相同。
+“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)的同名选项卡的功能相同。
 
 ### “样式”选项卡 {#styles-tab}
 

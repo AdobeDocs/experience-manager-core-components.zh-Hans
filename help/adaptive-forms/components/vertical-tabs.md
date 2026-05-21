@@ -3,13 +3,17 @@ title: 自适应表单核心组件 - 垂直选项卡
 description: 使用或自定义自适应表单垂直选项卡核心组件。
 role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2214'
+TQID: https://experienceleague.adobe.com/WDH-FeDLxftyNGf06-6aoUoY0NTF1G-M5BqzgXukExk
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 2214
 ht-degree: 100%
 
 ---
-
 
 # 垂直选项卡组件{#vertical-tabs-adaptive-forms-core-component}
 
@@ -38,7 +42,7 @@ ht-degree: 100%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-自适应表单垂直选项卡核心组件已作为核心组件 2.0.18 的一部分发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应表单垂直选项卡核心组件已作为核心组件 2.0.18 的一部分发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
@@ -109,7 +113,7 @@ ht-degree: 100%
 - **最少重复次数**：确定“垂直”选项卡组件面板可以重复的最小次数。 值为零表示“垂直”选项卡组件不重复；默认值为零。
 - **最多重复次数**：设置“垂直”选项卡组件面板可以重复的最大次数。 默认情况下，此值无限制。
 
-要有效管理“垂直”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hans)文章。
+要有效管理“垂直”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “项”选项卡 {#items-tab}
 
@@ -120,7 +124,7 @@ ht-degree: 100%
 - **图标** - 图标在列表中标识面板的组件。 将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
 - **描述** - 用作面板文本的描述。 默认情况下，为面板选择组件的名称。
 - **删除** – 点击或单击，即可从“垂直”选项卡组件中删除该面板。
-- **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
+- **重新排列** - 点击或单击并拖动以重新排列面板。
 
 ### “帮助内容”选项卡 {#help-content}
 

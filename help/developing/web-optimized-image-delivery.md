@@ -3,9 +3,14 @@ title: Web 优化图像投放
 description: 了解核心组件如何利用 AEM as a Cloud Service 的 Web 优化图像投放功能来更有效地投放图像。
 role: Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1130'
+TQID: https://experienceleague.adobe.com/fJgZlABQW0no-vH0tOjLy20ykqPhjopcvY7ei-iqi9M
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: c124fa01-25c5-42ec-adf6-21d1c114058bid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 1130
 ht-degree: 100%
 
 ---
@@ -16,13 +21,13 @@ ht-degree: 100%
 
 ## 概述 {#overview}
 
-AEM as a Cloud service 的 Web 优化的图像传递功能以 [WebP 格式](https://developers.google.com/speed/webp)从 DAM 传递图像资产。WebP 可将图像的下载大小平均减小约 25%，从而加快页面加载速度。
+AEM as a Cloud service 的 Web 优化的图像传递功能以 [WebP 格式](https://developers.google.com/speed/webp)从 DAM 传递图像资产。 WebP 可将图像的下载大小平均减小约 25%，从而加快页面加载速度。
 
 在核心组件中激活 Web 优化图像投放非常简单，而且由于所有常用浏览器都支持 WebP，因此体验对最终用户是透明的。 他们会注意到的唯一区别是内容加载速度更快！
 
 ## 激活核心组件的 Web 优化图像投放 {#activating}
 
-要启用 Web 优化的图像传递，请编辑页面模板，激活[图像组件](/help/components/image.md#design-dialog)的设计对话框中的选项&#x200B;**启用 Web 优化的图像**。此选项适用于图像组件的 v1、v2 和 v3。
+要启用 Web 优化的图像传递，请编辑页面模板，激活[图像组件](/help/components/image.md#design-dialog)的设计对话框中的选项&#x200B;**启用 Web 优化的图像**。 此选项适用于图像组件的 v1、v2 和 v3。
 
 如果您不熟悉设计对话框和 AEM 页面模板，[请查阅此文档。](/help/get-started/authoring.md#pre-configuring-core-components)
 
@@ -71,7 +76,7 @@ Web 优化图像投放仅在 AEM as a Cloud Service 中可用。 如果无法使
 
 ### 我的图像的 URL 仍然以 .JPG 或 .PNG 结尾，而不是 .WEBP，并且没有 SRCSET 属性或 PICTURE 元素。 这是否真的在使用优化的 Web 格式？ {#content-negotiation}
 
-要传递 WebP 格式，Web 优化的图像传递服务会执行[服务器驱动的内容协商。](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation)这有助于根据客户端公布的功能选择图像的最佳输出格式，从而允许图像传递服务忽略文件扩展名。
+要传递 WebP 格式，Web 优化的图像传递服务会执行[服务器驱动的内容协商。](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) 这有助于根据客户端公布的功能选择图像的最佳输出格式，从而允许图像传递服务忽略文件扩展名。
 
 利用内容协商的优点是，未声明支持 WebP 的浏览器仍将获得 JPG 或 PNG 文件格式，而无需对页面标记进行任何更改。 这为现有网站提供了最佳兼容性，并保证以最顺畅的可能方式过渡到 Web 优化的图像投放。
 
@@ -96,4 +101,4 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 * 在 HTML 中，启用 Web 优化图像时，标记不会更改，只有图像元素上 `src` 属性的值会更改。
 * 每当新的图像服务不可用或无法处理所需的图像时，生成的 URL 将[回退到自适应图像 Servlet](#fallback)。
 
-但是，Dispatcher 规则可能会阻止 Web 优化的图像投放服务。 图像投放服务的 URL 以 `/adobe` 开头，并检查 Dispatcher 日志中是否有被拒绝的请求，如[这里所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=zh-Hans#filter-rejects)，这样应该有助于解决将图像投放到浏览器时遇到的任何故障。
+但是，Dispatcher 规则可能会阻止 Web 优化的图像投放服务。 图像投放服务的 URL 以 `/adobe` 开头，并检查 Dispatcher 日志中是否有被拒绝的请求，如[这里所述](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects)，这样应该有助于解决将图像投放到浏览器时遇到的任何故障。

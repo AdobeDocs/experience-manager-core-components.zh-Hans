@@ -3,13 +3,17 @@ title: 导航组件
 description: 使用导航组件，用户可轻松地在全局化网站结构中导航。
 role: Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1556'
+TQID: https://experienceleague.adobe.com/0CxyKuxFONujgaFmhzEc7S9VmwLEcI754U1M7XqHR7Q
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 1556
 ht-degree: 100%
 
 ---
-
 
 # 导航组件{#navigation-component}
 
@@ -21,7 +25,7 @@ ht-degree: 100%
 
 导航组件列出页面树，这样网站的用户可以轻松地在网站结构中导航。
 
-导航组件可以自动检测您网站的全局化网站结构，[并自动适应本地化的页面。](#localized-site-structure)此外，它可以使用[影子重定向页面](#shadow-structure)支持任意网站结构，以展示与您的主要内容结构不同的其他结构。
+导航组件可以自动检测您网站的全局化网站结构，[并自动适应本地化的页面。](#localized-site-structure) 此外，它可以使用[影子重定向页面](#shadow-structure)支持任意网站结构，以展示与您的主要内容结构不同的其他结构。
 
 利用[“编辑”对话框](#edit-dialog)，内容作者可以定义导航根页面以及导航深度。 利用[“设计”对话框](#design-dialog)，模板作者可以定义导航根和深度的默认值。
 

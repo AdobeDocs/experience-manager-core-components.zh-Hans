@@ -3,17 +3,21 @@ title: 自适应表单核心组件 - 表单容器
 description: 将自适应表单添加到网页。
 role: Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '1637'
+TQID: https://experienceleague.adobe.com/kMG6SKHisAUmKhOh9AFLI8NG6w0vH7tP4XimBKAMo-I
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 1637
 ht-degree: 100%
 
 ---
 
-
 # 表单容器 {#form-container-adaptive-forms-core-component}
 
-<span class="preview">本文将讨论&#x200B;**草稿** <!--and **Hamburger Menu Support** -->功能，这是一个预发行功能。 该预发行功能仅可通过我们的[预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hans#new-features)访问。</span>
+<span class="preview">本文将讨论&#x200B;**草稿** <!--and **Hamburger Menu Support** -->功能，这是一个预发行功能。 该预发行功能仅可通过我们的[预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features)访问。</span>
 
 通过表单，网站访客可与网站交互，提供宝贵的信息，这样即可提高参与度和用户满意度。 利用 Adobe Experience Manager (AEM) Sites 中的自适应表单容器，网站所有者可以轻松地将表单添加到其页面。 这样通过一种简化的方式供访客提供反馈、进行查询和完成其他操作，有助于促进网站访客与网站所有者或组织之间的交流
 
@@ -52,7 +56,7 @@ ht-degree: 100%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技术详细信息 {#technical-details}

@@ -3,13 +3,18 @@ title: 轮播组件
 description: 使用轮播组件，内容作者可在旋转轮播中展示内容。
 role: Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1423'
+TQID: https://experienceleague.adobe.com/-emM56ZpB8EJ2O5mgFjH1BiTcMOyVmfxojTBmrLCNFY
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 1423
 ht-degree: 100%
 
 ---
-
 
 # 轮播组件{#carousel-component}
 
@@ -51,7 +56,7 @@ ht-degree: 100%
 
 要执行此操作：
 
-1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项查看带有组件的页面。
+1. 在页面编辑器中使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项查看带有组件的页面。
 1. 检查页面的内容并确定面板的 ID。
    * 例如 `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
 1. ID 成为您可以使用哈希 (`#`) 附加到 URL 的锚点。
@@ -82,7 +87,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在页面编辑器的轮播组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#inserting-a-component-from-the-components-browser)来添加到轮播组件中。
+>如果减小页面视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**“添加”**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在页面编辑器的轮播组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)来添加到轮播组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -101,9 +106,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->在&#x200B;**“编辑”**&#x200B;模式下不会启用幻灯片前进控件。 使用&#x200B;[**预览**&#x200B;模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#preview-mode)或&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样与轮播交互。
+>在&#x200B;**“编辑”**&#x200B;模式下不会启用幻灯片前进控件。 使用&#x200B;[**预览**&#x200B;模式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)或&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样与轮播交互。
 >
->在&#x200B;**“编辑”**&#x200B;模式下不会启用自动前进功能。 使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样查看自动前进功能。
+>在&#x200B;**“编辑”**&#x200B;模式下不会启用自动前进功能。 使用&#x200B;**[以发布的形式查看](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**&#x200B;选项，可以像已发布内容的读者那样查看自动前进功能。
 
 ### “辅助功能”选项卡 {#accessibility-tab}
 
@@ -152,7 +157,7 @@ ht-degree: 100%
 
 **允许的组件**&#x200B;选项卡用于定义哪些组件可以由内容作者作为幻灯片添加到轮播组件。
 
-“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)的同名选项卡的功能相同。
+“允许的组件”选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)的同名选项卡的功能相同。
 
 ### “样式”选项卡 {#styles-tab}
 

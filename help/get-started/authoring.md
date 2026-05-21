@@ -3,9 +3,15 @@ title: 通过核心组件创作
 description: 在 AEM 中，组件是结构化元素，用于构成所创作的页面内容 - 核心组件提供了灵活且丰富的创作功能。
 role: Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '792'
+TQID: https://experienceleague.adobe.com/iLP4KD5kWkBaZ3b4c6Kos9ltFf1MBAZHPwN6wkcWrcY
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 792
 ht-degree: 100%
 
 ---
@@ -18,35 +24,35 @@ ht-degree: 100%
 
 要体验核心组件并查看其配置选项示例以及 HTML 和 JSON 输出，请访问[组件库](https://adobe.com/go/aem_cmp_library_cn)。
 
-对于使用 [AEM 项目原型](/help/developing/archetype/overview.md)在 AEM 项目上实施核心组件，有关面向开发人员的更加深入的信息，请查看 [WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)。
+对于使用 [AEM 项目原型](/help/developing/archetype/overview.md)在 AEM 项目上实施核心组件，有关面向开发人员的更加深入的信息，请查看 [WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)。
 
 >[!NOTE]
 >
->核心组件不可直接供作者使用，[开发团队必须先将它们集成到您的环境中](/help/get-started/using.md)。 在集成后，可通过[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)使其可用并进行预配置。
+>核心组件不可直接供作者使用，[开发团队必须先将它们集成到您的环境中](/help/get-started/using.md)。 在集成后，可通过[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)使其可用并进行预配置。
 
 >[!CAUTION]
 >
->核心组件[需要 AEM 6.4 或更高版本](/help/versions.md)，并需要使用[可编辑的模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)。 它们不适用于经典 UI，也不能用于静态模板。
+>核心组件[需要 AEM 6.4 或更高版本](/help/versions.md)，并需要使用[可编辑的模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。 它们不适用于经典 UI，也不能用于静态模板。
 
 ## 通过核心组件创作 {#authoring-with-core-components}
 
 作为作者，您会发现核心组件具备多种优势，包括：
 
-* 简单易用，并与[页面编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans)很好地集成
+* 简单易用，并与[页面编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)很好地集成
 
 * 具有丰富的功能，可以适应 [WKND 参考网站](https://wknd.site)以及[组件库](https://adobe.com/go/aem_cmp_library_cn)中所述的多种使用案例
 
-* 可通过[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)进行[预先配置](#pre-configuring-core-components)，以定义可供页面作者使用的功能
+* 可通过[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)进行[预先配置](#pre-configuring-core-components)，以定义可供页面作者使用的功能
 
-* 根据[无障碍指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=zh-Hans)构建
+* 根据[无障碍指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)构建
 
-* 构建用于支持[响应式布局](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=zh-Hans)
+* 构建用于支持[响应式布局](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 
 * 构建用于支持 [轻松本地化](localization.md)
 
-在[编辑页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans)时，组件在页面编辑器侧面板的&#x200B;**“组件”**&#x200B;选项卡上可用。
+在[编辑页面](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)时，组件在页面编辑器侧面板的&#x200B;**“组件”**&#x200B;选项卡上可用。
 
-组件根据类别分组为组件组，以轻松地排列和筛选组件。 组件组名称与组件一起显示在[组件浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans)中，还可以按组筛选以轻松地查找合适的组件。
+组件根据类别分组为组件组，以轻松地排列和筛选组件。 组件组名称与组件一起显示在[组件浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)中，还可以按组筛选以轻松地查找合适的组件。
 
 >[!NOTE]
 >
@@ -60,7 +66,7 @@ ht-degree: 100%
 
 例如，如果某个图像组件不应允许从文件系统上传图像，或者如果某个文本组件只应允许特定段落格式，则可以通过一次简单的单击来启用或禁用这些功能。
 
-有关更多信息，请参阅[创建页面模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)。
+有关更多信息，请参阅[创建页面模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)。
 
 ### “编辑”和“设计”对话框 {#edit-and-design-dialogs}
 
@@ -78,7 +84,7 @@ ht-degree: 100%
 * 模板作者可以在特定组件的“设计”对话框中，定义哪些样式可供该组件使用。
 * 然后，内容作者可以在添加组件和创建内容时，选择应用哪些样式。
 
-有关更多详细信息，请参阅[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=zh-Hans)文档。
+有关更多详细信息，请参阅[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html)文档。
 
 ## 开发人员资源 {#developer-resources}
 

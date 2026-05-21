@@ -3,13 +3,16 @@ title: 支持远程资产
 description: 了解如何配置核心组件图像和 Teaser 组件以使用带有 OpenAPI 的 Dynamic Media 支持远程资产。
 role: Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '523'
+TQID: https://experienceleague.adobe.com/LT7Iak-RxjbEG8r4njFVn3pwqP67vHi3lva3Mj3MjFQ
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 523
 ht-degree: 100%
 
 ---
-
 
 # 支持远程资产 {#remote-assets-support}
 
@@ -30,7 +33,7 @@ ht-degree: 100%
 
 一般建议使用 HTTP 运行所有生产 AEM 实例。 但是，可能并未这样设置您的本地开发环境。 但是，使用带有 OpenAPI 的 Dynamic Media 远程资产需要 HTTPS 才能运行。
 
-[使用本指南](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=zh-Hans)在您要使用远程资源的任何地方（包括开发环境）配置 HTTPS。
+[使用本指南](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html)在您要使用远程资源的任何地方（包括开发环境）配置 HTTPS。
 
 ## 配置 OSGi {#osgi}
 
@@ -47,8 +50,8 @@ repositoryId="<repo-id>.adobeaemcloud.com"
 
 有关如何配置 OSGi 的详细信息，请参见以下文档：
 
-* 为 AEM as a Cloud Service [配置 Adobe Experience Manager as a Cloud Service 的 OSGi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html?lang=zh-Hans)
-* 为 AEM 6.5 [配置 OSGi](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html?lang=zh-Hans)
+* 为 AEM as a Cloud Service [配置 Adobe Experience Manager as a Cloud Service 的 OSGi](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi.html)
+* 为 AEM 6.5 [配置 OSGi](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-osgi.html)
 
 ## 验证配置 {#verify}
 

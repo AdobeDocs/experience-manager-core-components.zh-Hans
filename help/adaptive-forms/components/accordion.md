@@ -3,13 +3,17 @@ title: 自适应表单可折叠项面板
 description: 使用可折叠项面板组件通过将表单拆分为更小、更易于管理的部分，从而整理和简化较长或复杂的表单。
 role: Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2303'
+TQID: https://experienceleague.adobe.com/pJ9MxPmN7WpaF3N-jvQsK1jlzNtL9GxSu6AwNA3iP-o
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 2303
 ht-degree: 100%
 
 ---
-
 
 # 可折叠项面板组件 {#accordion-component-adaptive-forms-core-component}
 
@@ -44,7 +48,7 @@ ht-degree: 100%
 ## 版本和兼容性 {#version-and-compatibility}
 
 
-自适应表单折叠核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
+自适应表单折叠核心组件已于 2023 年 2 月作为核心组件 2.0.4 的一部分发布。 下表显示所有支持的版本、AEM 兼容性以及相应文档的链接：
 
 |  |  |
 |---|---|
@@ -58,7 +62,7 @@ ht-degree: 100%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技术详细信息 {#technical-details}
@@ -126,7 +130,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **最少重复次数**：确定可折叠项面板可以重复的最小次数。 值为零表示可折叠项面板不重复；默认值为零。
 - **最多重复次数**：设置可折叠项面板可以重复的最多次数。 默认情况下，此值无限制。
 
-要有效管理可折叠项中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hans)文章。
+要有效管理可折叠项中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “项”选项卡 {#items-tab}
 
@@ -137,7 +141,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **图标** - 图标在列表中标识面板的组件。 将光标悬停在图标上，即可看到作为工具提示的完整组件名称。
 - **描述** - 用作面板文本的描述。 默认情况下，为面板选择该组件的名称。
 - **删除** - 点击或单击可从折叠组件中删除面板。
-- **重新排列** - 点击或单击并拖动以重新排列面板的顺序。
+- **重新排列** - 点击或单击并拖动以重新排列面板。
 
 ### “帮助内容”选项卡 {#help-content}
 
@@ -229,7 +233,7 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 ### 自定义属性
 
 ![accordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
-通过自定义属性，您可使用表单模板将自定义属性（键值对）与自适应表单核心组件相关联。自定义属性反映在组件 Headless 演绎版的属性部分中。 它可让您创建根据自定义属性值进行调整的动态表单行为。 例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
+通过自定义属性，您可使用表单模板将自定义属性（键值对）与自适应表单核心组件相关联。 自定义属性反映在组件 Headless 演绎版的属性部分中。 它可让您创建根据自定义属性值进行调整的动态表单行为。 例如，开发人员可以为移动、桌面或 Web 平台设计 Headless 表单组件的各种演绎版，从而大大提升各种设备上的用户体验。
 
 - **组名称**：您可以提供名称来标识自定义属性组。 您可以添加、删除或重新排列多个自定义属性组。 添加自定义属性组后，可看到以下选项：
 

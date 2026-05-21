@@ -4,13 +4,16 @@ description: Teaser 组件可以显示图像、标题、富文本并可以选择
 role: Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '766'
+TQID: https://experienceleague.adobe.com/c8GOYjrU5w0V-I64K1vJRmSQkhKSwYKw4nZD24yLT6M
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 766
 ht-degree: 100%
 
 ---
-
 
 # Teaser 组件 (v1) {#teaser-component}
 
@@ -51,9 +54,9 @@ ht-degree: 100%
 ![Teaser 组件的“编辑”对话框中的“图像”选项卡](/help/assets/teaser-edit-image.png)
 
 * **图像资源**
-   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
+   * 通过[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html)拖放资源或点击&#x200B;**浏览**&#x200B;选项，以从本地文件系统上传。
    * 点击或单击&#x200B;**“清除”**&#x200B;以取消选择当前选定的图像。
-   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 点击或单击&#x200B;**“编辑”**&#x200B;可在资产编辑器中[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html)。
 
 >[!NOTE]
 >

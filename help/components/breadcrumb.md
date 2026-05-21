@@ -3,13 +3,16 @@ title: 痕迹导航组件
 description: 核心组件痕迹导航组件是一个导航组件，它根据页面在内容层级中的位置构建链接的痕迹导航。
 role: Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '807'
+TQID: https://experienceleague.adobe.com/GthbKPacpYTy9P6NxOJRIqfLbBD4tSN-QRbEBA75QDI
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 807
 ht-degree: 100%
 
 ---
-
 
 # 痕迹导航组件{#breadcrumb-component}
 
