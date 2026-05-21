@@ -5,14 +5,9 @@ role: Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
 index: false
 TQID: https://experienceleague.adobe.com/fEHvKzHsqhfrfldC5jJk21zb56FY8ZGmJr9azWsFbKo
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 738
 ht-degree: 100%
@@ -21,11 +16,11 @@ ht-degree: 100%
 
 # 内容片段列表组件 (v1) {#content-fragment-list-component}
 
-利用核心组件内容片段列表组件，可显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)的列表。
+利用核心组件内容片段列表组件，可显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的列表。
 
 ## 用途 {#usage}
 
-利用核心组件内容片段列表组件，可包含基于内容片段模型的页面上的[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)的列表。 这对于创建可由其他应用程序轻松使用的[无头内容](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特别有用。
+利用核心组件内容片段列表组件，可包含基于内容片段模型的页面上的[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)的列表。 这对于创建可由其他应用程序轻松使用的[无头内容](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js)特别有用。
 
 * 可在[“配置”对话框](#configure-dialog)中选择此列表及其属性。
 * 样式可应用于[“设计”对话框](#design-dialog)中的组件。

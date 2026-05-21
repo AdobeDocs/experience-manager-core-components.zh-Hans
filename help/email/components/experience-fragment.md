@@ -5,18 +5,11 @@ role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
 TQID: https://experienceleague.adobe.com/4SS7f6mG-BumhdMeTGkJvu8zRTmGqPqksHt4Y5N1-3Q
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 894
 ht-degree: 100%
@@ -52,11 +45,11 @@ ht-degree: 100%
 
 电子邮件体验片段组件适应本地化的内容结构，并根据内容的本地化呈现适当的体验片段。 为此，体验片段必须满足以下条件。
 
-* 电子邮件体验片段组件已添加到[页面模板。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html?lang=zh-Hans)
+* 电子邮件体验片段组件已添加到[页面模板。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/templates.html)
 * 该模板用于创建新的内容页面，这些页面是 `/content/<site>` 以下的本地化结构的一部分。
 * 在内容页面上引用的体验片段属于 `/content/experience-fragments` 以下的本地化体验结构的一部分，遵循与以下网站 `/content/<site>` 相同的模式，包括使用相同的组件名称。
 
-在本例中，与当前页面具有相同本地化（[语言、Blueprint 或实时副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html?lang=zh-Hans)）的片段将作为模板的一部分渲染。
+在本例中，与当前页面具有相同本地化（[语言、Blueprint 或实时副本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm-and-translation.html)）的片段将作为模板的一部分渲染。
 
 此行为仅限添加到模板的电子邮件体验片段组件。 添加到单独内容页面的体验片段组件将渲染在页面中配置的准确体验片段再现。
 

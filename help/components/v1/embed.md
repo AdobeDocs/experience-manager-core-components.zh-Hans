@@ -5,18 +5,11 @@ role: Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
 index: false
 TQID: https://experienceleague.adobe.com/YHV-xySiw1BjEKsfT-ALcfEHNDhOtREXJroHUf3p6m4
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1317
 ht-degree: 100%
@@ -122,7 +115,7 @@ ht-degree: 100%
 
 但是，规则更复杂，因为嵌入组件遵循 AEM 的全局 HTML AntiSamy 净化框架筛选规则集，此规则集可在 `/libs/cq/xssprotection/config.xml` 中找到。 如果需要，这可以由开发人员覆盖以提供项目特定的配置。
 
-其他安全信息可在[适用于内部部署安装的 AEM 开发人员文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=zh-Hans)以及 [AEM as a Cloud Service 安装](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=zh-Hans)中找到。
+其他安全信息可在[适用于内部部署安装的 AEM 开发人员文档](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html)以及 [AEM as a Cloud Service 安装](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)中找到。
 
 >[!NOTE]
 >虽然 AntiSamy 净化框架规则可以通过覆盖 `/libs/cq/xssprotection/config.xml` 来配置，但这些更改会影响到所有 HTL 和 JSP 行为，而不只是嵌入核心组件。

@@ -4,21 +4,11 @@ description: 核心组件图像组件是自适应图像组件。
 role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 TQID: https://experienceleague.adobe.com/MYJ14L6Q1TDwtxhUEBvnOO2ZRMmdkuyYDFflMSOFNmw
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 2163
 ht-degree: 100%
@@ -73,7 +63,7 @@ ht-degree: 100%
 
 ## Dynamic Media 支持 {#dynamic-media}
 
-图像组件（截止 [发行版本 2.13.0](/help/versions.md)）支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=zh-Hans) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。 此外还支持图像修饰符、图像预设和智能裁剪。
+图像组件（截止 [发行版本 2.13.0](/help/versions.md)）支持 [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) 资源。 [在启用时](#design-dialog)，这些功能提供了一种能力，即通过简单的拖放功能或者通过资源浏览器，就可以像对任何其他图像一样加载 Dynamic Media 图像资源。 此外还支持图像修饰符、图像预设和智能裁剪。
 
 使用核心组件构建的 Web 体验现在具备丰富、Adobe AI 驱动的、可靠、高性能、跨平台的 Dynamic Media 图像功能。
 
@@ -173,13 +163,13 @@ ht-degree: 100%
 
 * **图像资源** - 如果选中了&#x200B;**从页面继承特色图像**，则自动填充此项。 取消选中可通过设置以下选项而手动定义图像。
 
-   * 将资源放置在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)中或点按&#x200B;**浏览**&#x200B;选项，以使您可从本地文件系统上传。
+   * 将资源放置在[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)中或点按&#x200B;**浏览**&#x200B;选项，以使您可从本地文件系统上传。
    * 点按或单击&#x200B;**清除**&#x200B;以取消选择当前选择的图像。
-   * 点按或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=zh-Hans)，以使您可选择图像。
+   * 点按或单击&#x200B;**选取**&#x200B;以打开[资源浏览器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html)，以使您可选择图像。
       * 如果启用了 [远程资产支持](#remote-assets)，您有选择资产的多种选项：
          * **本地**&#x200B;从本地 AEM 资源库选择。
          * **远程**&#x200B;从您的 AEM 实例之外的 Dynamic Media 库选择。
-   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=zh-Hans)。
+   * 点按或单击&#x200B;**“编辑”**&#x200B;可在“资产编辑器中”[管理资产的再现](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html)。
 
 * **用于辅助功能的替换文本** – 此字段允许您为视障用户定义图像的描述。
 

@@ -5,15 +5,10 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 TQID: https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1326
 ht-degree: 100%
@@ -34,7 +29,7 @@ ht-degree: 100%
 
 利用项目原型，可以轻松地在 AEM 上开始进行开发。 您可以通过多种方式使用原型迈出第一步。
 
-* **WKND 教程** - 有关在 AEM 上进行开发的精彩介绍（包括如何利用原型），请参阅 [AEM Sites 入门 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)中的实际示例，该示例介绍如何使用原型实施简单项目。
+* **WKND 教程** - 有关在 AEM 上进行开发的精彩介绍（包括如何利用原型），请参阅 [AEM Sites 入门 - WKND 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)中的实际示例，该示例介绍如何使用原型实施简单项目。
 * **WKND 事件教程** - 如果您特别想知道如何在 AEM 上开发单页面应用程序 (SPA)，请务必查看专门的 [WKND 事件教程](https://helpx.adobe.com/cn/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)。
 * **开始创建您自己的项目！** - 您可以轻松下载 [GitHub 上提供的当前项目原型](https://github.com/adobe/aem-project-archetype)，开始创建您的第一个项目。
 
@@ -95,7 +90,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-关键依赖项之一是 [AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=zh-Hans) 这将包括所有 AEM API，并且 AEM 版本只有一个依赖项。
+关键依赖项之一是 [AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) 这将包括所有 AEM API，并且 AEM 版本只有一个依赖项。
 
 >[!NOTE]
 >

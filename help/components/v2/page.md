@@ -5,20 +5,12 @@ role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 TQID: https://experienceleague.adobe.com/p1V-3XLpA6H-rC-zWIYFqbPkd6HW7bBLWFXaj8aeNAs
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 662
 ht-degree: 100%
@@ -27,7 +19,7 @@ ht-degree: 100%
 
 # 页面组件 (v2) {#page-component}
 
-页面组件是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)，允许使用模板编辑器来组装页眉/页脚和结构组件。
+页面组件是指可扩展的页面组件，设计用于[模板编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)，允许使用模板编辑器来组装页眉/页脚和结构组件。
 
 ## 用途 {#usage}
 
@@ -47,7 +39,7 @@ ht-degree: 100%
 
 ## 渐进式 Web 应用程序支持 {#pwa-support}
 
-核心组件的发行版本 2.15.0 引入了对 AEM as a Cloud Service 的内置[渐进式 Web 应用程序 (PWA) 功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hans)的支持。 在网站级别使用简单的配置，可以将 AEM 体验转换为 PWA！
+核心组件的发行版本 2.15.0 引入了对 AEM as a Cloud Service 的内置[渐进式 Web 应用程序 (PWA) 功能](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html)的支持。 在网站级别使用简单的配置，可以将 AEM 体验转换为 PWA！
 
 ### 技术详细信息 {#technical-details}
 
@@ -57,7 +49,7 @@ ht-degree: 100%
 
 ## “编辑”对话框 {#edit-dialog}
 
-由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hans)窗口中找到。
+由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)窗口中找到。
 
 ## “设计”对话框 {#design-dialog}
 

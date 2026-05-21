@@ -5,22 +5,12 @@ role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
 TQID: https://experienceleague.adobe.com/JlOOouhbsCBeyZQ9dAMyWwbTucpcLrqEgC1VjDVsV54
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-subfeature_v2:
-  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1156
 ht-degree: 100%
@@ -72,14 +62,14 @@ ht-degree: 100%
    * **默认** – 定义默认段以显示是否不满足其他条件
    * **自定义** – 允许作者定义条件
       * 条件基于 Adobe Campaign 个性化变量
-      * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hans&)
-      * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=zh-Hans)
+      * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+      * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * **删除** – 点击或单击以从电子邮件分段组件中删除区段。
 * **重新排列** - 点击或单击并拖动以重新排列区段。
 
 >[!TIP]
 >
->如果减小内容视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**添加**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在内容编辑器的电子邮件分段组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans#inserting-a-component)来添加到电子邮件分段组件中。
+>如果减小内容视区以便全屏显示“编辑”对话框，则将隐藏&#x200B;**添加**&#x200B;按钮。 组件仍可以通过[从组件浏览器拖动并放置在内容编辑器的电子邮件分段组件上](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)来添加到电子邮件分段组件中。
 
 ### “属性”选项卡 {#properties-tab}
 
@@ -134,7 +124,7 @@ ht-degree: 100%
 
 **“允许的组件”**&#x200B;选项卡用于定义哪些组件可由内容作者作为区段添加到电子邮件分段组件。
 
-**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)
+**“允许的组件”**&#x200B;选项卡的功能，与[在模板编辑器的布局容器中定义策略和属性时的同名选项卡的功能相同。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### “样式”选项卡 {#styles-tab}
 
@@ -150,7 +140,7 @@ ht-degree: 100%
 
 * **区段条件名称** – 条件描述
 * **区段条件** – 必须满足的实际条件，基于 Adobe Campaign 个性化变量
-   * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=zh-Hans&)
-   * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。]https://experienceleague.adobe.com/docs/?lang=zh-Hans
+   * [有关 Adobe Campaign Standard 个性化资源的信息，请参阅此处。](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+   * [有关 Adobe Campaign Classic 个性化资源的信息，请参阅此处。]https://experienceleague.adobe.com/docs/
 * **移除** – 点击以移除条件
 * **重新排列** – 点击或单击并拖动以重新排列条件。

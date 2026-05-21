@@ -5,16 +5,10 @@ role: Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 index: false
 TQID: https://experienceleague.adobe.com/KOnUin3xlUWw11HdShMiuDpTDCtKWSUIn4Dkx3w347g
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 645
 ht-degree: 100%
@@ -23,11 +17,11 @@ ht-degree: 100%
 
 # 电子邮件内容片段组件 {#email-content-fragment-component}
 
-利用电子邮件内容片段组件，可以在您的内容中显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)。
+利用电子邮件内容片段组件，可以在您的内容中显示[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。
 
 ## 用途 {#usage}
 
-利用电子邮件内容片段组件，可以在您的电子邮件内容中包含[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=zh-Hans)。 内容片段是多渠道结构化内容，可以集中创作并轻松重用。
+利用电子邮件内容片段组件，可以在您的电子邮件内容中包含[内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)。 内容片段是多渠道结构化内容，可以集中创作并轻松重用。
 
 * 可[“配置”对话框](#configure-dialog)中选择片段及其属性。
 * 可[“设计”对话框](#design-dialog)中定义用于处理特定图像的资源类型。
@@ -94,7 +88,7 @@ ht-degree: 100%
 
 ![电子邮件的内容片段编辑器](/help/email/assets/email-content-fragment-editor.png)
 
-有关编辑和创作内容片段的更多信息，请参阅文档[创作片段内容。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html?lang=zh-Hans)
+有关编辑和创作内容片段的更多信息，请参阅文档[创作片段内容。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
 
 ## “设计”对话框 {#design-dialog}
 

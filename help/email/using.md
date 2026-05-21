@@ -5,22 +5,12 @@ role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
 TQID: https://experienceleague.adobe.com/wNHEXDBErMNRfSs-N6vAhQl9jnzMJJnGTPBUFEMZHY8
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
-  - id: de0934a4-5275-4727-b871-497a72ae8500
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a642c50e-80eb-4fc1-a5d2-f3762d1f841did: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4id: de0934a4-5275-4727-b871-497a72ae8500
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 683
 ht-degree: 100%
@@ -56,8 +46,8 @@ ht-degree: 100%
 您必须设置 AEM-Adobe Campaign 集成才能使这两个解决方案进行通信。
 
 * 配置 Adobe Campaign 集成
-   * Adobe Campaign Classic：[与 Adobe Campaign Classic 集成](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=zh-Hans)
-   * Adobe Campaign Standard：[与 Adob&#x200B;&#x200B;e Campaign Standard 集成](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hans)
+   * Adobe Campaign Classic：[与 Adobe Campaign Classic 集成](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
+   * Adobe Campaign Standard：[与 Adob&#x200B;&#x200B;e Campaign Standard 集成](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html)
 * [链接 Adobe Campaign 集成配置](/help/email/components/page.md#cloud-services-tab)到您将使用电子邮件核心组件的内容页面
 
 ### 为电子邮件组件添加 AEM 资源类型过滤器 {#aem-resource-filter}
@@ -87,12 +77,12 @@ ht-degree: 100%
 |---|---|---|
 | 1 | 作者将文件夹和电子邮件内容创建为页面的自由格式层次结构。 | AEM |
 | 2 | 通过[模板编辑器，](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-hans)作者可配置电子邮件页眉和/或页脚，该页眉和页脚将在此页面模板生成的所有电子邮件页面之间共享。 | AEM |
-| 3 | 作者使用[页面编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html?lang=zh-Hans)中的文本编辑器创建电子邮件内容，在文本编辑器中，作者可以在其中选择 Adobe Campaign 变量，并使用分段组件在收件人满足特定条件时有条件地显示信息。 | AEM |
-| 4 | 电子邮件内容完成后，[运行工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html?lang=zh-Hans)以审批内容并发送到 Campaign。 | AEM |
+| 3 | 作者使用[页面编辑器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html)中的文本编辑器创建电子邮件内容，在文本编辑器中，作者可以在其中选择 Adobe Campaign 变量，并使用分段组件在收件人满足特定条件时有条件地显示信息。 | AEM |
+| 4 | 电子邮件内容完成后，[运行工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html)以审批内容并发送到 Campaign。 | AEM |
 | 5 | 创建投放，定义收件人列表。 | 营销活动 |
 | 6 | 在 AEM 中创建的内容被选为投放的内容。 | 营销活动 |
 | 7 | 内容将发送给收件人，将 Adobe Campaign 变量替换为收件人的个性化信息。 | 营销活动 |
 
 有关在 AEM 中创建电子邮件内容并在 Adobe Campaign 中投放的示例，请参阅以下资源。
 
-* AEM 6.5：[使用 Adobe Campaign Classic 和 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html?lang=zh-Hans)
+* AEM 6.5：[使用 Adobe Campaign Classic 和 Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)

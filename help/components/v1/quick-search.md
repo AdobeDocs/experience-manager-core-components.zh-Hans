@@ -5,18 +5,11 @@ role: Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 index: false
 TQID: https://experienceleague.adobe.com/r1iL5fuJASw8hapiIFdvwNmGTKBcQnvF55H4S26iwxA
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: null
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 648
 ht-degree: 100%
@@ -56,7 +49,7 @@ ht-degree: 100%
 >
 >应对搜索组件或任何基于 AEM 的应用程序实施更高级别的保护以使其免受 DOS 攻击，例如，通过使用 Dispatcher 上的 `mod_security`。
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v1_cn)有关快速搜索组件的最新技术文档。
+[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v1)有关快速搜索组件的最新技术文档。
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
