@@ -5,15 +5,9 @@ role: Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 index: false
 TQID: https://experienceleague.adobe.com/eE5r-Y0MM2gel5qCp7UBrOMZezT-I3JU7sapzNAGEKM
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 418
@@ -35,7 +29,7 @@ ht-degree: 100%
 
 社交共享组件将 Facebook 和 Pinterest 共享链接添加到页面。 它通常包含在页眉或页脚中。
 
-与其他组件不同，社交共享组件的设置可由模板作者通过[初始页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)设定，也可由内容作者通过[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hans)设定。
+与其他组件不同，社交共享组件的设置可由模板作者通过[初始页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)设定，也可由内容作者通过[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)设定。
 
 ## 版本和兼容性 {#version-and-compatibility}
 
@@ -64,8 +58,8 @@ ht-degree: 100%
    * 如果指定一个 ID，作者有责任确保它是唯一的。
    * 更改此 ID 会对 CSS、JS 和 Data Layer 跟踪产生影响。
 
-由于共享需要特殊的页眉，因此必须在页面级别启用任何共享。 因此，对于内容作者，可通过[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=zh-Hans)的“共享”选项卡使用共享组件的编辑选项。
+由于共享需要特殊的页眉，因此必须在页面级别启用任何共享。 因此，对于内容作者，可通过[页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)的“共享”选项卡使用共享组件的编辑选项。
 
 ## “设计”对话框 {#design-dialog}
 
-由于共享需要特殊的页眉，因此必须在页面级别启用任何共享。 因此，对于模板作者，可通过[初始页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)使用共享组件的设计选项。
+由于共享需要特殊的页眉，因此必须在页面级别启用任何共享。 因此，对于模板作者，可通过[初始页面属性](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)使用共享组件的设计选项。

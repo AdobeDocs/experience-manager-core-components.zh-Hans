@@ -6,7 +6,7 @@ feature: Core Components
 user-guide-description: 对于传统的 AEM 项目，使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ ht-degree: 100%
 + 开发 {#developing}
    + [开发核心组件](/help/developing/overview.md)
    + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-hans)
-   + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)
+   + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [自定义核心组件](/help/developing/customizing.md)
    + [组件准则](/help/developing/guidelines.md)
    + [AMP 支持](/help/developing/amp.md)
