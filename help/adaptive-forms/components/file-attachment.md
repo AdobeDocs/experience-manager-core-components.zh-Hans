@@ -4,21 +4,14 @@ description: 使用或自定义自适应表单文件附件核心组件。
 role: Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 TQID: https://experienceleague.adobe.com/HgywNBqaw9VsqErSvvKa-d106LtbKsxVT6xaaODRa2U
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2089
-ht-degree: 100%
+source-wordcount: 2083
+ht-degree: 99%
 
 ---
 
@@ -62,7 +55,7 @@ ht-degree: 100%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技术详细信息 {#technical-details}
@@ -108,7 +101,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 <!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
-- **最大文件大小 (MB)** - 通过此选项，可指定最大文件大小。 以 MB 为单位指定文件大小。
+- **最大文件大小(MB)** — 此选项允许指定最大文件大小。文件大小以MB为单位指定。
   <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **最大文件大小错误消息** - 此选项用于输入如果您上传的文件大小大于在&#x200B;**最大文件大小 (MB)** 选项中指定的文件大小，所显示的错误消息。
@@ -174,7 +167,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=zh-Hans)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

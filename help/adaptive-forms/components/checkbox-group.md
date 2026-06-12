@@ -4,21 +4,14 @@ description: 使用或自定义自适应表单复选框组核心组件。
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 TQID: https://experienceleague.adobe.com/6TicW4M5RGGd5b6dQZnIthLpXKhTwM1r9Fli8s3EqWo
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2316
-ht-degree: 100%
+source-wordcount: 2302
+ht-degree: 99%
 
 ---
 
@@ -76,7 +69,7 @@ ht-degree: 100%
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_cn). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## 技术详细信息 {#technical-details}
@@ -114,7 +107,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
   ![针对选项的富文本支持](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  选中&#x200B;**允许选项为富文本**&#x200B;复选框后，格式化选项变得可见，以设置组件选项的样式。 要访问所有可用的格式选项，您可以点击`Fullscreen`![全屏图标](/help/adaptive-forms/assets/fullscreen-icon.png)选项卡。
+  选中&#x200B;**允许选项使用富文本**&#x200B;格式选项复选框后，组件选项的样式将变为可见。要访问所有可用的格式选项，您可以单击`Fullscreen` ![全屏图标](/help/adaptive-forms/assets/fullscreen-icon.png)选项卡。
   ![针对选项的富文本支持](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **绑定引用** - 绑定引用是对存储在外部数据源中并在表单中使用的数据元素的引用。 通过绑定引用，可动态地将数据绑定到表单字段，以使表单可显示来自数据源的最新数据。 例如，可使用绑定引用，根据输入到表单中的客户 ID，在该表单中显示该客户的姓名和地址。 还可使用绑定引用，通过输入到表单中的数据更新数据源。 这样通过 AEM Forms 即可创建与外部数据源交互的表单，从而为收集和管理数据提供一种无缝的用户体验。

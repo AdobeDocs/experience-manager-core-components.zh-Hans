@@ -4,28 +4,21 @@ description: 使用或自定义自适应表单垂直选项卡核心组件。
 role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 TQID: https://experienceleague.adobe.com/WDH-FeDLxftyNGf06-6aoUoY0NTF1G-M5BqzgXukExk
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2214
-ht-degree: 100%
+source-wordcount: 2130
+ht-degree: 98%
 
 ---
 
 # 垂直选项卡组件{#vertical-tabs-adaptive-forms-core-component}
 
-自适应表单中的垂直选项卡是指一种设计模式，其中表单的多个部分组合在一起并显示为垂直对齐的单独选项卡。 用户可以在各个选项卡之间切换来访问表单的不同部分。 每个选项卡均充当显示和隐藏相关表单内容的触发器。 垂直选项卡可帮助将较长的表单整理成可管理的部分并改善用户体验。 选项卡使残障用户能够更轻松地访问表单，因为他们可以使用键盘导航在各个部分之间切换。
-当用户单击选项卡时，表单内容会动态更新以显示相应部分。
+自适应表单中的垂直选项卡是指一种设计模式，在该模式中，表单的多个部分组合在一起，并以垂直对齐的单独选项卡形式显示。用户可以在选项卡之间切换以访问表单的不同部分。每个选项卡都用作显示和隐藏相关表单内容的触发器。垂直选项卡有助于将较长的表单整理到可管理的部分中，并改善用户体验。选项卡有助于使表单更便于残障用户访问，因为他们可以使用键盘导航在部分之间切换。
+当用户单击选项卡时，表单内容会动态更新以显示相应的部分。
 
 >[!NOTE]
 >
@@ -120,7 +113,7 @@ ht-degree: 100%
 - **最少重复次数**：确定“垂直”选项卡组件面板可以重复的最小次数。 值为零表示“垂直”选项卡组件不重复；默认值为零。
 - **最多重复次数**：设置“垂直”选项卡组件面板可以重复的最大次数。 默认情况下，此值无限制。
 
-要有效管理“垂直”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hans)文章。
+要有效管理“垂直”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html)文章。
 
 ### “项”选项卡 {#items-tab}
 
