@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2213
-ht-degree: 100%
+source-wordcount: 2186
+ht-degree: 99%
 
 ---
 
@@ -124,8 +124,8 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 - **使顶部选项卡可重复**：切换功能，允许用户启用或禁用重复功能。
 - **最少重复次数**：确定“水平”选项卡组件面板可以重复的最小次数。 值为零表示“水平”选项卡组件不重复；默认值为零。
-- **最多重复次数**：设置“水平”选项卡组件面板可以重复的最大次数。 默认情况下，此值无限制。
-要有效管理“水平”选项卡中的可重复部分，请按照[创建具有可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hans)文章。
+- **最大重复次数**：设置水平选项卡组件可重复的最大次数。默认情况下，此值不受限制。
+要有效地管理水平选项卡中的可重复部分，请按照[创建包含可重复部分的表单](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=zh-Hans)文章中提供的步骤操作。
 
 ### “项”选项卡 {#items-tab}
 

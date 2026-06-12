@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2349
-ht-degree: 100%
+source-wordcount: 2334
+ht-degree: 99%
 
 ---
 
@@ -103,8 +103,8 @@ To experience the Accordion Component as well as see examples of its configurati
    - **数据值** - 通过此选项，可输入在选择某个选项时要提交的内容。
    - **显示文本** - 通过此选项，可输入要在自适应表单中显示的内容。
    - **删除** - 点击或单击此选项可删除单选按钮的选项。
-   - **重新排列** - 点击或单击并拖动以重新排列选项的顺序。
-您还可以使用**允许选项为富文本**&#x200B;对单选按钮组的选项进行格式化。
+   - **重新排列** — 点击或单击并拖动以重新排列选项。
+您还可以使用&#x200B;**允许选项富文本**&#x200B;来设置单选按钮组的选项格式。
 
   ![针对选项的富文本支持](/help/adaptive-forms/assets/richtext-for-options.png)
 

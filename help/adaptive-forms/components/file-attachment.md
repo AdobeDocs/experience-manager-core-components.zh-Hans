@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2089
-ht-degree: 100%
+source-wordcount: 2083
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 <!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
-- **最大文件大小 (MB)** - 通过此选项，可指定最大文件大小。 以 MB 为单位指定文件大小。
+- **最大文件大小(MB)** — 此选项允许指定最大文件大小。文件大小以MB为单位指定。
   <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **最大文件大小错误消息** - 此选项用于输入如果您上传的文件大小大于在&#x200B;**最大文件大小 (MB)** 选项中指定的文件大小，所显示的错误消息。

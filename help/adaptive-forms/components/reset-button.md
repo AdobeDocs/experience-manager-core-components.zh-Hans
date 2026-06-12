@@ -18,8 +18,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 1569
-ht-degree: 100%
+source-wordcount: 1527
+ht-degree: 99%
 
 ---
 
@@ -85,7 +85,7 @@ To experience the Accordion Component as well as see examples of its configurati
 - **标记为未绑定表单元素**：选择此选项可配置未链接到任何架构的表单字段。 利用此选项，您可以保存数据而不更新数据源。 它还可让您以一种独立于标准数据库集成的自定义方式处理数据。
 
 - **隐藏组件** - 选中此选项以从表单中隐藏该组件。 仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。 当需要存储用户无需看到或直接更改的信息时，此项很有用。
-- **禁用组件** - 选中此选项以禁用该组件。 被禁用的组件不再活跃或最终用户无法编辑它。 用户可看到但无法修改字段的值。 仍可访问该组件作其他用途，如在规则编辑器中使用它进行计算。
+- **禁用组件** — 选择选项以禁用该组件。禁用的组件不是活动的组件，最终用户也无法对其进行编辑。用户可以查看字段的值，但无法修改它。该组件仍可访问以用于其他目的，如将其用于规则编辑器中的计算。
   <!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 
 ### “帮助内容”选项卡 {#help-content}
