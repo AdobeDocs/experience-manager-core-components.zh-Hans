@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: a7423900fd8302f5b5e59bad28bb727978c35288
 workflow-type: tm+mt
 source-wordcount: 1146
 ht-degree: 100%
@@ -126,7 +126,7 @@ public class PageHeadline implements Title {
 
 通过将需要修改的 HTL 文件从核心组件复制到[代理组件](guidelines.md#proxy-component-pattern)，可轻松实现此目标。
 
-再次以核心痕迹导航组件为例，要定义其标记输出，必须将 `breadcrumb.html` 文件复制到站点特定的组件，该组件的 `sling:resourceSuperTypes` 指向核心痕迹导航组件。
+再次以核心痕迹导航组件为例，要定义其标记输出，必须将 `breadcrumb.html` 文件复制到站点特定的组件，该组件的 `sling:resourceSuperType` 指向核心痕迹导航组件。
 
 ### 设置组件的样式 {#styling-the-components}
 
