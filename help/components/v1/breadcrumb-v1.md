@@ -14,8 +14,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 100%
+source-wordcount: 544
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->本文档介绍了痕迹导航组件 (v1)。
+>本文档介绍了痕迹导航组件(v1)。
 >有关当前版本的痕迹导航组件的详细信息，请参阅[痕迹导航组件](/help/components/breadcrumb.md)文档。
 
 ## 示例组件输出 {#sample-component-output}
