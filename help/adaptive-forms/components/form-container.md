@@ -18,8 +18,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 100%
+source-wordcount: 1529
+ht-degree: 99%
 
 ---
 
@@ -85,9 +85,9 @@ To experience the Accordion Component as well as see examples of its configurati
 
 - **角色**：角色是一个 HTML 属性，用于向屏幕阅读器等辅助技术指定 HTML 元素的用途。 角色属性用于为元素提供额外的上下文和语义，使屏幕阅读器更容易向用户解释和读出内容。 例如，在 AEM Forms 中，表单字段的标签可能具有“标签”的作用，其输入字段可能具有“文本框”的作用。 这有助于屏幕阅读器理解标签和输入字段之间的关系，并正确地向用户读出内容。
 
-- **客户端库类别** - 用户可以为每个自适应表单配置自定义 JavaScript 库。 建议只保留库中可重用的函数，这些函数依赖 jquery 和 underscore.js 第三方库。
-有时，如果存在**复杂的验证规则**，则准确的验证脚本驻留在自定义函数中，并且用户从字段验证表达式中调用这些自定义函数。 要在执行服务器端验证时使此自定义函数库已知并可用，表单用户可以在自适应表单容器属性的&#x200B;**[!UICONTROL “基本”]**选项卡下配置 AEM 客户端库的名称。
-用户可以为每个自适应表单配置自定义 JavaScript 库。 该库中只保留可重用的函数，这些函数依赖 jquery 和 underscore.js 第三方库。
+- **客户端库类别** — 用户可以为每个自适应表单配置自定义JavaScript库。建议在库中仅保留可重用的函数，这些函数依赖于jquery和underscore.js第三方库。
+有时，如果存在&#x200B;**复杂验证规则**，则确切的验证脚本将驻留在自定义函数中，用户将从字段验证表达式中调用这些自定义函数。若要使此自定义函数库在执行服务器端验证时已知且可用，表单用户可以在自适应表单容器属性的&#x200B;**[!UICONTROL Basic]**&#x200B;选项卡下配置AEM客户端库的名称。
+用户可以根据自适应表单配置自定义JavaScript库。在库中，仅保留依赖于jquery和underscore.js第三方库的可重用函数。
 
 <!--
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
