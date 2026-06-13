@@ -4,19 +4,11 @@ description: 核心组件的本地化功能
 role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 TQID: https://experienceleague.adobe.com/yDCdrkGt6fFEWgIHzF4XSrBapEGGdFku3yY5-RVgJPI
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 727
@@ -34,7 +26,7 @@ ht-degree: 100%
 
 同样，导航组件通常必须跨所有页面显示。 但它还需要反映本地化页面的内容。
 
-通过将[导航核心组件](/help/components/navigation.md)和[体验片段核心组件](/help/components/experience-fragment.md)的本地化功能与 [AEM 的可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=zh-Hans)结合使用，可轻松完成此任务。 也可以进一步扩展此示例以使用[语言导航组件](/help/components/language-navigation.md)。
+通过将[导航核心组件](/help/components/navigation.md)和[体验片段核心组件](/help/components/experience-fragment.md)的本地化功能与 [AEM 的可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)结合使用，可轻松完成此任务。 也可以进一步扩展此示例以使用[语言导航组件](/help/components/language-navigation.md)。
 
 ## 内容结构 {#content-structure}
 
