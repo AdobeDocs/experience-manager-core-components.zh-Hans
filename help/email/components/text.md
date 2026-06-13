@@ -5,9 +5,15 @@ role: Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 index: false
 TQID: https://experienceleague.adobe.com/yAFlfJ-7wH6cWELT5fJWq5bFbmVSwPMKsGGlLP3HQfk
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 2287
@@ -158,9 +164,9 @@ ht-degree: 99%
 
 ![查找示例](/help/assets/text-find-example.png)
 
-输入要搜索的文本并点击或单击&#x200B;**查找**以开始搜索。点击或单击x可取消。
-如果您希望根据大小写进行精确匹配，请选择选项**匹配大小写**，然后再开始搜索。
-如果找到一个匹配项，则将突出显示该匹配项，并且搜索对话框将灰显。在灰显的对话框中再次点击或单击**查找**&#x200B;按钮可搜索下一个匹配项。
+输入要搜索的文本并点击或单击&#x200B;**查找**&#x200B;以开始搜索。点击或单击x可取消。
+如果您希望根据大小写进行精确匹配，请选择选项&#x200B;**匹配大小写**，然后再开始搜索。
+如果找到一个匹配项，则将突出显示该匹配项，并且搜索对话框将灰显。在灰显的对话框中再次点击或单击&#x200B;**查找**&#x200B;按钮可搜索下一个匹配项。
 
 ![查找示例 - 已找到](/help/assets/text-find-example-found.png)
 
