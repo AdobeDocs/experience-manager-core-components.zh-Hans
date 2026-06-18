@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 44091110a4cb18c6c35a22ee5ac9a9863ac8ae00
 workflow-type: tm+mt
-source-wordcount: 3887
-ht-degree: 100%
+source-wordcount: 3937
+ht-degree: 98%
 
 ---
 
@@ -44,21 +44,22 @@ ht-degree: 100%
 
 | 发行版本 | 描述 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | 发布日期 |
 |---|---|---|---|---|---|---|---|
+| [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | 此发行版本引入了对于页面组件的JSON-LD数据的支持，并改进了多个其他组件的性能，以及多项错误修复。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2026年5月19日 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | 此发行版本修正了路径验证问题。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2026 年 1 月 30 日 |
 | [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | 此发行版本修正了标题组件策略对话框中的回归。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2025 年 12 月 5 日 |
 | [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | 此发行版本修正了与 PDF 查看器相关的一个未本地化的字符串。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2025 年 10 月 23 日 |
-| [ 2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 本次发布解决了多个资产和 Dynamic Media 相关问题，明确了 LTS 支持，并修复了大量错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2025 年 9 月 4 日 |
+| [&#x200B; 2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | 本次发布解决了多个资产和 Dynamic Media 相关问题，明确了 LTS 支持，并修复了大量错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2025 年 9 月 4 日 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | 此版本增加了对在网站核心组件中创作资产预览版本的支持，并解决了许多错误修复。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2025 年 4 月 21 日 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | 此版本修复了大量错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2025 年 3 月 17 日 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | 此版本修复了大量错误。 | - | 6.5.21.0+ | - | 连续 | 11 | 2024 年 9 月 10 日 |
-| [ 2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | 此版本修复了大量错误。 | - | 6.5.21.0+ | - | 连续 | 11 | 2024 年 7 月 31 日 |
-| [ 2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 这是一个次要版本，其中纠正了一些 IT 故障。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 10 日 |
-| [ 2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 这是一个次要版本，其中纠正了一些 IT 故障。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 9 日 |
-| [ 2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 此版本增加了对 Dynamic Media 中命名智能裁剪的支持，包括在性能和可访问性方面的改进，以及各种错误修复。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 2 日 |
-| [ 2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | 此补丁版本包括对数据层初始化的改进。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 4 月 22 日 |
-| [ 2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 此补丁版本修复了 Sling 模型初始化。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 4 月 1 日 |
-| [ 2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | 此补丁版本提高了集成测试的稳定性。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 22 日 |
-| [ 2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 此版本增加了对 Google Tag Manager 数据层的支持并修复了各种错误。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 14 日 |
+| [&#x200B; 2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | 此版本修复了大量错误。 | - | 6.5.21.0+ | - | 连续 | 11 | 2024 年 7 月 31 日 |
+| [&#x200B; 2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | 这是一个次要版本，其中纠正了一些 IT 故障。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 10 日 |
+| [&#x200B; 2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | 这是一个次要版本，其中纠正了一些 IT 故障。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 9 日 |
+| [&#x200B; 2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | 此版本增加了对 Dynamic Media 中命名智能裁剪的支持，包括在性能和可访问性方面的改进，以及各种错误修复。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 5 月 2 日 |
+| [&#x200B; 2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | 此补丁版本包括对数据层初始化的改进。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 4 月 22 日 |
+| [&#x200B; 2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | 此补丁版本修复了 Sling 模型初始化。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 4 月 1 日 |
+| [&#x200B; 2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | 此补丁版本提高了集成测试的稳定性。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 22 日 |
+| [&#x200B; 2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | 此版本增加了对 Google Tag Manager 数据层的支持并修复了各种错误。 | - | 6.5.21.0+ | - | 连续 | 8, 11 | 2024 年 2 月 14 日 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | 此补丁版本包括各种错误修复。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 9 月 15 日 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | 此补丁将 Dynamic Media 远程资源智能裁剪添加到[图像](/help/components/image.md)和 [Teaser 组件](/help/components/teaser.md)并修复了若干错误。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 4 月 8 日 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | 此版本添加了对[新一代 Dynamic Media 远程资源](/help/developing/remote-assets.md)的支持。 | - | 6.5.17.0+ | - | 连续 | 8, 11 | 2023 年 6 月 6 日 |

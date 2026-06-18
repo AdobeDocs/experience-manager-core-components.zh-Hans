@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 44091110a4cb18c6c35a22ee5ac9a9863ac8ae00
 workflow-type: tm+mt
 source-wordcount: 1076
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 | SEO 友好 | HTML 输出是语义的，并提供 [schema.org](https://schema.org) 微数据注释。 |
 | WebApp 就绪 | [简化的 JSON 输出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=zh-hans)允许客户端渲染，并且仍可进行[上下文内编辑](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-hans)。 |
 | AMP 支持 | 组件已内置[对 AMP 标准的支持，](/help/developing/amp.md)可加快移动体验。 |
-| 设计套件 | 利用 [Adobe XD UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=zh-Hans)，设计人员可以创建随后可[按需样式化](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)的线框。 |
+| 设计套件 | 利用 [Adobe XD UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，设计人员可以创建随后可[按需样式化](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)的线框。 |
 | 可主题化 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-hans)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
 | 可自定义 | 可利用几种模式来[轻松进行自定义设置](developing/customizing.md)（从调整 HTML 到高级功能重用）。 |
 | 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可确保核心组件在改进可能影响您的内容时不会中断您的网站。 |
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 | 核心组件版本 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 版本 | Maven 版本 |
 |---|---|---|---|---|---|
-| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 和更高版本 |
+| [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 和更高版本 |
 
 有关以前的核心组件版本的要求，请参阅[核心组件版本](versions.md)。
 
