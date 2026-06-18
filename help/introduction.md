@@ -35,7 +35,7 @@ ht-degree: 98%
 
 ## 资源 {#resources}
 
-* **[组件库：](https://www.adobe.com/go/aem_cmp_library)**&#x200B;一组用于查看组件的各种配置的示例。
+* **[组件库：](https://www.adobe.com/go/aem_cmp_library_cn)**&#x200B;一组用于查看组件的各种配置的示例。
 * **组件文档（此文档）：**&#x200B;对于开发人员和作者，包含有关每个组件的详细信息。
 * **[核心组件 GitHub 存储库：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;对于开发人员，包含每个组件和项目下载的详细信息。
 * 开始使用：
@@ -51,7 +51,7 @@ ht-degree: 98%
 | 可用于生产 | 核心组件是 30 个经过充分测试、广泛使用且性能出色的强大 WCM 组件。 |
 | 云就绪 | 无论是在 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-hans)、[Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) 上还是内部部署，这些组件都能运行。 |
 | 可以通用 | 这些组件代表了作者可用来设计几乎任何布局的通用概念。 |
-| 可配置 | 模板级[内存策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?#content-policies)定义页面作者可以使用或无法使用的功能。 |
+| 可配置 | 模板级[内存策略](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=zh-Hans&#content-policies)定义页面作者可以使用或无法使用的功能。 |
 | [响应式](responsive.md) | 所有核心组件均设计为完全响应式，确保跨设备的无缝体验。 |
 | 可跟踪 | [Adobe 客户端数据层集成](/help/developing/data-layer/overview.md)允许全方位跟踪访客体验。 |
 | 可访问 | 它们符合 [WCAG 2.1 标准](https://www.w3.org/TR/WCAG21/)，提供 ARIA 标签，并支持键盘导航（[已知问题](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)）。 |
@@ -130,7 +130,7 @@ ht-degree: 98%
 
 有关以前的核心组件版本的要求，请参阅[核心组件版本](versions.md)。
 
-核心组件要求使用[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)，并且不支持经典 UI 和静态模板。 如果需要，请检查 [AEM 现代化工具](https://opensource.adobe.com/aem-modernize-tools/)以使用这些现代化 AEM 功能更新您的项目。
+核心组件要求使用[可编辑模板](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=zh-Hans)，并且不支持经典 UI 和静态模板。 如果需要，请检查 [AEM 现代化工具](https://opensource.adobe.com/aem-modernize-tools/)以使用这些现代化 AEM 功能更新您的项目。
 
 要设置本地开发环境，请查看[此 AEM as a Cloud Service SDK 概述](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=zh-hans)，或适用于[旧版 AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=zh-hans) 的本文档。
 
