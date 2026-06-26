@@ -696,7 +696,7 @@ ht-degree: 85%
 
 ## “编辑”对话框 {#edit-dialog}
 
-由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)窗口中找到。
+由于该组件呈现整个页面，通常位于编辑对话框中的设置可在[页面属性](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties)窗口中找到。
 
 ### 结构化数据支持 {#structured-data}
 
