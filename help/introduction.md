@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
+source-git-commit: b0411193f08f39219ad4c791084c42cdcd8f8027
 workflow-type: tm+mt
-source-wordcount: 1076
+source-wordcount: 1077
 ht-degree: 98%
 
 ---
@@ -39,10 +39,10 @@ ht-degree: 98%
 * **组件文档（此文档）：**&#x200B;对于开发人员和作者，包含有关每个组件的详细信息。
 * **[核心组件 GitHub 存储库：](https://github.com/adobe/aem-core-wcm-components)**&#x200B;对于开发人员，包含每个组件和项目下载的详细信息。
 * 开始使用：
-   * **[使用核心组件获得成功：](/help/developing/success.md)**&#x200B;在任何将使用核心组件的项目开始之前要考虑的指南。
-   * **[WKND 教程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-hans)**&#x200B;有关构建新网站的两日教程。
-   * **[Summit 教程：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;有关构建新网站的两小时教程（来自 US Summit 2019 的实验室）。
-   * **[Gems 网络研讨会：](https://helpx.adobe.com/cn/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;核心组件导览（于 2018 年 12 月录制）。
+  * **[使用核心组件获得成功：](/help/developing/success.md)**&#x200B;在任何将使用核心组件的项目开始之前要考虑的指南。
+  * **[WKND 教程：](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-hans)**&#x200B;有关构建新网站的两日教程。
+  * **[Summit 教程：](https://expleague.azureedge.net/labs/L767/index.html)**&#x200B;有关构建新网站的两小时教程（来自 US Summit 2019 的实验室）。
+  * **[Gems 网络研讨会：](https://helpx.adobe.com/cn/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**&#x200B;核心组件导览（于 2018 年 12 月录制）。
 
 ## 功能 {#features}
 
@@ -126,7 +126,7 @@ ht-degree: 98%
 
 | 核心组件版本 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 版本 | Maven 版本 |
 |---|---|---|---|---|---|
-| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 和更高版本 |
+| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 和更高版本 |
 
 有关以前的核心组件版本的要求，请参阅[核心组件版本](versions.md)。
 
