@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 965111707408c37899fd8a94cd5789b56b38db4a
+source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
 workflow-type: tm+mt
-source-wordcount: 4174
+source-wordcount: 4192
 ht-degree: 96%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 96%
 |---|---|---|---|---|---|---|---|
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 此版本解决了错误修复问题。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2026年7月15日 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | 此版本解决了早期版本的search clientlibs中的错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2026年7月15日 |
-| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | 此版本解决了各种本地化错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2026年7月14日 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | 此发行版本引入了[快速搜索组件](/help/components/quick-search.md)的新版本，该版本具有可选的AI 搜索切换功能，并解决了本地化错误等。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2026年7月14日 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | 此版本解决了某些信息无法正确保留的错误。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2026年6月22日 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | 此发行版本引入了对于页面组件的JSON-LD数据的支持，并改进了多个其他组件的性能，以及多项错误修复。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2026年5月19日 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | 此发行版本修正了路径验证问题。 | - | 6.5.21.0+ | 6.5 LTS GA | 连续 | 8, 11, 17, 21 | 2026 年 1 月 30 日 |
