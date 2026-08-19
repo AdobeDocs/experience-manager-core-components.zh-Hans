@@ -53,7 +53,7 @@ ht-degree: 41%
 
 ## 示例组件输出 {#sample-component-output}
 
-要体验快速搜索组件并查看其配置选项示例以及HTML和JSON输出，请访问[组件库。](https://adobe.com/go/aem_cmp_library_search)
+要体验快速搜索组件并查看其配置选项示例以及HTML和JSON输出，请访问[组件库。](https://adobe.com/go/aem_cmp_library_search_cn)
 
 ## 技术详细信息 {#technical-details}
 

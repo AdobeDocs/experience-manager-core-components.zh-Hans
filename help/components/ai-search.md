@@ -29,7 +29,7 @@ ht-degree: 16%
 
 ## 用途 {#usage}
 
-内容AI 搜索组件允许访客直接从页面搜索[内容Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)，并可以选择查看人工智能生成的生成结果摘要。 它将标准全文/语义搜索框与可切换的&#x200B;**显示由AEM Content AI提供支持的AI生成的摘要**&#x200B;面板相结合。
+内容AI 搜索组件允许访客直接从页面搜索[内容Source](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-content-ai/using/contentsources)，并可以选择查看人工智能生成的生成结果摘要。 它将标准全文/语义搜索框与可切换的&#x200B;**显示由AEM Content AI提供支持的AI生成的摘要**&#x200B;面板相结合。
 
 [编辑对话框](#edit-dialog)允许内容作者定义搜索的内容范围、搜索行为和生成设置。 由于模板级别没有可用设置，因此没有“设计”对话框。
 
@@ -78,7 +78,7 @@ ht-degree: 16%
   * **CUSTOM** — 在AEM自己的引入管道之外注册的源
 * **内容源** — 这将定义此组件搜索的内容Source。
   * 可用条目与已存在且&#x200B;**可用**&#x200B;的内容源匹配，并且与&#x200B;**内容Source类型**&#x200B;中设置的类型匹配
-  * 有关详细信息，请参阅文档[设置和管理您的内容人工智能源](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)。
+  * 有关详细信息，请参阅文档[设置和管理您的内容人工智能源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-content-ai/using/contentsources)。
 
 ### “搜索行为”选项卡 {#search-behavior}
 

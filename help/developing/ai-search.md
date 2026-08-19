@@ -26,8 +26,8 @@ ht-degree: 2%
 
 ## 先决条件 {#prerequisites}
 
-* 已创建至少一个[内容Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)，状态为&#x200B;**可用**。
-* 在创作和发布上设置的&#x200B;**AEM Content AI客户端** OSGi配置(`ContentAIClientImpl`)，具有有效的API凭据和&#x200B;**默认内容Source**&#x200B;值。 有关如何获取凭据的信息，请参阅文档[设置Adobe Developer Console项目](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project)。
+* 已创建至少一个[内容Source](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-content-ai/using/contentsources)，状态为&#x200B;**可用**。
+* 在创作和发布上设置的&#x200B;**AEM Content AI客户端** OSGi配置(`ContentAIClientImpl`)，具有有效的API凭据和&#x200B;**默认内容Source**&#x200B;值。 有关如何获取凭据的信息，请参阅文档[设置Adobe Developer Console项目](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-content-ai/using/setup-adc-project)。
 
 ## 创建代理组件 {#proxy-component}
 
@@ -54,10 +54,10 @@ ht-degree: 2%
 
 * 标准搜索查询由与Content Source索引相同的检索层提供，从配置的源返回匹配的页面、片段或资源。
 * 启用人工智能生成的摘要后，该组件还会调用AEM Content AI生成端点，将响应置于同一索引内容中，并在摘要旁边显示源，以便访客可以验证。
-* 由于这两项功能是从同一受管控的内容Source中读取的，因此结果和摘要与当前索引的内容保持一致。 重新运行客户获取（请参阅[控制您的内容源](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)）会刷新这两个内容。
+* 由于这两项功能是从同一受管控的内容Source中读取的，因此结果和摘要与当前索引的内容保持一致。 重新运行客户获取（请参阅[控制您的内容源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-content-ai/using/contentsources)）会刷新这两个内容。
 
 ## 后续步骤 {#next-steps}
 
-* [控制您的内容源](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) — 创建和管理此组件搜索的内容Source。
-* [设置Adobe Developer Console项目](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) — 获取OSGi Content AI客户端配置使用的凭据。
+* [控制您的内容源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-content-ai/using/contentsources) — 创建和管理此组件搜索的内容Source。
+* [设置Adobe Developer Console项目](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-content-ai/using/setup-adc-project) — 获取OSGi Content AI客户端配置使用的凭据。
 * [内容人工智能API引用](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) — 了解此组件调用的基础搜索和生成性摘要端点。
