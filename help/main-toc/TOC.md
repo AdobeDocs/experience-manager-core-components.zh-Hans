@@ -5,10 +5,10 @@ breadcrumb-title: 核心组件指南
 feature: Core Components
 user-guide-description: 对于传统的 AEM 项目，使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: ccc4eebac29251d3527f34240cb2005b9029cf82
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 99%
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 99%
   + [PDF 查看器](/help/components/pdf-viewer.md)
   + [进度条](/help/components/progress-bar.md)
   + [快速搜索](/help/components/quick-search.md)
+  + [内容AI 搜索](/help/components/ai-search.md)
   + [分隔符](/help/components/separator.md)
   + [社交媒体共享](/help/components/sharing.md)
   + [目录](/help/components/tableofcontents.md)
@@ -147,7 +148,7 @@ ht-degree: 99%
 + 开发 {#developing}
   + [开发核心组件](/help/developing/overview.md)
   + [获得成功的途径](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=zh-hans)
-  + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)
+  + [WKND 开发人员教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [自定义核心组件](/help/developing/customizing.md)
   + [组件准则](/help/developing/guidelines.md)
   + [AMP 支持](/help/developing/amp.md)
@@ -156,6 +157,7 @@ ht-degree: 99%
   + [自适应图像 Servlet](/help/developing/adaptive-image-servlet.md)
   + [Web 优化图像投放](/help/developing/web-optimized-image-delivery.md)
   + [远程资产支持](/help/developing/remote-assets.md)
+  + [配置内容AI 搜索](/help/developing/ai-search.md)
   + Adobe 客户端数据层 {#data-layer}
     + [Data Layer 的概述](/help/developing/data-layer/overview.md)
     + [与数据层的集成](/help/developing/data-layer/integrations.md)

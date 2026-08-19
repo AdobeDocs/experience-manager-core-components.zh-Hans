@@ -4,21 +4,14 @@ description: 快速搜索组件提供对网站的搜索功能并显示搜索结�
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,19 +36,25 @@ ht-degree: 46%
 
 | 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | - | 兼容 | 兼容 | 兼容 |
+| v3 | - | 兼容* | 兼容* | 兼容 |
 | [v2](/help/components/v2/quick-search.md) | - | 兼容 | 兼容 | 兼容 |
 | [v1](/help/components/v1/quick-search.md) | 与<br>[版本 2.17.4](/help/versions.md) 和更低版本兼容 | 兼容 | - | 兼容 |
 
-有关核心组件版本的更多信息，请参阅文档[核心组件版本](/help/versions.md)。
+*语义搜索切换开关仅适用于AEM as a Cloud Service。
 
-### 技术详细信息 {#technical-details}
+有关核心组件版本的更多信息，请参阅文档[核心组件版本。](/help/versions.md)
+
+## 示例组件输出 {#sample-component-output}
+
+要体验快速搜索组件并查看其配置选项示例以及HTML和JSON输出，请访问[组件库。](https://adobe.com/go/aem_cmp_library_search)
+
+## 技术详细信息 {#technical-details}
 
 >[!NOTE]
 >
 >应对搜索组件或任何基于 AEM 的应用程序实施更高级别的保护以使其免受 DOS 攻击，例如，通过使用 Dispatcher 上的 `mod_security`。
 
-[在 GitHub 上可找到](https://adobe.com/go/aem_cmp_tech_search_v2_cn)有关快速搜索组件的最新技术文档。
+在GitHub上可找到有关快速搜索组件[的最新技术文档。](https://adobe.com/go/aem_cmp_tech_search_v3)
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
@@ -80,7 +79,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->语义搜索切换仅在使用AEM Content AI配置环境时返回AI支持的结果。 在未使用内容人工智能配置的AEM 6.5和AEM 6.5 LTS环境中，使用设计对话框[&#128279;](#design-dialog)隐藏切换开关，以便不向访客提供无法正常运行的搜索模式。
+>语义搜索切换仅在使用AEM Content AI配置环境时返回AI支持的结果。 在未使用内容人工智能配置的AEM 6.5和AEM 6.5 LTS环境中，使用设计对话框](#design-dialog)隐藏切换开关[，以便不向访客提供无法正常运行的搜索模式。
 
 ## “设计”对话框 {#design-dialog}
 
