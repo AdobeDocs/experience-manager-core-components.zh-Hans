@@ -4,10 +4,17 @@ description: 快速搜索组件提供对网站的搜索功能并显示搜索结�
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
 source-wordcount: 909
@@ -79,7 +86,7 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->语义搜索切换仅在使用AEM Content AI配置环境时返回AI支持的结果。 在未使用内容人工智能配置的AEM 6.5和AEM 6.5 LTS环境中，使用设计对话框](#design-dialog)隐藏切换开关[，以便不向访客提供无法正常运行的搜索模式。
+>语义搜索切换仅在使用AEM Content AI配置环境时返回AI支持的结果。 在未使用内容人工智能配置的AEM 6.5和AEM 6.5 LTS环境中，使用设计对话框[&#128279;](#design-dialog)隐藏切换开关，以便不向访客提供无法正常运行的搜索模式。
 
 ## “设计”对话框 {#design-dialog}
 
