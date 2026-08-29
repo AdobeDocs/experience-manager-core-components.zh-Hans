@@ -55,7 +55,7 @@ ht-degree: 16%
 
 ## 技术详细信息 {#technical-details}
 
-在GitHub上可找到有关内容AI 搜索组件[的最新技术文档。](https://adobe.com/go/aem_cmp_tech_ai_search_v1)
+在GitHub上可找到有关内容AI 搜索组件[的最新技术文档。](https://adobe.com/go/aem_cmp_tech_ai_search_v1_cn)
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
