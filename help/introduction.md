@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 1f35bcdd9670db47a906bb53b3cb3d76dbf4bb38
+source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
 workflow-type: tm+mt
 source-wordcount: 1080
 ht-degree: 98%
@@ -68,7 +68,7 @@ ht-degree: 98%
 
 ## WCM 组件 {#the-wcm-components}
 
-当前版本的核心组件具有以下组件。
+当前版本的核心组件包含以下组件。
 
 ### 模板组件 {#template-components}
 
@@ -127,7 +127,7 @@ ht-degree: 98%
 
 | 核心组件版本 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 版本 | Maven 版本 |
 |---|---|---|---|---|---|
-| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 和更高版本 |
+| [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 和更高版本 |
 
 有关以前的核心组件版本的要求，请参阅[核心组件版本](versions.md)。
 
