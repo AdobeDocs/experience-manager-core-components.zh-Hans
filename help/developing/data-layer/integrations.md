@@ -4,32 +4,42 @@ description: 了解 Adobe 客户端数据层如何与您的自定义组件集成
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-TQID: https://experienceleague.adobe.com/xncfOtz1FNyeH6CjQjg7cSeIonIg2mkBIPUgZvMI7Ww
+TQID: 'https://experienceleague.adobe.com/xncfOtz1FNyeH6CjQjg7cSeIonIg2mkBIPUgZvMI7Ww'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Insights
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: '429'
 ht-degree: 100%
-
 ---
-
 # 与 Adobe Client Data Layer 的集成 {#integrations}
 
 Adobe Client Data Layer 通过提供一种标准化方法来公开和访问任何脚本的任何类型的数据，从而减少检测网站所需的工作量。
 
-Adobe 客户端数据层可与您的自定义组件集成，并且与 Adobe Analytics 和 Adobe Target 的集成如何帮助您洞察自己的网站。
+Adobe 客户端数据层可与您的自定义组件集成，并且与 Adobe Analytics 和 Adobe Target 的集成可帮助您深入了解您的网站。
 
 ## 为自定义组件启用 Data Layer {#enabling-custom-components}
 
@@ -52,12 +62,12 @@ Adobe 客户端数据层与 Adobe Analytics 和 Adobe Target 搭配使用，为�
 
 ### 使用 Adobe Analytics 收集页面数据 {#collect-page-data}
 
-了解如何使用带 AEM 核心组件的 Adobe Client Data Layer 的内置功能来收集有关 Adobe Experience Manager Sites 中页面的数据。 Experience Platform Launch 和 Adobe Analytics 扩展将用于创建规则以将页面数据发送到 Adobe Analytics。
+了解如何将 Adobe 客户端数据层的内置功能与 AEM 核心组件配合使用，以收集 Adobe Experience Manager Sites 中有关页面的数据。 Experience Platform Launch 和 Adobe Analytics 扩展将用于创建规则以将页面数据发送到 Adobe Analytics。
 
-[在此处查看教程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=zh-Hans)
+[在此处查看教程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
 
 ### 使用 Adobe Analytics 跟踪单击的组件 {#track-clicked-components}
 
-使用带 AEM 核心组件的事件驱动型 Adobe Client Data Layer 跟踪 Adobe Experience Manager Site 上的特定组件的单击数。 了解如何使用 Experience Platform Launch 中的规则来侦听单击事件、按组件筛选并在带跟踪链接信标的情况下将数据发送到 Adobe Analytics。
+使用带 AEM 核心组件的事件驱动型 Adobe Client Data Layer 跟踪 Adobe Experience Manager Site 上的特定组件的单击数。 了解如何使用 Experience Platform Launch 中的规则来侦听单击事件、按组件筛选，并使用跟踪链接信标将数据发送到 Adobe Analytics。
 
-[在此处查看教程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=zh-Hans)
+[在此处查看教程。](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)

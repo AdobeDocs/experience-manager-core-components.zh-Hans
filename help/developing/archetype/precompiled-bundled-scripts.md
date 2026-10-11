@@ -4,27 +4,40 @@ description: 了解如何通过 OSGi 捆绑包将组件脚本部署到 Adobe Exp
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
-TQID: https://experienceleague.adobe.com/CRIKInyfl-kbar3LUOs8kHFaXO9L4kgYf8pXIopaWK0
+TQID: 'https://experienceleague.adobe.com/CRIKInyfl-kbar3LUOs8kHFaXO9L4kgYf8pXIopaWK0'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Metadata
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 416
+source-wordcount: '416'
 ht-degree: 100%
-
 ---
-
 # 预编译的捆绑脚本 {#precompiled-bundled-scripts}
 
-AEM as a Cloud Service 支持将 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hans#code-packages-%2F-osgi-bundles) 组件脚本部署为预编译的捆绑脚本。 这使开发人员能够在构建时预编译脚本，并将这些脚本打包为 OSGi 捆绑包。
+AEM as a Cloud Service 支持将 [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) 组件脚本部署为预编译的捆绑脚本。 这使开发人员能够在构建时预编译脚本，并将这些脚本打包为 OSGi 捆绑包。
 
 ## 通过 OSGi 捆绑包部署预编译的脚本的优势 {#advantages}
 
@@ -45,10 +58,10 @@ AEM as a Cloud Service 支持将 [`ui.apps`](https://experienceleague.adobe.com/
 
 OSGi 框架提供了一种强大的方式来定义[需求和功能](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies)，以表达不同组件之间的契约。 它们通过元数据进行描述，并在运行时强制执行。 捆绑脚本使用此机制来表达它们的继承关系 (`sling:resourceSuperType`) 以及委托（包括渲染过程中的其他资源类型）。
 
-[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) 项目中的 `bnd` 插件可用于提取与 [`ui.apps` 所提供的脚本对应的要求和功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=zh-Hans#code-packages-%2F-osgi-bundles) 内容包
+[scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) 项目中的 `bnd` 插件可用于提取与 [`ui.apps` 所提供的脚本对应的要求和功能。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) 内容包
 
 ## AEM 项目原型支持 {#support}
 
-从版本 31 开始，[AEM 项目原型](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=zh-Hans)可用于正确设置 AEM as a Cloud Service 项目，以使用预编译的捆绑脚本。
+从版本 31 开始，[AEM 项目原型](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html)可用于正确设置 AEM as a Cloud Service 项目，以使用预编译的捆绑脚本。
 
 此外，AEM 项目原型将配置 [AEM as a Cloud Service SDK 构建分析器 Maven 插件](/help/developing/archetype/build-analyzer-maven-plugin.md)，以验证 Java 包级别以及脚本级别的依赖项。
