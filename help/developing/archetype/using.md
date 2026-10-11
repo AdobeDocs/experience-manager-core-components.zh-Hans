@@ -4,22 +4,34 @@ description: 了解如何使用 AEM 项目原型，来创建最小的基于最�
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-TQID: https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY
+TQID: 'https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 1326
+source-wordcount: '1326'
 ht-degree: 100%
-
 ---
-
 # 使用 AEM 项目原型 {#using-the-archetype}
 
 本文档解释如何使用 AEM 项目原型，来创建最小的基于最佳实践的 Adobe Experience Manager 项目作为您自己的 AEM 项目的起点。
@@ -77,7 +89,7 @@ Maven 中表示的原型模块作为表示应用程序、内容和必要的 OSGi
 
 父级 POM 的 `<properties>` 部分定义了在 AEM 实例上部署项目所必需的几个全局属性，例如用户名/密码、主机名/端口等。
 
-这些属性设置为部署到本地 AEM 实例，因为这是开发人员最常进行的构建。 请注意，有一些属性要部署到创作实例和发布实例。 此外，也会在此处将凭据设置为使用 AEM 实例进行身份验证。 使用默认 `admin:admin` 凭据。
+这些属性设置为部署到本地 AEM 实例，因为这是开发人员最常进行的构建。 请注意，有一些属性要部署到作者实例和发布实例。 此外，也会在此处设置凭据，以通过 AEM 实例进行身份验证。 使用默认 `admin:admin` 凭据。
 
 设置这些属性以便在部署到更高级别的环境时可以将其覆盖。 这样一来，无需更改 POM 文件，并且可通过命令行参数覆盖 `aem.host` 和 `sling.password` 等变量：
 
@@ -95,23 +107,23 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 #### Uber-Jar {#uber-jar}
 
-关键依赖项之一是 [AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=zh-Hans) 这将包括所有 AEM API，并且 AEM 版本只有一个依赖项。
+关键依赖项之一是 [AEM Java API Jar。](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=zh-Hans) 这将包括所有 AEM API，只需为 AEM 版本添加一个依赖项条目。
 
 >[!NOTE]
 >
->作为最佳实践，您应更新 uber-jar 版本以匹配 AEM 的目标版本。 例如，如果您计划部署到 AEM 6.5，则应将 uber-jar 的版本更新到 6.5.X，其中 `X` 表示最新的服务包。
+>作为最佳做法，您应更新 uber-jar 版本以匹配 AEM 的目标版本。 例如，如果您计划部署到 AEM 6.5，则应将 uber-jar 的版本更新到 6.5.X，其中 `X` 表示最新的服务包。
 
 #### 核心组件 {#core-components}
 
 当然，原型会使用[核心组件。](/help/introduction.md) 因此，要在所有部署中利用核心组件，最佳做法是将它们作为 Maven 项目的一部分包含在内。
 
-core.wcm.components.examples 是一组示例页面，用于说明核心组件的示例。 作为最佳实践，在部署项目以供生产使用时，您应删除此依赖项和子包包含。
+core.wcm.components.examples 是一组示例页面，用于说明核心组件的示例。 作为最佳做法，在部署项目以供生产使用时，您应移除此依赖项和子包包含。
 
 >[!NOTE]
 >
 >核心组件和原型作为单独的 GitHub 项目进行维护，因此它们的版本有所不同。
 >
->原型的每个版本都将利用发布时可用的最新版本的核心组件。 但是，您可能希望手动更新对核心组件的依赖关系。
+>原型的每个版本都将使用发布时可用的核心组件最新版本。 但是，您可能希望手动更新对核心组件的依赖关系。
 
 ## 测试 {#testing}
 

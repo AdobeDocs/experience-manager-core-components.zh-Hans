@@ -3,13 +3,16 @@ title: 在 Adobe Experience Manager 自适应表单中启用和使用文本输�
 description: 了解如何配置模板策略，以公开电话号码、社会保障号码和邮政编码等验证模式，然后在自适应表单中使用它们。
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
-
 ---
-
 # 在 Adobe Experience Manager 自适应表单中启用和使用文本输入验证模式
 
 ## 概述
@@ -113,13 +116,13 @@ ht-degree: 100%
 ## 疑难解答
 
 - **问题：**&#x200B;验证模式未出现在表单组件中。
-   - **解决方法：**&#x200B;确保模板策略已正确保存，并且您在创建表单时使用了正确的模板。
+  - **解决方法：**&#x200B;确保模板策略已正确保存，并且您在创建表单时使用了正确的模板。
 
 - **问题：**&#x200B;无法访问模板编辑器。
-   - **解决方法：**&#x200B;验证您是否具有编辑模板的必要权限（是 `template-authors` 组中的成员）。
+  - **解决方法：**&#x200B;验证您是否具有编辑模板的必要权限（是 `template-authors` 组中的成员）。
 
 - **问题：**&#x200B;文本输入组件未正确验证输入。
-   - **解决方法：**&#x200B;在组件的“验证”选项卡中重新检查验证模式设置，并确保选择了正确的模式。
+  - **解决方法：**&#x200B;在组件的“验证”选项卡中重新检查验证模式设置，并确保选择了正确的模式。
 
 ## 后续步骤
 

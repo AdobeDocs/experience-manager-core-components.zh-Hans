@@ -4,27 +4,41 @@ description: 了解 AEM 项目原型，它用作基于 AEM 的应用程序的模
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-TQID: https://experienceleague.adobe.com/snvIzunCCWegShAzgcg9Zpof00Wq-tAYkaoGvq4RwEk
+TQID: 'https://experienceleague.adobe.com/snvIzunCCWegShAzgcg9Zpof00Wq-tAYkaoGvq4RwEk'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 705
+source-wordcount: '705'
 ht-degree: 100%
-
 ---
-
 # AEM 项目原型 {#aem-project-archetype}
 
 AEM 项目原型是一个 Maven 模板，它创建最小的基于最佳实践的 Adobe Experience Manager (AEM) 项目作为您网站的起点。 本文档概述了原型的优点和一般用法。 详细的技术说明和文档可以在原型 GitHub 存储库中找到。
@@ -65,5 +79,5 @@ AEM 项目原型是一个 Maven 模板，它创建最小的基于最佳实践的
 * **[使用原型](using.md)** - 概述如何在项目中使用原型以及生成的结果模块
 * **[使用 AEM 项目原型进行前端开发](front-end.md)** - 如何使用原型的前端模块
 * **以下教程基于该原型：**
-   * **[WKND 网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)** - 了解如何启动全新的网站。
-   * **[WKND 单页面应用程序](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-Hans)** - 了解如何构建可完全在 AEM 中创作的 React 或 Angular Web 应用程序。
+  * **[WKND 网站](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=zh-Hans)** - 了解如何启动全新的网站。
+  * **[WKND 单页面应用程序](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-Hans)** - 了解如何构建可完全在 AEM 中创作的 React 或 Angular Web 应用程序。

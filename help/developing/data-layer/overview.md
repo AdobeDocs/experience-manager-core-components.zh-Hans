@@ -4,31 +4,46 @@ description: 将 Adobe Client Data Layer 与核心组件配合使用
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-TQID: https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c
+TQID: 'https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a0ab86ed-7176-40e5-bccb-a2cc1295200c
+    internal-label: Edge Delivery Services
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
   - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
+    internal-label: Java Content Repository
   - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 1024
+source-wordcount: '1024'
 ht-degree: 100%
-
 ---
-
 # 将 Adobe Client Data Layer 与核心组件配合使用 {#data-layer-core-components}
 
 Adobe Client Data Layer 的目标是通过提供一种标准化方法，来公开和访问任何脚本的任何类型的数据，从而减少检测网站所需的工作量。
@@ -112,7 +127,7 @@ Adobe Client Data Layer 与平台无关，而是与核心组件完全集成以�
 
 ### 组件/容器项目架构 {#item}
 
-组件/容器项目架构用于以下组件中：
+组件/容器项目架构用于以下组件：
 
 * [痕迹导航](/help/components/breadcrumb.md)
 * [按钮](/help/components/button.md)
@@ -285,7 +300,7 @@ id: {
 
 ### 组件触发的事件 {#events-components}
 
-下表列出了触发事件的标准核心组件以及其他事件。
+下表列出了触发事件的标准核心组件及其对应事件。
 
 | 组件 | 事件 |
 |---|---|
