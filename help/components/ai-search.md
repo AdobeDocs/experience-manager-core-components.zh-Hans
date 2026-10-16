@@ -4,22 +4,27 @@ description: 内容AI 搜索组件为网站访客提供了创作AI支持的搜�
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
+    internal-label: Security
+source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '829'
 ht-degree: 16%
-
 ---
-
 
 # 内容AI 搜索组件 {#content-ai-search-component}
 
@@ -39,13 +44,16 @@ ht-degree: 16%
 
 ## 版本和兼容性 {#version-and-compatibility}
 
-内容AI 搜索组件的当前版本是v1，此版本随2026年7月的核心组件发行版2.32.0的发布引入，具体说明见本文。
+内容AI 搜索组件的当前版本是v2，此版本随2026年10月的核心组件发行版2.33.0的发布引入，具体说明见本文。
 
 下表详细说明了该组件的所有受支持版本、与该组件的版本兼容的 AEM 版本以及指向早期版本文档的链接。
 
-| 组件版本 | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | - | - | - | 正在进行 |
+| 组件版本 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | 6.5.21.0及以上* | 6.5 GA* | 兼容 |
+| [v1](/help/components/v1/ai-search.md) | - | - | 兼容 |
+
+*对AEM 6.5和6.5 LTS上的内容AI 搜索组件的支持仅限于Adobe Managed Services (AMS)。
 
 有关核心组件版本的更多信息，请参阅文档[核心组件版本。](/help/versions.md)
 
@@ -55,7 +63,7 @@ ht-degree: 16%
 
 ## 技术详细信息 {#technical-details}
 
-在GitHub上可找到有关内容AI 搜索组件[的最新技术文档。](https://adobe.com/go/aem_cmp_tech_ai_search_v1_cn)
+在GitHub上可找到有关内容AI 搜索组件[的最新技术文档。](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 

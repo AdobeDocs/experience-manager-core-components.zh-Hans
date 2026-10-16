@@ -6,25 +6,32 @@ exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 TQID: https://experienceleague.adobe.com/TDVZQa4ww1rGJIoAeFyMRPREuUSWPcAUI0mwBHYASTI
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
+    internal-label: Accessibility
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: 1080
+source-wordcount: '1080'
 ht-degree: 98%
-
 ---
-
 # 核心组件简介{#core-components-introduction}
 
 {{traditional-aem}}
@@ -58,7 +65,7 @@ ht-degree: 98%
 | SEO 友好 | HTML 输出是语义的，并提供 [schema.org](https://schema.org) 微数据注释。 |
 | WebApp 就绪 | [简化的 JSON 输出](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=zh-hans)允许客户端渲染，并且仍可进行[上下文内编辑](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=zh-hans)。 |
 | AMP 支持 | 组件已内置[对 AMP 标准的支持，](/help/developing/amp.md)可加快移动体验。 |
-| 设计套件 | 利用 [Adobe XD UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=zh-Hans)，设计人员可以创建随后可[按需样式化](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)的线框。 |
+| 设计套件 | 利用 [Adobe XD UI 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)，设计人员可以创建随后可[按需样式化](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd)的线框。 |
 | 可主题化 | 这些组件实施[样式系统](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=zh-hans)，且标记遵循 [BEM CSS 约定](https://getbem.com/)。 |
 | 可自定义 | 可利用几种模式来[轻松进行自定义设置](developing/customizing.md)（从调整 HTML 到高级功能重用）。 |
 | 版本控制 | [版本控制策略](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies)可确保核心组件在改进可能影响您的内容时不会中断您的网站。 |
@@ -127,7 +134,7 @@ ht-degree: 98%
 
 | 核心组件版本 | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE 版本 | Maven 版本 |
 |---|---|---|---|---|---|
-| [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 和更高版本 |
+| [2.33.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.33.0) | 连续 | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9 和更高版本 |
 
 有关以前的核心组件版本的要求，请参阅[核心组件版本](versions.md)。
 

@@ -5,13 +5,11 @@ breadcrumb-title: 核心组件指南
 feature: Core Components
 user-guide-description: 对于传统的 AEM 项目，使用可扩展的核心组件让作者轻松创建内容。
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 97%
-
+source-wordcount: '445'
+ht-degree: 96%
 ---
-
 
 # AEM 核心组件帮助 {#using}
 
@@ -71,6 +69,7 @@ ht-degree: 97%
     + [页面 (v1)](/help/components/v1/page-v1.md)
     + [Teaser (v1)](/help/components/v1/teaser.md)
     + [快速搜索 (v1)](/help/components/v1/quick-search.md)
+    + [内容AI 搜索](/help/components/v1/ai-search.md)
     + [文本 (v1)](/help/components/v1/text-v1.md)
     + [标题 (v1)](/help/components/v1/title-v1.md)
     + v1 表单组件 {#v1-forms}
@@ -155,7 +154,7 @@ ht-degree: 97%
   + [上下文感知配置](/help/developing/context-aware-configs.md)
   + [包含客户端库](/help/developing/including-clientlibs.md)
   + [自适应图像 Servlet](/help/developing/adaptive-image-servlet.md)
-  + [Web 优化图像投放](/help/developing/web-optimized-image-delivery.md)
+  + [Web 优化图像传递](/help/developing/web-optimized-image-delivery.md)
   + [远程资产支持](/help/developing/remote-assets.md)
   + [配置内容AI 搜索](/help/developing/ai-search.md)
   + Adobe 客户端数据层 {#data-layer}
