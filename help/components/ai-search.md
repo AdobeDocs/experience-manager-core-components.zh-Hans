@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
+source-git-commit: a8f6d16fa3ca5d542e9416f97685ef28569adc65
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 16%
+source-wordcount: '801'
+ht-degree: 15%
 ---
 
 # 内容AI 搜索组件 {#content-ai-search-component}
@@ -34,7 +34,7 @@ ht-degree: 16%
 
 ## 用途 {#usage}
 
-内容AI 搜索组件允许访客直接从页面搜索[内容Source](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-content-ai/using/contentsources)，并可以选择查看人工智能生成的生成结果摘要。 它将标准全文/语义搜索框与可切换的&#x200B;**显示由AEM Content AI提供支持的AI生成的摘要**&#x200B;面板相结合。
+内容AI 搜索组件允许访客直接从页面搜索[内容Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)，并可以选择查看人工智能生成的生成结果摘要。 它将标准全文/语义搜索框与可切换的&#x200B;**显示由AEM Content AI提供支持的AI生成的摘要**&#x200B;面板相结合。
 
 [编辑对话框](#edit-dialog)允许内容作者定义搜索的内容范围、搜索行为和生成设置。 由于模板级别没有可用设置，因此没有“设计”对话框。
 
@@ -63,7 +63,7 @@ ht-degree: 16%
 
 ## 技术详细信息 {#technical-details}
 
-在GitHub上可找到有关内容AI 搜索组件[的最新技术文档。](https://adobe.com/go/aem_cmp_tech_ai_search_v2_cn)
+在GitHub上可找到有关内容AI 搜索组件[的最新技术文档。](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 在[核心组件开发人员文档](/help/developing/overview.md)中可找到有关开发核心组件的其他详细信息。
 
@@ -86,7 +86,7 @@ ht-degree: 16%
   * **CUSTOM** — 在AEM自己的引入管道之外注册的源
 * **内容源** — 这将定义此组件搜索的内容Source。
   * 可用条目与已存在且&#x200B;**可用**&#x200B;的内容源匹配，并且与&#x200B;**内容Source类型**&#x200B;中设置的类型匹配
-  * 有关详细信息，请参阅文档[设置和管理您的内容人工智能源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-content-ai/using/contentsources)。
+  * 有关详细信息，请参阅文档[设置和管理您的内容人工智能源](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)。
 
 ### “搜索行为”选项卡 {#search-behavior}
 
@@ -102,13 +102,13 @@ ht-degree: 16%
 
 ### “生成搜索”选项卡 {#generative-search}
 
-编辑对话框的![生成搜索选项卡](/help/assets/content-ai-search-edit-generative-search.png)
+编辑对话框的![生成搜索选项卡](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **向访客显示生成性摘要切换** — 取消选中时，访客无法更改是否显示AI摘要。
+* **向访客显示AI模式选项卡** — 取消选中时，不会显示选项卡栏，且永远不会调用生成性搜索API。
+  * 访客只能看到一个简单的搜索结果视图。
   * 默认值为启用。
-* **默认显示生成摘要** — 此选项控制人工智能生成的摘要的面向访客切换的默认状态。
+* **当AI应答失败时显示重试按钮** — “AI模式”选项卡始终会在失败时显示错误消息；此选项仅在重试按钮旁边显示时进行控制。
   * 默认值为启用。
-* **GenSearch错误回退** — 定义搜索应如何行为或错误。
-  * **仅结果（隐藏错误）** — 如果出现错误，则仅显示返回的结果，而不显示错误和不重试按钮。 这是默认值。
-  * **使用重试显示错误** — 如果出现错误，则使用重试按钮显示错误。
-  * **仅显示错误消息** — 如果出现错误，则仅显示错误消息，不显示结果。
+* **免责声明文本** — 此文本显示在“AI模式”选项卡的生成摘要下方。
+  * 留空（默认）将使用默认免责声明。
+
